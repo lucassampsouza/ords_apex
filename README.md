@@ -21,7 +21,7 @@ More details on [Oracle ORDS documentation](http://docs.oracle.com/cd/E56351_01/
 ## TAGs ##
 > 3.0.1-apex426 - APEX 4.2.6 Images Folder  
 > 3.0.1-apex5   - APEX 5.0 Images Folder  
-> 3.0.1-apex51  - APEX 5.1 Images Folder  
+> 3.0.1-apex501 - APEX 5.0.1 Images Folder  
   
   
 ## Exemplos de chamada ##
