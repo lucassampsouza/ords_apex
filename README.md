@@ -1,9 +1,9 @@
-# Oracle REST Data Service and APEX Images Folder in Tomcat 8.0
+# Oracle REST Data Service and APEX Images Folder in Tomcat 8.0 #
 
 For this installation make sure that ORDS have may be installed on database.  
 More details on [Oracle ORDS documentation](http://docs.oracle.com/cd/E56351_01/doc.30/e56293/install.htm#CHDDIFEC)
 
-# ENV Variables for automate DEPLOY  
+## ENV Variables for automate DEPLOY ##
 DATABASE_HOSTNAME = Hostname of database  
 DATABASE_PORT = Port of database  
 DATABASE_SERVICENAME = Database servicename  
@@ -18,13 +18,13 @@ CONFIGURE_APEX = Enable PL/SQL Gateway APEX - true(default) or false
 CONFIGURE_APEX_REST = Enable APEX RestFull Service - true(default) or false  
 CONFIGURE_ORDS = Enable ORDS - true(default) or false  
   
-# TAGs
+## TAGs ##
 lucassampsouza/ords301_apex:4.2.6 - APEX 4.2.6 Images Folder  
 lucassampsouza/ords301_apex:5.0   - APEX 5.0 Images Folder  
 lucassampsouza/ords301_apex:5.1   - APEX 5.1 Images Folder  
   
   
-# Exemplos de chamada
+## Exemplos de chamada ##
 docker run -t -i \  
 	-e DATABASE_HOSTNAME="192.168.0.1" \  
 	-e DATABASE_PORT="1521" \  
