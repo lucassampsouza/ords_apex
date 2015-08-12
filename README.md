@@ -33,4 +33,4 @@ More details on [Oracle ORDS documentation](http://docs.oracle.com/cd/E56351_01/
 		-e APEX_LISTENER_PASS=password123 \  
 		-e APEX_REST_PASS=password123 \  
 		-e ORDS_PASS=password123 \  
-		-p 8181:8080 lucassampsouza/ords301_apex:5.0 
+		-p 8181:8080 lucassampsouza/ords_apex:3.0.1-apex5 
