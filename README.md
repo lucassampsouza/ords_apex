@@ -19,9 +19,9 @@ CONFIGURE_APEX_REST = Enable APEX RestFull Service - true(default) or false
 CONFIGURE_ORDS = Enable ORDS - true(default) or false  
   
 ## TAGs ##
-lucassampsouza/ords301_apex:4.2.6 - APEX 4.2.6 Images Folder  
-lucassampsouza/ords301_apex:5.0   - APEX 5.0 Images Folder  
-lucassampsouza/ords301_apex:5.1   - APEX 5.1 Images Folder  
+> 3.0.1-apex426 - APEX 4.2.6 Images Folder  
+> 3.0.1-apex5   - APEX 5.0 Images Folder  
+> 3.0.1-apex51  - APEX 5.1 Images Folder  
   
   
 ## Exemplos de chamada ##
