@@ -2,7 +2,7 @@
 
 For this installation make sure that ORDS have may be installed on database.  
 More details on [Oracle ORDS documentation](http://docs.oracle.com/cd/E56351_01/doc.30/e56293/install.htm#CHDDIFEC)
-
+  
 ## ENV Variables for automate DEPLOY ##
 > DATABASE_HOSTNAME = Hostname of database  
 > DATABASE_PORT = Port of database  
