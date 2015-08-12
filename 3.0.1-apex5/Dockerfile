@@ -9,7 +9,7 @@ ENV CONFIGURE_APEX="true"
 ENV CONFIGURE_APEX_REST="true"
 ENV CONFIGURE_ORDS="true"
 
-ADD i.tar.gz $TOMCAT_HOME/webapps
+ADD i.tar.bz2 $TOMCAT_HOME/webapps
 COPY ords.war $TOMCAT_HOME/webapps/
 
 RUN java -jar $TOMCAT_HOME/webapps/ords.war configdir $APEX_CONFIG_DIR
