@@ -1,0 +1,40 @@
+<map_data>
+ <name>united_kingdom</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-8.62138938903809" top="60.8444442749023" right="1.74944424629211" bottom="49.9116592407227"/>
+ <regions>
+  <region>
+   <centroid lat="52.0475537265661" lon="-3.5460041660316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-WLS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wales]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.6617893613778" lon="-6.95361479449271"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern Ireland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.8858405730834" lon="-4.23532998018595"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Scotland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.2296397906823" lon="-0.827719351724839"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[England]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

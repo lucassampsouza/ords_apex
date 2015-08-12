@@ -1,0 +1,23 @@
+<map_data>
+ <name>sydney</name>
+ <defaultProjection>equirectangular</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="OBJECTID" key="true"/>
+ </columns>
+ <bounds left="150.557385" top="-33.4206" right="151.4644968" bottom="-34.3405"/>
+ <regions>
+  <region>
+   <centroid lat="-33.5482636" lon="151.2169037"/>
+   <data>
+    <item column="OBJECTID"><value><![CDATA[26666]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-33.88055" lon="151.0109409"/>
+   <data>
+    <item column="OBJECTID"><value><![CDATA[26653]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,5444 @@
+/*
+{
+  "translate": true,
+  "groups":[
+  {
+    "name": "UTR.LESS.GLOBAL_COLORS",
+    "common": true,
+    "sequence": 1
+  },
+  {
+    "name": "UTR.LESS.CONTAINERS",
+    "common": true,
+    "sequence": 2
+  },
+  {
+  "name": "UTR.LESS.REGIONS",
+  "common": true,
+  "sequence": 3
+  },
+  {
+  "name": "UTR.LESS.BUTTONS",
+  "common": false,
+  "sequence": 4
+  },
+  {
+  "name": "UTR.LESS.FORMS",
+  "common": false,
+  "sequence": 5
+  },
+  {
+  "name": "UTR.LESS.STATES",
+  "common": false,
+  "sequence": 6
+  },
+  {
+    "name": "UTR.LESS.PALETTE",
+    "common": false,
+    "sequence": 7
+  },
+  {
+  "name": "UTR.LESS.NAVIGATION",
+  "common": false,
+  "sequence": 8
+  },
+  {
+  "name": "UTR.LESS.INTERACTIVE_REPORTS",
+  "common": false,
+  "sequence": 9
+  },
+  {
+  "name": "UTR.LESS.LAYOUT",
+  "common": false,
+  "sequence": 10
+  }
+  ]
+}
+*/
+
+/*
+{
+  "var" : "@g_Accent-BG",
+  "name" : "UTR.LESS.HEADER_ACCENT",
+  "type" : "color",
+  "group": "UTR.LESS.GLOBAL_COLORS"
+}
+*/
+@g_Accent-BG:                   #2578cf;
+
+/*
+{
+  "var" : "@g_Accent-OG",
+  "name" : "UTR.LESS.BODY_ACCENT",
+  "type" : "color",
+  "group": "UTR.LESS.GLOBAL_COLORS"
+}
+*/
+@g_Accent-OG:                  #F8F8F8;
+
+@g_Accent-FG:                  contrast(@g_Accent-BG, darken(@g_Accent-BG,   75%), lighten(@g_Accent-BG,   75%),  43%);
+
+/*
+{
+  "var" : "@g_Body-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.CONTAINERS",
+  "subgroup": "UTR.LESS.BODY"
+}
+*/
+@g_Body-BG:                     @g_Accent-OG;
+
+/*
+{
+  "var" : "@g_Body-Text",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.CONTAINERS",
+  "subgroup": "UTR.LESS.BODY"
+}
+*/
+@g_Body-Text:                    fade(contrast(@g_Body-BG, desaturate(darken(@g_Body-BG,  75%), 100%), desaturate(lighten(@g_Body-BG,  75%), 50%)), 100%);
+
+
+/*
+{
+  "var" : "@g_Actions-Col-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.CONTAINERS",
+  "subgroup": "UTR.LESS.ACTIONS_COLUMN"
+}
+*/
+@g_Actions-Col-BG:                contrast(@g_Accent-OG, darken(@g_Accent-OG,   5%), lighten(@g_Accent-OG,   5%),  43%);
+
+/*
+{
+  "var" : "@g_Actions-Col-Text",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.CONTAINERS",
+  "subgroup": "UTR.LESS.ACTIONS_COLUMN"
+}
+*/
+@g_Actions-Col-Text:                fade(contrast(@g_Actions-Col-BG, desaturate(darken(@g_Actions-Col-BG,  75%), 100%), desaturate(lighten(@g_Actions-Col-BG,  75%), 50%)), 100%);
+
+/*
+{
+  "var" : "@g_Body-Title-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.CONTAINERS",
+  "subgroup": "UTR.LESS.TITLE_BAR"
+}
+*/
+@g_Body-Title-BG:               lighten(@g_Accent-BG, 50%);
+
+/*
+{
+  "var" : "@g_Body-Title-FG",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.CONTAINERS",
+  "subgroup": "UTR.LESS.TITLE_BAR"
+}
+*/
+@g_Body-Title-FG:                fade(contrast(@g_Body-Title-BG, desaturate(darken(@g_Body-Title-BG,  75%), 100%), desaturate(lighten(@g_Body-Title-BG,  75%), 50%)), 100%);
+
+/*
+{
+  "var" : "@g_Container-BorderRadius",
+  "name" : "UTR.LESS.CONTAINER_BORDER_RADIUS",
+  "type" : "number",
+  "units": "px",
+  "range": {
+    "min": 0,
+    "max": 30,
+    "increment": 2
+  },
+  "group": "UTR.LESS.CONTAINERS"
+}
+*/
+@g_Container-BorderRadius:         2px;
+
+
+/*
+{
+  "var" : "@g_Color-Palette-1",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_1"
+}
+*/
+@g_Color-Palette-1: #ff2d55;
+
+/*
+{
+  "var" : "@g_Color-Palette-1-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_1"
+}
+*/
+@g_Color-Palette-1-FG: fade(contrast(@g_Color-Palette-1, darken(@g_Color-Palette-1,  50%), lighten(@g_Color-Palette-1,  50%)), 100%);
+
+
+/*
+{
+  "var" : "@g_Color-Palette-2",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup" : "UTR.LESS.COLOR_2"
+}
+*/
+@g_Color-Palette-2: #007aff;
+
+/*
+{
+  "var" : "@g_Color-Palette-2-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup" : "UTR.LESS.COLOR_2"
+}
+*/
+@g_Color-Palette-2-FG: fade(contrast(@g_Color-Palette-2, darken(@g_Color-Palette-2,  50%), lighten(@g_Color-Palette-2,  50%)), 100%);
+
+/*
+{
+  "var" : "@g_Color-Palette-3",
+  "name" : "UTR.LESS.COLOR_3",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup" : "UTR.LESS.COLOR_3"
+}
+*/
+@g_Color-Palette-3: #ff9500;
+
+/*
+{
+  "var" : "@g_Color-Palette-3-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup" : "UTR.LESS.COLOR_3"
+}
+*/
+@g_Color-Palette-3-FG: fade(contrast(@g_Color-Palette-3, darken(@g_Color-Palette-3,  50%), lighten(@g_Color-Palette-3,  50%)), 100%);
+
+/*
+{
+  "var" : "@g_Color-Palette-4",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_4"
+}
+*/
+@g_Color-Palette-4: #4cd964;
+
+/*
+{
+  "var" : "@g_Color-Palette-4-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_4"
+}
+*/
+@g_Color-Palette-4-FG: fade(contrast(@g_Color-Palette-4, darken(@g_Color-Palette-4,  50%), lighten(@g_Color-Palette-4,  50%)), 100%);
+
+/*
+{
+  "var" : "@g_Color-Palette-5",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_5"
+}
+*/
+@g_Color-Palette-5: #8e8e93;
+
+/*
+{
+  "var" : "@g_Color-Palette-5-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_5"
+}
+*/
+@g_Color-Palette-5-FG: fade(contrast(@g_Color-Palette-5, darken(@g_Color-Palette-5,  50%), lighten(@g_Color-Palette-5,  50%)), 100%);
+
+/*
+{
+  "var" : "@g_Color-Palette-6",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_6"
+}
+*/
+@g_Color-Palette-6: #34aadc;
+
+
+/*
+{
+  "var" : "@g_Color-Palette-6-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_6"
+}
+*/
+@g_Color-Palette-6-FG: fade(contrast(@g_Color-Palette-6, darken(@g_Color-Palette-6,  50%), lighten(@g_Color-Palette-6,  50%)), 100%);
+
+
+/*
+{
+  "var" : "@g_Color-Palette-7",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_7"
+}
+*/
+@g_Color-Palette-7: #ffcc00;
+
+
+/*
+{
+  "var" : "@g_Color-Palette-7-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_7"
+}
+*/
+@g_Color-Palette-7-FG: fade(contrast(@g_Color-Palette-7, darken(@g_Color-Palette-7,  50%), lighten(@g_Color-Palette-7,  50%)), 100%);
+
+/*
+{
+  "var" : "@g_Color-Palette-8",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_8"
+}
+*/
+@g_Color-Palette-8: #5ac8fa;
+
+/*
+{
+  "var" : "@g_Color-Palette-8-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_8"
+}
+*/
+@g_Color-Palette-8-FG: fade(contrast(@g_Color-Palette-8, darken(@g_Color-Palette-8,  50%), lighten(@g_Color-Palette-8,  50%)), 100%);
+
+/*
+{
+  "var" : "@g_Color-Palette-9",
+  "name" : "UTR.LESS.COLOR_9",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_9"
+}
+*/
+@g_Color-Palette-9: #ff3b30;
+
+
+/*
+{
+  "var" : "@g_Color-Palette-9-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_9"
+}
+*/
+@g_Color-Palette-9-FG: fade(contrast(@g_Color-Palette-9, darken(@g_Color-Palette-9,  50%), lighten(@g_Color-Palette-9,  50%)), 100%);
+
+/*
+{
+  "var" : "@g_Color-Palette-10",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_10"
+}
+*/
+@g_Color-Palette-10: #5856D6;
+
+/*
+{
+  "var" : "@g_Color-Palette-10-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.PALETTE",
+  "subgroup": "UTR.LESS.COLOR_10"
+}
+*/
+@g_Color-Palette-10-FG: fade(contrast(@g_Color-Palette-10, darken(@g_Color-Palette-10,  50%), lighten(@g_Color-Palette-10,  50%)), 100%);
+
+
+// 10 Color colors. UTR.LESS.GLOBAL_COLORS.
+@_colors: @g_Color-Palette-1, @g_Color-Palette-2,
+          @g_Color-Palette-3, @g_Color-Palette-4,
+          @g_Color-Palette-5, @g_Color-Palette-6,
+          @g_Color-Palette-7, @g_Color-Palette-8,
+          @g_Color-Palette-9, @g_Color-Palette-10,
+          mix(#FFF,@g_Color-Palette-1,20%), mix(#FFF,@g_Color-Palette-2,20%),
+          mix(#FFF,@g_Color-Palette-3,20%), mix(#FFF,@g_Color-Palette-4,20%),
+          mix(#FFF,@g_Color-Palette-5,20%), mix(#FFF,@g_Color-Palette-6,20%),
+          mix(#FFF,@g_Color-Palette-7,20%), mix(#FFF,@g_Color-Palette-8,20%),
+          mix(#FFF,@g_Color-Palette-9,20%), mix(#FFF,@g_Color-Palette-10,20%),
+          mix(#000,@g_Color-Palette-1,10%), mix(#000,@g_Color-Palette-2,10%),
+          mix(#000,@g_Color-Palette-3,10%), mix(#000,@g_Color-Palette-4,10%),
+          mix(#000,@g_Color-Palette-5,10%), mix(#000,@g_Color-Palette-6,10%),
+          mix(#000,@g_Color-Palette-7,10%), mix(#000,@g_Color-Palette-8,10%),
+          mix(#000,@g_Color-Palette-9,10%), mix(#000,@g_Color-Palette-10,10%);
+
+@_colors_FG: @g_Color-Palette-1-FG, @g_Color-Palette-2-FG,
+          @g_Color-Palette-3-FG, @g_Color-Palette-4-FG,
+          @g_Color-Palette-5-FG, @g_Color-Palette-6-FG,
+          @g_Color-Palette-7-FG, @g_Color-Palette-8-FG,
+          @g_Color-Palette-9-FG, @g_Color-Palette-10-FG,
+          mix(#FFF,@g_Color-Palette-1-FG,20%),
+          mix(#FFF,@g_Color-Palette-2-FG,20%),
+          mix(#FFF,@g_Color-Palette-3-FG,20%), mix(#FFF,@g_Color-Palette-4-FG,20%),
+          mix(#FFF,@g_Color-Palette-5-FG,20%), mix(#FFF,@g_Color-Palette-6-FG,20%),
+          mix(#FFF,@g_Color-Palette-7-FG,20%), mix(#FFF,@g_Color-Palette-8-FG,20%),
+          mix(#FFF,@g_Color-Palette-9-FG,20%), mix(#FFF,@g_Color-Palette-10-FG,20%),
+          mix(#000,@g_Color-Palette-1-FG,10%), mix(#000,@g_Color-Palette-2-FG,10%),
+          mix(#000,@g_Color-Palette-3-FG,10%), mix(#000,@g_Color-Palette-4-FG,10%),
+          mix(#000,@g_Color-Palette-5-FG,10%), mix(#000,@g_Color-Palette-6-FG,10%),
+          mix(#000,@g_Color-Palette-7-FG,10%), mix(#000,@g_Color-Palette-8-FG,10%),
+          mix(#000,@g_Color-Palette-9-FG,10%), mix(#000,@g_Color-Palette-10-FG,10%);
+
+/* State Colors
+========================================================================== */
+
+/*
+{
+  "var" : "@g_Disabled-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.STATES",
+  "subgroup": "UTR.LESS.DISABLED"
+}
+*/
+@g_Disabled-BG:                   #707070;
+
+
+/*
+{
+  "var" : "@g_Disabled-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.STATES",
+  "subgroup": "UTR.LESS.DISABLED"
+}
+*/
+@g_Disabled-FG:                   #FFFFFF;
+
+/*
+{
+  "var" : "@g_Primary-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.STATES",
+  "subgroup": "UTR.LESS.PRIMARY"
+}
+*/
+@g_Primary-BG:                   contrast(@g_Accent-BG, darken(@g_Accent-BG,  35%), lighten(@g_Accent-BG,  35%),  43%);
+
+/*
+{
+  "var" : "@g_Primary-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.STATES",
+  "subgroup": "UTR.LESS.PRIMARY"
+}
+*/
+@g_Primary-FG:                   contrast(@g_Primary-BG, darken(@g_Primary-BG,   75%), lighten(@g_Primary-BG,   75%),  43%);
+
+/*
+{
+  "var" : "@g_Success-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.STATES",
+  "subgroup": "UTR.LESS.SUCCESS"
+}
+*/
+@g_Success-BG:                   #4cd964;
+
+/*
+{
+  "var" : "@g_Success-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.STATES",
+  "subgroup": "UTR.LESS.SUCCESS"
+}
+*/
+@g_Success-FG:                   contrast(@g_Success-BG, darken(@g_Success-BG,   50%), lighten(@g_Success-BG,   50%),  43%);
+
+/*
+{
+  "var" : "@g_Info-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.STATES",
+  "subgroup": "UTR.LESS.INFO"
+}
+*/
+@g_Info-BG:                   #2578cf;
+
+/*
+{
+  "var" : "@g_Info-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.STATES",
+  "subgroup": "UTR.LESS.INFO"
+}
+*/
+@g_Info-FG:                   contrast(@g_Info-BG, darken(@g_Info-BG,   75%), lighten(@g_Info-BG,   75%),  43%);
+
+/*
+{
+  "var" : "@g_Warning-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.STATES",
+  "subgroup": "UTR.LESS.WARNING"
+}
+*/
+@g_Warning-BG:                   #ffcc00;
+
+/*
+{
+"var" : "@g_Warning-FG",
+"name" : "UTR.LESS.FOREGROUND",
+"type" : "color",
+"group": "UTR.LESS.STATES",
+"subgroup": "UTR.LESS.WARNING"
+}
+*/
+@g_Warning-FG:                  contrast(@g_Warning-BG, darken(@g_Warning-BG,   50%), lighten(@g_Warning-BG,   50%),  43%);
+
+/*
+{
+  "var" : "@g_Danger-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.STATES",
+  "subgroup": "UTR.LESS.DANGER"
+}
+*/
+@g_Danger-BG:                  #e90c00;
+
+/*
+{
+"var" : "@g_Danger-FG",
+"name" : "UTR.LESS.FOREGROUND",
+"type" : "color",
+"group": "UTR.LESS.STATES",
+"subgroup": "UTR.LESS.DANGER"
+}
+*/
+@g_Danger-FG:                   contrast(@g_Danger-BG, darken(@g_Danger-BG,   50%), lighten(@g_Danger-BG,   50%),  43%);
+
+
+/*
+{
+  "var" : "@g_Header-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.CONTAINERS",
+  "subgroup": "UTR.LESS.HEADER"
+}
+*/
+@g_Header-BG: @g_Accent-BG;
+
+/*
+{
+  "var" : "@g_Header-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.CONTAINERS",
+  "subgroup": "UTR.LESS.HEADER"
+}
+*/
+@g_Header-FG: @g_Accent-FG;
+
+
+
+
+// BEGIN REGION COLORS HERE
+
+/*
+{
+"var" : "@g_Region-Header-BG",
+"name" : "UTR.LESS.BACKGROUND",
+"type" : "color",
+"group": "UTR.LESS.REGIONS",
+"subgroup": "UTR.LESS.REGION_HEADER"
+}
+*/
+@g_Region-Header-BG:         lighten(@g_Accent-OG, 1.5%);
+
+
+/*
+{
+"var" : "@g_Region-Header-FG",
+"name" : "UTR.LESS.FOREGROUND",
+"type" : "color",
+"group": "UTR.LESS.REGIONS",
+"subgroup": "UTR.LESS.REGION_HEADER"
+}
+*/
+@g_Region-Header-FG:         fade(contrast(@g_Region-Header-BG, desaturate(darken(@g_Region-Header-BG,  75%), 100%), desaturate(lighten(@g_Region-Header-BG,  75%), 50%)), 100%);
+
+
+/*
+{
+  "var" : "@g_Region-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.REGIONS",
+  "subgroup": "UTR.LESS.BODY"
+}
+*/
+@g_Region-BG:         lighten(@g_Region-Header-BG, 20%);
+
+/*
+{
+  "var" : "@g_Region-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.REGIONS",
+  "subgroup": "UTR.LESS.BODY"
+}
+*/
+@g_Region-FG:         fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  75%), 100%), desaturate(lighten(@g_Region-BG,  75%), 50%)), 100%);
+
+
+@g_Region-FG-Light:         fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  55%), 100%), desaturate(lighten(@g_Region-BG,  55%), 50%)), 100%);
+@g_Region-FG-Extra-Light:         fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  25%), 100%), desaturate(lighten(@g_Region-BG,  25%), 50%)), 100%);
+
+
+/*
+{
+  "var" : "@g_Form-Item-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.FORMS",
+  "subgroup": "UTR.LESS.ITEM"
+}
+*/
+@g_Form-Item-BG:         contrast(@g_Region-BG, darken(@g_Region-BG,   5%), lighten(@g_Region-BG,   5%),  43%);
+
+/*
+{
+  "var" : "@g_Form-Item-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.FORMS",
+  "subgroup": "UTR.LESS.ITEM"
+}
+*/
+@g_Form-Item-FG:         fade(contrast(@g_Form-Item-BG, desaturate(darken(@g_Form-Item-BG,  75%), 100%), desaturate(lighten(@g_Form-Item-BG,  75%), 50%)), 100%);
+
+/*
+{
+  "var" : "@g_Form-Label",
+  "name" : "UTR.LESS.LABEL",
+  "type" : "color",
+  "group": "UTR.LESS.FORMS"
+}
+*/
+@g_Form-Label:         contrast(@g_Region-FG, darken(@g_Region-FG,   5%), lighten(@g_Region-FG,   5%),  43%);
+
+/*
+{
+  "var" : "@g_Form-BorderRadius",
+  "name" : "UTR.LESS.BORDER_RADIUS",
+  "type" : "number",
+  "units": "px",
+  "range": {
+    "min": 0,
+    "max": 30,
+    "increment": 2
+  },
+  "group": "UTR.LESS.FORMS"
+}
+*/
+@g_Form-BorderRadius:         @g_Container-BorderRadius;
+
+
+
+
+
+
+// BEGIN NAVIGATION
+
+/*
+{
+  "var" : "@g_Nav-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.NAVIGATION",
+  "subgroup": "UTR.LESS.BODY"
+}
+*/
+@g_Nav-BG:                     darken(@g_Accent-BG,15%);
+
+
+/*
+{
+  "var" : "@g_Nav-FG",
+  "name" : "UTR.LESS.FOREGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.NAVIGATION",
+  "subgroup": "UTR.LESS.BODY"
+}
+*/
+@g_Nav-FG:                     contrast(@g_Nav-BG, darken(@g_Nav-BG, 75%), lighten(@g_Nav-BG, 75%),  20%);
+
+/*
+{
+  "var" : "@g_Nav-Icon",
+  "name" : "UTR.LESS.NORMAL",
+  "type" : "color",
+  "group": "UTR.LESS.NAVIGATION",
+  "subgroup": "UTR.LESS.ICON",
+  "checkContrast": false
+}
+*/
+@g_Nav-Icon:                   @g_Nav-FG;
+
+
+/*
+{
+  "var" : "@g_Nav-Active-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.NAVIGATION",
+  "subgroup": "UTR.LESS.SELECTED_STATE"
+}
+*/
+@g_Nav-Active-BG:              darken(@g_Accent-BG,5%);
+
+/*
+{
+  "var" : "@g_Nav-Active-FG",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.NAVIGATION",
+  "subgroup": "UTR.LESS.SELECTED_STATE"
+}
+*/
+@g_Nav-Active-FG:              contrast(@g_Nav-Active-BG, darken(@g_Nav-Active-BG,   75%), lighten(@g_Nav-Active-BG,   75%),  43%);
+
+/*
+{
+  "var" : "@g_Nav-Icon-Active",
+  "name" : "UTR.LESS.ACTIVE_STATE",
+  "type" : "color",
+  "group": "UTR.LESS.NAVIGATION",
+  "subgroup": "UTR.LESS.ICON",
+  "checkContrast": false
+}
+*/
+@g_Nav-Icon-Active:            @g_Nav-Active-FG;
+
+/*
+{
+  "var" : "@g_Link-Base",
+  "name" : "UTR.LESS.LINK_COLOR",
+  "type" : "color",
+  "group": "UTR.LESS.GLOBAL_COLORS"
+}
+*/
+@g_Link-Base:                darken(@g_Accent-BG,3%);
+
+
+/*
+{
+  "var" : "@g_Focus",
+  "name" : "UTR.LESS.FOCUS_OUTLINE",
+  "type" : "color",
+  "group": "UTR.LESS.GLOBAL_COLORS"
+}
+*/
+@g_Focus: @g_Accent-BG;
+
+
+/*
+{
+  "var" : "@g_Button-BorderRadius",
+  "name" : "UTR.LESS.BORDER_RADIUS",
+  "type" : "number",
+  "units": "px",
+  "range": {
+    "min": 0,
+    "max": 24,
+    "increment": 2
+  },
+  "group": "UTR.LESS.BUTTONS"
+}
+*/
+@g_Button-BorderRadius:         2px;
+/*
+{
+  "var" : "@g_Button-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.NORMAL"
+}
+*/
+@g_Button-BG:                       mix(#F0F0F0, @g_Region-BG);
+
+/*
+{
+  "var" : "@g_Button-Text",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.NORMAL"
+}
+*/
+@g_Button-Text-tmp:                 contrast(@g_Button-BG, darken(@g_Button-BG,  75%), lighten(@g_Button-BG,  75%),  43%);
+@g_Button-Text:                     fade(@g_Button-Text-tmp,100%);
+
+/*
+* BEGIN MIXINS
+*/
+.region-hover() {
+  background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   5%), lighten(@g_Region-BG,   5%),  43%);
+}
+
+.text-combo(@percent) {
+  .t-Body & {
+    color: fade(contrast(@g_Body-BG, desaturate(darken(@g_Body-BG,  @percent), 100%), desaturate(lighten(@g_Body-BG,  @percent), 50%)), 100%);
+  }
+  .t-Body-title & {
+    color: fade(contrast(@g_Body-Title-BG, desaturate(darken(@g_Body-Title-BG,  @percent), 100%), desaturate(lighten(@g_Body-Title-BG,  @percent), 50%)), 100%);
+  }
+  .t-Body-info & {
+    color: fade(contrast(@g_Body-Title-BG, desaturate(darken(@g_Body-Title-BG,  @percent), 100%), desaturate(lighten(@g_Body-Title-BG,  @percent), 50%)), 100%);
+  }
+  .t-Region &,
+  .t-ButtonRegion & {
+    color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  @percent), 100%), desaturate(lighten(@g_Region-BG,  @percent), 50%)), 100%);
+  }
+}
+
+.text-black-white() {
+  .text-combo(100%);
+}
+
+//#404040
+.text-dark() {
+  .text-combo(75%);
+}
+
+//#707070
+.text-normal() {
+  .text-combo(50%);
+}
+
+.text-light() {
+  .text-combo(25%);
+}
+
+.transform-less(@string) {
+  -webkit-transform: @string;
+  -ms-transform: 		 @string;
+  transform: @string;
+
+}
+
+.translate3d-less(@x, @y: 0, @z: 0) {
+  -webkit-transform:       translate3d(@x, @y, @z);
+  -ms-transform: 		 translate(@x);
+  transform: translate3d(@x, @y, @z);
+}
+
+/*
+{
+	"palette": {
+
+		"enabled": true,
+
+		"defaults": {
+			"hue": 250,
+			"separation": 50,
+			"mode": "dual"
+		},
+
+		"availableModes": [
+			"monochrome",
+			"dual"
+		],
+
+		"autoFillOutputs": true,
+
+		"userDefinedShades": true,
+
+		"outputMapping": {
+			"0"  : "@utr_Palette1-lighter",
+			"1"  : "@utr_Palette1-light",
+			"2"  : "@utr_Palette1",
+			"3"  : "@g_Accent-OG",
+			"4"  : "@utr_Palette1-darker",
+
+			"5"  : "@g_Accent-BG",
+			"6"  : "@utr_Palette2-light",
+			"7"  : "@utr_Palette3-normal",
+			"8"  : "@utr_Palette3-dark",
+			"9"  : "@utr_Palette2-darker",
+
+			"10" : "@utr_Palette3-lighter",
+			"11" : "@utr_Palette3-light",
+			"12" : "@utr_Palette3",
+			"13" : "@utr_Palette3-dark",
+			"14" : "@utr_Palette3-darker",
+
+			"15" : "@utr_Palette4-lighter",
+			"16" : "@utr_Palette4-light",
+			"17" : "@utr_Palette4",
+			"18" : "@utr_Palette4-dark",
+			"19" : "@utr_Palette4-darker"
+		}
+	}
+}
+*/
+
+
+.t-AVPList-value {
+  color: contrast(@g_Body-Text, darken(@g_Body-Text,   15%), lighten(@g_Body-Text,   15%),  43%);
+  .t-Body-info & {
+    @value-tmp: @g_Body-Title-FG;
+    color: contrast(@value-tmp, darken(@value-tmp,   15%), lighten(@value-tmp,   15%),  43%);
+  }
+  .t-Region & {
+    color: contrast(@g_Region-FG, darken(@g_Region-FG,   15%), lighten(@g_Region-FG,   15%),  43%);
+  }
+}
+.t-AVPList-label {
+  color: contrast(@g_Body-Text, darken(@g_Body-Text,   5%), lighten(@g_Body-Text,   5%),  43%);
+  .t-Body-info & {
+    @value-tmp2: @g_Body-Title-FG;
+    color: contrast(@value-tmp2, darken(@value-tmp2,   5%), lighten(@value-tmp2,   5%),  43%);
+  }
+  .t-Region & {
+    color: contrast(@g_Region-FG, darken(@g_Region-FG,   5%), lighten(@g_Region-FG,   5%),  43%);
+  }
+}
+
+
+
+
+
+/**
+ * Colorized Background
+ */
+.t-Alert--wizard {
+  border-radius: @g_Container-BorderRadius
+}
+.t-Alert--colorBG {
+  &.t-Alert--warning,
+  &.t-Alert--yellow {
+    @bg: lighten(@g_Warning-BG,45%);
+    background-color: @bg;
+    //    background-color: lighten(#FFCB3D,32%);
+    h2, h3 {
+      color: fade(contrast( @bg, desaturate(darken( @bg,  75%), 100%), desaturate(lighten( @bg,  75%), 50%)), 100%);
+    }
+    .t-Alert-body {
+      color: fade(contrast( @bg, desaturate(darken( @bg,  50%), 100%), desaturate(lighten( @bg,  50%), 50%)), 100%);
+    }
+  }
+  &.t-Alert--success {
+    @bg: lighten(@g_Success-BG,38%);
+    background-color: @bg;
+    h2, h3 {
+      color: fade(contrast( @bg, desaturate(darken( @bg,  75%), 100%), desaturate(lighten( @bg,  75%), 50%)), 100%);
+    }
+    .t-Alert-body {
+      color: fade(contrast( @bg, desaturate(darken( @bg,  50%), 100%), desaturate(lighten( @bg,  50%), 50%)), 100%);
+    }
+  }
+  &.t-Alert--danger,
+  &.t-Alert--red {
+    @bg: lighten(@g_Danger-BG,50%);
+    background-color: @bg;
+    h2, h3 {
+      color: fade(contrast( @bg, desaturate(darken( @bg,  75%), 100%), desaturate(lighten( @bg,  75%), 50%)), 100%);
+    }
+    .t-Alert-body {
+      color: fade(contrast(@bg, desaturate(darken(@bg,  50%), 100%), desaturate(lighten(@bg,  50%), 50%)), 100%);
+    }
+  }
+  &.t-Alert--info {
+    @bg: lighten(@g_Info-BG,42%);
+    background-color: @bg;
+    h2, h3 {
+      color: fade(contrast( @bg, desaturate(darken( @bg,  75%), 100%), desaturate(lighten( @bg,  75%), 50%)), 100%);
+    }
+    .t-Alert-body {
+      color: fade(contrast(  @bg, desaturate(darken(  @bg,  50%), 100%), desaturate(lighten(  @bg,  50%), 50%)), 100%);
+    }
+  }
+}
+
+
+/**
+ * Modifier: Warning
+ */
+.t-Alert--warning,
+.t-Alert--yellow {
+  .t-Alert-icon {
+    color: @g_Warning-BG;
+  }
+}
+
+
+/**
+ * Modifier: Success
+ */
+.t-Alert--success {
+  .t-Alert-icon {
+    color: @g_Success-BG;
+  }
+}
+
+/**
+ * Modifier: Information
+ */
+.t-Alert--info {
+  .t-Alert-icon {
+    color: @g_Info-BG;
+  }
+}
+
+/**
+ * Modifier: Success
+ */
+.t-Alert--danger,
+.t-Alert--red {
+  .t-Alert-icon {
+    color: @g_Danger-BG;
+  }
+}
+
+
+.t-Alert--wizard {
+  .t-Alert-inset {
+    border-radius: 2px;
+  }
+}
+
+.t-Alert--horizontal, .t-Alert--wizard {
+  border-radius: 2px;
+  background-color: @g_Region-BG;
+  color: @g_Region-FG;
+}
+.t-Alert--page {
+  .t-Body-alert & {box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) inset;}
+  &.t-Alert--success {
+    background-color: rgba(74, 170, 44, 0.9);
+    .t-Icon,
+    .t-Alert-title {
+      color: #FFF;
+    }
+    .respond-to(xs-small-screens-in) {
+      border-radius: 0;
+    }
+  }
+  .t-Button--closeAlert {
+    color: rgba(0,0,0,.5);
+  }
+}
+
+/**
+ * Import Compass and Theme Variables
+ */
+
+
+/* ==========================================================================
+   Badge List
+   ========================================================================== */
+
+.t-BadgeList {
+}
+
+.t-BadgeList--dash a.t-BadgeList-wrap:hover {
+  box-shadow: 0 -8px 0 0 contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%) inset;
+}
+
+.t-BadgeList a {
+  color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG, 55%), 100%), desaturate(lighten(@g_Region-BG, 55%), 50%)), 100%);
+}
+
+.t-BadgeList--circular {
+  .t-BadgeList-item {
+    &:hover .t-BadgeList-value {
+      background-color: contrast(@g_Region-BG, darken(@g_Region-BG,  4%), lighten(@g_Region-BG,  4%),  43%);
+    }
+  }
+  .t-BadgeList-value {
+    color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG, 55%), 100%), desaturate(lighten(@g_Region-BG, 55%), 50%)), 100%);
+    box-shadow: 0 0 0 1px fadeout(@g_Region-FG,90%) inset;
+    background-color: @g_Region-BG;
+    a {
+      box-shadow: 0 0 0 1px @g_Accent-BG inset;
+      color: @g_Link-Base;
+    }
+    a:hover {
+      box-shadow: 0 0 0 4px @g_Accent-BG inset;
+      background-color: @g_Accent-BG;
+      color: @g_Accent-FG;
+    }
+    a:focus {
+      box-shadow:0 0 0 2px fadeout(@g_Focus,75%), 0 0 0 1px @g_Focus inset;
+    }
+  }
+  .t-BadgeList-label {
+    color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG, 55%), 100%), desaturate(lighten(@g_Region-BG, 55%), 50%)), 100%);
+  }
+  a.t-BadgeList-wrap .t-BadgeList-value {
+    // box-shadow: 0 0 0 1px #2578cf inset;
+    border-color: @g_Accent-BG;
+    // color: @g_Accent-BG;
+
+    // color: contrast(@g_Accent-BG, darken(@g_Accent-BG,   50%), lighten(@g_Accent-BG,   50%),  43%);
+
+    transition: box-shadow .1s, color .1s, background-color .3s;
+  }
+  a.t-BadgeList-wrap:hover .t-BadgeList-value {
+    box-shadow: 0 0 0 4px @g_Accent-BG inset;
+    background-color: @g_Accent-BG;
+    color: #FFF;
+  }
+
+  &.t-BadgeList--coloredBG a.t-BadgeList-wrap .t-BadgeList-value {
+    // box-shadow: 0 0 0 1px #2578cf inset;
+    // border-color: #2578cf;
+    // color: #2578cf;
+    // transition: box-shadow .1s, color .1s, background-color .3s;
+  }
+  &.t-BadgeList--coloredBG a.t-BadgeList-wrap:hover .t-BadgeList-value {
+    box-shadow: 0 0 0 8px rgba(0,0,0,.1) inset;
+    // background-color: #2578cf;
+    // color: #FFF;
+  }
+}
+
+/* ==========================================================================
+   Layout Modifiers
+   ========================================================================== */
+.t-BadgeList--float,
+.t-BadgeList--flex,
+.t-BadgeList--cols,
+.t-BadgeList--fixed,
+.t-BadgeList--stacked {
+  .t-BadgeList-item:after {
+    background: contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+  }
+  .t-BadgeList-item:before {
+    background: contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+  }
+}
+
+.t-BadgeList--bottomBorder {
+  border-bottom-color:  @g_Accent-OG;
+}
+
+/* ==========================================================================
+   Stacked
+   ========================================================================== */
+//.t-BadgeList--stacked {
+//  .t-BadgeList-item:after {
+//    background:  @g_Accent-OG;
+//  }
+//}
+
+//@g-Colors: #3498DB,#F1C42C,#2ECC71,#E74C3C,#7F7DDD;
+
+
+
+.a-BarChart {
+  .a-BarChart-item {
+    &:hover {
+      .region-hover();
+    }
+    .a-BarChart-value {
+      .text-normal();
+//      .slight-text-contrast(@g_Region-BG);
+    }
+  }
+
+  .a-BarChart-item img {
+    border-radius: 2px;
+  }
+  .a-BarChart-bar {
+    background-color: rgba(0,0,0,.025);
+  }
+}
+.a-BarChart--classic {
+  .a-BarChart-bar,  .a-BarChart-filled {
+    border-radius: 1px;
+  }
+  .a-BarChart-item:hover .a-BarChart-bar {
+    background-color: rgba(0,0,0,.05);
+  }
+}
+.a-BarChart--modern {
+  .a-BarChart-bar,  .a-BarChart-filled {
+    border-radius: 1px;
+  }
+  .a-BarChart-item:hover .a-BarChart-bar {
+    background-color: rgba(0,0,0,.05);
+  }
+}
+
+.a-BarChart-filled {
+  background-color: @g_Accent-BG;
+}
+
+
+// h1, h2, h3 {
+
+// }
+// h4, h5, h6 {
+
+// }
+// .nodatafound {
+
+// }
+/**
+* Import Compass and Theme Variables
+*/
+
+
+
+/*
+{
+  "var" : "@l_Left-Col-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.CONTAINERS",
+  "subgroup": "UTR.LESS.LEFT_COLUMN"
+}
+*/
+@l_Left-Col-BG:                lighten(@g_Accent-OG, 5%);
+
+/*
+{
+  "var" : "@l_Left-Col-Text",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.CONTAINERS",
+  "subgroup": "UTR.LESS.LEFT_COLUMN"
+}
+*/
+@l_Left-Col-Text:                @g_Body-Text;
+
+
+/* ==========================================================================
+   Body
+   ========================================================================== */
+body, .t-Body {
+  background: @g_Body-BG;
+  color: @g_Body-Text;
+}
+
+
+a {
+  color: @g_Link-Base;
+}
+
+// .t-Body a {
+// //  @l_Body_bg: contrast(@g_Body-BG, darken(@g_Body-BG,  75%), lighten(@g_Body-BG,  75%),  43%);
+// //  color: mix(@l_Body_bg, @g_Accent-BG);
+// //  color: red;
+// //color: contrast(@1, contrast(darken(@1, @2), lighten(@1, @2), 50%), 50%)
+//   color: contrast(@g_Body-BG, contrast(@g_Body-BG, darken( @g_Link-Base,  5%),  @g_Link-Base), contrast(@g_Body-BG,  @g_Link-Base, lighten( @g_Link-Base,  5%)));
+// //  &:hover {
+// //    text-decoration:underline;
+// //  }
+// }
+.t-Body-title a,
+.t-Body-info a  {
+  color: contrast(@g_Body-Title-BG, contrast(@g_Body-Title-BG, darken( @g_Link-Base,  5%),  @g_Link-Base), contrast(@g_Body-Title-BG,  @g_Link-Base, lighten( @g_Link-Base,  5%)));
+}
+// .t-Region a {
+//   color: contrast(@g_Region-BG, contrast(@g_Region-BG, darken( @g_Link-Base,  5%),  @g_Link-Base), contrast(@g_Region-BG,  @g_Link-Base, lighten( @g_Link-Base,  5%)));
+// }
+
+.t-BreadcrumbRegion--useBreadcrumbTitle
+.t-Breadcrumb-item:last-child
+.t-Breadcrumb-label:after,
+.t-BreadcrumbRegion--useRegionTitle
+.t-BreadcrumbRegion-titleText:after {
+//  background-image: linear-gradient(to right, fadeout(@g_Body-Title-BG, 1), @g_Body-Title-BG 65%);
+}
+
+.t-Body-actions {
+  background-color: @g_Actions-Col-BG;
+}
+
+
+.t-Body-title {
+  background-color: @g_Body-Title-BG;
+  color: @g_Body-Title-FG;
+}
+
+.ui-widget-content {
+  background-color: @g_Region-BG;
+  .text-dark();
+}
+
+.t-Body-side {
+    background-color: @l_Left-Col-BG;
+    color: @l_Left-Col-Text;
+}
+.apex-rds-container {
+  background-color: transparent;
+  .t-Body-info & {
+    background-color: @g_Body-Title-BG;
+  }
+
+}
+
+.t-Body-info {
+  background-color: @g_Body-Title-BG;
+}
+.t-Body-title {
+  &.js-hideBreadcrumbs {
+    background-color: rgba(0,0,0,.95);
+  }
+}
+
+
+
+.t-Body-topButton {
+  border-radius: 100%;
+//  @subtle: contrast(@g_Body-BG, darken(@g_Body-BG,   20%), lighten(@g_Body-BG,   20%),  43%);
+//  @bg: contrast(@g_Body-BG, white, black);
+  background-color: lighten(@g_Body-BG, 10%);
+  &:active {
+//    background-color: #F0F0F0;
+    background-color: lighten(@g_Body-BG, 15%);
+    .a-Icon {
+      color: contrast(lighten(@g_Body-BG, 15%), darken(lighten(@g_Body-BG, 15%),   10%), lighten(lighten(@g_Body-BG, 15%),   10%),  43%);
+    }
+  }
+  .a-Icon {
+    color: contrast(lighten(@g_Body-BG, 10%), darken(lighten(@g_Body-BG, 10%),   10%), lighten(lighten(@g_Body-BG, 10%),   10%),  43%);
+  }
+}
+
+//  /*
+//  {
+//    "var" : "@Head-Height",
+//    "name" : "Head Height",
+//    "type" : "number",
+//    "units": "px",
+//    "range": {
+//      "min": 40,
+//      "max": 60,
+//      "increment": 1
+//    },
+//    "group": "UTR.LESS.LAYOUT"
+//  }
+//  */
+  @Head-Height:       40px;
+
+//  /*
+//  {
+//    "var" : "@Head-Menu-Height",
+//    "name" : "Head Menu Height",
+//    "type" : "number",
+//    "units": "px",
+//    "range": {
+//      "min": 80,
+//      "max": 100,
+//      "increment": 1
+//    },
+//    "group": "UTR.LESS.LAYOUT"
+//  }
+//  */
+  @Head-Menu-Height:  80px;
+
+  /*
+  {
+    "var" : "@Nav-Exp",
+    "name" : "UTR.LESS.NAVIGATION_TREE",
+    "type" : "number",
+    "units": "px",
+    "range": {
+      "min": 140,
+      "max": 220,
+      "increment": 10
+    },
+    "group": "UTR.LESS.LAYOUT"
+  }
+  */
+  @Nav-Exp:          200px;
+
+
+  /*
+  {
+    "var" : "@Actions-Exp",
+    "name" : "UTR.LESS.ACTIONS_COLUMN",
+    "type" : "number",
+    "units": "px",
+    "range": {
+      "min": 160,
+      "max": 240,
+      "increment": 10
+    },
+    "group": "UTR.LESS.LAYOUT"
+  }
+  */
+  @Actions-Exp:      200px;
+
+
+  /*
+  {
+    "var" : "@Side-Exp",
+    "name" : "UTR.LESS.LEFT_COLUMN",
+    "type" : "number",
+    "units": "px",
+    "range": {
+      "min": 200,
+      "max": 280,
+      "increment": 10
+    },
+    "group": "UTR.LESS.LAYOUT"
+  }
+  */
+  @Side-Exp:         240px;
+
+  @Nav-Col:           40px;
+  @Actions-Col:        0px;
+  @Side-Col:           0px;
+
+/* ==========================================================================
+   Tree Based Navigation
+   ========================================================================== */
+
+/**
+* Hide Top Menu Bar Navigation
+*/
+
+.apex-side-nav {
+  .t-Body-nav,
+  .t-Body-actions,
+  .t-Body-title {
+    top: @Head-Height;
+  }
+  .t-Body-title {
+    @media only screen and (min-width: 641px) {
+      left: @Nav-Exp;
+    }
+  }
+  .t-Body-content {
+    @media only screen and (min-width: 641px) {
+      margin-left: @Nav-Exp;
+    }
+  }
+  .t-Body-main {
+    margin-left: 0;
+  }
+}
+
+/* ==========================================================================
+   Menu Based Navigation
+   ========================================================================== */
+
+.apex-top-nav {
+  .t-Body-actions {
+    top: @Head-Menu-Height;
+  }
+  .t-Body-title {
+    top: @Head-Menu-Height;
+  }
+  .respond-to(xss-screens) {
+    &.js-menuNavCollapsed {
+//      .t-Body {
+//        margin-top: @Head-Height;
+//      }
+      .t-Header-nav {
+        .transform-less(translateY(-100%));
+      }
+    }
+
+  }
+}
+
+
+/**
+* Base styles for Tree Nav container
+*/
+.t-Body-nav {
+  width: @Nav-Exp;
+}
+
+/**
+* Base styles for Actions
+*/
+.t-Body-actions {
+  width: @Actions-Exp;
+  .t-Button--header {
+    .translate3d-less(-@Nav-Col, 0, 0);
+  }
+}
+
+/**
+* Base styles for Side Bar
+*/
+.t-Body-side {
+  @media only screen and (min-width: 641px) {
+    width: @Side-Exp;
+    left: @Nav-Col;
+  }
+}
+
+
+/* ==========================================================================
+   Tree Nav Expanded
+   ========================================================================== */
+.apex-side-nav.js-navExpanded {
+  .t-Body-main {
+    margin-left: @Nav-Col;
+    .translate3d-less(@Nav-Exp - @Nav-Col, 0, 0);
+  }
+  @media only screen and (max-width: 480px) {
+    //
+    // Compensate for completely collapsed left column
+    //
+    .t-Body-title,
+    .t-Body-side,
+    .t-Body-content {
+      margin-left: 0;
+    }
+    .t-Body-main {
+      margin-left: 0;
+      .translate3d-less(@Nav-Exp, 0, 0);
+    }
+  }
+
+  @media only screen and (min-width: 641px) {
+    &.t-PageBody--hideLeft {
+      .t-Body-title,
+      .t-Body-content,
+      .t-Body-main {
+        .transform-less(none);
+      }
+      .t-Body-title {
+        left: @Nav-Exp;
+      }
+      .t-Body-content {
+        margin-left: @Nav-Exp;
+      }
+      .t-Body-main {
+        margin-left: 0px;
+      }
+    }
+    .t-Body-title,
+    .t-Body-side,
+    .t-Body-content {
+      .translate3d-less(@Nav-Exp, 0, 0);
+    }
+    &.t-PageBody--showLeft {
+      .t-Body-main {
+        margin-left: 0;
+        .transform-less(none);
+      }
+      // .t-Body-title,
+      .t-Body-side {
+        left: 0;
+      }
+      .t-Body-content {
+        margin-left: @Side-Exp + @Nav-Col;
+        .translate3d-less(@Nav-Exp - @Nav-Col, 0, 0);
+      }
+    }
+  }
+  @media only screen and (min-width:  993px) {
+    &.t-PageBody--showLeft {
+      .t-Body-main {
+        margin-left: 0;
+        .transform-less(none);
+      }
+      .t-Body-title {
+        .transform-less(none);
+        margin-left: @Nav-Exp;
+      }
+      .t-Body-content {
+        margin-left: @Side-Exp + @Nav-Exp;
+        .transform-less(none);
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   Tree Nav Collapsed
+   ========================================================================== */
+.apex-side-nav.js-navCollapsed {
+  .t-Body-nav,
+  .t-Body-nav .t-TreeNav {
+    width: @Nav-Col;
+//    .a-TreeView-toggle {
+//      .visuallyHidden;
+//    }
+  }
+  .t-Body-content,
+  .t-Body-title,
+  .t-Body-side  {
+    margin-left: @Nav-Col;
+  }
+  @media only screen and (max-width: 480px) {
+    //
+    // Completely hide left column when on very small screens
+    //
+    .t-Body-nav {
+      .transform-less(translateX(-40px));
+
+    }
+    .t-Body-title,
+    .t-Body-side,
+    .t-Body-content {
+      margin-left: 0;
+    }
+  }
+  .respond-to(xss-screens) {
+    &.t-PageBody.js-rightExpanded {
+      .t-Body-main {
+        margin-left: 0;
+      }
+    }
+  }
+  @media only screen and (min-width: 641px) {
+    .t-Body-title {
+      margin-left: 0;
+      left: @Nav-Col;
+    }
+    &.t-PageBody--showLeft {
+      .t-Body-side  {
+        margin-left: 0;
+      }
+      .t-Body-content {
+        margin-left: @Side-Exp + @Nav-Col;
+      }
+    }
+  }
+  @media only screen and (min-width:  993px) {
+    .t-Body-side {
+      left: @Nav-Col;
+    }
+  }
+}
+
+/* ==========================================================================
+   Actions Expanded
+   ========================================================================== */
+.t-PageBody.js-rightExpanded {
+  .t-Body-main {
+    margin-right: 0;
+  }
+  .t-Body-main,
+  .t-Body-nav {
+    .translate3d-less(-@Actions-Exp, 0, 0);
+  }
+  @media only screen and (min-width: 641px) {
+    &.t-PageBody--hideLeft {
+      .t-Body-main,
+      .t-Body-nav {
+        .transform-less(none);
+      }
+      .t-Body-main {
+        margin-right: @Actions-Exp;
+      }
+      .t-Body-title {
+        right: @Actions-Exp;
+      }
+    }
+    &.t-PageBody--showLeft {
+      .t-Body-title {
+        right: 0;
+      }
+    }
+    &.js-navCollapsed.t-PageBody--showLeft {
+      .t-Body-side {
+        margin-left: 0;
+        left: 0;
+      }
+    }
+  }
+  @media only screen and (min-width:  993px) {
+    &.t-PageBody--showLeft {
+      .t-Body-main {
+        margin-right: @Actions-Exp;
+      }
+      .t-Body-main,
+      .t-Body-nav {
+        .transform-less(none);
+      }
+      .t-Body-title {
+        right: @Actions-Exp;
+      }
+    }
+    &.js-navCollapsed.t-PageBody--showLeft {
+      .t-Body-side {
+        left: @Nav-Col;
+      }
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    &.t-PageBody--showLeft {
+      .t-Body-main {
+        .transform-less(none);
+      }
+      .t-Body-title,
+      .t-Body-side,
+      .t-Body-content {
+        .translate3d-less(-@Actions-Exp, 0, 0);
+      }
+      .t-Body-side {
+        margin-left: @Nav-Col !important;
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   Actions Collapsed
+   ========================================================================== */
+.t-PageBody.js-rightCollapsed {
+  .t-Body-main {
+    margin-right: @Actions-Col;
+  }
+  .t-Body-title {
+    right: @Actions-Col;
+  }
+  .t-Body-actions {
+    .translate3d-less(@Actions-Exp, 0, 0);
+  }
+}
+
+
+/* ==========================================================================
+   Show Left Side Bar
+   ========================================================================== */
+
+.t-PageBody--showLeft {
+  @media only screen and (min-width: 641px) {
+    .t-Body-content {
+      margin-left: @Side-Exp + @Nav-Col - 40;
+    }
+  }
+}
+
+/*
+{
+    "var": "@g_Body-Content-Max-Width",
+    "name": "UTR.LESS.BODY_CONTENT_MAX_WIDTH",
+    "type": "select",
+    "options": [
+        {
+            "d": "Auto",
+            "r": "auto"
+        },
+        {
+            "d": "768 pixels",
+            "r": "768px"
+        },
+        {
+            "d": "1024 pixels",
+            "r": "1024px"
+        },
+        {
+            "d": "1280 pixels",
+            "r": "1280px"
+        },
+        {
+            "d": "1440 pixels",
+            "r": "1440px"
+        },
+        {
+            "d": "1920 pixels",
+            "r": "1920px"
+        }
+    ],
+    "group": "UTR.LESS.LAYOUT"
+}
+*/
+@g_Body-Content-Max-Width: auto;
+
+.t-Body-contentInner {
+  margin: auto;
+  max-width: @g_Body-Content-Max-Width;
+}
+
+/**
+ * Import Compass
+ */
+
+
+
+/* ==========================================================================
+   Breadcrumb
+   ========================================================================== */
+.t-Breadcrumb-item {
+  &:after {
+    color: fadeout(@g_Body-Title-FG, .65);
+  }
+}
+.t-Breadcrumb-item .t-Icon {
+  &:hover {
+    color: @g_Accent-BG;
+  }
+}
+
+//.has-shadow {
+//  .t-BreadcrumbRegion-body {
+//    padding-bottom: 8px;
+//    padding-top: 8px;
+//  }
+//}
+
+.t-BreadcrumbRegion--useBreadcrumbTitle {
+  .t-Breadcrumb-item:last-child {
+    .t-Breadcrumb-label {
+      color: @g_Body-Title-FG;
+    }
+  }
+}
+
+.t-BreadcrumbRegion-titleText {
+  color: @g_Body-Title-FG;
+}
+
+/**
+ * Import Compass and Theme Variables
+ */
+
+
+
+/*
+{
+  "var" : "@l_Button-Hot-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.HOT"
+}
+*/
+@l_Button-Hot-BG: @g_Accent-BG;
+
+/*
+{
+  "var" : "@l_Button-Hot-Text",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.HOT"
+}
+*/
+@l_Button-Hot-Text-tmp:   contrast(@l_Button-Hot-BG, darken(@l_Button-Hot-BG,   85%), lighten(@l_Button-Hot-BG,   85%),  43%);
+@l_Button-Hot-Text:       fade(@l_Button-Hot-Text-tmp,100%);
+
+/*
+{
+  "var" : "@l_Button-Primary-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.PRIMARY"
+}
+*/
+@l_Button-Primary-BG:               @g_Primary-BG;
+
+
+/*
+{
+  "var" : "@l_Button-Primary-Text",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.PRIMARY"
+}
+*/
+@l_Button-Primary-Text:             fade(@g_Primary-FG, 100%);
+
+/*
+{
+  "var" : "@l_Button-Danger-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.DANGER"
+}
+*/
+@l_Button-Danger-BG:               @g_Danger-BG;
+
+/*
+{
+  "var" : "@l_Button-Danger-Text",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.DANGER"
+}
+*/
+@l_Button-Danger-Text:              fade(@g_Danger-FG, 100%);
+
+/*
+{
+  "var" : "@l_Button-Warning-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": UTR.LESS.WARNING"
+}
+*/
+@l_Button-Warning-BG:               @g_Warning-BG;
+
+
+/*
+{
+  "var" : "@l_Button-Warning-Text",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.WARNING"
+}
+*/
+@l_Button-Warning-Text:             fade(@g_Warning-FG, 100%);
+
+/*
+{
+  "var" : "@l_Button-Success-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.SUCCESS"
+}
+*/
+@l_Button-Success-BG:                @g_Success-BG;
+
+/*
+{
+  "var" : "@l_Button-Success-Text",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.SUCCESS"
+}
+*/
+@l_Button-Success-Text:             fade(@g_Success-FG, 100%);
+
+/*
+{
+  "var" : "@l_Button-Simple-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.SIMPLE"
+}
+*/
+@l_Button-Simple-BG:                #FFFFFF;
+
+/*
+{
+  "var" : "@l_Button-Simple-Text",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.BUTTONS",
+  "subgroup": "UTR.LESS.SIMPLE"
+}
+*/
+@l_Button-Simple-Text:              fade(contrast(@l_Button-Simple-BG, darken(@l_Button-Simple-BG, 75%), lighten(@l_Button-Simple-BG, 75%)), 100%);
+
+
+/******************************************************************************
+Button for Theme
+******************************************************************************/
+
+
+/* Basic Button
+ ========================================================================== */
+.t-Button,
+.a-Button {
+  border: none;
+  color: @g_Button-Text;
+  background-clip: padding-box;
+  background-color: @g_Button-BG;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.125) inset;
+  border-radius: @g_Button-BorderRadius;
+  text-shadow: none;
+  &:hover {
+    box-shadow: 0 2px 1px rgba(0,0,0,0.05), 0 0 0 1px rgba(0,0,0,.125) inset;
+  }
+  &.t-Button--simple {
+    background-color: @l_Button-Simple-BG;
+    color: @l_Button-Simple-Text;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.125) inset;
+    text-shadow: none;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: contrast(@l_Button-Simple-BG, darken(@l_Button-Simple-BG,   10%), lighten(@l_Button-Simple-BG,   10%),  43%);
+      box-shadow: 0 0 0 1px contrast(@l_Button-Simple-BG, darken(@l_Button-Simple-BG,   10%), lighten(@l_Button-Simple-BG,   10%),  43%) inset;
+    }
+  }
+}
+
+// Adding Border for Buttons when using High Contrast Mode
+@media screen and (-ms-high-contrast: active) {
+  .t-Button,
+  .a-Button {
+    border: 1px solid;
+  }
+}
+
+
+/* Button States
+ ========================================================================== */
+.t-Button--primary,
+.t-Button--hot,
+.t-Button--danger,
+.t-Button--warning,
+.t-Button--success {
+  box-shadow: 0 0 2px rgba(0,0,0,.05) inset;
+  &.t-Button--simple {
+    box-shadow: 0 0 0 1px inset;
+  }
+}
+.t-Button--primary,
+.t-Button--warning {
+  &:hover {
+    box-shadow: 0 2px 1px rgba(0,0,0,0.05), 0 0 0 1px rgba(0,0,0,.075) inset;
+  }
+}
+.t-Button--hot,
+.t-Button--danger,
+.t-Button--success {
+  &:hover {
+    box-shadow: 0 2px 1px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,.075) inset;
+  }
+}
+
+.t-Button:hover,
+.a-Button:hover {
+  background-color: lighten(@g_Button-BG, 10%);
+  z-index: 100;
+}
+.t-Button:focus,
+.a-Button:focus {
+  // background-color: lighten(@g_Button-BG, 10%);
+  outline: none;
+  z-index: 110;
+}
+.t-Button:focus,
+.a-Button:focus,
+.t-Button:active:focus,
+.a-Button:active:focus {
+  box-shadow:
+  0 0 0 1px @g_Focus inset,
+  0 0 1px 2px fade(@g_Focus, 25%) !important;
+}
+.t-Button:active {
+  background-color: darken(@g_Button-BG, 10%);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.20) inset, 0 1px 2px rgba(0,0,0,0.25) inset;
+  z-index: 100;
+}
+.t-Button:active:focus {
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.20) inset, 0 1px 2px rgba(0,0,0,0.25) inset !important;
+}
+.t-Button.is-active,
+.t-Button.is-active:active,
+.t-MenuButton.is-active {
+  background-color: darken(@g_Button-BG, 10%);
+  color: @g_Button-Text;
+  font-weight: normal; // Remove Later
+  text-shadow: none; // Remove Later
+  z-index: 100;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.20) inset, 0 1px 2px rgba(0,0,0,0.25) inset;
+}
+
+.t-Button.is-disabled,
+.t-Button.is-disabled:active,
+.t-Button:disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+/* Hot Button
+ ========================================================================== */
+.t-Button--hot,
+body .ui-state-default.ui-button.ui-button--hot,
+body button.ui-state-default.ui-priority-primary {
+  background-color: @l_Button-Hot-BG;
+  color: @l_Button-Hot-Text;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
+  &:hover {
+    background-color: lighten(@l_Button-Hot-BG,10%);
+  }
+  &:active,
+  &.is-active,
+  &.t-MenuButton.is-active {
+    background-color: darken(@l_Button-Hot-BG,10%);
+  }
+  &.t-Button--simple {
+    @hotContrast: contrast(@l_Button-Simple-BG, mix(darken(@l_Button-Simple-BG,  75%),  @l_Button-Hot-BG), mix(lighten(@l_Button-Simple-BG,  75%),  @l_Button-Hot-BG), 50%);
+    .t-Icon { color: @hotContrast; }
+    box-shadow: 0 0 0 1px @l_Button-Hot-BG inset;
+
+    background-color: @l_Button-Simple-BG;
+//    color: @l_Button-Hot-BG;
+    color: @hotContrast;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: @l_Button-Hot-BG;
+      color: @l_Button-Hot-Text;
+      box-shadow: 0 0 0 1px @l_Button-Hot-BG inset;
+      .t-Icon { color: @l_Button-Hot-Text; }
+    }
+  }
+}
+
+/* Primary Button
+ ========================================================================== */
+.t-Button--primary {
+  background-color: @l_Button-Primary-BG;
+  color: @l_Button-Primary-Text;
+  &:hover {
+    background-color: lighten(@l_Button-Primary-BG,10%);
+  }
+  &:active,
+  &.is-active {
+    background-color: darken(@l_Button-Primary-BG,10%);
+  }
+  &.t-Button--simple {
+    @primaryContrast: contrast(@l_Button-Simple-BG, mix(darken(@l_Button-Simple-BG,  90%),  @l_Button-Primary-BG), mix(lighten(@l_Button-Simple-BG,  90%),  @l_Button-Primary-BG), 50%);
+    .t-Icon { color: @primaryContrast; }
+    box-shadow: 0 0 0 1px @l_Button-Primary-BG inset;
+
+    background-color: @l_Button-Simple-BG;
+//    color: @l_Button-Primary-BG;
+    color: @primaryContrast;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: @l_Button-Primary-BG;
+      color: @l_Button-Primary-Text;
+      box-shadow: 0 0 0 1px @l_Button-Primary-BG inset;
+      .t-Icon { color: @l_Button-Primary-Text; }
+    }
+  }
+}
+
+/* Danger Button
+ ========================================================================== */
+.t-Button--danger {
+  background-color: @l_Button-Danger-BG;
+  color: @l_Button-Danger-Text;
+  &:hover {
+    background-color: lighten(@l_Button-Danger-BG,10%);
+  }
+  &:active,
+  &.is-active {
+    background-color: darken(@l_Button-Danger-BG,10%);
+  }
+  &.t-Button--simple {
+    @dangerContrast: contrast(@l_Button-Simple-BG, mix(darken(@l_Button-Simple-BG,  75%),  @l_Button-Danger-BG), mix(lighten(@l_Button-Simple-BG,  75%),  @l_Button-Danger-BG), 50%);
+    .t-Icon { color: @dangerContrast; }
+    box-shadow: 0 0 0 1px @l_Button-Danger-BG inset;
+
+    background-color: @l_Button-Simple-BG;
+    color: @dangerContrast;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: @l_Button-Danger-BG;
+      color: @l_Button-Danger-Text;
+      box-shadow: 0 0 0 1px @l_Button-Danger-BG inset;
+      .t-Icon { color: @l_Button-Danger-Text; }
+    }
+  }
+}
+
+/* Warning Button
+ ========================================================================== */
+.t-Button--warning {
+  background-color: @l_Button-Warning-BG;
+  color: @l_Button-Warning-Text;
+  &:hover {
+    background-color: lighten(@l_Button-Warning-BG,10%);
+  }
+  &:active,
+  &.is-active {
+    background-color: darken(@l_Button-Warning-BG,10%);
+  }
+  &.t-Button--simple {
+    @warningContrast: contrast(@l_Button-Simple-BG, mix(darken(@l_Button-Simple-BG,  90%),  @l_Button-Warning-BG), mix(lighten(@l_Button-Simple-BG,  90%),  @l_Button-Warning-BG), 50%);
+    .t-Icon { color:  @warningContrast; }
+    box-shadow: 0 0 0 1px @l_Button-Warning-BG inset;
+
+    background-color: @l_Button-Simple-BG;
+    color:  @warningContrast;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: @l_Button-Warning-BG;
+      color: @l_Button-Warning-Text;
+      box-shadow: 0 0 0 1px @l_Button-Warning-BG inset;
+      .t-Icon { color: @l_Button-Warning-Text; }
+    }
+  }
+}
+
+/* Success Button
+ ========================================================================== */
+.t-Button--success {
+  background-color: @l_Button-Success-BG;
+  color: @l_Button-Success-Text;
+  &:hover {
+    background-color: lighten(@l_Button-Success-BG,10%);
+  }
+  &:active,
+  &.is-active {
+    background-color: darken(@l_Button-Success-BG,10%);
+  }
+  &.t-Button--simple {
+    @successContrast: contrast(@l_Button-Simple-BG, mix(darken(@l_Button-Simple-BG,  90%),   @l_Button-Success-BG), mix(lighten(@l_Button-Simple-BG,  90%),   @l_Button-Success-BG), 50%);
+    .t-Icon { color: @successContrast; }
+    box-shadow: 0 0 0 1px @l_Button-Success-BG inset;
+
+    background-color: @l_Button-Simple-BG;
+    color: @successContrast;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: @l_Button-Success-BG;
+      color: @l_Button-Success-Text;
+      box-shadow: 0 0 0 1px @l_Button-Success-BG inset;
+      .t-Icon { color: @l_Button-Success-Text; }
+    }
+  }
+}
+
+.t-Button--pillStart {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.t-Button--pillEnd {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.t-Button--pill {
+  border-radius: 0 !important;
+}
+
+.t-Button--hideShow {
+  &.t-Button {border-radius: 100%;}
+}
+
+.t-Header-branding .t-Button {
+  background-color: transparent !important;
+}
+
+
+
+.t-Button.t-Button--header {
+  transition: none;
+  border-radius: 0;
+  &:focus,
+  &:active:focus {
+    box-shadow:
+    0 0 0 1px lighten(@g_Focus,15%) inset,
+    0 0 1px 2px fade(lighten(@g_Focus,15%), 25%) !important;
+  }
+  &:hover,  &:focus,  &:active, {
+    background-color: transparent;
+  }
+  &:hover {
+    background-color: rgba(0,0,0,.1);
+  }
+  &:active,  &:focus:active {
+    background-color: rgba(0,0,0,.4);
+  }
+  &.is-active {
+    background-color: rgba(0,0,0,.25);
+    box-shadow: none;
+  }
+  &.t-Button--headerTree {
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 1px;
+      background-color: rgba(0,0,0,.1);
+    }
+    background-color: rgba(0,0,0,.30);
+    &.is-active {
+      background-color: transparent;
+    }
+    &:hover,
+    &:focus:hover {
+      background-color: rgba(0,0,0,.3);
+    }
+  }
+  &.t-Button--headerRight {
+    background-color: @g_Actions-Col-BG;
+    &:hover {
+      background-color: contrast(@g_Actions-Col-BG, darken(@g_Actions-Col-BG,   10%), lighten(@g_Actions-Col-BG,   10%),  43%);
+    }
+    &:active,
+    &.is-active {
+      color: fade(contrast(@g_Actions-Col-BG, desaturate(darken(@g_Actions-Col-BG,  75%), 100%), desaturate(lighten(@g_Actions-Col-BG,  75%), 50%)), 100%);
+    }
+  }
+}
+.t-Button--navBar {
+  .t-Button-badge {
+    border-radius: @g_Button-BorderRadius;
+    background-color: rgba(0,0,0,.35);
+  }
+}
+
+
+//.a-IRR-button {
+//  @bg: lighten(@g_Region-BG, 20%);
+//  background-color: @bg;
+//  color: @bg;
+//  &:hover,
+//  &:focus,
+//  &:active {
+//    background-color: contrast(@g_Button-BG, darken(@g_Button-BG,   10%), lighten(@g_Button-BG,   10%),  43%);
+//    box-shadow: 0 0 0 1px contrast(@g_Button-BG, darken(@g_Button-BG,   10%), lighten(@g_Button-BG,   10%),  43%) inset;
+//  }
+//}
+.t-Button--helpButton .a-Icon {
+  opacity: .5;
+}
+
+.a-Calendar-button {
+  border-radius: @g_Button-BorderRadius;
+  color: #707070;
+}
+
+
+
+/* Button with No UI Decoration
+ ========================================================================== */
+.t-Button--noUI {
+  color: @g_Button-Text;
+  &.t-Button--primary {
+    @primcolor: contrast(@l_Button-Simple-BG, mix(darken(@l_Button-Simple-BG,  90%),  @l_Button-Primary-BG), mix(lighten(@l_Button-Simple-BG,  90%),  @l_Button-Primary-BG), 50%);
+    color: @primcolor !important;
+    .t-Icon { color: @l_Button-Primary-BG !important; }
+  }
+  &.t-Button--warning {
+    @warncolor: contrast(@l_Button-Simple-BG, mix(darken(@l_Button-Simple-BG,  90%),  @l_Button-Warning-BG), mix(lighten(@l_Button-Simple-BG,  90%),  @l_Button-Warning-BG), 50%);
+    color: @warncolor !important;
+    .t-Icon { color: @l_Button-Warning-BG !important; }
+  }
+  &.t-Button--danger {
+    @dangercolor: contrast(@l_Button-Simple-BG, mix(darken(@l_Button-Simple-BG,  90%),  @l_Button-Danger-BG), mix(lighten(@l_Button-Simple-BG,  90%),  @l_Button-Danger-BG), 50%);
+    color: @dangercolor !important;
+    .t-Icon { color: @l_Button-Danger-BG !important; }
+  }
+  &.t-Button--success {
+    @successcolor: contrast(@l_Button-Simple-BG, mix(darken(@l_Button-Simple-BG,  90%),  @l_Button-Success-BG), mix(lighten(@l_Button-Simple-BG,  90%),  @l_Button-Success-BG), 50%);
+    color: @successcolor !important;
+    .t-Icon { color: @l_Button-Success-BG !important; }
+  }
+  &.t-Button--hot {
+    @hotcolor: contrast(@l_Button-Simple-BG, mix(darken(@l_Button-Simple-BG,  90%),  @l_Button-Hot-BG), mix(lighten(@l_Button-Simple-BG,  90%),  @l_Button-Hot-BG), 50%);
+    color: @hotcolor !important;
+    .t-Icon { color: @l_Button-Hot-BG !important; }
+  }
+  &.t-Button--primary,
+  &.t-Button--warning,
+  &.t-Button--danger,
+  &.t-Button--success,
+  &.t-Button--hot {
+    box-shadow: none;
+  }
+}
+/**
+ * Import Compass
+ */
+
+
+
+/* ==========================================================================
+   Button Region
+   ========================================================================== */
+.t-ButtonRegion {
+  background-color: @g_Region-BG;
+  color: @g_Region-FG;
+  border-radius: @g_Container-BorderRadius;
+}
+.t-ButtonRegion--noUI {
+  background-color: transparent;
+}
+.t-ButtonRegion--wizard,.t-ButtonRegion--dialogRegion {
+  border-radius: 0 0 2px 2px;
+}
+.t-ButtonRegion--dialogRegion {
+  background-color: transparent;
+}
+.t-ButtonRegion--showTitle {
+  .t-ButtonRegion-title {
+    .text-dark();
+  }
+}
+.t-Body-actions .t-ButtonRegion {
+  background-color: transparent;
+  border-radius: 0;
+}
+/**
+ * Import Compass and Theme Variables
+ */
+
+
+
+/* ==========================================================================
+   Classic Calendar
+   ========================================================================== */
+
+@fc-Border:          contrast(@g_Region-BG, darken(@g_Region-BG,  8%), lighten(@g_Region-BG,  8%),  43%);
+@fc-Body-BG:       @g_Region-BG;
+@fc-Body-FG:       @g_Region-FG;
+
+@fc-CalHeader-BG:    @g_Region-Header-BG;
+@fc-CalHeader-FG:    @g_Region-Header-FG;
+
+@fc-BorderRadius:    @g_Container-BorderRadius;
+
+/* Calendar Header
+   ========================================================================== */
+.fc-toolbar {
+  border-color: @fc-Border;
+  background-color: @fc-Body-BG;
+  border-radius: @fc-BorderRadius @fc-BorderRadius 0 0;
+}
+.fc-toolbar h2,
+.fc .fc-basic-view td.fc-day-number, 
+.fc .fc-day-number {
+  color: @fc-Body-FG;
+}
+
+.fc-day-header.ui-widget-header,
+.fc-view .ui-widget-header {
+  background-color: contrast(@fc-CalHeader-BG, darken(@fc-CalHeader-BG,  5%), lighten(@fc-CalHeader-BG,  5%),  43%);
+  color: @fc-CalHeader-FG;
+  border-color: contrast(@fc-CalHeader-BG, darken(@fc-CalHeader-BG,  10%), lighten(@fc-CalHeader-BG,  10%),  43%);
+}
+
+div.fc-agendaList {
+  background-color: @fc-Body-BG;
+  border-color: @fc-Border;
+  color: @fc-Body-FG;
+}
+
+.fc .fc-agendaList-dayHeader {
+  background-color: contrast(@fc-CalHeader-BG, darken(@fc-CalHeader-BG,  15%), lighten(@fc-CalHeader-BG,  15%),  43%);
+  color: @fc-CalHeader-FG;
+  border-color: contrast(@fc-Body-BG, darken(@fc-Body-BG,  2%), lighten(@fc-Body-BG,  2%),  43%);
+}
+.fc .fc-agendaList-day {
+  color: @fc-CalHeader-FG;
+}
+
+.fc .fc-agendaList-date {
+  color: contrast(@fc-CalHeader-FG, darken(@fc-CalHeader-FG,  15%), lighten(@fc-CalHeader-FG,  15%),  43%);
+}
+
+.fc .fc-agendaList .fc-event-start-time, 
+.fc .fc-agendaList .fc-event-all-day {
+  color: contrast(@fc-Body-FG, darken(@fc-Body-FG,  15%), lighten(@fc-Body-FG,  15%),  43%); 
+}
+
+body .fc td.fc-today,
+body .fc .ui-widget-content {
+  border-color: contrast(@fc-Body-BG, darken(@fc-Body-BG,  10%), lighten(@fc-Body-BG,  10%),  43%);
+  color: @fc-Body-FG;
+}
+
+body .ui-widget-content.fc-today.ui-state-highlight {
+  background-color: contrast(@fc-Body-BG, darken(@fc-Body-BG,  5%), lighten(@fc-Body-BG,  5%),  43%);
+}
+
+.fc .fc-agendaList-item {
+  border-color: contrast(@fc-Body-BG, darken(@fc-Body-BG,  2%), lighten(@fc-Body-BG,  2%),  43%);
+}
+
+/*
+ * Import Compass
+ */
+
+
+
+/* ==========================================================================
+   Cards Container
+   ========================================================================== */
+
+.t-Card-wrap {
+  border-radius: 2px;
+  &:focus {
+    border-color: @g_Focus;
+  }
+}
+.t-Card-icon .t-Icon {
+  color: #FFF;
+}
+// .t-Card-icon .t-Icon,
+// .t-Card-initials {
+//   color: #FFF;
+// }
+
+@l_Card-BG: contrast(@g_Region-BG, darken(@g_Region-BG,   1.25%), lighten(@g_Region-BG,   1.25%),  43%);
+
+.t-Card-desc {
+  color: fade(contrast(@l_Card-BG, desaturate(darken(@l_Card-BG,  75%), 100%), desaturate(lighten(@l_Card-BG,  75%), 50%)), 100%);
+}
+.t-Cards--compact .t-Card-wrap {
+  background-color: @l_Card-BG;
+}
+.t-Cards--compact .t-Card-desc {
+  color: fade(contrast(@l_Card-BG, desaturate(darken(@l_Card-BG,  60%), 100%), desaturate(lighten(@l_Card-BG,  60%), 50%)), 100%);
+}
+
+.t-Card-info {
+  color: fade(contrast(@l_Card-BG, desaturate(darken(@l_Card-BG,  60%), 100%), desaturate(lighten(@l_Card-BG,  60%), 50%)), 100%);
+}
+.t-Card-title {
+  color: fade(contrast(@l_Card-BG, darken(@l_Card-BG,  75%), lighten(@l_Card-BG,  75%)), 100%);
+}
+
+.t-Cards--basic .t-Card,.t-Card--basic {
+  .t-Card-wrap {
+    background-color: @l_Card-BG;
+  }
+  .t-Card-icon {
+    .t-Icon {
+      border-radius: 2px;
+      background-color: #A0A0A0;
+    }
+  }
+  .t-Card-titleWrap {
+    background-color: @g_Region-Header-BG;
+  }
+}
+.t-Cards--featured .t-Card,.t-Card--featured {
+  .t-Card-wrap {
+    background-color: @l_Card-BG;
+  }
+  .t-Card-icon {
+    .t-Icon {
+      border-radius: 100px;
+      color: #FFF;
+      background-color: #A0A0A0;
+    }
+  }
+  .t-Card-body {
+    background-color: transparent;
+  }
+}
+
+/**
+ * Import Compass and Theme Variables
+ */
+
+
+
+/* ==========================================================================
+   Classic Calendar
+   ========================================================================== */
+
+.t-ClassicCalendar {
+}
+
+.t-ClassicCalendar-monthTitle {
+	color: @g_Region-FG;
+}
+.t-ClassicCalendar-dayColumn {
+  background-color: contrast(@g_Region-BG, darken(@g_Region-BG,  2%), lighten(@g_Region-BG,  2%),  43%);
+  vertical-align: top;
+  border-color: contrast(@g_Region-BG, darken(@g_Region-BG,  5%), lighten(@g_Region-BG,  5%),  43%);
+  color: contrast(@g_Region-FG, darken(@g_Region-FG,  15%), lighten(@g_Region-FG,  15%),  43%);
+}
+.t-ClassicCalendar-day {
+	border-color: contrast(@g_Region-BG, darken(@g_Region-BG,  5%), lighten(@g_Region-BG,  5%),  43%);
+  &.is-inactive .t-ClassicCalendar-date{
+    opacity: .5;
+  }
+  &.is-weekend,
+  &.is-inactive {
+    background-color: contrast(@g_Region-BG, darken(@g_Region-BG,  1%), lighten(@g_Region-BG,  1%),  43%);
+  }
+  &.is-today {
+    .t-ClassicCalendar-date {
+      background-color: @g_Accent-BG;
+      color: @g_Accent-FG;
+    }
+  }
+}
+.t-ClassicCalendar-date {
+  color: contrast(@g_Region-FG, darken(@g_Region-FG,  25%), lighten(@g_Region-FG,  25%),  43%);
+}
+.t-ClassicCalendar-event {
+  background-color: contrast(@g_Region-BG, darken(@g_Region-BG,  5%), lighten(@g_Region-BG,  5%),  43%)
+}
+
+.t-ClassicCalendar-event {
+  color: @g_Region-FG;
+  a {
+  background-color: @g_Accent-BG;
+  color: @g_Accent-FG;
+  }
+}
+
+
+//
+// Weekly Calendar
+//
+.t-ClassicCalendar--weekly,
+.t-ClassicCalendar--daily {
+  .t-ClassicCalendar-timeCol {
+    background-color: contrast(@g_Region-BG, darken(@g_Region-BG,  2%), lighten(@g_Region-BG,  2%),  43%);
+  }
+  .t-ClassicCalendar-dayEvents {
+    color: @g_Region-FG;
+  }
+  .t-ClassicCalendar-dayEvents a {
+    background-color: @g_Accent-BG;
+    color: @g_Accent-FG;
+  }
+  .t-ClassicCalendar-day {
+    &.is-today {
+      background-color: contrast(@g_Accent-BG, darken(@g_Accent-BG,  50%), lighten(@g_Accent-BG,  50%),  43%);
+    }
+  }
+}
+
+//
+// List Calendar
+//
+.t-ClassicCalendar-list {
+  border-color: contrast(@g_Region-BG, darken(@g_Region-BG,  5%), lighten(@g_Region-BG,  5%),  43%);
+}
+.t-ClassicCalendar-listTitle,
+.t-ClassicCalendar-listEvent {
+  border-color: contrast(@g_Region-BG, darken(@g_Region-BG,  5%), lighten(@g_Region-BG,  5%),  43%);
+}
+.t-ClassicCalendar-listTitle {
+  background-color: contrast(@g_Region-BG, darken(@g_Region-BG,  2%), lighten(@g_Region-BG,  2%),  43%);
+  color: contrast(@g_Region-FG, darken(@g_Region-FG,  15%), lighten(@g_Region-FG,  15%),  43%);
+}
+.t-ClassicCalendar-listEvent {
+  color: @g_Region-FG;
+}
+
+
+.t-Comments-userIcon,.t-Comments-userImg {
+  border-radius: 100%;
+}
+
+@comment_BG: lighten(@g_Region-BG, 2.5%);
+
+.t-Comments-userIcon {
+  background-color: @comment_BG;
+}
+.t-Comments-info {
+  color: fade(contrast(@comment_BG, desaturate(darken(@comment_BG,  60%), 100%), desaturate(lighten(@comment_BG,  60%), 50%)), 100%);
+//  .text-normal();
+}
+.t-Comments-comment {
+  color: fade(contrast(@comment_BG, desaturate(darken(@comment_BG,  75%), 100%), desaturate(lighten(@comment_BG,  75%), 50%)), 100%);
+//  .text-dark();
+}
+.t-Comments--chat {
+  .t-Comments-info {
+
+    background-color:  @comment_BG;
+    border-radius: 2px 2px 0 0;
+    border-color: contrast(@comment_BG, darken(@comment_BG,   10%), lighten(@comment_BG,   10%),  43%);
+    &:after {
+      border-color: rgba(248, 248, 248, 0);
+      border-right-color: @comment_BG;
+    }
+    &:before {
+      border-color: rgba(232,232,232, 0);
+      border-right-color: contrast(@comment_BG, darken(@comment_BG,   10%), lighten(@comment_BG,   10%),  43%);
+    }
+  }
+  .t-Comments-comment {
+    background-color: @comment_BG;
+    border-radius: 0 0 2px 2px;
+    border-color: contrast(@comment_BG, darken(@comment_BG,   10%), lighten(@comment_BG,   10%),  43%);
+  }
+}
+
+
+
+
+
+.t-ConfigPanel-about {
+  background-color: lighten(#FFCB3D,32%);
+  color: #565656;
+}
+.t-ConfigPanel-icon {
+  border-radius: 100%;
+  background-color: #A0A0A0;
+  color: #FFF;
+  &.is-enabled {
+    background-color: @g_Success-BG;
+  }
+  &.is-disabled {
+    background-color: @g_Danger-BG;
+  }
+}
+.t-ConfigPanel-setting,.t-ConfigPanel-status {
+  color: @g_Region-FG-Light;
+}
+.t-ConfigPanel-status {
+  color: @g_Region-FG;
+}
+.t-ConfigPanel-attrLink {
+  color: @g_Region-FG-Light;
+  &:hover {
+    background-color: rgba(0,0,0,.05);
+  }
+}
+.t-ConfigPanel-attrLabel {
+  // color: @g_Region-FG;
+}
+.t-ConfigPanel-attrValue {
+  color: @g_Link-Base;
+}
+
+// /* ======.less/compiled/core_removed/ContentFrame.less====== */
+
+
+// .t-ContentFrame-main {
+//   background-color: #fff;
+// }
+// .t-ContentFrame-side {
+//   background-color: #F2F2F2;
+// }
+
+
+
+
+// .t-Dialog-body {
+//   background:
+//     linear-gradient(fade(@g_Region-BG,100%) 40%, fade(@g_Region-BG,0%)),
+//     linear-gradient(fade(@g_Region-BG,0%), fade(@g_Region-BG,100%) 60%) 0 100%,
+//     linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0)),
+//     linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.1)) 0 100%;
+//   background-color: @g_Region-BG;
+// }
+/* ======.less/compiled/core_removed/DialogRegion.less====== */
+
+
+
+.t-DialogRegion-body {
+  background: -webkit-linear-gradient(@g_Region-BG 30%, fadeout(@g_Region-BG,0%)),
+		      -webkit-linear-gradient(fadeout(@g_Region-BG,0%), @g_Region-BG 70%) 0 100%,
+		      -webkit-linear-gradient(rgba(0,0,0,.05), rgba(0,0,0,0)),
+		      -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.05));
+  background: -o-linear-gradient(@g_Region-BG 30%, fadeout(@g_Region-BG,0%)),
+		      -o-linear-gradient(fadeout(@g_Region-BG,0%), @g_Region-BG 70%) 0 100%,
+		      -o-linear-gradient(rgba(0,0,0,.05), rgba(0,0,0,0)),
+		      -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.05));
+  background: linear-gradient(@g_Region-BG 30%, fadeout(@g_Region-BG,0%)),
+		      linear-gradient(fadeout(@g_Region-BG,0%), @g_Region-BG 70%) 0 100%,
+		      linear-gradient(rgba(0,0,0,.05), rgba(0,0,0,0)),
+		      linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.05)) 0 100%;
+  background-color: @g_Region-BG;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.t-Footer,
+.t-Footer a {
+  color: contrast(@g_Body-BG, contrast(@g_Body-BG, darken( @g_Body-Text,  50%),  @g_Body-Text), contrast(@g_Body-BG,  @g_Body-Text, lighten( @g_Body-Text,  50%)));
+}
+
+
+
+
+@focusBg: lighten(@g_Form-Item-BG, 10%);
+@hoverBg: lighten(@g_Form-Item-BG, 5%);
+
+.t-Form-inputContainer:before {
+  color: @g_Form-Item-FG;
+}
+
+.t-Form-field,
+.t-Form-select,
+.t-Form-inputContainer input[type="text"],
+.t-Form-inputContainer select.selectlist,
+.t-Form-inputContainer select.yes_no,
+.t-Form-inputContainer input.text_field,
+.t-Form-inputContainer input.password,
+.t-Form-inputContainer textarea.textarea,
+.t-Form-inputContainer input.datepicker,
+.t-Form-inputContainer span.display_only,
+.t-Form-inputContainer input.popup_lov,
+.t-Form-inputContainer select[multiple],
+.t-Form-textarea,
+.u-TF-item--text,
+.u-TF-item--textarea,
+.u-TF-item--datepicker,
+.u-TF-item--select {
+  border-radius: @g_Form-BorderRadius;
+  color: @g_Form-Item-FG;
+  background-color: @g_Form-Item-BG;
+  border-color: contrast(@g_Form-Item-BG, darken(@g_Form-Item-BG,   10%), lighten(@g_Form-Item-BG,   10%),  43%);
+  &:focus {
+    background-color: @focusBg !important;
+    border-color: @g_Focus !important;
+    &::-ms-value {
+      color: @g_Form-Item-FG; /* the -ms-value defaults in a select list focus defaults to white, so we need to override the value for the text to be visible */
+    }
+  }
+  &:hover {
+    background-color: @hoverBg;
+  }
+}
+
+.t-Form-inputContainer input::-webkit-input-placeholder{
+  color: contrast(@g_Form-Item-BG, darken(@g_Form-Item-BG,  100%), lighten(@g_Form-Item-BG,  100%),  43%);
+  opacity: .55;
+}
+.t-Form-inputContainer input::-moz-placeholder{
+  color: contrast(@g_Form-Item-BG, darken(@g_Form-Item-BG,  100%), lighten(@g_Form-Item-BG,  100%),  43%);
+  opacity: .55;
+}
+.t-Form-inputContainer input:-ms-input-placeholder{
+  color: contrast(@g_Form-Item-BG, darken(@g_Form-Item-BG,  100%), lighten(@g_Form-Item-BG,  100%),  43%);
+  opacity: .55;
+}
+
+.t-Form input.file {
+  color: @g_Form-Item-FG;
+}
+.t-Form-inputContainer span.display_only {
+  border-color: transparent;
+  background-color: transparent;
+}
+.t-Form-select,
+.t-Form-inputContainer select.selectlist,
+.t-Form-inputContainer select.yes_no {
+  color: @g_Form-Item-FG;
+}
+.t-Form-field--readOnly {
+  background-color: transparent;
+}
+.t-Form-radioLabel,
+.t-Form-inputContainer .radio_group label,
+.t-Form-checkboxLabel,
+.t-Form-inputContainer .checkbox_group label,
+.t-Form-label {
+  color: @g_Form-Label;
+  // .text-dark();
+}
+.t-Form-error {
+  color: #E92020;
+}
+.t-Form-postText {
+  color: fade(contrast(@g_Form-Label, desaturate(darken(@g_Form-Label, 50%), 100%), desaturate(lighten(@g_Form-Label, 50%), 50%)), 100%);
+  // .text-normal();
+}
+.t-Form--search {
+  input.t-Form-searchField {
+    background-color: @g_Form-Item-BG;
+    color: contrast(@g_Form-Item-BG, darken(@g_Form-Item-BG,   75%), lighten(@g_Form-Item-BG,   75%),  43%);
+  }
+}
+
+
+.t-HeroRegion-form input[type=text].t-Form-searchField {
+  background-color: lighten(@g_Body-Title-BG, 10%);
+  border-color: contrast(@g_Body-Title-BG, darken(@g_Body-Title-BG,   10%), lighten(@g_Body-Title-BG,   10%),  43%);
+  &:focus {
+    background-color: @focusBg !important;
+    border-color: @g_Focus !important;
+  }
+  &::-webkit-input-placeholder{
+    color: contrast(@g_Body-Title-BG, darken(@g_Body-Title-BG,  100%), lighten(@g_Body-Title-BG,  100%),  43%);
+    opacity: .55;
+  }
+  &::-moz-placeholder{
+    color: contrast(@g_Body-Title-BG, darken(@g_Body-Title-BG,  100%), lighten(@g_Body-Title-BG,  100%),  43%);
+    opacity: .55;
+  }
+  &:-ms-input-placeholder{
+    color: contrast(@g_Body-Title-BG, darken(@g_Body-Title-BG,  100%), lighten(@g_Body-Title-BG,  100%),  43%);
+    opacity: .55;
+  }
+}
+
+// Date Picker
+.t-Form-inputContainer input.hasDatepicker,
+.t-Form-inputContainer input.popup_lov {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.a-Button.a-Button--calendar,
+.a-Button.a-Button--popupLOV {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: @g_Form-BorderRadius;
+  border-bottom-right-radius: @g_Form-BorderRadius;
+}
+
+
+// .t-FormField-label {
+//   .text-dark();
+// }
+// .t-FormField-input {
+//   background-color: #FFF;
+//   border-radius: 2px;
+// }
+
+/* ======.less/compiled/core_removed/Grid.less====== */
+
+
+// .grid-debug-on {
+//   .col {
+//     &:hover {
+//       background-color: rgba(0,0,0,.25);
+//     }
+//   }
+// }
+
+/**
+ * Import Compass and Theme Variables
+ */
+
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+
+.t-Header-branding {
+  background-color: @g_Header-BG;
+//  color: contrast(@g_Header-BG, darken(@g_Header-BG,   50%), lighten(@g_Header-BG,   50%),  43%);
+//  a {
+//    color:contrast(#000 - @g_Header-BG, lighten(@g_Header-BG, 100%), darken(@g_Header-BG, 100%));
+//  }
+}
+
+.t-Header-logo-link,
+.t-Header .t-Button.t-Button--header.is-active,
+.t-Header .t-Button.t-Button--header.t-Button--header {
+  color: @g_Header-FG;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.t-Header-logo-link {
+  &:focus,
+  &:active:focus {
+    outline: none;
+    box-shadow:
+    0 0 0 1px lighten(@g_Focus,15%) inset,
+    0 0 1px 2px fade(lighten(@g_Focus,15%), 25%) !important;
+  }
+}
+
+.t-Header-nav {
+  background-color: @g_Nav-BG;
+}
+
+.t-Header {
+  .a-MenuBar-item {
+    &:hover {
+      background-color: transparent;
+    }
+  }
+  .a-MenuBar-item > .a-Menu-subMenuCol {
+    .a-Icon {
+      border-radius: 100%;
+    }
+  }
+  .a-Menu.a-Menu--top > .a-Menu-content {
+    border-top-width: 0;
+  }
+  .a-Menu-content {
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  }
+}
+.t-Header-nav-list {
+  background-color: transparent;
+}
+
+
+
+
+
+
+.t-HeroRegion {
+  background-color: @g_Body-Title-BG;
+  color: contrast(@g_Body-Title-BG, darken(@g_Body-Title-BG,   75%), lighten(@g_Body-Title-BG,   75%),  43%);
+}
+.t-HeroRegion-title {
+  color: contrast(@g_Body-Title-BG, darken(@g_Body-Title-BG,   75%), lighten(@g_Body-Title-BG,   75%),  43%);
+}
+.t-HeroRegion-icon {
+  border-radius: 4px;
+  background-color: @g_Accent-BG;
+  color: @g_Accent-FG;
+}
+
+.t-HeroRegion--featured {
+    background-color: transparent;
+  &,
+  .t-HeroRegion-title {
+    color: contrast(@g_Region-BG, darken(@g_Region-BG,   75%), lighten(@g_Region-BG,   75%),  43%);
+  }
+}
+
+
+
+
+
+/*
+{
+  "var" : "@irrBg",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.INTERACTIVE_REPORTS"
+}
+*/
+@irrBg: @g_Region-BG;
+
+/*
+{
+  "var" : "@menu_Tabs-Active-BG",
+  "name" : "UTR.LESS.BACKGROUND",
+  "type" : "color",
+  "group": "UTR.LESS.INTERACTIVE_REPORTS",
+  "subgroup": "UTR.LESS.MENU"
+}
+*/
+@menu_Tabs-Active-BG:       darken( @g_Accent-BG,5%);
+
+/*
+{
+  "var" : "@menu_Tabs-Active-Text",
+  "name" : "UTR.LESS.TEXT",
+  "type" : "color",
+  "group": "UTR.LESS.INTERACTIVE_REPORTS",
+  "subgroup": "UTR.LESS.MENU"
+}
+*/
+@menu_Tabs-Active-Text:     fade(contrast( @g_Accent-BG, darken( @g_Accent-BG,  50%), lighten( @g_Accent-BG,  50%)), 100%);
+
+/*
+{
+  "var" : "@menu_Tabs-Hover-BG",
+  "name" : "UTR.LESS.HOVER_STATE",
+  "type" : "color",
+  "group": "UTR.LESS.INTERACTIVE_REPORTS"
+}
+*/
+@menu_Tabs-Hover-BG:        darken( @g_Accent-BG,15%);
+
+
+
+@menu_Tabs-Text:            contrast( @g_Accent-BG);
+
+
+.a-IRR {
+  border-radius: @g_Container-BorderRadius;
+  border-color: contrast(@irrBg, darken(@irrBg,   10%), lighten(@irrBg,   10%),  43%);
+//  background-color: @irrBg;
+  .a-IRR-pagination-label {
+    color: fade(contrast(@irrBg, desaturate(darken(@irrBg, 55%), 100%), desaturate(lighten(@irrBg, 55%), 50%)), 100%);
+  }
+}
+
+.a-IRR-reportSummary-value {
+  color: fade(contrast(@irrBg, desaturate(darken(@irrBg,  75%), 100%), desaturate(lighten(@irrBg,  75%), 50%)), 100%);
+}
+
+.a-IRR-controlsContainer {
+  border-top-color: contrast(@irrBg, darken(@irrBg,   4%), lighten(@irrBg,   4%),  43%);
+  background-color: contrast(@irrBg, darken(@irrBg,   2%), lighten(@irrBg,   2%),  43%);
+}
+
+.a-IRR-fullView {
+  background-color: @irrBg;
+}
+
+.a-IRR-button.a-IRR-button--controls {
+  background-color: transparent;
+  // background-color: contrast(@irrBg, darken(@irrBg,   10%), lighten(@irrBg,   10%),  43%);
+  // &:hover {
+  //   background-color: contrast(@irrBg, darken(@irrBg,   25%), lighten(@irrBg,   25%),  43%);
+  // }
+}
+
+.a-IRR-sortWidget {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+.a-IRR-toolbar {
+  background: linear-gradient(lighten(@g_Region-Header-BG, 10%), @g_Region-Header-BG);
+  border-color: contrast(@g_Region-Header-BG, darken(@g_Region-Header-BG,   10%), lighten(@g_Region-Header-BG,   10%),  43%);
+}
+@l_Progress-BG: @g_Accent-BG;
+.a-Report-percentChart-fill {
+  background-color: @l_Progress-BG;
+}
+.a-Report-percentChart {
+  background-color: contrast(@l_Progress-BG, darken(@l_Progress-BG,  50%), lighten(@l_Progress-BG,  50%),  43%);
+}
+
+.a-IRR-button--colSearch {
+  -webkit-border-top-right-radius: 0px !important;
+  -webkit-border-bottom-right-radius: 0px !important;
+  -moz-border-radius-topright: 0px  !important;
+  -moz-border-radius-bottomright: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.a-IRR-iconViewTable,
+.a-IRR-chartView,
+.a-IRR-pivotView,
+.a-IRR-groupByView,
+.a-IRR-detailView {
+  border-top-color: contrast(@irrBg, darken(@irrBg,  4%), lighten(@irrBg,  4%),  43%);
+}
+.a-IRR-toolbar--singleRow {
+  border-bottom-color: contrast(@irrBg, darken(@irrBg,  6%), lighten(@irrBg,  6%),  43%);
+}
+.a-IRR-header {
+  background-color: contrast(@irrBg, darken(@irrBg,   2%), lighten(@irrBg,   2%),  43%);
+  border-top: 1px solid contrast(@irrBg, darken(@irrBg,   10%), lighten(@irrBg,   10%),  43%);
+  // border-bottom: 1px solid contrast(@irrBg, darken(@irrBg,   10%), lighten(@irrBg,   10%),  43%);
+  box-shadow: inset 1px 0 0 0 contrast(@irrBg, darken(@irrBg,   10%), lighten(@irrBg,   10%),  43%);
+  &:hover {
+    background-color: contrast(@irrBg, darken(@irrBg,   5%), lighten(@irrBg,   5%),  43%);
+  }
+  &.is-active {
+    background-color: @menu_Tabs-Hover-BG;
+    border-bottom: none;
+    a {
+      color: @menu_Tabs-Active-Text;
+    }
+    .a-IRR-headerSort {
+      color: @menu_Tabs-Active-Text;
+    }
+  }
+}
+
+.a-IRR-header--group {
+  background-color: contrast(@irrBg, darken(@irrBg,   4%), lighten(@irrBg,   4%),  43%);
+}
+.a-IRR-table tr td {
+  background-color: @irrBg;
+  color: fade(contrast(@irrBg, desaturate(darken(@irrBg,  75%), 100%), desaturate(lighten(@irrBg,  75%), 50%)), 100%);
+}
+
+.a-IRR-table {
+  border-collapse: separate;
+}
+
+.a-IRR-table tr:nth-child(even):hover td {
+//  .text-contrast(@_light_hover_bg);
+}
+
+.a-IRR-table tr:hover td {
+  background-color: contrast(@irrBg, darken(@irrBg,   2.5%), lighten(@irrBg,   2.5%),  43%);
+}
+
+.t-IRR-region--noBorders {
+  .a-IRR {
+    border-radius: @g_Container-BorderRadius;
+  }
+}
+
+
+
+body .a-IRR-sortWidget-rows {
+  color: @menu_Tabs-Text;
+  border-top: 1px solid darken(@menu_Tabs-Active-BG, 10%);
+  background: @menu_Tabs-Active-BG;
+}
+
+body .a-IRR-sortWidget-row {
+  color: @menu_Tabs-Text;
+  box-shadow: 0 -1px 0 @menu_Tabs-Hover-BG inset;
+}
+
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField,
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"] {
+  color: @menu_Tabs-Text;
+  background: @menu_Tabs-Hover-BG;
+}
+
+.a-IRR-sortWidget-row:hover {
+  background-color: @menu_Tabs-Hover-BG;
+}
+body {
+  .a-IRR-button.a-IRR-sortWidget-button, .a-IRR-button.a-IRR-sortWidget-button:active:focus {
+    color: fade(@menu_Tabs-Text, 90%);
+    background-color: @menu_Tabs-Hover-BG;
+    &:hover {
+      background-color: lighten(@menu_Tabs-Hover-BG, 10%);
+    }
+  }
+}
+
+
+.a-IRR-sortWidget-actions {
+  border-bottom: 1px solid darken(@menu_Tabs-Active-BG, 10%);
+}
+
+.a-IRR-sortWidget-actions-item {
+  border-right: none;
+}
+
+.a-IRR-sortWidget {
+  border: none;
+}
+
+.a-IRR-table td {
+  border-left: 1px solid darken(@irrBg, 5%);
+  border-top: 1px solid darken(@irrBg, 5%);
+}
+
+
+.a-IRR-sortWidget-searchLabel {
+  color: fade(@menu_Tabs-Text, 90%);
+}
+.a-IRR-sortWidget-searchLabel:before {
+  color: fade(@menu_Tabs-Text, 50%);
+}
+
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"] {
+
+}
+
+.a-IRR-headerLink:focus {
+  box-shadow: 0 0 0 2px @g_Accent-BG inset;
+}
+
+.a-IRR-search-field:focus {
+  border-color: @g_Accent-BG;
+  box-shadow: 0 0 0 1px @g_Accent-BG inset, -2px 0 0 @g_Accent-BG inset, 2px 0 0 @g_Accent-BG inset, 0 0 2px 0 fade(@g_Accent-BG, 50%);
+}
+
+
+.a-IRR-singleRow-name,
+.a-IRR-singleRow-value {
+  border-bottom-color: contrast(@irrBg, darken(@irrBg,  6%), lighten(@irrBg,  6%),  43%);
+  color: contrast(@irrBg, darken(@irrBg,   75%), lighten(@irrBg,   75%),  43%);
+
+}
+
+.a-IRR-singleRow-value {
+  background-color: @irrBg;
+  .a-IRR-singleRow-row:hover & {
+    background-color: contrast(@irrBg, darken(@irrBg,   3%), lighten(@irrBg,   3%),  43%);
+  }
+}
+
+.a-IRR-singleRow-name {
+  background-color: contrast(@irrBg, darken(@irrBg,   3%), lighten(@irrBg,   3%),  43%);
+  .a-IRR-singleRow-row:hover & {
+    background-color: contrast(@irrBg, darken(@irrBg,   6%), lighten(@irrBg,   6%),  43%);
+  }
+}
+
+.a-IRR-button.a-IRR-button--pagination:hover {
+  background-color: @g_Accent-BG;
+}
+
+
+.a-IRR-reportSummary-label,
+.a-IRR-controlsLabel {
+  background-color: @irrBg;
+}
+
+@media only screen and (min-width: 769px) {
+  .is-maximized.t-IRR-region {
+    .t-fht-thead .a-IRR-header {
+      border-bottom: 1px solid contrast(@irrBg, darken(@irrBg,   10%), lighten(@irrBg,   10%),  43%);;
+    }
+  }
+}
+
+//
+// Removing from Universal Theme
+//
+
+// .t-InfoBlocks-contentWrapper {
+//   background-color: #fff;
+//   border-radius: 2px;
+// }
+// .t-InfoBlocks-label {
+//   .text-normal();
+// }
+// .t-InfoBlocks-value {
+//   .text-dark();
+//   .t-InfoBlocks-item.is-positive & {
+//     color: #2ECC71;
+//   }
+//   .t-InfoBlocks-item.is-negative & {
+//     color: #E74C3C;
+//   }
+// }
+// //@for @i from 1 through length(@g-Colors) {
+// //  .t-InfoBlocks-item:nth-child(@{@i}n) {
+// //    .t-InfoBlocks-icon {color: nth(@g-Colors,@i)}
+// //  }
+// //  .t-InfoBlocks--coloredHovers .t-InfoBlocks-item:nth-child(@{@i}n) {
+// //    .t-InfoBlocks-contentWrapper:hover {
+// //      background-color: nth(@g-Colors,@i);
+// //    }
+// //  }
+// //}
+// .t-InfoBlocks-contentWrapper:hover {
+//   background-color: #F0F0F0;
+// }
+// .t-InfoBlocks--coloredHovers .t-InfoBlocks-contentWrapper:hover {
+//   .t-InfoBlocks-label,  .t-InfoBlocks-value,  .t-InfoBlocks-icon {
+//     color: #FFF;
+//   }
+// }
+// .t-InfoBlocks--iconBadges {
+//   .t-InfoBlocks-value {
+//     background-color: @g_Accent-BG;
+//     color: #FFFFFF;
+//   }
+//   .t-InfoBlocks-item.is-positive .t-InfoBlocks-value {
+//     background-color: #2ECC71;
+//     color: #FFF;
+//   }
+//   .t-InfoBlocks-item.is-negative .t-InfoBlocks-value {
+//     background-color: #E74C3C;
+//     color: #FFF;
+//   }
+// }
+// .t-InfoBlocks--iconBadges {
+//   .t-InfoBlocks-value {
+//     border-radius: 12px;
+//   }
+// }
+// .t-InfoBlocks--large  {
+//   &.t-InfoBlocks--iconBadges {
+//     .t-InfoBlocks-value {
+//       border-radius: 24px;
+//     }
+//   }
+// }
+
+/** 
+ * Import Compass and Theme Variables
+ */
+
+
+
+/* ==========================================================================
+   Links List
+   ========================================================================== */
+
+
+.t-LinksList-item,
+.t-LinksList-link {
+//  border-color: #F0F0F0;
+  border-color: contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+}
+.t-LinksList-icon {
+  color: contrast(@g_Region-BG, darken(@g_Region-BG,  15%), lighten(@g_Region-BG,  15%),  43%);
+}
+.t-LinksList-link {
+  &:hover {
+    .region-hover();
+  }
+  &:focus {
+    box-shadow:0 0 0 1px @g_Focus inset;
+  }
+}
+
+
+/**
+ * Modifier: Go To Arrow
+ *
+ * Show Go To Arrow on right
+ */
+.t-LinksList--showArrow {
+  .t-LinksList-link {
+    // &:hover {
+    //   &:before {
+    //     color: @g_Accent-BG;
+    //   }
+    // }
+    &:before {
+      color: contrast(@g_Region-BG, darken(@g_Region-BG,  15%), lighten(@g_Region-BG,  15%),  43%);
+    }
+  }
+  // &.t-LinksList--brightHover .t-LinksList-link:hover:before {
+  //   color: rgba(255,255,255,.5);
+  // }
+}
+
+/**
+ * Modifier: Show Badge
+ *
+ * Show Badge on Right
+ */
+.t-LinksList--showBadge {
+  .t-LinksList-badge {
+    background-color: contrast(@g_Region-BG, darken(@g_Region-BG,  4%), lighten(@g_Region-BG,  4%),  43%);
+    color: @g_Region-FG;
+  }
+  .t-LinksList-link:hover .t-LinksList-badge {
+    background-color: contrast(@g_Region-BG, darken(@g_Region-BG,  8%), lighten(@g_Region-BG,  8%),  43%);
+  }
+  // &.t-LinksList--brightHover {
+  //   .t-LinksList-link:hover .t-LinksList-badge {
+  //     background-color: rgba(0,0,0,.15);
+  //     color: #FFF;
+  //   }
+  // }
+  .t-LinksList-item.is-expanded > .t-LinksList-link .t-LinksList-badge {
+    background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   25%), lighten(@g_Region-BG,   25%),  43%);
+//    background-color: rgba(0,0,0,.1);
+  }
+}
+
+/**
+ * Modifier: Bright Hover
+ *
+ * Show Bright
+ */
+.t-LinksList--brightHover {
+  .t-LinksList-item.is-expanded .t-LinksList-link:hover:before {
+    color: rgba(255,255,255,.5);
+  }
+  .t-LinksList-link {
+    &:hover {
+      background-color: @g_Accent-BG;
+      color: contrast(@g_Accent-BG, darken(@g_Accent-BG,   75%), lighten(@g_Accent-BG,   75%),  43%);
+      .t-LinksList-icon {
+        color: rgba(255,255,255,.75);
+      }
+    }
+  }
+}
+
+.t-LinksList-item.is-expanded  {
+  background-color: #FCFCFC;
+  background: linear-gradient(rgba(0,0,0,.015),rgba(0,0,0,0)), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.015));
+  .t-LinksList-link:hover:before {
+    color: @g_Accent-BG;
+  }
+  .t-LinksList-link:before {
+    color: rgba(0,0,0,.25)
+  }
+}
+.t-LinksList--showBadge {
+  .t-LinksList-badge {
+    border-radius: 4px;
+  }
+}
+.t-LinksList--iconOnly {
+  .t-LinksList-icon {
+    border-radius: 100%;
+  }
+}
+.t-LinksList--actions {
+  .t-LinksList-label {
+    color: @g_Actions-Col-Text;
+  }
+  .t-LinksList-icon {
+    color: @g_Actions-Col-Text;
+  }
+  .t-LinksList-link:hover {
+    .t-LinksList-icon, .t-LinksList-label, .t-LinksList-badge {
+      color: contrast(@g_Accent-OG, darken(@g_Accent-OG,   75%), lighten(@g_Accent-OG,   75%),  43%);
+    }
+  }
+}
+
+/**
+ * Import Compass
+ */
+
+
+
+/* ==========================================================================
+   Login Page + Region
+   ========================================================================== */
+
+
+.t-Login-container {
+
+}
+
+.t-Login-iconValidation {
+  background: @g_Success-BG;
+  color: white;
+}
+
+@l_Form-FG: contrast(@g_Region-FG, darken(@g_Region-FG,   5%), lighten(@g_Region-FG,   5%),  43%);
+
+body .t-Login-title {
+	color: @g_Region-FG;
+}
+.t-Login-region {
+  background-color: @g_Region-BG;
+}
+// .t-Login-region .t-Login-body {
+//   input[type=text],
+//   input.password {
+//     &::-webkit-input-placeholder{
+// 	    color: @l_Form-FG;
+//     }
+//     &::-moz-placeholder{
+// 	    color: @l_Form-FG;
+//     }
+//     &:-ms-input-placeholder{
+// 	    color: @l_Form-FG;
+//     }
+//   }
+// }
+
+.t-Login-logo {
+  &.fa {
+    color: @g_Accent-BG;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .t-PageBody--login,
+  .t-PageBody--login .t-Body {
+    background-color: @g_Region-BG;
+  }
+}
+/**
+ * Import Compass and Theme Variables
+ */
+
+
+/******************************************************************************
+Color Variables
+******************************************************************************/
+
+@g_Border-Outer:            contrast(@g_Region-BG, darken(@g_Region-BG,   15%), lighten(@g_Region-BG,   15%),  43%);
+
+.t-MediaList-item {
+  border-color: @g_Border-Outer;
+}
+
+.t-MediaList--horizontal .t-MediaList-item {
+  border-right: 1px solid @g_Border-Outer;
+}
+
+
+/* ==========================================================================
+   Link
+   ========================================================================== */
+a.t-MediaList-itemWrap {
+  color: @g_Link-Base;
+  &:hover {
+    background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   4%), lighten(@g_Region-BG,   4%),  43%);
+    color: @g_Link-Base;
+    .t-MediaList-badge {
+    }
+  }
+  &:focus {
+    box-shadow:0 0 0 1px @g_Focus inset;
+  }
+}
+
+.t-MediaList-itemWrap {
+  color: @g_Region-FG;
+}
+.t-MediaList-badge,
+.t-MediaList-desc {
+  color: @g_Region-FG-Light;
+}
+.t-MediaList-icon {
+  color: contrast(@g_Region-BG, darken(@g_Region-BG,  15%), lighten(@g_Region-BG,  15%),  43%);
+}
+
+.t-MediaList--cols {
+  .t-MediaList-item {
+    &:before,
+    &:after {
+      background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+    }
+  }
+}
+
+
+
+.Menu(@l_Menu-BG, @l_Menu-Accent) {
+  .a-MenuBar-label {
+    color:  contrast(@l_Menu-BG, darken(@l_Menu-BG,   75%), lighten(@l_Menu-BG,   75%),  43%);
+    line-height: 20px;
+  }
+  .a-MenuBar-item > .a-Menu-subMenuCol {
+    display: inline-block;
+    padding: 8px 0;
+    vertical-align: top;
+    margin-right: 8px;
+    margin-left: -4px;
+  }
+
+
+  .a-MenuBar-item {
+    background: @l_Menu-BG;
+    border-right: 1px solid contrast(@l_Menu-BG, darken(@l_Menu-BG,   10%), lighten(@l_Menu-BG,   10%),  43%);
+    border-left: 1px solid contrast(@l_Menu-BG, darken(@l_Menu-BG,   10%), lighten(@l_Menu-BG,   10%),  43%);
+    margin-left: -1px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  .a-MenuBar-item.a-Menu--split > .a-Menu-subMenuCol,
+  .a-MenuBar.u-rtl .a-MenuBar-item.a-Menu--split > .a-Menu-subMenuCol {
+    border: none;
+    margin-right: 0;
+    padding: 8px 8px 8px 4px;
+  }
+  .a-MenuBar-item.is-disabled {
+    .a-MenuBar-label {
+      color: #A0A0A0;
+    }
+  }
+
+  .a-MenuBar-item:hover {
+    background-color: contrast(@l_Menu-BG, darken(@l_Menu-BG,   10%), lighten(@l_Menu-BG,   10%),  43%);
+  }
+  .a-MenuBar-item.is-expanded {
+    background-color: contrast(@l_Menu-BG, darken(@l_Menu-BG,   10%), lighten(@l_Menu-BG,   10%),  43%);
+  }
+
+  /* ==========================================================================
+     Menu
+     ========================================================================== */
+  .a-Menu-content {
+    border-radius: 2px;
+  }
+
+
+  @fontColor: contrast(@l_Menu-Accent, darken(@l_Menu-Accent,   75%), lighten(@l_Menu-Accent,   75%),  43%);
+  .a-Menu .a-Menu-item {
+    //  .text-dark();
+    color: @fontColor;
+  }
+
+  .a-Menu-itemSep {
+    .a-Menu-hSeparator {
+      border-color: contrast(@l_Menu-Accent, darken(@l_Menu-Accent,   10%), lighten(@l_Menu-Accent,   10%),  43%);
+    }
+  }
+  .a-Menu--current {
+    background-color: contrast(@l_Menu-BG, darken(@l_Menu-BG,   20%), lighten(@l_Menu-BG,   20%),  43%);
+  }
+
+  .a-Menu .a-Menu-item.is-disabled.is-focused {
+    background-color: @l_Menu-Accent;
+    &>.a-Menu-inner .a-Menu-subMenuCol {
+      color: fade(contrast(@l_Menu-Accent, desaturate(darken(@l_Menu-Accent,  75%), 100%), desaturate(lighten(@l_Menu-Accent,  75%), 50%)), 100%);
+    }
+    &>.a-Menu-inner .a-Menu-accel {
+      color: fade(contrast(@l_Menu-Accent, desaturate(darken(@l_Menu-Accent,  50%), 100%), desaturate(lighten(@l_Menu-Accent,  50%), 50%)), 100%);
+    }
+  }
+
+  .a-Menu .a-Menu-item.is-focused, 
+  .a-Menu .a-Menu-item.is-expanded {
+    background-color: @l_Menu-BG;
+    color: contrast(@l_Menu-BG, darken(@l_Menu-BG,   75%), lighten(@l_Menu-BG,   75%),  43%);
+    &>.a-Menu-inner .a-Menu-statusCol,
+    &>.a-Menu-inner .a-Menu-subMenuCol,
+    &>.a-Menu-inner .a-Menu-accel {
+      color: contrast(@l_Menu-BG, darken(@l_Menu-BG,   75%), lighten(@l_Menu-BG,   75%),  43%);
+    }
+  }
+
+  .a-Menu {
+    .a-Menu-accel {
+      color: fade(@fontColor, 75%);
+    }
+  }
+
+  .a-Menu-content {
+    background-color: fadeout(@l_Menu-Accent, 5%);
+    border-color: contrast(@l_Menu-Accent, darken(@l_Menu-Accent,   10%), lighten(@l_Menu-Accent,   10%),  43%);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+  }
+}
+
+.Menu(darken(@g_Nav-BG, 5%), @g_Accent-OG);
+.a-MenuBar {
+  background-color: transparent;
+}
+.t-Header .a-MenuBar {
+  background-color: darken(@g_Nav-BG, 5%);
+}
+
+// .t-Body {
+//   .Menu(darken(@g_Body-BG, 5%), @g_Accent-OG);
+// }
+
+.t-Region {
+  .Menu(darken(@g_Region-BG, 5%), @g_Region-Header-BG);
+}
+
+/**
+ * Import Compass and Theme Variables
+ */
+
+
+
+/* ==========================================================================
+   Menu Bar
+   ========================================================================== */
+
+//@g_Nav-Active-FG: contrast(@g_Nav-BG, darken(@g_Nav-BG,   75%), lighten(@g_Nav-BG,   75%),  43%);
+
+.MenuBar(@menuActiveFG, @menuBG) {
+  .a-MenuBar-label {
+    color: @menuActiveFG;
+    vertical-align: top;
+  }
+  .a-MenuBar-item {
+    vertical-align: top;
+  }
+  /* Focus + Hover State */
+  .a-MenuBar-item.is-focused,
+  .a-MenuBar-item:hover {
+    background-color: contrast(@menuBG, darken(@menuBG,  10%), lighten(@menuBG,  10%),  43%) !important;
+  }
+
+
+  /* Active + Focus State */
+  .a-MenuBar-item.a-Menu--current,
+  .a-MenuBar-item.a-Menu--current.is-focused {
+    background-color: contrast(@menuBG, darken(@menuBG,  10%), lighten(@menuBG,  10%),  43%) !important;
+    .a-MenuBar-label {
+      color: @menuActiveFG !important;
+      font-weight: bold;
+    }
+  }
+  /* Expanded State */
+  /* Active + Expanded State */
+  .a-MenuBar-item.is-expanded,
+  .a-MenuBar-item.a-Menu--current.is-expanded {
+    background-color: contrast(@menuBG, darken(@menuBG,  10%), lighten(@menuBG,  10%),  43%) !important;
+  }
+  /* Sub Menu Drop Down */
+  .a-MenuBar-item {
+    & > .a-Menu-subMenuCol .a-Icon {
+      color: fade(@menuActiveFG, 80%);
+      border-color: lighten(@menuBG,15%);
+      border-radius: 100%;
+    }
+    &.a-Menu--current.is-focused > .a-Menu-subMenuCol .a-Icon,
+    & > .a-Menu-subMenuCol:hover .a-Icon {
+      @hoverBg: contrast(@menuBG, darken(@menuBG,  25%), lighten(@menuBG,  25%),  43%);
+      background-color: @hoverBg;
+      border-color: @hoverBg;
+      color: contrast(@hoverBg, darken(@hoverBg,   75%), lighten(@hoverBg,   75%),  43%);
+    }
+  }
+  .a-MenuBar-item.a-Menu--current {
+    & > .a-Menu-subMenuCol .a-Icon {
+      color: lighten(@menuBG,30%);
+      border-color: lighten(@menuBG,30%);
+    }
+  }
+  .a-MenuBar-item.a-Menu--current.is-expanded {
+    & > .a-Menu-subMenuCol .a-Icon {
+      background-color: @menuActiveFG;
+      border-color: @menuActiveFG;
+      color: contrast(@menuActiveFG, darken(@menuActiveFG,  75%), lighten(@menuActiveFG,  75%),  43%);
+    }
+  }
+  .a-MenuBar-item.is-expanded {
+    & > .a-Menu-subMenuCol .a-Icon {
+      background-color: lighten(@menuBG,47%);
+      border-color: lighten(@menuBG,47%);
+      color: darken(@menuBG,10%);
+    }
+  }
+  // Expanded Menu Contents
+  .a-Menu-content {
+    border-width: 0;
+    background-color: contrast(@menuBG, darken(@menuBG,  10%), lighten(@menuBG,  10%),  43%);
+  }
+  .a-Menu .a-Menu-item, {
+    color: @menuActiveFG;
+  }
+  .a-Menu-accel {
+    color: fade(@menuActiveFG, 75%);
+  }
+  .a-Menu .a-Menu-item.is-focused,
+  .a-Menu .a-Menu-item.is-expanded {
+    background-color: contrast(@menuBG, darken(@menuBG,  5%), lighten(@menuBG,  5%),  43%) !important;
+  }
+  /* Menu Bar Item */
+
+}
+
+.t-Header {
+  .MenuBar( @g_Nav-Active-FG, @g_Nav-BG );
+}
+
+.t-Body {
+  .MenuBar( @g_Body-Text, @g_Body-BG );
+  .a-MenuBar > ul {
+    background-color: contrast(@g_Region-BG, darken(@g_Region-BG,  10%), lighten(@g_Region-BG,  10%),  43%)
+  }
+  .a-MenuBar-item {//@_border:
+    border-color: contrast(@g_Body-BG, darken(@g_Body-BG,   10%), lighten(@g_Body-BG,   10%),  43%);
+    &.is-focused {
+      box-shadow: none;
+    }
+  }
+}
+
+.t-Region {
+  .MenuBar( @g_Region-FG, @g_Region-BG );
+  .a-MenuBar > ul {
+    background-color: contrast(@g_Region-BG, darken(@g_Region-BG,  10%), lighten(@g_Region-BG,  10%),  43%)
+  }
+  .a-MenuBar-item {
+    border-color: contrast( @g_Region-BG, darken( @g_Region-BG,   10%), lighten( @g_Region-BG,   10%),  43%);
+    &.is-focused {
+      box-shadow: none;
+    }
+  }
+}
+
+
+.t-Header-userMenu {
+  .a-Menu-content {
+    border-width: 0;
+    background-color: contrast(@g_Nav-BG, darken(@g_Nav-BG,  10%), lighten(@g_Nav-BG,  10%),  43%);
+  }
+  .a-Menu-item.is-focused,
+  .a-Menu-item.is-expanded {
+    background-color: contrast(@g_Nav-BG, darken(@g_Nav-BG,  5%), lighten(@g_Nav-BG,  5%),  43%) !important;
+  }
+  &.a-Menu .a-Menu-item .a-Menu-label {
+    color: @g_Nav-Active-FG;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+
+
+
+/* ======.less/compiled/core_removed/NavigationBar.less====== */
+
+
+
+@bg: darken(@g_Accent-BG,20%);
+@l_Menu-Active-FG: contrast(@bg, darken(@bg,  75), lighten(@bg,  75),  43%);
+
+@l_Menu-Active-FG: fade(contrast(@bg, desaturate(darken(@bg,  75%), 100%), desaturate(lighten(@bg,  75%), 50%)), 100%);
+
+.t-NavigationBar-menu {
+  .a-Menu-content {
+    border-radius: 0 0 2px 2px;
+    background-color: @bg;
+    border-width: 0;
+  }
+  .a-Menu-item.is-focused,
+  .a-Menu-item.is-expanded {
+    background-color: contrast(@bg, darken(@bg,   10%), lighten(@bg,   10%),  43%) !important;
+    & > .a-Menu-label {
+      color: @l_Menu-Active-FG !important;
+    }
+  }
+  .a-Menu-item .a-Menu-label,
+  &.a-Menu .a-Menu-item a {
+    color: @g_Accent-FG !important;
+  }
+}
+
+/**
+ * Import Compass and Theme Variables
+ */
+
+
+
+/* ==========================================================================
+   Popup LOV
+   ========================================================================== */
+
+.t-PopupLOV-links {
+  a {
+    &:hover {
+      background-color: @g_Link-Base;
+      color: contrast(@g_Link-Base, darken(@g_Link-Base,  75%), lighten(@g_Link-Base,  75%),  43%);
+    }
+  }
+}
+.t-PopupLOV-resultsSet {
+  tr:hover td {
+    background-color: #ECF2FB !important;
+  }
+  tr:nth-child(2n) td {
+    background-color: #FAFAFA;
+  }
+}
+.t-PopupLOV-resultsSet-link,.ui-widget-content a.t-PopupLOV-resultsSet-link{
+  color: @g_Link-Base;
+}
+.t-Page--popupLOV {
+  background-color: #FFF;
+}
+.t-PopupLOV-actions {
+  background-color: @g_Accent-OG;
+}
+.t-PopupLOV-links {
+  a {
+    .text-dark();
+    &:hover {
+      background-color: contrast(@g_Link-Base, darken(@g_Link-Base,   10%), lighten(@g_Link-Base,   10%),  43%);
+      color: contrast(@g_Link-Base, darken(@g_Link-Base,  75%), lighten(@g_Link-Base,  75%),  43%);
+    }
+  }
+}
+.t-PopupLOV-pagination {
+  .text-normal();
+}
+
+/**
+ * Import Compass and Theme Variables
+ */
+
+
+
+/* ==========================================================================
+   Region
+   ========================================================================== */
+
+
+// body {
+  .t-Region {
+    background-color: @g_Region-BG;
+  }
+  .fielddata b {
+    .text-dark();
+  }
+
+.regionHeader(@bg, @fg) {
+  background-color: @bg;
+  @gr: contrast(@bg, darken(@bg,   1%), lighten(@bg,   1%),  43%);
+  border-bottom: 1px solid contrast(@bg, darken(@bg,   10%), lighten(@bg,   10%),  43%);
+  .t-Region-title,
+  .t-Button--noUI {
+    color: @fg;
+  }
+}
+
+
+.t-Region-header {
+  .regionHeader(@g_Region-Header-BG, @g_Region-Header-FG);
+  .t-Body-actions & {
+      background: transparent;
+  }
+}
+
+.t-Region--stacked {
+  border-radius: 0 !important;
+  & > .t-Region-header {
+    border-radius: 0 !important;
+  }
+}
+
+.t-Region--noBorder {
+  & > .t-Region-header {
+    .regionHeader(@g_Region-BG, @g_Region-FG);
+  }
+}
+
+.t-Region--accent1,
+.t-Region--accent1&.t-Region--noBorder {
+  & > .t-Region-header {
+    .regionHeader(@g_Color-Palette-1, @g_Color-Palette-1-FG);
+  }
+}
+.t-Region--accent2,
+.t-Region--accent2&.t-Region--noBorder {
+  & > .t-Region-header {
+    .regionHeader(@g_Color-Palette-2, @g_Color-Palette-2-FG);
+  }
+}
+.t-Region--accent3,
+.t-Region--accent3&.t-Region--noBorder {
+  & > .t-Region-header {
+    .regionHeader(@g_Color-Palette-3, @g_Color-Palette-3-FG);
+  }
+}
+.t-Region--accent4,
+.t-Region--accent4&.t-Region--noBorder {
+  & > .t-Region-header {
+    .regionHeader(@g_Color-Palette-4, @g_Color-Palette-4-FG);
+  }
+}
+.t-Region--accent5,
+.t-Region--accent5&.t-Region--noBorder {
+  & > .t-Region-header {
+    .regionHeader(@g_Color-Palette-5, @g_Color-Palette-5-FG);
+  }
+}
+.t-Region-header {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.t-Region h2.t-Region-title {
+  color: @g_Region-Header-FG;
+}
+.t-Region-body {
+  color: @g_Region-FG;
+}
+.t-Region--hideShow {
+  &.is-collapsed {
+    border-bottom-color: transparent;
+  }
+}
+
+.t-Region--scrollBody > .t-Region-bodyWrap > .t-Region-body {
+  background:
+    linear-gradient(fade(@g_Region-BG,100%) 30%, fade(@g_Region-BG,0%)),
+    linear-gradient(fade(@g_Region-BG,0%), fade(@g_Region-BG,100%) 70%) 0 100%,
+    linear-gradient(rgba(0,0,0,.025), rgba(0,0,0,0)),
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.025)) 0 100%;
+  background-color: @g_Region-BG;
+}
+.t-Body-actions {
+  .t-Region {
+    background-color: transparent;
+  }
+  .t-Region-header {
+    background-color: transparent;
+  }
+}
+.t-Body-side {
+  .t-Region {background-color: transparent;}
+}
+.t-Region,.t-Region-header {
+  border-radius: @g_Container-BorderRadius;
+}
+.t-Region--noBG {
+  background-color: transparent;
+}
+.t-Body-actions {
+  .t-Region {
+    background-color: transparent;
+  }
+}
+.t-Region--carousel {
+  .apex-rds-button {
+    background-color: transparent;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,.25);
+    color: #FFF;
+    &:hover {
+      background-color: rgba(0,0,0,.5);
+    }
+    &:active,    &:active:focus {
+      background-color: rgba(0,0,0,.75);
+    }
+  }
+  .apex-rds-next-region{
+    border-radius: 2px 0 0 2px;
+  }
+  .apex-rds-previous-region{
+    border-radius: 0 2px 2px 0;
+  }
+  .a-Region-carouselNavItem {
+    &.apex-rds-selected .a-Region-carouselLink {
+      background-color: rgba(0,0,0,.45);
+      &:focus {
+        background-color: @g_Accent-BG
+      }
+    }
+  }
+  .a-Region-carouselLink {
+    background-color: rgba(0,0,0,.15);
+    border-radius: 100%;
+  }
+}
+
+
+
+/* ==========================================================================
+  .t-Report
+  ---
+  Standard Report (Bordered)
+  ========================================================================== */
+
+.t-Report-cell,
+.t-Report-colHead {
+  border-left: 1px solid contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+  border-top: 1px solid contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+//  box-shadow: 0 -1px rgba(0, 0, 0, 0.1) inset
+}
+.t-Report-report tr .t-Report-cell:last-child,
+.t-Report-report tr .t-Report-colHead:last-child {
+  border-right: 1px solid contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+}
+.t-Report-report tr:last-child .t-Report-cell {
+  border-bottom: 1px solid contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+}
+
+.t-Report .is-stuck .t-Report-colHead {
+  background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   5%), lighten(@g_Region-BG,   5%),  43%);
+  border-bottom: 1px solid contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+}
+
+
+
+
+.t-Report--rowHighlight {
+  .t-Report-report tr:hover .t-Report-cell,
+  .t-Report-report tr:nth-child(odd):hover .t-Report-cell {
+    background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   2%), lighten(@g_Region-BG,   2%),  43%) !important;
+  }
+}
+
+.t-Report--staticRowColors {
+  .t-Report-report tr:nth-child(odd) .t-Report-cell {
+    background-color: transparent;
+  }
+}
+
+/* ==========================================================================
+   .t-Report--altRowsDefault
+   ---
+   Alternate Report Rows
+   ========================================================================== */
+.t-Report--altRowsDefault {
+  .t-Report-report tr:nth-child(odd) .t-Report-cell {
+    background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   1%), lighten(@g_Region-BG,   1%),  43%);
+  }
+}
+
+
+.t-SocialFooter {
+  padding-top: 48px;
+  padding-bottom: 24px;
+  .row {
+    padding-top: 8px;
+  }
+  .col {
+    padding-bottom:8px;
+    text-align: center;
+    transition: all .2s;
+    &:hover {
+      -webkit-transform: translateY(-8px);
+      -moz-transform: translateY(-8px);
+      -ms-transform: translateY(-8px);
+      -o-transform: translateY(-8px);
+      transform: translateY(-8px);
+      box-shadow: 0px 8px 4px -4px rgba(0, 0, 0, 0.05);
+    }
+  }
+  a {
+    transition: all .2s;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: fadeout(@g_Body-Text, 20%);
+    .t-Icon {
+      display:block;
+      margin: 0 auto;
+      color: fadeout(@g_Body-Text, 60%);
+    }
+    .fa {
+      font-size: 28px;
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+      text-align: center;
+    }
+    .a-Icon {
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+    }
+    .a-Icon:before {
+      font-size: 32px;
+    }
+    &:hover,
+    &:hover .t-Icon {
+      color: @g_Link-Base;
+    }
+  }
+}
+
+
+
+.t-SearchResults-desc {
+  color: fade(contrast(@g_Body-BG, desaturate(darken(@g_Body-BG,  75%), 100%), desaturate(lighten(@g_Body-BG,  75%), 50%)), 100%);
+}
+.t-SearchResults-date {
+  color: fade(contrast(@g_Body-BG, desaturate(darken(@g_Body-BG,  55%), 100%), desaturate(lighten(@g_Body-BG,  55%), 50%)), 100%);
+}
+.t-SearchResults-misc {
+  color: fade(contrast(@g_Body-BG, desaturate(darken(@g_Body-BG,  55%), 100%), desaturate(lighten(@g_Body-BG,  55%), 50%)), 100%);
+}
+
+.t-Region {
+  .t-SearchResults-desc {
+    color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  75%), 100%), desaturate(lighten(@g_Region-BG,  75%), 50%)), 100%);
+  }
+  .t-SearchResults-date {
+    color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  55%), 100%), desaturate(lighten(@g_Region-BG,  55%), 50%)), 100%);
+  }
+  .t-SearchResults-misc {
+    color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  55%), 100%), desaturate(lighten(@g_Region-BG,  55%), 50%)), 100%);
+  }
+}
+
+
+
+//.t-SearchResults-list {
+//  margin: 0;
+//  padding: 0;
+//  list-style: none;
+//}
+//.t-SearchResults-item {
+//  display: block;
+//  margin-bottom: 24px;
+//  &:last-child {
+//    margin-bottom: 12px;
+//  }
+//}
+//.t-SearchResults-title {
+//  font-weight: 500;
+//  font-size: 1.6rem;
+//  line-height: 2rem;
+//  margin: 0;
+//}
+//.t-SearchResults-info {
+//  margin-top: 4px;
+//  font-size: 1.4rem;
+//  line-height: 2rem;
+//}
+//.t-SearchResults-desc {
+//  margin: 0 0 4px 0;
+//}
+//.t-SearchResults-date {
+//}
+//.t-SearchResults-misc {
+//  display: block;
+//  font-size: 1.2rem;
+//  line-height: 1.6rem;
+//}
+
+
+
+
+.t-StatusList-blockHeader {
+  // .text-dark();
+  color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  75%), 100%), desaturate(lighten(@g_Region-BG,  75%), 50%)), 100%);
+  background-color: @g_Region-Header-BG;
+}
+.t-StatusList-headerTextAlt,
+.t-StatusList-attr,
+ .t-StatusList-textDesc{
+  color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  55%), 100%), desaturate(lighten(@g_Region-BG,  55%), 50%)), 100%);
+  // .text-normal();
+}
+.t-StatusList-itemTitle {
+  color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  75%), 100%), desaturate(lighten(@g_Region-BG,  75%), 50%)), 100%);
+  // .text-dark();
+}
+.t-StatusList--dates {
+  .t-StatusList-marker {
+    color: #707070;
+    border-radius: 2px;
+    background-color: #FFF;
+    &:after {
+      background-color: #A0A0A0;
+      border-radius: 2px 2px 0 0;
+    }
+  }
+}
+
+.t-StatusList--bullets {
+  .t-StatusList-marker {
+    border-radius: 24px;
+    background-color: #fff;
+    color: #404040;
+  }
+  .t-StatusList-item.is-complete .t-StatusList-marker { background-color: #707070; }
+  .t-StatusList-item.is-danger .t-StatusList-marker,
+  .t-StatusList-item.is-error .t-StatusList-marker { background-color: #ff3b30; }
+  .t-StatusList-item.is-open .t-StatusList-marker { background-color: #4cd964; }
+  .t-StatusList-item.is-warning .t-StatusList-marker { background-color: #ffcc00; }
+  
+  .t-StatusList-item.is-null {
+    .t-StatusList-marker {
+      background-color: #F0F0F0;
+    }
+    .t-StatusList-marker {
+      color: #A0A0A0;
+    }
+  }
+}
+
+
+
+
+/**
+ * Import Compass and Theme Variables
+ */
+
+
+
+/* ==========================================================================
+  Tabs Configuration
+  ========================================================================== */
+
+
+/* Tab Variables
+ ========================================================================== */
+@l_Tab-Highlight: @g_Accent-BG;
+
+/* Region Display Selector
+ ========================================================================== */
+.t-Tabs--simple .t-Tabs-item.is-active .t-Tabs-link,
+.apex-rds .apex-rds-selected a {
+  box-shadow: 0 -2px 0 lighten(@l_Tab-Highlight, 20%) inset;
+}
+.t-Tabs--simple .t-Tabs-link:focus,
+.apex-rds a:focus {
+  box-shadow: 0 0 0 2px lighten(@l_Tab-Highlight,20%) inset;
+}
+
+
+.t-Tabs--pill {
+  background: linear-gradient(@g_Accent-OG,#F4F4F4);
+  border-radius: 2px;
+  .t-Icon {
+    .text-normal();
+  }
+  .t-Tabs-link {
+    .text-dark();
+    &:hover {
+      background-color: #FFF;
+    }
+    &:focus {
+      border-color: #4696FC;
+    }
+    &:active {
+      background-color: #F0F0F0;
+    }
+  }
+  .t-Tabs-item:first-child .t-Tabs-link {
+    border-radius: 2px 0 0 2px;
+  }
+  .t-Tabs-item.is-active {
+    .t-Tabs-link {
+      background-color: #FFF;
+    }
+  }
+}
+
+.t-Tabs--simple .t-Icon {
+  color: @g_Region-FG;
+}
+.t-Tabs--simple .t-Tabs-link,.apex-rds a {
+  color: fade(contrast(@g_Body-Title-BG, desaturate(darken(@g_Body-Title-BG,  75%), 100%), desaturate(lighten(@g_Body-Title-BG,  75%), 50%)), 100%);
+  &:hover {
+    background-color: rgba(0,0,0,.025);
+  }
+  &:active {
+    background-color: rgba(0,0,0,.15);
+  }
+  .t-Body & {
+    color: fade(contrast(@g_Body-BG, desaturate(darken(@g_Body-BG,  75%), 100%), desaturate(lighten(@g_Body-BG,  75%), 50%)), 100%);
+  }
+  .t-Body-title &,
+  .t-Body-info & {
+    color: @g_Body-Title-FG;
+  }
+  .t-Region & {
+    color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  75%), 100%), desaturate(lighten(@g_Region-BG,  75%), 50%)), 100%);
+  }
+}
+
+
+.apex-rds-hover.left {
+  a {
+    background: -webkit-linear-gradient(left,  @g_Body-Title-BG 50%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to right,  @g_Body-Title-BG 50%,rgba(255,255,255,0) 100%); /* W3C */
+  }
+}
+
+.apex-rds-hover.right {
+  a {
+    background: -webkit-linear-gradient(left,   @g_Body-Title-BG 0%,rgba(255,255,255,0.0) 1%, @g_Body-Title-BG 50%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to right,   @g_Body-Title-BG 0%,rgba(255,255,255,0.0) 1%, @g_Body-Title-BG 50%); /* W3C */
+  }
+}
+
+
+/** 
+ * Import Compass and Theme Variables
+ */
+
+
+
+/* ==========================================================================
+   Region
+   ========================================================================== */
+
+
+.a-TagCloud-link {
+  border-color: contrast(@g_Region-BG, darken(@g_Region-BG,   5%), lighten(@g_Region-BG,   5%),  43%);
+  border-radius: 2px;
+  background: contrast(@g_Region-BG, darken(@g_Region-BG,   2%), lighten(@g_Region-BG,   2%),  43%);
+  transition: background-color .2s, border-color .2s, box-shadow .2s, color .2s;
+  color: darken(@g_Link-Base,1%);
+}
+.a-TagCloud-link span {
+  transition: color .2s;
+}
+.a-TagCloud-link:hover {
+  text-decoration: none;
+  background-color: @g_Accent-BG;
+  border-color: @g_Accent-BG;
+  color: @g_Accent-FG;
+  box-shadow: 0 0 0 2px @g_Accent-BG inset;
+}
+.a-TagCloud-link:hover span {
+  color: @g_Accent-FG;
+}
+
+.a-TagCloud-count {
+  color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG, 60%), 100%), desaturate(lighten(@g_Region-BG, 60%), 50%)), 100%);
+  font-weight: 200;
+}
+
+
+.treeMe(@nav-Icon, @nav-FG, @nav-Active-BG, @nav-Active-FG, @nav-Icon-Active) {
+  .a-TreeView-node--topLevel {
+    .a-TreeView-row.is-focused {
+      box-shadow: 0 0 0 1px contrast(@nav-Active-BG, darken(@nav-Active-BG,  9%), lighten(@nav-Active-BG,  9%),  43%) inset;
+    }
+    .a-TreeView-row.is-current,
+    .a-TreeView-row.is-selected,
+    .a-TreeView-row.is-current--top.is-selected {
+      background-color: contrast(@nav-Active-BG, darken(@nav-Active-BG,  3%), lighten(@nav-Active-BG,  3%),  43%);
+    }
+    .a-TreeView-row.is-current--top,
+    &.is-collapsible > .a-TreeView-row,
+    ul {
+      background-color:  @nav-Active-BG;
+    }
+    .a-TreeView-row.is-hover {
+      background-color: contrast(@nav-Active-BG, darken(@nav-Active-BG,  6%), lighten(@nav-Active-BG,  6%),  43%) !important;
+    }
+    .a-TreeView-row.is-hover + .a-TreeView-toggle,
+    &.is-collapsible .a-TreeView-toggle {
+      color: fadeout(@nav-Active-FG, 25%);
+      &:hover{
+        color: @nav-Active-FG !important;
+      }
+    }
+    .a-TreeView-content.is-hover {
+      color: @nav-Active-FG !important;
+    }
+    .a-TreeView-content {
+      color: @nav-FG;
+      .fa, .a-Icon {
+        color:@nav-Icon;
+      }
+    }
+    .a-TreeView-content.is-hover,
+    .a-TreeView-content.is-current--top {
+      .fa,.a-Icon {
+        color: @nav-Icon-Active;
+      }
+    }
+    .a-TreeView-label {
+      color: inherit;
+    }
+    .a-TreeView-content.is-current,
+    .a-TreeView-content.is-selected,
+    .a-TreeView-content.is-current--top {
+      color: @nav-Active-FG;
+    }
+    .a-TreeView-toggle {
+      color: fadeout(@nav-FG, 25%);
+      &:hover{
+        color: @nav-FG !important;
+      }
+    }
+    .a-TreeView-row {
+      transition: background-color .1s;
+    }
+  }
+}
+
+.t-PageBody--leftNav {
+  .t-Body-nav {
+    background-color: @g_Nav-BG;
+  }
+}
+
+.t-Region {
+  .treeMe(fade(@g_Region-FG, 95%), @g_Region-FG, @g_Region-BG, @g_Region-FG, @g_Region-FG);
+}
+
+.t-TreeNav {
+  .treeMe(@g_Nav-Icon, @g_Nav-FG, @g_Nav-Active-BG, @g_Nav-Active-FG, @g_Nav-Icon-Active);
+  .a-TreeView-node--topLevel.is-collapsible .a-TreeView-content .fa,
+  .a-TreeView-node--topLevel.is-collapsible .a-TreeView-content .a-Icon {
+    color: @g_Nav-Icon-Active;
+  }
+  .a-TreeView-node--topLevel.is-collapsible .a-TreeView-content {
+    color: @g_Nav-Active-FG;
+  }
+}
+/* ======.less/compiled/core_removed/Wizard.less====== */
+
+
+//
+//.ui-dialog-titlebar, .t-Dialog-page, .t-Wizard--modal .t-Wizard-body {
+//  background-color:  lighten(@g_Region-BG, 10%);
+//}
+//.t-WizardSteps-step.is-active .t-WizardSteps-label {
+//  .region-text();
+//}
+//.t-Wizard-footer {
+//  t-Wizard-footer
+//}
+
+@l_Wizard-BG: @g_Region-BG;
+
+.t-Dialog--wizard {
+  border: contrast(@l_Wizard-BG, darken(@l_Wizard-BG,   10%), lighten(@l_Wizard-BG,   10%),  43%);
+}
+
+.t-Wizard {
+  background-color: @l_Wizard-BG;
+  border-radius: 2px;
+  .t-Wizard-title {
+    color: fade(contrast(@l_Wizard-BG, desaturate(darken(@l_Wizard-BG,  75%), 100%), desaturate(lighten(@l_Wizard-BG,  75%), 50%)), 100%);
+  }
+}
+body .t-Wizard--modal {
+  background: @l_Wizard-BG;
+  .t-Wizard-body {
+    background:
+      linear-gradient(fade(@l_Wizard-BG,100%) 40%, fade(@l_Wizard-BG,0%)),
+      linear-gradient(fade(@l_Wizard-BG,0%), fade(@l_Wizard-BG,100%) 60%) 0 100%,
+      linear-gradient(rgba(0,0,0,.025), rgba(0,0,0,0)),
+      linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.025)) 0 100%;
+    background-color: @l_Wizard-BG;
+  }
+  .t-Region {
+    background: @l_Wizard-BG;
+  }
+}
+
+.t-Wizard {
+  border-color: contrast(@l_Wizard-BG, darken(@l_Wizard-BG,   10%), lighten(@l_Wizard-BG,   10%),  43%);
+  .t-Wizard-header {
+    @headerBg: contrast(@l_Wizard-BG, darken(@l_Wizard-BG,   2%), lighten(@l_Wizard-BG,   2%),  43%);
+    background-color: @headerBg;
+    border-color: contrast(@headerBg, darken(@headerBg,   5%), lighten(@headerBg,   5%),  43%);
+  }
+}
+
+
+.t-WizardSteps-wrap {
+  &:after {
+    background-color: contrast(@l_Wizard-BG, darken(@l_Wizard-BG,   10%), lighten(@l_Wizard-BG,   10%),  43%);
+  }
+}
+.t-WizardSteps-step .t-WizardSteps-marker {
+  background-color: contrast(@l_Wizard-BG, darken(@l_Wizard-BG,   20%), lighten(@l_Wizard-BG,   20%),  43%);
+}
+.t-WizardSteps-step.is-complete .t-WizardSteps-marker {
+  background-color: @g_Success-BG;
+  color: #FFF;
+}
+.t-WizardSteps-step.is-active .t-WizardSteps-marker {
+  background-color: @g_Accent-BG;
+  // color: @g_Accent-FG;
+}
+.t-WizardSteps-label {
+  color: fade(contrast(@l_Wizard-BG, desaturate(darken(@l_Wizard-BG,  60%), 100%), desaturate(lighten(@l_Wizard-BG,  60%), 50%)), 100%);
+}
+.t-WizardSteps-step.is-active .t-WizardSteps-label {
+  color: fade(contrast(@l_Wizard-BG, desaturate(darken(@l_Wizard-BG,  75%), 100%), desaturate(lighten(@l_Wizard-BG,  75%), 50%)), 100%);
+}
+
+
+/*!
+ * http:
+ * http:
+ * http:
+ */
+
+//body .ui-dialog {
+//	border-radius: @g_Container-BorderRadius;
+//	border-color: contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%) !important;
+//}
+body .ui-dialog {
+  .ui-dialog-titlebar {
+//    background:  @g_Region-BG;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: @g_Body-BG;
+  }
+
+  .ui-dialog-title {
+   color: fade(contrast(@g_Body-BG, desaturate(darken(@g_Body-BG,  75%), 100%), desaturate(lighten(@g_Body-BG,  75%), 50%)), 100%)
+  }
+}
+body .ui-dialog .ui-dialog-titlebar-close {
+	border-radius: 100%;
+}
+body .ui-dialog .ui-dialog-buttonpane {
+	border-top-color: #F0F0F0;
+}
+
+
+//.ui-widget-content {
+//  background: transparent;
+//  iframe {
+//    border: none;
+//  }
+//}
+
+//.t-Dialog-page,.t-Dialog-page .t-Region {
+//  background-color: @g_Region-BG;
+//}
+//body .ui-dialog.t-Dialog--wizard {
+//  border-radius: 3px;
+//  .ui-dialog-titlebar {
+//    background-color: @g_Region-BG;
+//  }
+//  .ui-dialog-titlebar-close {
+//    background-color: transparent;
+//    &:hover {
+//      background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   5%), lighten(@g_Region-BG,   5%),  43%);
+//    }
+//    &:active {
+//      background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+//    }
+//  }
+//}
+
+/**
+ * Import Compass and Theme Variables
+ */
+
+
+
+@ui-Header-BG:                @g_Region-Header-BG;
+@ui-Header-FG:                @g_Region-Header-FG;
+
+@ui-Body-BG:                  @g_Region-BG;
+@ui-Body-FG:                  @g_Region-FG;
+
+@ui-Border:                   contrast(@g_Region-BG, darken(@g_Region-BG,  8%), lighten(@g_Region-BG,  8%),  43%);
+
+@ui-State-Default-BG:         @g_Button-BG;
+@ui-State-Default-FG:         @g_Button-Text;
+
+/* Component containers
+----------------------------------*/
+body .ui-widget-content {
+  border-color: @ui-Border;
+  background-color: @ui-Body-BG;
+  color: @ui-Body-FG;
+}
+body .ui-widget-content a {
+  color: @g_Link-Base;
+}
+body .ui-widget-header {
+  border-color: @ui-Border;
+  background-color:  @ui-Header-BG;
+  color: @ui-Header-FG;
+}
+body .ui-widget-header a {
+  color: @ui-Header-FG;
+}
+
+/* Interaction states
+----------------------------------*/
+body .ui-state-default,
+body .ui-widget-content .ui-state-default,
+body .ui-widget-header .ui-state-default {
+  background-color: @ui-State-Default-BG;
+  color: @ui-State-Default-FG;
+}
+body .ui-state-default a,
+body .ui-state-default a:link,
+body .ui-state-default a:visited,
+body .ui-state-active a,
+body .ui-state-active a:link,
+body .ui-state-active a:visited {
+  color: @g_Link-Base;
+}
+
+body .ui-state-hover,
+body .ui-widget-content .ui-state-hover,
+body .ui-widget-header .ui-state-hover {
+  background-color: lighten(@ui-State-Default-BG, 10%);
+  color: @ui-State-Default-FG;
+}
+body .ui-state-focus,
+body .ui-widget-content .ui-state-focus,
+body .ui-widget-header .ui-state-focus {
+  box-shadow: 0 0 0 1px @g_Focus inset,
+              0 0 1px 2px fade(@g_Focus, 25%) !important;
+  background-color: lighten(@ui-State-Default-BG, 10%);
+  color: @ui-State-Default-FG;
+}
+
+body .ui-datepicker .ui-datepicker-buttonpane button:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px @g_Focus inset,
+              0 0 1px 2px fade(@g_Focus, 25%) !important;
+}
+
+
+body .ui-state-hover a,
+body .ui-state-hover a:hover,
+body .ui-state-hover a:link,
+body .ui-state-hover a:visited,
+body .ui-state-focus a,
+body .ui-state-focus a:hover,
+body .ui-state-focus a:link,
+body .ui-state-focus a:visited {
+  color: @g_Link-Base;
+}
+body .ui-state-active,
+body .ui-widget-content .ui-state-active,
+body .ui-widget-header .ui-state-active {
+  background-color: darken(@ui-State-Default-BG, 10%);
+  color: @ui-State-Default-FG;
+}
+
+/* Interaction Cues
+----------------------------------*/
+body .ui-state-highlight,
+body .ui-widget-content .ui-state-highlight,
+body .ui-widget-header .ui-state-highlight {
+  background-color: lighten(@g_Accent-BG,50%);
+  color: fade(contrast(@g_Accent-FG, desaturate(darken(@g_Accent-FG,  75%), 100%), desaturate(lighten(@g_Accent-FG,  75%), 50%)), 100%);
+}
+body .ui-state-highlight a,
+body .ui-widget-content .ui-state-highlight a,
+body .ui-widget-header .ui-state-highlight a {
+  color: fade(contrast(@g_Accent-FG, desaturate(darken(@g_Accent-FG,  75%), 100%), desaturate(lighten(@g_Accent-FG,  75%), 50%)), 100%);
+}
+body .ui-state-error,
+body .ui-widget-content .ui-state-error,
+body .ui-widget-header .ui-state-error {
+  background-color: @g_Danger-BG;
+  color: @g_Danger-FG;
+}
+body .ui-state-error a,
+body .ui-widget-content .ui-state-error a,
+body .ui-widget-header .ui-state-error a {
+  color: @g_Danger-FG;
+}
+body .ui-state-error-text,
+body .ui-widget-content .ui-state-error-text,
+body .ui-widget-header .ui-state-error-text {
+  color: @g_Danger-BG
+}
+
+
+
+/* Date Picker
+----------------------------------*/
+body .ui-datepicker td span.ui-state-default,
+body .ui-datepicker td a.ui-state-default {
+  background-color: transparent;
+  color: @ui-Body-FG;
+  &.ui-state-active {
+    background-color: @g_Accent-BG;
+    color:  @g_Accent-FG;
+    font-weight: bold;
+    &.ui-state-hover {
+      background-color: @g_Accent-BG !important;
+    }
+  }
+  &.ui-state-hover {
+    background-color: contrast(@ui-Body-BG, darken(@ui-Body-BG,  5%), lighten(@ui-Body-BG,  5%),  43%) !important;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px @g_Focus inset,
+                0 0 1px 2px fade(@g_Focus, 25%) !important;
+  }
+}
+body .ui-datepicker td span.ui-state-default.ui-state-highlight,
+body .ui-datepicker td a.ui-state-default.ui-state-highlight {
+  background-color: contrast(@ui-Body-BG, darken(@ui-Body-BG,  8%), lighten(@ui-Body-BG,  8%),  43%);
+}
+body .ui-datepicker th {
+  color: contrast(@ui-Body-FG, darken(@ui-Body-FG,  25%), lighten(@ui-Body-FG,  25%),  43%);
+}
+body .ui-datepicker .ui-datepicker-header,
+body .ui-datepicker .ui-datepicker-buttonpane button,
+body .ui-datepicker .ui-datepicker-next,
+body .ui-datepicker .ui-datepicker-prev {
+  border-radius: @g_Button-BorderRadius;
+}
+
+/* Dialogs
+----------------------------------*/
+body .ui-dialog .ui-dialog-titlebar {
+  background-color: @ui-Header-BG;
+  border-bottom: 1px solid contrast(@ui-Header-BG, darken(@ui-Header-BG,   10%), lighten(@ui-Header-BG,   10%),  43%);
+}
+body .ui-dialog .ui-dialog-title {
+  color: @ui-Header-FG;
+}
+body .ui-dialog .ui-dialog-content,
+.t-Dialog-page {
+  background-color: @ui-Body-BG;
+  color: @ui-Body-FG;
+}
+
+/* Wizard Dialog
+----------------------------------*/
+
+.t-Dialog--wizard {
+  &.ui-dialog,
+  &.ui-dialog .ui-dialog-titlebar,
+  body .ui-dialog .ui-dialog-content {
+    background-color: @ui-Body-BG;
+    color: @ui-Body-FG;
+  }
+  &.ui-dialog .ui-dialog-title {
+    color: @ui-Body-FG;
+  }
+}
+
+/* Corner radius */
+body .ui-corner-all {
+  border-radius: @g_Container-BorderRadius;
+}
+
+body .ui-corner-top,
+body .ui-corner-left,
+body .ui-corner-tl {
+  border-top-left-radius: @g_Container-BorderRadius;
+}
+body .ui-corner-top,
+body .ui-corner-right,
+body .ui-corner-tr {
+  border-top-right-radius: @g_Container-BorderRadius;
+}
+body .ui-corner-bottom,
+body .ui-corner-left,
+body .ui-corner-bl {
+  border-bottom-left-radius: @g_Container-BorderRadius;
+}
+body .ui-corner-bottom,
+body .ui-corner-right,
+body .ui-corner-br {
+  border-bottom-right-radius: @g_Container-BorderRadius;
+}
+
+/* Corner radius */
+body .ui-button.ui-corner-all {
+  border-radius: @g_Button-BorderRadius;
+}
+
+body .ui-button.ui-corner-top,
+body .ui-button.ui-corner-left,
+body .ui-button.ui-corner-tl {
+  border-top-left-radius: @g_Button-BorderRadius;
+}
+body .ui-button.ui-corner-top,
+body .ui-button.ui-corner-right,
+body .ui-button.ui-corner-tr {
+  border-top-right-radius: @g_Button-BorderRadius;
+}
+body .ui-button.ui-corner-bottom,
+body .ui-button.ui-corner-left,
+body .ui-button.ui-corner-bl {
+  border-bottom-left-radius: @g_Button-BorderRadius;
+}
+body .ui-button.ui-corner-bottom,
+body .ui-button.ui-corner-right,
+body .ui-button.ui-corner-br {
+  border-bottom-right-radius: @g_Button-BorderRadius;
+}
+
+/**
+ * item type autocomplete (based on jquery.autocomplete.css)
+ */
+
+.ac_results {
+  border: 1px solid contrast(@g_Region-BG, darken(@g_Region-BG,   15%), lighten(@g_Region-BG,   15%),  43%);
+  background-color: @g_Region-BG;
+  color: contrast(@g_Region-BG, darken(@g_Region-BG,   75%), lighten(@g_Region-BG,   75%),  43%);
+}
+
+.ac_loading {
+  background: white url('../../../apex_ui/img/legacy/loading16x16.gif') right center no-repeat;
+}
+
+
+
+
+
+.ac_odd {
+  background-color:  contrast(@g_Region-BG, darken(@g_Region-BG,   5%), lighten(@g_Region-BG,   5%),  43%);
+
+}
+
+body .ac_over {
+  background-color:  @g_Accent-BG;
+  color: contrast(@g_Accent-BG, darken(@g_Accent-BG,   75%), lighten(@g_Accent-BG,   75%),  43%);
+}
+
+
+
+
+body {
+  .a-D3LineChart, .a-D3BarChart  {
+    .a-D3LineChart-axis-title {
+      fill: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  75%), 100%), desaturate(lighten(@g_Region-BG,  75%), 50%)), 100%);
+    }
+    .a-D3LineChart-axis {
+      .tick text {
+        //  .region-text();
+        fill: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  50%), 100%), desaturate(lighten(@g_Region-BG,  50%), 50%)), 100%);
+      }
+    }
+    .a-D3LineChart-axis line, .a-D3LineChart-axis path {
+        stroke: contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+    }
+  }
+  .a-D3BarChart {
+    .a-D3BarChart-axis-title {
+      fill: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  75%), 100%), desaturate(lighten(@g_Region-BG,  75%), 50%)), 100%);
+    }
+    .a-D3BarChart-grid line, .a-D3BarChart-grid {
+      stroke: contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+    }
+    .a-D3BarChart-axis {
+      line, path {
+        stroke: contrast(@g_Region-BG, darken(@g_Region-BG,   20%), lighten(@g_Region-BG,   20%),  43%);
+      }
+      .tick text {
+        fill: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,  50%), 100%), desaturate(lighten(@g_Region-BG,  50%), 50%)), 100%);
+      }
+    }
+  }
+  @d3bg: contrast(@g_Region-BG, darken(@g_Region-BG,   50%), lighten(@g_Region-BG,   50%),  43%);
+  .a-D3Tooltip {
+
+    background-color: @d3bg;
+    color: fade(contrast(@d3bg, desaturate(darken(@d3bg,  50%), 100%), desaturate(lighten(@d3bg,  50%), 50%)), 100%) !important;
+  }
+
+  .a-D3Tooltip-content {
+    border-top: contrast(@d3bg, darken(@d3bg,   10%), lighten(@d3bg,   10%),  43%);
+  }
+  .a-D3ChartLegend.a-D3ChartLegend--external-borders {
+    border-width: 0;
+  }
+  .a-D3ChartLegend-item,
+  .a-D3ChartLegend.a-D3ChartLegend--background .a-D3ChartLegend-layout {
+    background-color: transparent;
+    border-width: 0 !important;
+  }
+  .a-D3ChartLegend-item-value {
+    color: contrast(@g_Region-FG, darken(@g_Region-FG,  15%), lighten(@g_Region-FG,  15%),  43%);
+  }
+  .a-D3ChartLegend.a-D3ChartLegend--square-color .a-D3ChartLegend-item-color{
+    border-radius: 100%;
+    border-right-width: 0;
+  }
+}
+
+
+
+
+
+.MiniCal(@background, @foreground) {
+  /* Calendar Wrapper
+     ========================================================================== */
+  .a-MiniCal {
+    border: 1px solid contrast(@background, darken(@background,   10%), lighten(@background,   10%),  43%);
+    border-radius: @g_Container-BorderRadius;
+    background-color: @background;
+  }
+  /* Calendar Header
+     ========================================================================== */
+
+  .a-MiniCal-title {
+    color:  @foreground;
+  }
+
+  /* Month Calendar
+     ========================================================================== */
+  .a-MiniCal-dayOfWeek {
+    color: fade(contrast(@background, desaturate(darken(@background,  50%), 100%), desaturate(lighten(@background,  50%), 50%)), 100%);
+  }
+  .a-MiniCal-date {
+  }
+  .a-MiniCal-day {
+    border-color: contrast(@background, darken(@background,   2.5%), lighten(@background,   2.5%),  43%);
+    color: fade(contrast(@background, desaturate(darken(@background,  75%), 100%), desaturate(lighten(@background,  75%), 50%)), 100%);
+    &.is-today {
+      .a-MiniCal-date {
+        background-color: @g_Accent-BG;
+        color: @g_Accent-FG;
+      }
+    }
+    &.is-active {
+      .a-MiniCal-date {
+        background-color: @g_Warning-BG;
+        color: @g_Warning-FG;
+      }
+    }
+    &.is-weekend {
+      background-color: contrast(@background, darken(@background,   2%), lighten(@background,   2%),  43%);
+    }
+    &.is-null {
+      background-color: contrast(@background, darken(@background,   4%), lighten(@background,   4%),  43%);
+    }
+  }
+}
+
+
+.t-Body {
+  .MiniCal(@g_Body-BG, @g_Body-Text);
+}
+
+.t-Region {
+  .MiniCal(@g_Region-BG, @g_Region-FG);
+}
+
+.t-Body-actions {
+  .MiniCal(@g_Actions-Col-BG, @g_Actions-Col-Text);
+}
+.t-Body-info {
+  .MiniCal(@g_Body-Title-BG, @g_Body-Title-FG);
+}
+
+/* ==========================================================================
+  SlideToolTip Configuration
+  ========================================================================== */
+
+
+/* SlideToolTip Variables
+ ========================================================================== */
+@p_Tooltip-bg-color: darken(@g_Accent-BG, 20%);
+
+@p_Tooltip-label-color:  @g_Accent-FG;
+
+@p_Tooltip-content-color: contrast(@p_Tooltip-bg-color, darken(@p_Tooltip-bg-color,   40%), lighten(@p_Tooltip-bg-color,   40%),  43%);
+
+@p_Slide-bg-color: @g_Region-BG;
+
+@p_Slide-label-color: @g_Region-FG;
+
+@p_Slide-content-color: @p_Tooltip-bg-color;
+
+@p_List-icon-color: fade(@g_Region-FG, 50%);
+
+@p_List-title-color: @g_Region-FG;
+
+@p_List-trigger-color-active: contrast(@p_Tooltip-bg-color, darken(@p_Tooltip-bg-color,   10%), lighten(@p_Tooltip-bg-color,   10%),  43%);
+
+@p_List-trigger-font-color: fade(@g_Region-FG, 75%);
+
+@p_List-badge-color:  @g_Region-FG;
+
+@p_List-header-color: @g_Region-FG;
+
+@p_Tooltip-arrow-after: @g_Region-BG;
+
+@p_List-header-color: @g_Accent-FG;
+
+@p_Tooltip-border-radius: @g_Container-BorderRadius;
+
+// t_Acccents
+// p_SlideTooltip
+//
+
+.a-DetailedContentList-title {
+  .t-Body & {
+    color: fade(contrast(@g_Body-BG, desaturate(darken(@g_Body-BG,  75%), 100%), desaturate(lighten(@g_Body-BG,  75%), 50%)), 100%);
+  }
+  .t-Body-info & {
+    color: fade(contrast(@g_Body-Title-BG, desaturate(darken(@g_Body-Title-BG,   75%), 100%), desaturate(lighten(@g_Body-Title-BG,   75%), 50%)), 100%);
+  }
+  .t-Region &,
+  .t-ButtonRegion & {
+    color: fade(contrast(@g_Region-BG, desaturate(darken(@g_Region-BG,   75%), 100%), desaturate(lighten(@g_Region-BG,   75%), 50%)), 100%);
+  }
+}
+
+body {
+  .a-DetailedContentList-item {
+    &:focus {
+      .a-DetailedContentList-header {
+        box-shadow: 0 0 0 1px @p_List-trigger-color-active inset;
+      }
+    }
+    &.is-expanded {
+      .a-DetailedContentList-trigger {
+        background-color: @p_Tooltip-arrow-after;
+        box-shadow: 0 0 0 1px @g_Accent-BG inset;
+        color: @g_Accent-BG;
+        &:focus {
+          background-color: @p_List-trigger-color-active;
+          color: contrast(@g_Accent-BG, darken(@g_Accent-BG,   75%), lighten(@g_Accent-BG,   75%),  43%);
+          box-shadow: 0 0 0 1px @p_List-trigger-color-active inset;
+        }
+      }
+    }
+  }
+
+
+
+  .a-DetailedContentList-header {
+    &:hover {
+      //      background-color: contrast(@g_Region-BG, darken(@g_Region-BG,   10%), lighten(@g_Region-BG,   10%),  43%);
+      .region-hover();
+    }
+  }
+  .a-DetailedContentList-icon {
+    color: @p_List-icon-color;
+  }
+
+  .a-DetailedContentList-badge {
+    color: @p_List-badge-color;
+  }
+  .a-DetailedContentList-trigger {
+    background: @p_Tooltip-label-color;
+    color: @p_List-trigger-font-color;
+    &:hover {
+      color: @p_List-trigger-color-active;
+    }
+    &:focus {
+      color: @p_List-trigger-color-active;
+    }
+  }
+  .a-DetailedContentList-body {
+    background-color: @p_Slide-bg-color;
+  }
+  .content-tooltip {
+    .a-DetailedContentList-body {
+      background-color: @p_Tooltip-bg-color;
+    }
+    .a-DetailedContentList-body-row-label {
+      color: @p_Tooltip-label-color;
+    }
+    .a-DetailedContentList-body-row-content {
+      color: @p_Tooltip-content-color;
+    }
+  }
+  .a-DetailedContentList-body-header {
+    background: @p_List-header-color;
+  }
+  .a-DetailedContentList-body-row-label {
+    color: @p_Slide-label-color;
+  }
+  .a-DetailedContentList-body-row-content {
+    color: @p_Slide-content-color;
+  }
+  .a-DetailedContentList {
+    &.a-DetailedContentList--tooltip {
+      .a-DetailedContentList-body {
+
+        &:after {
+          border-color: @p_Tooltip-arrow-after transparent;
+        }
+        &:before {
+          border-color: @p_List-header-color transparent;
+        }
+      }
+    }
+  }
+  .ui-tooltip {
+
+    &.content-tooltip {
+      -webkit-border-radius: @p_Tooltip-border-radius;
+      -moz-border-radius:@p_Tooltip-border-radius;
+      border-radius: @p_Tooltip-border-radius;
+      .a-DetailedContentList-body {
+        -webkit-border-radius: @p_Tooltip-border-radius;
+        -moz-border-radius:@p_Tooltip-border-radius;
+        border-radius: @p_Tooltip-border-radius;
+      }
+      .arrow {
+        &.bottom {
+          &:before {
+            border-color: @p_Tooltip-bg-color transparent;
+          }
+          &:after {
+            border-color:  @p_Tooltip-bg-color transparent;
+          }
+          &.light {
+            &:after {
+              border-color: #eaeaea transparent;
+            }
+          }
+        }
+        &.top {
+          &:before {
+            border-color: @p_Tooltip-bg-color transparent;
+          }
+          &:after {
+            border-color: @p_Tooltip-bg-color transparent;
+          }
+        }
+        &.left {
+          &:before {
+            border-color: transparent @p_List-header-color transparent transparent;
+          }
+          &:after {
+            border-color: transparent @p_Tooltip-bg-color transparent transparent;
+          }
+        }
+        &.right {
+          &:before {
+            border-color: transparent transparent transparent @p_List-icon-color;
+          }
+          &:after {
+            border-color: transparent transparent transparent @p_Tooltip-bg-color;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@g_Accent-BG:          #505f6d;
+@g_Accent-OG:          #ececec;
+@g_Body-Title-BG:      #dee1e4;
+@g_Link-Base:          #337ac0;
+@g_Body-BG:            #f5f5f5;
+
+
+.badgelistDash (@index) when (@index > 0) {
+  .badgelistDash((@index - 1));
+  .t-BadgeList-item:nth-child(@{index}) {
+    @bg: extract(@_colors, @index);
+    background-color: @bg;
+    a {
+      color: extract(@_colors_FG, @index);
+      &.t-BadgeList-wrap:hover {
+        box-shadow: 0 -8px 0 0 contrast(@bg, darken(@bg,   10%), lighten(@bg,   10%),  43%) inset;
+      }
+    }
+  }
+}
+
+.badgelistItem (@index) when (@index > 0) {
+  .badgelistItem((@index - 1));
+  .t-BadgeList-item:nth-child(@{index}) .t-BadgeList-value {
+    border-color: darken(extract(@_colors, @index),5%);
+    color: darken(extract(@_colors, @index),5%);
+  }
+  .t-BadgeList-item:nth-child(@{index}) .t-BadgeList-wrap .t-BadgeList-value,
+  .t-BadgeList-item:nth-child(@{index}) .t-BadgeList-value a {
+    // box-shadow: 0 0 0 1px darken(nth($g-Colors,$i),5%) inset;
+    @bg: extract(@_colors, @index);
+    color: extract(@_colors_FG, @index);
+    background-color: @bg;
+  }
+}
+
+
+
+body {
+  .t-BadgeList--dash.t-BadgeList--coloredBG {
+    .badgelistDash (length(@_colors));
+  }
+
+  .t-BadgeList--circular.t-BadgeList--coloredBG {
+    .badgelistItem (length(@_colors));
+  }
+}
+
+.t-Cards--colorize {
+  .badgelistDash (length(@_colors));
+}
+
+
+
+
+
+.loopingClass (@index) when (@index > 0) {
+  .badgelistDash((@index - 1));
+  //  @for $ i from 1 through length($ _colors) {
+
+  .t-Cards-item:nth-child(@{index}) .t-Card-wrap {
+    &:before {
+//        background-color: nth($ _colors, $ i);
+      background-color: extract(@_colors, @index);
+    }
+  }
+  @selector: ~".t-Cards-item:nth-child(@{index}) .t-Card-icon .t-Icon";
+  @{selector} {
+    background-color: extract(@_colors, @index);
+  };
+
+
+
+  //  }
+//  //  @for $ i from 1 through length($ _colors) {
+//  .t-Cards-item:nth-child(#{$i}) .t-Card-icon .t-Icon {
+//    background-color: extract(@_colors, @index);
+////    background-color: nth($ _colors, $ i);
+//  }
+  //  }
+}
+
+
+// ios-inspired 7 colors
+.u-colors(@index) when (@index > 0) {
+  .u-colors(@index - 1);
+  @selector: ~".u-ColorBG--@{index}";
+  @{selector} {
+    background-color: extract(@_colors, @index);
+  };
+  @selectorz: ~".u-ColorFG--@{index}";
+  @{selectorz} {
+     color: extract(@_colors, @index);
+  };
+}
+
+.li-colors (@index) when (@index > 0) {
+  .badgelistItem((@index - 1));
+  &:nth-child(@{index})  {
+    background-color: extract(@_colors, @index);
+  }
+}
+
+
+.u-colors(length(@_colors));
+
+/*@g_Accent-1-BG : blue;
+@g_Accent-2-BG : red;
+@g_Accent-3-BG : green;
+@g_Accent-4-BG : yellow;
+@g_Accent-5-BG : gray;
+
+@g_Accent-1-FG : blue;
+@g_Accent-2-FG : red;
+@g_Accent-3-FG : green;
+@g_Accent-4-FG : yellow;
+@g_Accent-5-FG : gray;
+*/
+.a_GlobalColorRules(30, 10);
+
+.a_GlobalColorRules(@counter, @varNumber) when (@counter > @varNumber) {
+  .a_GlobalColorRules(@counter - 1, @varNumber);
+
+  // Must keep in sync with UT's LESS!
+  @accentNumber : mod(@counter - 1, @varNumber) + 1;
+  @varName : 		%("g_Color-Palette-%s", @accentNumber);
+  @varName2 :		%("g_Color-Palette-%s-FG", @accentNumber);
+  @darkenPct : 	(floor((@counter - 1) / @varNumber / 2) + 1) * 10%;
+
+  // 1 or -1
+  @darkenFactor : 2 * ( sin( 1rad * floor((@counter - 1) / @varNumber) * pi() / 2 ) - 0.5 );
+
+  .u-Color-@{counter}-BG {
+    &--txt 			{ color : darken(@@varName, @darkenPct * @darkenFactor); }
+    &--bg 			{ background-color : darken(@@varName, @darkenPct * @darkenFactor); }
+    &--fill 		{ fill : darken(@@varName, @darkenPct * @darkenFactor); }
+    &--br 			{ stroke : darken(@@varName, @darkenPct * @darkenFactor); border-color : darken(@@varName, @darkenPct * @darkenFactor); }
+  }
+  .u-Color-@{counter}-FG {
+    &--txt 			{ color : lighten(@@varName2, @darkenPct); }
+    &--bg 			{ background-color : lighten(@@varName2, @darkenPct); }
+    &--fill 		{ fill : lighten(@@varName2, @darkenPct); }
+    &--br 			{ stroke : lighten(@@varName2, @darkenPct); border-color : lighten(@@varName2, @darkenPct); }
+  }
+}
+
+.a_GlobalColorRules(@counter, @varNumber) when (@counter <= @varNumber) and (@counter > 0) {
+  .a_GlobalColorRules(@counter - 1, @varNumber);
+
+  // Must keep in sync with UT's LESS!
+  @accentNumber : mod(@counter - 1, @varNumber) + 1;
+  @varName : 		%("g_Color-Palette-%s", @accentNumber);
+  @varName2 :		%("g_Color-Palette-%s-FG", @accentNumber);
+
+  .u-Color-@{counter}-BG {
+    &--txt 			{ color : @@varName; }
+    &--bg 			{ background-color : @@varName; }
+    &--fill 		{ fill : @@varName; }
+    &--br 			{ stroke : @@varName; border-color : @@varName; }
+  }
+  .u-Color-@{counter}-FG {
+    &--txt 			{ color : @@varName2; }
+    &--bg 			{ background-color : @@varName2; }
+    &--fill 		{ fill : @@varName2; }
+    &--br 			{ stroke : @@varName2; border-color : @@varName2; }
+  }
+}
+.u-focused {
+  box-shadow:
+  0 0 0 1px @g_Color-Palette-1,
+  0 0 1px 0px fadeout(@g_Color-Palette-1, 50%) !important;
+  outline: none;
+}

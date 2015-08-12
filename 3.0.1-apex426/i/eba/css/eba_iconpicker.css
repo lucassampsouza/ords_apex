@@ -1,0 +1,89 @@
+div.ebaIconPicker {
+	overflow: hidden;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+  border: 1px solid #999999;
+  margin: 0 0 10px;
+  padding: 1px;
+	background: -webkit-gradient(linear,0 0,0 100%,from(#cccccc),to(#ffffff));
+	background: -moz-linear-gradient(top, #cccccc, #ffffff);
+	}
+div.ebaIconPicker ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+	div.ebaIconPicker ul li {
+		float: left;
+		display: block;
+		margin: 0;
+		}
+	div.ebaIconPicker ul li a {
+		display: block;
+		text-decoration: none;
+		width: 94px;
+		height: 98px;
+		outline: none;
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		padding: 10px 5px;
+		-webkit-transition: background-color .2s linear;
+		}
+		div.ebaIconPicker ul li a {
+			border: 1px solid;
+			border-color: transparent; 
+			width: 64px;
+			height: 64px;
+			padding: 4px;
+			margin: 0 2px 0 0;
+			}
+		div.ebaLaunchPad ul li a:hover {
+		  border: 1px solid #ffffff;
+			background: -webkit-gradient(linear,0 0,0 100%,from(#808080),to(#dddddd));
+			background: -moz-linear-gradient(top, #808080, #dddddd);
+			text-decoration: none;
+			}				
+		div.ebaLaunchPad ul li a.selectedIcon {
+		  border: 1px solid #ffffff;			
+			background: -webkit-gradient(linear,0 0,0 100%,from(#990000),to(#ff9999));
+			background: -moz-linear-gradient(top, #990000, #ff9999);
+			text-decoration: none;
+			}				
+		div.ebaIconPicker ul li a span.ebaAppIcon {
+			display: block;
+			margin: 0 auto;
+			padding: 0;
+			width: 64px;
+			height: 64px;
+			-webkit-border-radius: 12px;
+			-moz-border-radius: 12px;
+			border-radius: 12px;
+			background: #DDD;
+			background: -webkit-gradient(linear,0 0,0 100%, from(#FFF), to(#DDD));
+			background: -moz-linear-gradient(top, #FFF, #DDD);
+			-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.4);
+			-moz-box-shadow: 0 2px 4px rgba(0,0,0,.4);
+			}
+		div.ebaIconPicker ul li a span.ebaAppIcon img {
+			width: 64px;
+			height: 64px;
+			background-image: url(../img/eba_launchpad_generic.png);
+			background-repeat: no-repeat;
+			border: none;
+			-webkit-border-radius: 11px;
+			-moz-border-radius: 11px;
+			border-radius: 11px;
+			-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+			-moz-box-shadow: 0 0 0 1px rgba(0,0,0,.25) inset;
+			}
+div.ebaIconPicker ul li a span.ebaAppIcon img.icon1 {background-position:0 0;}
+div.ebaIconPicker ul li a span.ebaAppIcon img.icon2 {background-position:-64px 0;}
+div.ebaIconPicker ul li a span.ebaAppIcon img.icon3 {background-position:-128px 0;}
+div.ebaIconPicker ul li a span.ebaAppIcon img.icon4 {background-position:-192px 0;}
+div.ebaIconPicker ul li a span.ebaAppIcon img.icon5 {background-position:-256px 0;}
+div.ebaIconPicker ul li a span.ebaAppIcon img.icon6 {background-position:-320px 0;}
+div.ebaIconPicker ul li a span.ebaAppIcon img.icon7 {background-position:-384px 0;}
+div.ebaIconPicker ul li a span.ebaAppIcon img.icon8 {background-position:-448px 0;}
+div.ebaIconPicker ul li a span.ebaAppIcon img.icon9 {background-position:-512px 0;}
+div.ebaIconPicker ul li a span.ebaAppIcon img.icon10{background-position:-576px 0;}
+div.ebaIconPicker ul li a span.ebaAppIcon img.icon11{background-position:0 -64px;}

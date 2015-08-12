@@ -1,0 +1,138 @@
+<map_data>
+ <name>iraq</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="38.7947006225586" top="37.3844375610352" right="48.5638809204102" bottom="29.0616607666016"/>
+ <regions>
+  <region>
+   <centroid lat="33.6032409667969" lon="41.4527626037598"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-AAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Anbar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.1932926177979" lon="47.5556182861328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-ABS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Basrah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.4015216827393" lon="45.2747688293457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-AMT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Muthanna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.8433246612549" lon="45.1083297729492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-AQD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Qadisiyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.570592880249" lon="45.4616584777832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-ASL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[As Sulaymaniyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6331825256348" lon="44.5091934204102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-BAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Babil]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.3191566467285" lon="44.4175567626953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-BGH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baghdad]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.865650177002" lon="43.3307228088379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-DAH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dahuk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2506542205811" lon="46.3776245117188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-DQA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dhi Qar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1184616088867" lon="45.1496162414551"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-DIY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Diyala]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3837432861328" lon="44.1847152709961"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-IRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arbil]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.8380737304688" lon="42.15744972229"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-KRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karbala']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3476333618164" lon="44.1112442016602"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-ATA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[At Ta'min]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.991153717041" lon="47.106273651123"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-MYS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maysan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8835258483887" lon="42.5359573364258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-NIN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ninawa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.7227325439453" lon="45.5250091552734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-WAS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wasit]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.093692779541" lon="43.8509540557861"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-ANA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[An Najaf]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5643157958984" lon="44.1307640075684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRQ-SAD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salah ad Din]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

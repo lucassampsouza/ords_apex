@@ -1,0 +1,83 @@
+
+
+/* = APEX Business Applications - Information Bubble = */
+
+ul.ebaInfoBubble {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+	ul.ebaInfoBubble li {
+		margin-bottom: 10px;
+		}
+		ul.ebaInfoBubble li.subBubble {
+			margin-left: 20px;
+		}
+		ul.ebaInfoBubble li:last-child {
+			margin-bottom: 0;
+			}
+	ul.ebaInfoBubble li div {
+		padding: 5px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		font: normal 12px/16px Arial, sans-serif;
+		border: 1px solid #CCC;
+		background-color: #F8F8F8;
+		color: #222;
+		}
+		ul.ebaInfoBubble li.subBubble div {
+			border: 1px solid #CCC;
+			background-color: #EAEAEA;
+			}
+	ul.ebaInfoBubble li div strong.msgLabel {
+		color: #666;
+		display: block;
+		font: bold 11px/16px Arial, sans-serif;
+		}
+	ul.ebaInfoBubble li span {
+		background: url(../img/eba_info_bubble.png) 10px 0 no-repeat;
+/*		background: url(../img/ws_control_icons.png) -62px -23px no-repeat;*/
+		display: block;
+		font: normal 11px/12px Arial, sans-serif;
+		padding: 2px 0 0 25px;
+		color: #666;
+		margin-top: -1px;
+		}
+		ul.ebaInfoBubble li.subBubble span {
+			background: url(../img/eba_info_bubble.png) 10px -50px no-repeat;
+			}
+
+		ul.ebaInfoBubble li span a {
+			color: #222;
+			text-decoration: none;
+			border-bottom: 1px solid #FFF;
+			-webkit-transition: border-bottom .2s linear;
+			}
+			ul.ebaInfoBubble li span a:hover { border-bottom: 1px solid #444;}
+			
+a.ebaViewAllComments {
+	display: inline-block;
+	font: normal 11px/18px Arial, sans-serif;
+	padding: 0 0 0 24px;
+	margin: 10px 0;
+	background: url(../img/eba_info_bubble.png) 0 -100px no-repeat;
+	color: #444;
+	text-decoration: none;
+	cursor: pointer;
+	}
+	a.ebaViewAllComments:hover {
+		text-decoration: underline;
+		}
+		
+ul.ebaInfoBubble li div em {
+	display: inline-block;
+	padding: 2px 5px;
+	margin: 0 5px 0 0;
+	font: bold 11px/12px Arial, sans-serif;
+	border: 1px solid #BBB;
+	background: -webkit-gradient(linear,0 0,0 100%,from(#EEE),to(#CCC));
+/*	text-shadow: 0 1px 0 rgba(255,255,255,.75);*/
+	color: #333;
+	border-radius: 3px;
+	}

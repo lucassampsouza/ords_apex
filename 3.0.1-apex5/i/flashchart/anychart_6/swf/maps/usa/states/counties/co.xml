@@ -1,0 +1,453 @@
+<map_data>
+ <name>co</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-109.055198669434" top="41.0034103393555" right="-102.036758422852" bottom="36.9889717102051"/>
+ <regions>
+  <region>
+   <centroid lat="40.6069774627686" lon="-108.177013397217"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08081]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moffat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7378617758133" lon="-104.302562278785"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08123]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Weld]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6620597839355" lon="-106.355953216553"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jackson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7150936126709" lon="-103.114883422852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08075]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Logan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.8701114654541" lon="-102.349166870117"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08115]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sedgwick]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.4577102661133" lon="-107.034164428711"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08107]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Routt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7638740706871" lon="-105.507798607936"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Larimer]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.5871086120605" lon="-102.354431152344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08095]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phillips]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.2545070648193" lon="-103.797946929932"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08087]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morgan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0794124603271" lon="-106.139408111572"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grand]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.9991207122803" lon="-102.424507141113"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08125]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yuma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.8187606902742" lon="-103.24472895392"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08121]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0834217071533" lon="-105.367546081543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boulder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.9292049407959" lon="-108.043151855469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08103]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rio Blanco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5152839167471" lon="-108.030991210689"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Garfield]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.8639144897461" lon="-104.374485015869"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Adams]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.8376941680908" lon="-105.536853790283"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gilpin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.6366958618164" lon="-106.107753753662"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08117]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Summit]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.6323051452637" lon="-106.640411376953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eagle]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5171680450439" lon="-105.215934753418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jefferson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.702428817749" lon="-105.65238571167"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clear Creek]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.7149829864502" lon="-104.941192626953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Denver]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.644458770752" lon="-104.374912261963"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arapahoe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2985935211182" lon="-102.6032371521"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kit Carson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.700232010703" lon="-103.600230317194"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08073]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lincoln]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2104358673096" lon="-104.184028625488"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Elbert]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1271438598633" lon="-105.753520965576"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08093]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Park]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.3426837921143" lon="-104.984939575195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Douglas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2130088806152" lon="-106.354244232178"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lake]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8389642500296" lon="-107.909600501279"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Delta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1664657592773" lon="-106.940055847168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08097]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pitkin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.6482074209555" lon="-106.94714559095"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gunnison]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1597825534725" lon="-108.36048027909"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08077]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mesa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8203964233398" lon="-104.552890777588"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[El Paso]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8867378234863" lon="-105.124870300293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08119]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Teller]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7417945861816" lon="-106.237873077393"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chaffee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8227634429932" lon="-102.610397338867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cheyenne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.471435546875" lon="-105.475200653076"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fremont]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4114837646484" lon="-108.275970458984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08085]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montrose]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4356994628906" lon="-102.771739959717"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kiowa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1233158111572" lon="-104.545009613037"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08101]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pueblo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.3097667694092" lon="-103.771427154541"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Crowley]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0990295410156" lon="-106.223514556885"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08109]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saguache]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1144504547119" lon="-107.816272735596"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08091]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ouray]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9523944854736" lon="-102.387561798096"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08099]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prowers]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9509830474854" lon="-103.054786682129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9465217590332" lon="-103.722709655762"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08089]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Otero]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0646820068359" lon="-105.405838012695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Custer]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9599609375" lon="-108.388172149658"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08113]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Miguel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.971887754238" lon="-107.293976189267"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hinsdale]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6432685852051" lon="-104.928672790527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Huerfano]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7991237640381" lon="-107.708808898926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08111]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Juan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6810474395752" lon="-106.91907119751"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08079]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mineral]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.762056350708" lon="-108.453495025635"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dolores]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6115818023682" lon="-106.371292114258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08105]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rio Grande]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2001896729835" lon="-104.103134684753"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Las Animas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5439624786377" lon="-105.743587493896"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alamosa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3159046173096" lon="-102.55721282959"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.31662940979" lon="-105.454563140869"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Costilla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4343003268472" lon="-108.551237108164"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08083]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montezuma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1655066131518" lon="-107.857575911531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Plata]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2074661254883" lon="-106.97424697876"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Archuleta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1939029693604" lon="-106.186061859131"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[08021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Conejos]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

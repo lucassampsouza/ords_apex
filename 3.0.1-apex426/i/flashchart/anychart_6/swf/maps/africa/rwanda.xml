@@ -1,0 +1,82 @@
+<map_data>
+ <name>rwanda</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="28.8533325195313" top="-1.05388903617859" right="30.8944435119629" bottom="-2.82666683197021"/>
+ <regions>
+  <region>
+   <centroid lat="-2.55295670032501" lon="29.7614555358887"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RWA-BUT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Butare]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.46911001205444" lon="30.3596878051758"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RWA-BYM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Byumba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.478835105896" lon="29.1084566116333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RWA-CYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cyangugu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.51652789115906" lon="29.5048751831055"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RWA-GKN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gikongoro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.76196372509003" lon="29.3987483978271"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RWA-GSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gisenyi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.0393785238266" lon="29.802544593811"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RWA-GTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gitarama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.02786666154861" lon="30.5740270614624"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RWA-KBN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kibungo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.09205251932144" lon="29.3806600570679"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RWA-KIB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kibuye]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.04369938373566" lon="30.079195022583"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RWA-KIG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kigali]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.53847193717957" lon="29.6956748962402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RWA-RHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ruhengeri]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,47 @@
+<map_data>
+ <name>kuwait</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="46.5469436645508" top="30.0844383239746" right="48.4165878295898" bottom="28.5388832092285"/>
+ <regions>
+  <region>
+   <centroid lat="29.2576951980591" lon="47.9381294250488"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KWT-AFR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Farwaniyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.2882785797119" lon="48.0385494232178"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KWT-HWL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hawalli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.90256690979" lon="47.9399909973145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KWT-AHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Ahmadi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.6680335998535" lon="48.1247005462646"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KWT-AKW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Kuwayt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.5344514846802" lon="47.3574981689453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KWT-AJH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Jahrah]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

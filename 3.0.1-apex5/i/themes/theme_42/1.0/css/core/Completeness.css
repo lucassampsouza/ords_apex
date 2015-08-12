@@ -1,0 +1,67 @@
+/** 
+ * Import Compass
+ */
+/* ==========================================================================
+   Completeness Chart
+   ========================================================================== */
+/* ==========================================================================
+   Dialog
+   ========================================================================== */
+.t-Completeness-dialog p:empty {
+  display: none; }
+
+td.t-Completeness-negScore {
+  color: #EA0000; }
+
+/* ==========================================================================
+   Chart
+   ========================================================================== */
+.t-Completeness {
+  display: block;
+  position: relative;
+  border-radius: 2px;
+  background-color: #FFF;
+  overflow: hidden;
+  transition: all 0.2s;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset; }
+  .t-Completeness.is-danger .t-Completeness-fill {
+    background-color: #ff3b30; }
+  .t-Completeness.is-warning .t-Completeness-fill {
+    background-color: #ffcc00; }
+  .t-Completeness.is-success .t-Completeness-fill {
+    background-color: #4cd964; }
+
+a.t-Completeness:hover {
+  text-decoration: none; }
+  a.t-Completeness:hover .t-Completeness-labelWrap {
+    background-color: rgba(0, 0, 0, 0.25); }
+  a.t-Completeness:hover .t-Completeness-label {
+    background-color: #fff; }
+
+.t-Completeness-fill {
+  transition: all 0.2s;
+  display: block;
+  float: left;
+  height: 48px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset; }
+
+.t-Completeness-labelWrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center; }
+
+.t-Completeness-label {
+  transition: all 0.1s;
+  display: inline-block;
+  line-height: 24px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 4px 12px;
+  margin: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #404040;
+  color: rgba(0, 0, 0, 0.75); }

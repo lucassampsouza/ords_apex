@@ -1,0 +1,45 @@
+/* ==========================================================================
+ Layout utilities
+ ========================================================================== */
+/**
+* Float Right / Left
+*/
+/* line 39, ../../scss/util/u-Layout.scss */
+.u-staticWidth {
+  padding: 64px 5%;
+}
+/* line 43, ../../scss/util/u-Layout.scss */
+.u-staticWidth .apex-grid-container {
+  width: 100%;
+}
+
+/* line 48, ../../scss/util/u-Layout.scss */
+.u-circlePhoto {
+  border-radius: 100%;
+}
+
+/* line 55, ../../scss/util/u-Layout.scss */
+.u-Layout--centerVertically {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/* line 88, ../../scss/util/u-Layout.scss */
+.u-Border--bottom {
+  border-bottom-width: 1px !important;
+}
+
+/* line 91, ../../scss/util/u-Layout.scss */
+.u-Border--top {
+  border-top-width: 1px !important;
+}

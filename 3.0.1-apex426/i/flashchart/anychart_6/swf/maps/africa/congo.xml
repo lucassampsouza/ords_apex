@@ -1,0 +1,75 @@
+<map_data>
+ <name>congo</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="11.140661239624" top="3.71305513381958" right="18.6436080932617" bottom="-5.01638889312744"/>
+ <regions>
+  <region>
+   <centroid lat="-4.12361121177673" lon="13.4949989318848"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COG-BOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bouenza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.317500233650208" lon="15.7033176422119"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COG-CVT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cuvette]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.26291680335999" lon="11.9598541259766"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COG-KOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kouilou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.07152795791626" lon="13.4722213745117"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COG-LEK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lekoumou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.47462218999863" lon="17.5424633026123"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COG-LIK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Likouala]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.35277795791626" lon="12.5609016418457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COG-NIA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niari]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.01097238063812" lon="15.3910980224609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COG-PLT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Plateaux]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.38903196156025" lon="15.0911102294922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COG-SNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sangha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.81236171722412" lon="15.0441598892212"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COG-POO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pool]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,124 @@
+<map_data>
+ <name>germany</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="5.86694431304932" top="55.0566635131836" right="15.0388870239258" bottom="47.2747192382813"/>
+ <regions>
+  <region>
+   <centroid lat="48.6616230010986" lon="8.99152708053589"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-BWR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baden-Wurttemberg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.9163856506348" lon="11.4036102294922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-BYR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bayern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.3208274841309" lon="8.74049282073975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-BRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bremen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.6277732849121" lon="9.12032222747803"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-NDR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niedersachsen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.521556854248" lon="8.98283863067627"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-HSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hessen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.209300994873" lon="9.79666519165039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-SHL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Schleswig-Holstein]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.4246406555176" lon="7.66013813018799"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-NWS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nordrhein-Westfalen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.3711051940918" lon="6.87365961074829"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-SRL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saarland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.9495658874512" lon="7.30694389343262"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-RPF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rheinland-Pfalz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.8599052429199" lon="12.5071859359741"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-MKV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mecklenburg-Vorpommern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.4895858764648" lon="13.4226341247559"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-BER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berlin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.5658264160156" lon="10.0337324142456"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-HMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hamburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.9324989318848" lon="13.4676384925842"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-SCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sachsen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.9843006134033" lon="11.849428653717"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-SCA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sachsen-Anhalt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.9209136962891" lon="11.2386860847473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-THR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thuringen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.3808498382568" lon="13.1682844161987"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU-BRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brandenburg]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

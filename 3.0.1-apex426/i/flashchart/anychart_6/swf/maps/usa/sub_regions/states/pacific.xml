@@ -1,0 +1,59 @@
+<map_data>
+ <name>pacific</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="STATE_FIPS" key="true"/>
+  <column name="SUB_REGION" key="false"/>
+ </columns>
+ <bounds left="-125.463921613118" top="49" right="-94.8807494207861" bottom="19.8932814128116"/>
+ <regions>
+  <region>
+   <centroid lat="24.5736421265078" lon="-113.662534152788"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alaska]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[02]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2716274261475" lon="-120.824787139893"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[53]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.112024307251" lon="-120.513919830322"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oregon]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[41]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2690353393555" lon="-119.257961273193"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[California]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[06]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.602968765127" lon="-97.5770105686923"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hawaii]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[15]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

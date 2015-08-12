@@ -1,0 +1,34 @@
+/* Set up Variable Colors */
+/* line 29, ../scss/eba_uniframe_ie.scss */
+div.ebaFrameHeader {
+  filter: none;
+  background: url(../img/eba_gradients_ie.png) 0 0 repeat-x #cccccc; }
+
+/* line 33, ../scss/eba_uniframe_ie.scss */
+div.ebaFrameHeader div.ebaButtons a {
+  color: #404040; }
+
+/* line 37, ../scss/eba_uniframe_ie.scss */
+div.contentSection h2.secondaryHeading {
+  background: none #FFF;
+  filter: none; }
+
+/*table.ebaReportView thead tr th {
+	filter: none;
+	background: none;
+}*/
+/* line 45, ../scss/eba_uniframe_ie.scss */
+table.ebaReportView tbody tr:first-child td {
+  border-top: 1px solid #CCC; }
+
+/* line 48, ../scss/eba_uniframe_ie.scss */
+table.ebaReportView tbody tr td {
+  border-bottom: 1px solid #EEE; }
+
+/* Wizard Progress List */
+/* line 56, ../scss/eba_uniframe_ie.scss */
+ul.ebaProgressWizard li:last-child span, ul.ebaProgressWizard li.last-current span, ul.ebaProgressWizard li.last-non-current span {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  border-right: 1px solid #666666; }

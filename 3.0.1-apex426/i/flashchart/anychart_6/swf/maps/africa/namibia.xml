@@ -1,0 +1,194 @@
+<map_data>
+ <name>namibia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="11.7166652679443" top="-16.9527778625488" right="25.2644309997559" bottom="-28.9622230529785"/>
+ <regions>
+  <region>
+   <centroid lat="-26.7386894226074" lon="17.1018028259277"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-BTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bethanien]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-17.9790153503418" lon="24.2744369506836"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-COO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caprivi Oos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.585973739624" lon="19.9966678619385"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-BSM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boesmanland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.3784732818604" lon="18.9804153442383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-GBB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gobabis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.5812511444092" lon="17.9674835205078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-GRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grootfontein]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.2459354400635" lon="13.2151384353638"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-KKL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kaokoland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.416410446167" lon="15.6981935501099"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-KRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karibib]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.5709753036499" lon="18.8303546905518"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-KTM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Keetmanshoop]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.8083362579346" lon="16.1495752334595"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-LDR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Luderitz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.8633346557617" lon="16.4889497756958"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-MLT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maltahohe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-21.6699829101563" lon="17.4026355743408"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-OKH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Okahandja]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-21.2124042510986" lon="16.0336141586304"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-OMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Omaruru]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-20.6348552703857" lon="16.8540191650391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-OTJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Otjiwarongo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.5481967926025" lon="15.5579147338867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-OUT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Outjo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.0776691436768" lon="15.9970254898071"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-OWM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Owambo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-23.6016693115234" lon="17.0052757263184"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-RHB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rehoboth]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.180362701416" lon="14.3134737014771"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-SWK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Swakopmund]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.0255565643311" lon="17.2144775390625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-TSM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tsumeb]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-28.0468063354492" lon="18.5831317901611"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-KRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karasburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.8650722503662" lon="17.1206865310669"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-WND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Windhoek]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-20.737361907959" lon="14.4340286254883"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-DMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Damaraland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-21.9339733123779" lon="19.7509078979492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-HOO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hereroland Oos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-20.3093547821045" lon="18.5156917572021"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-HWE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hereroland Wes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.2876682281494" lon="20.6414699554443"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-KVN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kavango]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.5659770965576" lon="18.5626373291016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-MRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mariental]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-25.8096694946289" lon="17.8476247787476"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NAM-NML]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Namaland]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,117 @@
+<map_data>
+ <name>az</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-114.82096862793" top="37.0039291381836" right="-109.04500579834" bottom="31.3355350494385"/>
+ <regions>
+  <region>
+   <centroid lat="35.2889881134033" lon="-110.2829246521"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Navajo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6319561004639" lon="-112.042694091797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coconino]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6029739379883" lon="-113.628955841064"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mohave]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2385921478271" lon="-109.521198272705"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Apache]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7198371887207" lon="-112.394435882568"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yavapai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7551040649414" lon="-110.849170684814"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gila]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.681697845459" lon="-114.030426025391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Paz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2801723480225" lon="-112.186206817627"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maricopa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.1139183044434" lon="-109.274021148682"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greenlee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0466423034668" lon="-109.790554046631"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Graham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.7723255157471" lon="-114.074508666992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yuma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.9938430786133" lon="-111.326873779297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pinal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.9784984588623" lon="-111.887561798096"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pima]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.8914012908936" lon="-109.751342773438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cochise]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.5378856658936" lon="-110.909252166748"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[04023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Cruz]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

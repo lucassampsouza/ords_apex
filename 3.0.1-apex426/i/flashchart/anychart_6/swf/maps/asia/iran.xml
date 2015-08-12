@@ -1,0 +1,180 @@
+<map_data>
+ <name>iran</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="44.0341567993164" top="39.7805404663086" right="63.3419342041016" bottom="25.0766639709473"/>
+ <regions>
+  <region>
+   <centroid lat="37.885684967041" lon="45.6852645874023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-AEB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Azarbayjan-e Bakhtari]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2293281555176" lon="46.9994316101074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-AEK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Azarbayjan-e Khavari]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.687219619751" lon="52.477352142334"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-ESF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Esfahan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.2691631317139" lon="61.0676307678223"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-BVS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sistan va Baluchestan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.8425769805908" lon="50.8048515319824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-BAV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kohkiluyeh va buyer Ahmadi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.457218170166" lon="53.0998573303223"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-FAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fars]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5138740539551" lon="49.567756652832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-GIL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gilan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9198570251465" lon="48.6047134399414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-HMD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hamadan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0934867858887" lon="46.8461036682129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-ILA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ilam]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.0457954406738" lon="56.9680480957031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-KRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kerman]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4673728942871" lon="46.7234420776367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-BKH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bakhtaran]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.5216598510742" lon="49.0184211730957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-KHZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khuzestan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.634578704834" lon="46.8705863952637"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-KRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kordestan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.9494361877441" lon="53.2856864929199"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-MZN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mazandaran]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.8095207214355" lon="51.5112419128418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-BUS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bushehr]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.5273513793945" lon="48.4533271789551"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-LRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lorestan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6245765686035" lon="50.4215202331543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-MRK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Markazi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8415184020996" lon="54.4922142028809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-SMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Semnan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6373519897461" lon="51.7256851196289"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-TER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tehran]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.351375579834" lon="49.0073204040527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-ZNJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zanjan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.9061031341553" lon="50.5562438964844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-CMV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chahar Mahall va Bakhtiari]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.1959686279297" lon="55.9664459228516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-HRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hormozgan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3386840820313" lon="58.2973518371582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-KHR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khorasan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.6422157287598" lon="54.7615165710449"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRN-YAZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yazd]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

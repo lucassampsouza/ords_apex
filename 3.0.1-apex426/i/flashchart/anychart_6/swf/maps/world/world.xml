@@ -1,0 +1,1989 @@
+<map_data>
+ <name>world</name>
+ <defaultProjection>mercator</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="FIPS" key="true"/>
+ </columns>
+ <bounds left="-180" top="83.6022033691406" right="180" bottom="-55.7195854187012"/>
+ <regions>
+  <region>
+   <centroid lat="12.5194430351257" lon="-69.9672622680664"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aruba]]></value></item>
+    <item column="FIPS"><value><![CDATA[AA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.3570108413696" lon="-61.7878494262695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Antigua and Barbuda]]></value></item>
+    <item column="FIPS"><value><![CDATA[AC]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9390411376953" lon="67.710090637207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Afghanistan]]></value></item>
+    <item column="FIPS"><value><![CDATA[AF]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7874011993408" lon="9.52999925613403"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tunisia]]></value></item>
+    <item column="FIPS"><value><![CDATA[TS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.1467800140381" lon="47.5769271850586"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Azerbaijan]]></value></item>
+    <item column="FIPS"><value><![CDATA[AJ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.1352729797363" lon="20.1653099060059"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Albania]]></value></item>
+    <item column="FIPS"><value><![CDATA[AL]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0690994262695" lon="45.0406532287598"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Armenia]]></value></item>
+    <item column="FIPS"><value><![CDATA[AM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.5240955352783" lon="1.61377644538879"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Andorra]]></value></item>
+    <item column="FIPS"><value><![CDATA[AN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.2051405906677" lon="17.8909702301025"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Angola]]></value></item>
+    <item column="FIPS"><value><![CDATA[AO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-14.3149309158325" lon="-170.688545227051"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[American Samoa]]></value></item>
+    <item column="FIPS"><value><![CDATA[AQ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-51.7962532043457" lon="-59.4361820220947"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Falkland Islands (Islas Malvinas)]]></value></item>
+    <item column="FIPS"><value><![CDATA[FK]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.50638890266418" lon="148.386810302734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Papua New Guinea]]></value></item>
+    <item column="FIPS"><value><![CDATA[PP]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.7131195068359" lon="13.3499774932861"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Austria]]></value></item>
+    <item column="FIPS"><value><![CDATA[AU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.2166652679443" lon="-63.0944480895996"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Anguilla]]></value></item>
+    <item column="FIPS"><value><![CDATA[AV]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.9304141998291" lon="50.6276359558105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bahrain]]></value></item>
+    <item column="FIPS"><value><![CDATA[BA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.1927766799927" lon="-59.5301399230957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Barbados]]></value></item>
+    <item column="FIPS"><value><![CDATA[BB]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.3329658508301" lon="24.6851444244385"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Botswana]]></value></item>
+    <item column="FIPS"><value><![CDATA[BC]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.3168697357178" lon="-64.7587547302246"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bermuda]]></value></item>
+    <item column="FIPS"><value><![CDATA[BD]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.1115493774414" lon="5.28961515426636"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Netherlands]]></value></item>
+    <item column="FIPS"><value><![CDATA[NL]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.9065265655518" lon="-75.8736190795898"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bahamas, The]]></value></item>
+    <item column="FIPS"><value><![CDATA[BF]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.1235797405243" lon="82.7526626586914"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[India]]></value></item>
+    <item column="FIPS"><value><![CDATA[IN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.1863899230957" lon="-88.5130882263184"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Belize]]></value></item>
+    <item column="FIPS"><value><![CDATA[BH]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.465404510498" lon="16.5083684921265"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Croatia]]></value></item>
+    <item column="FIPS"><value><![CDATA[HR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-16.2865633964539" lon="-63.5700073242188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bolivia]]></value></item>
+    <item column="FIPS"><value><![CDATA[BL]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.6854801177979" lon="90.3566055297852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bangladesh]]></value></item>
+    <item column="FIPS"><value><![CDATA[BG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.30768966674805" lon="2.31583309173584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Benin]]></value></item>
+    <item column="FIPS"><value><![CDATA[BN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.701000213623" lon="27.9527292251587"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Byelarus]]></value></item>
+    <item column="FIPS"><value><![CDATA[BO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.24284720420837" lon="161.294403076172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Solomon Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[BP]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-23.4406270980835" lon="-58.4438323974609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paraguay]]></value></item>
+    <item column="FIPS"><value><![CDATA[PA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.5194816589355" lon="90.4205474853516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bhutan]]></value></item>
+    <item column="FIPS"><value><![CDATA[BT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.7338752746582" lon="25.4742603302002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bulgaria]]></value></item>
+    <item column="FIPS"><value><![CDATA[BU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-54.4266719818115" lon="3.41999983787537"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bouvet Island]]></value></item>
+    <item column="FIPS"><value><![CDATA[BV]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.53284621238709" lon="114.723575592041"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brunei]]></value></item>
+    <item column="FIPS"><value><![CDATA[BX]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.37847256660461" lon="29.9340515136719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Burundi]]></value></item>
+    <item column="FIPS"><value><![CDATA[BY]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.9147872924805" lon="19.1463174819946"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Poland]]></value></item>
+    <item column="FIPS"><value><![CDATA[PL]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.9584693908691" lon="105.802795410156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vietnam]]></value></item>
+    <item column="FIPS"><value><![CDATA[VM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.4759364128113" lon="18.7338728904724"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chad]]></value></item>
+    <item column="FIPS"><value><![CDATA[CD]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.87152624130249" lon="80.7846336364746"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sri Lanka]]></value></item>
+    <item column="FIPS"><value><![CDATA[CE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.651943206787109" lon="14.8828096389771"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Congo]]></value></item>
+    <item column="FIPS"><value><![CDATA[CF]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.94440984725952" lon="29.8803443908691"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rwanda]]></value></item>
+    <item column="FIPS"><value><![CDATA[RW]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.5656785964966" lon="105.003223419189"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cambodia]]></value></item>
+    <item column="FIPS"><value><![CDATA[CB]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-36.7037544250488" lon="-87.9648666381836"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chile]]></value></item>
+    <item column="FIPS"><value><![CDATA[CI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.3215951919556" lon="-81.2464637756348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cayman Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[CJ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-12.1649298667908" lon="96.8359603881836"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cocos (Keeling) Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[CK]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.36958277225494" lon="12.3577032089233"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cameroon]]></value></item>
+    <item column="FIPS"><value><![CDATA[CM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.8806953430176" lon="43.8668727874756"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Comoros]]></value></item>
+    <item column="FIPS"><value><![CDATA[CN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.40013837814331" lon="-80.1229248046875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Panama]]></value></item>
+    <item column="FIPS"><value><![CDATA[PM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.0742340087891" lon="145.691917419434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern Mariana Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[CQ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.61769485473633" lon="-84.2374801635742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Costa Rica]]></value></item>
+    <item column="FIPS"><value><![CDATA[CS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.61104607582092" lon="20.9370822906494"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central African Republic]]></value></item>
+    <item column="FIPS"><value><![CDATA[CT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1318979263306" lon="0.776222229003906"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[US]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[United States]]></value></item>
+    <item column="FIPS"><value><![CDATA[US]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.9598941802979" lon="-23.9992380142212"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cape Verde]]></value></item>
+    <item column="FIPS"><value><![CDATA[CV]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-16.4110765457153" lon="-161.778495788574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cook Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[CW]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.1954116821289" lon="33.4279479980469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cyprus]]></value></item>
+    <item column="FIPS"><value><![CDATA[CY]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.1656227111816" lon="10.4494087696075"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Germany]]></value></item>
+    <item column="FIPS"><value><![CDATA[GM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.8553848266602" lon="42.5970802307129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Djibouti]]></value></item>
+    <item column="FIPS"><value><![CDATA[DJ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.4149990081787" lon="-61.3527793884277"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dominica]]></value></item>
+    <item column="FIPS"><value><![CDATA[DO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.386180534958839" lon="-160.026473999023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jarvis Island]]></value></item>
+    <item column="FIPS"><value><![CDATA[DQ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.7674293518066" lon="-70.1643142700195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dominican Republic]]></value></item>
+    <item column="FIPS"><value><![CDATA[DR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.22753269970417" lon="-75.0145263671875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Peru]]></value></item>
+    <item column="FIPS"><value><![CDATA[PE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.4063186645508" lon="34.3536033630371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaza Strip]]></value></item>
+    <item column="FIPS"><value><![CDATA[GZ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.4119396209717" lon="-8.23819541931152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ireland]]></value></item>
+    <item column="FIPS"><value><![CDATA[EI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.37180531024933" lon="9.89999866485596"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Equatorial Guinea]]></value></item>
+    <item column="FIPS"><value><![CDATA[EK]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.5920734405518" lon="25.000825881958"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Estonia]]></value></item>
+    <item column="FIPS"><value><![CDATA[EN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.5720329284668" lon="48.5209693908691"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yemen]]></value></item>
+    <item column="FIPS"><value><![CDATA[YM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7941846847534" lon="-88.92333984375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[El Salvador]]></value></item>
+    <item column="FIPS"><value><![CDATA[ES]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.1793842315674" lon="39.7823333740234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eritrea]]></value></item>
+    <item column="FIPS"><value><![CDATA[ER]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.8169364929199" lon="15.4724750518799"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Czech Republic]]></value></item>
+    <item column="FIPS"><value><![CDATA[EZ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.93444418907166" lon="-53.1439247131348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[French Guiana]]></value></item>
+    <item column="FIPS"><value><![CDATA[FG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.5912456512451" lon="17.9347200393677"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norway]]></value></item>
+    <item column="FIPS"><value><![CDATA[NO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-17.6677589416504" lon="0"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fiji]]></value></item>
+    <item column="FIPS"><value><![CDATA[FJ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-38.4160976409912" lon="-63.6161518096924"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Argentina]]></value></item>
+    <item column="FIPS"><value><![CDATA[AR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.11965203285217" lon="160.612609863281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Federated States of Micronesia]]></value></item>
+    <item column="FIPS"><value><![CDATA[FM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.8729133605957" lon="-6.9100353717804"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Faroe Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[FO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.3273630142212" lon="-145.155143737793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[French Polynesia]]></value></item>
+    <item column="FIPS"><value><![CDATA[FP]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.218923553824425" lon="-176.461753845215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baker Island]]></value></item>
+    <item column="FIPS"><value><![CDATA[FQ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.3979148864746" lon="-3.24138927459717"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[United Kingdom]]></value></item>
+    <item column="FIPS"><value><![CDATA[UK]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-48.0305595397949" lon="61.1091613769531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[French Southern & Antarctic Lands]]></value></item>
+    <item column="FIPS"><value><![CDATA[FS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.4689292907715" lon="-14.4529190063477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Senegal]]></value></item>
+    <item column="FIPS"><value><![CDATA[SG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.803689479827881" lon="11.6147904396057"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gabon]]></value></item>
+    <item column="FIPS"><value><![CDATA[GB]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3152809143066" lon="43.3463020324707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Georgia]]></value></item>
+    <item column="FIPS"><value><![CDATA[GG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.54403114318848" lon="-5.54708123207092"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ivory Coast]]></value></item>
+    <item column="FIPS"><value><![CDATA[IV]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7906723022461" lon="-7.09338337182999"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morocco]]></value></item>
+    <item column="FIPS"><value><![CDATA[MO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.1309714317322" lon="-61.6673622131348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grenada]]></value></item>
+    <item column="FIPS"><value><![CDATA[GJ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.4653434753418" lon="-2.60256969928741"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guernsey]]></value></item>
+    <item column="FIPS"><value><![CDATA[GK]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.9636039733887" lon="-19.0189247131348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iceland]]></value></item>
+    <item column="FIPS"><value><![CDATA[IC]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.1491031646729" lon="11.6152763366699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Denmark]]></value></item>
+    <item column="FIPS"><value><![CDATA[DA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.5659379959106" lon="47.291072845459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Glorioso Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[GO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.1914567947388" lon="-61.4945869445801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guadeloupe]]></value></item>
+    <item column="FIPS"><value><![CDATA[GP]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.4436435699463" lon="144.765647888184"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guam]]></value></item>
+    <item column="FIPS"><value><![CDATA[GQ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.3225650787354" lon="23.9409017562866"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greece]]></value></item>
+    <item column="FIPS"><value><![CDATA[GR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.783242225647" lon="-90.2307586669922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guatemala]]></value></item>
+    <item column="FIPS"><value><![CDATA[GT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.4622950553894" lon="-11.7811307907104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sierra Leone]]></value></item>
+    <item column="FIPS"><value><![CDATA[SL]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.86107563972473" lon="-58.9301795959473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guyana]]></value></item>
+    <item column="FIPS"><value><![CDATA[GY]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.8225679397583" lon="30.7976350784302"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Egypt]]></value></item>
+    <item column="FIPS"><value><![CDATA[EG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.0549983978271" lon="-73.0707015991211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haiti]]></value></item>
+    <item column="FIPS"><value><![CDATA[HA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-53.0933361053467" lon="73.5042953491211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Heard Island & McDonald Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[HM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.7092704772949" lon="-86.2400817871094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Honduras]]></value></item>
+    <item column="FIPS"><value><![CDATA[HO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.799444377422333" lon="-176.637084960938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Howland Island]]></value></item>
+    <item column="FIPS"><value><![CDATA[HQ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.915885925293" lon="17.6795768737793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bosnia and Herzegovina]]></value></item>
+    <item column="FIPS"><value><![CDATA[BK]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1549968719482" lon="19.5033044815063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hungary]]></value></item>
+    <item column="FIPS"><value><![CDATA[HU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="71.6962394714355" lon="-42.6097192764282"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greenland]]></value></item>
+    <item column="FIPS"><value><![CDATA[GL]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.09888827800751" lon="109.454986572266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malaysia]]></value></item>
+    <item column="FIPS"><value><![CDATA[MY]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.2291984558105" lon="2.38795065879822"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[France]]></value></item>
+    <item column="FIPS"><value><![CDATA[FR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.3766803741455" lon="84.1265754699707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nepal]]></value></item>
+    <item column="FIPS"><value><![CDATA[NP]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.37431335449219" lon="72.4560928344727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[British Indian Ocean Territory]]></value></item>
+    <item column="FIPS"><value><![CDATA[IO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.5057458877563" lon="55.9158935546875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oman]]></value></item>
+    <item column="FIPS"><value><![CDATA[MU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.3662166595459" lon="34.9582328796387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Israel]]></value></item>
+    <item column="FIPS"><value><![CDATA[IS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6925181829414" lon="12.5977742197725"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vatican]]></value></item>
+    <item column="FIPS"><value><![CDATA[VT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.9346866607666" lon="-1.02499914169312"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ghana]]></value></item>
+    <item column="FIPS"><value><![CDATA[GH]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.2782192230225" lon="47.4817657470703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kuwait]]></value></item>
+    <item column="FIPS"><value><![CDATA[KU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8701343536377" lon="134.745635986328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Japan]]></value></item>
+    <item column="FIPS"><value><![CDATA[JA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.2133960723877" lon="-2.12736141681671"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jersey]]></value></item>
+    <item column="FIPS"><value><![CDATA[JE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.1088886260986" lon="-77.2965354919434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jamaica]]></value></item>
+    <item column="FIPS"><value><![CDATA[JM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.9623336791992" lon="-8.58087158203125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jan Mayen]]></value></item>
+    <item column="FIPS"><value><![CDATA[JN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.9260025024414" lon="35.2226295471191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West Bank]]></value></item>
+    <item column="FIPS"><value><![CDATA[WE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.7272157669067" lon="-169.531433105469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Johnston Atoll]]></value></item>
+    <item column="FIPS"><value><![CDATA[JQ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-17.0670509338379" lon="42.7423572540283"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Juan De Nova Island]]></value></item>
+    <item column="FIPS"><value><![CDATA[JU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.0235590934753418" lon="37.906192779541"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kenya]]></value></item>
+    <item column="FIPS"><value><![CDATA[KE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.2061862945557" lon="74.7650604248047"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kyrgyzstan]]></value></item>
+    <item column="FIPS"><value><![CDATA[KG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.3379745483398" lon="127.510684967041"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Korea]]></value></item>
+    <item column="FIPS"><value><![CDATA[KN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.86687457561493" lon="-157.401329040527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kiribati]]></value></item>
+    <item column="FIPS"><value><![CDATA[KR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.9520606994629" lon="127.844257354736"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Korea]]></value></item>
+    <item column="FIPS"><value><![CDATA[KS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-10.4475250244141" lon="105.682800292969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Christmas Island]]></value></item>
+    <item column="FIPS"><value><![CDATA[KT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2439365386963" lon="43.6701278686523"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iraq]]></value></item>
+    <item column="FIPS"><value><![CDATA[IZ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.5079383850098" lon="0"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Russia]]></value></item>
+    <item column="FIPS"><value><![CDATA[RS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8706893920898" lon="104.208251953125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[China]]></value></item>
+    <item column="FIPS"><value><![CDATA[CH]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8579139709473" lon="35.8622856140137"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lebanon]]></value></item>
+    <item column="FIPS"><value><![CDATA[LE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.8790454864502" lon="24.5708084106445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Latvia]]></value></item>
+    <item column="FIPS"><value><![CDATA[LG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.1700954437256" lon="23.8748178482056"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lithuania]]></value></item>
+    <item column="FIPS"><value><![CDATA[LH]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.42059135437012" lon="-9.45901274681091"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Liberia]]></value></item>
+    <item column="FIPS"><value><![CDATA[LI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.6732139587402" lon="19.7013864517212"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Slovakia]]></value></item>
+    <item column="FIPS"><value><![CDATA[LO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8222198486328" lon="8.21912431716919"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Switzerland]]></value></item>
+    <item column="FIPS"><value><![CDATA[SZ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-29.6106119155884" lon="28.2347621917725"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lesotho]]></value></item>
+    <item column="FIPS"><value><![CDATA[LT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.7936172485352" lon="6.13590216636658"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Luxembourg]]></value></item>
+    <item column="FIPS"><value><![CDATA[LU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.3351001739502" lon="17.2315263748169"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Libya]]></value></item>
+    <item column="FIPS"><value><![CDATA[LY]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-12.8275003433228" lon="45.1543025970459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mayotte]]></value></item>
+    <item column="FIPS"><value><![CDATA[MF]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.6247215270996" lon="-61.0338935852051"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Martinique]]></value></item>
+    <item column="FIPS"><value><![CDATA[MB]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.1998701095581" lon="113.543045043945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Macau]]></value></item>
+    <item column="FIPS"><value><![CDATA[MC]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.3721446990967" lon="31.1595373153687"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ukraine]]></value></item>
+    <item column="FIPS"><value><![CDATA[UP]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.7763910293579" lon="46.8668022155762"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madagascar]]></value></item>
+    <item column="FIPS"><value><![CDATA[MA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8647155761719" lon="103.829570770264"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mongolia]]></value></item>
+    <item column="FIPS"><value><![CDATA[MG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.7102756500244" lon="-62.1920871734619"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montserrat]]></value></item>
+    <item column="FIPS"><value><![CDATA[MH]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.6689500808716" lon="35.52956199646"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mozambique]]></value></item>
+    <item column="FIPS"><value><![CDATA[MZ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5898857116699" lon="21.764199256897"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Macedonia]]></value></item>
+    <item column="FIPS"><value><![CDATA[MK]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.5738868713379" lon="-3.99977779388428"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ML]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mali]]></value></item>
+    <item column="FIPS"><value><![CDATA[ML]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.7479209899902" lon="7.41545104980469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Monaco]]></value></item>
+    <item column="FIPS"><value><![CDATA[MN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7008285522461" lon="-6.94555759429932"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ES]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Spain]]></value></item>
+    <item column="FIPS"><value><![CDATA[SP]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-20.0973625183105" lon="60.3925666809082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mauritius]]></value></item>
+    <item column="FIPS"><value><![CDATA[MP]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.0274219512939" lon="-10.9292206764221"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mauritania]]></value></item>
+    <item column="FIPS"><value><![CDATA[MR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8801345825195" lon="14.4512491226196"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malta]]></value></item>
+    <item column="FIPS"><value><![CDATA[MT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.3826389312744" lon="53.9800300598145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[United Arab Emirates]]></value></item>
+    <item column="FIPS"><value><![CDATA[TC]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.19305500388145" lon="73.2503318786621"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maldives]]></value></item>
+    <item column="FIPS"><value><![CDATA[MV]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.4990243911743" lon="-79.5475769042969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cuba]]></value></item>
+    <item column="FIPS"><value><![CDATA[CU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.36704808473587" lon="103.818729400635"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Singapore]]></value></item>
+    <item column="FIPS"><value><![CDATA[SN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.2696714401245" lon="34.3014183044434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malawi]]></value></item>
+    <item column="FIPS"><value><![CDATA[MI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-21.3809032440186" lon="166.045379638672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Caledonia]]></value></item>
+    <item column="FIPS"><value><![CDATA[NC]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.057918548584" lon="-169.838150024414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niue]]></value></item>
+    <item column="FIPS"><value><![CDATA[NE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-29.0408344268799" lon="167.957473754883"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norfolk Island]]></value></item>
+    <item column="FIPS"><value><![CDATA[NF]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.6077890396118" lon="8.0816663056612"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niger]]></value></item>
+    <item column="FIPS"><value><![CDATA[NG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-16.982084274292" lon="168.220779418945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vanuatu]]></value></item>
+    <item column="FIPS"><value><![CDATA[NH]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.08217263221741" lon="8.6824414730072"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nigeria]]></value></item>
+    <item column="FIPS"><value><![CDATA[NI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.4979133605957" lon="4.46993517875671"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Belgium]]></value></item>
+    <item column="FIPS"><value><![CDATA[BE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.9477043151855" lon="25.5601472854614"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Finland]]></value></item>
+    <item column="FIPS"><value><![CDATA[FI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.203052520752" lon="96.7045288085938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Myanmar (Burma)]]></value></item>
+    <item column="FIPS"><value><![CDATA[BM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.522777795791626" lon="166.92115020752"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nauru]]></value></item>
+    <item column="FIPS"><value><![CDATA[NR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.95142316818237" lon="-56.0224342346191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suriname]]></value></item>
+    <item column="FIPS"><value><![CDATA[NS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.2022213935852" lon="-68.6718788146973"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Netherlands Antilles]]></value></item>
+    <item column="FIPS"><value><![CDATA[NT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.8513331413269" lon="-85.4108390808105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nicaragua]]></value></item>
+    <item column="FIPS"><value><![CDATA[NU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-43.5062522888184" lon="0.999275207519531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Zealand]]></value></item>
+    <item column="FIPS"><value><![CDATA[NZ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-14.2474875450134" lon="-54.4032001495361"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brazil]]></value></item>
+    <item column="FIPS"><value><![CDATA[BR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.7047462463379" lon="-129.19465637207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pitcairn Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[PC]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.77888906002045" lon="-83.4403686523438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ecuador]]></value></item>
+    <item column="FIPS"><value><![CDATA[EC]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.3753976821899" lon="69.3451156616211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pakistan]]></value></item>
+    <item column="FIPS"><value><![CDATA[PK]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.0201988220215" lon="66.9236831665039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kazakhstan]]></value></item>
+    <item column="FIPS"><value><![CDATA[KZ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.17444467544556" lon="-74.2921752929688"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colombia]]></value></item>
+    <item column="FIPS"><value><![CDATA[CO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3940849304199" lon="-18.7368936538696"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Portugal]]></value></item>
+    <item column="FIPS"><value><![CDATA[PO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.4554181098938" lon="135.940254211426"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Australia]]></value></item>
+    <item column="FIPS"><value><![CDATA[AS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.53916573524475" lon="134.595123291016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pacific Islands (Palau)]]></value></item>
+    <item column="FIPS"><value><![CDATA[PS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.8205862045288" lon="-15.1935377120972"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guinea-Bissau]]></value></item>
+    <item column="FIPS"><value><![CDATA[PU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.3542699813843" lon="51.1747150421143"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[QA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Qatar]]></value></item>
+    <item column="FIPS"><value><![CDATA[QA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-21.1152105331421" lon="55.5368003845215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Reunion]]></value></item>
+    <item column="FIPS"><value><![CDATA[RE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.0971512794495" lon="166.148292541504"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marshall Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[RM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.950382232666" lon="24.9626779556274"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Romania]]></value></item>
+    <item column="FIPS"><value><![CDATA[RO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.2197198867798" lon="121.765930175781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Philippines]]></value></item>
+    <item column="FIPS"><value><![CDATA[RP]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.2259712219238" lon="-66.3311195373535"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Puerto Rico]]></value></item>
+    <item column="FIPS"><value><![CDATA[RQ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.6345014572144" lon="-102.561813354492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mexico]]></value></item>
+    <item column="FIPS"><value><![CDATA[MX]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.03451466560364" lon="21.7586641311646"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zaire]]></value></item>
+    <item column="FIPS"><value><![CDATA[CG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4299926757813" lon="53.6826133728027"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iran]]></value></item>
+    <item column="FIPS"><value><![CDATA[IR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.3988761901855" lon="-96.8101768493652"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Canada]]></value></item>
+    <item column="FIPS"><value><![CDATA[CA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.2973575592041" lon="-62.7394485473633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Kitts and Nevis]]></value></item>
+    <item column="FIPS"><value><![CDATA[SC]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.0073618888855" lon="50.9040241241455"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seychelles]]></value></item>
+    <item column="FIPS"><value><![CDATA[SE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.9545860290527" lon="18.5086069107056"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Namibia]]></value></item>
+    <item column="FIPS"><value><![CDATA[WA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.4431819915771" lon="-15.2747430801392"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gambia, The]]></value></item>
+    <item column="FIPS"><value><![CDATA[GA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.952917098999" lon="-5.720139503479"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Helena]]></value></item>
+    <item column="FIPS"><value><![CDATA[SH]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.1477699279785" lon="14.995671749115"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Slovenia]]></value></item>
+    <item column="FIPS"><value><![CDATA[SI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.93557405471802" lon="-11.3351089954376"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guinea]]></value></item>
+    <item column="FIPS"><value><![CDATA[GV]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.928316116333" lon="12.463454246521"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Marino]]></value></item>
+    <item column="FIPS"><value><![CDATA[SM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.51309084892273" lon="118.108982086182"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ID]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Indonesia]]></value></item>
+    <item column="FIPS"><value><![CDATA[ID]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.15214896202087" lon="46.2013339996338"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Somalia]]></value></item>
+    <item column="FIPS"><value><![CDATA[SO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1380214691162" lon="-5.34515357017517"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gibraltar]]></value></item>
+    <item column="FIPS"><value><![CDATA[GI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.9093742370605" lon="-61.006462097168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Lucia]]></value></item>
+    <item column="FIPS"><value><![CDATA[ST]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.8628070354462" lon="30.2148971557617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sudan]]></value></item>
+    <item column="FIPS"><value><![CDATA[SU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="77.5521469116211" lon="22.0627055168152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Svalbard]]></value></item>
+    <item column="FIPS"><value><![CDATA[SV]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.2232246398926" lon="17.6401700973511"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sweden]]></value></item>
+    <item column="FIPS"><value><![CDATA[SW]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-56.253023147583" lon="-32.1363220214844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Georgia and the South Sandwich Is]]></value></item>
+    <item column="FIPS"><value><![CDATA[SX]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.802074432373" lon="38.9896240234375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Syria]]></value></item>
+    <item column="FIPS"><value><![CDATA[SY]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1660003662109" lon="9.55426263809204"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Liechtenstein]]></value></item>
+    <item column="FIPS"><value><![CDATA[LS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.8859424591064" lon="45.1191272735596"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saudi Arabia]]></value></item>
+    <item column="FIPS"><value><![CDATA[SA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.42333248257637" lon="-66.6054592132568"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Venezuela]]></value></item>
+    <item column="FIPS"><value><![CDATA[VE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.0124971866608" lon="101.491199493408"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thailand]]></value></item>
+    <item column="FIPS"><value><![CDATA[TH]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8618698120117" lon="71.2816848754883"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tajikistan]]></value></item>
+    <item column="FIPS"><value><![CDATA[TI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.8463859558105" lon="-71.8375396728516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Turks and Caicos Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[TK]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.19989681243896" lon="-171.853454589844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tokelau]]></value></item>
+    <item column="FIPS"><value><![CDATA[TL]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.918478012085" lon="-174.640167236328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tonga]]></value></item>
+    <item column="FIPS"><value><![CDATA[TN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.61954307556152" lon="0.82401867210865"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Togo]]></value></item>
+    <item column="FIPS"><value><![CDATA[TO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.855694361031055" lon="6.95916652679443"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sao Tome and Principe]]></value></item>
+    <item column="FIPS"><value><![CDATA[TP]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.0313873291016" lon="1.65962600708008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Algeria]]></value></item>
+    <item column="FIPS"><value><![CDATA[AG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9548530578613" lon="35.2526321411133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Turkey]]></value></item>
+    <item column="FIPS"><value><![CDATA[TU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.33036804199219" lon="177.763374328613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tuvalu]]></value></item>
+    <item column="FIPS"><value><![CDATA[TV]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.6056909561157" lon="120.143768310547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taiwan]]></value></item>
+    <item column="FIPS"><value><![CDATA[TW]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9710807800293" lon="59.5457229614258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Turkmenistan]]></value></item>
+    <item column="FIPS"><value><![CDATA[TX]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.35935401916504" lon="34.8923635482788"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tanzania, United Republic of]]></value></item>
+    <item column="FIPS"><value><![CDATA[TZ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.3802775144577" lon="32.3033313751221"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uganda]]></value></item>
+    <item column="FIPS"><value><![CDATA[UG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.2327728271484" lon="-4.56562566757202"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Man, Isle of]]></value></item>
+    <item column="FIPS"><value><![CDATA[IM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9491119384766" lon="28.3818531036377"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moldova]]></value></item>
+    <item column="FIPS"><value><![CDATA[MD]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9758262634277" lon="-56.3158340454102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Pierre and Miquelon]]></value></item>
+    <item column="FIPS"><value><![CDATA[SB]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.2822971343994" lon="-1.56096220016479"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Burkina Faso]]></value></item>
+    <item column="FIPS"><value><![CDATA[UV]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.5244445800781" lon="-55.7510261535645"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uruguay]]></value></item>
+    <item column="FIPS"><value><![CDATA[UY]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.3777923583984" lon="64.5831508636475"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uzbekistan]]></value></item>
+    <item column="FIPS"><value><![CDATA[UZ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.2188882827759" lon="-61.1929206848145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Vincent and the Grenadines]]></value></item>
+    <item column="FIPS"><value><![CDATA[VC]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.6708669662476" lon="-61.2756633758545"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trinidad and Tobago]]></value></item>
+    <item column="FIPS"><value><![CDATA[TD]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.4437828063965" lon="-64.4926834106445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[British Virgin Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[VI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.213885307312" lon="103.893310546875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Laos]]></value></item>
+    <item column="FIPS"><value><![CDATA[LA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.7245121002197" lon="-64.7554931640625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Virgin Islands]]></value></item>
+    <item column="FIPS"><value><![CDATA[VQ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.5348634719849" lon="31.4770803451538"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Swaziland]]></value></item>
+    <item column="FIPS"><value><![CDATA[WZ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2832412719727" lon="37.1312484741211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jordan]]></value></item>
+    <item column="FIPS"><value><![CDATA[JO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.7693762779236" lon="-177.17431640625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wallis and Futuna]]></value></item>
+    <item column="FIPS"><value><![CDATA[WF]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.2155265808105" lon="-12.8840980529785"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Sahara]]></value></item>
+    <item column="FIPS"><value><![CDATA[WI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.3037109375" lon="166.636360168457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wake Island]]></value></item>
+    <item column="FIPS"><value><![CDATA[WQ]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.7708339691162" lon="-172.11100769043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Samoa]]></value></item>
+    <item column="FIPS"><value><![CDATA[WS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-34.5810680389404" lon="26.1338882446289"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Africa]]></value></item>
+    <item column="FIPS"><value><![CDATA[SF]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.14645755290985" lon="40.4900207519531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ET]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ethiopia]]></value></item>
+    <item column="FIPS"><value><![CDATA[ET]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.1335849761963" lon="27.8512134552002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zambia]]></value></item>
+    <item column="FIPS"><value><![CDATA[ZA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.0233182907104" lon="29.1680126190186"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zimbabwe]]></value></item>
+    <item column="FIPS"><value><![CDATA[ZI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0108871459961" lon="20.7302761077881"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yugoslavia]]></value></item>
+    <item column="FIPS"><value><![CDATA[YI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8718719482422" lon="12.5682320594788"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Italy]]></value></item>
+    <item column="FIPS"><value><![CDATA[IT]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,102 @@
+table.cbc {
+  width: 100%;
+}
+table.cbc th {
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 3px 5px 3px 0;
+  border-bottom: 1px solid #EEE;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.cbc_large table th {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  padding: 5px 5px 5px 0;
+}
+.cbc .cbc_label a {
+  color: #000;
+}
+table.cbc tr:last-child th,table.cbc tr:last-child td {
+  border-bottom: none;
+}
+table.cbc td {
+  padding: 3px 0 3px 5px;
+  border-bottom: 1px solid #EEE;
+  width: 90%;
+}
+.cbc_large table.cbc td {
+  padding: 5px 0 5px 5px;
+}
+.cbc .cbc_bar_background {
+  display: block;
+  width: 100%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: -webkit-gradient(linear,0% 0%,0% 100%,from(rgba(0,0,0,.2)),to(rgba(0,0,0,.1)));
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.2),rgba(0,0,0,.1));
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  position: relative;
+  -webkit-box-shadow: inset 0 0 0px 1px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 0 0px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 0 0px 1px rgba(0,0,0,.05);
+}
+.cbc_large .cbc_bar_background {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+}
+
+.cbc .cbc_bar {
+  background: -webkit-gradient(linear,0% 0%,0% 100%,from(rgba(255,255,255,.15)),to(rgba(0,0,0,.25)));
+  background: -moz-linear-gradient(top, rgba(255,255,255,.15),rgba(0,0,0,.25));
+  background-color: #F2F2F2;
+  display: block;
+  height: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 0px 1px rgba(0,0,0,.25);
+  -moz-box-shadow: inset 0 0 0px 1px rgba(0,0,0,.25);
+  box-shadow: inset 0 0 0px 1px rgba(0,0,0,.25);
+}
+
+.cbc_large .cbc_bar {
+  height: 24px;
+}
+
+.cbc .cbc_value {
+  color: #555;
+  color: rgba(0,0,0,.75);
+  width: 100%;
+  display: block;
+  text-align: center;
+  position: absolute;
+}
+
+.cbc .cbc_value a {
+  color: #555;
+  color: rgba(0,0,0,.75);
+  text-decoration: none;
+  display: block;
+  text-shadow: 0 1px 0 rgba(255,255,0255,.25);
+}
+
+.cbc .cbc_value a:hover {
+  background-color: rgba(0,0,0,.15);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+

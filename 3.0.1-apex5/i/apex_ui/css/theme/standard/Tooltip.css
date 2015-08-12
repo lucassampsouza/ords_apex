@@ -1,0 +1,61 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Tooltip Styles
+******************************************************************************/
+/* line 35, ../../../scss/theme/standard/Tooltip.scss */
+.a-Tooltip,
+.ui-widget-content.ui-tooltip {
+  min-width: 220px;
+  max-width: 280px;
+  padding: 8px;
+  border-radius: 2px;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #000;
+  border-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  font-size: 11px;
+  line-height: 1.5;
+  color: #D0D0D0;
+}

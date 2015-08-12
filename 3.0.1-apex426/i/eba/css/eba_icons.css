@@ -1,0 +1,276 @@
+div.ebaLaunchPad {
+	padding: 6px 0 !important;
+	}
+ul.ebaAppsList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+ul.ebaAppsList li {
+/*	display: block;*/
+	float: left;
+	width: 317px;
+	height: 90px;
+	border-bottom: 1px solid #E8E8E8;
+	border-right: 1px solid #E8E8E8;
+	border-left: 1px solid #FFF;
+	border-top: 1px solid #FFF;
+	-webkit-transition: background-color 0.1s linear;
+	display: table;
+	}
+ul.ebaAppsList li:nth-child(3n) {
+	border-right: none;
+/*	width: 321px;*/
+	}
+ul.ebaAppsList li:hover {
+	background-color: #F0F0F0;
+	}
+	
+div.ebaAppBasicDetails {
+	display: table;
+	width: 100%;
+	margin-bottom: 20px;
+	}
+	
+div#ebaAppFrameTable div.ebaAppIcon,
+ul.ebaAppsList li div.ebaAppIcon {
+	display: table-cell;
+	width: 84px;
+	vertical-align: top;
+	}
+	div#ebaAppFrameTable div.ebaAppIcon {
+		width: 74px;
+		}
+ul.ebaAppsList li a.ebaAppIconSep {
+	margin: 10px;
+	}
+
+ul.ebaAppsList li div.ebaAppInfo {
+	display: table-cell;
+	padding: 10px 0 10px 0;
+	vertical-align: top;
+	width: 234px;
+	}
+div#ebaAppFrameTable div.ebaAppInfo {
+	display: table-cell;
+	padding: 0;
+	vertical-align: top;
+	}
+
+/*<div class="ebaAppInfo">
+	<h3>Application Title</h3>
+	<span class="ebaAppCategory">Productivity</span>
+	<span class="ebaAppClass">APEX Application</span>
+	<a href="#" class="ebaAppSmallButton">More Info</a>
+</div>*/
+div#ebaAppFrameTable div.ebaAppInfo h3,
+ul.ebaAppsList li div.ebaAppInfo h3 {
+	margin: 0;
+	font: bold 13px/16px Arial, sans-serif;
+	color: #333;
+	}
+	div#ebaAppFrameTable div.ebaAppInfo h3 {
+		font: bold 16px/20px Arial, sans-serif;
+		}
+div#ebaAppFrameTable div.ebaAppInfo h3 a,
+ul.ebaAppsList li div.ebaAppInfo h3 a {
+	text-decoration: none;
+	color: #333;
+	}
+	div#ebaAppFrameTable div.ebaAppInfo h3 a:hover,
+	ul.ebaAppsList li div.ebaAppInfo h3 a:hover {
+		text-decoration: underline;
+		}
+ul.ebaAppsList li div.ebaAppInfo span.ebaAppCategory,
+ul.ebaAppsList li div.ebaAppInfo span.ebaAppClass {
+	display: block;
+	font: bold 11px/14px Arial, sans-serif;
+	color: #888;
+	width: 229px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	}
+	div#ebaAppFrameTable div.ebaAppInfo span.ebaAppCategory,
+	div#ebaAppFrameTable div.ebaAppInfo span.ebaAppClass {
+		display: block;
+		font: bold 12px/16px Arial, sans-serif;
+		color: #888;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		}
+	div#ebaAppFrameTable div.ebaAppInfo span.ebaAppCategory,
+	div#ebaAppFrameTable div.ebaAppInfo span.ebaAppClass {
+		width: auto;
+		}
+	div#ebaAppFrameTable div.ebaAppInfo span.ebaAppClass,
+	ul.ebaAppsList li div.ebaAppInfo span.ebaAppClass {
+		font-weight: normal;
+		}
+div#ebaAppFrameTable div.ebaAppInfo span.ebaAppInstalled,
+ul.ebaAppsList li div.ebaAppInfo span.ebaAppInstalled {
+	display: inline-block;
+	background: url(../img/eba_apps_list_icons.png) 0 0 no-repeat;
+	font: normal 11px/16px Arial, sans-serif;
+	padding-left: 14px;
+	margin: 4px 5px 0 5px;
+	color: #090;
+	}
+	div#ebaAppFrameTable div.ebaAppInfo span.ebaAppInstalled {
+		margin: 0;
+		padding-left: 16px;
+		font: normal 12px/16px Arial, sans-serif;
+		}
+div#ebaAppFrameTable div.ebaAppInfo span.ebaAppUpdateAvailable,
+ul.ebaAppsList li div.ebaAppInfo span.ebaAppUpdateAvailable {
+	display: inline-block;
+	background: url(../img/eba_apps_list_icons.png) 0 -16px no-repeat;
+	font: normal 11px/16px Arial, sans-serif;
+	padding-left: 14px;
+	margin: 4px 5px 0 5px;
+	color: #da9f00;
+	}
+ul.ebaAppsList li div.ebaAppInfo a.ebaAppSmallButton,
+div#ebaAppFrameTable div.ebaAppInfo a.ebaAppSmallButton {
+	display: inline-block;
+	padding: 2px 6px;
+	margin: 4px 0 0 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px solid #AAA;
+	color: #222;
+	text-decoration: none;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF), to(#CCC));
+	background: -moz-linear-gradient(top,#FFF,#CCC);
+	font: normal 11px/12px Arial, sans-serif;
+	}
+	ul.ebaAppsList li div.ebaAppInfo a.ebaAppSmallButton:hover {
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#EEE), to(#BBB));
+		background: -moz-linear-gradient(top,#EEE,#BBB);
+		}
+		
+div#ebaAppFrameTable div.ebaAppInfo a.ebaAppLargeButton {
+	display: inline-block;
+	padding: 4px 12px;
+	margin: 5px 0 0 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #FFF;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+	text-decoration: none;
+	border: 1px solid #397f00;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,.35))) #60D700;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.35)) #60D700;
+	font: bold 13px/16px Arial, sans-serif;
+	}
+div#ebaAppFrameTable div.ebaAppInfo a.ebaAppLargeButton:hover {
+	display: inline-block;
+	padding: 4px 12px;
+	margin: 5px 0 0 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #FFF;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+	text-decoration: none;
+	border: 1px solid #397f00;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,.35))) #60C700;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.35)) #60C700;
+	font: bold 13px/16px Arial, sans-serif;
+	}
+	/* Remove Application Link */
+	div#ebaAppFrameTable div.ebaAppInfo a.ebaRemoveApp {
+		display: inline-block;
+		background: url(../img/eba_apps_list_icons.png) 0 -32px no-repeat;
+		font: normal 11px/16px Arial, sans-serif;
+		padding-left: 14px;
+		margin: 5px 0 0 0;
+		color: #666;
+		text-decoration: none;
+		}
+		div#ebaAppFrameTable div.ebaAppInfo a.ebaRemoveApp:hover {
+			background: url(../img/eba_apps_list_icons.png) 0 -48px no-repeat;
+			color: #E00;
+			}
+
+
+/* ICON CLASSES */
+
+a.ebaAppIconSep,
+a.ebaAppGenericIconSep {
+			display: block;
+			padding: 0;
+			width: 64px;
+			height: 64px;
+			-webkit-border-radius: 12px;
+			-moz-border-radius: 12px;
+			border-radius: 12px;
+			background: #DDD;
+			background: -webkit-gradient(linear,0 0,0 100%, from(#FFF), to(#DDD));
+			background: -moz-linear-gradient(top, #FFF, #DDD);
+			-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.4);
+			-moz-box-shadow: 0 2px 4px rgba(0,0,0,.4); }
+
+a.ebaAppIconSep img, 
+a.ebaAppGenericIconSep img {
+			width: 64px;
+			height: 64px;
+			background-image: url(../img/eba_launchpad.png);
+			background-repeat: no-repeat;
+			border: none;
+			-webkit-border-radius: 11px;
+			-moz-border-radius: 11px;
+			border-radius: 11px;
+			-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+			-moz-box-shadow: 0 0 0 1px rgba(0,0,0,.25) inset;
+			}
+a.ebaAppGenericIconSep img {
+	background-image: url(../img/eba_launchpad_generic.png);
+	}
+
+a.ebaAppIconSep img.generic{background-position:0 0;}
+a.ebaAppIconSep img.bug_tracker{background-position:-64px 0;}
+a.ebaAppIconSep img.checklist_manager{background-position:-128px 0;}
+a.ebaAppIconSep img.aria_people{background-position:-192px 0;}
+a.ebaAppIconSep img.project_tracking{background-position:-256px 0;}
+a.ebaAppIconSep img.solar{background-position:-320px 0;}
+a.ebaAppIconSep img.website{background-position:-384px 0;}
+a.ebaAppIconSep img.apex_service{background-position:-448px 0;}
+a.ebaAppIconSep img.solar_red{background-position:-512px 0;}
+a.ebaAppIconSep img.sales{background-position:-576px 0;}
+a.ebaAppIconSep img.data_modeler{background-position:0 -64px;}
+a.ebaAppIconSep img.group_calendar{background-position:-64px -64px;}
+a.ebaAppIconSep img.ask_tom{background-position:-128px -64px;}
+a.ebaAppIconSep img.learning_library2{background-position:-192px -64px;}
+a.ebaAppIconSep img.document_library{background-position:-256px -64px;}
+a.ebaAppIconSep img.learning_library{background-position:-320px -64px;}
+a.ebaAppIconSep img.comp_tracker{background-position:-384px -64px;}
+a.ebaAppIconSep img.artwork_catalog{background-position:-448px -64px;}
+a.ebaAppIconSep img.customer_tracker{background-position:-512px -64px;}
+a.ebaAppIconSep img.knowledge_testing{background-position:-576px -64px;}
+a.ebaAppIconSep img.software_release_tracking{background-position:0 -128px;}
+a.ebaAppIconSep img.approvals_tracking {background-position:-64px -128px;}
+a.ebaAppIconSep img.community_requests{background-position:-128px -128px;}
+a.ebaAppIconSep img.reference_tracking{background-position:-192px -128px;}
+a.ebaAppIconSep img.event_registration{background-position:-256px -128px;}
+a.ebaAppIconSep img.systems_catalog{background-position:-320px -128px;}
+a.ebaAppIconSep img.discussion_forum {background-position:-384px -128px;}
+a.ebaAppIconSep img.expertise_tracker{background-position:-448px -128px;}
+a.ebaAppIconSep img.asset_manager{background-position:-512px -128px;}
+a.ebaAppIconSep img.survey_builder{background-position:-576px -128px;}
+a.ebaAppIconSep img.help_builder{background-position:0 -192px;}
+a.ebaAppIconSep img.oratweet{background-position:-64px -192px;}
+
+
+a.ebaAppGenericIconSep img.icon1 {background-image: url(../img/eba_launchpad_generic.png); background-position:0 0;}
+a.ebaAppGenericIconSep img.icon2 {background-image: url(../img/eba_launchpad_generic.png); background-position:-64px 0;}
+a.ebaAppGenericIconSep img.icon3 {background-image: url(../img/eba_launchpad_generic.png); background-position:-128px 0;}
+a.ebaAppGenericIconSep img.icon4 {background-image: url(../img/eba_launchpad_generic.png); background-position:-192px 0;}
+a.ebaAppGenericIconSep img.icon5 {background-image: url(../img/eba_launchpad_generic.png); background-position:-256px 0;}
+a.ebaAppGenericIconSep img.icon6 {background-image: url(../img/eba_launchpad_generic.png); background-position:-320px 0;}
+a.ebaAppGenericIconSep img.icon7 {background-image: url(../img/eba_launchpad_generic.png); background-position:-384px 0;}
+a.ebaAppGenericIconSep img.icon8 {background-image: url(../img/eba_launchpad_generic.png); background-position:-448px 0;}
+a.ebaAppGenericIconSep img.icon9 {background-image: url(../img/eba_launchpad_generic.png); background-position:-512px 0;}
+a.ebaAppGenericIconSep img.icon10{background-image: url(../img/eba_launchpad_generic.png); background-position:-576px 0;}
+a.ebaAppGenericIconSep img.icon11{background-image: url(../img/eba_launchpad_generic.png); background-position:0 -64px;}
+a.ebaAppGenericIconSep img.icon12 {background-image: url(../img/eba_launchpad_generic.png); background-position:-64px -64px;}

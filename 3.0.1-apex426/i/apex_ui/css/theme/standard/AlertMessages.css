@@ -1,0 +1,125 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Alert Messages
+******************************************************************************/
+/* line 35, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-item:first-child {
+  margin-top: 0;
+  border-top-width: 0;
+}
+
+/* line 39, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-item {
+  border-bottom: 1px solid #F0F0F0;
+  border-top: 1px solid #F0F0F0;
+  margin-top: -1px;
+}
+
+/* line 46, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message {
+  color: #444444;
+  font-size: 12px;
+  padding: 8px;
+  border-left: 3px solid;
+}
+/* line 51, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message .a-MediaBlock-graphic {
+  margin: 8px 8px 8px 0;
+  width: 24px;
+}
+/* line 55, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message:hover, .a-AlertMessages-message:focus {
+  position: relative;
+  z-index: 100;
+}
+/* line 60, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-warning {
+  border-left-color: #FDB309;
+}
+/* line 62, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-warning .a-FAIcon {
+  color: #FDB309;
+}
+/* line 65, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-warning:hover, .a-AlertMessages-message.is-warning:focus {
+  background-color: #FFF8DF;
+}
+/* line 70, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-error {
+  border-left-color: #FC181B;
+}
+/* line 72, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-error .a-FAIcon {
+  color: #FC181B;
+}
+/* line 75, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-error:hover, .a-AlertMessages-message.is-error:focus {
+  background-color: #FFEFEF;
+}
+/* line 80, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message:focus {
+  border-width: 0 1px;
+  border-color: #399BEA;
+  box-shadow: 2px -1px 0px 0px #399bea inset, -2px 1px 0px 0px #399bea inset !important;
+  outline: none;
+}
+
+/* line 89, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages--page .a-AlertMessages-message {
+  border-radius: 2px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
+/* line 92, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages--page .a-AlertMessages-message .a-MediaBlock-graphic .a-Icon,
+.a-AlertMessages--page .a-AlertMessages-message .a-AlertMessages-messageTitle {
+  color: #FFF;
+}
+/* line 96, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages--page .a-AlertMessages-message.is-success {
+  background-color: rgba(74, 170, 44, 0.9);
+}
+/* line 99, ../../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages--page .a-AlertMessages-message.is-error {
+  background-color: rgba(225, 56, 56, 0.9);
+}

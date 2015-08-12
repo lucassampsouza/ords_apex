@@ -1,0 +1,152 @@
+<map_data>
+ <name>mongolia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="87.7594299316406" top="52.1436080932617" right="119.934982299805" bottom="41.5813827514648"/>
+ <regions>
+  <region>
+   <centroid lat="48.0097541809082" lon="100.852115631104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-ARH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arhangay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1611995697021" lon="99.571605682373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-BYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bayanhongor]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.2514820098877" lon="89.8886489868164"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-BOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bayan-Olgiy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.5032920837402" lon="106.579349517822"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-SLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Selenge]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.3058395385742" lon="116.155941009521"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-DRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dornod]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.7454967498779" lon="109.925498962402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-DRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dornogovi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.416654586792" lon="106.240352630615"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-DND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dundgovi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.2956352233887" lon="96.2213668823242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-DZV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dzavhan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.2274932861328" lon="95.8064804077148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-GAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Govi-Altay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.824800491333" lon="110.566352844238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-HNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hentiy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9502105712891" lon="92.4738311767578"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-HOV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hovd]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.2208595275879" lon="99.8642539978027"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-HVS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hovsgol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.2874660491943" lon="103.74490737915"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-OMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Omnogovi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.7837753295898" lon="102.825248718262"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-OVR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ovorhangay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.904275894165" lon="106.182403564453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-DRH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Darhan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.2781352996826" lon="114.016250610352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-SHB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suhbaatar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.9379348754883" lon="106.867000579834"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-ULN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ulaanbaatar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.6044979095459" lon="92.762134552002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-UVS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uvs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.7299995422363" lon="106.525398254395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-TOV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tov]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.9463291168213" lon="103.222949981689"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MNG-BLG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bulgan]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

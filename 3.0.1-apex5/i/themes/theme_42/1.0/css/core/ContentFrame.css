@@ -1,0 +1,18 @@
+/** 
+ * Import Compass
+ */
+/* ==========================================================================
+   Content Frame
+   ========================================================================== */
+.t-ContentFrame-wrap {
+  margin-top: 12px;
+  border-top: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB; }
+
+.t-ContentFrame-main {
+  padding: 0; }
+
+.t-ContentFrame-side {
+  width: 240px;
+  border-left: 1px solid #DBDBDB;
+  padding: 0; }

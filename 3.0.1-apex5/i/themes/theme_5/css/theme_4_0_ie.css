@@ -1,0 +1,101 @@
+/* Theme 5 IE */
+
+button {
+	margin: 0 4px 0 4px;
+	width:auto;
+	overflow:visible;
+	margin-top:0px;
+}
+button span {
+	margin-top:0px;
+}
+div#apexir_columnsearch {
+	border: 1px solid #606060;
+	}
+.dhtmlSubMenu {
+	border: 1px solid #606060;
+	}
+.rounded-corner-region .rc-body-r,
+.rounded-corner-region-alt .rc-body-r,
+.rounded-corner-region-alt2 .rc-body-r {
+	height: 1%;
+	}
+
+.fixed-header-report {
+  position: relative;
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.fixed-header-report table thead tr {
+  position: absolute;
+  top: expression(this.offsetParent.scrollTop);
+}
+
+.fixed-header-report table thead {
+  height: auto;
+}
+
+.fixed-header-report table tbody {
+  height: auto;
+}
+
+/* Fixed Header Styles */
+.fixed-header-report {
+	border: 1px solid #999;
+	}
+
+.fixed-header-report table {
+	empty-cells:show;
+}
+.fixed-header-report table tbody {
+	display:block;
+}
+.fixed-header-report table thead tr {
+	display:block;
+}
+.fixed-header-report table thead tr th {
+	padding: 6px 10px;
+	background: url(../images/sReportBG-Aqua.png) 0 0 #FFF repeat-x;
+	border-bottom: 1px solid #999;
+	}
+.fixed-header-report table th.header {
+	white-space: nowrap;
+	vertical-align: center;
+	color:#333;
+	font: bold 12px/12px Arial, sans-serif;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+	padding: 4px 10px;
+}
+.fixed-header-report table th.header a {
+	color:#000;
+	text-decoration:underline;
+}
+.fixed-header-report table td.data {
+background-color:#F2F2F2;
+/*border-top:1px solid #999;*/
+padding:4px 10px;
+}
+.fixed-header-report table td.data-alt {
+background-color:#FFF;
+/*border-top:1px solid #999;*/
+padding:4px 10px;
+}
+.fixed-header-report table tr:first-child td.data,
+.fixed-header-report table tr:first-child td.data-alt {
+	border-top: none !important;
+	}
+
+.fixed-header-report table tr:first-child td.data {
+	padding-top: 24px;
+	}
+
+.fixed-header-report table p {
+	margin:0;
+	overflow:hidden;
+}
+
+.dhtmlSubMenu2{
+	border: 1px solid #606060;
+	}

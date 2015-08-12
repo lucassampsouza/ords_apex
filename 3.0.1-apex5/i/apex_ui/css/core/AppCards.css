@@ -1,0 +1,800 @@
+/**
+ * Import Compass
+ */
+/* ==========================================================================
+   App Cards
+   ========================================================================== */
+/* line 11, ../../scss/core/AppCards.scss */
+.a-AppCards {
+  margin: 0;
+  list-style: none;
+  clear: both;
+}
+
+/* line 16, ../../scss/core/AppCards.scss */
+.a-AppCards-item,
+.a-AppCards-name,
+.a-AppCards-info {
+  position: relative;
+}
+
+/* line 21, ../../scss/core/AppCards.scss */
+.a-AppCards-absLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+/* line 27, ../../scss/core/AppCards.scss */
+.a-AppCards-absLink:focus {
+  box-shadow: 0 0 0 2px #399BEA inset;
+}
+
+/* line 31, ../../scss/core/AppCards.scss */
+.a-AppCards-link {
+  overflow: hidden;
+  text-decoration: none;
+}
+/* line 34, ../../scss/core/AppCards.scss */
+.a-AppCards-link:hover {
+  text-decoration: none;
+}
+
+/* line 39, ../../scss/core/AppCards.scss */
+.a-AppCards-icon--initials {
+  text-align: center;
+  line-height: 64px;
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  font-weight: 200;
+  color: #FFF;
+}
+
+/* ==========================================================================
+   App Cards -- Slim
+   ========================================================================== */
+/* line 54, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-item {
+  -webkit-transform: translate3d(0, 0, 0);
+  overflow: hidden;
+  margin: 0;
+  background-color: #FFF;
+  position: relative;
+  transition: background-color .1s;
+}
+/* line 61, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-item:hover, .a-AppCards--slim .a-AppCards-item:focus {
+  background-color: #F8F8F8;
+}
+/* line 64, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-item:hover .a-AppCards-button, .a-AppCards--slim .a-AppCards-item:focus .a-AppCards-button {
+  opacity: 1;
+}
+/* line 69, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-itemContainer {
+  display: table;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+/* line 75, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-iconContainer,
+.a-AppCards--slim .a-AppCards-contentContainer,
+.a-AppCards--slim .a-AppCards-actionsContainer {
+  display: table-cell;
+  vertical-align: top;
+}
+/* line 81, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-iconContainer {
+  width: 1%;
+}
+/* line 84, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-contentContainer {
+  overflow: hidden;
+  padding: 8px 8px 8px 0;
+}
+/* line 88, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-actionsContainer {
+  width: 1%;
+  white-space: nowrap;
+  padding: 24px 8px;
+}
+/* line 93, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-button {
+  min-width: 48px;
+  opacity: 0.25;
+  transition: background-color 0, box-shadow .1s, opacity .1s;
+}
+/* line 97, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-button:hover, .a-AppCards--slim .a-AppCards-button:focus {
+  opacity: 1;
+}
+/* line 102, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-icon {
+  width: 64px;
+  height: 64px;
+  display: block;
+  border-radius: 2px;
+  margin: 8px;
+  overflow: hidden;
+}
+/* line 110, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-name,
+.a-AppCards--slim .a-AppCards-info {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* line 114, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-name {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  margin: 9px 0 0 0;
+}
+/* line 121, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-info {
+  display: block;
+  color: #707070;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 9px;
+  font-weight: 300;
+}
+/* line 129, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-tag {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #FFF;
+  padding: 4px 8px;
+}
+/* line 134, ../../scss/core/AppCards.scss */
+.a-AppCards--slim .a-AppCards-tag.is-installed {
+  background-color: #24CB7F;
+  color: #FFF;
+}
+
+/* ==========================================================================
+   App Cards -- IRR
+   ========================================================================== */
+/* line 146, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-link {
+  display: block;
+  text-decoration: none;
+  border-radius: 2px;
+}
+/* line 150, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-link:focus {
+  box-shadow: 0 0 0 2px #399BEA inset;
+  outline: none;
+}
+/* line 155, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-itemContainer {
+  display: block;
+}
+/* line 158, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-iconContainer,
+.a-AppCards--irr .a-AppCards-contentContainer,
+.a-AppCards--irr .a-AppCards-actionsContainer {
+  display: block;
+  width: auto;
+}
+/* line 164, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-iconContainer {
+  float: left;
+}
+/* line 167, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-contentContainer {
+  overflow: hidden;
+  margin-right: 48px;
+}
+/* line 171, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-item {
+  position: relative;
+}
+/* line 173, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-item .a-AppCards-button {
+  opacity: 0;
+}
+/* line 178, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-item:hover .a-AppCards-button, .a-AppCards--irr .a-AppCards-item:focus .a-AppCards-button {
+  opacity: .25;
+}
+/* line 186, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-name {
+  font-size: 14px;
+  line-height: 16px;
+  white-space: normal;
+  margin-top: 0;
+  font-weight: normal;
+  max-height: 48px;
+}
+/* line 194, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-info {
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+/* line 200, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-actionsContainer {
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 206, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-button {
+  display: block;
+  float: none;
+  margin: 0 !important;
+  min-width: 32px;
+}
+/* line 211, ../../scss/core/AppCards.scss */
+.a-AppCards--irr .a-AppCards-button:hover, .a-AppCards--irr .a-AppCards-button:focus {
+  opacity: 1 !important;
+}
+
+/* ==========================================================================
+   App Cards -- Stacked
+   ========================================================================== */
+/* line 223, ../../scss/core/AppCards.scss */
+.a-AppCards--stacked .a-AppCards-item {
+  border-bottom: 1px solid #F0F0F0;
+}
+
+/* ==========================================================================
+   App Cards -- Grid
+   ========================================================================== */
+/* line 231, ../../scss/core/AppCards.scss */
+.a-AppCards--grid {
+  overflow: hidden;
+}
+/* line 235, ../../scss/core/AppCards.scss */
+.a-AppCards--grid .a-AppCards-icon {
+  background-color: #F0F0F0;
+}
+/* line 238, ../../scss/core/AppCards.scss */
+.a-AppCards--grid .a-AppCards-item {
+  float: left;
+  width: 33.33%;
+  height: 80px;
+  overflow: hidden;
+}
+@media only screen and (max-width: 800px) {
+  /* line 238, ../../scss/core/AppCards.scss */
+  .a-AppCards--grid .a-AppCards-item {
+    width: 50%;
+  }
+}
+/* line 249, ../../scss/core/AppCards.scss */
+.a-AppCards--grid .a-AppCards-link {
+  border-radius: 2px;
+  display: block;
+}
+/* line 252, ../../scss/core/AppCards.scss */
+.a-AppCards--grid .a-AppCards-link:hover {
+  background-color: #FAFAFA;
+}
+/* line 255, ../../scss/core/AppCards.scss */
+.a-AppCards--grid .a-AppCards-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #399BEA inset;
+}
+
+/* ==========================================================================
+   App Cards -- Hero
+   ========================================================================== */
+/* line 267, ../../scss/core/AppCards.scss */
+.a-AppCards--hero .a-AppCards-icon {
+  width: 160px;
+  height: 128px;
+  display: block;
+  border-radius: 2px;
+  overflow: hidden;
+  background-position: 50%;
+}
+/* line 275, ../../scss/core/AppCards.scss */
+.a-AppCards--hero .a-AppCards-item {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0.12) 100%);
+  overflow: hidden;
+  border-radius: 2px;
+  margin: 0 8px 8px 0;
+  float: left;
+}
+/* line 282, ../../scss/core/AppCards.scss */
+.a-AppCards--hero .a-AppCards-iconContainer {
+  padding: 8px;
+}
+/* line 285, ../../scss/core/AppCards.scss */
+.a-AppCards--hero .a-AppCards-contentContainer {
+  padding: 0 8px 8px 8px;
+}
+/* line 288, ../../scss/core/AppCards.scss */
+.a-AppCards--hero .a-AppCards-name {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* line 300, ../../scss/core/AppCards.scss */
+.a-AppCards--hero .a-AppCards-info {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+/* ==========================================================================
+   App Cards -- White Background
+   ========================================================================== */
+/* line 316, ../../scss/core/AppCards.scss */
+.a-AppCards--whiteBG .a-AppCards-item {
+  background-color: #FFF !important;
+  background-image: none;
+}
+/* line 320, ../../scss/core/AppCards.scss */
+.a-AppCards--whiteBG .a-AppCards-name {
+  color: #404040;
+}
+/* line 323, ../../scss/core/AppCards.scss */
+.a-AppCards--whiteBG .a-AppCards-info {
+  color: #707070;
+}
+
+/* ==========================================================================
+   App Cards -- Search Results
+   ========================================================================== */
+/* line 333, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .u-textHighlight {
+  display: inline-block;
+  background-color: #FEEEAA;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+  padding: 2px 4px;
+}
+/* line 340, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-item {
+  -webkit-transform: translate3d(0, 0, 0);
+  overflow: hidden;
+  margin: 0 0 8px 0;
+  background-color: #FFF;
+  position: relative;
+  transition: background-color .1s;
+}
+/* line 352, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-link {
+  display: block;
+  border-radius: 2px;
+}
+/* line 355, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-link:hover {
+  background-color: #FAFAFA;
+}
+/* line 358, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #399BEA inset;
+}
+/* line 363, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-itemContainer {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+/* line 367, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-iconContainer,
+.a-AppCards--searchResults .a-AppCards-contentContainer,
+.a-AppCards--searchResults .a-AppCards-actionsContainer {
+  vertical-align: top;
+}
+/* line 373, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-iconContainer {
+  float: left;
+}
+/* line 377, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-contentContainer {
+  overflow: hidden;
+  padding: 12px 12px 12px 0;
+}
+/* line 381, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  border-radius: 2px;
+  margin: 12px;
+  overflow: hidden;
+}
+/* line 389, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-name {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 0;
+}
+/* line 396, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-desc {
+  display: block;
+  color: #707070;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+}
+/* line 403, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-info {
+  display: block;
+  color: #707070;
+  font-size: 8px;
+  line-height: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/* line 412, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-tag {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #FFF;
+  padding: 4px 8px;
+}
+/* line 417, ../../scss/core/AppCards.scss */
+.a-AppCards--searchResults .a-AppCards-tag.is-installed {
+  background-color: #24CB7F;
+  color: #FFF;
+}
+
+/* ==========================================================================
+   Search Container
+   ========================================================================== */
+/* line 428, ../../scss/core/AppCards.scss */
+.a-AppCards-search {
+  text-align: left;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 800px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* line 436, ../../scss/core/AppCards.scss */
+.a-AppCards-search-field {
+  position: relative;
+  margin: 0 16px;
+}
+
+/* line 440, ../../scss/core/AppCards.scss */
+.a-AppCards-search-input {
+  border: none;
+  outline: none;
+  font-size: 32px;
+  padding: 24px 16px 24px 64px;
+  height: 80px;
+  border: 2px solid #E8E8E8;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  font-weight: 200;
+  line-height: 32px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  transition: all .2s;
+  color: #404040;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 457, ../../scss/core/AppCards.scss */
+.a-AppCards-search-input::-webkit-input-placeholder {
+  color: #D0D0D0;
+  font-weight: 200;
+}
+
+/* line 461, ../../scss/core/AppCards.scss */
+.a-AppCards-search-input:-moz-placeholder {
+  /* FF 4-18 */
+  color: #D0D0D0;
+  font-weight: 200;
+}
+
+/* line 466, ../../scss/core/AppCards.scss */
+.a-AppCards-search-input::-moz-placeholder {
+  /* FF 19+ */
+  color: #D0D0D0;
+  font-weight: 200;
+}
+
+/* line 471, ../../scss/core/AppCards.scss */
+.a-AppCards-search-input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #D0D0D0;
+  font-weight: 200;
+}
+
+/* line 476, ../../scss/core/AppCards.scss */
+.a-AppCards-search-input:focus {
+  border-color: #2580D4;
+}
+
+/* line 479, ../../scss/core/AppCards.scss */
+.a-AppCards-search-input:hover {
+  border-color: #2580D4;
+}
+
+/* line 482, ../../scss/core/AppCards.scss */
+.a-AppCards-search-input:focus + .a-AppCards-search-icon {
+  opacity: .75;
+}
+
+/* line 485, ../../scss/core/AppCards.scss */
+.a-AppCards-search-icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABqklEQVRYw+2WXUtCQRCGn0QlJa1A9CIKCboSLDJCLKyMDLLEqCQqNT///0/oZoJY5uw5u0e9amDv9p15Znd2dsBuCWAPuABegBGwAMbAG3AFlIEkS7YEUAE+JWDYGgFnywLJAc8RA5vrHSjECV4ABp7Bf9cE2PfNfBiS3T3QBFpSAzaIokvwDcuxP1qc7QA3AboPIB0VoKI4mAPViPpDydr00Yha8V+KuOp4hWXFxxTI+gg7nkXc8EmkqYhKngBZYKbUkNVeleKJYw+Gv3GY4NsQtGMC1JUTzdgE5uZmTIATxeeWTTA2Nt/FBDhXAKwvoW9s7scEaBv+ZtLoAq2lEO96Bk8pDakXJjpSAG49AU4VX7UwUVJ5CQtpry5WlM5ntvN8FHEt4EcrOwTXftJWVPqkfLfar3ZpqeKUHPs0QLvtOoxMAhzNpMPV5Z3XpNrHIcPJk+uYdmCB8F3OECWHYXRlEGn5WqcRA8xlRM8D3YA9XZ+pOQscSwYTpS56Ug9bRkEvFeKvZSTLzQivamUQLk/7HyIM4po1WRDEkDWaBtFhzZaUYx/ItJz7ATL1jvnk6UnkAAAAAElFTkSuQmCC);
+  position: absolute;
+  left: 16px;
+  top: 24px;
+  opacity: .35;
+  transition: opacity .5s;
+}
+
+/* line 498, ../../scss/core/AppCards.scss */
+.a-AppCards-search-results {
+  margin: 48px 0;
+}
+
+/* line 501, ../../scss/core/AppCards.scss */
+.a-AppCards-search-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 508, ../../scss/core/AppCards.scss */
+.a-AppCards-search-item {
+  display: block;
+  padding: 16px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background-color .2s;
+}
+
+/* line 515, ../../scss/core/AppCards.scss */
+.a-AppCards-search-item:hover {
+  background-color: #F8F8F8;
+}
+
+/* line 518, ../../scss/core/AppCards.scss */
+.a-AppCards-search-item:focus {
+  box-shadow: 0 0 0 2px rgba(37, 128, 212, 0.5) inset;
+  background-color: #F8F8F8;
+  outline: none;
+}
+
+/* line 523, ../../scss/core/AppCards.scss */
+.a-AppCards-search-title {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0;
+  margin-bottom: -1px;
+}
+
+/* line 531, ../../scss/core/AppCards.scss */
+.a-AppCards-search-title a {
+  text-decoration: none;
+}
+
+/* line 534, ../../scss/core/AppCards.scss */
+.a-AppCards-search-title a:hover {
+  text-decoration: underline;
+}
+
+/* line 537, ../../scss/core/AppCards.scss */
+.a-AppCards-search-title a:hover .a-AppCards-search-hotTerm {
+  text-decoration: underline;
+}
+
+/* line 540, ../../scss/core/AppCards.scss */
+.a-AppCards-search-desc {
+  font-size: 14px;
+  line-height: 20px;
+  color: #707070;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 549, ../../scss/core/AppCards.scss */
+.a-AppCards-search-annotations {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 4px;
+  color: #707070;
+  text-transform: lowercase;
+}
+
+/* line 557, ../../scss/core/AppCards.scss */
+.a-AppCards-search-category {
+  margin-right: 12px;
+  line-height: 14px;
+  font-size: 11px;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 2px;
+  background-color: #F0F0F0;
+  color: #404040;
+}
+
+/* line 567, ../../scss/core/AppCards.scss */
+.a-AppCards-search-tags a {
+  display: inline-block;
+  font-size: 11px;
+  line-height: 14px;
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+/* line 574, ../../scss/core/AppCards.scss */
+.a-AppCards-search-tags a:hover {
+  text-decoration: underline;
+}
+
+/* line 577, ../../scss/core/AppCards.scss */
+.a-AppCards-search-hotTerm {
+  background-color: #FEEEAA;
+  display: inline-block;
+  padding: 2px 4px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+}
+
+/* line 584, ../../scss/core/AppCards.scss */
+.a-AppCards-search-clear {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAdUlEQVRIx+2UsQ3AIAwEz5OFsEPIBuw/QhoXCMUgkOn8Lc8fvMAQCp1UAS5ABh5Rz7MDSEAFbgMiulbVuywBsgFpw/PklssQt3AL4hr+B3EP7zs/cvq2luzdf9+5eEFGr8UFkiYBLWTro726cTYqko6VUOiQPicKE6McV80lAAAAAElFTkSuQmCC);
+  background-repeat: none;
+  position: absolute;
+  background-color: transparent;
+  margin: 28px 24px 28px 12px;
+  right: 0;
+  top: 0;
+  border-radius: 24px;
+  opacity: 0;
+  transition: opacity .25s;
+}
+
+/* line 601, ../../scss/core/AppCards.scss */
+.a-AppCards-search-clear.is-enabled {
+  opacity: 1;
+}
+
+/* line 604, ../../scss/core/AppCards.scss */
+.a-AppCards-search-clear.is-enabled:hover,
+.a-AppCards-search-clear.is-enabled:focus {
+  box-shadow: 0 0 0 1px #F00 inset;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAiklEQVRIx+2USwqAMAwFB3r/I6jF34lE8DTPTYQirWJtd33rMEMSEmhpqRbBLugF7qHGCTrBliPwAgmmmMTgo9X4HIETLDHJDb4+dflZUgx+k8yBpBw8ISkLj8xcJnM14GvQyVxq/hd8CZb8X2KgKYQndpInEQwxeEIy5AgOu+a3V+EFe3uuLfVyAmw+kLt2CSWuAAAAAElFTkSuQmCC);
+  /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAhklEQVRIie2USwqAIBQAA+9/hErSOlEInWZa6OIh9tFeO2erzPhBh6HT+Q0gABNgbuYYYAT2loAl4kqRJF/SHNsSMMBaimTy7W6X1RE1eRbxIqInv4joykVgEQGvvXp5LF4tkslXccnfI0nkpDwb+xYB5pL8IjK3BA7ia376KiwQqgOdzmtONjhQCqX12hoAAAAASUVORK5CIIA=);*/
+}
+
+/* line 612, ../../scss/core/AppCards.scss */
+.a-AppCards-search-clear.is-enabled:focus {
+  box-shadow: 0 0 0 1px #F00 inset, 0 0 0 2px rgba(255, 0, 0, 0.15);
+  outline: none;
+}
+
+/* ==========================================================================
+   Packaged App Icons
+   ========================================================================== */
+/*
+ * Light Blue
+ */
+/* line 629, ../../scss/core/AppCards.scss */
+.app-apex-application-archive,
+.app-customer-tracker,
+.app-data-reporter,
+.app-group-calendar,
+.app-sample-search,
+.app-websheet-any-co {
+  background-color: #4FA5E9 !important;
+}
+
+/*
+ * Dark Blue
+ */
+/* line 642, ../../scss/core/AppCards.scss */
+.app-feedback,
+.app-issue-tracker,
+.app-sample-calendar,
+.app-sample-dialog,
+.app-sample-lists {
+  background-color: #3F84BB !important;
+}
+
+/*
+ * Darker Blue
+ */
+/* line 654, ../../scss/core/AppCards.scss */
+.app-artwork-catalog,
+.app-checklist-manager,
+.app-go-live-checklist,
+.app-opportunity-tracker,
+.app-p-track,
+.app-sample-data-loading,
+.app-sample-forms,
+.app-sample-reporting,
+.app-sample-universal-theme,
+.app-sample-wizard,
+.app-use-case-status {
+  background-color: #3E566D !important;
+}
+
+/*
+ * Light Gray
+ */
+/* line 672, ../../scss/core/AppCards.scss */
+.app-application-standards-tracker,
+.app-sample-database-application,
+.app-sample-geolocation {
+  background-color: #E5E7E9 !important;
+}
+
+/*
+ * Dark Gray
+ */
+/* line 682, ../../scss/core/AppCards.scss */
+.app-meeting-minutes,
+.app-sample-collections {
+  background-color: #4C4E50 !important;
+}
+
+/*
+ * Orange
+ */
+/* line 691, ../../scss/core/AppCards.scss */
+.app-community-requests,
+.app-incident-tracking,
+.app-live-poll,
+.app-sample-brookstrut,
+.app-sample-charts,
+.app-sample-file-upload-download,
+.app-systems-catalog {
+  background-color: #FDBD3E !important;
+}
+
+/*
+ * Green
+ */
+/* line 705, ../../scss/core/AppCards.scss */
+.app-bug-tracking,
+.app-decision-manager,
+.app-sample-dynamic-actions,
+.app-sample-master-detail,
+.app-sample-trees {
+  background-color: #27A168 !important;
+}
+
+/*
+ * Red
+ */
+/* line 717, ../../scss/core/AppCards.scss */
+.app-expertise-tracker,
+.app-survey-builder,
+.app-websheet-big-cats {
+  background-color: #F64434 !important;
+}

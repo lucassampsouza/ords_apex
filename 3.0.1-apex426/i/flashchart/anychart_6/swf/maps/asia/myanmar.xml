@@ -1,0 +1,110 @@
+<map_data>
+ <name>myanmar</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="92.2049865722656" top="28.5480537414551" right="101.170822143555" bottom="9.79277610778809"/>
+ <regions>
+  <region>
+   <centroid lat="19.4269409179688" lon="93.5570678710938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-AST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arakan State]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.3685550689697" lon="93.3845672607422"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-CST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chin State]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.0687456130981" lon="95.1377639770508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-IRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Irrawaddy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.1036071777344" lon="97.30859375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-KST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kachin State]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.2919502258301" lon="97.5470962524414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-MST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mon State]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.2422161102295" lon="97.3517532348633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-KSE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kayah State]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.7513866424561" lon="94.8787307739258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-MAG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Magwe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.5256195068359" lon="95.8608245849609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-MND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mandalay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.1890563964844" lon="95.9840087890625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-PEG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pegu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.4813003540039" lon="95.5247116088867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-SGN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sagaing]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.7250785827637" lon="98.6641540527344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-SST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shan State]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.4443035125732" lon="98.5497055053711"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-TNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tenasserim]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.3583154678345" lon="97.6637268066406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-KSA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karen State]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.9133319854736" lon="95.1099853515625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MMR-RNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rangoon]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

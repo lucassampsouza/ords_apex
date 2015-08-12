@@ -1,0 +1,50 @@
+ul.sSearchResultsReport li.icon_project_update,
+ul.sSearchResultsReport li.icon_file,
+ul.sSearchResultsReport li.icon_owner,
+ul.sSearchResultsReport li.icon_project,
+ul.sSearchResultsReport li.icon_links,
+ul.sSearchResultsReport li.icon_next_milestone,
+ul.sSearchResultsReport li.icon_customer {
+  background-image: url(../img/eba_searchTypeIcons.png);
+  background-repeat: no-repeat;
+  padding-left: 21px !important;
+  }  
+ul.sSearchResultsReport li.icon_project_update {
+  background-position: 0 0;
+  }
+ul.sSearchResultsReport li.icon_file {
+  background-position: 0 -200px;
+  }
+ul.sSearchResultsReport li.icon_owner {
+  background-position: 0 -400px;
+  }
+ul.sSearchResultsReport li.icon_project {
+  background-position: 0 -600px;
+  }
+ul.sSearchResultsReport li.icon_links {
+  background-position: 0 -800px;
+  }
+ul.sSearchResultsReport li.icon_next_milestone {
+  background-position: 0 -1000px;
+  }
+ul.sSearchResultsReport li.icon_customer {
+  background-position: 0 -1200px;
+  }
+ul.sSearchResultsReport span.highlight {
+  background-color: #FFEA87;
+  }
+ul.sSearchResultsReport span.title span.highlight {
+  background-color: #FFEA87;
+  text-decoration: underline
+  }
+ul.sSearchResultsReport li span.title  {
+  font: bold 16px/20px Arial, sans-serif !important;
+  }
+ul.sSearchResultsReport li span.title a {
+  font: bold 16px/20px Arial, sans-serif !important;
+  }
+ul.sSearchResultsReport li span.description {
+  color: #000 !important;
+  }
+ul.sSearchResultsReport li span.type {display: block}
+ul.sSearchResultsReport li span.last_modified {display: block; font: normal 11px/16px Arial, sans-serif !important;}

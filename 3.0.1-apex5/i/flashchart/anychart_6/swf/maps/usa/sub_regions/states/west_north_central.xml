@@ -1,0 +1,77 @@
+<map_data>
+ <name>west_north_central</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="STATE_FIPS" key="true"/>
+  <column name="SUB_REGION" key="false"/>
+ </columns>
+ <bounds left="-104.0625" top="49.3717346191406" right="-89.1049652099609" bottom="35.9895858764648"/>
+ <regions>
+  <region>
+   <centroid lat="47.4654293060303" lon="-100.307041168213"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Dakota]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[38]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.2160129547119" lon="-100.249816894531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Dakota]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[46]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.4349403381348" lon="-93.3798408508301"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Minnesota]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[27]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.9366989135742" lon="-93.3915328979492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iowa]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[19]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4978446960449" lon="-99.6820831298828"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nebraska]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[31]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4959163665771" lon="-98.3260307312012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kansas]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[20]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2996673583984" lon="-92.4360847473145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Missouri]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[29]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

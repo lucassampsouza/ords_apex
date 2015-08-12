@@ -1,0 +1,61 @@
+<map_data>
+ <name>iceland</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-24.5422248840332" top="66.5361022949219" right="-13.4994449615479" bottom="63.3899993896484"/>
+ <regions>
+  <region>
+   <centroid lat="64.9794845581055" lon="-15.397762298584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISL-AST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Austurland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.4024505615234" lon="-19.7200546264648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISL-NVS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nordhurland Vestra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.4941215515137" lon="-16.9008355140686"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISL-NYS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nordhurland Eystra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.1029243469238" lon="-19.4501504898071"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISL-SDH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sudhurland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.8931694030762" lon="-21.9688758850098"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISL-VSL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vesturland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.6959457397461" lon="-22.7868576049805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISL-VST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vestfirdhir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.0945510864258" lon="-21.9304161071777"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISL-RYK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Reykjavik]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

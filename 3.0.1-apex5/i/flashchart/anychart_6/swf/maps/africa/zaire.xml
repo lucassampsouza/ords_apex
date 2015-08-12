@@ -1,0 +1,75 @@
+<map_data>
+ <name>zaire</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="12.2145519256592" top="5.38138866424561" right="31.3027763366699" bottom="-13.4580574035645"/>
+ <regions>
+  <region>
+   <centroid lat="-4.42166745662689" lon="18.4486837387085"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAR-BAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bandundu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.3108081817627" lon="20.4749183654785"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAR-EQT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Equateur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.13763904571533" lon="21.7145118713379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAR-KOC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kasai-Occidental]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.83638918399811" lon="24.0841159820557"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAR-KOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kasai-Oriental]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.22902870178223" lon="26.2599239349365"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAR-SHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shaba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.48831033706665" lon="15.8497180938721"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAR-KNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kinshasa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.01880121231079" lon="27.2185745239258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAR-KIV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kivu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.14708375930786" lon="14.2459077835083"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAR-BZA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bas-Zaire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.63499975204468" lon="26.7945823669434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAR-HZA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haut-Zaire]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

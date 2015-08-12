@@ -1,0 +1,2624 @@
+<map_data>
+ <name>sweden_second_level</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="ADM1_CODE" key="true"/>
+  <column name="ADM1_NAME" key="true"/>
+ </columns>
+ <bounds left="11.1186895370483" top="69.0596389770508" right="24.1559467315674" bottom="55.3786888122559"/>
+ <regions>
+  <region>
+   <centroid lat="58.9566411137997" lon="12.6475743505751"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aamaal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.470850338431" lon="15.6733614376744"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE019007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aange]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesternorrlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.5005779266357" lon="13.1939375471322"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE006001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aare]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Jaemtlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.1987988381924" lon="17.7133847245989"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aasele]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.1249999915" lon="12.9674340447302"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aastorp]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.2065938145538" lon="16.1259383910236"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aatvidaberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.583333323" lon="14.1586565487137"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE009001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aelmhult]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kronobergs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.6455051281619" lon="13.2387819839031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aelvdalen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.7623944129927" lon="20.733150184932"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aelvsbyn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.9555811405904" lon="12.2171579908058"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ale]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.9738474369041" lon="12.5232225952945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alingsaas]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.8393152759149" lon="14.4758234480798"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE009002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alvesta]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kronobergs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.85416665125" lon="14.7990323192642"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aneby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3608820382895" lon="15.79583331015"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE023001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arboga]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE023]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestmanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.3667870937617" lon="17.2047474362587"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arjeplog]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.6583332867" lon="19.1965407957334"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arvidsjaur]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7523221226285" lon="12.6799222203187"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arvika]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8310948496535" lon="14.9885714013511"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Askersund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2208373774604" lon="16.3583333079"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Avesta]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.9994409996962" lon="12.1459031337097"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bengtsfors]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.1604704387814" lon="13.7410392652652"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE006004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haerjedalen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Jaemtlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.9583332935" lon="18.9709403632862"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bjurholm]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.03644560953" lon="12.9699766676041"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bjuv]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.0482017035162" lon="21.2583332883"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boden]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.7327762679768" lon="12.5973052527337"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bollebygd]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.3131657625768" lon="16.3376701101474"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE003001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bollnaes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Gaevleborgs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.7397893120265" lon="12.9648137291889"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boraas]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4606094101927" lon="15.39583331175"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Borlaenge]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.157092147483" lon="17.8341558932537"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Botkyrka]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.1234090004334" lon="15.1223085834333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boxholm]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.8499244335944" lon="15.6362123899714"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE006003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Braecke]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Jaemtlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.1229207271854" lon="14.4847272057753"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bromoella]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.6209045682596" lon="13.0967470106234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Burloev]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4067263176652" lon="18.0560607910156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Danderyd]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1416666461" lon="14.4513778508468"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Degerfors]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.46249995815" lon="15.8226862356611"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dorotea]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3458261911818" lon="17.6894284258666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ekeroe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.6135452125966" lon="15.2230715224834"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eksjoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.62916665615" lon="15.55763496719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Emmaboda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6249999775" lon="17.13749997145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE022002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Enkoeping]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE022]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Uppsala laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3141163931316" lon="16.3578676605223"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE014001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eskilstuna]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soedermanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.833333326" lon="13.3766413235703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Esloev]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.178687015349" lon="12.72916665575"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Essunga]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6083333149" lon="12.0236452657498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Faergelanda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9423049689066" lon="15.8971847298292"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE023002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fagersta]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE023]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestmanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4108398261066" lon="13.8833333178"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skoevde]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.7501128880386" lon="15.8213406647843"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Falun]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8949854297078" lon="14.12083331685"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Filipstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.7998489187889" lon="15.7999999768"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Finspaang]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.049715149072" lon="16.7271626521278"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE014002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Flen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soedermanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.63920184105" lon="13.5083333193"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Forshaga]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.2017633828227" lon="19.4650580250686"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaellivare]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4520039618222" lon="14.91249998035"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gagnef]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.2833333202" lon="13.49320664598"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gislaved]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0551299846623" lon="17.1445169798855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE014003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gnesta]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soedermanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.3474838122937" lon="13.81072424318"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gnosjoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.584979229707" lon="13.4417313755967"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Goetene]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3101074046346" lon="12.6400780890084"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Graestorp]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3967788480418" lon="12.997092044286"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grums]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.916666647" lon="13.999999984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gullspaang]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6174534890862" lon="17.5047362981061"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE022003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haabo]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE022]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Uppsala laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.9648137251889" lon="14.0835381662423"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Habo]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7384521254837" lon="14.6355338864872"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haellefors]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.6875594745271" lon="14.7231849481483"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE006002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Jaemtlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.6584050350083" lon="12.31249999075"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haerryda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.17083332465" lon="13.7181130578408"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haessleholm]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0814707194892" lon="13.5868994251462"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hagfors]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.9833333134" lon="15.1253649188703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hallsberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.56249997775" lon="16.2008450577975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE023003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hallstahammar]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE023]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestmanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2041524043136" lon="13.5477616486101"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hammaroe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0565180218351" lon="17.0413032250086"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE022004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Heby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE022]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Uppsala laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.3779779814868" lon="16.0166666426"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hedemora]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.0620491624944" lon="12.7827371219732"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Helsingborg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.9976104576424" lon="13.0997329587925"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Herrljunga]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.2601221549973" lon="14.26249998295"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hjo]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.1065180336351" lon="15.8993585986356"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hoegsby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.9212966842093" lon="13.5168412385775"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hoeoer]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.825805148133" lon="13.7512411603287"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hoerby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.47916664075" lon="16.3983105721444"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE003003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hofors]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Gaevleborgs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2061960647872" lon="18.02083330125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Huddinge]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.38749998645" lon="15.8271626557278"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hultsfred]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.9610493859423" lon="13.2538697430473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE005003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hylte]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hallands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4373234849239" lon="17.8166666354"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jaerfaella]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.9340779465033" lon="13.8194455311903"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mullsjoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.9083363592776" lon="18.6795425825655"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jokkmokk]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.57916664835" lon="14.5105716524899"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karlsborg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.37770536179" lon="14.5550610677986"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karlskoga]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4749999781" lon="13.5842703358013"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karlstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0046269534515" lon="16.190200272277"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE014004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Katrineholm]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soedermanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.56249997775" lon="13.1768151474083"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kil]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.9916666507" lon="15.7226862360611"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kinda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.10416665825" lon="13.2481848268917"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Klippan]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5690180237851" lon="15.8717668934237"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE023004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Koeping]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE023]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestmanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.24583331235" lon="13.9641621748986"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kristinehamn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.8022168085288" lon="14.1898993752858"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE006005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Krokom]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Jaemtlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2323231805681" lon="15.277888467658"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oerebro]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4072255236185" lon="16.0840377564256"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE023005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kungsoer]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE023]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestmanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.49583332335" lon="13.1856395094208"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE005005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Laholm]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hallands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8916290087538" lon="14.5299026308062"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Laxaa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1696070146406" lon="14.7983761913371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lekeberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.1993006100374" lon="15.3084777619692"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Raettvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.8416666513" lon="12.3166666574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lerum]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.7416666557" lon="15.3075396007588"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE009003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lessebo]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kronobergs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3675231933594" lon="18.1903667449951"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lidingoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.5589777446222" lon="13.0333333212"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lidkoeping]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.1499999834" lon="12.17916665795"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lilla Edet]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6643579892241" lon="15.3189488516083"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lindesberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3464685901988" lon="15.6524271421038"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Linkoeping]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.8161366667953" lon="13.795736679153"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE009004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ljungby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kronobergs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.9069879851364" lon="15.5249999779"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE003005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ljusdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Gaevleborgs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9310948452535" lon="14.9832951664275"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ljusnarsberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.6908030124425" lon="13.0659709549862"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lomma]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.1999999752" lon="14.6932049881445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ludvika]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.6440658503573" lon="13.3685949826601"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.6499999574" lon="18.4029093088363"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lycksele]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.25416662165" lon="18.78749996485"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malaa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.8411516551712" lon="13.3493420838458"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malung]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.781824728594" lon="13.7343145856894"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mariestad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.4471710067191" lon="12.61249998955"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mark]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.5311213074211" lon="13.6122929746459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE009005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Markaryd]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kronobergs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6718424292293" lon="12.52083332325"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021026]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mellerud]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.294223005284" lon="15.1017394815462"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mjoelby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.6015645200989" lon="12.1142883851993"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moelndal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.7344965347482" lon="14.99999998"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leksand]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6338449928578" lon="15.0945032551754"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Motala]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.8543151701296" lon="14.15246478645"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Joenkoeping]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6058783117131" lon="11.6686517648708"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021028]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Munkedal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8039860811135" lon="13.4938771426"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Munkfors]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.5976862445611" lon="14.6422350379903"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Naessjoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5357589500249" lon="14.8925666613379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nora]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0499999758" lon="15.9383531968683"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE023006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE023]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestmanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.9271626353278" lon="19.4861510851023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norsjoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.8278549081222" lon="15.8749999765"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nybro]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1927330887065" lon="17.3813024505004"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nykvarn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.9180424731416" lon="16.5433685041"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE003007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ockelbo]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Gaevleborgs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.2105717808465" lon="14.6656608394917"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oedeshoeg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.108490987053" lon="15.13749997945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE011006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kumla]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oerebro laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.2991399037266" lon="13.3491678739731"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oerkelljunga]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.12916663015" lon="14.9042134406696"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE006006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oestersund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Jaemtlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.2789779571927" lon="14.148597319221"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oestra Goeinge]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.4881325540107" lon="22.6024733992971"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oeverkalix]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.3166666574" lon="14.5650487081395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE001003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Olofstroem]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Blekinge laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.317756623561" lon="14.6968162348748"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orsa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.3977615260535" lon="14.10416665025"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Osby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.3125348116516" lon="15.7283480097201"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE003008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ovanaaker]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Gaevleborgs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6783358284373" lon="17.0848779678345"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE014006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oxeloesund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soedermanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.72083331845" lon="12.1263098949575"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Partille]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.1716684890347" lon="13.3679646675177"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Perstorp]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.13749997145" lon="14.2749999829"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mora]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.1583332967" lon="16.1023137166389"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE006007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ragunda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Jaemtlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0773167724967" lon="12.9961481610297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saeffle]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.40416664105" lon="15.67083331065"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saeter]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.3095799631614" lon="14.5913047606875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saevsjoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9714024622798" lon="16.4585596462035"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE023007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sala]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE023]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestmanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2327976120948" lon="17.6772857358924"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salem]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.483567275498" lon="16.5811327353128"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE003009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sandviken]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Gaevleborgs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6437845640134" lon="17.8606155081083"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sigtuna]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.6270370418317" lon="13.7559062807527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sjoebo]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.37083331585" lon="13.4630616367418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021032]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skara]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7866210706035" lon="15.7083333105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE023008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skinnskatteberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE023]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestmanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.1667307369138" lon="13.5248476523231"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Falkoeping]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.4753060627439" lon="13.5566938893784"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013026]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skurup]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0652236695868" lon="15.45416664485"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Smedjebacken]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.4830578922074" lon="18.2508804813332"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE019003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oernskoeldsvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesternorrlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4363820176425" lon="17.9222546738843"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sollentuna]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3632154993901" lon="18.0100714206475"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Solna]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.6949526248179" lon="16.6586217396447"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sorsele]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.63749999345" lon="13.2335377881726"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Staffanstorp]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.37083331185" lon="17.9569638251871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sundbyberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.455995665025" lon="14.238017001684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Storfors]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.4394091073582" lon="16.2311579227227"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Storuman]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3471379384096" lon="17.062235486074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE014007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Straengnaes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soedermanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.2318893245714" lon="15.1769897644496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE006008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stroemsund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Jaemtlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3306065664054" lon="17.98749996805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stockholm]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.87916664315" lon="12.98472072679"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sunne]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.77083331025" lon="16.1236976378587"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE023009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Surahammar]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE023]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestmanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.94583332555" lon="13.1385628892605"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013028]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Svaloev]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.5284500060932" lon="13.2833333202"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Svedala]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.4004023098033" lon="13.04583332115"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Svenljunga]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4575413803508" lon="18.064503017996"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taeby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4467101872913" lon="14.2183949619676"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tibro]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.1333333168" lon="13.9336598556846"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021040]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tidaholm]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.529690541639" lon="14.9820177514749"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE009006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tingsryd]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kronobergs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.66420184495" lon="14.1627879929924"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021042]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Toereboda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.6147633805852" lon="14.0143151440583"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013030]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tomelilla]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.0271082399137" lon="14.8349972849406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tranaas]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.4894119123119" lon="13.4277644973973"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tranemo]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.2088460118104" lon="12.3567666277393"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021044]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trollhaettan]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2763500213623" lon="18.6685934066772"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaermdoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.8034189707889" lon="13.4492086908337"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021046]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ulricehamn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.52916664455" lon="17.6471847228292"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Upplands-Bro]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5083333113" lon="17.9083333017"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Upplands-Vaesby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.0258646526101" lon="15.4519284348166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE009007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uppvidinge]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kronobergs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.9789586225933" lon="12.7537846772987"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaargaarda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4206207098566" lon="14.7669217236895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vadstena]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4374414902255" lon="12.4024229589369"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021048]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaenersborg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.9314048369834" lon="19.7060948301535"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaennaes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.12083332085" lon="14.0428310232574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaernamo]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6410384906194" lon="16.5983011617578"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE023010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaesteraas]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE023]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestmanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.9093251429851" lon="14.8497883920592"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE009008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaexjoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kronobergs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.4653467675514" lon="14.1333333168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaggeryd]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5749999777" lon="18.2050223975998"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vallentuna]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.453071568426" lon="14.2672983634647"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE002015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vansbro]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Dalarnas laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.2399708896156" lon="13.0938672259872"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vara]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.3523513659851" lon="15.2121556391449"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE007013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vetlanda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Joenkoepings laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.8950146653061" lon="16.0202914083976"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vilhelmina]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.6675231786893" lon="15.8659169280337"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vimmerby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.39583329175" lon="19.5552728906526"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vindeln]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0565180258351" lon="15.8919143441081"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE014009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vingaaker]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soedermanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.8573521777672" lon="15.2691896863614"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ydre]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.21041663995" lon="20.5367136001587"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kiruna]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.5453547039313" lon="12.9143961516375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Torsby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8060362818078" lon="12.171916416264"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4428874866122" lon="12.0997319171497"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE017001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aarjaeng]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaermlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.9919003709691" lon="11.8945015618125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dals-Ed]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6944500956537" lon="11.421981394822"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021038]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tanum]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.9657001495361" lon="11.2292680740356"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021036]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stroemstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4069718588959" lon="11.3400213530135"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021034]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sotenaes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.2911300487534" lon="11.835702033508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uddevalla]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.1789531707764" lon="11.6026268005371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021030]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orust]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.0475105206711" lon="11.9214881220356"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stenungsund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3395726432066" lon="11.481858253479"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lysekil]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.9029285350408" lon="11.8432679133831"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kungaelv]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.1635569128015" lon="12.4244928304985"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE005006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Varberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hallands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.4396626652778" lon="12.1616447400473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE005004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kungsbacka]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hallands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.0372994674971" lon="12.7210743206498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE005001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Falkenberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hallands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.7350779106092" lon="12.9680697374673"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE005002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Halmstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hallands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.3904451959777" lon="12.7527039150739"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baastad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.23749999105" lon="12.977682854131"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aengelholm]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.2145500183105" lon="12.6099028587341"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hoeganaes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.8948112451595" lon="12.8641514399079"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Landskrona]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.7849140167236" lon="13.0601284280658"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kaevlinge]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.5683601349484" lon="13.0214111900933"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malmoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.4457854729194" lon="12.9938968594947"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013032]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vellinge]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.4143952657748" lon="13.2456407546997"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trelleborg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.4669457722363" lon="13.9205576900713"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ystad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.5760821725977" lon="14.2128264345924"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Simrishamn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.0166666586" lon="14.113407159309"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE013015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kristianstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Skaane laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.0952354387152" lon="14.7035293579102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE001005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soelvesborg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Blekinge laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.2406959486191" lon="14.8569554452532"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE001001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karlshamn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Blekinge laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.2518560995506" lon="15.685494857368"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE001002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karlskrona]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Blekinge laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.3007261862259" lon="15.2264294207771"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE001004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ronneby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Blekinge laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.4020802719672" lon="15.911438358401"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Torsaas]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.6918271324316" lon="16.1155766054371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kalmar]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.3482447244059" lon="16.3594963589775"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oskarshamn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.0146026611328" lon="16.8433475494385"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Borgholm]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.1806779138044" lon="16.6415619407179"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Valdemarsvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8131905773283" lon="16.8954936855701"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE014005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nykoeping]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soedermanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.4057009125904" lon="22.8720036587534"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pajala]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.5120500699876" lon="23.5327705122301"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oevertorneaa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.9383128875077" lon="22.9580647539625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kalix]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.8218729409281" lon="22.0808760734063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Luleaa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.866455078125" lon="23.7542389284895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haparanda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.8306360652867" lon="20.486973616639"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skellefteaa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.3679076915437" lon="20.796081587277"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE010014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Piteaa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Norrbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.1515472203363" lon="20.7603058290944"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Robertsfors]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.9304113816178" lon="20.3416666473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Umeaa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.6409119726576" lon="19.2906297507716"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE018007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nordmaling]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesterbottens laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.9686140512541" lon="17.8909193531138"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE019002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kramfors]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesternorrlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.43749996225" lon="16.9190760017833"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE019004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sollefteaa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesternorrlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.6233118515867" lon="17.3559875985126"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE019006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Timraa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesternorrlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.5417256494344" lon="17.0109683229362"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE019005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sundsvall]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesternorrlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.6897842229227" lon="17.6791510120412"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE019001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haernoesand]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaesternorrlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.8164081409117" lon="16.818694611156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE003004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hudiksvall]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Gaevleborgs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.282090730149" lon="16.9503702668313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE003010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soederhamn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Gaevleborgs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.0360503828949" lon="16.7951187012789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE003006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nordanstig]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Gaevleborgs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.6534863664732" lon="17.1163421495438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE003002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaevle]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Gaevleborgs laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.5525937269441" lon="17.4836219005981"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE022001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aelvkarleby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE022]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Uppsala laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.3438744741161" lon="17.6498035287239"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE022007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tierp]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE022]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Uppsala laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2726281363716" lon="18.2072450483579"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE022006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oesthammar]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE022]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Uppsala laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5097160339355" lon="18.5090581095305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oesteraaker]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8899778890705" lon="18.6494919932975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norrtaelje]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2102273202264" lon="18.302210600712"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tyresoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3021249030502" lon="18.2466288086321"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nacka]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4049453735352" lon="18.3078241348267"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015026]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaxholm]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.03290060909" lon="18.2585410277606"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haninge]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.9241827544725" lon="17.8993711471558"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nynaeshamn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0905129643736" lon="17.5222902787537"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE015015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soedertaelje]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Stockholms laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8895667930171" lon="17.5364777735804"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE014008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trosa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soedermanlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6249999815" lon="16.3114055521248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norrkoeping]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.0559692260574" lon="16.3863588846482"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moensteraas]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3861338207261" lon="16.4963837185538"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE012010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soederkoeping]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestergoetlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.8176320241175" lon="16.4053305824197"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaestervik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.4759941101074" lon="16.5528402328491"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE008007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moerbylaanga]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Kalmar laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.6474933624268" lon="18.6623430252075"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE004000]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gotland]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Gotlands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.0118942260742" lon="11.6378211975098"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tjoern]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.7083333185" lon="11.9765939031954"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Goeteborg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.7371387481689" lon="11.6571040153503"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE021029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oeckeroe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE021]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vaestra Goetalands laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7405053000541" lon="17.8797836700496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE022005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Knivsta]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE022]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Uppsala laen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.949634799501" lon="17.7776041355563"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE022008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uppsala]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[SWE022]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Uppsala laen]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

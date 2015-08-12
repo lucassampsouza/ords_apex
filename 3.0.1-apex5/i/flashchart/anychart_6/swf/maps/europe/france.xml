@@ -1,0 +1,166 @@
+<map_data>
+ <name>france</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-5.13472270965576" top="51.0911102294922" right="9.56222152709961" bottom="41.3647155761719"/>
+ <regions>
+  <region>
+   <centroid lat="44.244441986084" lon="-0.1611328125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-AQT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aquitaine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.7109680175781" lon="3.2686619758606"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-AVR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Auvergne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.9530487060547" lon="-0.479722321033478"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BNR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Basse-Normandie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2912673950195" lon="4.19430541992188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bourgogne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.0791625976563" lon="-3.0841668844223"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bretagne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.645133972168" lon="1.59263876080513"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Centre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.8766632080078" lon="4.6431941986084"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Champagne-Ardenne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.1873588562012" lon="9.06638813018799"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-COR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Corse]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.137077331543" lon="6.20097160339355"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-FRC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franche-Comte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.3653869628906" lon="0.917777709662914"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-HNR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haute-Normandie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.6754150390625" lon="2.51111090183258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-IDF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ile-del-France]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.646800994873" lon="3.27166640758514"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LNR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Languedoc-Roussillon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.6829109191895" lon="1.61819434165955"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LIM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Limousin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.7207183837891" lon="6.27618312835693"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lorraine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.8088684082031" lon="1.56694427132607"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-MPY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Midi-Pyrenees]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.5297203063965" lon="2.87624955177307"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-NPC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nord-Pas-de-Calais]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4174957275391" lon="-0.847361207008362"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PDL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pays de la Loire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.6080513000488" lon="2.81343698501587"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PIC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Picardie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.132625579834" lon="-0.174444556236267"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Poitou-Charentes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.3165245056152" lon="5.42555499076843"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-RHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rhone-Alpes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0888862609863" lon="5.97523927688599"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PAC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Provence-Alpes-Cote d'Azur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.2374954223633" lon="7.54581642150879"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-ALS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alsace]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

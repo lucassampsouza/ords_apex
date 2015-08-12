@@ -1,0 +1,194 @@
+<map_data>
+ <name>uk_northern_ireland</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-8.17166709899902" top="55.3086090087891" right="-5.43055582046509" bottom="54.0275001525879"/>
+ <regions>
+  <region>
+   <centroid lat="55.1456890106201" lon="-6.2622230052948"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-MOY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moyle]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.0658302307129" lon="-6.68875050544739"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-CLR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coleraine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.0026359558105" lon="-6.97138953208923"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-LMV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Limavady]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.0299949645996" lon="-6.40317249298096"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-BLY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ballymoney]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.9382095336914" lon="-7.21250414848328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-LND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Londonderry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.9036102294922" lon="-5.89423656463623"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-LAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Larne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.9024963378906" lon="-6.22750115394592"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-BLL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ballymena]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.8205013275146" lon="-6.71987199783325"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-MGH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Magherafelt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.6994400024414" lon="-6.24958348274231"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-ANT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Antrim]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.7223606109619" lon="-5.98111152648926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-NWT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Newtownabbey]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.7295799255371" lon="-5.79618120193481"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-CRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carrickfergus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.6448554992676" lon="-6.75347256660461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-CKS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cookstown]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.6469402313232" lon="-5.71829509735107"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-NDO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Down]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.5011043548584" lon="-5.62694501876831"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-ARD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ards]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.6016693115234" lon="-5.93680596351624"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-BLF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Belfast]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.4995784759521" lon="-6.0822229385376"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-LSB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lisburn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.5492992401123" lon="-5.85402798652649"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-CST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Castlereagh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.4731903076172" lon="-6.39704155921936"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-CRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Craigavon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.3306903839111" lon="-5.80611181259155"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-DOW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Down]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.322774887085" lon="-6.62000060081482"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-ARM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Armagh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.3431911468506" lon="-6.17152810096741"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-BNB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Banbridge]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.1522197723389" lon="-6.26764011383057"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-NAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Newry and Mourne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.7723045349121" lon="-7.41138958930969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-STR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Strabane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.5911102294922" lon="-7.31152844429016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-OMG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Omagh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.3590793609619" lon="-7.65652799606323"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-FRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fermanagh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.4493007659912" lon="-6.95956158638"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-NIR-DNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dungannon]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

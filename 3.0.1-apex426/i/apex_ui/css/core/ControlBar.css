@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Control Bar
+   ========================================================================== */
+/* line 10, ../../scss/core/ControlBar.scss */
+.a-ControlBar {
+  display: table;
+  width: 100%;
+  position: relative;
+}
+
+/* line 15, ../../scss/core/ControlBar.scss */
+.a-ControlBar-col {
+  display: table-cell;
+  padding: 8px;
+  vertical-align: top;
+}
+
+/* line 20, ../../scss/core/ControlBar.scss */
+.a-ControlBar-col--noPadding {
+  padding: 0;
+}
+
+/* line 23, ../../scss/core/ControlBar.scss */
+.a-ControlBar-col:first-child {
+  text-align: left;
+}
+
+/* line 26, ../../scss/core/ControlBar.scss */
+.a-ControlBar-col:last-child {
+  text-align: right;
+}
+
+/* line 29, ../../scss/core/ControlBar.scss */
+.a-ControlBar-col:only-child {
+  text-align: left;
+}
+
+/* line 32, ../../scss/core/ControlBar.scss */
+.a-ControlBar-spacer {
+  display: inline-block;
+  width: 8px;
+}

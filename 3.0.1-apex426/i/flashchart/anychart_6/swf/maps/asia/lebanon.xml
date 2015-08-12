@@ -1,0 +1,54 @@
+<map_data>
+ <name>lebanon</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="35.100830078125" top="34.6474990844727" right="36.6237411499023" bottom="33.0619430541992"/>
+ <regions>
+  <region>
+   <centroid lat="33.3041591644287" lon="35.5832195281982"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBN-ANB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[An Nabatiyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.3316497802734" lon="35.3679084777832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBN-SAY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sayda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9596138000488" lon="36.1185340881348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBN-ABI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Biqa']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3998603820801" lon="36.0531349182129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBN-ASH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ash Shamal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8635101318359" lon="35.6968612670898"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBN-JLB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jabal Lubnan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8847160339355" lon="35.5082092285156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBN-BYR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bayrut]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

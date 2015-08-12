@@ -1,0 +1,162 @@
+a:link {text-decoration: none;}
+           
+a:visited {text-decoration: none;}
+           
+a:hover {text-decoration: underline;}
+
+body
+          {background-color: #ffffff;
+           margin: 0px 0px 0px 0px;
+           padding: 0px 0px 0px 0px;}
+
+
+.infobox  { padding-left: 12px; 
+            padding-right: 8px; 
+            padding-top: 4px; 
+            font-family: Arial, Helvetica, Geneva, sans-serif;
+            font-size: 10pt;
+            color: #000000;}
+            
+.nounderline 
+           {text-decoration: none}
+           
+div.float {
+  float: left;
+  padding: 10px;
+  text-align: left;
+  }
+  
+table.thinred  { border: solid 1px #f00 }
+
+.header
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 16pt;
+           font-weight: bold;
+           color: RED;
+ }
+ 
+ .instructiontext
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           color: #000000;
+ }
+
+
+  
+  
+.listitemoff
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           color: #000000;}
+
+.listitemon
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           font-weight: bold;
+           background: yellow;
+           color: #000000;}
+
+
+.tableheader
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           font-weight: bold;
+           background: #fffff;
+           color: #ff0000;}
+           
+.tableheader2
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           font-weight: bold;
+           background: #fffff;
+           color: #ff0000;}
+
+.tableheaderinverse
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           font-weight: bold;
+           background: #ff0000;
+           color: #cccc99;}
+
+.tableheaderhighlight
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           font-weight: bold;
+           background: #ff0000;
+           color: #ffffff;}
+
+.tabledata
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           background: #dddddd;
+           color: #000000;}
+
+.tabledata-alt
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           background: #ffffff;
+           color: #000000;}
+
+.tabledatabold
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           font-weight: bold;
+           background: #ffffff;
+           color: #000000;}
+
+.fieldtitleleft
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           color: #000000;}
+
+/* CLASSES USED BY THE REPORTING ENGINE, MAY BE COLOR SPECIFIC */
+.tableheader{font-size: 10pt;font-weight: bold;background-color: #ff0000;color: #ffffff;}
+.tabledata{font-size: 10pt;background-color: #dddddd;color: #000000;}
+.tabledata-alt{font-size:10pt;background-color:#ffffff; color:#000000;}
+.tabledatabold{font-size:10pt; font-weight:bold; background-color:#dddddd; color:#000000;}
+
+table.standardLook th{font-size:10pt;; font-weight:bold; color:#000000;padding:2px;}
+table.standardLook td{font-size:10pt;color: #000000;padding:2px;}
+
+table.default1 th{font-size:10pt; font-weight: bold;background-color: #ff0000; color: #ffffff;padding:2px;}
+table.default1 td{font-size:10pt;background-color: #dddddd;color: #000000;padding:2px;}
+table.default1 td.alt{font-size:10pt;background-color:#ffffff; color:#000000;}
+
+table.default2 {border-left:1px #aaaaaa solid;border-top:1px #aaaaaa solid;font-size:10pt; margin-top:1px;}
+table.default2 th{font-weight:bold;padding:2px;border-bottom:1px #aaaaaa solid;border-right:1px #aaaaaa solid;font-size:10pt;background-color:ff0000;color:ffffff;}
+table.default2 td{background-color:ffffff;padding:2px;border-bottom:1px #aaaaaa solid;border-right:1px #aaaaaa solid;font-size:10pt;}
+
+table.default3 th{font-size:8pt;font-weight:bold; color:#000000;}
+table.default3 td{font-size:8pt;color: #000000;}
+
+table.default1 th a:link{color:#dddddd;text-decoration:underline;}
+table.default1 th a:visited{color:#dddddd;text-decoration:underline;}
+table.default1 th a:hover{color:#ffffff;text-decoration:underline;}
+
+table.default2 th a:link{color:#dddddd;text-decoration:underline;}
+table.default2 th a:visited{color:#dddddd;text-decoration:underline;}
+table.default2 th a:hover{color:#ffffff;text-decoration:underline;}
+
+table.default3 th a:link{color:#ff0000;text-decoration:underline;}
+table.default3 th a:visited{color:#ff0000;text-decoration:underline;}
+table.default3 th a:hover{color:#aaaaaa;text-decoration:underline;}
+
+table.standardLook th a:link{color:#ff0000;text-decoration:underline;}
+table.standardLook th a:visited{color:#ff0000;text-decoration:underline;}
+table.standardLook th a:hover{color:#aaaaaa;text-decoration:underline;}
+
+table.default4 { margin:5px auto 0.5em auto; border-left:1px solid #cccccc; border-top:1px solid #cccccc; border-right:1px solid #999999; border-bottom:1px solid #999999; background-color:#efefef; }
+table.default4 td { border-left:1px solid #ffffff; border-top:1px solid #ffffff; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; }
+table.default4 th { font-weight:bold;font-size:10pt;color:#ffffff;background-color:#ff0000; border-left:1px solid #e0e7f7; border-top:1px solid #e0e7f7; border-right:1px solid #999999; border-bottom:1px solid #999999; }
+table.default4 td.even { background-color:#fefefe;font-size:10pt;white-space:nowrap;}
+table.default4 td.odd { background-color:#efefef; font-size:10pt;white-space:nowrap;}
+
+table.default4 th a:link{color:#eeeeee;}
+table.default4 th a:visited{color:#eeeeee;}
+table.default4 th a:hover{color:#ffffff;}
+
+
+div.popupHead{
+    background-color:#ff0000;
+    padding:4px; 
+    border-bottom: 1px #A60000 solid;}

@@ -1,0 +1,241 @@
+/* General classes not in APEX 4.2
+   ========================================================================== */
+
+.visuallyhidden, .u-VisuallyHidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+/* General BarChart
+   ========================================================================== */
+
+ .a-BarChart {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.a-BarChart-item {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding: 16px 12px;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.a-BarChart-item:first-child {
+  border-top: none;
+}
+
+.a-BarChart-image,
+.a-BarChart-item img {
+  border-radius: 100%;
+  width: 32px;
+  display: block;
+}
+
+.a-BarChart-link:hover {
+  text-decoration: none;
+}
+
+.a-BarChart-icon {
+  display: block;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+}
+.a-BarChart-icon.a-BarChart-icon--square {
+  border-radius: 2px;
+}
+
+.a-BarChart-initials {
+  display: block;
+  border-radius: 100%;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  text-transform: uppercase;
+  border: 1px solid;
+}
+
+.a-BarChart-label,
+.a-BarChart-value {
+  font-size: 12px;
+  line-height: 20px;
+}
+.a-BarChart-label a,
+.a-BarChart-value a {
+  text-decoration: none;
+}
+.a-BarChart-label a:hover,
+.a-BarChart-value a:hover {
+  text-decoration: underline;
+}
+.a-BarChart-labelContainer {
+  display: table;
+  width: 100%;
+}
+.a-BarChart-label {
+  display: block;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.a-BarChart-value {
+  float: right;
+}
+.a-BarChart-bar {
+  height: 8px;
+  border-radius: 1px;
+  overflow: hidden;
+  margin: 2px 0;
+}
+.a-BarChart-barLink {
+  display: block;
+}
+.a-BarChart-filled {
+  height: 8px;
+  border-radius: 1px;
+}
+
+.a-BarChart-bar,
+.a-BarChart-filled {
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+} 
+
+/* Modern Bar Chart
+   ========================================================================== */
+
+.a-BarChart--modern .a-MediaBlock {}
+.a-BarChart--modern .a-MediaBlock-graphic {
+  float: left;
+  margin-right: 8px;
+}
+.a-BarChart--modern .a-BarChart-initials {
+  display: block;
+  border-radius: 100%;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  text-transform: uppercase;
+  border: 1px solid;
+}
+.a-BarChart--modern .a-MediaBlock-content {
+  overflow: hidden;
+  _overflow: visible;
+}
+.a-BarChart--modern .a-BarChart-label,
+.a-BarChart--modern .a-BarChart-value {
+  display: table-cell;
+  float: none;
+  vertical-align: top;
+}
+.a-BarChart--modern .a-BarChart-value {
+  text-align: right;
+}
+
+/* Classic Bar Chart
+   ========================================================================== */
+
+.a-BarChart--classic {
+  display: table;
+  width: 100%;
+}
+.a-BarChart--classic .a-BarChart-item {
+  display: table-row;
+  padding: 0;
+}
+.a-BarChart--classic .a-BarChart-label,
+.a-BarChart--classic .a-BarChart-barLink,
+.a-BarChart--classic .a-BarChart-value {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: table-cell;
+  vertical-align: top;
+  white-space: nowrap;
+}
+.a-BarChart--classic .a-BarChart-barLink {
+  width: 80%;
+}
+.a-BarChart--classic .a-BarChart-value {
+  width: 5%;
+  float: none;
+  text-align: right;
+  padding-left: 8px;
+  padding-right: 12px;
+}
+.a-BarChart--classic .a-BarChart-label {
+  padding-right: 8px;
+  padding-left: 12px;
+}
+.a-BarChart--classic .a-BarChart-bar {
+  margin: 4px 0;
+  height: 12px;
+}
+.a-BarChart--classic .a-BarChart-filled {
+  height: 12px;
+}
+
+
+/* Styling and Colors
+   ========================================================================== */
+.a-BarChart-item {
+  -webkit-box-shadow: 0 -1px 0 #f8f8f8 inset;
+  -moz-box-shadow: 0 -1px 0 #f8f8f8 inset;
+  box-shadow: 0 -1px 0 #f8f8f8 inset;
+}
+.a-BarChart-item:hover {
+  background-color: #FAFAFA;
+}
+.a-BarChart-item:hover .a-BarChart-bar {
+  background-color: rgba(0,0,0,.05);
+}
+.a-BarChart-image {
+  background-color: #FFF;
+}
+.a-BarChart-icon {
+  background-color: #D0D0D0;
+  color: #FFF;
+}
+.a-BarChart-initials {
+  background-color: #D0D0D0;
+}
+.a-BarChart-label {
+  color: #404040;
+}
+.a-BarChart-value, .a-BarChart-value a {
+  color: #707070;
+}
+.a-BarChart-bar {
+  background-color: #F8F8F8;
+}
+.a-BarChart-filled {
+  background-color: #2075CF;
+}
+.a-BarChart--modern .a-BarChart-initials {
+  background-color: #D0D0D0;
+}

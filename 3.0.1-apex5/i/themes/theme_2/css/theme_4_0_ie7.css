@@ -1,0 +1,16 @@
+button span {
+	margin-top:1px;
+}
+
+/* APEX IR Buttons */
+.apexir_BUTTONS table td {
+	text-align: left;
+}
+
+#main-sb-left {
+	margin-left: 0px;
+}
+
+.hide-show-region {
+	width: 100%;
+}

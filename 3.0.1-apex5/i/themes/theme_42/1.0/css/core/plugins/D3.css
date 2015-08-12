@@ -1,0 +1,46 @@
+/*
+	Oracle Application Express Plugins
+	D3 Bar Chart (d3.oracle.barchart)
+
+	To be compiled alongside the Universal Theme LESS file.
+*/
+.a-D3BarChart .a-D3BarChart-axis line, .a-D3BarChart .a-D3BarChart-axis path {
+  fill: none;
+  stroke: #dddddd; }
+.a-D3BarChart .a-D3BarChart-axis .tick text {
+  fill: #707070; }
+.a-D3BarChart .a-D3BarChart-axis-title {
+  fill: #404040;
+  font-size: 1.1em; }
+.a-D3BarChart .a-D3BarChart-grid line, .a-D3BarChart .a-D3BarChart-grid path {
+  fill: none;
+  stroke: #dddddd;
+  stroke-opacity: 0.65; }
+.a-D3BarChart .a-D3BarChart-grid text {
+  opacity: 0; }
+.a-D3BarChart .a-D3BarChart-axis .a-D3BarChart-axis--staging {
+  opacity: 0; }
+.a-D3BarChart .a-D3BarChart-tooltip {
+  position: absolute; }
+.a-D3BarChart .a-D3BarChart-container {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em; }
+.a-D3BarChart-bar--in {
+  transition: opacity 0.1s ease-in-out;
+  opacity: 1; }
+  .a-D3BarChart-bar--in.a-D3BarChart-bar--fade {
+    opacity: 0.35; }
+.a-D3BarChart-bar--clickable {
+  cursor: pointer; }
+.a-D3BarChart .u-Processing {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px; }
+.a-D3BarChart .a-D3ChartLegend, .a-D3BarChart .a-D3ChartLegend-layout, .a-D3BarChart .a-D3ChartLegend-item {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: none !important;
+  background-color: transparent; }

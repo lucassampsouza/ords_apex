@@ -1,0 +1,3929 @@
+<map_data>
+ <name>norway_second_level</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="ADM1_CODE" key="true"/>
+  <column name="ADM1_NAME" key="true"/>
+ </columns>
+ <bounds left="4.65510511398315" top="71.1881103515625" right="31.0652465820313" bottom="57.9779281616211"/>
+ <regions>
+  <region>
+   <centroid lat="59.6787506103516" lon="10.7708333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aas]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8414505004883" lon="10.437920665741"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Asker]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8103373209636" lon="11.5965564092"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aurskog-Hoeland]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9708333333333" lon="10.7083333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR012000]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oslo]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR012]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oslo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4083333333333" lon="11.2291666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eidsvoll]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7625" lon="11.0708333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Enebakk]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8666666666667" lon="11.2023307800293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fet]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6990489959717" lon="10.6523385047913"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Frogn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.080930074056" lon="10.9957392374674"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gjerdrum]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4208333333333" lon="10.8938041687012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hurdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8934977213542" lon="10.9556488037109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loerenskog]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2281616210938" lon="10.9350336710612"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nannestad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.1708333333333" lon="11.5316360473633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7970022837321" lon="10.6544842720032"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nesodden]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.074343363444" lon="10.8190478006999"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nittedal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.794038772583" lon="10.7858935991923"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oppegaard]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8770431518555" lon="11.0802917480469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Raelingen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9833333333333" lon="11.0416666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skedsmo]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.725" lon="10.8811642964681"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ski]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9834157307943" lon="11.2375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soerum]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.1555318196615" lon="11.1752265930176"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ullensaker]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5578440348307" lon="10.7530634880066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vestby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.7995727539063" lon="8.35644276936849"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aamli]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4953227996826" lon="8.74484484990438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arendal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4375" lon="8.17734680175781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Birkenes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8681874593099" lon="7.52263259887695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bygland]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4291666666667" lon="7.21741154988607"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bykle]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.5875" lon="7.75945332845052"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Evje og Hornnes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.5843556722005" lon="8.34417470296224"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Froland]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8728500366211" lon="8.95463155110677"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gjerstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3690232594808" lon="8.51734638214111"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grimstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.439116414388" lon="7.9270133972168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iveland]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.2215127309163" lon="8.28797076543172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lillesand]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.7356515248617" lon="9.16267935434977"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Risoer]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6230717976888" lon="8.94035835266113"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tvedestrand]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1693379720052" lon="7.4"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Valle]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.7524271647136" lon="8.81079813639323"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR002015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vegaarshei]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR002]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.694780476888" lon="8.29583333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7275151570638" lon="10.1646599769592"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Drammen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4291666666667" lon="9.45751368204752"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Flaa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8583333333333" lon="9.43061701456705"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Flesberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.7507019042969" lon="9.01343587239583"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gol]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.923893737793" lon="8.4625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hemsedal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.6039515177409" lon="8.03109512329101"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hol]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0358800252279" lon="10.275"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hole]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6015186309814" lon="10.5226564407349"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hurum]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5958333333333" lon="9.67723821004232"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kongsberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.1916666666667" lon="9.65818710327148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kroedsherad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8493621826172" lon="10.2049969991048"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lier]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0083333333333" lon="9.98936182657877"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Modum]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.75" lon="10.0246388753255"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nedre Eiker]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.5458333333333" lon="9.04198379516601"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2890818277995" lon="8.34166666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nore og Uvdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.744249979655" lon="9.83333333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oevre Eiker]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2839477539063" lon="10.3726483662923"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jevnaker]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7304719289144" lon="10.4245116551717"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roeyken]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0166666666667" lon="9.2"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rollag]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.1323094685873" lon="9.48139139811198"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sigdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.2229637145996" lon="21.8793979008992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loppa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.5189737955729" lon="29.9883298238118"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baatsfjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.6827944437663" lon="29.1289615631104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berlevaag]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.7706759134929" lon="27.961648050944"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gamvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.6588658909425" lon="23.3905732150877"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hammerfest]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.5303043365479" lon="22.4086477279663"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hasvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.3963396708171" lon="25.2208771387736"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karasjohka-Karasjok]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.1444072723389" lon="23.6761194383639"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guovdageaidnu-Kautokeino]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.4038561503093" lon="24.125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kvalsund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.9273885091146" lon="25.9619083404541"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nordkapp]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.8543122609456" lon="22.0340599695841"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kvaenangen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.8707427978516" lon="24.6732754389445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maasoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.1345681340654" lon="28.8488580067952"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Unjarga-Nesseby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.2546852111817" lon="25.0351053873698"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Porsanger]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.2688369750977" lon="27.4791666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Deatnu-Tana]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.5190238952637" lon="29.6497354234819"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soer-Varanger]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.5581219257498" lon="26.8377482096354"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lebesby]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.2715471903483" lon="29.7340421040853"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vadsoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.3376884460449" lon="30.6232651392619"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vardoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.2708333333333" lon="11.4310948689779"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aamot]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.6774520874024" lon="12.1253939946493"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aasnes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.0969696044922" lon="10.5157409667969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alvdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.992631149292" lon="12.0676369444989"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eidskog]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.9723444620768" lon="11.7125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Elverum]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.9736368815104" lon="11.9052786827087"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Engerdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.1583333333333" lon="9.97115681966146"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Folldal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4155666351318" lon="12.1937019348145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grue]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.9875" lon="11.118329111735"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hamar]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.1860505891828" lon="12.1818281173706"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kongsvinger]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.8666666666667" lon="11.4198885599772"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loeten]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4408554077149" lon="11.5737970987956"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nord-Odal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.4198786417643" lon="11.2583333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Os]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.8134531656901" lon="11.1291666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rendalen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.9904312133789" lon="10.7673149108887"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ringsaker]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2143152872721" lon="11.7167536417643"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soer-Odal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.626628112793" lon="11.3291666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stange]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.5836420694987" lon="10.70365041097"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stor-Elvdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.3708333333333" lon="11.081404876709"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tolga]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.3559833526611" lon="12.2995203018188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trysil]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.3541666666667" lon="10.5916666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tynset]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.8105717976888" lon="11.9661195755005"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR005022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaaler]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR005]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4868679046631" lon="5.10082268714905"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Askoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.070333480835" lon="5.17062759399414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Austevoll]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.7838668823242" lon="4.93602525393168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Austrheim]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.233190536499" lon="5.0846962928772"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006028]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6112895965576" lon="5.37771129608154"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sveio]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.3477615356445" lon="7.26807180795485"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eidfjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.956688563029" lon="6.04259978930155"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kvinnherad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.7669696807861" lon="4.72356915473938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fedje]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9006443023682" lon="5.32126927375793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fitjar]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.3574752807617" lon="5.05329346656799"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fjell]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.1949361165365" lon="5.76223340034485"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fusa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.5403852128788" lon="6.65152130126953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Granvin]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2743534088135" lon="6.29934554100037"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jondal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.3186330159505" lon="6.18254521687825"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kvam]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9835739135742" lon="5.53244495391846"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006030]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tysnes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.6708333333333" lon="5.94387334187825"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaksdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.6535186767578" lon="5.05151414871216"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Radoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.6962097167969" lon="5.35517595609029"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lindaas]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.88316599528" lon="5.92329813639323"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Modalen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9541666666667" lon="6.82916666666666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Odda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6073455810547" lon="5.72087389628092"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oelen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.5863609313965" lon="4.84718418121338"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oeygarden]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2332102457682" lon="5.46088600158691"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Os]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.847532526652" lon="5.49307750066121"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Masfjorden]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.5596656799316" lon="5.10958361625671"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Meland]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4090226491292" lon="5.775"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006026]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Samnanger]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8366680145264" lon="5.46806144714355"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.365966796875" lon="5.43319490750631"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bergen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7448482513428" lon="5.23362255096436"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boemlo]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7888666788737" lon="6.14734686215719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Etne]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2458333333333" lon="6.9266065900963"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ullensvang]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.6072339375814" lon="7.20833333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006032]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ulvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.5675582885742" lon="5.53162431716919"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Osteroey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.7205713907878" lon="6.39621721903483"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR006034]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Voss]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR006]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.4272727966309" lon="6.21847343444824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sula]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.8060092926025" lon="6.90603919273522"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aukra]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.2958335876465" lon="8.56415141423543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aure]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.0315704345703" lon="7.54470348358154"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Averoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.9334114074707" lon="7.41329383850097"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eide]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.7596455891927" lon="7.38941653569539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Molde]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.066499710083" lon="7.80149149894714"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Frei]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.5274982452393" lon="6.05889105796814"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Giske]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.9152000427246" lon="7.7544823328654"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gjemnes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.1094290979117" lon="8.49029108683268"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Halsa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.6184397860012" lon="6.46184500058492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haram]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.3518123626709" lon="6.00486028989156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hareid]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.3145605410845" lon="5.65877914428711"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Heroey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.1220016479492" lon="7.78177905082703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kristiansund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.6957015991211" lon="6.73524856567383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Midsund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.4441960931853" lon="7.68949921492169"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rauma]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.5953742400871" lon="8.17515233357747"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nesset]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.2412139892578" lon="7.41273512840271"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norddal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.4851328531901" lon="6.90778028170268"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oerskog]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.2069380442301" lon="6.38008885383606"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oersta]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.8852369433017" lon="7.11177970568339"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fraena]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.0083333333333" lon="9.26253763834635"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rindal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.08238474528" lon="5.63562436103821"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007036]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vanylven]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.7756309509277" lon="6.51723027229309"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sandoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.4984747145588" lon="6.62572483653719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skodje]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.381420135498" lon="8.01312732696533"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007026]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Smoela]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.4030700683594" lon="7.07497800191243"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stordal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.1681625366211" lon="7.00258305867513"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007028]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stranda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.4715538024902" lon="6.32080187661841"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aalesund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.9570377349854" lon="8.15210631688436"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tingvoll]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.6358519236247" lon="8.70444920857747"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007030]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sunndal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.3445891062419" lon="6.63342428207397"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007032]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sykkylven]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.9333333333333" lon="8.78489065170288"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Surnadal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.2036647796631" lon="8.09582591056824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007034]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tustna]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.3268099472699" lon="5.8587127049764"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ulstein]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.2049842749684" lon="5.56864651442229"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sande]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.5578295389811" lon="6.98047965327254"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vestnes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.0932421366374" lon="6.10833333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR007038]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Volda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR007]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Moere og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.4496653238932" lon="10.7953598658244"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Flatanger]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.9013827006022" lon="11.8331970850627"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Naeroey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.6624988555908" lon="10.4755760934007"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leksvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.5375" lon="12.5691314697266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grong]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.75" lon="12.3708333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hoeylandet]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.9060363769531" lon="11.2903423945109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Inderoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.708699798584" lon="11.6772107760111"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fosnes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.6093377174041" lon="10.7560783068339"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Frosta]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.6921310424805" lon="11.2884929656982"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Levanger]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.4193035771317" lon="13.5953635851542"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lierne]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.4446543375651" lon="11.4591268539429"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Namsos]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.4100569542069" lon="11.8283143361409"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Meraaker]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.8161368320141" lon="10.8514608783462"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mosvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.0947102736647" lon="11.7368429942575"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leka]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.8152234395345" lon="13.0767751057943"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Namsskogan]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.3313082377116" lon="11.1291666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Namdalseid]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.4833333333333" lon="11.9059310913086"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Overhalla]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.8272880554199" lon="13.6790638023681"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roeyrvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.2" lon="12.5912801106771"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Snaasa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.1018529256185" lon="11.7541666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Steinkjer]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.4666666666667" lon="11.2356135686239"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stjoerdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.7878144582113" lon="12.0440731048584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Verdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.9523089090983" lon="10.880308119456"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Verran]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.9185523986816" lon="11.0179433822632"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR009024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vikna]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR009]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nord-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.9935569763184" lon="12.2107176780701"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Heroey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.0476476033529" lon="15.7984399795532"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Andoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.9653730142462" lon="16.5221415013922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tysfjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.8935717264811" lon="14.6591852823893"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Beiarn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.4168601693743" lon="12.5834748268127"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Broennoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.3409123738607" lon="14.5172094398112"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bodoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.8803118387858" lon="15.0262503623962"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oeksnes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.3217475891113" lon="12.2113571166992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soemna]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.1398887634277" lon="12.5280742645264"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Doenna]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.5159074147542" lon="16.9213231404622"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Evenes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.2402455782623" lon="15.7193813323975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fauske]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.0772196935528" lon="13.226836681366"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Flakstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.9875122070312" lon="13.9996594746908"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gildeskaal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.4448176066081" lon="13.4164794921875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grane]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.4646246592204" lon="15.6269592920939"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loedingen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.2430555917894" lon="16.6615867614746"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ballangen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.4993292659516" lon="14.1242122650146"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hattfjelldal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.0072186787923" lon="13.970245118528"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hemnes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.8780258178711" lon="12.5597930590312"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alstahaug]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.2341079711914" lon="13.0076804161072"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008026]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nesna]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.505978902181" lon="14.9814233462016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hadsel]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.442608767384" lon="12.7815466562907"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Luroey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.4450867543341" lon="14.3607066319607"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008028]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rana]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.9381713867188" lon="12.9835456386395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moskenes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.2969360351563" lon="17.5991134643555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Narvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.0954013894021" lon="13.0736201436988"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leirfjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.7080815633138" lon="15.2869546254476"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sortland]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.7971939086914" lon="13.624082215627"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Meloey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.5828582763672" lon="13.2277120272318"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roedoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.4951972961426" lon="12.0221672058105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008030]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roest]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.8791688083158" lon="15.6544059964263"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saltdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.0867444356283" lon="15.0438169749559"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008032]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skjerstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.1291666666667" lon="12.515847269694"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bindal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.8383140563965" lon="15.2317447662353"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008036]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Steigen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.7183418273926" lon="14.5691071192423"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.52316309611" lon="15.7376705169678"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008034]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soerfold]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.5149251302083" lon="16.2861740748088"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tjeldsund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.51513671875" lon="12.0479116439819"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008038]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Traena]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.8819580078125" lon="15.9100410667409"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hamaroey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.2843055725098" lon="14.6501323853379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008040]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaagan]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.6985626220703" lon="12.6643624305725"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaeroey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.8283088684082" lon="13.2693705240885"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008042]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vefsn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.7097244262695" lon="11.9499316215515"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vega]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.206974029541" lon="13.8089284896851"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008044]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vestvaagoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.6509717305501" lon="12.6592514673869"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR008045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vevelstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR008]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1678310360378" lon="11.6909798622131"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aremark]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5916666666667" lon="11.159873453776"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Askim]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5188293457031" lon="11.3541666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eidsberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0665971120199" lon="11.4518017689823"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Halden]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6048838297526" lon="10.9014027913411"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hoboel]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.049201965332" lon="10.9541735649109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hvaler]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4803936043868" lon="11.6620807011922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marker]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4543315887451" lon="10.6810661633809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moss]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3405080159505" lon="10.8477394421895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Raade]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3555567423503" lon="11.3837163289388"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rakkestad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7043874434584" lon="11.7981369018555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roemskog]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.369429397583" lon="10.7238872845968"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rygge]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2202573140462" lon="10.9038235028585"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fredrikstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4675231933594" lon="11.1321840922038"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skiptvet]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.601296488444" lon="11.0984769185384"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Spydeberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6679809570313" lon="11.3365147908529"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Troegstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4590469360352" lon="10.9316866556803"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaaler]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.1175618489583" lon="9.44708582560221"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dovre]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.9708333333333" lon="9.58140487670898"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Etnedal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.2634099324544" lon="9.82916666666666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gausdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.8785598754883" lon="10.4440183003743"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gjoevik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4375" lon="10.510658009847"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gran]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.328136698405" lon="10.1333333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR003018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ringerike]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR003]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.1958333333333" lon="8.64002634684245"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lesja]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.1333333333333" lon="10.3708333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lillehammer]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.7140202840169" lon="8.42557983398437"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lom]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2316314697266" lon="10.6458333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lunner]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.0041666666667" lon="9.26666666666666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nord-Aurdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.607905069987" lon="9.45"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nord-Fron]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.9456843058268" lon="9.93333333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nordre Land]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.6148137410482" lon="10.9107981363932"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oestre Toten]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.3276774088542" lon="10.4958333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oeyer]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.255403137207" lon="9.07916666666666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oeystre Slidre]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.5583333333333" lon="10.29935353597"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ringebu]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.7573837280273" lon="9.55129114786784"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sel]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.9372568766276" lon="7.94583333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skjaak]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.6992258707682" lon="10.2404146830241"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soendre Land]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.6657165527344" lon="9.64005432128906"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soer-Aurdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.6109095255534" lon="9.65250396728515"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soer-Fron]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.7048060099284" lon="8.94876759847005"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaagaa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.1958333333333" lon="8.44532063802083"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vang]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.0541666666667" lon="8.90700861612956"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vestre Slidre]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.6344584147135" lon="10.6071492513021"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR011026]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vestre Toten]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR011]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9466211954753" lon="10.4907023111979"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR001004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baerum]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR001]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6542953491211" lon="6.23530642191569"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bjerkreim]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.216968536377" lon="5.43947720527649"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bokn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.5082209269206" lon="6.16945508321126"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eigersund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1995964050293" lon="5.92163590863804"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Finnoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8294611612956" lon="6.21813977559407"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gjesdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8738147735596" lon="5.85416666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sandnes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.586946105957" lon="5.74371174176534"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4480075836182" lon="5.23195732434591"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haugesund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2049118041992" lon="6.41094919840495"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hjelmeland]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3871669769287" lon="5.61659800211589"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tysvaer]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.763412165554" lon="5.61110865275065"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Klepp]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0687103271484" lon="5.40972208976746"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kvitsoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4625" lon="6.44112663269043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0037570953369" lon="5.61267614364624"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Randaberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0884056091309" lon="5.69394421577454"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rennesoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0161107381185" lon="6.46181448300679"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Forsand]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7001427730262" lon="6.41903394063314"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sauda]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3788495701872" lon="6.30281009674072"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sokndal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8916202545166" lon="5.59633329709371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sola]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.9505095163981" lon="5.7169930934906"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stavanger]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.051574198405" lon="6.01516292889913"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Strand]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5091376962748" lon="5.82146479423541"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013026]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vindafjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.7053502400716" lon="5.76508801778157"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Time]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2788632710775" lon="5.28265261650085"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karmoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3071975708008" lon="4.88606214523315"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Utsira]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5475733439128" lon="6.53921135266622"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR013022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suldal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR013]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.9396685282389" lon="10.3513778368632"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aafjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.5199972788493" lon="9.61634826660156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Agdenes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.8607692718506" lon="9.62448838551839"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bjugn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.770809173584" lon="8.60397529602051"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Froeya]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.4318335215251" lon="9.40311018625895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Snillfjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.5586624145508" lon="8.73023891448975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hitra]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.8625" lon="11.2875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Holtaalen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.2514032999675" lon="10.5188672383626"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Klaebu]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.3753929138184" lon="10.7566238840168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.0238423665365" lon="9.69803390502929"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Meldal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.1838275909424" lon="10.2875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Melhus]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.8958333333333" lon="10.4875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Midtre Gauldal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.6945443758781" lon="9.56839370727539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oerland]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.5339630126953" lon="9.48532307942708"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oppdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.3025361378988" lon="9.65513677597046"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orkdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.3011784871419" lon="10.5907777150472"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Osen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.7676940917969" lon="9.85"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rennebu]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.6803148905436" lon="10.1173657417297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rissa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.1697303771973" lon="10.3839556058248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roan]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.5731847127279" lon="11.697038054506"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roeros]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.1816914876302" lon="11.1135210673014"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Selbu]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.2666695912679" lon="10.0483739217122"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skaun]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.2953333536784" lon="9.08771717169553"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hemne]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.3804058074951" lon="10.3744654337565"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trondheim]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.9755619049072" lon="11.7457248051961"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR014025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tydal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR014]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Soer-Troendelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.2865605672201" lon="7.80783082644145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aardal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.2793219248454" lon="5.33587603569031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fjaler]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.8723765055339" lon="7.21480496724446"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aurland]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.3343424479167" lon="6.51291135152181"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Balestrand]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.9578952789307" lon="5.25948627789815"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaagsoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.934196472168" lon="5.95367768890284"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eid]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.381908416748" lon="5.10837807655334"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Askvoll]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.6094117482503" lon="5.2198327700297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Flora]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.4583333333333" lon="6.075"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Foerde]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.3312942504883" lon="5.89779675801595"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaular]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.725631459554" lon="6.17633997599284"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gloppen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.9592590332031" lon="5.206547498703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gulen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.125" lon="5.89987716674805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hoeyanger]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.0024307250977" lon="6.58333333333333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hornindal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.1055736541748" lon="4.8761944770813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Solund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.5653752644857" lon="6.3982603708903"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Joelster]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.0419108072917" lon="7.64096878369649"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Laerdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.2461654663086" lon="6.7560106754303"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leikanger]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.5172031402588" lon="7.5625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Luster]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.5458333333333" lon="5.76611328125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Naustdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.075466410319" lon="5.30007706935269"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Selje]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.2628682454427" lon="7.0847575823466"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sogndal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.176127243042" lon="5.20681770642598"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hyllestad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.8227238972982" lon="6.83395881652832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stryn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.7923131306966" lon="5.3339034875234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bremanger]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.0274448394775" lon="6.57215985754529"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR015026]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR015]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Sogn og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1087773640951" lon="9.73176834344761"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Porsgrunn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4431650797526" lon="8.98534901936849"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0881403605143" lon="8.96481374104818"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Drangedal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1397598266602" lon="8.03514836629232"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fyresdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6916666666667" lon="8.67056452433268"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hjartdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8849258422852" lon="9.40105307896932"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Krageroe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4102615356445" lon="8.49736048380534"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kviteseid]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0481557210287" lon="8.54405873616536"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nissedal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2625" lon="9.11084696451823"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nome]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6947128295899" lon="9.10416666666666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Notodden]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2623728434245" lon="9.47916666666666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skien]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4400782267253" lon="9.29754562377929"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sauherad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5666666666667" lon="8.54138031005859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seljord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3083333333333" lon="9.71064707438151"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Siljan]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0243072509766" lon="9.5589298248291"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bamble]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9794977823893" lon="8.5125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tinn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4588180541992" lon="7.90633773803711"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tokke]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8062306722005" lon="7.69023793538411"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR016018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vinje]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR016]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.2827164064892" lon="19.2093538920085"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Balsfjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.7067267100016" lon="19.1289193471273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bardu]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.4573302175407" lon="17.3902222338314"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.7780926477147" lon="16.4725896835327"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Harstad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.0247982286932" lon="17.6923974990845"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dyroey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.713279629621" lon="17.5008076985677"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gratangen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.995475769043" lon="16.5454252606363"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bjarkoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.8304443359375" lon="17.1575689315796"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ibestad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.6966908772787" lon="20.0877494812012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lyngen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.0706558227539" lon="19.3839797973633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karlsoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.7060759639927" lon="16.003444925944"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kvaefjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.0339186714113" lon="20.8168964385986"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skjervoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.7268905639649" lon="17.7391072591146"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lavangen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.3839569091797" lon="17.9911749299559"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lenvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.4930641174316" lon="20.7788305282593"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaivuotna-Kaafjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.9611549377441" lon="19.2671195348104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maalselv]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.0587881088257" lon="23.2068756103516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR004001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alta]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR004]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.8768905639648" lon="17.8210941314697"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salangen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.6169374965867" lon="17.0409156799316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skaanland]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.5334974130718" lon="21.4892412185669"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nordreisa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.1113131205241" lon="18.1675064086914"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soerreisa]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.2562353125932" lon="20.3848620732625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Storfjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.2974433898926" lon="17.1161794662476"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Torsken]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.1839655558268" lon="17.2980890274048"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tranoey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.6874336242676" lon="18.9653650148727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR017025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tromsoe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR017]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6771942138672" lon="7.39047203063965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aaseral]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.375" lon="7.36666666666666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Audnedal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.1661802927653" lon="7.0722162882487"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lyngdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.1423534393311" lon="6.78153080641687"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Farsund]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4791666666667" lon="7.20349998474121"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haegebostad]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.1758378346761" lon="8.01622374852498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kristiansand]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.5213988163508" lon="6.94249572753906"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kvinesdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.0624563852946" lon="7.50307250022888"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mandal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4139673868815" lon="6.65329894112815"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Flekkefjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.1162000020345" lon="7.24676219622294"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lindesnes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3083333333333" lon="7.54718170166015"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marnardal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8473637898763" lon="6.80642941792806"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sirdal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.087163289388" lon="7.74591480088367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soegne]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.2333333333333" lon="7.70997873942057"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Songdalen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3401713053386" lon="7.83149998982747"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR018015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vennesla]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR018]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2833333333333" lon="10.0916666666667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Andebu]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.397772906007" lon="10.426278368632"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Borre]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5502863566081" lon="10.0237571716309"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hof]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5896237691244" lon="10.208197727456"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sande]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3625" lon="9.89472986857096"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lardal]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1435688018799" lon="10.0255707422892"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Larvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1985378265381" lon="10.4590826034546"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Noetteroey]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3875" lon="10.1808352152506"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ramnes]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5116271972656" lon="10.2261149406433"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Holmestrand]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1230107625326" lon="10.2225454330444"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sandefjord]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2449928283691" lon="10.2476291656494"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stokke]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.6129753788859" lon="10.3564546902974"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Svelvik]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.1083793640137" lon="10.4427752494812"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tjoeme]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2972917782199" lon="10.3937178293864"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Toensberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.4209954579671" lon="10.2799918810527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR019015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaale]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR019]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.2678674062093" lon="11.1385058085124"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR010014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sarpsborg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[NOR010]]></value></item>
+    <item column="ADM1_NAME"><value><![CDATA[Oestfold]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

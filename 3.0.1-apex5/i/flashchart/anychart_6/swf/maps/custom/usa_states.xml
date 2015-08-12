@@ -1,0 +1,733 @@
+<map_data>
+ <name>usa_states</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="STATE_FIPS" key="true"/>
+  <column name="SUB_REGION" key="false"/>
+  <column name="POP1990" key="false"/>
+  <column name="POP90_SQMI" key="false"/>
+  <column name="WHITE" key="false"/>
+  <column name="HSEHLD_1_M" key="false"/>
+  <column name="MOBILEHOME" key="false"/>
+ </columns>
+ <bounds left="-127.649697127798" top="49.3717301437862" right="-66.9692710360024" bottom="19.2592592592593"/>
+ <regions>
+  <region>
+   <centroid lat="47.4595336076818" lon="-120.041152263374"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[53]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+    <item column="POP1990"><value><![CDATA[4866692]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[72]]></value></item>
+    <item column="WHITE"><value><![CDATA[4308937]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[212023]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[187533]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0205761316872" lon="-109.550068587106"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montana]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[30]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+    <item column="POP1990"><value><![CDATA[799065]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[5]]></value></item>
+    <item column="WHITE"><value><![CDATA[741111]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[36000]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[54021]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.2721925321905" lon="-69.0283901416762"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maine]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[23]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+    <item column="POP1990"><value><![CDATA[1227928]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[38]]></value></item>
+    <item column="WHITE"><value><![CDATA[1208360]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[42075]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[54532]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4654244503963" lon="-100.307461048358"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Dakota]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[38]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[638800]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[9]]></value></item>
+    <item column="WHITE"><value><![CDATA[604142]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[27313]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[27055]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.2160032678824" lon="-100.250215445865"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Dakota]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[46]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[696004]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[9]]></value></item>
+    <item column="WHITE"><value><![CDATA[637515]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[27680]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[31357]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9985410346349" lon="-107.552567082851"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wyoming]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[56]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+    <item column="POP1990"><value><![CDATA[453588]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[5]]></value></item>
+    <item column="WHITE"><value><![CDATA[427061]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[19671]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[33474]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.7208161864179" lon="-89.9265548152997"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wisconsin]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[55]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[4891769]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[87]]></value></item>
+    <item column="WHITE"><value><![CDATA[4512523]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[177750]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[101149]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.3772290809328" lon="-114.159122085048"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ID]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Idaho]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[16]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+    <item column="POP1990"><value><![CDATA[1006749]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[12]]></value></item>
+    <item column="WHITE"><value><![CDATA[950451]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[35197]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[56529]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.869602122704" lon="-72.4706865059539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vermont]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[50]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+    <item column="POP1990"><value><![CDATA[562758]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[59]]></value></item>
+    <item column="WHITE"><value><![CDATA[555088]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[20009]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[22702]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0644718792867" lon="-94.4938271604938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Minnesota]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[27]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[4375099]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[52]]></value></item>
+    <item column="WHITE"><value><![CDATA[4130395]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[167013]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[90864]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9917695473251" lon="-120.831275720165"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oregon]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[41]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+    <item column="POP1990"><value><![CDATA[2842321]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[29]]></value></item>
+    <item column="WHITE"><value><![CDATA[2636787]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[116232]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[134325]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.3772290809328" lon="-71.5363511659808"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Hampshire]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[33]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+    <item column="POP1990"><value><![CDATA[1109252]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[120]]></value></item>
+    <item column="WHITE"><value><![CDATA[1087433]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[38035]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[35334]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.1920438957476" lon="-93.7037037037037"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iowa]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[19]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[2776755]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[49]]></value></item>
+    <item column="WHITE"><value><![CDATA[2683090]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[102744]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[56857]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3676268861454" lon="-71.7997256515775"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Massachusetts]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[25]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+    <item column="POP1990"><value><![CDATA[6016425]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[736]]></value></item>
+    <item column="WHITE"><value><![CDATA[5405374]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[219467]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[23928]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4978286942191" lon="-99.6824582951075"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nebraska]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[31]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[1578385]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[20]]></value></item>
+    <item column="WHITE"><value><![CDATA[1480558]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[63686]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[37046]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0411522633745" lon="-74.3456790123457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Jersey]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[34]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mid Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[7730188]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[1030]]></value></item>
+    <item column="WHITE"><value><![CDATA[6130465]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[251072]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[33551]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.9190672153635" lon="-77.9012345679012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pennsylvania]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[42]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mid Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[11881643]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[262]]></value></item>
+    <item column="WHITE"><value><![CDATA[10520201]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[429925]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[254920]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6652949245542" lon="-72.5459533607682"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Connecticut]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[09]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+    <item column="POP1990"><value><![CDATA[3287116]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[661]]></value></item>
+    <item column="WHITE"><value><![CDATA[2859353]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[117261]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[12118]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6682414823939" lon="-71.4919055791828"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rhode Island]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[44]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+    <item column="POP1990"><value><![CDATA[1003464]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[960]]></value></item>
+    <item column="WHITE"><value><![CDATA[917375]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[37509]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[4689]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.7560710425768" lon="-75.8166108434143"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New York]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[36]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mid Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[17990455]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[370]]></value></item>
+    <item column="WHITE"><value><![CDATA[13385255]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[708225]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[194934]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.7708822940655" lon="-86.4444680326911"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Indiana]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[18]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[5544159]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[152]]></value></item>
+    <item column="WHITE"><value><![CDATA[5020700]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[193625]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[156821]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5144032921811" lon="-116.968449931413"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nevada]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[32]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+    <item column="POP1990"><value><![CDATA[1201833]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[11]]></value></item>
+    <item column="WHITE"><value><![CDATA[1012695]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[64273]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[69655]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4970234444281" lon="-111.545239703911"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Utah]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[49]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+    <item column="POP1990"><value><![CDATA[1722850]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[20]]></value></item>
+    <item column="WHITE"><value><![CDATA[1615845]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[43134]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[34986]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8710562414266" lon="-119.821673525377"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[California]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[06]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+    <item column="POP1990"><value><![CDATA[29760021]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[189]]></value></item>
+    <item column="WHITE"><value><![CDATA[20524327]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[1070030]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[555307]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.1936915441621" lon="-82.6660333841682"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ohio]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[39]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[10847115]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[263]]></value></item>
+    <item column="WHITE"><value><![CDATA[9521756]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[399701]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[205595]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.1289437585734" lon="-89.5336076817558"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Illinois]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[17]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[11430602]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[203]]></value></item>
+    <item column="WHITE"><value><![CDATA[8952978]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[436138]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[150733]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2949245541838" lon="-76.8477366255144"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maryland]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[24]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[4781468]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[491]]></value></item>
+    <item column="WHITE"><value><![CDATA[3393964]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[160842]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[42729]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1448606012954" lon="-75.4183587944153"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Delaware]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[10]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[666168]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[324]]></value></item>
+    <item column="WHITE"><value><![CDATA[535094]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[23575]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[34944]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5486968449931" lon="-80.798353909465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West Virginia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[54]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[1793477]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[74]]></value></item>
+    <item column="WHITE"><value><![CDATA[1725523]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[59990]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[118733]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2318244170096" lon="-78.9986282578875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Virginia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[51]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[6187358]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[155]]></value></item>
+    <item column="WHITE"><value><![CDATA[4791739]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[215763]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[159352]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9961845178978" lon="-105.546534361717"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colorado]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[08]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+    <item column="POP1990"><value><![CDATA[3294394]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[32]]></value></item>
+    <item column="WHITE"><value><![CDATA[2905474]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[154874]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[88683]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8271604938272" lon="-86.7681755829904"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tennessee]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[47]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[4877185]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[116]]></value></item>
+    <item column="WHITE"><value><![CDATA[4048068]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[170671]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[188517]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4959318052315" lon="-98.3263799529049"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kansas]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[20]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[2477574]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[30]]></value></item>
+    <item column="WHITE"><value><![CDATA[2231986]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[97991]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[71195]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8908875514914" lon="-77.0166164971011"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[District of Columbia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[11]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[606900]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[9187]]></value></item>
+    <item column="WHITE"><value><![CDATA[179667]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[43471]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[82]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2757201646091" lon="-85.363511659808"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kentucky]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[21]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[3685296]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[91]]></value></item>
+    <item column="WHITE"><value><![CDATA[3391832]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[121536]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[185336]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2030178326475" lon="-111.788751714678"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arizona]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[04]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+    <item column="POP1990"><value><![CDATA[3665228]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[32]]></value></item>
+    <item column="WHITE"><value><![CDATA[2963186]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[148181]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[250597]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4759945130316" lon="-97.2153635116598"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oklahoma]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[40]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[3145585]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[45]]></value></item>
+    <item column="WHITE"><value><![CDATA[2583512]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[121776]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[129850]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7393689986283" lon="-79.8326474622771"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Carolina]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[37]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[6628637]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[135]]></value></item>
+    <item column="WHITE"><value><![CDATA[5008491]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[237768]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[430440]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2997203970396" lon="-92.4362567253026"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Missouri]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[29]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[5117073]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[73]]></value></item>
+    <item column="WHITE"><value><![CDATA[4486228]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[195654]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[164021]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.3936899862826" lon="-99.3662551440329"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Texas]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[48]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[16986510]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[64]]></value></item>
+    <item column="WHITE"><value><![CDATA[12774762]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[643106]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[547911]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5980795610425" lon="-106.082304526749"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Mexico]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[35]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+    <item column="POP1990"><value><![CDATA[1515069]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[12]]></value></item>
+    <item column="WHITE"><value><![CDATA[1146028]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[56559]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[102948]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.0137174211248" lon="-81.5884773662551"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Florida]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[12]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[12937926]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[232]]></value></item>
+    <item column="WHITE"><value><![CDATA[10749285]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[518400]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[762855]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5999884243719" lon="-89.8670755505678"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mississippi]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[28]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[2573216]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[54]]></value></item>
+    <item column="WHITE"><value><![CDATA[1633461]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[83768]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[136948]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6248189553488" lon="-86.683483899971"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alabama]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[01]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[4040587]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[78]]></value></item>
+    <item column="WHITE"><value><![CDATA[2975797]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[138220]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[224307]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6382651711786" lon="-80.96506932337"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Carolina]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[45]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[3486703]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[113]]></value></item>
+    <item column="WHITE"><value><![CDATA[2406974]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[115632]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[240525]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.751481339065" lon="-92.1313681482295"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arkansas]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[05]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[2350725]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[44]]></value></item>
+    <item column="WHITE"><value><![CDATA[1944744]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[80266]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[131542]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.4279835390946" lon="-91.9917695473251"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Louisiana]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[22]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[4219973]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[92]]></value></item>
+    <item column="WHITE"><value><![CDATA[2839138]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[150145]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[196236]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6808292711285" lon="-83.2518568978828"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Georgia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[13]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+    <item column="POP1990"><value><![CDATA[6478216]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[110]]></value></item>
+    <item column="WHITE"><value><![CDATA[4600148]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[220086]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[305055]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9821673525377" lon="-84.5733882030178"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Michigan]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[26]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+    <item column="POP1990"><value><![CDATA[9295297]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[161]]></value></item>
+    <item column="WHITE"><value><![CDATA[7756086]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[332611]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[246365]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.39780521262" lon="-157.023319615912"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hawaii]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[15]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+    <item column="POP1990"><value><![CDATA[1108229]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[174]]></value></item>
+    <item column="WHITE"><value><![CDATA[369616]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[34537]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[389]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.676268861454" lon="-151.777777777778"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alaska]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[02]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+    <item column="POP1990"><value><![CDATA[550043]]></value></item>
+    <item column="POP90_SQMI"><value><![CDATA[1]]></value></item>
+    <item column="WHITE"><value><![CDATA[415492]]></value></item>
+    <item column="HSEHLD_1_M"><value><![CDATA[25601]]></value></item>
+    <item column="MOBILEHOME"><value><![CDATA[20280]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

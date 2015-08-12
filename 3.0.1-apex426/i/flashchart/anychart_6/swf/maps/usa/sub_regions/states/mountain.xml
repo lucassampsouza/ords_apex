@@ -1,0 +1,86 @@
+<map_data>
+ <name>mountain</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="STATE_FIPS" key="true"/>
+  <column name="SUB_REGION" key="true"/>
+ </columns>
+ <bounds left="-119.995277404785" top="49" right="-102.036758422852" bottom="31.3355350494385"/>
+ <regions>
+  <region>
+   <centroid lat="46.6768646240234" lon="-110.052539825439"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montana]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[30]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9985790252686" lon="-107.55192565918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wyoming]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[56]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.4973487854004" lon="-114.140953063965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ID]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Idaho]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[16]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4978275299072" lon="-117.015937805176"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nevada]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[32]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4970626831055" lon="-111.544502258301"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Utah]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[49]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9961910247803" lon="-105.545978546143"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colorado]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[08]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.169732093811" lon="-111.932987213135"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arizona]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[04]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1715440750122" lon="-106.023822784424"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Mexico]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[35]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

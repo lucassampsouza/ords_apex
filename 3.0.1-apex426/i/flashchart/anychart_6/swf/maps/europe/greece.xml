@@ -1,0 +1,75 @@
+<map_data>
+ <name>greece</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="GMI_ADMIN" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="19.3761100769043" top="41.7466659545898" right="28.2380485534668" bottom="34.8088836669922"/>
+ <regions>
+  <region>
+   <centroid lat="37.6886024475098" lon="26.2536067962646"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[GRC-AIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aegean Islands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.363468170166" lon="22.3158321380615"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[GRC-PLP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Peloponnisos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2483291625977" lon="24.9105529785156"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[GRC-CRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Crete]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.631742477417" lon="20.755859375"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[GRC-IPR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ipiros]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7587471008301" lon="20.1873588562012"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[GRC-IIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ionian Islands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7412452697754" lon="22.7840270996094"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[GRC-MCD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Macedonia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.6201305389404" lon="22.4572811126709"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[GRC-THS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thessalia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.0730476379395" lon="25.6134672164917"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[GRC-THR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thraki]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5655517578125" lon="22.707914352417"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[GRC-CGE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central Greece and Evvoia]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,418 @@
+<map_data>
+ <name>ca</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-124.391471862793" top="42.0023460388184" right="-114.124450683594" bottom="32.5357246398926"/>
+ <regions>
+  <region>
+   <centroid lat="41.49489402771" lon="-122.574306488037"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06093]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Siskiyou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6862277984619" lon="-123.876968383789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Del Norte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5860633850098" lon="-120.722728729248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Modoc]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7304954528809" lon="-123.895336151123"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Humboldt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6715335845947" lon="-123.02144241333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06105]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trinity]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6704939965114" lon="-122.036816880896"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06089]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shasta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.8872631204593" lon="-120.597469897881"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lassen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.1231746673584" lon="-122.182052612305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06103]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tehama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0201015472412" lon="-120.797096252441"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Plumas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.7283668518066" lon="-121.56729888916"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Butte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.378231048584" lon="-123.408027648926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mendocino]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5899791717529" lon="-122.380084991455"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Glenn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5804710388184" lon="-120.5153465271"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06091]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sierra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2796363830566" lon="-121.308547973633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06115]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yuba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.049060949381" lon="-122.721807312571"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lake]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.3698792528239" lon="-120.510762248302"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nevada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2658300733289" lon="-122.262256769801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colusa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1444393639181" lon="-120.510762248302"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Placer]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.0197868347168" lon="-121.669967651367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06101]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sutter]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7835025787354" lon="-120.506160736084"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[El Dorado]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7455841758539" lon="-121.950109231316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06113]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yolo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.6303081512451" lon="-119.808094024658"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alpine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5057048797607" lon="-122.345306396484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Napa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4822387695313" lon="-122.931594848633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06097]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sonoma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4170150756836" lon="-121.339630126953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sacramento]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8741722975834" lon="-118.737590814408"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mono]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4585876464844" lon="-120.539936065674"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amador]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1666851043701" lon="-120.498474121094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Calaveras]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9782214770784" lon="-119.925485613643"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06109]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tuolumne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0680637359619" lon="-122.725158691406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.888599395752" lon="-121.245288848877"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06077]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Joaquin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.3024139404297" lon="-121.990081787109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06095]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Solano]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9041290283203" lon="-121.954029083252"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Contra Costa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6060047149658" lon="-120.928916931152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06099]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stanislaus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6792640686035" lon="-121.891193389893"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alameda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5389556884766" lon="-119.844329833984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mariposa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.754508972168" lon="-122.42126083374"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06075]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Francisco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1631695710342" lon="-119.795424139274"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madera]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4046764373779" lon="-122.296413421631"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06081]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Mateo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1808776855469" lon="-120.630367279053"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Merced]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7296313231384" lon="-119.700045724737"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fresno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1834602355957" lon="-121.691028594971"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06085]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Clara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.2137208081424" lon="-117.241883859168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Inyo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.0654411315918" lon="-121.933673858643"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06087]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Cruz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.5931301116943" lon="-121.103050231934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Benito]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0272993615472" lon="-121.165405002625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Monterey]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.2663345336914" lon="-118.766563415527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06107]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tulare]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0186285965893" lon="-119.830107199106"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kings]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.307258605957" lon="-118.904808044434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8433456420898" lon="-115.959098815918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Bernardino]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3448390960693" lon="-120.39916229248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06079]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Luis Obispo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4692211151123" lon="-119.055248260498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06111]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ventura]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7520809173584" lon="-116.051643371582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Riverside]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7266846178597" lon="-120.081559382885"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06083]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Barbara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6726264953613" lon="-117.758106231689"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orange]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.1139223356873" lon="-116.743314874088"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06073]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Diego]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5532693187014" lon="-118.217344916933"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Los Angeles]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.9751900963606" lon="-115.399346305611"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[06025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Imperial]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

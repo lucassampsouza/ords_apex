@@ -1,0 +1,32 @@
+button span {
+	margin-top:1px;
+}
+/* APEX IR Buttons */
+.apexir_BUTTONS table td {
+	text-align: left;
+}
+
+#main-sb-left {
+	margin-left: 0px;
+}
+
+.hide-show-region {
+	width: 100%;
+}
+
+.fixed-header-report {
+	empty-cells: show;
+	border: 1px solid #cccccc;
+}
+
+.fixed-header-report table thead tr {
+	background-color: #808080;
+}
+
+.fixed-header-report table thead th.header {
+	padding: 5px 10px;
+}
+
+.fixed-header-report table td {
+	padding: 5px 10px;
+}

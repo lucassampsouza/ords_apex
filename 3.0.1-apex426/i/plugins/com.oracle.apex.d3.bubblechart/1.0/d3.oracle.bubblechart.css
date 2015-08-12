@@ -1,0 +1,11 @@
+.a-D3BubbleChart{
+  overflow: hidden;
+}
+
+.a-D3BubbleChart .com_oracle_apex_d3bubblenode{
+  cursor: pointer;
+}
+
+.a-D3BubbleChart .a-D3BubbleChart-tooltip {
+  position: absolute;
+}

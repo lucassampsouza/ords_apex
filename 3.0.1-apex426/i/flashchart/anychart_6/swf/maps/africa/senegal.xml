@@ -1,0 +1,82 @@
+<map_data>
+ <name>senegal</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-17.537223815918" top="16.6930541992188" right="-11.3680572509766" bottom="12.3017482757568"/>
+ <regions>
+  <region>
+   <centroid lat="14.7547373771667" lon="-17.3326396942139"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SEN-DKR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dakar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.3496260643005" lon="-15.5077791213989"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SEN-LOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Louga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.5434713363647" lon="-14.559308052063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SEN-STL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saint-Louis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7037906646729" lon="-13.1119174957275"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SEN-TMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tambacounda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.798544883728" lon="-16.6559734344482"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SEN-THI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thies]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.7709712982178" lon="-16.190279006958"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SEN-DRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Diourbel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.2241649627686" lon="-16.1145849227905"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SEN-FTC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fatick]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.1544437408447" lon="-15.4802713394165"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SEN-KLC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kaolack]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.0129156112671" lon="-14.6906929016113"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SEN-KLD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kolda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.7437124252319" lon="-16.3456249237061"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SEN-ZGN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ziguinchor]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

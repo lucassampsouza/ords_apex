@@ -1,0 +1,75 @@
+<map_data>
+ <name>zambia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="21.9977760314941" top="-8.19224739074707" right="33.702278137207" bottom="-18.0761260986328"/>
+ <regions>
+  <region>
+   <centroid lat="-15.6533346176147" lon="23.7730579376221"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZMB-WST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.0777950286865" lon="27.9273586273193"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZMB-CPP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Copperbelt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-12.6458587646484" lon="31.8473873138428"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZMB-EST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eastern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-10.4170198440552" lon="29.4072208404541"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZMB-LUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Luapula]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-10.8132476806641" lon="31.3914165496826"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZMB-NRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-12.7947225570679" lon="24.798225402832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZMB-NWS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North-Western]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-16.6825075149536" lon="26.9566097259521"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZMB-STH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.8722267150879" lon="28.378776550293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZMB-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.3063097000122" lon="29.0917682647705"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZMB-LUS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lusaka]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

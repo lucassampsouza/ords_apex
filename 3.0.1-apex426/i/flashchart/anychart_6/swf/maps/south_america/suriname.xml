@@ -1,0 +1,82 @@
+<map_data>
+ <name>suriname</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-58.0713958740234" top="6.00305461883545" right="-53.9841690063477" bottom="1.83555555343628"/>
+ <regions>
+  <region>
+   <centroid lat="4.66833257675171" lon="-55.1207122802734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SUR-BRK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brokopondo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.76374912261963" lon="-54.8956832885742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SUR-CMM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Commewijne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.63242340087891" lon="-56.2490348815918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SUR-COR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coronie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.585533618927" lon="-54.365837097168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SUR-MRW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marowijne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.60902738571167" lon="-56.89111328125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SUR-NCK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nickerie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.33097171783447" lon="-55.3087539672852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SUR-PAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Para]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.78736066818237" lon="-55.1948623657227"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SUR-WNC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wanica]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.68888854980469" lon="-55.6150016784668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SUR-SRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saramacca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.68783330917358" lon="-56.0277824401855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SUR-SPL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sipaliwini]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.83676910400391" lon="-55.1697273254395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SUR-PRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paramaribo]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

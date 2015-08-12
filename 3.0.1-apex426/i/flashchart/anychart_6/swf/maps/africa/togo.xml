@@ -1,0 +1,159 @@
+<map_data>
+ <name>togo</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-0.149762004613876" top="11.1385402679443" right="1.7993266582489" bottom="6.10054588317871"/>
+ <regions>
+  <region>
+   <centroid lat="7.56157112121582" lon="0.965833246707916"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-AMO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.33247852325439" lon="1.19317376613617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-ASL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Assoli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.69803428649902" lon="1.2905524969101"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-BNH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Binah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.87374496459961" lon="1.10263884067535"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-DFL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Doufelgou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.19332838058472" lon="1.25176346302032"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-GLF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Golfe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.06569862365723" lon="1.26749992370605"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-HAH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haho]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.96859502792358" lon="0.759305536746979"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-KLT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kloto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.0325345993042" lon="0.920833289623261"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-KRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Keran]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.58832263946533" lon="1.15663230419159"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-KZH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kozah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.37211656570435" lon="1.59744107723236"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-LAC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lacs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.82376098632813" lon="1.42569434642792"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-NYL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nyala]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.72763633728027" lon="1.31979370117188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-OGO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ogou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.2924709320068" lon="0.559985987842083"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-OTI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.8301048278809" lon="0.38410396873951"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-TON]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.3801155090332" lon="1.4908332824707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-VOO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.67509841918945" lon="0.779741406440735"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-WAW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wawa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.66588640213013" lon="1.44815599918365"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-YOT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yoto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.49294805526733" lon="1.06407815217972"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-ZIO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zio]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.43749332427979" lon="0.625277742743492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-BSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bassar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.46600341796875" lon="0.823867470026016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-SOT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sotouboua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.99133014678955" lon="1.1630927324295"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TGO-TCD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tchaoudjo]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

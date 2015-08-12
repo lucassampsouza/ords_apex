@@ -1,0 +1,194 @@
+<map_data>
+ <name>egypt</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="24.7066650390625" top="31.6469421386719" right="36.8969421386719" bottom="21.9941635131836"/>
+ <regions>
+  <region>
+   <centroid lat="31.0515880584717" lon="31.7091636657715"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-ADQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ad Daqahliyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.5351371765137" lon="31.8037395477295"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-SUH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suhaj]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.6731910705566" lon="30.238187789917"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-ABH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Buhayrah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.3488864898682" lon="30.4580535888672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-AFY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Fayyum]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.8465347290039" lon="31.0095863342285"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-AGH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Gharbiyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.6566333770752" lon="27.5176372528076"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-MNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marsa Matruh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.6579151153564" lon="32.2791175842285"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-AIM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Isma'iliyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.0606918334961" lon="30.5048599243164"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-BSW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bani Suwayf]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.445276260376" lon="31.0255489349365"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-AMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Minufiyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.194580078125" lon="29.8074264526367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-AMI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Minya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.0408306121826" lon="31.5812492370605"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-AQH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Qahirah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.3492069244385" lon="31.3380260467529"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-AQL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Qalyubiyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.6471004486084" lon="33.8561096191406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-ABA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Bahr al Ahmar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.7392749786377" lon="31.7780513763428"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-ASH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ash Sharqiyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.6076374053955" lon="32.3619422912598"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-ASW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[As Suways]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.6339244842529" lon="32.2805519104004"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-ASN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aswan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.2297210693359" lon="31.1420822143555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-ASY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Asyut]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.0043106079102" lon="29.6310176849365"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-AJI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Jizah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.1276626586914" lon="32.4291114807129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-BSA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bur Sa'id]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.3630275726318" lon="31.8040046691895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-DMY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dumyat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2937450408936" lon="30.8491249084473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-KAS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kafr ash Shaykh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.8286075592041" lon="29.8470306396484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-AIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Iskandariyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.7043056488037" lon="32.4418067932129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-QIN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Qina]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.8309955596924" lon="28.9626369476318"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-AWA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Wadi al Jadid]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.8274993896484" lon="33.7764129638672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-JSI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Janub Sina']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.4050178527832" lon="33.7515716552734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EGY-SSI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shamal Sina']]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

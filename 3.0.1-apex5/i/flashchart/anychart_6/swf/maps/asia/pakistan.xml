@@ -1,0 +1,61 @@
+<map_data>
+ <name>pakistan</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="60.8663024902344" top="37.0625915527344" right="77.8239288330078" bottom="23.6880493164063"/>
+ <regions>
+  <region>
+   <centroid lat="33.018310546875" lon="70.5490112304688"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAK-FAT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Federally Administered Tribal Areas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.4836082458496" lon="65.5509185791016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAK-BLC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baluchistan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.0603580474854" lon="72.0951156616211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAK-NWF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North-west Frontier]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.8630466461182" lon="72.3600845336914"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAK-PNJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Punjab]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.1087455749512" lon="68.8765106201172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAK-SIN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sind]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9776649475098" lon="74.3332061767578"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAK-AKP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Azad Kashmir Province]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7817115783691" lon="75.1683502197266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAK-NOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern Areas]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

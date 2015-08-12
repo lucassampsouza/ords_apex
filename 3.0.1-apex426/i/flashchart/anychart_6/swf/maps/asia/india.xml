@@ -1,0 +1,236 @@
+<map_data>
+ <name>india</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="68.1402740478516" top="35.5013275146484" right="97.3610992431641" bottom="6.74555397033691"/>
+ <regions>
+  <region>
+   <centroid lat="10.212776184082" lon="93.2545700073242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-AAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Andaman and Nicobar Islands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7997393608093" lon="78.9173164367676"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-PND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pondicherry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.0844602584839" lon="94.2891502380371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-NGL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nagaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.7426385879517" lon="85.7970428466797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-BIH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bihar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.0395002365112" lon="75.382022857666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-PNJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Punjab]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.1805505752563" lon="73.1125793457031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-DAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dadra and Nagar Haveli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.6030111312866" lon="73.8735809326172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-RJS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rajasthan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.3993492126465" lon="72.8620758056641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-DAD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Daman & Diu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.6400098800659" lon="77.0991325378418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-DEL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Delhi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.7243099212646" lon="76.7640190124512"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-CHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chandigarh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8840026855469" lon="76.6633224487305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-JAK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jammu & Kashmir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.2270951271057" lon="80.7636032104492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-APR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Andhra Pradesh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.97333145141602" lon="72.8938751220703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-LKS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lakshadweep]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.3095550537109" lon="79.2299995422363"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-MPR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madhya Pradesh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.3927154541016" lon="71.3092842102051"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-GJR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gujarat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.756103515625" lon="93.860481262207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-MNP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manipur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.5461750030518" lon="91.3117980957031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-MGH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Meghalaya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.5454745292664" lon="76.1282844543457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-KER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kerala]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.0530996322632" lon="92.8517684936523"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-ASS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Assam]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.1857051849365" lon="84.5037841796875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-ORS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orissa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.7926516532898" lon="78.2966842651367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-TNA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tamil Nadu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7789354324341" lon="77.324779510498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-HPR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Himachal Pradesh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.2851505279541" lon="76.0145721435547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-HRY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haryana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.00825548172" lon="76.3390121459961"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-KRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karnataka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.7348566055298" lon="91.7422828674316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-TRP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tripura]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.6626014709473" lon="80.8586730957031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-UPR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uttar Pradesh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.3456630706787" lon="87.8276672363281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-WBN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West Bengal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.5909013748169" lon="88.4638595581055"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-SKK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sikkim]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.056661605835" lon="94.4877624511719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-APD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arunachal Pradesh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.2430429458618" lon="92.8470687866211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-MZR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mizoram]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.8147296905518" lon="76.8220863342285"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-MHR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maharashtra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.3331670761108" lon="74.0295562744141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IND-GOA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Goa]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

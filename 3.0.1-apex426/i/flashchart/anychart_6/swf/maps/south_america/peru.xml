@@ -1,0 +1,187 @@
+<map_data>
+ <name>peru</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-81.3563995361328" top="-0.0313888937234879" right="-68.6739044189453" bottom="-18.3485450744629"/>
+ <regions>
+  <region>
+   <centroid lat="-4.99074482917786" lon="-77.9669494628906"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-AMZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amazonas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.38805675506592" lon="-77.7097625732422"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-ANC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ancash]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.286388874054" lon="-72.1569519042969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-CUS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cusco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.9886131286621" lon="-72.9562606811523"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-ARQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arequipa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.8810586929321" lon="-73.9768142700195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-AYC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ayacucho]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.17781066894531" lon="-78.6295928955078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-CJM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cajamarca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.8053331375122" lon="-76.6789703369141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-LIM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lima]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-14.0120038986206" lon="-72.9651489257813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-APR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Apurimac]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.0574102401733" lon="-75.0425109863281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-HNC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Huancavelica]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.40972328186035" lon="-75.906120300293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-HUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Huanuco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-14.2114629745483" lon="-75.5430679321289"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-ICA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ica]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.6831760406494" lon="-74.9652404785156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-JUN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Junin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.96222257614136" lon="-78.2826309204102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-LLB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Libertad]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.36312389373779" lon="-79.8851470947266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-LMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lambayeque]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.9356803894043" lon="-77.1361618041992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-CAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Callao]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.33833391219378" lon="-73.8802642822266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-LOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loreto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.6496610641479" lon="-70.5294570922852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-MDD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madre de Dios]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-16.8894462585449" lon="-70.7526397705078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-MOQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moquegua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-10.3774585723877" lon="-75.4563903808594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-PAS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pasco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.20739507675171" lon="-80.2941589355469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-PIU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Piura]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.1626625061035" lon="-69.9754257202148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-PUN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Puno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.06049585342407" lon="-76.6254196166992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-SMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Martin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-17.5814952850342" lon="-70.3390350341797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-TAC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tacna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.78109216690063" lon="-80.60693359375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-TMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tumbes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.37666797637939" lon="-73.2465057373047"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PER-UCY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ucayali]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

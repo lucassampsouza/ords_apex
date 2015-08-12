@@ -1,0 +1,61 @@
+<map_data>
+ <name>czech_republic</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="12.0937042236328" top="51.0536041259766" right="18.8522186279297" bottom="48.5813789367676"/>
+ <regions>
+  <region>
+   <centroid lat="49.0925350189209" lon="14.5646324157715"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CZE-JHC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jihocesky]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.1539726257324" lon="16.7195782661438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CZE-JHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jihomoravsky]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.036205291748" lon="14.4460997581482"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CZE-STR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stredocesky]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.57470703125" lon="14.1826386451721"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CZE-SVC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Severocesky]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.7926387786865" lon="17.7632694244385"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CZE-SVM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Severomoravsky]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.1155738830566" lon="15.9453248977661"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CZE-VYC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vychodocesky]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.7134666442871" lon="12.9548273086548"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CZE-ZPD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zapadocesky]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

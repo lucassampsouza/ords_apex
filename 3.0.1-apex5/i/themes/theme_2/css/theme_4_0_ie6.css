@@ -1,0 +1,51 @@
+button span {
+	margin-top:1px;
+}
+
+#outdated-browser {
+	margin: 0 auto;
+	font-size: 12px;
+	text-align: center;
+	color: #000000;
+	background: #fffccc;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 5px 10px 5px 10px;
+	border-bottom: 1px #aaaaaa solid;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#header {
+	height: 70px;
+}
+
+#logo {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 36px;
+	left: 10px;
+}
+
+#navbar {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 36px;
+	right: 10px;
+	width: 400px;
+}
+
+#parent-tabs {
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+button span {
+	margin-top:1px;
+}

@@ -1,0 +1,68 @@
+<map_data>
+ <name>new_england</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="STATE_FIPS" key="true"/>
+  <column name="SUB_REGION" key="false"/>
+ </columns>
+ <bounds left="-73.7256622314453" top="47.453296661377" right="-66.9698486328125" bottom="40.9982948303223"/>
+ <regions>
+  <region>
+   <centroid lat="45.2721290588379" lon="-69.0289192199707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maine]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[23]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.8695373535156" lon="-72.4711380004883"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vermont]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[50]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9999675750732" lon="-71.6442680358887"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Hampshire]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[33]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.0624713897705" lon="-71.708797454834"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Massachusetts]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[25]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5228157043457" lon="-72.7571983337402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Connecticut]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[09]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6681423187256" lon="-71.4924049377441"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rhode Island]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[44]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

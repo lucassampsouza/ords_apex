@@ -1,0 +1,86 @@
+
+.a-FlotBar .legendColorBox>div {
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	display: inline-block;
+}
+
+
+.a-FlotBar .legend:hover {
+	opacity: .15;
+}
+
+.a-FlotBar .legend {
+	display: inline-block;
+	-webkit-transition: opacity .1s;
+	transition: opacity .1s;
+}
+
+.a-FlotBar .legend table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 2px;
+}
+
+.a-FlotBar .legend table tr {
+	vertical-align: middle
+}
+
+.a-FlotBar .legend .legendColorBox,
+.a-FlotBar .legend .legendLabel {
+	padding: 4px;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+
+.a-FlotBar-tooltip-container {
+	display: none;
+	min-width: 100px;
+	position: absolute;
+	background-color: #FFF;
+	background-color: rgba(255,255,255,.9);
+	color: #404040;
+	padding: 4px;
+	border: 2px solid white;
+	border-radius: 2px;
+}
+.a-FlotBar-tooltip-container:after, .a-FlotBar-tooltip-container:before {
+	right: 100%;
+	top: 12px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.a-FlotBar-tooltip-container:after {
+	border-color: rgba(255, 0, 0, 0);
+	border-right-color: rgba(255,255,255,.9);
+	border-width: 6px;
+	margin-top: -6px;
+}
+.a-FlotBar-tooltip-container:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-right-color: inherit;
+	border-width: 9px;
+	margin-top: -9px;
+}
+
+
+.a-FlotBar-tooltip span {
+	clear: both;
+	float: left;
+}
+
+.a-FlotBar .axisLabels {
+	color: initial!important;
+}
+
+.a-FlotBar-chart {
+	position: relative;
+}

@@ -1,0 +1,26 @@
+<map_data>
+ <name>french_guiana</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-54.6037826538086" top="5.75555515289307" right="-51.6477813720703" bottom="2.11222219467163"/>
+ <regions>
+  <region>
+   <centroid lat="3.8731153011322" lon="-52.6388931274414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GUF-CYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cayenne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.93388867378235" lon="-53.8488388061523"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GUF-SLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saint-Laurent-du-Maroni]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

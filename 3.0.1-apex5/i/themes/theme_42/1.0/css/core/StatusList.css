@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Time Line
+   ========================================================================== */
+/* Block + Block Headers
+   ========================================================================== */
+.t-StatusList-block:first-child .t-StatusList-blockHeader {
+  border-top-width: 0; }
+
+.t-StatusList-blockHeader {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  font-weight: 300;
+  padding: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.05); }
+
+.t-StatusList-headerTextPrimary, .t-StatusList-headerTextAlt {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top; }
+
+.t-StatusList-headerTextPrimary {
+  width: 75%; }
+
+.t-StatusList-headerTextAlt {
+  width: 25%;
+  text-align: right; }
+
+/* Time Line List
+   ========================================================================== */
+.t-StatusList-list {
+  display: block;
+  list-style: none;
+  margin: 4px 0;
+  padding: 0; }
+
+.t-StatusList-item {
+  overflow: hidden;
+  position: relative; }
+
+.t-StatusList-itemMarker {
+  float: left; }
+
+.t-StatusList-itemBody {
+  overflow: hidden; }
+
+/* Time Line Marker
+   ========================================================================== */
+/* Time Line Item Title
+   ========================================================================== */
+.t-StatusList-itemTitle {
+  margin: 8px 0 4px 0;
+  font-size: 16px;
+  line-height: 24px; }
+
+/* Time Line Item Icon
+   ========================================================================== */
+.t-StatusList-itemIcon {
+  width: 24px;
+  height: 24px;
+  display: in-block;
+  padding: 4px;
+  border-radius: 24px;
+  margin-right: 8px;
+  color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset;
+  background-color: #FFF; }
+
+/* Time Line Item Description
+   ========================================================================== */
+.t-StatusList-itemAttrs {
+  margin-bottom: 8px; }
+
+/* Time Line Item Attributes
+   ========================================================================== */
+.t-StatusList-attr {
+  display: inline-block;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  white-space: nowrap;
+  margin-right: 1.6rem; }
+
+.t-StatusList-attrLabel {
+  font-weight: bold; }
+
+/* Time Line Item Description
+   ========================================================================== */
+.t-StatusList-textDesc {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin: -4px 0 8px 0; }
+
+/* Time Line Stateful Modifiers
+   ========================================================================== */
+/* Modifier: Dates
+   ========================================================================== */
+.t-StatusList--dates .t-StatusList-itemMarker {
+  width: 28px;
+  position: relative;
+  margin: 8px 12px; }
+.t-StatusList--dates .t-StatusList-marker {
+  display: block;
+  font-size: 1.2rem;
+  line-height: 20px;
+  height: 24px;
+  padding-top: 4px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+  text-align: center; }
+  .t-StatusList--dates .t-StatusList-marker:after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-radius: 2px 2px 0 0; }
+.t-StatusList--dates .t-StatusList-item.is-null .t-StatusList-marker {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset; }
+
+/* Modifier: Bullets
+   ========================================================================== */
+.t-StatusList--bullets .t-StatusList-itemMarker {
+  width: 32px;
+  text-align: center;
+  margin-right: 4px; }
+.t-StatusList--bullets .t-StatusList-marker {
+  margin: 12px 0;
+  display: inline-block;
+  font-size: 1.1rem;
+  text-indent: -999px;
+  width: 1.6rem;
+  height: 1.6rem;
+  line-height: 1.4rem;
+  text-align: center;
+  border-radius: 24px;
+  border: 0.1rem solid rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 10; }
+.t-StatusList--bullets .t-StatusList-item.is-complete .t-StatusList-marker {
+  border: none; }
+.t-StatusList--bullets .t-StatusList-item.is-danger .t-StatusList-marker {
+  border: none; }
+.t-StatusList--bullets .t-StatusList-item.is-open .t-StatusList-marker {
+  border: none; }
+.t-StatusList--bullets .t-StatusList-item.is-warning .t-StatusList-marker {
+  border: none; }
+.t-StatusList--bullets .t-StatusList-item.is-null .t-StatusList-marker {
+  border: none; }

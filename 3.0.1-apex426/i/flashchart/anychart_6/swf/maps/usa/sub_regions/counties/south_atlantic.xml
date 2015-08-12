@@ -1,0 +1,4741 @@
+<map_data>
+ <name>south_atlantic</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="FIPS" key="true"/>
+  <column name="REGION_NAME" key="false"/>
+ </columns>
+ <bounds left="-87.6257247924805" top="40.6371383666992" right="-75.0459976196289" bottom="24.9559669494629"/>
+ <regions>
+  <region>
+   <centroid lat="38.890775680542" lon="-77.016918182373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DC_Washington]]></value></item>
+    <item column="FIPS"><value><![CDATA[11001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5665340423584" lon="-75.6017761230469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DE_New Castle]]></value></item>
+    <item column="FIPS"><value><![CDATA[10003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Castle]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.0985546112061" lon="-75.5362815856934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DE_Kent]]></value></item>
+    <item column="FIPS"><value><![CDATA[10001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7022686004639" lon="-75.3854675292969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DE_Sussex]]></value></item>
+    <item column="FIPS"><value><![CDATA[10005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sussex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.7849769592285" lon="-85.2294578552246"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Jackson]]></value></item>
+    <item column="FIPS"><value><![CDATA[12063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jackson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.854998588562" lon="-85.7620735168457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Holmes]]></value></item>
+    <item column="FIPS"><value><![CDATA[12059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Holmes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.6346368789673" lon="-86.1195182800293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Walton]]></value></item>
+    <item column="FIPS"><value><![CDATA[12131]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Walton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.6202974319458" lon="-85.7061424255371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Washington]]></value></item>
+    <item column="FIPS"><value><![CDATA[12133]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.5490684509277" lon="-81.775951385498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Nassau]]></value></item>
+    <item column="FIPS"><value><![CDATA[12089]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nassau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.5560703277588" lon="-84.6054878234863"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Gadsden]]></value></item>
+    <item column="FIPS"><value><![CDATA[12039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gadsden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.4851198196411" lon="-84.3423118591309"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Leon]]></value></item>
+    <item column="FIPS"><value><![CDATA[12073]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.3763074874878" lon="-83.8416366577148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Jefferson]]></value></item>
+    <item column="FIPS"><value><![CDATA[12065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jefferson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.4559841156006" lon="-83.4940910339355"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Madison]]></value></item>
+    <item column="FIPS"><value><![CDATA[12079]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madison]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.4781341552734" lon="-82.97119140625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Hamilton]]></value></item>
+    <item column="FIPS"><value><![CDATA[12047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hamilton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.4043645858765" lon="-85.1570205688477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Calhoun]]></value></item>
+    <item column="FIPS"><value><![CDATA[12013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Calhoun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.2933883666992" lon="-84.8453598022461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Liberty]]></value></item>
+    <item column="FIPS"><value><![CDATA[12077]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Liberty]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.2141304016113" lon="-82.6196899414063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Columbia]]></value></item>
+    <item column="FIPS"><value><![CDATA[12023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Columbia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.358998298645" lon="-82.2548751831055"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Baker]]></value></item>
+    <item column="FIPS"><value><![CDATA[12003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baker]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.3434591293335" lon="-81.7399749755859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Duval]]></value></item>
+    <item column="FIPS"><value><![CDATA[12031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Duval]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.2492246627808" lon="-85.684627532959"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Bay]]></value></item>
+    <item column="FIPS"><value><![CDATA[12005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.1661682128906" lon="-83.0026397705078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Suwannee]]></value></item>
+    <item column="FIPS"><value><![CDATA[12121]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suwannee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.6927347183228" lon="-86.5884895324707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Okaloosa]]></value></item>
+    <item column="FIPS"><value><![CDATA[12091]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Okaloosa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.6789989471436" lon="-87.0437927246094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Santa Rosa]]></value></item>
+    <item column="FIPS"><value><![CDATA[12113]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Rosa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.6621036529541" lon="-87.2298240661621"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Escambia]]></value></item>
+    <item column="FIPS"><value><![CDATA[12033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Escambia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.9903144836426" lon="-83.6422996520996"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Taylor]]></value></item>
+    <item column="FIPS"><value><![CDATA[12123]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taylor]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.1422128677368" lon="-84.4023857116699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Wakulla]]></value></item>
+    <item column="FIPS"><value><![CDATA[12129]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wakulla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.0420627593994" lon="-83.1218299865723"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Lafayette]]></value></item>
+    <item column="FIPS"><value><![CDATA[12067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lafayette]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.9361009597778" lon="-81.4607124328613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_St. Johns]]></value></item>
+    <item column="FIPS"><value><![CDATA[12109]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Johns]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.9435625076294" lon="-85.2136001586914"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Gulf]]></value></item>
+    <item column="FIPS"><value><![CDATA[12045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gulf]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.9551706314087" lon="-81.8152732849121"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Clay]]></value></item>
+    <item column="FIPS"><value><![CDATA[12019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.0343379974365" lon="-82.3515472412109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Union]]></value></item>
+    <item column="FIPS"><value><![CDATA[12125]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Union]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.9318103790283" lon="-82.2250862121582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Bradford]]></value></item>
+    <item column="FIPS"><value><![CDATA[12007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bradford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.8582582473755" lon="-84.7769432067871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Franklin]]></value></item>
+    <item column="FIPS"><value><![CDATA[12037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.6802272796631" lon="-82.3507499694824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Alachua]]></value></item>
+    <item column="FIPS"><value><![CDATA[12001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alachua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.7499256134033" lon="-82.8094024658203"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Gilchrist]]></value></item>
+    <item column="FIPS"><value><![CDATA[12041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gilchrist]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.5839567184448" lon="-81.7454147338867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Putnam]]></value></item>
+    <item column="FIPS"><value><![CDATA[12107]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Putnam]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.5784502029419" lon="-83.1623649597168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Dixie]]></value></item>
+    <item column="FIPS"><value><![CDATA[12029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dixie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.4660911560059" lon="-81.3151550292969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Flagler]]></value></item>
+    <item column="FIPS"><value><![CDATA[12035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Flagler]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.3039684295654" lon="-82.7709884643555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Levy]]></value></item>
+    <item column="FIPS"><value><![CDATA[12075]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Levy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.2424221038818" lon="-82.0877265930176"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Marion]]></value></item>
+    <item column="FIPS"><value><![CDATA[12083]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marion]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.0198278427124" lon="-81.2067222595215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Volusia]]></value></item>
+    <item column="FIPS"><value><![CDATA[12127]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Volusia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.811954498291" lon="-81.6455841064453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Lake]]></value></item>
+    <item column="FIPS"><value><![CDATA[12069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lake]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.8574542999268" lon="-82.4608726501465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Citrus]]></value></item>
+    <item column="FIPS"><value><![CDATA[12017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Citrus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.6305046081543" lon="-82.128589630127"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Sumter]]></value></item>
+    <item column="FIPS"><value><![CDATA[12119]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sumter]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.7379875183105" lon="-81.222282409668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Seminole]]></value></item>
+    <item column="FIPS"><value><![CDATA[12117]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seminole]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.5626888275146" lon="-81.265209197998"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Orange]]></value></item>
+    <item column="FIPS"><value><![CDATA[12095]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orange]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.5603580474854" lon="-82.362419128418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Hernando]]></value></item>
+    <item column="FIPS"><value><![CDATA[12053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hernando]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.3044757843018" lon="-80.7408103942871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Brevard]]></value></item>
+    <item column="FIPS"><value><![CDATA[12009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brevard]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.3238143920898" lon="-82.4159851074219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Pasco]]></value></item>
+    <item column="FIPS"><value><![CDATA[12101]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pasco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.000096321106" lon="-81.6199569702148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Polk]]></value></item>
+    <item column="FIPS"><value><![CDATA[12105]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Polk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.9932260513306" lon="-81.2602691650391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Osceola]]></value></item>
+    <item column="FIPS"><value><![CDATA[12097]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Osceola]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.9291486740112" lon="-82.7044525146484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Pinellas]]></value></item>
+    <item column="FIPS"><value><![CDATA[12103]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pinellas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.9071130752563" lon="-82.3522644042969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Hillsborough]]></value></item>
+    <item column="FIPS"><value><![CDATA[12057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hillsborough]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.7003841400146" lon="-80.6165885925293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Indian River]]></value></item>
+    <item column="FIPS"><value><![CDATA[12061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Indian River]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.4888477325439" lon="-81.8094329833984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Hardee]]></value></item>
+    <item column="FIPS"><value><![CDATA[12049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hardee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.3373737335205" lon="-81.256908416748"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Highlands]]></value></item>
+    <item column="FIPS"><value><![CDATA[12055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Highlands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.425895690918" lon="-82.3711013793945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Manatee]]></value></item>
+    <item column="FIPS"><value><![CDATA[12081]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manatee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.3006410598755" lon="-80.9407920837402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Okeechobee]]></value></item>
+    <item column="FIPS"><value><![CDATA[12093]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Okeechobee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.3822660446167" lon="-80.4602813720703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_St. Lucie]]></value></item>
+    <item column="FIPS"><value><![CDATA[12111]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Lucie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.1666584014893" lon="-82.3125801086426"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Sarasota]]></value></item>
+    <item column="FIPS"><value><![CDATA[12115]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sarasota]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.1859540939331" lon="-81.8087196350098"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_De Soto]]></value></item>
+    <item column="FIPS"><value><![CDATA[12027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[De Soto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.1115942001343" lon="-80.4888381958008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Martin]]></value></item>
+    <item column="FIPS"><value><![CDATA[12085]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Martin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.9892015457153" lon="-81.2131729125977"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Glades]]></value></item>
+    <item column="FIPS"><value><![CDATA[12043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Glades]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.8998794555664" lon="-81.9710998535156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Charlotte]]></value></item>
+    <item column="FIPS"><value><![CDATA[12015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Charlotte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.6506185531616" lon="-80.4691123962402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Palm Beach]]></value></item>
+    <item column="FIPS"><value><![CDATA[12099]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Palm Beach]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.6054391860962" lon="-81.2221031188965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Hendry]]></value></item>
+    <item column="FIPS"><value><![CDATA[12051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hendry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.5420522689819" lon="-81.8727378845215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Lee]]></value></item>
+    <item column="FIPS"><value><![CDATA[12071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.1578722000122" lon="-81.361873626709"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Collier]]></value></item>
+    <item column="FIPS"><value><![CDATA[12021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Collier]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.1462087631226" lon="-80.4833602905273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Broward]]></value></item>
+    <item column="FIPS"><value><![CDATA[12011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Broward]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.568133354187" lon="-80.5021934509277"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Dade]]></value></item>
+    <item column="FIPS"><value><![CDATA[12025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dade]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.3793449401855" lon="-80.7541275024414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL_Monroe]]></value></item>
+    <item column="FIPS"><value><![CDATA[12087]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Monroe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8549156188965" lon="-83.3819580078125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Rabun]]></value></item>
+    <item column="FIPS"><value><![CDATA[13241]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rabun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8018970489502" lon="-84.9821128845215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Whitfield]]></value></item>
+    <item column="FIPS"><value><![CDATA[13313]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Whitfield]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7863845825195" lon="-84.7632713317871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Murray]]></value></item>
+    <item column="FIPS"><value><![CDATA[13213]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Murray]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8756809234619" lon="-85.1178359985352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Catoosa]]></value></item>
+    <item column="FIPS"><value><![CDATA[13047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Catoosa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.806245803833" lon="-85.484489440918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Dade]]></value></item>
+    <item column="FIPS"><value><![CDATA[13083]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dade]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7872524261475" lon="-85.2908668518066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Walker]]></value></item>
+    <item column="FIPS"><value><![CDATA[13295]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Walker]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8852634429932" lon="-83.7446899414063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Towns]]></value></item>
+    <item column="FIPS"><value><![CDATA[13281]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Towns]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8129386901855" lon="-83.9779472351074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Union]]></value></item>
+    <item column="FIPS"><value><![CDATA[13291]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Union]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7938632965088" lon="-84.3573913574219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Fannin]]></value></item>
+    <item column="FIPS"><value><![CDATA[13111]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fannin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7000694274902" lon="-84.4244155883789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Gilmer]]></value></item>
+    <item column="FIPS"><value><![CDATA[13123]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gilmer]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6272411346436" lon="-83.5096168518066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Habersham]]></value></item>
+    <item column="FIPS"><value><![CDATA[13137]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Habersham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6475963592529" lon="-83.7481918334961"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_White]]></value></item>
+    <item column="FIPS"><value><![CDATA[13311]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[White]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5698757171631" lon="-84.0096702575684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Lumpkin]]></value></item>
+    <item column="FIPS"><value><![CDATA[13187]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lumpkin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5663471221924" lon="-83.285041809082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Stephens]]></value></item>
+    <item column="FIPS"><value><![CDATA[13257]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stephens]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5061149597168" lon="-84.873592376709"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Gordon]]></value></item>
+    <item column="FIPS"><value><![CDATA[13129]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gordon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4753322601318" lon="-84.1528282165527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Dawson]]></value></item>
+    <item column="FIPS"><value><![CDATA[13085]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dawson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3363857269287" lon="-85.2328987121582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Floyd]]></value></item>
+    <item column="FIPS"><value><![CDATA[13115]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Floyd]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4379367828369" lon="-85.3129043579102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Chattooga]]></value></item>
+    <item column="FIPS"><value><![CDATA[13055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chattooga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4684677124023" lon="-84.4568176269531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Pickens]]></value></item>
+    <item column="FIPS"><value><![CDATA[13227]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pickens]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3872585296631" lon="-83.2250556945801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Franklin]]></value></item>
+    <item column="FIPS"><value><![CDATA[13119]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3047161102295" lon="-83.8410720825195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Hall]]></value></item>
+    <item column="FIPS"><value><![CDATA[13139]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hall]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3538303375244" lon="-82.9500732421875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Hart]]></value></item>
+    <item column="FIPS"><value><![CDATA[13147]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hart]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3465785980225" lon="-83.4995422363281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Banks]]></value></item>
+    <item column="FIPS"><value><![CDATA[13011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Banks]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2452869415283" lon="-84.842643737793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Bartow]]></value></item>
+    <item column="FIPS"><value><![CDATA[13015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bartow]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.247407913208" lon="-84.459400177002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Cherokee]]></value></item>
+    <item column="FIPS"><value><![CDATA[13057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cherokee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1922874450684" lon="-84.0920257568359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Forsyth]]></value></item>
+    <item column="FIPS"><value><![CDATA[13117]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Forsyth]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1341152191162" lon="-83.5851211547852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Jackson]]></value></item>
+    <item column="FIPS"><value><![CDATA[13157]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jackson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1247882843018" lon="-82.8384552001953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Elbert]]></value></item>
+    <item column="FIPS"><value><![CDATA[13105]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Elbert]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1312732696533" lon="-83.1930046081543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Madison]]></value></item>
+    <item column="FIPS"><value><![CDATA[13195]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madison]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9299983978271" lon="-84.5559883117676"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Cobb]]></value></item>
+    <item column="FIPS"><value><![CDATA[13067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cobb]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9618473052979" lon="-84.033260345459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Gwinnett]]></value></item>
+    <item column="FIPS"><value><![CDATA[13135]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gwinnett]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.0116138458252" lon="-83.6970710754395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Barrow]]></value></item>
+    <item column="FIPS"><value><![CDATA[13013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Barrow]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8453178405762" lon="-84.4773368835449"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Fulton]]></value></item>
+    <item column="FIPS"><value><![CDATA[13121]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fulton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.0028533935547" lon="-85.1692733764648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Polk]]></value></item>
+    <item column="FIPS"><value><![CDATA[13233]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Polk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9339294433594" lon="-84.8768119812012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Paulding]]></value></item>
+    <item column="FIPS"><value><![CDATA[13223]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paulding]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9518013000488" lon="-83.3848114013672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Clarke]]></value></item>
+    <item column="FIPS"><value><![CDATA[13059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clarke]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8728427886963" lon="-83.0414237976074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Oglethorpe]]></value></item>
+    <item column="FIPS"><value><![CDATA[13221]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oglethorpe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7927570343018" lon="-82.7388038635254"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Wilkes]]></value></item>
+    <item column="FIPS"><value><![CDATA[13317]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wilkes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8141002655029" lon="-82.4382019042969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Lincoln]]></value></item>
+    <item column="FIPS"><value><![CDATA[13181]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lincoln]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.83127784729" lon="-83.4627227783203"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Oconee]]></value></item>
+    <item column="FIPS"><value><![CDATA[13219]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oconee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.794979095459" lon="-84.1860771179199"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_De Kalb]]></value></item>
+    <item column="FIPS"><value><![CDATA[13089]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[De Kalb]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.76291847229" lon="-83.7461395263672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Walton]]></value></item>
+    <item column="FIPS"><value><![CDATA[13297]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Walton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.780122756958" lon="-85.2077713012695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Haralson]]></value></item>
+    <item column="FIPS"><value><![CDATA[13143]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haralson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6206436157227" lon="-85.0748138427734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Carroll]]></value></item>
+    <item column="FIPS"><value><![CDATA[13045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carroll]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6242237091064" lon="-83.4769592285156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Morgan]]></value></item>
+    <item column="FIPS"><value><![CDATA[13211]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morgan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6897201538086" lon="-84.7416725158691"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Douglas]]></value></item>
+    <item column="FIPS"><value><![CDATA[13097]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Douglas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6567821502686" lon="-84.0425720214844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Rockdale]]></value></item>
+    <item column="FIPS"><value><![CDATA[13247]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rockdale]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.557409286499" lon="-83.1791839599609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Greene]]></value></item>
+    <item column="FIPS"><value><![CDATA[13133]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greene]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.5575523376465" lon="-83.8608093261719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Newton]]></value></item>
+    <item column="FIPS"><value><![CDATA[13217]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Newton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.5860443115234" lon="-82.8491287231445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Taliaferro]]></value></item>
+    <item column="FIPS"><value><![CDATA[13265]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taliaferro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.531551361084" lon="-82.24169921875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Columbia]]></value></item>
+    <item column="FIPS"><value><![CDATA[13073]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Columbia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.4864501953125" lon="-82.4707336425781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_McDuffie]]></value></item>
+    <item column="FIPS"><value><![CDATA[13189]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[McDuffie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.5022373199463" lon="-84.3467826843262"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Clayton]]></value></item>
+    <item column="FIPS"><value><![CDATA[13063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clayton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.4757690429688" lon="-84.138111114502"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Henry]]></value></item>
+    <item column="FIPS"><value><![CDATA[13151]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Henry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.4329128265381" lon="-82.6262969970703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Warren]]></value></item>
+    <item column="FIPS"><value><![CDATA[13301]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Warren]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.4092445373535" lon="-84.4968490600586"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Fayette]]></value></item>
+    <item column="FIPS"><value><![CDATA[13113]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fayette]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.3891830444336" lon="-82.0885581970215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Richmond]]></value></item>
+    <item column="FIPS"><value><![CDATA[13245]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Richmond]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.3281707763672" lon="-83.6924743652344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Jasper]]></value></item>
+    <item column="FIPS"><value><![CDATA[13159]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jasper]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.3484001159668" lon="-84.7484397888184"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Coweta]]></value></item>
+    <item column="FIPS"><value><![CDATA[13077]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coweta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.3236255645752" lon="-83.3413200378418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Putnam]]></value></item>
+    <item column="FIPS"><value><![CDATA[13237]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Putnam]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2724571228027" lon="-83.0159111022949"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Hancock]]></value></item>
+    <item column="FIPS"><value><![CDATA[13141]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hancock]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.3169441223145" lon="-83.9691352844238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Butts]]></value></item>
+    <item column="FIPS"><value><![CDATA[13035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Butts]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2774391174316" lon="-85.1093101501465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Heard]]></value></item>
+    <item column="FIPS"><value><![CDATA[13149]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Heard]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2664794921875" lon="-84.294979095459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Spalding]]></value></item>
+    <item column="FIPS"><value><![CDATA[13255]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Spalding]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2264080047607" lon="-82.5909309387207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Glascock]]></value></item>
+    <item column="FIPS"><value><![CDATA[13125]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Glascock]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0372714996338" lon="-82.4432144165039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Jefferson]]></value></item>
+    <item column="FIPS"><value><![CDATA[13163]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jefferson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0508728027344" lon="-81.9353561401367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Burke]]></value></item>
+    <item column="FIPS"><value><![CDATA[13033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Burke]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.9934482574463" lon="-82.7927360534668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Washington]]></value></item>
+    <item column="FIPS"><value><![CDATA[13303]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0299530029297" lon="-84.6729698181152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Meriwether]]></value></item>
+    <item column="FIPS"><value><![CDATA[13199]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Meriwether]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0434226989746" lon="-85.0433540344238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Troup]]></value></item>
+    <item column="FIPS"><value><![CDATA[13285]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Troup]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0646171569824" lon="-84.1480445861816"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Lamar]]></value></item>
+    <item column="FIPS"><value><![CDATA[13171]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lamar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0232353210449" lon="-83.9161720275879"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Monroe]]></value></item>
+    <item column="FIPS"><value><![CDATA[13207]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Monroe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0858535766602" lon="-84.3870811462402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Pike]]></value></item>
+    <item column="FIPS"><value><![CDATA[13231]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pike]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0524635314941" lon="-83.2352561950684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Baldwin]]></value></item>
+    <item column="FIPS"><value><![CDATA[13009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baldwin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0107021331787" lon="-83.5792922973633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Jones]]></value></item>
+    <item column="FIPS"><value><![CDATA[13169]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jones]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.7656192779541" lon="-81.6262855529785"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Screven]]></value></item>
+    <item column="FIPS"><value><![CDATA[13251]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Screven]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.793270111084" lon="-83.1787986755371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Wilkinson]]></value></item>
+    <item column="FIPS"><value><![CDATA[13319]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wilkinson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.8468551635742" lon="-84.3223876953125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Upson]]></value></item>
+    <item column="FIPS"><value><![CDATA[13293]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Upson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.8038558959961" lon="-83.6848678588867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Bibb]]></value></item>
+    <item column="FIPS"><value><![CDATA[13021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bibb]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.7783508300781" lon="-81.956169128418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Jenkins]]></value></item>
+    <item column="FIPS"><value><![CDATA[13165]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jenkins]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6694965362549" lon="-83.4143486022949"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Twiggs]]></value></item>
+    <item column="FIPS"><value><![CDATA[13289]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Twiggs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.7008876800537" lon="-84.4855804443359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Talbot]]></value></item>
+    <item column="FIPS"><value><![CDATA[13263]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Talbot]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.7266006469727" lon="-84.9267387390137"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Harris]]></value></item>
+    <item column="FIPS"><value><![CDATA[13145]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Harris]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6870346069336" lon="-83.9663276672363"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Crawford]]></value></item>
+    <item column="FIPS"><value><![CDATA[13079]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Crawford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5611610412598" lon="-82.3236198425293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Emanuel]]></value></item>
+    <item column="FIPS"><value><![CDATA[13107]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Emanuel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6664924621582" lon="-82.7006034851074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Johnson]]></value></item>
+    <item column="FIPS"><value><![CDATA[13167]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Johnson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5516529083252" lon="-84.2300910949707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Taylor]]></value></item>
+    <item column="FIPS"><value><![CDATA[13269]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taylor]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4307861328125" lon="-82.9324073791504"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Laurens]]></value></item>
+    <item column="FIPS"><value><![CDATA[13175]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Laurens]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5627307891846" lon="-83.8581199645996"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Peach]]></value></item>
+    <item column="FIPS"><value><![CDATA[13225]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Peach]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4856567382813" lon="-83.6663513183594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Houston]]></value></item>
+    <item column="FIPS"><value><![CDATA[13153]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Houston]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.3989639282227" lon="-81.7337532043457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Bulloch]]></value></item>
+    <item column="FIPS"><value><![CDATA[13031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bulloch]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.486795425415" lon="-84.8742752075195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Muscogee]]></value></item>
+    <item column="FIPS"><value><![CDATA[13215]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Muscogee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.3477878570557" lon="-81.335506439209"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Effingham]]></value></item>
+    <item column="FIPS"><value><![CDATA[13103]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Effingham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4248714447021" lon="-83.3164176940918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Bleckley]]></value></item>
+    <item column="FIPS"><value><![CDATA[13023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bleckley]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.3465671539307" lon="-84.5209312438965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Marion]]></value></item>
+    <item column="FIPS"><value><![CDATA[13197]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marion]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4101104736328" lon="-82.0797386169434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Candler]]></value></item>
+    <item column="FIPS"><value><![CDATA[13043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Candler]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.3793125152588" lon="-84.8196678161621"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Chattahoochee]]></value></item>
+    <item column="FIPS"><value><![CDATA[13053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chattahoochee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.3471298217773" lon="-84.039379119873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Macon]]></value></item>
+    <item column="FIPS"><value><![CDATA[13193]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Macon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4005432128906" lon="-82.5626182556152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Treutlen]]></value></item>
+    <item column="FIPS"><value><![CDATA[13283]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Treutlen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.1716003417969" lon="-83.1185684204102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Dodge]]></value></item>
+    <item column="FIPS"><value><![CDATA[13091]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dodge]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.2857551574707" lon="-84.3008079528809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Schley]]></value></item>
+    <item column="FIPS"><value><![CDATA[13249]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Schley]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.2495079040527" lon="-83.4558143615723"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Pulaski]]></value></item>
+    <item column="FIPS"><value><![CDATA[13235]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pulaski]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.1466655731201" lon="-82.5306205749512"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Montgomery]]></value></item>
+    <item column="FIPS"><value><![CDATA[13209]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montgomery]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.1310205459595" lon="-82.3314399719238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Toombs]]></value></item>
+    <item column="FIPS"><value><![CDATA[13279]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Toombs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.047119140625" lon="-81.9987297058105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Tattnall]]></value></item>
+    <item column="FIPS"><value><![CDATA[13267]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tattnall]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.1090469360352" lon="-82.7468299865723"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Wheeler]]></value></item>
+    <item column="FIPS"><value><![CDATA[13309]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wheeler]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.1577968597412" lon="-83.8196449279785"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Dooly]]></value></item>
+    <item column="FIPS"><value><![CDATA[13093]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dooly]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.1598510742188" lon="-81.8659858703613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Evans]]></value></item>
+    <item column="FIPS"><value><![CDATA[13109]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Evans]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.9842023849487" lon="-81.4587135314941"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Bryan]]></value></item>
+    <item column="FIPS"><value><![CDATA[13029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bryan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.0741529464722" lon="-84.8522758483887"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Stewart]]></value></item>
+    <item column="FIPS"><value><![CDATA[13259]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stewart]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.0714998245239" lon="-84.5408134460449"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Webster]]></value></item>
+    <item column="FIPS"><value><![CDATA[13307]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Webster]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.0494623184204" lon="-84.1836318969727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Sumter]]></value></item>
+    <item column="FIPS"><value><![CDATA[13261]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sumter]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.9559764862061" lon="-82.9328536987305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Telfair]]></value></item>
+    <item column="FIPS"><value><![CDATA[13271]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Telfair]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.9848690032959" lon="-83.3934898376465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Wilcox]]></value></item>
+    <item column="FIPS"><value><![CDATA[13315]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wilcox]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.8457269668579" lon="-81.4784393310547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Liberty]]></value></item>
+    <item column="FIPS"><value><![CDATA[13179]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Liberty]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.9106492996216" lon="-83.7822380065918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Crisp]]></value></item>
+    <item column="FIPS"><value><![CDATA[13081]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Crisp]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7732944488525" lon="-81.7334938049316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Long]]></value></item>
+    <item column="FIPS"><value><![CDATA[13183]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Long]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.8760471343994" lon="-85.0215530395508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Quitman]]></value></item>
+    <item column="FIPS"><value><![CDATA[13239]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quitman]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.8176050186157" lon="-82.6315612792969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Jeff Davis]]></value></item>
+    <item column="FIPS"><value><![CDATA[13161]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jeff Davis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7186841964722" lon="-82.2994613647461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Appling]]></value></item>
+    <item column="FIPS"><value><![CDATA[13001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Appling]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7868156433105" lon="-84.424991607666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Terrell]]></value></item>
+    <item column="FIPS"><value><![CDATA[13273]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Terrell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7731904983521" lon="-84.7454986572266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Randolph]]></value></item>
+    <item column="FIPS"><value><![CDATA[13243]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Randolph]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7697687149048" lon="-84.1311645507813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Lee]]></value></item>
+    <item column="FIPS"><value><![CDATA[13177]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.9821510314941" lon="-81.1400375366211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Chatham]]></value></item>
+    <item column="FIPS"><value><![CDATA[13051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chatham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.5857200622559" lon="-83.838809967041"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Worth]]></value></item>
+    <item column="FIPS"><value><![CDATA[13321]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Worth]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7090702056885" lon="-83.6261405944824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Turner]]></value></item>
+    <item column="FIPS"><value><![CDATA[13287]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Turner]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7521905899048" lon="-83.2362251281738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Ben Hill]]></value></item>
+    <item column="FIPS"><value><![CDATA[13017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ben Hill]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.57581615448" lon="-81.8779411315918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Wayne]]></value></item>
+    <item column="FIPS"><value><![CDATA[13305]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wayne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.5874681472778" lon="-82.8748626708984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Coffee]]></value></item>
+    <item column="FIPS"><value><![CDATA[13069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coffee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.6365966796875" lon="-84.9620704650879"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Clay]]></value></item>
+    <item column="FIPS"><value><![CDATA[13061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.6202869415283" lon="-83.2508163452148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Irwin]]></value></item>
+    <item column="FIPS"><value><![CDATA[13155]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Irwin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.5610399246216" lon="-82.4232406616211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Bacon]]></value></item>
+    <item column="FIPS"><value><![CDATA[13005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bacon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.5062694549561" lon="-81.4291877746582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_McIntosh]]></value></item>
+    <item column="FIPS"><value><![CDATA[13191]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[McIntosh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.5489444732666" lon="-84.2122383117676"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Dougherty]]></value></item>
+    <item column="FIPS"><value><![CDATA[13095]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dougherty]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.5369319915771" lon="-84.6185836791992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Calhoun]]></value></item>
+    <item column="FIPS"><value><![CDATA[13037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Calhoun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.4618949890137" lon="-83.4973678588867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Tift]]></value></item>
+    <item column="FIPS"><value><![CDATA[13277]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tift]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.3682346343994" lon="-82.1954116821289"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Pierce]]></value></item>
+    <item column="FIPS"><value><![CDATA[13229]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pierce]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2998952865601" lon="-84.8662948608398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Early]]></value></item>
+    <item column="FIPS"><value><![CDATA[13099]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Early]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2532148361206" lon="-83.2310943603516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Berrien]]></value></item>
+    <item column="FIPS"><value><![CDATA[13019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berrien]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.0173425674438" lon="-82.4137191772461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Ware]]></value></item>
+    <item column="FIPS"><value><![CDATA[13299]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ware]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2489995956421" lon="-81.5353584289551"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Glynn]]></value></item>
+    <item column="FIPS"><value><![CDATA[13127]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Glynn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2673311233521" lon="-84.3873252868652"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Baker]]></value></item>
+    <item column="FIPS"><value><![CDATA[13007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baker]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2594127655029" lon="-84.2484474182129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Mitchell]]></value></item>
+    <item column="FIPS"><value><![CDATA[13205]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mitchell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2987995147705" lon="-82.8816986083984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Atkinson]]></value></item>
+    <item column="FIPS"><value><![CDATA[13003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Atkinson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.1916246414185" lon="-81.9997520446777"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Brantley]]></value></item>
+    <item column="FIPS"><value><![CDATA[13025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brantley]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.1878566741943" lon="-83.4268417358398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Cook]]></value></item>
+    <item column="FIPS"><value><![CDATA[13075]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cook]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.1813621520996" lon="-83.7535285949707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Colquitt]]></value></item>
+    <item column="FIPS"><value><![CDATA[13071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colquitt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.1651782989502" lon="-84.7183990478516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Miller]]></value></item>
+    <item column="FIPS"><value><![CDATA[13201]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Miller]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.0217199325562" lon="-83.082145690918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Lanier]]></value></item>
+    <item column="FIPS"><value><![CDATA[13173]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lanier]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.881796836853" lon="-82.6927299499512"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Clinch]]></value></item>
+    <item column="FIPS"><value><![CDATA[13065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clinch]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.9365396499634" lon="-81.6652908325195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Camden]]></value></item>
+    <item column="FIPS"><value><![CDATA[13039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Camden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.8879709243774" lon="-84.6172828674316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Decatur]]></value></item>
+    <item column="FIPS"><value><![CDATA[13087]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Decatur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.8971157073975" lon="-84.8710289001465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Seminole]]></value></item>
+    <item column="FIPS"><value><![CDATA[13253]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seminole]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.8787698745728" lon="-84.2223663330078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Grady]]></value></item>
+    <item column="FIPS"><value><![CDATA[13131]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grady]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.869725227356" lon="-83.9240264892578"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Thomas]]></value></item>
+    <item column="FIPS"><value><![CDATA[13275]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thomas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.8531980514526" lon="-83.5243453979492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Brooks]]></value></item>
+    <item column="FIPS"><value><![CDATA[13027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brooks]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.7153024673462" lon="-82.149585723877"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Charlton]]></value></item>
+    <item column="FIPS"><value><![CDATA[13049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Charlton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.8253440856934" lon="-83.2463188171387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Lowndes]]></value></item>
+    <item column="FIPS"><value><![CDATA[13185]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lowndes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.727614402771" lon="-82.85693359375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA_Echols]]></value></item>
+    <item column="FIPS"><value><![CDATA[13101]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Echols]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5215320587158" lon="-77.914909362793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Washington]]></value></item>
+    <item column="FIPS"><value><![CDATA[24043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5812187194824" lon="-78.6878318786621"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Allegany]]></value></item>
+    <item column="FIPS"><value><![CDATA[24001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Allegany]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5514469146729" lon="-76.0030708312988"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Cecil]]></value></item>
+    <item column="FIPS"><value><![CDATA[24015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cecil]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4597702026367" lon="-79.2102584838867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Garrett]]></value></item>
+    <item column="FIPS"><value><![CDATA[24023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Garrett]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.548318862915" lon="-76.3249893188477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Harford]]></value></item>
+    <item column="FIPS"><value><![CDATA[24025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Harford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.526460647583" lon="-77.0504379272461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Carroll]]></value></item>
+    <item column="FIPS"><value><![CDATA[24013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carroll]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4645366668701" lon="-76.6309700012207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Baltimore]]></value></item>
+    <item column="FIPS"><value><![CDATA[24005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baltimore]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4696063995361" lon="-77.396369934082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Frederick]]></value></item>
+    <item column="FIPS"><value><![CDATA[24021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Frederick]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2392616271973" lon="-76.0002746582031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Kent]]></value></item>
+    <item column="FIPS"><value><![CDATA[24029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2835254669189" lon="-76.6219787597656"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Baltimore City]]></value></item>
+    <item column="FIPS"><value><![CDATA[24510]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baltimore City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2305774688721" lon="-76.9425086975098"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Howard]]></value></item>
+    <item column="FIPS"><value><![CDATA[24027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Howard]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1397285461426" lon="-77.2031593322754"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Montgomery]]></value></item>
+    <item column="FIPS"><value><![CDATA[24031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montgomery]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.061559677124" lon="-76.0642433166504"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Queen Annes]]></value></item>
+    <item column="FIPS"><value><![CDATA[24035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Queen Annes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9683837890625" lon="-76.6338233947754"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Anne Arundel]]></value></item>
+    <item column="FIPS"><value><![CDATA[24003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Anne Arundel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8955497741699" lon="-75.864372253418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Caroline]]></value></item>
+    <item column="FIPS"><value><![CDATA[24011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caroline]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8303413391113" lon="-76.8824119567871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Prince Georges]]></value></item>
+    <item column="FIPS"><value><![CDATA[24033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prince Georges]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7600269317627" lon="-76.1259384155273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Talbot]]></value></item>
+    <item column="FIPS"><value><![CDATA[24041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Talbot]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.543025970459" lon="-76.5436935424805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Calvert]]></value></item>
+    <item column="FIPS"><value><![CDATA[24009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Calvert]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.501916885376" lon="-76.9762077331543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Charles]]></value></item>
+    <item column="FIPS"><value><![CDATA[24017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Charles]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4798355102539" lon="-76.000846862793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Dorchester]]></value></item>
+    <item column="FIPS"><value><![CDATA[24019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dorchester]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4081745147705" lon="-75.6058616638184"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Wicomico]]></value></item>
+    <item column="FIPS"><value><![CDATA[24045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wicomico]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2794895172119" lon="-76.5971755981445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_St. Marys]]></value></item>
+    <item column="FIPS"><value><![CDATA[24037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Marys]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2258129119873" lon="-75.3543815612793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Worcester]]></value></item>
+    <item column="FIPS"><value><![CDATA[24047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Worcester]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1318130493164" lon="-75.7214546203613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD_Somerset]]></value></item>
+    <item column="FIPS"><value><![CDATA[24039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Somerset]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.4120025634766" lon="-81.4904823303223"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Ashe]]></value></item>
+    <item column="FIPS"><value><![CDATA[37009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ashe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.4691143035889" lon="-81.1254920959473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Alleghany]]></value></item>
+    <item column="FIPS"><value><![CDATA[37005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alleghany]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3995475769043" lon="-80.7005424499512"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Surry]]></value></item>
+    <item column="FIPS"><value><![CDATA[37171]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Surry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3149909973145" lon="-76.0517044067383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Currituck]]></value></item>
+    <item column="FIPS"><value><![CDATA[37053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Currituck]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.359525680542" lon="-77.4882583618164"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Northampton]]></value></item>
+    <item column="FIPS"><value><![CDATA[37131]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northampton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3932609558105" lon="-76.9625816345215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Hertford]]></value></item>
+    <item column="FIPS"><value><![CDATA[37091]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hertford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3628921508789" lon="-76.260383605957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Camden]]></value></item>
+    <item column="FIPS"><value><![CDATA[37029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Camden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.4248847961426" lon="-76.7070121765137"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Gates]]></value></item>
+    <item column="FIPS"><value><![CDATA[37073]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gates]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3744449615479" lon="-78.1100540161133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Warren]]></value></item>
+    <item column="FIPS"><value><![CDATA[37185]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Warren]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.4006385803223" lon="-80.2385330200195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Stokes]]></value></item>
+    <item column="FIPS"><value><![CDATA[37169]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stokes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3917255401611" lon="-79.3374176025391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Caswell]]></value></item>
+    <item column="FIPS"><value><![CDATA[37033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caswell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3920230865479" lon="-79.7679862976074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Rockingham]]></value></item>
+    <item column="FIPS"><value><![CDATA[37157]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rockingham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.2800998687744" lon="-78.6345825195313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Granville]]></value></item>
+    <item column="FIPS"><value><![CDATA[37077]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Granville]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3888168334961" lon="-78.9779853820801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Person]]></value></item>
+    <item column="FIPS"><value><![CDATA[37145]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Person]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.353853225708" lon="-78.4000091552734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Vance]]></value></item>
+    <item column="FIPS"><value><![CDATA[37181]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vance]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.2523021697998" lon="-77.6236610412598"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Halifax]]></value></item>
+    <item column="FIPS"><value><![CDATA[37083]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Halifax]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3257961273193" lon="-76.3075866699219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Pasquotank]]></value></item>
+    <item column="FIPS"><value><![CDATA[37139]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pasquotank]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.2102394104004" lon="-81.2084846496582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Wilkes]]></value></item>
+    <item column="FIPS"><value><![CDATA[37193]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wilkes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.2481727600098" lon="-81.680980682373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Watauga]]></value></item>
+    <item column="FIPS"><value><![CDATA[37189]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Watauga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.2268447875977" lon="-76.4349975585938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Perquimans]]></value></item>
+    <item column="FIPS"><value><![CDATA[37143]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Perquimans]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1738681793213" lon="-76.5734672546387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Chowan]]></value></item>
+    <item column="FIPS"><value><![CDATA[37041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chowan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0981979370117" lon="-81.9050140380859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Avery]]></value></item>
+    <item column="FIPS"><value><![CDATA[37011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Avery]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1608486175537" lon="-80.6591110229492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Yadkin]]></value></item>
+    <item column="FIPS"><value><![CDATA[37197]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yadkin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0377826690674" lon="-78.277156829834"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Franklin]]></value></item>
+    <item column="FIPS"><value><![CDATA[37069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1125087738037" lon="-80.266960144043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Forsyth]]></value></item>
+    <item column="FIPS"><value><![CDATA[37067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Forsyth]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0706005096436" lon="-79.7865905761719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Guilford]]></value></item>
+    <item column="FIPS"><value><![CDATA[37081]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guilford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0415630340576" lon="-79.3894882202148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Alamance]]></value></item>
+    <item column="FIPS"><value><![CDATA[37001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alamance]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0275821685791" lon="-77.0129852294922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Bertie]]></value></item>
+    <item column="FIPS"><value><![CDATA[37015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bertie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0448150634766" lon="-79.1109504699707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Orange]]></value></item>
+    <item column="FIPS"><value><![CDATA[37135]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orange]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0458507537842" lon="-78.8611450195313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Durham]]></value></item>
+    <item column="FIPS"><value><![CDATA[37063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Durham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.9605293273926" lon="-77.9775276184082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Nash]]></value></item>
+    <item column="FIPS"><value><![CDATA[37127]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nash]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.9827480316162" lon="-82.1958847045898"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Mitchell]]></value></item>
+    <item column="FIPS"><value><![CDATA[37121]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mitchell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.9084339141846" lon="-77.5862579345703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Edgecombe]]></value></item>
+    <item column="FIPS"><value><![CDATA[37065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Edgecombe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.9338130950928" lon="-81.5640449523926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Caldwell]]></value></item>
+    <item column="FIPS"><value><![CDATA[37027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caldwell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8880310058594" lon="-82.3128929138184"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Yancey]]></value></item>
+    <item column="FIPS"><value><![CDATA[37199]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yancey]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8590545654297" lon="-77.0941886901855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Martin]]></value></item>
+    <item column="FIPS"><value><![CDATA[37117]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Martin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7932929992676" lon="-78.6266784667969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Wake]]></value></item>
+    <item column="FIPS"><value><![CDATA[37183]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wake]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8639507293701" lon="-82.6842842102051"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Madison]]></value></item>
+    <item column="FIPS"><value><![CDATA[37115]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madison]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7800788879395" lon="-80.8992309570313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Iredell]]></value></item>
+    <item column="FIPS"><value><![CDATA[37097]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iredell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8979949951172" lon="-80.5338401794434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Davie]]></value></item>
+    <item column="FIPS"><value><![CDATA[37059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Davie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.9034175872803" lon="-81.1674575805664"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Alexander]]></value></item>
+    <item column="FIPS"><value><![CDATA[37003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alexander]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7633361816406" lon="-80.2587623596191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Davidson]]></value></item>
+    <item column="FIPS"><value><![CDATA[37057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Davidson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7739753723145" lon="-81.6811256408691"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Burke]]></value></item>
+    <item column="FIPS"><value><![CDATA[37023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Burke]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8382911682129" lon="-76.5982513427734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Washington]]></value></item>
+    <item column="FIPS"><value><![CDATA[37187]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7857704162598" lon="-76.2173728942871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Tyrrell]]></value></item>
+    <item column="FIPS"><value><![CDATA[37177]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tyrrell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7369899749756" lon="-82.0534782409668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_McDowell]]></value></item>
+    <item column="FIPS"><value><![CDATA[37111]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[McDowell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7112560272217" lon="-79.8011131286621"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Randolph]]></value></item>
+    <item column="FIPS"><value><![CDATA[37151]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Randolph]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6891975402832" lon="-79.2305374145508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Chatham]]></value></item>
+    <item column="FIPS"><value><![CDATA[37037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chatham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.714376449585" lon="-77.9290733337402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Wilson]]></value></item>
+    <item column="FIPS"><value><![CDATA[37195]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wilson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6732788085938" lon="-80.4740142822266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Rowan]]></value></item>
+    <item column="FIPS"><value><![CDATA[37159]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rowan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.5759868621826" lon="-77.4010467529297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Pitt]]></value></item>
+    <item column="FIPS"><value><![CDATA[37147]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pitt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6834411621094" lon="-81.2274589538574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Catawba]]></value></item>
+    <item column="FIPS"><value><![CDATA[37035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Catawba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6172180175781" lon="-82.5259094238281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Buncombe]]></value></item>
+    <item column="FIPS"><value><![CDATA[37021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Buncombe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.5323009490967" lon="-78.387149810791"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Johnston]]></value></item>
+    <item column="FIPS"><value><![CDATA[37101]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Johnston]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.5413093566895" lon="-83.0015068054199"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Haywood]]></value></item>
+    <item column="FIPS"><value><![CDATA[37087]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haywood]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7095413208008" lon="-75.7390937805176"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Dare]]></value></item>
+    <item column="FIPS"><value><![CDATA[37055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dare]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4769725799561" lon="-76.8440284729004"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Beaufort]]></value></item>
+    <item column="FIPS"><value><![CDATA[37013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Beaufort]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4816150665283" lon="-83.5558624267578"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Swain]]></value></item>
+    <item column="FIPS"><value><![CDATA[37173]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Swain]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4968357086182" lon="-77.6522331237793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Greene]]></value></item>
+    <item column="FIPS"><value><![CDATA[37079]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greene]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4645767211914" lon="-79.1684875488281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Lee]]></value></item>
+    <item column="FIPS"><value><![CDATA[37105]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3920917510986" lon="-81.9815216064453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Rutherford]]></value></item>
+    <item column="FIPS"><value><![CDATA[37161]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rutherford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3694248199463" lon="-78.0571174621582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Wayne]]></value></item>
+    <item column="FIPS"><value><![CDATA[37191]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wayne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3844108581543" lon="-78.8776969909668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Harnett]]></value></item>
+    <item column="FIPS"><value><![CDATA[37085]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Harnett]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3641452789307" lon="-81.5383911132813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Cleveland]]></value></item>
+    <item column="FIPS"><value><![CDATA[37045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cleveland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4793567657471" lon="-81.2329216003418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Lincoln]]></value></item>
+    <item column="FIPS"><value><![CDATA[37109]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lincoln]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2568664550781" lon="-83.1419143676758"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Jackson]]></value></item>
+    <item column="FIPS"><value><![CDATA[37099]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jackson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.275203704834" lon="-79.4304428100586"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Moore]]></value></item>
+    <item column="FIPS"><value><![CDATA[37125]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moore]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2555694580078" lon="-80.8025970458984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Mecklenburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[37119]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mecklenburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.347240447998" lon="-80.5372352600098"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Cabarrus]]></value></item>
+    <item column="FIPS"><value><![CDATA[37025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cabarrus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3212585449219" lon="-79.8946876525879"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Montgomery]]></value></item>
+    <item column="FIPS"><value><![CDATA[37123]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montgomery]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3274250030518" lon="-80.2768478393555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Stanly]]></value></item>
+    <item column="FIPS"><value><![CDATA[37167]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stanly]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3223247528076" lon="-82.5009956359863"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Henderson]]></value></item>
+    <item column="FIPS"><value><![CDATA[37089]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Henderson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3387050628662" lon="-83.8056221008301"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Graham]]></value></item>
+    <item column="FIPS"><value><![CDATA[37075]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Graham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.211181640625" lon="-77.6113700866699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Lenoir]]></value></item>
+    <item column="FIPS"><value><![CDATA[37107]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lenoir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.221118927002" lon="-82.8110580444336"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Transylvania]]></value></item>
+    <item column="FIPS"><value><![CDATA[37175]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Transylvania]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2812004089355" lon="-81.185676574707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Gaston]]></value></item>
+    <item column="FIPS"><value><![CDATA[37071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaston]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2906455993652" lon="-82.1612739562988"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Polk]]></value></item>
+    <item column="FIPS"><value><![CDATA[37149]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Polk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.1556835174561" lon="-83.4229049682617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Macon]]></value></item>
+    <item column="FIPS"><value><![CDATA[37113]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Macon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9344348907471" lon="-78.3900756835938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Sampson]]></value></item>
+    <item column="FIPS"><value><![CDATA[37163]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sampson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.1471500396729" lon="-76.7485084533691"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Pamlico]]></value></item>
+    <item column="FIPS"><value><![CDATA[37137]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pamlico]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.1403732299805" lon="-84.0097427368164"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Cherokee]]></value></item>
+    <item column="FIPS"><value><![CDATA[37039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cherokee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.043701171875" lon="-78.8030662536621"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Cumberland]]></value></item>
+    <item column="FIPS"><value><![CDATA[37051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cumberland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.0071067810059" lon="-77.3904647827148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Jones]]></value></item>
+    <item column="FIPS"><value><![CDATA[37103]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jones]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.010290145874" lon="-80.5576438903809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Union]]></value></item>
+    <item column="FIPS"><value><![CDATA[37179]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Union]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.0062217712402" lon="-80.0894927978516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Anson]]></value></item>
+    <item column="FIPS"><value><![CDATA[37007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Anson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.0175457000732" lon="-79.2444839477539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Hoke]]></value></item>
+    <item column="FIPS"><value><![CDATA[37093]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hoke]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3862190246582" lon="-76.1987609863281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Hyde]]></value></item>
+    <item column="FIPS"><value><![CDATA[37095]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hyde]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9487419128418" lon="-77.9253578186035"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Duplin]]></value></item>
+    <item column="FIPS"><value><![CDATA[37061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Duplin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9895286560059" lon="-79.7602691650391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Richmond]]></value></item>
+    <item column="FIPS"><value><![CDATA[37153]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Richmond]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.0685653686523" lon="-83.7507781982422"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Clay]]></value></item>
+    <item column="FIPS"><value><![CDATA[37043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.1266918182373" lon="-77.0498580932617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Craven]]></value></item>
+    <item column="FIPS"><value><![CDATA[37049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Craven]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8357238769531" lon="-79.506965637207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Scotland]]></value></item>
+    <item column="FIPS"><value><![CDATA[37165]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Scotland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7205142974854" lon="-77.4096145629883"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Onslow]]></value></item>
+    <item column="FIPS"><value><![CDATA[37133]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Onslow]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6291980743408" lon="-79.1296463012695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Robeson]]></value></item>
+    <item column="FIPS"><value><![CDATA[37155]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Robeson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8022441864014" lon="-76.7259826660156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Carteret]]></value></item>
+    <item column="FIPS"><value><![CDATA[37031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carteret]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6097640991211" lon="-78.5329704284668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Bladen]]></value></item>
+    <item column="FIPS"><value><![CDATA[37017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bladen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5169887542725" lon="-77.900520324707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Pender]]></value></item>
+    <item column="FIPS"><value><![CDATA[37141]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pender]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2129344940186" lon="-78.6146430969238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Columbus]]></value></item>
+    <item column="FIPS"><value><![CDATA[37047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Columbus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2250022888184" lon="-77.8882255554199"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_New Hanover]]></value></item>
+    <item column="FIPS"><value><![CDATA[37129]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Hanover]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1230583190918" lon="-78.3071212768555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC_Brunswick]]></value></item>
+    <item column="FIPS"><value><![CDATA[37019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brunswick]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8446731567383" lon="-82.4565811157227"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Greenville]]></value></item>
+    <item column="FIPS"><value><![CDATA[45045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greenville]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8877182006836" lon="-81.9637260437012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Spartanburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[45083]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Spartanburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.0107517242432" lon="-81.616382598877"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Cherokee]]></value></item>
+    <item column="FIPS"><value><![CDATA[45021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cherokee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9888572692871" lon="-81.1786346435547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_York]]></value></item>
+    <item column="FIPS"><value><![CDATA[45091]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[York]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8433723449707" lon="-82.7096862792969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Pickens]]></value></item>
+    <item column="FIPS"><value><![CDATA[45077]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pickens]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7573413848877" lon="-80.6601753234863"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Lancaster]]></value></item>
+    <item column="FIPS"><value><![CDATA[45057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lancaster]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7630481719971" lon="-83.0968017578125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Oconee]]></value></item>
+    <item column="FIPS"><value><![CDATA[45073]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oconee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6772041320801" lon="-81.6352996826172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Union]]></value></item>
+    <item column="FIPS"><value><![CDATA[45087]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Union]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6787738800049" lon="-81.1770973205566"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Chester]]></value></item>
+    <item column="FIPS"><value><![CDATA[45023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chester]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5112133026123" lon="-82.6484222412109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Anderson]]></value></item>
+    <item column="FIPS"><value><![CDATA[45007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Anderson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5936031341553" lon="-80.1749649047852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Chesterfield]]></value></item>
+    <item column="FIPS"><value><![CDATA[45025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chesterfield]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5509872436523" lon="-79.6888809204102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Marlboro]]></value></item>
+    <item column="FIPS"><value><![CDATA[45069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marlboro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4897899627686" lon="-81.9762153625488"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Laurens]]></value></item>
+    <item column="FIPS"><value><![CDATA[45059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Laurens]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4216480255127" lon="-79.3554039001465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Dillon]]></value></item>
+    <item column="FIPS"><value><![CDATA[45033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dillon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3385391235352" lon="-80.5763397216797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Kershaw]]></value></item>
+    <item column="FIPS"><value><![CDATA[45055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kershaw]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3701858520508" lon="-81.0949668884277"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Fairfield]]></value></item>
+    <item column="FIPS"><value><![CDATA[45039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fairfield]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.308385848999" lon="-79.9759254455566"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Darlington]]></value></item>
+    <item column="FIPS"><value><![CDATA[45031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Darlington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2931118011475" lon="-81.6230773925781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Newberry]]></value></item>
+    <item column="FIPS"><value><![CDATA[45071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Newberry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2472038269043" lon="-82.4899673461914"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Abbeville]]></value></item>
+    <item column="FIPS"><value><![CDATA[45001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Abbeville]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1770687103271" lon="-82.0982131958008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Greenwood]]></value></item>
+    <item column="FIPS"><value><![CDATA[45047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greenwood]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1607494354248" lon="-80.2323455810547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Lee]]></value></item>
+    <item column="FIPS"><value><![CDATA[45061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.0408725738525" lon="-79.6911468505859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Florence]]></value></item>
+    <item column="FIPS"><value><![CDATA[45041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Florence]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9385166168213" lon="-78.9569892883301"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Horry]]></value></item>
+    <item column="FIPS"><value><![CDATA[45051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Horry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9954261779785" lon="-79.3474082946777"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Marion]]></value></item>
+    <item column="FIPS"><value><![CDATA[45067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marion]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9982376098633" lon="-80.9671173095703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Richland]]></value></item>
+    <item column="FIPS"><value><![CDATA[45079]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Richland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.921329498291" lon="-81.2422103881836"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Lexington]]></value></item>
+    <item column="FIPS"><value><![CDATA[45063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lexington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9949779510498" lon="-81.7384452819824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Saluda]]></value></item>
+    <item column="FIPS"><value><![CDATA[45081]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saluda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9046478271484" lon="-80.2728271484375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Sumter]]></value></item>
+    <item column="FIPS"><value><![CDATA[45085]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sumter]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8348121643066" lon="-82.3184547424316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_McCormick]]></value></item>
+    <item column="FIPS"><value><![CDATA[45065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[McCormick]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7572536468506" lon="-81.9149322509766"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Edgefield]]></value></item>
+    <item column="FIPS"><value><![CDATA[45037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Edgefield]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6929569244385" lon="-80.2088241577148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Clarendon]]></value></item>
+    <item column="FIPS"><value><![CDATA[45027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clarendon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.5923767089844" lon="-79.7081260681152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Williamsburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[45089]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Williamsburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6712417602539" lon="-80.7737236022949"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Calhoun]]></value></item>
+    <item column="FIPS"><value><![CDATA[45017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Calhoun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.5350894927979" lon="-81.6030349731445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Aiken]]></value></item>
+    <item column="FIPS"><value><![CDATA[45003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aiken]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.461519241333" lon="-79.3395843505859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Georgetown]]></value></item>
+    <item column="FIPS"><value><![CDATA[45043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Georgetown]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.4402370452881" lon="-80.794132232666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Orangeburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[45075]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orangeburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.1877536773682" lon="-79.902473449707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Berkeley]]></value></item>
+    <item column="FIPS"><value><![CDATA[45015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berkeley]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2888259887695" lon="-81.4764747619629"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Barnwell]]></value></item>
+    <item column="FIPS"><value><![CDATA[45011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Barnwell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2291831970215" lon="-81.0089530944824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Bamberg]]></value></item>
+    <item column="FIPS"><value><![CDATA[45009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bamberg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.073860168457" lon="-80.4384498596191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Dorchester]]></value></item>
+    <item column="FIPS"><value><![CDATA[45035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dorchester]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.8403587341309" lon="-80.7271537780762"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Colleton]]></value></item>
+    <item column="FIPS"><value><![CDATA[45029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colleton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.9491348266602" lon="-81.3407135009766"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Allendale]]></value></item>
+    <item column="FIPS"><value><![CDATA[45005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Allendale]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.790210723877" lon="-81.1242485046387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Hampton]]></value></item>
+    <item column="FIPS"><value><![CDATA[45049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hampton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.8590717315674" lon="-79.865421295166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Charleston]]></value></item>
+    <item column="FIPS"><value><![CDATA[45019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Charleston]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4094257354736" lon="-81.0482559204102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Jasper]]></value></item>
+    <item column="FIPS"><value><![CDATA[45053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jasper]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.3853340148926" lon="-80.7252960205078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC_Beaufort]]></value></item>
+    <item column="FIPS"><value><![CDATA[45013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Beaufort]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1705856323242" lon="-78.1691398620605"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Winchester]]></value></item>
+    <item column="FIPS"><value><![CDATA[51840]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Winchester]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.0846347808838" lon="-77.643238067627"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Loudoun]]></value></item>
+    <item column="FIPS"><value><![CDATA[51107]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loudoun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1223697662354" lon="-77.9927749633789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Clarke]]></value></item>
+    <item column="FIPS"><value><![CDATA[51043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clarke]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2338218688965" lon="-78.2852630615234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Frederick]]></value></item>
+    <item column="FIPS"><value><![CDATA[51069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Frederick]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8558006286621" lon="-78.5844688415527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Shenandoah]]></value></item>
+    <item column="FIPS"><value><![CDATA[51171]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shenandoah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7444705963135" lon="-77.4874534606934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Manassas City]]></value></item>
+    <item column="FIPS"><value><![CDATA[51683]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manassas City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.899112701416" lon="-78.1963195800781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Warren]]></value></item>
+    <item column="FIPS"><value><![CDATA[51187]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Warren]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7120456695557" lon="-77.8367652893066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Fauquier]]></value></item>
+    <item column="FIPS"><value><![CDATA[51061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fauquier]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.842643737793" lon="-77.2919273376465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Fairfax]]></value></item>
+    <item column="FIPS"><value><![CDATA[51059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fairfax]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8852367401123" lon="-77.1084442138672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Arlington]]></value></item>
+    <item column="FIPS"><value><![CDATA[51013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arlington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8791542053223" lon="-77.1725540161133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Falls Chruch]]></value></item>
+    <item column="FIPS"><value><![CDATA[51610]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Falls Chruch]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8456630706787" lon="-77.3079605102539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Fairfax City]]></value></item>
+    <item column="FIPS"><value><![CDATA[51600]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fairfax City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.6933460235596" lon="-78.1419525146484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Rappahannock]]></value></item>
+    <item column="FIPS"><value><![CDATA[51157]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rappahannock]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.819465637207" lon="-77.0904426574707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Alexandria]]></value></item>
+    <item column="FIPS"><value><![CDATA[51510]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alexandria]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4298229217529" lon="-78.8741035461426"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Harrisonburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[51660]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Harrisonburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.6231117248535" lon="-78.4829521179199"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Page]]></value></item>
+    <item column="FIPS"><value><![CDATA[51139]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Page]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7731170654297" lon="-77.4540557861328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Manassas Park City]]></value></item>
+    <item column="FIPS"><value><![CDATA[51685]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manassas Park City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7213001251221" lon="-77.4742660522461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Prince William]]></value></item>
+    <item column="FIPS"><value><![CDATA[51153]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prince William]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5057373046875" lon="-77.9257888793945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Culpeper]]></value></item>
+    <item column="FIPS"><value><![CDATA[51047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Culpeper]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4285793304443" lon="-78.2741394042969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Madison]]></value></item>
+    <item column="FIPS"><value><![CDATA[51113]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madison]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2856349945068" lon="-77.4677619934082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Fredericksburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[51630]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fredericksburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.3869323730469" lon="-79.5601196289063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Highland]]></value></item>
+    <item column="FIPS"><value><![CDATA[51091]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Highland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0686206817627" lon="-78.8903045654297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Waynesboro]]></value></item>
+    <item column="FIPS"><value><![CDATA[51820]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Waynesboro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.3277988433838" lon="-78.4730834960938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Greene]]></value></item>
+    <item column="FIPS"><value><![CDATA[51079]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greene]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5268077850342" lon="-78.8608055114746"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Rockingham]]></value></item>
+    <item column="FIPS"><value><![CDATA[51165]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rockingham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2589702606201" lon="-78.0394897460938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Orange]]></value></item>
+    <item column="FIPS"><value><![CDATA[51137]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orange]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4195346832275" lon="-77.4626693725586"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Stafford]]></value></item>
+    <item column="FIPS"><value><![CDATA[51179]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stafford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2600650787354" lon="-77.1766738891602"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_King George]]></value></item>
+    <item column="FIPS"><value><![CDATA[51099]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[King George]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1890125274658" lon="-77.6642723083496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Spotsylvania]]></value></item>
+    <item column="FIPS"><value><![CDATA[51177]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Spotsylvania]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1245098114014" lon="-76.8108978271484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Westmoreland]]></value></item>
+    <item column="FIPS"><value><![CDATA[51193]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Westmoreland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0375137329102" lon="-78.4874839782715"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Charlottesville]]></value></item>
+    <item column="FIPS"><value><![CDATA[51540]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Charlottesville]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0555305480957" lon="-79.7488212585449"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Bath]]></value></item>
+    <item column="FIPS"><value><![CDATA[51017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bath]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0138492584229" lon="-77.3607902526855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Caroline]]></value></item>
+    <item column="FIPS"><value><![CDATA[51033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caroline]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1493682861328" lon="-79.0773582458496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Staunton]]></value></item>
+    <item column="FIPS"><value><![CDATA[51790]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Staunton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.949914932251" lon="-76.9254264831543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Essex]]></value></item>
+    <item column="FIPS"><value><![CDATA[51057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Essex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9420566558838" lon="-77.997730255127"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Louisa]]></value></item>
+    <item column="FIPS"><value><![CDATA[51109]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Louisa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9526195526123" lon="-76.7302780151367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Richmond]]></value></item>
+    <item column="FIPS"><value><![CDATA[51159]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Richmond]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1836833953857" lon="-79.1267242431641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Augusta]]></value></item>
+    <item column="FIPS"><value><![CDATA[51015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Augusta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7238063812256" lon="-79.3620414733887"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Buena Vista]]></value></item>
+    <item column="FIPS"><value><![CDATA[51530]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Buena Vista]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0018901824951" lon="-78.5233497619629"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Albemarle]]></value></item>
+    <item column="FIPS"><value><![CDATA[51003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Albemarle]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7880611419678" lon="-78.9174308776855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Nelson]]></value></item>
+    <item column="FIPS"><value><![CDATA[51125]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nelson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7487850189209" lon="-75.5918426513672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Accomack]]></value></item>
+    <item column="FIPS"><value><![CDATA[51001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Accomack]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8627300262451" lon="-76.4457168579102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Northumberland]]></value></item>
+    <item column="FIPS"><value><![CDATA[51133]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northumberland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7755165100098" lon="-77.4632339477539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Hanover]]></value></item>
+    <item column="FIPS"><value><![CDATA[51085]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hanover]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8517036437988" lon="-78.2779350280762"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Fluvanna]]></value></item>
+    <item column="FIPS"><value><![CDATA[51065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fluvanna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7002716064453" lon="-76.9191665649414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_King and Queen]]></value></item>
+    <item column="FIPS"><value><![CDATA[51097]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[King and Queen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7782440185547" lon="-79.994068145752"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Covington]]></value></item>
+    <item column="FIPS"><value><![CDATA[51580]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Covington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7136116027832" lon="-77.0640563964844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_King William]]></value></item>
+    <item column="FIPS"><value><![CDATA[51101]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[King William]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7340068817139" lon="-77.8956184387207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Goochland]]></value></item>
+    <item column="FIPS"><value><![CDATA[51075]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Goochland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8319492340088" lon="-79.8269805908203"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Clifton Forge]]></value></item>
+    <item column="FIPS"><value><![CDATA[51560]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clifton Forge]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7307548522949" lon="-76.4774169921875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Lancaster]]></value></item>
+    <item column="FIPS"><value><![CDATA[51103]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lancaster]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8118171691895" lon="-79.4126396179199"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Rockbridge]]></value></item>
+    <item column="FIPS"><value><![CDATA[51163]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rockbridge]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9752311706543" lon="-80.423885345459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Greenbrier]]></value></item>
+    <item column="FIPS"><value><![CDATA[54025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greenbrier]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.781925201416" lon="-79.4485969543457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Lexington]]></value></item>
+    <item column="FIPS"><value><![CDATA[51678]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lexington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5511169433594" lon="-79.7910842895508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Botetourt]]></value></item>
+    <item column="FIPS"><value><![CDATA[51023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Botetourt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.562255859375" lon="-78.5462608337402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Buckingham]]></value></item>
+    <item column="FIPS"><value><![CDATA[51029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Buckingham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6499519348145" lon="-76.5354499816895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Middlesex]]></value></item>
+    <item column="FIPS"><value><![CDATA[51119]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Middlesex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5201549530029" lon="-78.2780380249023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Cumberland]]></value></item>
+    <item column="FIPS"><value><![CDATA[51049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cumberland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5948295593262" lon="-79.1592903137207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Amherst]]></value></item>
+    <item column="FIPS"><value><![CDATA[51009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amherst]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5227909088135" lon="-77.494213104248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Richmond City]]></value></item>
+    <item column="FIPS"><value><![CDATA[51760]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Richmond City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.555290222168" lon="-77.9042015075684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Powhatan]]></value></item>
+    <item column="FIPS"><value><![CDATA[51145]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Powhatan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4883117675781" lon="-80.2222595214844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Craig]]></value></item>
+    <item column="FIPS"><value><![CDATA[51045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Craig]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5047931671143" lon="-76.9873199462891"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_New Kent]]></value></item>
+    <item column="FIPS"><value><![CDATA[51127]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Kent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3288612365723" lon="-79.5231552124023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Bedford City]]></value></item>
+    <item column="FIPS"><value><![CDATA[51515]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bedford City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5306148529053" lon="-77.4229354858398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Henrico]]></value></item>
+    <item column="FIPS"><value><![CDATA[51087]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Henrico]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4278736114502" lon="-76.5548934936523"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Gloucester]]></value></item>
+    <item column="FIPS"><value><![CDATA[51073]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gloucester]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2657337188721" lon="-77.4088935852051"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Colonial Heights]]></value></item>
+    <item column="FIPS"><value><![CDATA[51570]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colonial Heights]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3789672851563" lon="-78.8061408996582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Appomattox]]></value></item>
+    <item column="FIPS"><value><![CDATA[51011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Appomattox]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3415603637695" lon="-75.9046211242676"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Northampton]]></value></item>
+    <item column="FIPS"><value><![CDATA[51131]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northampton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.285924911499" lon="-82.0138549804688"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Buchanan]]></value></item>
+    <item column="FIPS"><value><![CDATA[51027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Buchanan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.423038482666" lon="-76.3532867431641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Mathews]]></value></item>
+    <item column="FIPS"><value><![CDATA[51115]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mathews]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3400688171387" lon="-77.9460525512695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Amelia]]></value></item>
+    <item column="FIPS"><value><![CDATA[51007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amelia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3632926940918" lon="-77.0773620605469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Charles City]]></value></item>
+    <item column="FIPS"><value><![CDATA[51036]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Charles City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3139553070068" lon="-80.7165145874023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Giles]]></value></item>
+    <item column="FIPS"><value><![CDATA[51071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Giles]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4178256988525" lon="-79.1811714172363"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Lynchburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[51680]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lynchburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2741641998291" lon="-76.7001647949219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Williamsburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[51830]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Williamsburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2275047302246" lon="-79.132568359375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Campbell]]></value></item>
+    <item column="FIPS"><value><![CDATA[51031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Campbell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2913112640381" lon="-80.0699996948242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Salem]]></value></item>
+    <item column="FIPS"><value><![CDATA[51775]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salem]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.238790512085" lon="-78.4630546569824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Prince Edward]]></value></item>
+    <item column="FIPS"><value><![CDATA[51147]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prince Edward]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3208236694336" lon="-76.7553100585938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_James City]]></value></item>
+    <item column="FIPS"><value><![CDATA[51095]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[James City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1275959014893" lon="-80.5648994445801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Radford]]></value></item>
+    <item column="FIPS"><value><![CDATA[51750]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Radford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3143692016602" lon="-79.5193862915039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Bedford]]></value></item>
+    <item column="FIPS"><value><![CDATA[51019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bedford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1379508972168" lon="-81.5647468566895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Tazewell]]></value></item>
+    <item column="FIPS"><value><![CDATA[51185]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tazewell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2941474914551" lon="-77.2908630371094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Hopewell]]></value></item>
+    <item column="FIPS"><value><![CDATA[51670]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hopewell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2721920013428" lon="-79.9524726867676"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Roanoke City]]></value></item>
+    <item column="FIPS"><value><![CDATA[51770]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roanoke City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1606559753418" lon="-77.1884307861328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Prince George]]></value></item>
+    <item column="FIPS"><value><![CDATA[51149]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prince George]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2643184661865" lon="-80.0533981323242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Roanoke]]></value></item>
+    <item column="FIPS"><value><![CDATA[51161]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roanoke]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1342067718506" lon="-81.1535415649414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Bland]]></value></item>
+    <item column="FIPS"><value><![CDATA[51021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1313915252686" lon="-82.3403244018555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Dickenson]]></value></item>
+    <item column="FIPS"><value><![CDATA[51051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dickenson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1407508850098" lon="-78.0265007019043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Nottoway]]></value></item>
+    <item column="FIPS"><value><![CDATA[51135]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nottoway]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3890190124512" lon="-77.562816619873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Chesterfield]]></value></item>
+    <item column="FIPS"><value><![CDATA[51041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chesterfield]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2303428649902" lon="-76.5701293945313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_York]]></value></item>
+    <item column="FIPS"><value><![CDATA[51199]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[York]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.0748291015625" lon="-77.6525077819824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Dinwiddie]]></value></item>
+    <item column="FIPS"><value><![CDATA[51053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dinwiddie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.9774188995361" lon="-78.6828269958496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Charlotte]]></value></item>
+    <item column="FIPS"><value><![CDATA[51037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Charlotte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.0995712280273" lon="-76.9146728515625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Surry]]></value></item>
+    <item column="FIPS"><value><![CDATA[51181]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Surry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2049827575684" lon="-77.3980140686035"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Petersburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[51730]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Petersburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1724910736084" lon="-80.3981285095215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Montgomery]]></value></item>
+    <item column="FIPS"><value><![CDATA[51121]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montgomery]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.0983772277832" lon="-76.5047340393066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Newport News]]></value></item>
+    <item column="FIPS"><value><![CDATA[51700]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Newport News]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.0062007904053" lon="-79.9181785583496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Franklin]]></value></item>
+    <item column="FIPS"><value><![CDATA[51067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.9397792816162" lon="-82.6096000671387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Norton]]></value></item>
+    <item column="FIPS"><value><![CDATA[51720]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1423587799072" lon="-76.3496208190918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Poquoson City]]></value></item>
+    <item column="FIPS"><value><![CDATA[51735]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Poquoson City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.0652236938477" lon="-80.7238502502441"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Pulaski]]></value></item>
+    <item column="FIPS"><value><![CDATA[51155]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pulaski]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.8950748443604" lon="-76.7094955444336"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Isle of Wight]]></value></item>
+    <item column="FIPS"><value><![CDATA[51093]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Isle of Wight]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.9270629882813" lon="-82.0860137939453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Russell]]></value></item>
+    <item column="FIPS"><value><![CDATA[51167]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Russell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.5951671600342" lon="-79.4180107116699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Danville]]></value></item>
+    <item column="FIPS"><value><![CDATA[51590]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Danville]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.9169769287109" lon="-80.3653297424316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Floyd]]></value></item>
+    <item column="FIPS"><value><![CDATA[51063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Floyd]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.9509353637695" lon="-78.2550735473633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Lunenburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[51111]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lunenburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.9103374481201" lon="-77.2854652404785"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Sussex]]></value></item>
+    <item column="FIPS"><value><![CDATA[51183]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sussex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.0490608215332" lon="-76.3642349243164"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Hampton]]></value></item>
+    <item column="FIPS"><value><![CDATA[51650]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hampton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.9151020050049" lon="-81.0580596923828"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Wythe]]></value></item>
+    <item column="FIPS"><value><![CDATA[51197]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wythe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.695894241333" lon="-78.9044456481934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_South Boston]]></value></item>
+    <item column="FIPS"><value><![CDATA[51780]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Boston]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7910747528076" lon="-77.855037689209"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Brunswick]]></value></item>
+    <item column="FIPS"><value><![CDATA[51025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brunswick]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.8255615234375" lon="-81.5442123413086"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Smyth]]></value></item>
+    <item column="FIPS"><value><![CDATA[51173]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Smyth]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6724967956543" lon="-76.9345474243164"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Franklin City]]></value></item>
+    <item column="FIPS"><value><![CDATA[51620]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.8905982971191" lon="-76.2432479858398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Norfolk]]></value></item>
+    <item column="FIPS"><value><![CDATA[51710]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norfolk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.0028209686279" lon="-82.5860977172852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Wise]]></value></item>
+    <item column="FIPS"><value><![CDATA[51195]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wise]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.743745803833" lon="-76.0529670715332"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Virginia Beach]]></value></item>
+    <item column="FIPS"><value><![CDATA[51810]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Virginia Beach]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6551303863525" lon="-80.9159622192383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Galax]]></value></item>
+    <item column="FIPS"><value><![CDATA[51640]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Galax]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6078052520752" lon="-82.186954498291"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Bristol]]></value></item>
+    <item column="FIPS"><value><![CDATA[51520]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bristol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7379016876221" lon="-76.6724662780762"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Suffolk]]></value></item>
+    <item column="FIPS"><value><![CDATA[51800]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suffolk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6915512084961" lon="-77.5418930053711"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Emporia]]></value></item>
+    <item column="FIPS"><value><![CDATA[51595]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Emporia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7178440093994" lon="-78.3866882324219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Mecklenburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[51117]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mecklenburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7408008575439" lon="-83.2206230163574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Lee]]></value></item>
+    <item column="FIPS"><value><![CDATA[51105]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7409019470215" lon="-82.641902923584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Scott]]></value></item>
+    <item column="FIPS"><value><![CDATA[51169]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Scott]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7116527557373" lon="-80.3312034606934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Patrick]]></value></item>
+    <item column="FIPS"><value><![CDATA[51141]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Patrick]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.8463001251221" lon="-76.3573875427246"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Portsmouth]]></value></item>
+    <item column="FIPS"><value><![CDATA[51740]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Portsmouth]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6822090148926" lon="-79.8687591552734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Martinsville]]></value></item>
+    <item column="FIPS"><value><![CDATA[51690]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Martinsville]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7117347717285" lon="-76.2845802307129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Chesapeake]]></value></item>
+    <item column="FIPS"><value><![CDATA[51550]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chesapeake]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7443351745605" lon="-80.7478675842285"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Carroll]]></value></item>
+    <item column="FIPS"><value><![CDATA[51035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carroll]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7242488861084" lon="-77.5419921875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Greensville]]></value></item>
+    <item column="FIPS"><value><![CDATA[51081]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greensville]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.695837020874" lon="-79.8665428161621"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Henry]]></value></item>
+    <item column="FIPS"><value><![CDATA[51089]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Henry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7997379302979" lon="-78.8838119506836"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Halifax]]></value></item>
+    <item column="FIPS"><value><![CDATA[51083]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Halifax]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6853866577148" lon="-81.254077911377"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Grayson]]></value></item>
+    <item column="FIPS"><value><![CDATA[51077]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grayson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7755756378174" lon="-77.1636161804199"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Southampton]]></value></item>
+    <item column="FIPS"><value><![CDATA[51175]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southampton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.8438529968262" lon="-79.408561706543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Pittsylvania]]></value></item>
+    <item column="FIPS"><value><![CDATA[51143]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pittsylvania]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7596416473389" lon="-81.9702224731445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Washington]]></value></item>
+    <item column="FIPS"><value><![CDATA[51191]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.5176486968994" lon="-80.595516204834"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Hancock]]></value></item>
+    <item column="FIPS"><value><![CDATA[54029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hancock]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.2827072143555" lon="-80.6012649536133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Brooke]]></value></item>
+    <item column="FIPS"><value><![CDATA[54009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brooke]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.1084156036377" lon="-80.6318016052246"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Ohio]]></value></item>
+    <item column="FIPS"><value><![CDATA[54069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ohio]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.8771743774414" lon="-80.6976890563965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Marshall]]></value></item>
+    <item column="FIPS"><value><![CDATA[54051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marshall]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5823268890381" lon="-80.0973205566406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Monongalia]]></value></item>
+    <item column="FIPS"><value><![CDATA[54061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Monongalia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.459508895874" lon="-79.6955680847168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Preston]]></value></item>
+    <item column="FIPS"><value><![CDATA[54077]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Preston]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5753479003906" lon="-80.6683082580566"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Wetzel]]></value></item>
+    <item column="FIPS"><value><![CDATA[54103]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wetzel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.542781829834" lon="-78.2541198730469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Morgan]]></value></item>
+    <item column="FIPS"><value><![CDATA[54065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morgan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4426155090332" lon="-78.9733734130859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Mineral]]></value></item>
+    <item column="FIPS"><value><![CDATA[54057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mineral]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5115089416504" lon="-80.221248626709"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Marion]]></value></item>
+    <item column="FIPS"><value><![CDATA[54049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marion]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4441547393799" lon="-78.0276260375977"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Berkeley]]></value></item>
+    <item column="FIPS"><value><![CDATA[54003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berkeley]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4542293548584" lon="-80.8691673278809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Tyler]]></value></item>
+    <item column="FIPS"><value><![CDATA[54095]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tyler]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.3157424926758" lon="-78.6622200012207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Hampshire]]></value></item>
+    <item column="FIPS"><value><![CDATA[54027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hampshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.3150463104248" lon="-77.8806800842285"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Jefferson]]></value></item>
+    <item column="FIPS"><value><![CDATA[54037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jefferson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.3726234436035" lon="-81.1930694580078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Pleasants]]></value></item>
+    <item column="FIPS"><value><![CDATA[54073]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pleasants]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2845287322998" lon="-80.3852386474609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Harrison]]></value></item>
+    <item column="FIPS"><value><![CDATA[54033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Harrison]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2721786499023" lon="-80.7252159118652"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Doddridge]]></value></item>
+    <item column="FIPS"><value><![CDATA[54017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Doddridge]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.3423805236816" lon="-80.0572471618652"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Taylor]]></value></item>
+    <item column="FIPS"><value><![CDATA[54091]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taylor]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2204284667969" lon="-81.5016441345215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Wood]]></value></item>
+    <item column="FIPS"><value><![CDATA[54107]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wood]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2031097412109" lon="-81.0695037841797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Ritchie]]></value></item>
+    <item column="FIPS"><value><![CDATA[54085]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ritchie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.0666542053223" lon="-79.2367057800293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Grant]]></value></item>
+    <item column="FIPS"><value><![CDATA[54023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grant]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1243515014648" lon="-80.022274017334"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Barbour]]></value></item>
+    <item column="FIPS"><value><![CDATA[54001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Barbour]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1142330169678" lon="-79.5702362060547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Tucker]]></value></item>
+    <item column="FIPS"><value><![CDATA[54093]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tucker]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.0015087127686" lon="-78.8149642944336"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Hardy]]></value></item>
+    <item column="FIPS"><value><![CDATA[54031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hardy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.0389747619629" lon="-81.3763580322266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Wirt]]></value></item>
+    <item column="FIPS"><value><![CDATA[54105]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wirt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9451217651367" lon="-80.517147064209"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Lewis]]></value></item>
+    <item column="FIPS"><value><![CDATA[54041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lewis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7517986297607" lon="-79.8145637512207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Randolph]]></value></item>
+    <item column="FIPS"><value><![CDATA[54083]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Randolph]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9007034301758" lon="-80.2327079772949"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Upshur]]></value></item>
+    <item column="FIPS"><value><![CDATA[54097]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Upshur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.915864944458" lon="-80.8317337036133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Gilmer]]></value></item>
+    <item column="FIPS"><value><![CDATA[54021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gilmer]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8253784179688" lon="-81.7105026245117"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Jackson]]></value></item>
+    <item column="FIPS"><value><![CDATA[54035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jackson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8340892791748" lon="-81.1329040527344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Calhoun]]></value></item>
+    <item column="FIPS"><value><![CDATA[54013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Calhoun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7455406188965" lon="-81.9998207092285"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Mason]]></value></item>
+    <item column="FIPS"><value><![CDATA[54053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mason]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.6806259155273" lon="-79.3497161865234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Pendleton]]></value></item>
+    <item column="FIPS"><value><![CDATA[54071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pendleton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7353115081787" lon="-81.316478729248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Roane]]></value></item>
+    <item column="FIPS"><value><![CDATA[54087]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7059497833252" lon="-80.7385292053223"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Braxton]]></value></item>
+    <item column="FIPS"><value><![CDATA[54007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Braxton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4851913452148" lon="-80.4321746826172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Webster]]></value></item>
+    <item column="FIPS"><value><![CDATA[54101]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Webster]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.3873443603516" lon="-79.9987182617188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Pocahontas]]></value></item>
+    <item column="FIPS"><value><![CDATA[54075]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pocahontas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4791603088379" lon="-81.8814239501953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Putnam]]></value></item>
+    <item column="FIPS"><value><![CDATA[54079]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Putnam]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4663238525391" lon="-81.0537490844727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Clay]]></value></item>
+    <item column="FIPS"><value><![CDATA[54015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2961540222168" lon="-81.5568962097168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Kanawha]]></value></item>
+    <item column="FIPS"><value><![CDATA[54039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kanawha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4111824035645" lon="-82.2714576721191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Cabell]]></value></item>
+    <item column="FIPS"><value><![CDATA[54011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cabell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.3212795257568" lon="-80.8372840881348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Nicholas]]></value></item>
+    <item column="FIPS"><value><![CDATA[54067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nicholas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.132453918457" lon="-82.4187812805176"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Wayne]]></value></item>
+    <item column="FIPS"><value><![CDATA[54099]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wayne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1638278961182" lon="-82.0436134338379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Lincoln]]></value></item>
+    <item column="FIPS"><value><![CDATA[54043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lincoln]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7828330993652" lon="-79.9530982971191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA_Alleghany]]></value></item>
+    <item column="FIPS"><value><![CDATA[51005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alleghany]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0438995361328" lon="-81.0665245056152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Fayette]]></value></item>
+    <item column="FIPS"><value><![CDATA[54019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fayette]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9980297088623" lon="-81.7150115966797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Boone]]></value></item>
+    <item column="FIPS"><value><![CDATA[54005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8289165496826" lon="-81.9017486572266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Logan]]></value></item>
+    <item column="FIPS"><value><![CDATA[54045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Logan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7484111785889" lon="-81.2192420959473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Raleigh]]></value></item>
+    <item column="FIPS"><value><![CDATA[54081]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Raleigh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7420902252197" lon="-82.1092872619629"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Mingo]]></value></item>
+    <item column="FIPS"><value><![CDATA[54059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mingo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6526527404785" lon="-80.8690223693848"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Summers]]></value></item>
+    <item column="FIPS"><value><![CDATA[54089]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Summers]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.605167388916" lon="-81.5368843078613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Wyoming]]></value></item>
+    <item column="FIPS"><value><![CDATA[54109]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wyoming]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5471687316895" lon="-80.5400428771973"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Monroe]]></value></item>
+    <item column="FIPS"><value><![CDATA[54063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Monroe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4185104370117" lon="-81.1037940979004"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_Mercer]]></value></item>
+    <item column="FIPS"><value><![CDATA[54055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mercer]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3763561248779" lon="-81.6467971801758"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV_McDowell]]></value></item>
+    <item column="FIPS"><value><![CDATA[54047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[McDowell]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

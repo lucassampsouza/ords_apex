@@ -1,0 +1,64 @@
+/** 
+ * Import Compass
+ */
+/* ==========================================================================
+   Legacy Classes
+   ========================================================================== */
+/* line 11, ../../scss/core/Legacy.scss */
+.error_technical_info {
+  margin: 16px 0;
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  background-color: #F0F0F0;
+  border-radius: 2px;
+}
+/* line 17, ../../scss/core/Legacy.scss */
+.error_technical_info ul {
+  margin: 0 24px;
+}
+/* line 20, ../../scss/core/Legacy.scss */
+.error_technical_info pre {
+  font-size: 10px;
+}
+
+/* line 25, ../../scss/core/Legacy.scss */
+.nodatafound {
+  display: block;
+  font-size: 1.2rem;
+  color: #707070;
+  padding: 8px;
+}
+
+/* line 32, ../../scss/core/Legacy.scss */
+.hierarchical_checkbox ul {
+  list-style: none;
+}
+
+/* line 35, ../../scss/core/Legacy.scss */
+.hierarchical_checkbox input + label {
+  margin-left: 4px;
+}
+
+/* line 38, ../../scss/core/Legacy.scss */
+.hierarchical_checkbox ul ul {
+  margin-bottom: 8px;
+}
+
+/* line 41, ../../scss/core/Legacy.scss */
+.hierarchical_checkbox li:last-child ul {
+  margin-bottom: 0;
+}
+
+/* line 47, ../../scss/core/Legacy.scss */
+#resultsHolder {
+  margin: 8px;
+}
+
+/* line 50, ../../scss/core/Legacy.scss */
+#resultsHolder pre,
+#resultsHolder > .fielddata {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #404040;
+  display: block;
+}

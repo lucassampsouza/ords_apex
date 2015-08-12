@@ -1,0 +1,533 @@
+<map_data>
+ <name>usa_and_canada</name>
+ <defaultProjection>equirectangular</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="CNTRY_NAME" key="false"/>
+ </columns>
+ <bounds left="-178.216522216797" top="83.1138763427734" right="-52.6173629760742" bottom="18.9254779815674"/>
+ <regions>
+  <region>
+   <centroid lat="67.5147132873535" lon="-90.8785972595215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-NNV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nunavut]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.3735618591309" lon="-119.222640991211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-NTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northwest Territories]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.3494644165039" lon="0.779693603515625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-ALK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alaska]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2846145629883" lon="-120.80004119873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-WSH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.438045501709" lon="-93.3565330505371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-MNN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Minnesota]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.5012817382813" lon="-114.132843017578"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-IDA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Idaho]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.7002983093262" lon="-110.026809692383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-MNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montana]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.1524848937988" lon="-126.54125213623"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-BCL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[British Columbia]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.8940696716309" lon="-89.5719261169434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-WIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wisconsin]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.4963836669922" lon="-63.1951522827148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-PEI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prince Edward Island]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.2472858428955" lon="-63.0068092346191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-NSC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nova Scotia]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.3423557281494" lon="-66.4151096343994"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-NBR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Brunswick]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.1247844696045" lon="-120.489616394043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-ORE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oregon]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.2275123596191" lon="-100.244728088379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-SDA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Dakota]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0060043334961" lon="-71.6313514709473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-NHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Hampshire]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.8749656677246" lon="-72.459716796875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-VRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vermont]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.1405220031738" lon="-74.7304153442383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-NJR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Jersey]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.0000343322754" lon="-107.536193847656"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-WYM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wyoming]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.2729587554932" lon="-69.0279808044434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-MAI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maine]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.9387435913086" lon="-93.3895874023438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-IOW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iowa]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4998550415039" lon="-99.6722183227539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-NEB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nebraska]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.1230392456055" lon="-77.6146545410156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-PEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pennsylvania]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.74391746521" lon="-89.2690048217773"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-ILL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Illinois]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.3648319244385" lon="-82.671745300293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-OHI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ohio]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5310173034668" lon="-72.7597885131836"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-CNN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Connecticut]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4960746765137" lon="-117.020694732666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-NEV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nevada]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4996376037598" lon="-111.544441223145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-UTA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Utah]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.7707061767578" lon="-86.4432983398438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-IND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Indiana]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6680183410645" lon="-71.4869232177734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-RHI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rhode Island]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.0680503845215" lon="-71.7191696166992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-MSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Massachusetts]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.765064239502" lon="-75.8151397705078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-NYO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New York]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9997177124023" lon="-105.529983520508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-COL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colorado]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9231986999512" lon="-80.1859588623047"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-WVR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West Virginia]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8093910217285" lon="-85.7699356079102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-KEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kentucky]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.499870300293" lon="-98.321102142334"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-KAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kansas]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1525115966797" lon="-75.4118728637695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-DEL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Delaware]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.244686126709" lon="-79.886100769043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-NCR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Carolina]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8990440368652" lon="-77.0112648010254"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-DOC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[District of Columbia]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1678619384766" lon="-111.92797088623"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-ARZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arizona]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1663017272949" lon="-105.999103546143"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-NME]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Mexico]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3235816955566" lon="-98.7206192016602"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-OKL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oklahoma]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.3045768737793" lon="-92.4446868896484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-MOS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Missouri]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0008506774902" lon="-79.5187225341797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-VRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Virginia]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8253040313721" lon="-77.2629203796387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-MRY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maryland]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.83669090271" lon="-85.9845123291016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-TNN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tennessee]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7554626464844" lon="-92.167366027832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-ARK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arkansas]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6214256286621" lon="-80.961124420166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-SCR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Carolina]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.9740600585938" lon="-83.8271827697754"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-FLA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Florida]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5930519104004" lon="-89.8762664794922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-MSP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mississippi]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6811084747314" lon="-83.2294616699219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-GEO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Georgia]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2676658630371" lon="-119.246417999268"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-CAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[California]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.9700679779053" lon="-91.5263214111328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-LOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Louisiana]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6239852905273" lon="-86.6911125183105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-ALB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alabama]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.1700668334961" lon="-100.098751068115"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-TEX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Texas]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.5823183059692" lon="-157.522872924805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-HAW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hawaii]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.926248550415" lon="-75.156120300293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-PS1]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guantanamo Bay]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.8223533630371" lon="-132.409938812256"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-YTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yukon Territory]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.4995307922363" lon="-95.567310333252"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-MNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manitoba]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.4997177124023" lon="-115.00053024292"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-ALB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alberta]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.4993934631348" lon="-105.684310913086"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-SSK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saskatchewan]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4704093933105" lon="-100.293979644775"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-NDA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Dakota]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.2702026367188" lon="-84.7397232055664"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-ONT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ontario]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.0059623718262" lon="-86.2716522216797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[USA-MCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Michigan]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.4942054748535" lon="-60.1985778808594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-NWF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Newfoundland]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.7769393920898" lon="-68.4310455322266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-QUE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quebec]]></value></item>
+    <item column="CNTRY_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

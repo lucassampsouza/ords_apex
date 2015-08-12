@@ -1,0 +1,59 @@
+<map_data>
+ <name>east_north_central</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="STATE_FIPS" key="true"/>
+  <column name="SUB_REGION" key="true"/>
+ </columns>
+ <bounds left="-92.8851852416992" top="48.1739234924316" right="-80.5202026367188" bottom="36.9867706298828"/>
+ <regions>
+  <region>
+   <centroid lat="44.7208404541016" lon="-89.9263916015625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wisconsin]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[55]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.7708377838135" lon="-86.4444770812988"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Indiana]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[18]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.1936225891113" lon="-82.6661605834961"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ohio]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[39]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.7480659484863" lon="-89.5120086669922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Illinois]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[17]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.9356842041016" lon="-86.4139709472656"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Michigan]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[26]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

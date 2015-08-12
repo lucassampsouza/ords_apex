@@ -1,0 +1,17 @@
+<map_data>
+ <name>hi</name>
+ <defaultProjection>equirectangular</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+ </columns>
+ <bounds left="-175.943801879883" top="27.9284019470215" right="-154.809379" bottom="18.9174661372218"/>
+ <regions>
+  <region>
+   <centroid lat="23.4229340421216" lon="-165.376590439941"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[967]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,47 @@
+<map_data>
+ <name>ri</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-71.8671646118164" top="42.013614654541" right="-71.1176452636719" bottom="41.3226699829102"/>
+ <regions>
+  <region>
+   <centroid lat="41.8675594329834" lon="-71.5590744018555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[44007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Providence]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7257709503174" lon="-71.2986869812012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[44001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bristol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.681131362915" lon="-71.5813026428223"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[44003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5620765686035" lon="-71.2338371276855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[44005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Newport]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4873905181885" lon="-71.6434555053711"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[44009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

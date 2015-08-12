@@ -1,0 +1,96 @@
+<map_data>
+ <name>mauritania</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-17.0755577087402" top="27.2904586791992" right="-4.80611133575439" bottom="14.72532081604"/>
+ <regions>
+  <region>
+   <centroid lat="19.2443161010742" lon="-7.22412633895874"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-HEC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hodh ech Chargui]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.5594425201416" lon="-9.7111120223999"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-HEG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hodh el Gharbi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.4274168014526" lon="-11.8227787017822"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-ASB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Assaba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.9671564102173" lon="-13.120662689209"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-GRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gorgol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.3603267669678" lon="-13.6821670532227"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-BRK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brakna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.5317897796631" lon="-14.7219457626343"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-TRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trarza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.2717533111572" lon="-10.5671539306641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-ADR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Adrar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.1719436645508" lon="-15.2604207992554"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-INC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Inchiri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.3716640472412" lon="-10.2674341201782"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-TGN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tagant]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.3794641494751" lon="-12.1016006469727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-GDM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guidimaka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.6595344543457" lon="-8.97819471359253"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-TZM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tiris Zemmour]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.2975616455078" lon="-16.2955570220947"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MRT-DND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dakhlet Nouadhibou]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

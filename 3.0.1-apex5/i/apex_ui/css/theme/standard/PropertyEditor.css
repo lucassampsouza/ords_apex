@@ -1,0 +1,117 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Property Editor
+   ========================================================================== */
+/* ==========================================================================
+   Property Editor
+   ========================================================================== */
+/* Property Editor Groups
+   ========================================================================== */
+/* line 28, ../../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup,
+.a-PropertyEditor-propertyGroup-header,
+.a-PropertyEditor-propertyGroup-body {
+  border-color: #E0E0E0;
+}
+
+/* line 34, ../../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup {
+  background-color: #FFFFFF;
+}
+
+/* line 37, ../../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup-header .a-Icon {
+  color: #404040;
+}
+
+/* line 40, ../../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup-header {
+  background-color: #F4F4F4;
+  padding: 12px 8px;
+}
+@media only screen and (max-width: 1024px) {
+  /* line 40, ../../../scss/theme/standard/PropertyEditor.scss */
+  .a-PropertyEditor-propertyGroup-header {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  /* line 40, ../../../scss/theme/standard/PropertyEditor.scss */
+  .a-PropertyEditor-propertyGroup-header {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1679px) {
+  /* line 40, ../../../scss/theme/standard/PropertyEditor.scss */
+  .a-PropertyEditor-propertyGroup-header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+/* line 57, ../../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup-title {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  line-height: 16px;
+  font-size: 12px;
+  color: #444444;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: top;
+}
+
+/* line 71, ../../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup-body .a-Property {
+  border-color: #E0E0E0;
+}
+
+/* line 77, ../../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup-header.is-focused {
+  box-shadow: 2px -1px 0 0 #399bea inset, -2px 1px 0 0 #399bea inset, 0 0 0px 1px #399bea, 0 0 1px 2px rgba(57, 155, 234, 0.25) !important;
+  outline: none;
+  z-index: 100;
+  position: relative;
+  border-color: #399BEA;
+}

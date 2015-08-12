@@ -1,0 +1,3375 @@
+* {
+    font-size: 12px;
+}
+
+a {
+    color: #990000;
+}
+
+/* -------------------- Page Structure -------------------- */
+
+body {
+    background: #fff;
+    min-width: 980px;
+    max-width: 1920px;
+    margin: 0 10px 24px;
+    10px;
+    padding: 0;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+#header {
+    height: 60px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#logo {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+#app-logo {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+#app-logo a, #app-logo a span {
+    font: normal 20px/20px Arial, sans-serif;
+    color: #222;
+    text-decoration: none;
+    overflow: visible;
+}
+
+#navbar {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    width: 400px;
+}
+
+.navbar-entry {
+    float: right;
+    padding: 4px;
+}
+
+.navbar-entry a {
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.navbar-entry a:hover {
+    text-decoration: underline;
+}
+
+.app-user {
+    float: right;
+    padding: 5px;
+    font-size: 11px;
+}
+
+#body {
+    height: 1%;
+    width: 100%;
+    min-height: 400px;
+    margin: 4px 0 0 0;
+}
+
+.tbl-body {
+    display: table;
+    margin: 0;
+    width: 100%;
+}
+
+.tbl-main {
+    vertical-align: top;
+}
+
+.tbl-sidebar {
+    vertical-align: top;
+}
+
+#three-col {
+    padding: 0 0 0 210px;
+    overflow: hidden;
+}
+
+#two-col-sb-left {
+    padding: 0 0 0 210px;
+    overflow: hidden;
+}
+
+#two-col {
+    margin: 0;
+    overflow: hidden;
+    padding: 0 200px 0 0;
+}
+
+#two-col-tbl {
+    margin: 0;
+    overflow: hidden;
+}
+
+#sidebar {
+    display: inline;
+    float: right;
+    overflow: hidden;
+    width: 200px;
+    margin: 0 -210px 0 0;
+}
+
+#left-sidebar {
+    display: inline;
+    float: left;
+    margin: 0 0 0 -210px;
+    overflow: hidden;
+    width: 200px;
+}
+
+#main {
+    float: left;
+}
+
+#main-sb-left {
+    float: left;
+    width: 100%;
+}
+
+#login {
+    height: 1%;
+    overflow: hidden;
+    min-height: 400px;
+}
+
+#login-main {
+    width: 640px;
+    margin: 100px auto 0 auto;
+}
+
+#footer {
+    height: 1%;
+    overflow: hidden;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background: transparent url(../images/bg-footer.gif) repeat-x scroll 0 0;
+    border: 1px #aaaaaa solid;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-box-shadow: 1px 1px 1px #aaaaaa;
+    -webkit-box-shadow: 1px 1px 1px #aaaaaa;
+    box-shadow: 1px 1px 1px #aaaaaa;
+}
+
+#footer .content {
+    min-height: 20px;
+    padding: 2px 4px 2px 4px;
+}
+
+#customize {
+    float: left;
+}
+
+.popup-page {
+    min-width: 600px;
+    padding: 6px;
+}
+
+.popup-head {
+    background-color: #808080;
+    border-bottom: 1px solid #000000;
+    padding: 6px;
+}
+
+.popup-body {
+    padding: 6px;
+}
+
+/* -------------------- Messages -------------------- */
+
+#success-message {
+    margin: 4px auto 15px auto;
+    font-size: 11px;
+    color: #333;
+    font-weight: bold;
+    background: #ccffcc;
+    width: 560px;
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 20px;
+    border: 1px #669966 solid;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-box-shadow: 1px 1px 1px #aaaaaa;
+    -webkit-box-shadow: 1px 1px 1px #aaaaaa;
+    box-shadow: 1px 1px 1px #aaaaaa;
+}
+
+#notification-message {
+    margin: 4px auto 15px auto;
+    padding: 5px 5px 5px 20px;
+    font-size: 11px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: top;
+    border: 1px #ffd700 solid;
+    background: #ffffcc;
+    width: 560px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-box-shadow: 1px 1px 1px #aaaaaa;
+    -webkit-box-shadow: 1px 1px 1px #aaaaaa;
+    box-shadow: 1px 1px 1px #aaaaaa;
+}
+
+/* -------------------- Tabs -------------------- */
+
+#tabs {
+    overflow: hidden;
+    margin: -3px 0 0 0;
+    background: url(../images/bg-tabs.gif);
+}
+
+#tabs .frame {
+    background: url(../images/bg-tabs-l.gif) no-repeat 0 0;
+}
+
+#tabs .bg {
+    height: 35px;
+    line-height: 33px;
+    width: 100%;
+    overflow: hidden;
+    background: url(../images/bg-tabs-r.gif) no-repeat 100% 0;
+}
+
+#tabs .tab-holder {
+    margin: 0;
+}
+
+#tabs .first-current {
+    color: #ffffff;
+    font-weight: bold;
+    float: left;
+    padding: 0 10px 0 15px;
+    background: url(../images/bg-tabs-first-current.gif);
+    margin: 0 1px 0 -1px;
+    display: inline;
+}
+
+#tabs .first-current:hover {
+    background: url(../images/bg-tabs-first-hover.gif);
+}
+
+#tabs .first-current a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tabs .first-non-current {
+    color: #ffffff;
+    font-weight: bold;
+    float: left;
+    padding: 0 10px 0 15px;
+    background: url(../images/bg-tabs-first-non-current.gif);
+    margin: 0 1px 0 -1px;
+    display: inline;
+}
+
+#tabs .first-non-current:hover {
+    background: url(../images/bg-tabs-first-hover.gif);
+}
+
+#tabs .first-non-current a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+#tabs .current {
+    color: #ffffff;
+    font-weight: bold;
+    float: left;
+    padding: 0 10px 0 15px;
+    background: url(../images/bg-tabs-current.gif);
+    margin: 0 1px 0 -1px;
+    display: inline;
+}
+
+#tabs .current a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tabs .non-current {
+    color: #dddddd;
+    font-weight: bold;
+    float: left;
+    padding: 0 10px 0 15px;
+    background: url(../images/tab-divider.gif) no-repeat;
+    margin: 0 1px 0 -1px;
+    display: inline;
+}
+
+#tabs .non-current:hover {
+    color: #000000;
+    font-weight: bold;
+    float: left;
+    padding: 0 10px 0 15px;
+    background: url(../images/bg-tabs-hover.gif);
+    margin: 0 1px 0 -1px;
+    display: inline;
+}
+
+#tabs .non-current a {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+#tabs .non-current:hover a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* -------------------- Parent Tabs -------------------- */
+
+#parent-tabs {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+#parent-tabs .tab-holder {
+    margin: 0 0 0 -2px;
+}
+
+#parent-tabs .current {
+    color: #000000;
+    font-weight: bold;
+    float: left;
+    background: url(../images/tab-divider.gif) no-repeat;
+    padding: 0 5px;
+    display: inline;
+}
+
+#parent-tabs .current a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#parent-tabs .noncurrent {
+    color: #808080;
+    font-weight: bold;
+    float: left;
+    background: url(../images/tab-divider.gif) no-repeat;
+    padding: 0 5px;
+    display: inline;
+}
+
+#parent-tabs .noncurrent a {
+    color: #808080;
+    text-decoration: none;
+}
+
+#parent-tabs .noncurrent a:hover {
+    text-decoration: underline;
+}
+
+/* -------------------- Breadcrumbs --------------------  */
+
+#breadcrumbs {
+    overflow: hidden;
+    height: 16px;
+    margin: -1px 6px 10px 6px;
+    background: #efefef;
+    border-right: 1px #aaaaaa solid;
+    border-bottom: 1px #aaaaaa solid;
+    border-left: 1px #aaaaaa solid;
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-box-shadow: 1px 1px 1px #aaaaaa;
+    -webkit-box-shadow: 1px 1px 1px #aaaaaa;
+    box-shadow: 1px 1px 1px #aaaaaa;
+}
+
+.breadcrumb-list {
+    margin: 0;
+    padding: 0;
+    font-size: .917em;
+    list-style: none;
+    color: #333;
+}
+
+.breadcrumb-list li {
+    display: inline;
+    margin: 0 0 0 3px;
+}
+
+.breadcrumb-list a {
+    color: #333;
+    margin: 0 4px 0 0;
+    text-decoration: none;
+}
+
+.breadcrumb-list a:hover {
+    text-decoration: underline;
+}
+
+/* --------------------- Hide Show Region -------------------- */
+
+.hide-show-region {
+    padding: 0 0 4px 0;
+    display: block;
+    clear: both;
+}
+
+.hide-show-region a {
+    text-decoration: none;
+}
+
+.hide-show-region a:hover {
+    text-decoration: none;
+}
+
+.hide-show-region .hide-show-top {
+    width: 100%;
+    float: left;
+}
+
+.hide-show-region .hide-show-title {
+    font-size: 14px;
+    margin: 3px 0 0 0;
+}
+
+.hide-show-region .hide {
+    display: none;
+}
+
+/* -------------------- Borderless Region -------------------- */
+
+.borderless-region {
+    padding: 0 0 4px 0;
+    display: block;
+}
+
+.borderless-region a {
+    text-decoration: none;
+}
+
+.borderless-region a:hover {
+    text-decoration: underline;
+}
+
+.borderless-region .bl-top {
+    width: 100%;
+    float: left;
+}
+
+.borderless-region .bl-title {
+    float: left;
+    font-size: 14px;
+    margin: 3px 0 0 0;
+}
+
+.borderless-region .bl-buttons {
+    float: right;
+}
+
+.borderless-region .bl-body {
+    width: 100%;
+    float: left;
+    padding: 0 0 10px 0;
+}
+
+/* -------------------- Borderless Region -------------------- */
+
+.bracketed-region {
+    padding: 0 0 4px 0;
+    display: block;
+}
+
+.bracketed-region a {
+    text-decoration: none;
+}
+
+.bracketed-region a:hover {
+    text-decoration: none;
+}
+
+.bracketed-region .bk-top {
+    width: 100%;
+    float: left;
+}
+
+.bracketed-region .bk-top .bk-top-r {
+    height: 18px;
+    font-weight: bold;
+    padding: 5px 0px 0px 10px;
+    margin: 0px 10px 5px 0px;
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+}
+
+.bracketed-region .bk-title {
+    float: left;
+    font-size: 14px;
+    margin: 3px 0 0 0;
+}
+
+.bracketed-region .bk-buttons {
+    float: right;
+}
+
+.bracketed-region .bk-body {
+    float: left;
+    padding: 0 10px 0 10px;
+}
+
+.bracketed-region .bk-bottom {
+    width: 100%;
+    float: left;
+}
+
+.bracketed-region .bk-bottom .bk-bottom-r {
+    height: 10px;
+    font-weight: bold;
+    padding: 5px 0px 0px 10px;
+    margin: 0px 10px 5px 0px;
+    border-bottom: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+}
+
+/* -------------------- Rounded Corner Region -------------------- */
+
+.rounded-corner-region {
+    padding: 0 0 4px 0;
+    display: block;
+    clear: left;
+}
+
+.float-left-100pct {
+    float: left;
+    width: 100%;
+}
+
+.rounded-corner-region a {
+    text-decoration: none;
+}
+
+.rounded-corner-region a:hover {
+    text-decoration: none;
+}
+
+.rounded-corner-region .rc-gray-top {
+    width: 100%;
+    float: left;
+    background: url(../images/bg-region-gray-l.gif) no-repeat 0 0;
+}
+
+.rounded-corner-region .rc-gray-top .rc-gray-top-r {
+    height: 23px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 16px 2px 10px;
+    background: url(../images/bg-region-gray-r.gif) no-repeat 100% 0;
+}
+
+.rounded-corner-region .rc-red-top {
+    width: 100%;
+    float: left;
+    background: url(../images/bg-region-red-l.gif) no-repeat 0 0;
+}
+
+.rounded-corner-region .rc-red-top .rc-red-top-r {
+    height: 23px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 16px 2px 10px;
+    background: url(../images/bg-region-red-r.gif) no-repeat 100% 0;
+}
+
+.rounded-corner-region .rc-title {
+    float: left;
+    font-size: 14px;
+    margin: 3px 0 0 0;
+}
+
+.rounded-corner-region .rc-buttons {
+    float: right;
+}
+
+.rounded-corner-region .rc-body {
+    width: 100%;
+    float: left;
+    background: url(../images/bg-region-frame-l.gif) repeat-y scroll 0 0;
+}
+
+.rounded-corner-region .rc-body .rc-body-r {
+    color: #000000;
+    font-size: 14px;
+    padding: 0 12px 0 2px;
+    background: url(../images/bg-region-frame-r.gif) repeat-y scroll 100% 0;
+}
+
+.rounded-corner-region .rc-body .rc-content-main {
+    padding: 4px 10px 4px 10px;
+    height: 1%;
+    background: #f8f8f8 url(../images/bg-main.gif) repeat-x scroll 0 100%;
+    overflow: hidden;
+}
+
+.rounded-corner-region .rc-body .rc-image {
+    display: inline;
+    float: left;
+    padding: 0 10px 0 0;
+    overflow: hidden;
+    width: 140px;
+}
+
+.rounded-corner-region .rc-body .rc-content {
+    display: inline;
+    float: left;
+    padding: 0;
+    overflow: hidden;
+    width: 80%;
+}
+
+.rounded-corner-region .rc-bottom {
+    width: 100%;
+    float: left;
+    height: 10px;
+    overflow: hidden;
+    background: url(../images/bg-region-bottom-l.gif) no-repeat scroll 0 0;
+}
+
+.rounded-corner-region .rc-bottom .rc-bottom-r {
+    color: #000000;
+    height: 5px;
+    overflow: hidden;
+    background: url(../images/bg-region-bottom-r.gif) no-repeat scroll 100% 0;
+}
+
+.wizard-region {
+    float: left;
+    width: 600px;
+}
+
+/* -------------------- Sidebar Region  -------------------- */
+
+.sidebar-region {
+    float: right;
+    width: 200px;
+    display: inline;
+    overflow: hidden;
+}
+
+.sidebar-region h3 {
+    width: 192px;
+    line-height: 22px;
+    height: 22px;
+    margin: 0;
+    padding: 0 0 0 9px;
+    background: url(../images/bg-title-sb.gif);
+    color: #fff;
+}
+
+.sidebar-region h3 {
+    width: 192px;
+    line-height: 22px;
+    height: 22px;
+    margin: 0;
+    padding: 0 0 0 9px;
+    background: url(../images/bg-title-sb.gif);
+    color: #fff;
+}
+
+.sidebar-region .box {
+    background: url(../images/bg-box.gif);
+    margin: 0 0 8px;
+}
+
+.sidebar-region .box .frame {
+    background: url(../images/bg-box-frame.gif) no-repeat 0 100%;
+    width: 200px;
+    overflow: hidden;
+    padding: 4px 4px 6px 6px;
+}
+
+.sidebar-region .content {
+    margin: 0 10px 0 2px;
+}
+
+.sidebar-region-alt {
+    float: right;
+    width: 200px;
+    display: inline;
+    overflow: hidden;
+}
+
+.sidebar-region-alt h3 {
+    width: 192px;
+    line-height: 22px;
+    height: 22px;
+    margin: 0;
+    padding: 0 0 0 9px;
+    background: url(../images/bg-title-sb-alt.gif);
+    color: #fff;
+}
+
+.sidebar-region-alt h3 {
+    width: 192px;
+    line-height: 22px;
+    height: 22px;
+    margin: 0;
+    padding: 0 0 0 9px;
+    background: url(../images/bg-title-sb-alt.gif);
+    color: #fff;
+}
+
+.sidebar-region-alt .box {
+    background: url(../images/bg-box.gif);
+    margin: 0 0 8px;
+}
+
+.sidebar-region-alt .box .frame {
+    background: url(../images/bg-box-frame.gif) no-repeat 0 100%;
+    width: 200px;
+    overflow: hidden;
+    padding: 4px 4px 6px 6px;
+}
+
+.sidebar-region-alt .content {
+    margin: 0 10px 0 2px;
+}
+
+/* -------------------- Breadcrumb Region -------------------- */
+
+.breadcrumb-region {
+    display: block;
+}
+
+/* -------------------- Navigation -------------------- */
+
+.navigation-region {
+    background: url(../images/bg-navigation.gif);
+    margin: 0 0 8px 0;
+    overflow: hidden;
+    width: 183px;
+}
+
+.navigation-region div {
+    overflow: hidden;
+    width: 183px;
+    padding: 0 0 4px;
+    background: url(../images/bg-navigation-b.gif) no-repeat 0 100%;
+}
+
+.navigation-region h3 {
+    margin: 0;
+    width: 183px;
+    height: 26px;
+    background: url(../images/bg-h3.gif);
+    overflow: hidden;
+    line-height: 26px;
+    text-indent: 11px;
+    font-size: .92em;
+    color: #000;
+}
+
+.navigation-region ul {
+    margin: 1px 0 0 3px;
+    padding: 0;
+    list-style: none;
+    width: 177px;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    background: url(../images/bg-ul.gif);
+}
+
+.navigation-region ul li {
+    width: 186px;
+    line-height: 22px;
+    padding: 0 0 1px;
+}
+
+.navigation-region a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 162px;
+    border-bottom: 1px solid #ccc;
+    border-left: 4px solid #ccc;
+    padding: 0 0 0 10px;
+}
+
+.navigation-region .active a, .navigation-region a:hover {
+    border-left: 4px solid #cc0000;
+    background: url(../images/bg-nav.gif) repeat-x 0 0;
+}
+
+.navigation-region ul .active ul {
+    margin: 0;
+    padding: 1px 0 0;
+    list-style: none;
+    border: none;
+}
+
+.navigation-region ul .active ul li {
+    padding: 0;
+}
+
+.navigation-region ul .active ul a {
+    background: none;
+    border-left: 4px solid #a3a3a3;
+    background: #f2f2f2;
+}
+
+.navigation-region ul .active ul .active a, .navigation-region ul .active ul a:hover {
+    background: #f2f2f2;
+    color: #f00;
+}
+
+/* -------------------- Tabbed Navigation List -------------------- */
+
+.tabbed-navigation-list {
+    margin: 0 0 10px 0;
+    padding: 0;
+    overflow: hidden;
+    background: url(../images/bg-tabset.gif) repeat-x 0 100%;
+    list-style: none;
+    width: 100%;
+    line-height: 22px;
+}
+
+.tabbed-navigation-list li {
+    float: left;
+    margin: 0 2px 0 0;
+}
+
+.tabbed-navigation-list li a {
+    float: left;
+    background: url(../images/tab-l.gif) no-repeat 0 0;
+    text-decoration: none;
+}
+
+.tabbed-navigation-list li span {
+    float: left;
+    padding: 0 15px 0 14px;
+    cursor: pointer;
+    background: url(../images/tab-r.gif) no-repeat 100% 0;
+}
+
+.tabbed-navigation-list li.active a,.tabbed-navigation-list li a:hover {
+    background: url(../images/tab-l-a.gif) no-repeat 0 0;
+}
+
+.tabbed-navigation-list li.active span,.tabbed-navigation-list li a:hover span {
+    background: url(../images/tab-r-a.gif) no-repeat 100% 0;
+}
+
+/* -------------------- Button List -------------------- */
+
+.button-list {
+    float: left;
+    display: block;
+}
+
+/* -------------------- Images Lists -------------------- */
+
+.horizontal-images-list {
+    float: left;
+    display: block;
+}
+
+.horizontal-images-list .list-item {
+    float: left;
+    display: inline;
+    min-width: 80px;
+    padding: 0 4px 0 4px;
+}
+
+.horizontal-images-list .list-item-current {
+    float: left;
+    display: inline;
+    min-width: 80px;
+    padding: 0 4px 0 4px;
+}
+
+.horizontal-images-list .list-item-image {
+    padding: 2px;
+    text-align: center;
+}
+
+.horizontal-images-list .list-item-label {
+    padding: 2px;
+    text-align: center;
+}
+
+.vertical-images-list {
+    float: left;
+    display: block;
+}
+
+.vertical-images-list .list-item {
+    float: left;
+    display: block;
+    clear: both;
+    min-width: 120px;
+    padding: 4px 0 4px 0;
+}
+
+.vertical-images-list .list-item-current {
+    float: left;
+    display: block;
+    clear: both;
+    min-width: 120px;
+    padding: 4px 0 4px 0;
+}
+
+.vertical-images-list .list-item-image {
+    float: left;
+    display: inline;
+    padding: 2px;
+    text-align: center;
+}
+
+.vertical-images-list .list-item-label {
+    float: left;
+    display: inline;
+    padding: 2px;
+    margin: 10px 0 10px 0;
+}
+
+.list-item-current a {
+    font-weight: bold;
+    border-bottom: 4px solid #cc0000;
+}
+
+.list-item a:hover {
+    text-decoration: underline;
+}
+
+/* -------------------- Horizontal Links List -------------------- */
+
+.horizontal-links-list {
+    float: left;
+    display: block;
+}
+
+.horizontal-links-list a {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+    text-decoration: underline;
+}
+
+.horizontal-links-list a.current {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* -------------------- Vertical Lists -------------------- */
+
+.vertical-ordered-List {
+
+}
+
+.vertical-ordered-List .current {
+    font-weight: bold;
+}
+
+.vertical-unordered-list-without-bullets {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px
+}
+
+.vertical-unordered-list-without-bullets .current {
+    font-weight: bold;
+}
+
+.vertical-unordered-list-with-bullets {
+
+}
+
+.vertical-unordered-list-with-bullets .current {
+    font-weight: bold;
+}
+
+.vertical-sidebar-list {
+
+}
+
+.vertical-sidebar-list.current {
+    font-weight: bold;
+}
+
+/* -------------------- Wizard Progress List -------------------- */
+
+.wizard-progress-list {
+    list-style-type: none;
+    width: 180px;
+}
+
+.wizard-progress-list ul {
+    margin: 2px;
+}
+
+.wizard-progress-list li {
+    text-align: center;
+    background: url(../images/bg-progress-bar-non-current.gif) no-repeat center;
+    background-position: left;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px 4px 8px 6px;
+    margin: 0 4px 0 8px;
+}
+
+.wizard-progress-list li.current {
+    text-align: center;
+    background: url(../images/bg-progress-bar-current.gif) no-repeat center;
+    background-position: left;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px 4px 8px 6px;
+    margin: 0 4px 0 8px;
+    color: #ffffff;
+}
+
+.wizard-progress-list li.progress-indicator {
+    text-align: center;
+    background: url(../images/bg-progress-next.gif) no-repeat center;
+    list-style-type: none;
+    padding: 2px 0 2px 0;
+}
+
+.wizard-progress-list a {
+    text-decoration: none;
+}
+
+.wizard-progress-list a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal Progress List */
+
+div.horizontal-progres-list {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+div.horizontal-progres-list ul {
+    margin: 0 0 10px 0;
+    height: 50px;
+    padding: 0;
+    clear: left;
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+div.horizontal-progres-list ul li {
+    float: left;
+    display: block;
+    position: relative;
+    right: 50%;
+    background: url(../images/horizontal-progress.png) 0 -150px no-repeat;
+}
+
+div.horizontal-progres-list ul li span {
+    display: block;
+    float: left;
+    padding: 10px 5px 27px 5px;
+    font: normal 13px/13px Arial, sans-serif;
+    color: #333;
+    background-image: url(../images/horizontal-progress.png);
+    background-repeat: no-repeat;
+    white-space: nowrap;
+    text-align: center;
+    min-width: 80px;
+}
+
+div.horizontal-progres-list ul li.current span,
+div.horizontal-progres-list ul li.first-current span,
+div.horizontal-progres-list ul li.last-current span {
+    color: #000;
+    font-weight: bold;
+    background-position: 50% -50px;
+}
+
+div.horizontal-progres-list ul li.non-current span,
+div.horizontal-progres-list ul li.first-non-current span,
+div.horizontal-progres-list ul li.last-non-current span {
+    background-position: 50% 0;
+}
+
+div.horizontal-progres-list ul li.last-non-current,
+div.horizontal-progres-list ul li.last-current {
+    background: url(../images/horizontal-progress.png) 50% -200px no-repeat;
+}
+
+div.horizontal-progres-list ul li.first-non-current,
+div.horizontal-progres-list ul li.first-current {
+    background: url(../images/horizontal-progress.png) 50% -100px no-repeat;
+}
+
+/* -------------------- Buttons -------------------- */
+
+button {
+    border: 0;
+    cursor: pointer;
+    font-weight: normal;
+    padding: 0 10px 0 0;
+    text-align: center;
+}
+
+button span {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    font-size: 13px;
+    padding: 0 4px 0 15px;
+}
+
+button.button-gray {
+    background: url(../images/bt-gray-r.gif) right no-repeat;
+}
+
+button.button-gray span {
+    height: 20px;
+    line-height: 20px;
+    background: url(../images/bt-gray-l.gif) left no-repeat;
+    color: #4f4f4f;
+}
+
+button.button-alt1 {
+    background: url(../images/bt-alt1-r.gif) right no-repeat;
+}
+
+button.button-alt1 span {
+    height: 20px;
+    line-height: 20px;
+    background: url(../images/bt-alt1-l.gif) left no-repeat;
+    color: #ffffff;
+}
+
+button.button-alt2 {
+    background: url(../images/bt-alt2-r.gif) right no-repeat;
+    padding: 0 5px 0 0;
+}
+
+button.button-alt2 span {
+    height: 16px;
+    line-height: 16px;
+    font-size: 11px;
+    padding: 0 2px 0 10px;
+    background: url(../images/bt-alt2-l.gif) left no-repeat;
+    color: #ffffff;
+}
+
+button.button-alt3 {
+    background: url(../images/bt-alt3-r.gif) right no-repeat;
+}
+
+button.button-alt3 span {
+    height: 20px;
+    line-height: 20px;
+    background: url(../images/bt-alt3-l.gif) left no-repeat;
+    color: #ffffff;
+}
+
+/* -------------------- Labels --------------------  */
+
+.nolabel {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.optional {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.optional-w-help {
+    cursor: help;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+a.optional-w-help {
+    text-decoration: underline;
+}
+
+.required {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.required-w-help {
+    cursor: help;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+a.required-w-help {
+    text-decoration: underline;
+}
+
+/* -------------------- Reports -------------------- */
+
+.report-holder {
+    margin: 4px;
+}
+
+.report-standard-alternatingrowcolors {
+    empty-cells: show;
+    border: 1px solid #aaaaaa;
+    border-bottom: none;
+}
+
+.report-standard-alternatingrowcolors th.header {
+    color: #ffffff;
+    background-color: #cccccc;
+    padding: 4px 10px;
+    border-bottom: 1px solid #aaaaaa;
+    background-image: url(../images/report_bg.gif);
+    background-repeat: repeat-x;
+}
+
+.report-standard-alternatingrowcolors th.header a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.report-standard-alternatingrowcolors td.data {
+    padding: 4px 10px;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.report-standard-alternatingrowcolors td.dataalt {
+    background-color: #e0e0e0;
+    padding: 4px 10px;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.report-standard {
+    empty-cells: show;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+}
+
+.report-standard th.header {
+    color: #ffffff;
+    background-color: #cccccc;
+    padding: 4px 10px;
+    border-bottom: 1px solid #cccccc;
+    background-image: url(../images/report_bg.gif);
+    background-repeat: repeat-x;
+}
+
+.report-standard th.header a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.report-standard td.data {
+    background-color: #f0f0f0;
+    padding: 4px 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.report-borderless {
+    empty-cells: show;
+    border-bottom: none;
+}
+
+.report-borderless th.header {
+    color: #ffffff;
+    background-color: #f0f0f0;
+    padding: 4px 10px;
+    background-image: url(../images/report_bg.gif);
+    background-repeat: repeat-x;
+}
+
+.report-borderless th.header a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.report-borderless td.data {
+    padding: 4px 10px;
+}
+
+a.pagination {
+    display: block;
+    vertical-align: middle;
+    padding: 2px;
+}
+
+a.pagination img {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.fixed-header-report table {
+    empty-cells: show;
+    border: 1px solid #cccccc;
+}
+
+.fixed-header-report table tbody {
+    display: block;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.fixed-header-report table thead tr {
+    background-color: #cccccc;
+    background-image: url(../images/report_bg.gif);
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #cccccc;
+    display: block;
+}
+
+.fixed-header-report table th.header {
+    color: #ffffff;
+    padding: 4px 10px;
+}
+
+.fixed-header-report table th.header a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.fixed-header-report table td.data {
+    background-color: #f0f0f0;
+    padding: 4px 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.fixed-header-report table td.data-alt {
+    background-color: #ffffff;
+    padding: 4px 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.fixed-header-report table p {
+    overflow: hidden;
+    margin: 0px;
+}
+
+
+
+/* -------------------- Small Calendar -------------------- */
+
+.small-calendar-holder {
+
+}
+
+.small-calendar-holder .month-title {
+    text-align: center;
+    font-size: 13px;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.small-calendar {
+    width: 250px;
+    border: 1px solid #aaaaaa;
+}
+
+.small-calendar .day-of-week {
+    height: 14px;
+    background-color: #cc0000;
+    color: #ffffff;
+}
+
+.small-calendar td {
+    height: 14%;
+    width: 14%;
+    padding: 2px;
+    border: 1px solid #aaaaaa;
+    background-color: #ffffff;
+}
+
+.small-calendar .day-title {
+    font-weight: bold;
+    text-align: right;
+    text-decoration: none;
+}
+
+.small-calendar .day {
+    vertical-align: top;
+}
+
+.small-calendar .non-day-title {
+    text-align: right;
+    color: #CCCCCC;
+    text-align: right;
+    text-decoration: none;
+}
+
+.small-calendar .non-day {
+    border: 1px solid #CCCCCC;
+}
+
+.small-calendar .weekend-day-title {
+    text-align: right;
+    color: #808080;
+    text-align: right;
+    text-decoration: none;
+}
+
+.small-calendar .weekend-day {
+
+}
+
+.small-calendar .today {
+    vertical-align: top;
+    vertical-align: top;
+    border: 1px solid #cc0000;
+}
+
+/**/
+
+.CalendarHolder {
+    width: 100%;
+}
+
+.CalendarHolder .MonthTitle {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: #FF0000;
+}
+
+.Calendar {
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    width: 100%;
+}
+
+.Calendar .DayOfWeek {
+    color: #000000;
+    padding: 3px;
+    background-color: #DDDDDD;
+    border-top: 1px solid #666666;
+    border-left: 1px solid #666666;
+}
+
+.Calendar td {
+    width: 75px;
+    height: 75px;
+    width: 14%;
+    border-top: 1px solid #666666;
+    border-left: 1px solid #666666;
+}
+
+.Calendar .DayTitle {
+    padding: 2px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    border: 1px solid #666666;
+    border-right: none;
+    border-top: none;
+    background-color: #dddddd
+}
+
+.Calendar .Day {
+    background-color: #FFFFFF;
+    vertical-align: top;
+}
+
+.Calendar .NonDayTitle {
+    text-align: right;
+    color: #AAAAAA;
+}
+
+.Calendar .NonDay {
+    background-color: #EEEEEE;
+}
+
+.Calendar .WeekendDayTitle {
+    padding: 2px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    border: 1px solid #666666;
+    border-right: none;
+    border-top: none;
+    text-align: right;
+    color: #404040;
+    background-color: #dddddd
+}
+
+.Calendar .WeekendDay {
+
+}
+
+.Calendar .Today {
+    vertical-align: top;
+    background-color: #ffcccc;
+}
+
+.Calendar .Today .DayTitle {
+    background-color: #FFFFFF
+}
+
+/* custom calendar */
+
+.cstCalendarHolder {
+    width: 600px;
+}
+
+.cstCalendarHolder .MonthTitle {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: #FF0000;
+}
+
+.cstCalendar {
+    border: 1px solid #666666;
+    width: 100%;
+}
+
+.cstCalendar .DayOfWeek {
+    color: #000000;
+    padding: 3px;
+    background-color: #DDDDDD;
+    border-right: 1px solid #666666;
+}
+
+.cstCalendar td {
+    width: 75px;
+    height: 75px;
+    width: 14%;
+    border: 1px solid #666666;
+}
+
+.cstCalendar .DayTitle {
+    padding: 2px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    border: 2px solid #666666;
+    border-right: none;
+    border-top: none;
+}
+
+.cstCalendar .Day {
+    vertical-align: top;
+}
+
+.cstCalendar .NonDayTitle {
+    text-align: right;
+    color: #CCCCCC;
+}
+
+.cstCalendar .NonDay {
+    background-color: #EEEEEE;
+}
+
+.cstCalendar .WeekendDayTitle {
+    padding: 2px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    border: 2px solid #666666;
+    border-right: none;
+    border-top: none;
+    text-align: right;
+    color: #CCCCCC;
+}
+
+.cstCalendar .WeekendDay {
+
+}
+
+.cstCalendar .Today {
+    vertical-align: top;
+    border: #FF0000 2px solid;
+}
+
+.cstCalendar .Today .DayTitle {
+    background-color: #FFFFFF
+}
+
+/* Week Calendar */
+
+.WeekCalendarHolder {
+    width: 600px;
+}
+
+.WeekCalendarHolder .MonthTitle {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: #FF0000;
+}
+
+.WeekCalendar {
+    border-left: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    width: 100%;
+    empty-cells: show;
+}
+
+.WeekCalendar .DayOfWeek {
+    color: #000000;
+    background-color: #DDDDDD;
+}
+
+.WeekCalendar td,.WeekCalendar th {
+    padding: 3px;
+    height: 40px;
+    width: 14%;
+    border-right: 1px solid #666;
+    border-top: 1px solid #666;
+}
+
+.WeekCalendar .DayTitle {
+    padding: 0px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    border: 0px solid #666666;
+    border-right: none;
+    border-top: none;
+}
+
+.WeekCalendar .Day {
+    vertical-align: top;
+}
+
+.WeekCalendar .NonDayTitle {
+    text-align: right;
+    color: #CCCCCC;
+}
+
+.WeekCalendar .NonDay {
+    background-color: #EEEEEE;
+}
+
+.WeekCalendar .WeekendDayTitle {
+    padding: 2px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    border: 2px solid #666666;
+    border-right: none;
+    border-top: none;
+    text-align: right;
+    color: #CCCCCC;
+}
+
+.WeekCalendar .Today {
+    vertical-align: top;
+    background-color: #ffcccc;
+}
+
+.WeekCalendar .Today .DayTitle {
+    background-color: #FFFFFF
+}
+
+.WeekCalendar .Hour {
+    width: 40px;
+    height: 40px;
+    background-color: #DDDDDD;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.WeekCalendar .HourTitle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #666666;
+    background-color: #DDDDDD;
+}
+
+/* custom calendar */
+
+.cstWeekCalendarHolder {
+    width: 600px;
+}
+
+.cstWeekCalendarHolder .MonthTitle {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: #FF0000;
+}
+
+.cstWeekCalendar {
+    border-left: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    width: 100%;
+    empty-cells: show;
+}
+
+.cstWeekCalendar .DayOfWeek {
+    color: #000000;
+    background-color: #DDDDDD;
+}
+
+.cstWeekCalendar td,.cstWeekCalendar th {
+    padding: 3px;
+    height: 40px;
+    width: 14%;
+    border-right: 1px solid #666;
+    border-top: 1px solid #666;
+}
+
+.cstWeekCalendar .DayTitle {
+    padding: 0px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    border: 0px solid #666666;
+    border-right: none;
+    border-top: none;
+}
+
+.cstWeekCalendar .Day {
+    vertical-align: top;
+}
+
+.cstWeekCalendar .NonDayTitle {
+    text-align: right;
+    color: #CCCCCC;
+}
+
+.cstWeekCalendar .NonDay {
+    background-color: #EEEEEE;
+}
+
+.cstWeekCalendar .WeekendDayTitle {
+    padding: 2px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    border: 2px solid #666666;
+    border-right: none;
+    border-top: none;
+    text-align: right;
+    color: #CCCCCC;
+}
+
+.cstWeekCalendar .Today {
+    vertical-align: top;
+    border: #FF0000 1px solid;
+}
+
+.cstWeekCalendar .Today .DayTitle {
+    background-color: #FFFFFF
+}
+
+.cstWeekCalendar .Hour {
+    width: 40px;
+    height: 40px;
+    background-color: #DDDDDD;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.cstWeekCalendar .HourTitle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #666666;
+    background-color: #DDDDDD;
+}
+
+/* Day Calendar */
+
+.DayCalendarHolder {
+    width: 600px;
+}
+
+.DayCalendarHolder .MonthTitle {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: #FF0000;
+}
+
+.DayCalendar {
+    border-top: 1px solid #666666;
+    border-left: 1px solid #666666;
+    width: 100%;
+    empty-cells: show;
+}
+
+.DayCalendar .DayOfWeek {
+    color: #000000;
+    padding: 3px;
+    background-color: #DDDDDD;
+    border-right: 1px solid #666666;
+}
+
+.DayCalendar td,.DayCalendar th {
+    height: 40px;
+    border-bottom: 1px solid #666;
+    border-right: 1px solid #666;
+}
+
+.DayCalendar .DayTitle {
+    padding: 0px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    border: 0px solid #666666;
+    border-right: none;
+    border-top: none;
+}
+
+.DayCalendar .Day {
+    vertical-align: top;
+}
+
+.DayCalendar .Today {
+    vertical-align: top;
+    background-color: #ffcccc;
+}
+
+.DayCalendar .Today .DayTitle {
+    background-color: #FFFFFF
+}
+
+.DayCalendar .Hour {
+    width: 40px;
+    height: 40px;
+    background-color: #DDDDDD;
+}
+
+.DayCalendar .HourTitle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #666666;
+    background-color: #DDDDDD;
+}
+
+/**/
+
+.CalendarAlternative1Holder {
+
+}
+
+.CalendarAlternative1Holder .MonthTitle {
+    text-align: center;
+    font-size: 15px;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.CalendarAlternative1 {
+
+}
+
+.CalendarAlternative1 .DayOfWeek {
+    padding: 3px;
+    background-color: #cc0000;
+    color: #FFFFFF;
+}
+
+.CalendarAlternative1 tr {
+
+}
+
+.CalendarAlternative1 td {
+    padding: 3px;
+    margin: 2px;
+    border: 1px solid #aaaaaa;
+    width: 100px;
+    height: 100px;
+}
+
+.CalendarAlternative1 .DayTitle {
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    padding: 2px;
+}
+
+.CalendarAlternative1 .Day {
+    vertical-align: top;
+    ;background-color: #ffffff
+}
+
+.CalendarAlternative1 .NonDayTitle {
+    text-align: right;
+    color: #999999;
+    float: right;
+    font-weight: bold;
+}
+
+.CalendarAlternative1 .NonDay {
+    background-color: #FFEEEE
+}
+
+.CalendarAlternative1 .WeekendDayTitle {
+    text-align: right;
+    color: #999999;
+    float: right;
+    font-weight: bold;
+}
+
+.CalendarAlternative1 .WeekendDay {
+
+}
+
+.CalendarAlternative1 .Today {
+    border: 1px solid #999999;
+    vertical-align: top;
+    vertical-align: top;
+    background-color: #ffcccc;
+}
+
+.CalendarAlternative1 .Today .DayTitle {
+    background-color: #FFFFFF;
+}
+
+/* Alternate Week Calendar */
+
+.WeekCalendarAlternative1Holder {
+
+}
+
+.WeekCalendarAlternative1Holder .MonthTitle {
+    text-align: center;
+    font-size: 15px;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.WeekCalendarAlternative1 {
+
+}
+
+.WeekCalendarAlternative1 .DayOfWeek {
+    padding: 3px;
+    background-color: #cc0000;
+    color: #FFFFFF;
+}
+
+.WeekCalendarAlternative1 tr {
+
+}
+
+.WeekCalendarAlternative1 td {
+    padding: 3px;
+    margin: 2px;
+    border: 1px solid #aaaaaa;
+    width: 100px;
+}
+
+.WeekCalendarAlternative1 .DayTitle {
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.WeekCalendarAlternative1 .Day {
+    vertical-align: top;
+}
+
+.WeekCalendarAlternative1 .NonDayTitle {
+    text-align: right;
+    color: #999999;
+    float: right;
+    font-weight: bold;
+}
+
+.WeekCalendarAlternative1 .NonDay {
+    background-color: #FFEEEE
+}
+
+.WeekCalendarAlternative1 .WeekendDayTitle {
+    text-align: right;
+    color: #999999;
+    float: right;
+    font-weight: bold;
+}
+
+.WeekCalendarAlternative1 .WeekendDay {
+
+}
+
+.WeekCalendarAlternative1 .Today {
+    border: 1px solid #999999;
+    vertical-align: top;
+    vertical-align: top;
+    background-color: #ffcccc;
+}
+
+.WeekCalendarAlternative1 .Today .DayTitle {
+    background-color: #FFFFFF;
+}
+
+.WeekCalendarAlternative1 .Hour {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    background-color: #aaaaaa;
+    color: #FFFFFF;
+}
+
+.WeekCalendarAlternative1 .HourTitle {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    background-color: #cc0000;
+    color: #FFFFFF;
+}
+
+/* alternate Day Calendar */
+
+.DayCalendarAlternative1Holder {
+
+}
+
+.DayCalendarAlternative1Holder .MonthTitle {
+    text-align: center;
+    font-size: 15px;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.DayCalendarAlternative1 {
+
+}
+
+.DayCalendarAlternative1 .DayOfWeek {
+    padding: 3px;
+    background-color: #aaaaaa;
+    color: #FFFFFF;
+    background: #cc0000;
+}
+
+.DayCalendarAlternative1 tr {
+    padding: 3px;
+    margin: 2px;
+    border: 1px solid #aaaaaa;
+    width: 500px;
+}
+
+.DayCalendarAlternative1 td {
+    padding: 3px;
+    margin: 2px;
+    border: 1px solid #aaaaaa;
+    width: 500px;
+}
+
+.DayCalendarAlternative1 .DayTitle {
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.DayCalendarAlternative1 .Day {
+    vertical-align: top;
+    background-color: #ffffff;
+}
+
+.DayCalendarAlternative1 .Today {
+    border: 1px solid #999999;
+    vertical-align: top;
+    vertical-align: top;
+    background-color: #ffcccc;
+}
+
+.DayCalendarAlternative1 .Today .DayTitle {
+    background-color: #FFFFFF;
+}
+
+.DayCalendarAlternative1 .Hour {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    background-color: #aaaaaa;
+    color: #FFFFFF;
+}
+
+.DayCalendarAlternative1 .HourTitle {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+/**/
+
+.SmallCalendarHolder {
+
+}
+
+.SmallCalendarHolder .MonthTitle {
+    text-align: center;
+    font-size: 13px;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.SmallCalendar {
+    width: 250px;
+    border: 1px solid #CCCCCC;
+}
+
+.SmallCalendar .DayOfWeek {
+    height: 14px;
+}
+
+.SmallCalendar td {
+    height: 14%;
+    width: 14%;
+    padding: 2px;
+    border: 1px solid #CCCCCC;
+}
+
+.SmallCalendar .DayTitle {
+    font-weight: bold;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.SmallCalendar .Day {
+    vertical-align: top;
+}
+
+.SmallCalendar .NonDayTitle {
+    text-align: right;
+    color: #CCCCCC;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.SmallCalendar .NonDay {
+    border: 1px dotted #CCCCCC;
+}
+
+.SmallCalendar .WeekendDayTitle {
+    text-align: right;
+    color: #CCCCCC;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.SmallCalendar .WeekendDay {
+
+}
+
+.SmallCalendar .Today {
+    vertical-align: top;
+    vertical-align: top;
+    border: 1px solid #FF0000;
+}
+
+/* Small Week Calendar */
+
+.SmallWeekCalendarHolder {
+
+}
+
+.SmallWeekCalendarHolder .MonthTitle {
+    text-align: center;
+    font-size: 13px;
+    color: #cc00000;
+    font-weight: bold;
+}
+
+.SmallWeekCalendar {
+    width: 250px;
+    border: 1px solid #aaaaaa;
+    empty-cells: show;
+}
+
+.SmallWeekCalendar .DayOfWeek {
+    height: 14px;
+    border: 1px solid #aaaaaa;
+    background-color: #cc0000;
+    color: #ffffff;
+    min-width: 40px;
+}
+
+.SmallWeekCalendar td {
+    height: 14%;
+    width: 14%;
+    padding: 2px;
+    border: 1px solid #CCCCCC;
+    background-color: #ffffff;
+}
+
+.SmallWeekCalendar .DayTitle {
+    font-weight: bold;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.SmallWeekCalendar .Day {
+    vertical-align: top;
+}
+
+.SmallWeekCalendar .WeekendDayTitle {
+    text-align: right;
+    color: #CCCCCC;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.SmallWeekCalendar .WeekendDay {
+
+}
+
+.SmallWeekCalendar .Today {
+    vertical-align: top;
+    vertical-align: top;
+    border: 1px solid #FF0000;
+}
+
+.SmallWeekCalendar .Hour {
+    border: 1px solid #aaaaaa;
+    background-color: #aaaaaa;
+    color: #ffffff;
+}
+
+.SmallWeekCalendar .HourTitle {
+    font-size: 8px;
+    width: 5%;
+    color: #000000;
+}
+
+/* Small Day Calendar */
+
+.SmallDayCalendarHolder {
+
+}
+
+.SmallDayCalendarHolder .MonthTitle {
+    text-align: center;
+    font-size: 13px;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.SmallDayCalendar {
+    width: 250px;
+    border: 1px solid #aaaaaa;
+    empty-cells: show;
+}
+
+.SmallDayCalendar .DayOfWeek {
+    height: 14px;
+    background-color: #cc0000;
+    color: #ffffff;
+}
+
+.SmallDayCalendar td {
+    height: 14%;
+    width: 98%;
+    padding: 2px;
+    border: 1px solid #aaaaaa;
+    background-color: #ffffff;
+}
+
+.SmallDayCalendar .DayTitle {
+    font-weight: bold;
+    text-align: right;
+}
+
+.SmallDayCalendar .Day {
+    vertical-align: top;
+}
+
+.SmallDayCalendar .Today {
+    vertical-align: top;
+    vertical-align: top;
+    border: 1px solid #FF0000;
+}
+
+.SmallDayCalendar .Hour {
+    width: 5%;
+    border: 1px solid #aaaaaa;
+    background-color: #aaaaaa;
+    color: #ffffff;
+}
+
+.SmallDayCalendar .HourTitle {
+    font-size: 8px;
+    width: 5%;
+    color: #000000;
+}
+/* List Calendar */
+.ListCalendarHolder {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ListCalendarHolder .ListCalendar {
+  width: 100%;
+  border-collapse: collapse;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    border-left: 1px solid #666666;
+    border-top: 1px solid #666666;
+}
+
+.ListCalendarHolder .MonthTitle {
+  font-weight: bold;
+  text-align: center;
+  color: #FF0000;
+  font-size: 15px;
+  padding: 8px 0;
+  text-shadow: 0 1px 0 white;
+  border-bottom: none;
+}
+
+.ListCalendarHolder .PastDayTitle {
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  background-color: #DDDDDD;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarHolder .PastDay {
+  text-align: left;
+  v-align: top;
+  height: 50px;
+  padding: 0;
+  color: #5C0000;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #EEEEEE;
+}
+
+.ListCalendarHolder .PastHourTitle {
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  background-color: #E5E5E5;
+  border-width: 1px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarHolder .PastHour {
+  width: 30px;
+  padding: 0px 5px 35px 10px;
+  white-space: nowrap;
+  v-align: center;
+  height: 50px;
+  padding: 0;
+  color:  #000;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #EEEEEE;
+}
+
+.ListCalendarHolder .FutureDayTitle {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  background-color: #DDDDDD;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarHolder .FutureDay {
+  text-align: left;
+  v-align: top;
+  height: 50px;
+  padding: 0;
+  color: #465769;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #FFFFFF;
+}
+
+.ListCalendarHolder .FutureHour {
+  width: 30px;
+  padding: 0px 5px 35px 10px;
+  white-space: nowrap;
+  v-align: center;
+  height: 50px;
+  padding: 0;
+  color: #000;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #FFFFFF;
+}
+
+.ListCalendarHolder .FutureHourTitle {
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  background-color: #DDDDDD;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarHolder .ToDayTitle {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  border-width: 0px 0px 0 0;
+  background-color: #DDDDDD;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarHolder .ToDay {
+  text-align: left;
+  v-align: top;
+  height: 50px;
+  padding: 0;
+  color: #435366;
+  background-color: #FFCCCC;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+}
+
+.ListCalendarHolder .TodayHourTitle {
+  text-align: center;
+  color: #00000;
+  font-weight: bold;
+  background-color: #DDDDDD;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarHolder .TodayHour {
+  width: 30px;
+  padding: 0px 5px 35px 10px;
+  white-space: nowrap;
+  v-align: center;
+  height: 50px;
+  padding: 0;
+  color: #000;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #FFCCCC;
+}
+
+.ListCalendarAlternateHolder {
+  width: 800px;
+  border-collapse: collapse;
+}
+
+.ListCalendarAlternateHolder .ListCalendarAlternate {
+  width: 100%;
+  border-collapse: collapse;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    border-left: 1px solid #666666;
+    border-top: 1px solid #666666;
+}
+
+.ListCalendarAlternateHolder .MonthTitle {
+  font-weight: bold;
+  text-align: center;
+  color: #FF0000;
+  font-size: 15px;
+  padding: 8px 0;
+  text-shadow: 0 1px 0 white;
+  border-bottom: none;
+}
+
+.ListCalendarAlternateHolder .PastDayTitle {
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #CC0000;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarAlternateHolder .PastDay {
+  text-align: left;
+  v-align: top;
+  height: 50px;
+  padding: 0;
+  color: #5C0000;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #FFEEEE;
+}
+
+.ListCalendarAlternateHolder .PastHourTitle {
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFF;
+  background-color: #CC0000;
+  border-width: 1px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarAlternateHolder .PastHour {
+  width: 30px;
+  padding: 0px 5px 35px 10px;
+  white-space: nowrap;
+  v-align: center;
+  height: 50px;
+  padding: 0;
+  color:  #000;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #FFEEEE;
+}
+
+.ListCalendarAlternateHolder .FutureDayTitle {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #CC0000;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarAlternateHolder .FutureDay {
+  text-align: left;
+  v-align: top;
+  height: 50px;
+  padding: 0;
+  color: #465769;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #FFFFFF;
+}
+
+.ListCalendarAlternateHolder .FutureHour {
+  width: 30px;
+  padding: 0px 5px 35px 10px;
+  white-space: nowrap;
+  v-align: center;
+  height: 50px;
+  padding: 0;
+  color: #000;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #FFFFFF;
+}
+
+.ListCalendarAlternateHolder .FutureHourTitle {
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #CC0000;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarAlternateHolder .ToDayTitle {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-width: 0px 0px 0 0;
+  background-color: #CC0000;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarAlternateHolder .ToDay {
+  text-align: left;
+  v-align: top;
+  height: 50px;
+  padding: 0;
+  color: #435366;
+  background-color: #FFCCCC;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+}
+
+.ListCalendarAlternateHolder .TodayHourTitle {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #CC0000;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarAlternateHolder .TodayHour {
+  width: 30px;
+  padding: 0px 5px 35px 10px;
+  white-space: nowrap;
+  v-align: center;
+  height: 50px;
+  padding: 0;
+  color: #000;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #FFCCCC;
+}
+
+.ListCalendarSmallHolder {
+  width: 300px;
+  border-collapse: collapse;
+}
+
+
+.ListCalendarSmallHolder .ListCalendarSmall {
+  width: 300px;
+  border-collapse: collapse;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    border-left: 1px solid #666666;
+    border-top: 1px solid #666666;
+}
+
+.ListCalendarSmallHolder .MonthTitle {
+  font-weight: bold;
+  text-align: center;
+  color: #FF0000;
+  font: bold 14px/16px Arial, sans-serif;
+  padding: 8px 0;
+  text-shadow: 0 1px 0 white;
+  border-bottom: none;
+}
+
+.ListCalendarSmallHolder .PastDayTitle {
+  font: bold 10px/14px Arial, sans-serif;
+  text-align: center;
+  width:270px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #CC0000;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarSmallHolder .PastDay {
+  font: 10px/14px Arial, sans-serif;
+  text-align: left;
+  width:270px;
+  v-align: top;
+  height: 25px;
+  padding: 0;
+  color: #5C0000;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #EEEEEE;
+}
+
+.ListCalendarSmallHolder .PastHourTitle {
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #CC0000;
+  border-width: 1px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarSmallHolder .PastHour {
+  font: bold 10px/14px Arial, sans-serif;
+  width: 30px;
+  padding: 0px 5px 35px 10px;
+  white-space: nowrap;
+  v-align: center;
+  height: 25px;
+  padding: 0;
+  color:  #000;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #EEEEEE;
+}
+
+.ListCalendarSmallHolder .FutureDayTitle {
+  font: bold 10px/14px Arial, sans-serif;
+  text-align: center;
+  width:270px;
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #CC0000;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarSmallHolder .FutureDay {
+  font: 10px/14px Arial, sans-serif;
+  text-align: left;
+  width:270px;
+  v-align: top;
+  height: 25px;
+  padding: 0;
+  color: #465769;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #FFFFFF;
+}
+
+.ListCalendarSmallHolder .FutureHour {
+  font: bold 10px/14px Arial, sans-serif;
+  width: 30px;
+  padding: 0px 5px 35px 10px;
+  white-space: nowrap;
+  v-align: center;
+  height: 25px;
+  padding: 0;
+  color: #000;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #FFFFFF;
+}
+
+.ListCalendarSmallHolder .FutureHourTitle {
+  font: bold 10px/14px Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #FFFFF;
+  background-color: #CC0000;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarSmallHolder .ToDayTitle {
+  font: bold 10px/14px Arial, sans-serif;
+  text-align: center;
+  width:270px;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-width: 0px 0px 0 0;
+  background-color: #CC0000;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarSmallHolder .ToDay {
+  font: 10px/14px Arial, sans-serif;
+  text-align: left;
+  v-align: top;
+  width:270px;
+  height: 25px;
+  padding: 0;
+  color: #435366;
+  background-color: #FFCCCC;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+}
+
+.ListCalendarSmallHolder .TodayHourTitle {
+  font: bold 10px/14px Arial, sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #CC0000;
+  border-width: 0px 0px 0px 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+}
+
+.ListCalendarSmallHolder .TodayHour {
+  font: bold 10px/14px Arial, sans-serif;
+  width: 30px;
+  padding: 0px 5px 35px 10px;
+  white-space: nowrap;
+  v-align: center;
+  height: 25px;
+  padding: 0;
+  color: #000;
+  font-weight: bold;
+  border-width: 1px 0px 0 0;
+  border-style: solid;
+  border-color: #AAAAAA;
+  margin: 0;
+  padding: 4px;
+  background-color: #FFCCCC;
+}
+.apex_cal_data_grid_src {width:96%;margin-top:2px;}
+/* -------------------- DHTML SubMenu -------------------- */
+
+.dhtmlSubMenu {
+    background-color: transparent;
+    background-image: url(../images/1px-white-trans.png);
+    font-size: 11px;
+    width: 200px;
+    border: 1px solid #b7b7b7;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    -moz-box-shadow: 2px 2px 10px #888888;
+    -webkit-box-shadow: 2px 2px 10px #888888;
+    box-shadow: 2px 2px 10px #888888;
+}
+
+.dhtmlSubMenu li {
+    margin: 0;
+    padding: 0;
+}
+
+.dhtmlMenuSep {
+    text-align: center;
+}
+
+img.dhtmlMenuSep {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 1px solid #f6f6f6;
+    height: 1px;
+    background: #ccc;
+}
+
+.dhtmlSubMenu img.dhtmlSep {
+    width: 180px;
+    height: 1px;
+}
+
+.dhtmlSubMenu .htmldbMIMG,.dhtmlSubMenuS .htmldbMIMG {
+    vertical-align: middle;
+    float: right;
+    width: 5px;
+    height: 9px;
+}
+
+.dhtmlSubMenu .dhtmlSubMenuP {
+    text-align: center;
+    color: #808080;
+    padding: 3px 8px;
+    border-bottom: #ccc 1px solid;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+    margin: 1px;
+}
+
+.dhtmlSubMenu a.dhtmlSubMenuS,.dhtmlSubMenu a.dhtmlSubMenuN {
+    border: 1px solid #f6f6f6;
+    color: #808080;
+    display: block;
+    font-weight: normal;
+    padding: 3px 8px;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 1px;
+    height: 1%;
+    overflow: hidden;
+}
+
+.dhtmlSubMenu a.dhtmlSubMenuS:hover,.dhtmlSubMenu a.dhtmlSubMenuN:hover, a.dhtmlSubMenuS:focus, a.dhtmlSubMenuN:focus, a.dhtmlSubMenuS:active, a.dhtmlSubMenuN:active {
+    background: #dddddd;
+    border: 1px solid #f6f6f6;
+    color: #000;
+}
+
+a.dhtmlSubMenuS,a.dhtmlSubMenuN {
+    font-size: 1em;
+    display: block;
+    vertical-align: middle;
+    line-height: 1.2em;
+}
+
+a.dhtmlSubMenuS *,a.dhtmlSubMenuN * {
+    vertical-align: middle;
+}
+
+a.dhtmlSubMenuS span {
+    display: block;
+    font-size: 1em;
+    float: left;
+}
+
+a.dhtmlSubMenuS img {
+    display: block;
+    float: right;
+    width: 5px;
+    height: 9px;
+}
+
+.dhtmlSubMenu a.dhtmlSubMenuS, .dhtmlSubMenu a.dhtmlSubMenuN {
+    color: #000;
+}
+
+ul.dhtmlTree {
+    list-style: none;
+}
+
+ul.dhtmlTree li {
+    padding: 2px 0;
+    vertical-align: middle;
+}
+
+ul.dhtmlTree li img {
+    margin: 0 4px;
+    vertical-align: middle;
+}
+
+div.dhtmlMenuLG {
+    white-space: nowrap;
+    clear: both;
+}
+
+div.dhtmlMenuLG div.dhtmlMenuItem {
+    text-align: center;
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+div.dhtmlMenuLG a.dhtmlBottom {
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    margin: 0px 5px;
+    font-weight: bold;
+}
+
+div.dhtmlMenuLG img.dhtmlMenu {
+
+}
+
+div.dhtmlMenuLG div.htmldbBKHolder {
+    float: left;
+}
+
+div.dhtmlMenuLG img.dhtmlMenuOn {
+
+}
+
+.dhtmlMenuLG2 li a {
+    float: left;
+}
+
+.dhtmlMenuLG2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.dhtmlMenuLG2 * {
+    float: left;
+    text-decoration: none;
+    display: block;
+    line-height: 25px;
+    height: 25px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.dhtmlMenuLG2 li {
+    background-image: url(../menu_small_m.gif);
+    border: 1px solid #999;
+}
+
+.dhtmlMenuLG2 li.dhtmlMenuItem {
+    background: #efefef;
+    background-image: url(../images/report_bg.gif);
+    background-repeat: repeat-x;
+    margin: 0 4px 0 0;
+}
+
+.dhtmlMenuLG2 li.dhtmlMenuItem a {
+    padding: 0 4px;
+    color: #ffffff;
+}
+
+.dhtmlMenuLG2 li.dhtmlMenuItem1 {
+    background: #efefef;
+    background-image: url(../images/report_bg.gif);
+    background-repeat: repeat-x;
+    margin: 0 4px 0 0;
+}
+
+.dhtmlMenuLG2 li.dhtmlMenuItem1 a {
+    padding: 0 4px;
+    margin: 0 4px 0 0;
+    color: #ffffff;
+}
+
+.dhtmlMenuLG2 li.dhtmlMenuItem1 img {
+    margin: 0 2px 0 0;
+}
+
+.dhtmlSubMenu2 {
+    background-color: transparent;
+    background-image: url(../images/1px-white-trans.png);
+    background-repeat: repeat;
+    font-size: 11px;
+    width: 200px;
+    border: 1px solid #b7b7b7;
+    list-style-type: none;
+    -moz-box-shadow: 2px 2px 10px #888888;
+    -webkit-box-shadow: 2px 2px 10px #888888;
+    box-shadow: 2px 2px 10px #888888;
+    margin: 0em;
+    padding-left: 0em;
+}
+
+.dhtmlSubMenu2 li {
+    margin: 0em;
+    padding-left: 0em;
+}
+
+.dhtmlMenuSep2 {
+    text-align: center;
+}
+
+img.dhtmlMenuSep2 {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 1px solid #efefef;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.dhtmlSubMenu2 img.dhtmlSep {
+    width: 180px;
+    height: 1px;
+}
+
+.dhtmlSubMenu2 .t13MIMG {
+    vertical-align: middle;
+    float: right
+}
+
+.dhtmlSubMenu2 .dhtmlSubMenuP {
+    background-color: #ddd;
+    text-align: center;
+    color: #808080;
+    border-bottom: #ccc 1px solid;
+    padding: 3px 8px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.dhtmlSubMenu2 a.dhtmlSubMenuN:link,.dhtmlSubMenu2 a.dhtmlSubMenuN:visited {
+    color: #808080;
+    display: block;
+    font-weight: normal;
+    padding: 3px 8px;
+    text-decoration: none;
+    white-space: nowrap;
+    height: 1%;
+    overflow: hidden;
+}
+
+.dhtmlSubMenu2 a.dhtmlSubMenuN:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+.dhtmlSubMenu2 a.dhtmlSubMenuS:link,.dhtmlSubMenu2 a.dhtmlSubMenuS:visited {
+    color: #808080;
+    display: block;
+    font-weight: normal;
+    padding: 3px 8px;
+    text-decoration: none;
+    white-space: nowrap;
+    height: 1%;
+    overflow: hidden;
+}
+
+.dhtmlSubMenu2 a.dhtmlSubMenuS:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+.dhtmlSubMenuN {
+    border: none !important;
+}
+
+img.dhtmlMenuSep {
+    height: 1px !important;
+    border: none !important;
+}
+
+/* -------------------- Region Display Selector -------------------- */
+
+.apex-rds-container {
+    height: 21px;
+    margin: 0 0 9px 0;
+}
+
+ul.apex-rds {
+    background: url(../images/bg-anchor-nc.gif) repeat-x scroll 0 0 transparent;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    border: 1px solid #999999;
+    -moz-box-shadow: 1px 1px 1px #aaaaaa;
+    -webkit-box-shadow: 1px 1px 1px #aaaaaa;
+    box-shadow: 1px 1px 1px #aaaaaa;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+ul.apex-rds li {
+    float: left;
+    list-style: none;
+}
+
+ul.apex-rds li span {
+    font-size: 11px;
+    color: #000000;
+}
+
+ul.apex-rds li.apex-rds-selected span {
+    color: #ffffff;
+}
+
+ul.apex-rds a:hover span {
+    color: #ffffff;
+}
+
+ul.apex-rds li a {
+    display: block;
+    height: 16px;
+    text-decoration: none;
+    padding: 1px 10px 0 10px;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #999999;
+}
+
+ul.apex-rds li a:hover, ul.apex-rds li.apex-rds-selected a {
+    background: url(../images/bg-anchor-c.gif) repeat-x scroll 0 0 transparent;
+    color: #ffffff;
+}
+
+/* First List Item */
+
+ul.apex-rds li.apex-rds-first a {
+    border-left: 0px solid #000000;
+}
+
+ul.apex-rds li.apex-rds-first a:hover, ul.apex-rds li.apex-rds-first.apex-rds-selected a {
+    background: url(../images/bg-anchor-c.gif) repeat-x scroll 0 0 transparent;
+    -moz-border-radius-topleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+}
+
+/* Last List Item */
+
+ul.apex-rds li.apex-rds-last a {
+    border-right: 0px solid #000000;
+}
+
+ul.apex-rds li.apex-rds-last a:hover, ul.apex-rds li.apex-rds-last.apex-rds-selected a {
+    background: url(../images/bg-anchor-c.gif) repeat-x scroll 0 0 transparent;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+/*==========  APEX 5.0 Core Overrides  ==========*/
+.a-IRR-container button.a-Button span,
+.a-DevToolbar button span,
+.a-IRR-dialogTable button span,
+button.a-Button > span {
+    padding: 0;
+
+}
+.a-IRR-dialogTable th, .a-IRR-dialogTable td {
+    white-space: nowrap;
+}
+.a-IRR-container button.a-Button span {
+    display: inline-block;
+}
+.a-DevToolbar button span {
+    display: inline-block;
+}
+.a-IRR-container {
+    margin-right: 8px;
+}
+
+/*==========  APEX 5.0 IRR Core Overrides  ==========*/
+.a-IRR-fullView,
+.a-IRR-reportView {
+    float: left;
+}
+.a-IRR-toolbar--singleRow + .a-IRR-content {
+    background-color: #FFF;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+.a-IRR-buttons,
+.a-IRR-controls {
+    display: block;
+    float: left;
+}
+.a-IRR-buttons {
+    margin-left: 8px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+.a-IRR {
+    border-width: 0;
+}
+.a-IRR-table {
+    width: auto;
+    border: 1px solid #D0D0D0;
+}
+.a-IRR-toolbar {
+    display: block;
+    float: left;
+    width: auto;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    border-collapse: separate;
+
+    border: 1px solid #B0B0B0;
+    background-image: linear-gradient(#F8F8F8, #E8E8E8);
+    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+.a-IRR {
+ border: none;
+}
+.a-IRR-paginationWrap--bottom {
+    border-top-width: 0;
+}
+.a-IRR-table td,
+.a-IRR-singleRow-name, .a-IRR-singleRow-value {
+    padding: 4px 8px;
+}
+.a-IRR-headerLink, .a-IRR-headerLabel {
+    padding: 8px;
+    white-space: nowrap;
+}
+
+span.lov img {
+vertical-align: top;
+}
+.a-Button.a-Button--calendar {
+    margin-left: 0;
+    padding: 2px 4px;
+}

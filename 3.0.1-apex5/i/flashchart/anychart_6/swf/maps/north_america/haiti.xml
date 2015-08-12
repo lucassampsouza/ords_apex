@@ -1,0 +1,75 @@
+<map_data>
+ <name>haiti</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-74.4677886962891" top="20.0922203063965" right="-71.6288909912109" bottom="18.022777557373"/>
+ <regions>
+  <region>
+   <centroid lat="19.8530540466309" lon="-73.0223655700684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HTI-NOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nord-Ouest]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.3166399002075" lon="-72.6312866210938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HTI-ART]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Artibonite]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.0200929641724" lon="-72.004467010498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HTI-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Centre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.4954404830933" lon="-73.7521133422852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HTI-GAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grand Anse]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.5842504501343" lon="-72.3301124572754"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HTI-NOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nord]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.468355178833" lon="-71.9036140441895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HTI-NES]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nord-Est]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.6312646865845" lon="-72.4973678588867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HTI-OUE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ouest]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.2249784469604" lon="-73.7152786254883"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HTI-SUD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.2323760986328" lon="-72.3817710876465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HTI-SES]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sud-Est]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

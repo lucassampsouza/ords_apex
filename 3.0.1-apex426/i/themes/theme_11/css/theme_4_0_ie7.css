@@ -1,0 +1,71 @@
+button {
+	margin: 0 4px 0 4px;
+	width:auto;
+	overflow:visible;
+	margin-top:0px;
+}
+button span {
+	margin-top:0px;
+}
+
+.rc-buttons {
+	margin-top: -2px;
+	}
+	
+input#apexir_SEARCH {
+	display: block;
+	float: left;
+	}
+.rounded-corner-region-wizard .rc-buttons {
+	padding: 4px 0 0 0;
+	}
+.rounded-corner-region-wizard {
+	float: none;
+	width: 700px;
+	}
+	
+/* APEX IR Buttons */
+.apexir_BUTTONS table td {
+	text-align: left;
+	}
+
+.rounded-corner-region-blank .rc-content-main .rc-left {
+	line-height: 28px !important
+	}
+	
+/*.sSearchFieldBig {
+	height: 28px;
+	}*/
+	.sSearchFieldBig:focus {
+		background-color: #F0F0F0;
+		color: #222;
+		}
+		
+.vertical-unordered-list-with-bullets, .vertical-unordered-list-with-bullets li,
+.vertical-ordered-List, .vertical-ordered-List li {
+	float: none;
+	}
+
+/* Align RDS text appropriately*/
+ul.apex-rds li a span {
+	line-height: 18px;
+	padding-bottom: 2px;
+	}
+
+/* Reduce gaps in IE 7 actions menu for IR	*/
+.dhtmlMenuSep {
+	line-height: 0px;
+	font-size: 0px;
+}
+
+div.sHorizontalTabs div.sHorizontalTabsInner ul li a {
+	cursor: hand;
+	}
+
+.apexir_WORKSHEET_DATA {
+	border-collapse: separate;
+	}
+
+.borderless-region .bl-body {
+	padding-bottom: 0;
+	}

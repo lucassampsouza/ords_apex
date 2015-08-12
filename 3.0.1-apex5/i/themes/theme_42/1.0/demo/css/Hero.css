@@ -1,0 +1,64 @@
+.dm-Hero {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  margin-bottom: 32px;
+  padding-bottom: 32px; }
+  .dm-Hero > h1, .dm-Hero > h2 {
+    text-align: center;
+    font-weight: 300;
+    margin: 0; }
+  .dm-Hero > h1 {
+    font-size: 64px; }
+    .dm-Hero > h1 span {
+      display: block;
+      font-size: 32px; }
+  .dm-Hero > h2 {
+    font-size: 48px;
+    opacity: 0.8; }
+  .dm-Hero > p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 80%;
+    margin: 48px auto 0 auto; }
+
+.dm-Hero--primary {
+  padding: 48px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 0; }
+
+.dm-Hero--secondary {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  padding: 48px 0; }
+  .dm-Hero--secondary > p {
+    margin-top: 16px; }
+  .dm-Hero--secondary > .container {
+    max-width: 80%;
+    margin: 0 auto; }
+
+p.dm-Hero-steps {
+  font-size: 16px;
+  font-weight: normal;
+  background-color: white;
+  border-radius: 2px;
+  padding: 12px;
+  margin-top: 24px; }
+
+.dm-Hero .t-TabsRegion-items {
+  margin-top: 36px; }
+
+p.dm-Hero-steps--slim {
+  font-size: 14px;
+  text-align: center;
+  margin: 32px 0 0 0;
+  padding: 8px; }
+
+.dm-Hero-steps + .t-TabsRegion-items > .a-Region-carouselControl {
+  margin-bottom: 8px; }
+
+.dm-Hero-screenshot .t-Button {
+  display: block;
+  margin: 0 auto; }
+
+.dm-Hero .t-Alert--wizard {
+  max-width: 100%; }

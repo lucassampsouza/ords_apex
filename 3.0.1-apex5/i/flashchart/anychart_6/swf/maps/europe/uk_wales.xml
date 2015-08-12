@@ -1,0 +1,68 @@
+<map_data>
+ <name>uk_wales</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-5.34055614471436" top="53.4249992370605" right="-2.64750003814697" bottom="51.3786087036133"/>
+ <regions>
+  <region>
+   <centroid lat="53.0631904602051" lon="-3.24208343029022"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-WLS-CLW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clwyd]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.9827747344971" lon="-4.09209835529327"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-WLS-GWY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gwynedd]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.3108062744141" lon="-3.43995904922485"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-WLS-PWY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Powys]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.7436046600342" lon="-2.97013902664185"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-WLS-GWN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gwent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.0751342773438" lon="-4.49125051498413"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-WLS-DYF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dyfed]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.6244659423828" lon="-3.4186840057373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-WLS-MGL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mid Glamorgan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.6630554199219" lon="-3.92041754722595"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-WLS-WGL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West Glamorgan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.4658298492432" lon="-3.31922352313995"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-WLS-SGL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Glamorgan]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

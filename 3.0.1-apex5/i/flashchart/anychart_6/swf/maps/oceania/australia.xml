@@ -1,0 +1,77 @@
+<map_data>
+ <name>australia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="GMI_ADMIN" key="true"/>
+ </columns>
+ <bounds left="112.907211303711" top="-10.0516662597656" right="153.625518798828" bottom="-43.6480560302734"/>
+ <regions>
+  <region>
+   <centroid lat="-35.5412521362305" lon="149.087066650391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AS01]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Australian Capital Territory]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[AUS-ACT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.831392288208" lon="150.049880981445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AS02]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New South Wales]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[AUS-NSW]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.5113401412964" lon="133.500396728516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AS03]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern Territory]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[AUS-NTR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.61097240448" lon="145.77165222168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AS04]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Queensland]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[AUS-QNS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.0366668701172" lon="135.001327514648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AS05]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Australia]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[AUS-SAS]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-47.0929183959961" lon="151.398986816406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AS06]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tasmania]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[AUS-TSM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-36.5675048828125" lon="145.472198486328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AS07]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Victoria]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[AUS-VCT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.4325141906738" lon="120.956550598145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AS08]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Australia]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[AUS-WAS]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

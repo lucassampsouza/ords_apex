@@ -1,0 +1,61 @@
+<map_data>
+ <name>morocco</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_NAME" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-13.1749610900879" top="35.9191665649414" right="-1.01027798652649" bottom="27.6642379760742"/>
+ <regions>
+  <region>
+   <centroid lat="32.5818042755127" lon="-7.26922369003296"/>
+   <data>
+    <item column="REGION_NAME"><value><![CDATA[MAR-CEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Centre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9180526733398" lon="-4.1820250749588"/>
+   <data>
+    <item column="REGION_NAME"><value><![CDATA[MAR-CNR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Centre-North]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.2316246032715" lon="-4.84096431732178"/>
+   <data>
+    <item column="REGION_NAME"><value><![CDATA[MAR-CSO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Centre-South]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.5720796585083" lon="-2.48888909816742"/>
+   <data>
+    <item column="REGION_NAME"><value><![CDATA[MAR-EST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eastern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5422210693359" lon="-5.79736018180847"/>
+   <data>
+    <item column="REGION_NAME"><value><![CDATA[MAR-NWT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North-West]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.8497543334961" lon="-9.1635479927063"/>
+   <data>
+    <item column="REGION_NAME"><value><![CDATA[MAR-SOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.772668838501" lon="-8.43548250198364"/>
+   <data>
+    <item column="REGION_NAME"><value><![CDATA[MAR-TNF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tensift]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

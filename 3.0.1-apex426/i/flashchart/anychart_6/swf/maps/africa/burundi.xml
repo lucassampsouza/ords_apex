@@ -1,0 +1,117 @@
+<map_data>
+ <name>burundi</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="28.98388671875" top="-2.29805564880371" right="30.8538856506348" bottom="-4.4480562210083"/>
+ <regions>
+  <region>
+   <centroid lat="-3.47552895545959" lon="29.4034814834595"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-BJM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bujumbura]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.4053590297699" lon="29.6821899414063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-MRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Muramvya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.11823153495789" lon="29.3868408203125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-BBN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bubanza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.87391555309296" lon="29.6033496856689"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-BUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bururi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.13874745368958" lon="30.5502777099609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-CNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cankuzo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.85347235202789" lon="29.2379131317139"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-CBT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cibitoke]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.44893097877502" lon="29.9134950637817"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-GIT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gitega]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.14367842674255" lon="30.1090250015259"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-KRZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karuzi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.98734188079834" lon="29.6509656906128"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-KYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kayanza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.54986047744751" lon="30.1628332138062"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-KRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kirundo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.20541107654572" lon="29.8088874816895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-MKM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Makamba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.72680735588074" lon="30.3253402709961"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-MYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Muyinga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.8674989938736" lon="29.8891305923462"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-NGO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ngozi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.8145010471344" lon="30.1649141311646"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-RTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rutana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.46462202072144" lon="30.3470802307129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BDI-RUY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ruyigi]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,114 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Image Navigation List
+   ========================================================================== */
+/* line 17, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-link {
+  border-radius: 2px;
+}
+/* line 22, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-item:first-child .a-ImageNav-link {
+  border-left: none;
+}
+/* line 25, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-link:hover {
+  background-color: #F8F8F8;
+  box-shadow: 0 0 0 1px #EDEDED inset;
+}
+/* line 28, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-link:hover .a-ImageNav-img {
+  background-color: #E0E0E0;
+}
+/* line 32, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-link:focus {
+  outline: none;
+  background-color: #F8F8F8;
+  box-shadow: 0 0 0 1px #399bea inset;
+}
+
+/* line 39, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-img {
+  background-color: #E0E0E0;
+}
+
+/* line 42, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-label {
+  color: #707070;
+}
+
+/* ==========================================================================
+   Context Colors
+   ========================================================================== */
+/* line 52, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.app-builder .a-ImageNav-img,
+.a-ImageNav-link.app-builder .a-ImageNav-img {
+  background-color: #399BEA;
+}
+
+/* line 58, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.pkg-apps .a-ImageNav-img,
+.a-ImageNav-link.pkg-apps .a-ImageNav-img {
+  background-color: #F54B21;
+}
+
+/* line 64, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.sql-workshop .a-ImageNav-img,
+.a-ImageNav-link.sql-workshop .a-ImageNav-img {
+  background-color: #24CB7F;
+}
+
+/* line 70, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.team-dev .a-ImageNav-img,
+.a-ImageNav-link.team-dev .a-ImageNav-img {
+  background-color: #FFBE2A;
+}
+
+/* line 76, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.instance-admin .a-ImageNav-img,
+.a-ImageNav-link.instance-admin .a-ImageNav-img {
+  background-color: #BDC3C7;
+}
+
+/* line 82, ../../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.workspace-admin .a-ImageNav-img,
+.a-ImageNav-link.workspace-admin .a-ImageNav-img {
+  background-color: #BDC3C7;
+}

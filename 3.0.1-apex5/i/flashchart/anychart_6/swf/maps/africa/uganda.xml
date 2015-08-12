@@ -1,0 +1,82 @@
+<map_data>
+ <name>uganda</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="29.5708312988281" top="4.22277736663818" right="35.0097198486328" bottom="-1.47611033916473"/>
+ <regions>
+  <region>
+   <centroid lat="0.259860992431641" lon="33.4103469848633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UGA-BUS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Busoga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.8106644153595" lon="34.2604789733887"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UGA-KRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karamoja]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.388888999819756" lon="31.9606952667236"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UGA-STB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Buganda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.340333580970764" lon="32.2434730529785"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UGA-NRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Buganda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.31823278963566" lon="33.9073104858398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UGA-EST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eastern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.99003624916077" lon="31.3997192382813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UGA-NIL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nile]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.223851606249809" lon="32.0036087036133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UGA-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.67027759552002" lon="32.5409736633301"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UGA-NRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.631110727787018" lon="30.4216651916504"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UGA-STH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.0790276825428" lon="31.018461227417"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UGA-WST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,33 @@
+<map_data>
+ <name>de</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-75.7914352416992" top="39.8400077819824" right="-75.0459976196289" bottom="38.4494895935059"/>
+ <regions>
+  <region>
+   <centroid lat="39.5665340423584" lon="-75.6017761230469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[10003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Castle]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.0985546112061" lon="-75.5362815856934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[10001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7022686004639" lon="-75.3854675292969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[10005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sussex]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

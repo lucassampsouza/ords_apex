@@ -1,0 +1,677 @@
+<map_data>
+ <name>italy_second_level</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="6.61976003646851" top="47.0944404602051" right="18.5122203826904" bottom="36.6666603088379"/>
+ <regions>
+  <region>
+   <centroid lat="45.864444732666" lon="13.5066699981689"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-FVG-GRZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gorizia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.733980178833" lon="7.35948467254639"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-VDA-AOS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aosta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.4414749145508" lon="11.064169883728"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-VEN-VRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Verona]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.6965255737305" lon="13.7493200302124"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-FVG-TRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trieste]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.1513862609863" lon="13.108115196228"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-FVG-UDN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Udine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.2144603729248" lon="10.0268135070801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LMB-CRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cremona]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1672191619873" lon="10.8696146011353"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LMB-MNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mantova]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.0415096282959" lon="9.02345657348633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LMB-PAV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pavia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.8394412994385" lon="8.65333223342896"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-PMN-ALS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alessandria]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.8463497161865" lon="9.63183689117432"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ERM-PCZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Piacenza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.8311195373535" lon="8.18402743339539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-PMN-AST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Asti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.6930503845215" lon="9.96862030029297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ERM-PRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Parma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.6083660125732" lon="10.5052452087402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ERM-RGE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Reggio nell' Emi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.5406837463379" lon="10.9133148193359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ERM-MDN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Modena]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4739894866943" lon="7.55458235740662"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-PMN-CUN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cuneo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4325008392334" lon="11.3070850372314"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ERM-BLG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bologna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.447940826416" lon="9.06297159194946"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LIG-GNV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Genova]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.2372646331787" lon="8.31805491447449"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LIG-SVN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Savona]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.223819732666" lon="9.96743488311768"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-TSC-MSC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Massa-Carrara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.2337398529053" lon="9.75527954101563"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LIG-LSP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Spezia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.526195526123" lon="11.8843050003052"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-TSC-ARZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arezzo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0161056518555" lon="10.4408149719238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-TSC-LUC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lucca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.8460006713867" lon="11.2286100387573"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-TSC-FRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Firenze]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9813842773438" lon="10.8329849243164"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-TSC-PST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pistoia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.961799621582" lon="7.8109974861145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LIG-IMP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Imperia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0408363342285" lon="12.2016448974609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ERM-FRL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Forli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.4766941070557" lon="10.632740020752"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-TSC-PIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pisa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.4812889099121" lon="13.2037501335144"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-MRC-ANC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ancona]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9751358032227" lon="10.2874984741211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-TSC-LVR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Livorno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1369400024414" lon="13.2843651771545"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-MRC-MCR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Macerata]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9940795898438" lon="13.5483298301697"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-MRC-ASP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ascoli Picento]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.6614646911621" lon="13.744354724884"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ABR-TRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Teramo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.4218044281006" lon="12.9204149246216"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LAZ-RIT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rieti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.1361045837402" lon="13.6205902099609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ABR-LAQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[L'Aquila]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3109683990479" lon="14.0048503875732"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ABR-PSC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pescara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.1028099060059" lon="14.4186100959778"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ABR-CHT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chieti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7222499847412" lon="14.7658748626709"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-MOL-CPB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Campobasso]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6277694702148" lon="13.4994449615479"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LAZ-FRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Frosinone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6492500305176" lon="14.2266850471497"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-MOL-ISR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Isernia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.2183246612549" lon="14.1382150650024"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-CMP-CSR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caserta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.2448596954346" lon="14.746919631958"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-CMP-BNV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Benevento]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.0322494506836" lon="16.6297602653503"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-PUG-BAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bari]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.9977741241455" lon="15.0677552223206"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-CMP-AVL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Avellino]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.8077735900879" lon="8.89888381958008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SRD-SAS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sardegna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.2955551147461" lon="13.2063903808594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LAZ-LTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Latina]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6386909484863" lon="17.6912508010864"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-PUG-BRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brindisi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.2367992401123" lon="9.10166549682617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SRD-NUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nuoro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.4143199920654" lon="15.116030216217"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-CMP-SLR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salerno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.5499954223633" lon="17.2521743774414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-PUG-TRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taranto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7734298706055" lon="14.2637453079224"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-CMP-NPL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Napoli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.1615238189697" lon="18.138334274292"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-PUG-LEC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lecce]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.313606262207" lon="8.93708229064941"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SRD-CGL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cagliari]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3624801635742" lon="14.0663900375366"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SIC-CLT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caltanissetta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.305965423584" lon="14.9203147888184"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SIC-MSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Messina]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2486095428467" lon="16.1009702682495"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-CLB-RCL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Reggio di Calabr]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5008296966553" lon="14.8119697570801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SIC-CTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Catania]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4619445800781" lon="12.5115299224854"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SIC-TRP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trapani]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5916652679443" lon="14.4440250396729"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SIC-ENN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Enna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4183235168457" lon="13.4660201072693"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SIC-AGR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Agrigento]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1319408416748" lon="13.6134700775146"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SIC-PLR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Palermo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.0300006866455" lon="15.0605497360229"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SIC-SRC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Siracusa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.9138851165771" lon="14.6791501045227"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SIC-RGS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ragusa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6562442779541" lon="11.4355850219727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-TAA-BLZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bolzano]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.2842388153076" lon="12.2220802307129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-VEN-BLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Belluno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.3236103057861" lon="9.94197988510132"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LMB-SND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sondrio]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.1020793914795" lon="11.2152752876282"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-TAA-TRE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trento]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.8827743530273" lon="8.34385514259338"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-PMN-NVR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Novara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.0981903076172" lon="12.6629152297974"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-FVG-PRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pordenone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.7651309967041" lon="9.83400249481201"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LMB-BRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bergamo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.9358501434326" lon="9.21666622161865"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LMB-COM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Como]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.8375453948975" lon="8.81569337844849"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LMB-VRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Varese]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.7749500274658" lon="10.327919960022"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LMB-BRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brescia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.8118057250977" lon="12.2208352088928"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-VEN-TRV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Treviso]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.6376342773438" lon="11.4819898605347"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-VEN-VCN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vicenza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.5536060333252" lon="8.20416593551636"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-PMN-VRC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vercelli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.3943004608154" lon="9.30235862731934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LMB-MLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Milano]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.3984661102295" lon="11.797914981842"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-VEN-PDV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Padova]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.162260055542" lon="7.37821269035339"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-PMN-TOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Torino]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.4595756530762" lon="12.5347199440002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-VEN-VNZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Venezia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.9772663116455" lon="11.864444732666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-VEN-RVG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rovigo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.7659511566162" lon="11.816385269165"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ERM-FER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ferrara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.3697643280029" lon="11.9486103057861"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-ERM-RVN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ravenna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.6979999542236" lon="12.6366500854492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-MRC-PSU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pesaro e Urbino]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1122741699219" lon="12.5879149436951"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-UMB-PRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Perugia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1691646575928" lon="11.4423952102661"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-TSC-SIE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Siena]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.7099952697754" lon="11.2647199630737"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-TSC-GRO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grosseto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.6529159545898" lon="12.3953499794006"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-UMB-TER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Terni]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.4968547821045" lon="11.9792647361755"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LAZ-VTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Viterbo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8509101867676" lon="12.5084447860718"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-LAZ-ROM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5918102264404" lon="15.5669455528259"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-PUG-FGG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Foggia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.516845703125" lon="15.8718252182007"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-BSL-PTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Potenza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.4483699798584" lon="16.4580097198486"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-BSL-MTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Matera]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.9528007507324" lon="8.71944332122803"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-SRD-ORS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oristano]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5937442779541" lon="16.3843350410461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-CLB-CSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cosenza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9531898498535" lon="16.5163898468018"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ITA-CLB-CTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Catanzaro]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

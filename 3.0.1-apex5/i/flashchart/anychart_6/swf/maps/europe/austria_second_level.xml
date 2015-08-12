@@ -1,0 +1,805 @@
+<map_data>
+ <name>austria_second_level</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="ADM1_CODE" key="true"/>
+ </columns>
+ <bounds left="9.53591442108154" top="49.0111618041992" right="17.1627178192139" bottom="46.3816871643066"/>
+ <regions>
+  <region>
+   <centroid lat="47.8384105" lon="16.533597"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT001002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eisenstadt-Umgebung]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.803464" lon="16.685799"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT001009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rust]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.5840742872314" lon="14.295029"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT002004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Klagenfurt Land]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6380971329109" lon="13.7655795"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT002008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Villach Land]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8816965" lon="14.312786"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT002005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sankt Veit an der Glan]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8925635" lon="13.250282"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT002006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Spittal an der Drau]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8251745854492" lon="14.8385609672344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT002010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wolfsberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.7956855" lon="14.0246375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT002001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Feldkirchen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.4505725" lon="15.527142"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Krems (Land)]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1381515" lon="15.637533"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sankt Poelten (Land)]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.9509755" lon="14.79015"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Waidhofen an der Ybbs]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.808328" lon="16.2156905"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wiener Neustadt (Stadt)]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.981732" lon="14.7331035"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amstetten]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.0100635" lon="16.212477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baden]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.030582" lon="16.7870190130502"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bruck an der Leitha]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.347771" lon="15.991036"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tulln]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.409547" lon="15.6260345"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Krems an der Donau (Stadt)]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.917576" lon="15.5544405"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lilienfeld]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.191962" lon="15.2367505"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Melk]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.0869075" lon="16.2275725"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moedling]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.663662" lon="15.9093295"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Neunkirchen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.19302" lon="15.6472575"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sankt Poelten (Stadt)]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.9273935" lon="15.0894755"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Scheibbs]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.440261" lon="16.2228875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Korneuburg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.69096" lon="16.006307"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003022]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wiener Neustadt (Land)]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1732235" lon="16.3259675"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003024]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wien-Umgebung]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.5530705" lon="15.161567"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zwettl]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.2946285" lon="14.326559"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Linz]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.9071405" lon="14.4604815"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Steyr-Land]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.128692" lon="13.961144"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004018]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wels-Land]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.3441745" lon="14.0065225"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eferding]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.758092" lon="13.766225"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gmunden]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.279354" lon="13.782684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grieskirchen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.0557465" lon="14.4220505"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Steyr]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.20003" lon="14.3052995"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Linz-Land]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.290365" lon="14.6941515"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Perg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.2125165547902" lon="13.4106469948205"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ried im Innkreis]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.8533185" lon="14.2207185"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kirchdorf an der Krems]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.422572712523" lon="14.252395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Urfahr-Umgebung]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.9472075" lon="13.5521655"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Voecklabruck]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.168123" lon="14.0260975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wels]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.8325225" lon="13.2067331372229"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT005003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salzburg-Umgebung]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2841435" lon="13.303444"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT005004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sankt Johann im Pongau]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.119419" lon="13.6559355"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT005005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tamsweg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.112739" lon="15.3885585"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Graz-Umgebung]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.567612" lon="15.2337775"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bruck an der Mur]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.93112" lon="15.846238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Feldbach]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.072449" lon="15.996623"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fuerstenfeld]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0728525" lon="15.440895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Graz]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.325408" lon="15.9400475"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hartberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2326505" lon="14.5714995"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Judenburg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2337075" lon="14.794313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Knittelfeld]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4297995" lon="14.9158415"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leoben]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.506637" lon="14.350595"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Liezen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.58478" lon="15.6187705"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Muerzzuschlag]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1193285" lon="14.186253"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006014]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Murau]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0612855" lon="15.0763805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Voitsberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.294763" lon="15.665763"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Weiz]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2847525" lon="11.378076"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT007003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Innsbruck-Stadt]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.409725338623" lon="9.89934134573365"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT008002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bregenz]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT008]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.220092" lon="16.3798295"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT009000]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wien]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT009]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.5605500841065" lon="16.563027805664"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mistelbach]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.3795755" lon="16.7469230471802"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaenserndorf]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.9018367273321" lon="16.9289309096069"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT001006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Neusiedl am See]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.8384105" lon="16.533597"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT001001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eisenstadt]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.5041305" lon="16.4964322214356"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT001007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oberpullendorf]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.7276925" lon="16.410092427063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT001005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mattersburg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.286981" lon="16.2540493714599"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT001008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oberwart]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.11598377771" lon="16.3031664533081"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT001003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guessing]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9835957609863" lon="16.1422420346212"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT001004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jennersdorf]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.7569835579834" lon="15.8445993267822"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Radkersburg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.816493906128" lon="15.498268"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006010]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leibnitz]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.806860022461" lon="15.2025485"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT006002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Deutschlandsberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6020151568603" lon="14.7001850381347"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT002009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Voelkermarkt]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.641342" lon="14.3123735"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT002003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Klagenfurt]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6130805" lon="13.835052"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT002007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Villach]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6564210137939" lon="13.129907"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT002002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hermagor]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9067601884765" lon="12.5433006817627"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT007007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lienz]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0859622955323" lon="10.8480965325851"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT007001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Imst]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.036586" lon="10.458943"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT007006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Landeck]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0707475562744" lon="9.91228283807373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT008001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bludenz]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT008]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2643013000488" lon="9.69258571054077"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT008004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Feldkirch]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT008]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.6686199344482" lon="16.017857"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hollabrunn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.7292072131348" lon="15.681686"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Horn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.8475262646485" lon="15.362615"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Waidhofen an der Thaya]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.7841580704346" lon="14.938584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT003005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gmuend]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.473306770874" lon="14.651337"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Freistadt]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.5727827915039" lon="13.9732216884923"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rohrbach]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.4204377877197" lon="13.6354382070348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004012]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Schaerding]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1331946517334" lon="13.0529472712402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT004001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Braunau am Inn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.7987225" lon="13.055632"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT005002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salzburg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.612877" lon="13.2794580117188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT005001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hallein]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.3606239104004" lon="12.575308"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT005006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zell am See]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4841272200927" lon="12.3508105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT007004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kitzbuehel]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.5325157198486" lon="12.053561"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT007005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kufstein]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.286376953125" lon="11.7590038484528"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT007009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Schwaz]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2847525" lon="11.378076"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT007002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Innsbruck-Land]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.370538374878" lon="10.583380922501"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT007008]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Reutte]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.373476" lon="9.73614245843506"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT008003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dornbirn]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[AUT008]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

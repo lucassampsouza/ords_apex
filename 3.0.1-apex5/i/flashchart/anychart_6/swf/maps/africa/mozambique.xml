@@ -1,0 +1,82 @@
+<map_data>
+ <name>mozambique</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="30.2130165100098" top="-10.4711112976074" right="40.8452758789063" bottom="-26.860279083252"/>
+ <regions>
+  <region>
+   <centroid lat="-12.3145837783813" lon="39.3086090087891"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MOZ-CDL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cabo Delgado]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-23.3441867828369" lon="32.8900547027588"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MOZ-GAZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.9060840606689" lon="34.3779144287109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MOZ-INH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Inhambane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-25.5355567932129" lon="32.529857635498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MOZ-MAP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maputo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.0744152069092" lon="34.8015213012695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MOZ-SOF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sofala]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.1570167541504" lon="38.7803421020508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MOZ-NMP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nampula]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.3762211799622" lon="36.4297409057617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MOZ-NIA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niassa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.8732509613037" lon="32.7794246673584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MOZ-TET]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tete]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-16.9542675018311" lon="37.1322326660156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MOZ-ZMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zambezia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.0009746551514" lon="33.4740715026855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MOZ-MAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manica]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

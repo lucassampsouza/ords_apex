@@ -1,0 +1,124 @@
+<map_data>
+ <name>spain</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-9.2933349609375" top="43.772216796875" right="4.31694412231445" bottom="35.9077758789063"/>
+ <regions>
+  <region>
+   <centroid lat="39.3511047363281" lon="2.764444231987"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-BLR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Isles Baleares]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6731910705566" lon="-4.42625033855438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-CYL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Castilla y Leon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.6616630554199" lon="-3.14291673898697"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-CLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Castilla-La Mancha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0670394897461" lon="-1.51763892173767"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-MUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Murcia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.6095809936523" lon="-1.60972237586975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-NVR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Navarra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.2813835144043" lon="-5.84435939788818"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-AST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Asturias]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.2805519104004" lon="-2.40319454669952"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-LJR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Rioja]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.318042755127" lon="-4.57892990112305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-AND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Andalucia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2994384765625" lon="-0.496363699436188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-VLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Valenciana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1345825195313" lon="-3.99263906478882"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cantabria]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9606895446777" lon="-2.5897718667984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-PSV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pais Vasco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6939506530762" lon="1.74611109495163"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-CTL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cataluna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.211109161377" lon="-6.10278034210205"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-EXT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Extremadura]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.7906913757324" lon="-8.01291751861572"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-GLC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Galicia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.3862457275391" lon="-0.71152800321579"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-ARG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aragon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.5540237426758" lon="-3.81583380699158"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ESP-MDR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madrid]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

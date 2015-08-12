@@ -1,0 +1,672 @@
+/* ==========================================================================
+   Regions
+   ========================================================================== */
+/**
+ * Region Component
+ *
+ * This is a region component which provides a container to place other components in.
+ * Using a region will provide you with a header and body which you can style and
+ * use within your UI.  
+ *
+ * Example HTML:
+ *
+ * <div class="a-Region [modifiers]">
+ * 	<div class="a-Region-header">
+ * 		<h2 class="a-Region-title">Region Title</h2>
+ * 	</div>
+ * 	<div class="a-Region-body">
+ * 		Body
+ * 	</div>
+ * </div>
+ * 
+ * <div class="a-Region [modifiers]">
+ * 	<div class="a-Region-header">
+ * 		<div class="a-Region-headerItems a-Region-headerItems--left">
+ * 			<h2 class="a-Region-title">Region Title</h2>
+ * 		</div>
+ * 		<div class="a-Region-headerItems a-Region-headerItems--right">
+ * 			[Optional Buttons]
+ * 		</div>
+ * 	</div>
+ * 	<div class="a-Region-body">
+ * 		Body
+ * 	</div>
+ * </div>
+ *
+ */
+/* ==========================================================================
+   Region
+   ========================================================================== */
+/* line 48, ../../scss/core/Region.scss */
+.a-Region,
+.ui-dialog {
+  display: block;
+  border: 1px solid;
+  background-clip: padding-box;
+}
+
+/**
+ * Modifier: No Padding
+ *
+ * Sets Region Padding to 0
+ */
+/* line 63, ../../scss/core/Region.scss */
+.a-Region--noPadding > .a-Region-body {
+  padding: 0;
+}
+
+/**
+ * Modifier: Padded Region
+ *
+ * This applies a 12px padding to the region body
+ */
+/* line 75, ../../scss/core/Region.scss */
+.a-Region--padded .a-Region-body {
+  padding: 12px;
+}
+
+/**
+ * Modifier: Slim Padded Region
+ *
+ * This applies a 4px padding to the region body
+ */
+/* line 87, ../../scss/core/Region.scss */
+.a-Region--slimPadded .a-Region-body {
+  padding: 4px;
+}
+
+/**
+ * Modifier: No Border
+ *
+ * Remove borders and shadows from the region.
+ */
+/* line 98, ../../scss/core/Region.scss */
+.a-Region--noBorder {
+  border-width: 0 !important;
+  box-shadow: none;
+}
+/* line 101, ../../scss/core/Region.scss */
+.a-Region--noBorder > .a-Region-header {
+  background: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+/* line 106, ../../scss/core/Region.scss */
+.a-Region--noBorder.a-Region--hideShow > .a-Region-header {
+  padding-left: 0;
+}
+/* line 109, ../../scss/core/Region.scss */
+.a-Region--noBorder > .a-Region-body {
+  border: none !important;
+}
+
+/**
+ * Modifier: Show Top Button
+ *
+ * Shows a button to right of region header to jump to top of page
+ */
+/* line 121, ../../scss/core/Region.scss */
+.a-Region--showTopButton .a-Button--goToTop {
+  display: inline-block;
+}
+
+/**
+ * Modifier: Stacked Regions
+ *
+ * Remove side borders and shadows.  This is useful for accordions,
+ * and regions that can be grouped togehter into stacks.
+ */
+/* line 133, ../../scss/core/Region.scss */
+.a-Side .a-Region:first-child {
+  border-top-width: 0;
+}
+
+/**
+ * Modifier: Region with Icon
+ *
+ * This region contains an icon-based icon
+ */
+/* line 160, ../../scss/core/Region.scss */
+.a-Region--hasIcon .a-Icon.a-Icon--regionIcon {
+  width: 32px;
+  height: 32px;
+  color: #B6BCC1;
+}
+/* line 164, ../../scss/core/Region.scss */
+.a-Region--hasIcon .a-Icon.a-Icon--regionIcon:before {
+  font-size: 32px;
+}
+/* line 168, ../../scss/core/Region.scss */
+.a-Region--hasIcon .listwithicon {
+  margin-left: 0;
+}
+
+/**
+ * Modifier: Flush Region
+ *
+ * Removes padding from region body
+ */
+/* line 178, ../../scss/core/Region.scss */
+.ui-dialog.ui-dialog-flushBody .ui-dialog-content {
+  padding: 0;
+}
+
+/**
+ * Region Header
+ */
+/* line 185, ../../scss/core/Region.scss */
+.a-Region-header,
+.ui-dialog-titlebar {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom: 1px solid;
+  display: table;
+  /* 1 */
+  table-layout: auto;
+  width: 100%;
+}
+
+/* line 197, ../../scss/core/Region.scss */
+.a-Region-headerItems {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 201, ../../scss/core/Region.scss */
+.a-Region-headerItems--title {
+  text-align: left;
+}
+
+/* line 204, ../../scss/core/Region.scss */
+.a-Region-headerItems--buttons {
+  text-align: right;
+}
+
+/* line 212, ../../scss/core/Region.scss */
+.a-Region-body {
+  padding: 12px;
+}
+
+/* line 215, ../../scss/core/Region.scss */
+.a-Region-bodyHeader {
+  padding: 12px;
+}
+/* line 217, ../../scss/core/Region.scss */
+.lte-ie9 .a-Region-bodyHeader, .ie8 .a-Region-bodyHeader, .ie7 .a-Region-bodyHeader, .ie6 .a-Region-bodyHeader {
+  padding: 0px;
+}
+
+/* line 221, ../../scss/core/Region.scss */
+.a-Region-bodyHeader:empty {
+  display: none;
+}
+
+/* line 224, ../../scss/core/Region.scss */
+.a-Region-body--noBorder {
+  border: none !important;
+}
+
+/* line 229, ../../scss/core/Region.scss */
+.a-Region--scrollAuto > .a-Region-body {
+  overflow: auto;
+}
+
+/* line 234, ../../scss/core/Region.scss */
+.a-Region--shadowScroll.a-Region--heightFix > .a-Region-body {
+  position: initial;
+}
+
+/* line 237, ../../scss/core/Region.scss */
+.a-Region--shadowScroll {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 241, ../../scss/core/Region.scss */
+.a-Region--shadowScroll > .a-Region-body {
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(#ffffff 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), #ffffff 70%) 0 100%, linear-gradient(rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.025)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 12px, 100% 12px, 100% 6px, 100% 6px;
+  /* Opera doesn't support this in the shorthand */
+  background-attachment: local, local, scroll, scroll;
+  overflow: auto;
+}
+
+/* line 269, ../../scss/core/Region.scss */
+.a-Region {
+  box-shadow: none;
+  border-width: 1px 0 1px 0;
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+/* line 274, ../../scss/core/Region.scss */
+.a-Region, .a-Region .a-Region-body {
+  border-color: #E0E0E0;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+/* line 279, ../../scss/core/Region.scss */
+.a-Region .a-Region-header {
+  border-radius: 0;
+  border-bottom-width: 0;
+  background-color: #FAFAFA;
+  box-shadow: none;
+}
+/* line 285, ../../scss/core/Region.scss */
+.a-Region .a-Region-title {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 12px 0;
+  color: #404040;
+}
+/* line 291, ../../scss/core/Region.scss */
+.a-Region .a-Region-body {
+  font-size: 12px;
+  color: #707070;
+  line-height: 16px;
+}
+
+/* line 298, ../../scss/core/Region.scss */
+.a-Region--leftBorder,
+.a-Region--borderLeft {
+  border-left-width: 1px;
+}
+
+/* line 302, ../../scss/core/Region.scss */
+.a-Region--rightBorder {
+  border-right-width: 1px;
+}
+
+/* line 305, ../../scss/core/Region.scss */
+.a-Region--topBorder {
+  border-top-width: 1px;
+}
+
+/* line 308, ../../scss/core/Region.scss */
+.a-Region--bottomBorder {
+  border-bottom-width: 1px;
+  margin-bottom: 0;
+}
+
+/* line 313, ../../scss/core/Region.scss */
+.a-Region--noTopBorder {
+  border-top-width: 0;
+}
+
+/* line 317, ../../scss/core/Region.scss */
+.a-Region--touchTop {
+  margin-top: -1px !important;
+}
+
+/* line 321, ../../scss/core/Region.scss */
+.a-Region--touchBottom {
+  margin-bottom: -1px !important;
+}
+
+/* line 329, ../../scss/core/Region.scss */
+.a-Region--hideShow {
+  margin: 12px 0;
+}
+/* line 331, ../../scss/core/Region.scss */
+.a-Region--hideShow.a-Region--noBorder {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+/* line 335, ../../scss/core/Region.scss */
+.a-Region--hideShow > .a-Region-header .a-Region-headerIcon {
+  transition: transform .2s;
+  -webkit-transition: -webkit-transform 0.2s;
+}
+/* line 338, ../../scss/core/Region.scss */
+.a-Region--hideShow > .a-Region-header .a-Region-headerIcon:before {
+  padding-left: 1px;
+}
+/* line 342, ../../scss/core/Region.scss */
+.a-Region--hideShow > .a-Region-header .a-Button--hideShow {
+  border-radius: 100%;
+  padding: 4px;
+  margin: 4px 4px 4px 0;
+}
+/* line 347, ../../scss/core/Region.scss */
+.a-Region--hideShow > .a-Region-header .a-Region-headerIcon:before {
+  content: "\e016";
+}
+/* line 351, ../../scss/core/Region.scss */
+.a-Region--hideShow.is-expanded > .a-Region-body {
+  display: block;
+  height: auto;
+}
+/* line 356, ../../scss/core/Region.scss */
+.a-Region--hideShow.is-expanded > .a-Region-header .a-Button--hideShow:hover .a-Region-headerIcon {
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+/* line 360, ../../scss/core/Region.scss */
+.a-Region--hideShow.is-expanded > .a-Region-header .a-Region-headerIcon {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+/* line 366, ../../scss/core/Region.scss */
+.a-Region--hideShow.is-collapsed > .a-Region-body {
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  border-width: 0;
+}
+/* line 373, ../../scss/core/Region.scss */
+.a-Region--hideShow.is-collapsed > .a-Region-header .a-Button--hideShow:hover .a-Region-headerIcon {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+/* line 378, ../../scss/core/Region.scss */
+.a-Region--hideShow > .a-Region-header .a-Region-headerItems--title {
+  padding-left: 4px;
+  width: 100%;
+}
+
+/* line 385, ../../scss/core/Region.scss */
+.a-Region--hideHeader > .a-Region-header {
+  display: none;
+}
+
+/* line 390, ../../scss/core/Region.scss */
+.a-Region--accessibleHeader > .a-Region-header {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 396, ../../scss/core/Region.scss */
+.a-Region--hideHeader > .a-Region-body,
+.a-Region--accessibleHeader > .a-Region-body {
+  border-top-width: 0;
+}
+
+/* line 401, ../../scss/core/Region.scss */
+.a-Region--iframe {
+  border-color: #E0E0E0;
+}
+/* line 403, ../../scss/core/Region.scss */
+.a-Region--iframe .a-Region-header {
+  border-color: #E0E0E0;
+}
+/* line 406, ../../scss/core/Region.scss */
+.a-Region--iframe .a-Region-title {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 12px 0;
+  color: #404040;
+}
+/* line 412, ../../scss/core/Region.scss */
+.a-Region--iframe .a-Region-body {
+  font-size: 12px;
+  color: #707070;
+  line-height: 20px;
+}
+/* line 417, ../../scss/core/Region.scss */
+.a-Region--iframe .a-ButtonRegion {
+  margin-bottom: 0;
+  border-width: 1px 0 0 0;
+  background-color: #FAFAFA;
+  border-color: #F0F0F0;
+}
+
+/* line 425, ../../scss/core/Region.scss */
+.a-Region-regionDesc {
+  background: #FDFDFD;
+  border-bottom: 1px solid #F0F0F0;
+  padding: 14px 12px;
+  font-size: 1.2rem;
+  color: #707070;
+}
+
+/* line 433, ../../scss/core/Region.scss */
+.a-Region--simple {
+  margin-top: 12px;
+}
+/* line 435, ../../scss/core/Region.scss */
+.a-Region--simple + .a-Region--simple {
+  margin-top: 0;
+}
+/* line 438, ../../scss/core/Region.scss */
+.a-Region--simple > .a-Region-header {
+  background-color: transparent;
+  border-width: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0) 50%);
+}
+/* line 443, ../../scss/core/Region.scss */
+.a-Region--simple > .a-Region-body {
+  border-top-width: 0;
+}
+
+/* line 449, ../../scss/core/Region.scss */
+.a-Region--sideRegion > .a-Region-body {
+  color: #646464;
+}
+
+/* line 458, ../../scss/core/Region.scss */
+.a-Region--carousel {
+  overflow: hidden;
+}
+/* line 465, ../../scss/core/Region.scss */
+.a-Region--carousel .a-Region-carouselNav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 110;
+  margin: 8px 0;
+  text-align: center;
+}
+/* line 474, ../../scss/core/Region.scss */
+.a-Region--carousel .a-Region-carouselItems {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+/* line 484, ../../scss/core/Region.scss */
+.a-Region--carousel .a-Region-carouselItem {
+  overflow: hidden;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* line 489, ../../scss/core/Region.scss */
+.ie8 .a-Region--carousel .a-Region-carouselItem, .lt-ie9 .a-Region--carousel .a-Region-carouselItem {
+  display: none;
+}
+/* line 497, ../../scss/core/Region.scss */
+.a-Region--carousel .a-Region-carouselItem {
+  transition: all .5s ease;
+}
+/* line 500, ../../scss/core/Region.scss */
+.a-Region--carousel .a-Region-carouselItem.apex-rds-element-selected {
+  opacity: 1;
+  z-index: 10;
+}
+/* line 501, ../../scss/core/Region.scss */
+.ie8 .a-Region--carousel .a-Region-carouselItem.apex-rds-element-selected, .lt-ie9 .a-Region--carousel .a-Region-carouselItem.apex-rds-element-selected {
+  display: block;
+}
+/* line 508, ../../scss/core/Region.scss */
+.a-Region--carousel.a-Region--carouselSlide .a-Region-carouselItem.apex-rds-before {
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+/* line 511, ../../scss/core/Region.scss */
+.a-Region--carousel.a-Region--carouselSlide .a-Region-carouselItem.apex-rds-after {
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+}
+/* line 514, ../../scss/core/Region.scss */
+.a-Region--carousel.a-Region--carouselSlide .a-Region-carouselItem.apex-rds-element-selected {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+/* line 518, ../../scss/core/Region.scss */
+.a-Region--carousel.a-Region--carouselSpin .a-Region-carouselItem.apex-rds-before {
+  -webkit-transform: rotateY(90deg);
+          transform: rotateY(90deg);
+}
+/* line 521, ../../scss/core/Region.scss */
+.a-Region--carousel.a-Region--carouselSpin .a-Region-carouselItem.apex-rds-after {
+  -webkit-transform: rotateY(-90deg);
+          transform: rotateY(-90deg);
+}
+/* line 524, ../../scss/core/Region.scss */
+.a-Region--carousel.a-Region--carouselSpin .a-Region-carouselItem.apex-rds-element-selected {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+/* line 528, ../../scss/core/Region.scss */
+.a-Region--carousel .apex-rds-button {
+  border: none;
+  display: block;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  width: 24px;
+  height: 64px;
+  padding: 16px 4px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+  color: #FFF;
+  margin-top: -32px;
+  z-index: 100;
+  opacity: .75;
+  transition: all .2s ease;
+}
+/* line 545, ../../scss/core/Region.scss */
+.a-Region--carousel .apex-rds-button:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+/* line 551, ../../scss/core/Region.scss */
+.a-Region--carousel .apex-rds-button:active, .a-Region--carousel .apex-rds-button:active:focus {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+}
+/* line 557, ../../scss/core/Region.scss */
+.a-Region--carousel .apex-rds-button:focus {
+  opacity: 1;
+  box-shadow: 0 0 0 1px #4696FC;
+  outline: none;
+}
+/* line 563, ../../scss/core/Region.scss */
+.a-Region--carousel .apex-rds-next-region {
+  right: -1px;
+  border-radius: 2px 0 0 2px;
+  -webkit-transform: translateX(16px);
+      -ms-transform: translateX(16px);
+          transform: translateX(16px);
+}
+/* line 568, ../../scss/core/Region.scss */
+.a-Region--carousel .apex-rds-previous-region {
+  left: -1px;
+  border-radius: 0 2px 2px 0;
+  -webkit-transform: translateX(-16px);
+      -ms-transform: translateX(-16px);
+          transform: translateX(-16px);
+}
+/* line 576, ../../scss/core/Region.scss */
+.a-Region--carousel .a-Region-carouselNavItem {
+  display: inline-block;
+  margin: 0 4px;
+}
+/* line 579, ../../scss/core/Region.scss */
+.a-Region--carousel .a-Region-carouselNavItem.apex-rds-selected .a-Region-carouselLink {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+/* line 581, ../../scss/core/Region.scss */
+.a-Region--carousel .a-Region-carouselNavItem.apex-rds-selected .a-Region-carouselLink:focus {
+  outline: none;
+  background-color: #4696FC;
+  box-shadow: 0 0 1px 1px #4696FC;
+}
+/* line 588, ../../scss/core/Region.scss */
+.a-Region--carousel .a-Region-carouselLink {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 100%;
+}
+/* line 596, ../../scss/core/Region.scss */
+.a-Region--carousel .a-Region-carouselLabel {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* Featured App Container Region (4750:1)
+   ========================================================================== */
+/* line 607, ../../scss/core/Region.scss */
+.a-Region--featuredApps.a-Region--carousel .apex-rds-button {
+  width: 40px;
+  top: 68px;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: none;
+  color: #A0A0A0;
+}
+/* line 614, ../../scss/core/Region.scss */
+.a-Region--featuredApps.a-Region--carousel .apex-rds-button:hover {
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: none;
+}
+/* line 618, ../../scss/core/Region.scss */
+.a-Region--featuredApps.a-Region--carousel .apex-rds-button:active, .a-Region--featuredApps.a-Region--carousel .apex-rds-button:active:focus {
+  background: rgba(0, 0, 0, 0.1);
+  color: #A0A0A0;
+}
+/* line 623, ../../scss/core/Region.scss */
+.a-Region--featuredApps.a-Region--carousel .apex-rds-button .a-Icon {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+}
+/* line 627, ../../scss/core/Region.scss */
+.a-Region--featuredApps.a-Region--carousel .apex-rds-button .a-Icon:before {
+  font-size: 32px;
+  line-height: 32px;
+}
+/* line 633, ../../scss/core/Region.scss */
+.a-Region--featuredApps .a-Region-carouselNav {
+  display: none;
+}

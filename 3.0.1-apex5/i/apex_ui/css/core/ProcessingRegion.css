@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Processing Region (Used for showing processing spinner)
+   ========================================================================== */
+/* line 10, ../../scss/core/ProcessingRegion.scss */
+.a-ProcessingRegion {
+  min-width: 320px;
+  max-width: 480px;
+  margin: 24px auto;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  padding: 64px 24px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 20, ../../scss/core/ProcessingRegion.scss */
+.a-ProcessingRegion .u-Processing {
+  position: static;
+  margin: 0 auto;
+}
+
+/* line 26, ../../scss/core/ProcessingRegion.scss */
+.a-ProcessingRegion-title {
+  color: #FFF;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  padding: 16px 0 0 0;
+}
+
+/* line 35, ../../scss/core/ProcessingRegion.scss */
+.a-ProcessingRegion-body {
+  color: #FFF;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 39, ../../scss/core/ProcessingRegion.scss */
+.a-ProcessingRegion-body:empty {
+  display: none;
+}
+
+/* line 44, ../../scss/core/ProcessingRegion.scss */
+.a-ProcessingRegion--dialog {
+  background-color: transparent;
+}
+/* line 46, ../../scss/core/ProcessingRegion.scss */
+.a-ProcessingRegion--dialog .a-ProcessingRegion-title {
+  color: #404040;
+}
+
+/* line 51, ../../scss/core/ProcessingRegion.scss */
+.a-ProcessingRegion--slim {
+  margin: 12px auto;
+  padding: 24px;
+}

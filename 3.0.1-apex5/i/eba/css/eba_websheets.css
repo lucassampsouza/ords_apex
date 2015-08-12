@@ -1,0 +1,695 @@
+/*<div class="wsContainer">
+	<div class="wsMain">*/
+div.wsContainer {
+	width: 100%;
+	padding: 0 0 10px 0;
+	display: table;
+	}
+div.wsContainer div.wsMain {
+	display: table-cell;
+	padding: 0 10px;
+	vertical-align: top;
+	}
+div.wsContainer div.wsSide {
+	display: table-cell;
+	width: 190px;
+	border-left: 1px solid #EEE;
+	padding: 0 10px;
+	vertical-align: top;
+	}
+
+/* Main Content Headings */
+div.wsSection {
+	margin: 0 0 10px 0;
+	overflow: hidden;
+	}
+div.wsSection h1 {
+	margin: 0;
+	padding: 0;
+	font: bold 14px/30px Arial, sans-serif;
+	color: #333;
+	border-bottom: 1px solid #DDD;
+	position: relative;
+	}
+div.wsSection h1 a.wsSectionEdit {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	margin: 7px 0 0 0;
+	font: normal 11px/12px Arial, sans-serif;
+	text-decoration: none;
+	color: #666;
+	padding: 2px 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: 1px solid #EEE;
+	-webkit-transition: background .2s linear, border .2s linear, color .2s linear;
+	}
+div.wsSection h1 a.wsSectionEdit:hover {
+	border: 1px solid #BBB;
+	color: #333;
+	}
+div.wsSection h1 a.wsSectionControl {
+	display: block;
+	float: left;
+	}
+div.wsSection h1 a.wsSectionControl img {
+	width: 18px;
+	height: 18px;
+	display: block;
+	margin: 6px;
+	background: url(../img/eba_details_page_icons.png) 0 -46px no-repeat;
+	border: none;
+	}
+div.wsSection h1 a.wsSectionCollapsed img {
+	background: url(../img/eba_details_page_icons.png) 0 -28px no-repeat;
+	}
+
+/* Main Content */
+div.wsSection div.wsSectionContent {
+	margin: 10px 0 0 0;
+	}
+	div.wsSection div.wsSectionContent > a {
+		color: #000;
+		font: normal 12px/16px Arial, sans-serif;
+		}
+		
+/* Side */
+div.wsSideSection {
+	}
+	div.wsSideSection:last-child ul {
+		margin-bottom: 0;
+		}
+div.wsSideSection h2 {
+/*	display: inline-block;*/
+	border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border: 1px solid #AAA;
+	border-bottom: 1px solid #999;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#EEE),to(#CCC));
+	background: -moz-linear-gradient(top,#EEE,#CCC);
+	-webkit-box-shadow: 0 1px 0 #FFF inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.75) inset;
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	margin: 0;
+	padding: 0 10px;
+	font: bold 11px/24px Arial, sans-serif;
+	color: #333;
+	position: relative;
+	}
+/*<span>
+	<a href="#"><img src="../img/spacer.gif" class="viewAllIcon" alt="View All"></a>
+	<a href="#"><img src="../img/spacer.gif" class="addIcon" alt="Add"></a>
+</span>*/
+div.wsSideSection h2 span {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	}
+	div.wsSideSection h2 span a {
+		display: block;
+		float: left;
+		text-decoration: none;
+		margin: 0;
+		padding: 0 0 0 5px;
+		-webkit-transition: background .1s linear;
+		border-left: 1px solid rgba(0,0,0,.125);
+		}
+		div.wsSideSection h2 span a:last-child,
+		div.wsSideSection h2 span a:only-child {
+			border-radius: 0 3px 0 0;
+			-moz-border-radius: 0 3px 0 0;
+			}
+		div.wsSideSection h2 span a:hover {
+			background-color: rgba(0,0,0,.075);
+			}
+	div.wsSideSection h2 span a img.addIcon {
+		width: 10px;
+		height: 11px;
+		display: block;
+		float: left;
+		margin: 7px 8px 6px 3px;
+		background: url(../img/ws_control_icons.png) 0 0 no-repeat;
+		border: none;
+		}
+	div.wsSideSection h2 span a img.viewAllIcon {
+		width: 6px;
+		height: 11px;
+		display: block;
+		float: left;
+		margin: 7px 10px 6px 5px;
+		background: url(../img/ws_control_icons.png) 0 -11px no-repeat;
+		border: none;
+		}
+
+div.wsSideSection ul {
+	margin: 0 0 10px 0;
+	padding: 5px 0;
+	border: 1px solid #AAA;
+	border-top: none;
+	list-style: none;
+	border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	background: #FFF;
+	}
+div.wsSideSection ul li a,
+div.wsSideSection ul li.wsSideSectionNoData {
+	display: block;
+	color: #333;
+	font: normal 12px/16px Arial, sans-serif;
+	padding: 4px 10px;
+	text-decoration: none;
+	width: 170px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+div.wsSideSection ul li.wsSideSectionNoData {
+	font: normal 11px/14px Arial, sans-serif;
+	padding: 2px 10px;
+	color: #666;
+	}
+div.wsSideSection ul li a:hover {
+	text-decoration: underline;
+	}
+
+/* Files */
+div.wsSideSection ul li:nth-child(2n) {
+	background-color: #F8F8F8;
+	}
+div.wsSideSection ul li a img {
+	border: none;
+	vertical-align: text-bottom;
+	margin-right: 5px;
+	}
+	
+/* Side Section Hovers */
+/*class="wsSideTooltips" id="wsNotes"*/
+ul.wsSideTooltips li {
+	position: relative;
+	}
+ul.wsSideTooltips li > span {
+	display: none;
+	position: absolute;
+	right: 184px;
+	top: 0;
+	padding-right: 10px;
+	background: url(../img/wsSideToolTips.png) 100% 0 no-repeat;
+	}
+	ul.wsSideTooltips li > span > span {
+		white-space: normal;
+		font: normal 11px/16px Arial, sans-serif;
+		display: block;
+		min-width: 180px;
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#F0F0F0), to(#E8E8E8));
+		background: -moz-linear-gradient(top, #F0F0F0, #E8E8E8);
+		padding: 6px;
+		border-radius: 4px;
+		border: 2px solid #444;
+		z-index: 1000;
+		-moz-box-shadow: 0 1px 2px rgba(0,0,0,.25);
+		box-shadow: -1px 1px 2px rgba(0,0,0,.15);
+		color: #333;
+		}
+	ul.wsSideTooltips li span em.annotationInfo {
+		display: block;
+		padding-top: 10px;
+		font: normal 11px/12px Arial, sans-serif;
+		}
+		ul.wsSideTooltips li span em.annotationInfo strong {
+			display: block;
+			font-weight: bold;
+			}
+		
+/* Notes Tooltips */
+ul#wsNotes li > span {
+	background: url(../img/wsSideToolTips.png) 100% -200px no-repeat;
+	font: normal 13px/16px Arial, sans-serif;
+	}
+ul#wsNotes li > span > span {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#F6F2A7), to(#F8F08A));
+	background: -moz-linear-gradient(top, #F6F2A7, #F8F08A);
+	border: 2px solid #d9c300;
+	color: #474106;
+	}
+
+/* Control Panel */
+/*<div class="wsControlPanel">
+	<h2>Control Panel</h2>*/
+
+div.wsControlPanel {
+	margin: 0 0 10px 0;
+	}
+div.wsControlPanel h2 {
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	border: 1px solid #AAA;
+	border-bottom: 1px solid #999;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(#EEE),to(#CCC));
+	background: -moz-linear-gradient(top,#EEE,#CCC);
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.75) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.75) inset;
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	margin: 0;
+	padding: 0 10px;
+	font: bold 11px/24px Arial, sans-serif;
+	color: #333;
+	position: relative
+	}
+	div.wsControlPanel h2.wsControlPanelClosed {
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		}
+		div.wsControlPanel h2.wsControlPanelClosed a img {
+			background: url(../img/ws_control_icons.png) -20px 0 no-repeat;
+			}
+	div.wsControlPanel h2 a {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 0 0 0 5px;
+		border-left: 1px solid rgba(0,0,0,0.125);
+		-webkit-transition: background-color .1s linear;
+		}
+		div.wsControlPanel h2 a img {
+			background: url(../img/ws_control_icons.png) -10px 0 no-repeat;
+			width: 10px;
+			height: 11px;
+			margin: 7px 8px 6px 3px;
+			display: block;
+			float: left;
+			border: 0;
+			}
+		div.wsControlPanel h2 a:hover {
+			background-color: rgba(0,0,0,.075);
+			}
+	
+div.wsControlPanel ul {
+	margin: 0 0 0 0;
+	padding: 5px 0;
+	border: 1px solid #AAA;
+	border-top: none;
+	list-style: none;
+	border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	background: #EEE;
+	}
+div.wsControlPanel ul li a {
+	display: block;
+	color: #333;
+	font: normal 12px/16px Arial, sans-serif;
+	padding: 4px 10px;
+	text-decoration: none;
+	width: 170px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+	div.wsControlPanel ul li a:hover {
+		background-color: rgba(0,0,0,.1);
+		}
+div.wsControlPanel ul li.wsSeparator {
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #F8F8F8;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+	
+div.wsControlPanel ul li a img {
+	border: none;
+	vertical-align: text-bottom;
+	margin-right: 5px;
+	}
+
+
+
+/* Bread Crumbs */
+div.wsBCBar {
+	position: relative;
+	margin: 0 0 10px 0;
+	}
+/*<span class="wsBCBarLinks">
+	<a href="#"><img src="../img/spacer.gif" class="wsMailIcon" alt="Email" /></a>
+	<a href="#"><img src="../img/spacer.gif" class="wsPrintIcon" alt="Email" /></a>
+</span>*/
+span.wsBCBarLinks {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	}
+	span.wsBCBarLinks a {
+		display: block;
+		float: left;
+		}
+		span.wsBCBarLinks a img {
+			background-image: url(../img/ws_control_icons.png);
+			background-repeat: no-repeat;
+			display: block;
+			border: none;
+			}
+		span.wsBCBarLinks a img.wsMailIcon {
+			background-position: -10px -11px;
+			width: 16px;
+			height: 13px;
+			margin: 5px 5px 4px 5px;
+			}
+ul.wsBC {
+	margin: 0 0 0 -1px;
+	padding: 0;
+	list-style: none;
+	height: 24px;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#F8F8F8), to(#DDD));
+	background: -moz-linear-gradient(top,#F8F8F8,#DDD);
+	-webkit-box-shadow: 0 -1px 0 rgba(0,0,0,.25) inset;
+	-moz-box-shadow: 0 -1px 0 rgba(0,0,0,.25) inset;
+	}
+ul.wsBC > li {
+	display: block;
+	float: left;
+	position: relative;
+	}
+	ul.wsBC > li > a {
+		display: block;
+		float: left;
+		font: bold 11px/24px Arial, sans-serif;
+		padding: 0 19px 0 9px;
+		color: #666;
+		text-shadow: 0 1px 0 rgba(255,255,255,.75);
+		text-decoration: none;
+		background: url(../img/ws_bc.png) 100% 0 no-repeat;
+		border-right: 1px solid rgba(0,0,0,.05);
+		border-left: 1px solid transparent;
+		}
+ul.wsBC > li > a:hover,
+ul.wsBC > li:last-child > a:hover,
+ul.wsBC > li.lastChild > a:hover,
+ul.wsBC > li.active > a {
+	color: #333;
+	background: url(../img/ws_bc.png) 100% -50px no-repeat #FFF !important;
+	border-right: 1px solid #BBB;
+	border-left: 1px solid #BBB;
+	}
+ul.wsBC > li:last-child > a,
+ul.wsBC > li.lastChild > a {
+	color: #333;
+	background: url(../img/ws_bc.png) 100% -100px no-repeat;
+	}
+ul.wsBC > li:last-child > a.noChildren,
+ul.wsBC > li.lastChild > a.noChildren,
+ul.wsBC > li:last-child > a.noChildren:hover
+ul.wsBC > li.lastChild > a.noChildren:hover {
+	background: none !important;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+	padding: 0 9px 0 9px;
+	}
+	
+ul.wsBC ul.wsBCSub li a img {
+	border: none;
+	vertical-align: text-bottom;
+	margin-right: 5px;
+	}
+	
+ul.wsBC ul.wsBCSub {
+	display: none;
+	position: absolute;
+	top: 24px;
+	left: 0;
+	white-space: nowrap;
+	z-index: 100;
+	margin: 0;
+	padding: 5px 0;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+	background: #FFF;
+	border: 1px solid #BBB;
+	border-top: none;
+	list-style: none;
+	min-width: 200px;
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,.25);
+	}
+	ul.wsBC ul.wsBCSub li a {
+		display: block;
+		font: normal 11px/20px Arial, sans-serif;
+		color: #333;
+		text-decoration: none;
+		padding: 0 10px;
+		}
+	ul.wsBC ul.wsBCSub li a:hover {
+		background-color: #EEE;
+		}
+		
+/* Section Navigation */
+ul.wsSectionNavigation {
+	margin: 10px 0 0 10px;
+	padding: 0;
+	list-style: none;
+	}
+	ul.wsSectionNavigation li {
+		padding: 0;
+		}
+	ul.wsSectionNavigation li a {
+		font: normal 12px/20px Arial, sans-serif;
+		color: #333 !important;
+		text-decoration: none;
+		}
+		ul.wsSectionNavigation li a:hover {
+			text-decoration: underline;
+			}
+	ul.wsSectionNavigation li a img {
+		border: none;
+		vertical-align: text-bottom;
+		margin-right: 5px;
+		}
+		
+/* Format TEXT Sections */
+div.wsTextSection {
+	font: normal 12px/16px Arial, sans-serif;
+	}
+div.wsTextSection p {
+	margin: 0 0 10px 0;
+	font: normal 12px/16px Arial, sans-serif;
+	}
+div.wsTextSection p:empty {
+	display: none;
+}
+div.wsTextSection a {
+	color: #888;
+	}
+div.wsTextSection > ul,
+div.wsTextSection > ol {
+	margin: 10px 0 10px 25px;
+	padding: 0;
+	}
+div.wsTextSection > ul {
+	list-style: square outside;
+	}
+	div.wsTextSection > ul li {
+		font: normal 12px/16px;
+		}
+	div.wsTextSection > ul ul {
+		list-style: square outside;
+		margin: 2px 0 2px 20px;
+		padding: 0;
+		}
+div.wsTextSection table {
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-spacing: 0;
+	border-collapse: collapse;
+	}
+div.wsTextSection table td,
+div.wsTextSection table th {
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	padding: 5px;
+	font: normal 12px/16px Arial, sans-serif;
+	color: #333;
+	}
+div.wsTextSection table th {
+	text-align: left;
+	background: #EEE;
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	font-weight: bold;
+	}
+div.wsTextSection table th > p {
+	margin: 0;
+	}
+
+
+
+/* Footer */
+div.wsFooter {
+	margin-bottom: 40px;
+	}
+div.wsFooter p {
+	font: normal 11px/16px Arial, sans-serif;
+	margin: 0;
+	color: #666;
+	}
+div.wsFooter p.alignRight {
+	float: right;
+	text-align: right;
+	}
+div.wsFooter p a {
+	color: #333;
+	}
+	
+/* Tool bar */
+#htmldbDevToolbar {
+	font: normal 11px/16px Arial, sans-serif;
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 4px;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+		background: #DDD;
+    -moz-box-shadow: 2px 0px 10px #888;
+    -webkit-box-shadow: 2px 0px 10px #888;
+    box-shadow: 2px 0px 10px #888;
+}
+
+#htmldbDevToolbar td {
+    white-space: nowrap;
+}
+
+a.htmldbToolbar,a.htmldbToolbar:visited,a.htmldbToolbar:link {
+    line-height: 1.3em;
+    font-size: 10px;
+    border: 1px solid #808080;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 1px 8px 2px 8px;
+    margin: 0 2px;
+    font-weight: bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+		background: #DDD;
+}
+
+a.htmldbToolbar:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #CCC;
+    background-repeat: repeat-x;
+}
+
+/* Tree */
+div.tree {
+	font: normal 12px/16px Arial, sans-serif;
+	}
+	
+/*<div class="wsRegion">
+	<h1>Ace Hardware
+		<span>
+			<a href="#">Email</a>
+			<a href="#">Edit Account</a>
+		</span>
+	</h1>
+	<div class="wsBodyContainer">
+		<div class="wsBody">
+			Content Here
+		</div>
+	</div>
+</div>*/
+div#wsSubPage.wsAFBody {
+	background-color: #EEE;
+	}
+div.wsContainer > div.wsRegion {
+	margin: 40px auto;
+	min-width: 600px;
+	max-width: 80%;
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	border-radius: 6px;
+	background: #FFF;
+	}
+
+div.wsRegion {
+	
+	}
+div.wsRegion h1 {
+	background: -webkit-gradient(linear,0 0,0 100%, from(#EEE), to(#CCC));
+	background: -moz-linear-gradient(top,#EEE,#CCC);
+	border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	-moz-border-radius: 6px 6px 0 0;
+	border: 1px solid #999;
+	border-bottom: 1px solid #888;
+	-webkit-box-shadow: 0 1px 0 0 rgba(255,255,255,.75) inset;
+	-moz-box-shadow: 0 1px 0 0 rgba(255,255,255,.75) inset;
+	position: relative;
+	margin: 0;
+	padding: 0 10px;
+	font: bold 14px/40px Arial, sans-serif;
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	color: #333;
+	color: rgba(0,0,0,.8);
+	}
+div.wsRegion h1 > span {
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 0;
+	}
+/* Standard Button */
+div.wsRegion h1 > span a {
+	display: block;
+	float: left;
+	font: bold 11px/12px Arial, sans-serif;
+	padding: 4px 8px;
+	background: -webkit-gradient(linear,0 0,0 100%, from(#F0F0F0), to(#CCC));
+	background: -moz-linear-gradient(top,#F0F0F0),#CCC);
+	margin: 8px 8px 8px 0;
+	border: 1px solid #666;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	color: rgba(0,0,0,.75);
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	text-decoration: none;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 0 rgba(255,255,255,.75) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 0 rgba(255,255,255,.75) inset;
+	}
+div.wsRegion h1 > span a:active {
+	background: -webkit-gradient(linear,0 0,0 100%, from(#D0D0D0), to(#AAA));
+	background: -moz-linear-gradient(top,#D0D0D0,#AAA);
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 2px rgba(0,0,0,.5) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 2px rgba(0,0,0,.5) inset;
+	}
+/* Hot Button */
+div.wsRegion h1 > span a.wsHotButton {
+	border: 1px solid #822024;
+	background: -webkit-gradient(linear,0 0,0 100%, from(#EB0014), to(#C3000F));
+	color: #FFF;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.35);
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 0 rgba(255,255,255,.50) inset;
+	}
+div.wsRegion h1 > span a.wsHotButton:active {
+background: -webkit-gradient(linear,0 0,0 100%, from(#CE0014), to(#A2000D));
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 2px rgba(0,0,0,.5) inset;
+	}
+
+div.wsRegion div.wsBodyContainer {
+	border: 1px solid #999;
+	border-top: none;
+	border-radius: 0 0 6px 6px;
+	margin: 0 0 10px 0;
+	}
+div.wsRegion div.wsBodyContainer div.wsBody {
+	padding: 10px;
+	font: normal 12px/16px Arial, sans-serif;
+	}
+
+div.wsFixedWidth {
+	margin: 0 auto;
+	min-width: 760px;
+	max-width: 960px;
+	}

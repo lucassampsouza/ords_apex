@@ -1,0 +1,130 @@
+/* ==========================================================================
+   Searchbox Widget with Icon + Go Button
+   ========================================================================== */
+/* line 10, ../../scss/core/SearchBox.scss */
+.a-SearchBox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 14, ../../scss/core/SearchBox.scss */
+.a-SearchBox--noGoButton .a-SearchBox-field {
+  border-right-width: 1px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+/* line 19, ../../scss/core/SearchBox.scss */
+.a-SearchBox--noGoButton .a-SearchBox-input {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/* line 26, ../../scss/core/SearchBox.scss */
+.a-SearchBox--small .a-SearchBox-icon {
+  padding: 0;
+  height: 16px;
+  width: 16px;
+}
+/* line 31, ../../scss/core/SearchBox.scss */
+.a-SearchBox--small .a-SearchBox-input {
+  height: 24px;
+  padding: 4px 8px 4px 24px;
+  line-height: 16px;
+}
+
+/* line 37, ../../scss/core/SearchBox.scss */
+.a-SearchBox-field {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: inline-block;
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  vertical-align: top;
+  position: relative;
+  background-clip: padding-box;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 49, ../../scss/core/SearchBox.scss */
+  .a-SearchBox-field {
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+  }
+}
+/* line 53, ../../scss/core/SearchBox.scss */
+.a-SearchBox-input {
+  padding: 4px 8px 4px 30px;
+  margin: 0;
+  width: 100%;
+  border: none;
+  line-height: 22px;
+  height: 30px;
+  font-size: 14px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: transparent;
+}
+/* line 64, ../../scss/core/SearchBox.scss */
+.a-SearchBox-input:focus, .a-SearchBox-input.is-focused {
+  outline: none;
+  position: relative;
+  z-index: 10;
+}
+
+/* line 71, ../../scss/core/SearchBox.scss */
+.a-Button.a-SearchBox-button,
+.a-SearchBox-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3px;
+  border-radius: 2px;
+  width: 22px;
+  height: 22px;
+  margin: 4px;
+  z-index: 11;
+}
+
+/* line 87, ../../scss/core/SearchBox.scss */
+.a-SearchBox--autoExpand .a-SearchBox-field {
+  border-right-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 0;
+}
+/* line 94, ../../scss/core/SearchBox.scss */
+.a-SearchBox--autoExpand .a-SearchBox-input {
+  padding-right: 0;
+  width: 0;
+  transition: width .2s;
+}
+/* line 99, ../../scss/core/SearchBox.scss */
+.a-SearchBox--autoExpand .a-SearchBox-field:hover {
+  background-color: #fff;
+}
+/* line 103, ../../scss/core/SearchBox.scss */
+.a-SearchBox--autoExpand .a-SearchBox-field:hover .a-SearchBox-input,
+.a-SearchBox--autoExpand .a-SearchBox-input:focus {
+  background-color: #FFF;
+  width: 256px;
+}
+
+/* line 111, ../../scss/core/SearchBox.scss */
+.a-SearchBox--fill .a-SearchBox-field {
+  min-width: 40px;
+}
+/* line 114, ../../scss/core/SearchBox.scss */
+.a-SearchBox--fill .a-SearchBox-input {
+  height: 38px;
+  border-radius: 0;
+}
+/* line 119, ../../scss/core/SearchBox.scss */
+.a-SearchBox--fill .a-SearchBox-icon {
+  margin: 8px 4px 8px 8px;
+}

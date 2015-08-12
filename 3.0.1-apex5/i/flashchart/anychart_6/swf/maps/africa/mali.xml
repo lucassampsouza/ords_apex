@@ -1,0 +1,54 @@
+<map_data>
+ <name>mali</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-12.2448329925537" top="25.0002746582031" right="4.2524995803833" bottom="10.1438884735107"/>
+ <regions>
+  <region>
+   <centroid lat="13.4881935119629" lon="-7.57511281967163"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MLI-BAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bamako]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.9576711654663" lon="-1.16236162185669"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MLI-GAO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gao]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7986650466919" lon="-10.1838054656982"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MLI-KAY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kayes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.6810255050659" lon="-3.21698850393295"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MLI-MOP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mopti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.0862455368042" lon="-5.54434895515442"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MLI-SEG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Segou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.6862487792969" lon="-6.52416753768921"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MLI-SKS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sikasso]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

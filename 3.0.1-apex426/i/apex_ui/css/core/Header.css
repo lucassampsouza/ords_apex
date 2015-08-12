@@ -1,0 +1,382 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+/* line 9, ../../scss/core/Header.scss */
+.a-Header {
+  position: relative;
+}
+
+/* line 12, ../../scss/core/Header.scss */
+.a-Header-col {
+  display: block;
+}
+
+/* line 15, ../../scss/core/Header.scss */
+.a-Header-col--left {
+  padding-right: 208px;
+  font-size: 0;
+}
+/* line 19, ../../scss/core/Header.scss */
+.a-Header-col--left > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 24, ../../scss/core/Header.scss */
+.a-Header-col--right {
+  float: right;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #F8F8F8;
+  box-shadow: 0 -1px 0 #E0E0E0 inset;
+}
+/* line 32, ../../scss/core/Header.scss */
+.a-Header-col--right > div {
+  float: left;
+  display: block;
+}
+
+/* line 37, ../../scss/core/Header.scss */
+.a-Header--login,
+.a-Page--simpleWizard .a-Header {
+  z-index: 800;
+}
+
+/* line 41, ../../scss/core/Header.scss */
+.a-Header--login .a-Header-col--right {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/* line 45, ../../scss/core/Header.scss */
+.a-Header-logo {
+  padding: 10px 12px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 53, ../../scss/core/Header.scss */
+.a-Header-apexLogo {
+  background-image: url(../img/apex-logo.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: inline-block;
+  font-weight: bold;
+  width: 212px;
+  height: 20px;
+  vertical-align: top;
+  margin: 0 0;
+}
+@media only screen and (max-width: 768px) {
+  /* line 53, ../../scss/core/Header.scss */
+  .a-Header-apexLogo {
+    width: 96px;
+  }
+}
+
+/* line 70, ../../scss/core/Header.scss */
+.a-Header-tabsContainer {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 77, ../../scss/core/Header.scss */
+.a-Header-tabsContainer {
+  background-color: transparent;
+}
+/* line 79, ../../scss/core/Header.scss */
+.a-Header-tabsContainer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/* line 86, ../../scss/core/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* line 92, ../../scss/core/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item.is-expanded {
+  box-shadow: none;
+  outline: none;
+}
+/* line 97, ../../scss/core/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item > .a-Menu-subMenuCol {
+  vertical-align: top;
+  padding: 9px 12px 9px 2px;
+  border: none;
+  margin: 0;
+  cursor: pointer;
+}
+/* line 106, ../../scss/core/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item > .a-Menu-subMenuCol .a-Icon {
+  padding: 2px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 100%;
+}
+/* line 114, ../../scss/core/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-label {
+  display: inline-block;
+  font-size: 12px;
+  padding: 12px 12px 12px 12px;
+  text-decoration: none;
+}
+/* line 119, ../../scss/core/Header.scss */
+.a-Header-tabItem--withIcon .a-Header-tabsContainer .a-MenuBar-label {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+/* line 123, ../../scss/core/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-label:hover {
+  background-clip: padding-box;
+}
+/* line 128, ../../scss/core/Header.scss */
+.a-Header-tabsContainer .a-Header-tabLabel {
+  margin-left: 4px;
+}
+@media only screen and (max-width: 920px) {
+  /* line 128, ../../scss/core/Header.scss */
+  .a-Header-tabsContainer .a-Header-tabLabel {
+    display: none;
+  }
+}
+
+/* line 138, ../../scss/core/Header.scss */
+body .a-Menu button.a-Menu-label, body .a-MenuBar button.a-MenuBar-label {
+  text-align: left;
+}
+
+/* line 143, ../../scss/core/Header.scss */
+.a-Header-account {
+  position: relative;
+}
+
+/* line 152, ../../scss/core/Header.scss */
+.a-Header-userPhoto {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  vertical-align: top;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 161, ../../scss/core/Header.scss */
+.a-Header-photoPlaceholder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 100%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+}
+
+/* line 170, ../../scss/core/Header.scss */
+.a-Header-userPhoto--large,
+.a-Header-userPhoto--large .a-Icon,
+.a-Header-userPhoto--large img {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 176, ../../scss/core/Header.scss */
+.a-Header-userPhoto--large .a-Icon:before {
+  font-size: 64px;
+}
+
+/* line 179, ../../scss/core/Header.scss */
+.a-Header-userName {
+  display: inline;
+  margin: 0 2px;
+  line-height: 24px;
+  vertical-align: top;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 120px;
+}
+@media only screen and (max-width: 1280px) {
+  /* line 179, ../../scss/core/Header.scss */
+  .a-Header-userName {
+    display: none;
+  }
+}
+
+/* line 191, ../../scss/core/Header.scss */
+.a-Header-userName + .a-Icon {
+  margin: 4px 0;
+}
+
+/* line 196, ../../scss/core/Header.scss */
+.a-Header-search .a-SearchBox {
+  position: relative;
+  z-index: 100;
+}
+/* line 199, ../../scss/core/Header.scss */
+.a-Header-search .a-SearchBox:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 1px;
+  z-index: 1;
+}
+
+/* line 223, ../../scss/core/Header.scss */
+.a-Header-accountDialog {
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  z-index: 1000;
+  display: none;
+  width: 320px;
+  border: 1px solid;
+  border-top-width: 0;
+  border-right-width: 0;
+}
+/* line 235, ../../scss/core/Header.scss */
+.a-Header-accountDialog .a-Menu-content {
+  box-shadow: none;
+  border-radius: 0;
+  border-width: 0;
+  background-color: transparent;
+}
+/* line 241, ../../scss/core/Header.scss */
+.a-Header-accountDialog.a-Menu .a-Menu-label {
+  padding: 0;
+}
+/* line 244, ../../scss/core/Header.scss */
+.a-Header-accountDialog.a-Menu .a-Menu-item {
+  display: inherit;
+  color: inherit;
+  line-height: inherit;
+  float: none;
+}
+/* line 249, ../../scss/core/Header.scss */
+.a-Header-accountDialog.a-Menu .a-Menu-item.is-focused {
+  background-color: inherit;
+  color: inherit;
+}
+/* line 254, ../../scss/core/Header.scss */
+.a-Header-accountDialog.a-Menu .a-MediaBlock-content .a-Menu-item.a-Menu-label {
+  cursor: default;
+}
+/* line 258, ../../scss/core/Header.scss */
+.a-Header-accountDialog.a-Menu .a-Menu-content .a-Menu-item.is-focused:not(:hover) {
+  box-shadow: 0 0 0 1px rgba(57, 155, 234, 0.5) inset;
+  border-radius: 2px;
+}
+/* line 263, ../../scss/core/Header.scss */
+.a-Header-accountDialog .a-MediaBlock {
+  padding: 16px;
+}
+/* line 266, ../../scss/core/Header.scss */
+.a-Header-accountDialog .a-MediaBlock-graphic {
+  margin-right: 16px;
+}
+/* line 269, ../../scss/core/Header.scss */
+.a-Header-accountDialog .a-MediaBlock-content {
+  padding: 4px 0;
+}
+
+/* line 274, ../../scss/core/Header.scss */
+.a-Header-dialogText {
+  display: block;
+  line-height: 16px;
+}
+
+/* line 278, ../../scss/core/Header.scss */
+.a-Header-dialogName {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* line 283, ../../scss/core/Header.scss */
+.a-Header-dialogUsername {
+  font-size: 11px;
+  font-weight: normal;
+}
+
+/* line 287, ../../scss/core/Header.scss */
+.a-Header-dialogLabel {
+  margin-top: 16px;
+  line-height: 10px;
+  font-size: 9px;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* line 294, ../../scss/core/Header.scss */
+.a-Header-dialogValue {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* line 298, ../../scss/core/Header.scss */
+.a-Header-accountDialog-buttons {
+  border-top: 1px solid;
+}
+/* line 300, ../../scss/core/Header.scss */
+.a-Header-accountDialog-buttons .a-Toolbar-items {
+  padding: 16px;
+}
+/* line 303, ../../scss/core/Header.scss */
+.a-Header-accountDialog-buttons .a-Button.a-Menu-item.a-Menu-label {
+  padding: 8px 12px;
+  line-height: 16px;
+  transition: none;
+  display: inline-block;
+}
+/* line 308, ../../scss/core/Header.scss */
+.a-Header-accountDialog-buttons .a-Button.a-Menu-item.a-Menu-label.is-focused:focus:hover {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset, 0 1px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* line 316, ../../scss/core/Header.scss */
+.a-Header-accountDialog-editProfile.a-Menu-item.a-Menu-label,
+.a-Menu-content .a-Header-dialogLink.a-Menu-item .a-Menu-label {
+  display: block;
+  margin-top: 4px;
+  color: #146fb8;
+}
+/* line 321, ../../scss/core/Header.scss */
+.a-Header-accountDialog-editProfile.a-Menu-item.a-Menu-label:hover,
+.a-Menu-content .a-Header-dialogLink.a-Menu-item .a-Menu-label:hover {
+  color: #146fb8;
+  text-decoration: underline;
+}
+
+/* line 326, ../../scss/core/Header.scss */
+.a-Header-accountDialog-editProfile.a-Menu-item.a-Menu-label {
+  text-align: center;
+}
+
+/* line 329, ../../scss/core/Header.scss */
+.a-Header-accountDialog-editProfile.a-Menu-item.a-Menu-label,
+.a-Header-dialogLink.a-Menu-item .a-Menu-label {
+  font-size: 11px;
+  line-height: 16px;
+  padding: 0;
+  border-radius: 2px;
+  transition: none;
+}
+
+/* line 338, ../../scss/core/Header.scss */
+.apex-instance-admin .a-Header-tabsContainer .a-MenuBar-item.a-Menu--current {
+  box-shadow: none;
+}

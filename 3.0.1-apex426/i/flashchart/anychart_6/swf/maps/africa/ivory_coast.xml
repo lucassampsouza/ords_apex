@@ -1,0 +1,362 @@
+<map_data>
+ <name>ivory_coast</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-8.60638427734375" top="10.7352561950684" right="-2.4877781867981" bottom="4.35055541992188"/>
+ <regions>
+  <region>
+   <centroid lat="7.08375215530396" lon="-3.36847257614136"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-AGN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Agnibilekrou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.4438169002533" lon="-3.47406911849976"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-ABN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Abengourou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.35249900817871" lon="-4.44138145446777"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-DBK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dabakala]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.67066717147827" lon="-3.13961744308472"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-ABS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aboisso]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.19280242919922" lon="-3.76833367347717"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-ADZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Adzope]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.94111061096191" lon="-4.28791952133179"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-AGB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Agboville]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.77623414993286" lon="-7.59472274780273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-BNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Biankouma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.14402675628662" lon="-3.45400595664978"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-BON]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bouna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.66152667999268" lon="-6.51236152648926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-BNL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boundiali]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.2008957862854" lon="-8.16098594665527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-DAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Danane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.64337301254272" lon="-5.40659475326538"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-DIV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Divo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.53567790985107" lon="-4.79875016212463"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-FRK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ferkessedougou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.09893274307251" lon="-6.06446170806885"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-GAG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gagnoa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.67888784408569" lon="-5.23166036605835"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-KAT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Katiola]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.47783279418945" lon="-5.80440425872803"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-KRH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Korhogo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.48253154754639" lon="-7.37013959884644"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-ODN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Odienne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.4158673286438" lon="-6.7383337020874"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-SEG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seguela]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.45664167404175" lon="-7.66358757019043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-TOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Touba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.590416431427" lon="-4.26944494247437"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-BGA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bongouanou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.46694374084473" lon="-6.52706527709961"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-ISS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Issia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.85687780380249" lon="-5.76522779464722"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-LKT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lakota]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.41454315185547" lon="-6.02930593490601"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-MNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mankono]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.40347146987915" lon="-5.48125028610229"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-OUM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oume]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.94079804420471" lon="-6.66097259521484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-SOB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soubre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.4748601913452" lon="-6.43250036239624"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-TNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tengrela]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.45476055145264" lon="-6.08083343505859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-ZNL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zuenoula]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.52472162246704" lon="-4.11611151695251"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-ABD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Abidjan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.02735829353333" lon="-7.51292085647583"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-BNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bangolo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.77936553955078" lon="-5.56264972686768"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-BEM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Beoumi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.26306009292603" lon="-3.26750063896179"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-BND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bondoukou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.08559131622314" lon="-5.82271862030029"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-BOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bouafle]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.74791574478149" lon="-4.96360158920288"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-BOA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bouake]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.934166431427" lon="-6.49832582473755"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-DAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Daloa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.23261499404907" lon="-4.0073778629303"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-DKR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Daoukro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.00041627883911" lon="-4.49311971664429"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-DMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dimbokro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.64597177505493" lon="-7.29586601257324"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-DUK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Duekoue]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.44667148590088" lon="-5.07986164093018"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-GRL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grand-Lahou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.29987764358521" lon="-7.84166479110718"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-GUI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guiglo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.35707950592041" lon="-7.47879695892334"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-MAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Man]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.67602396011353" lon="-4.11638903617859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-MBH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mbahiakro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.43416595458984" lon="-5.41694498062134"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-SKS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sakassou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.00806522369385" lon="-6.75210046768188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-SNP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San-Pedro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.33320474624634" lon="-6.09291744232178"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-SSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sassandra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.63472175598145" lon="-5.76584625244141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-SNF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sinfra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.01767635345459" lon="-7.29027795791626"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-TAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tabou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.53114366531372" lon="-3.36707735061646"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-TND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tanda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.96416616439819" lon="-4.85380411148071"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-TSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tiassale]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.4917254447937" lon="-5.01027822494507"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-TMD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Toumodi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.41688299179077" lon="-6.59435939788818"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-VAV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vavoua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.04485988616943" lon="-5.15554285049438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CIV-YMS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yamoussoukro]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

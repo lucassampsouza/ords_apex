@@ -1,0 +1,366 @@
+*{font-size:12px;font-family:Arial, Helvetica, Geneva, sans-serif;}
+body{background-color:#FFF;font-family:Arial,Helvetica,Geneva,sans-serif;margin:0;padding:0;}
+td,body,p,div,span{font-family:Arial,Helvetica,Geneva,sans-serif;font-size:9pt;color:#000;}
+a:link,a:visited{text-decoration:none;font-size:-1;color:#000;}
+a:active,a:hover{text-decoration:underline;font-size:-1;color:red;}
+/* used to preserve 3.1 and 3.2 block display behavior */
+fieldset.checkbox_group, fieldset.datepicker, fieldset.lov, fieldset.radio_group, fieldset.textarea, fieldset.shuttle, fieldset.colorpicker, fieldset.html_editor, fieldset.listmanager {
+  display:block;
+}
+.t14RegionHeader{font-weight:700;color:#ffffff;background-color:#99BF9D;border-bottom:1px solid #99BF9D;padding:2px 8px;white-space:nowrap;}
+.t14ButtonHolder{text-align:right;padding:2px;}
+.t14RegionHeaderButtonHolder{text-align:right;font-weight:700;color:#ffffff;background-color:#99BF9D;border-bottom:1px solid #99BF9D;padding:2px 8px;white-space:nowrap;}
+#t14NavBar{text-align:right;white-space:nowrap;padding:5px;}
+#t14BreadCrumbsLeft{font-weight:700;height:20px;padding:2px 5px;}
+#t14BreadCrumbsRight{font-weight:700;height:20px;padding:2px 5px;}
+#t14ContentLeft{width:200px;}
+#t14Messages{text-align:center;}
+#t14Success{background-color:#99BF9D;border:3px solid #99BF9D;width:600px;margin:5px auto;padding:5px;}
+#t14Notification{background-color:#99BF9D;border:3px solid #99BF9D;width:600px;margin:5px auto;padding:5px;}
+#t14PageFooter{height:20px;border-top:1px solid #000;padding:2px 5px;}
+#t14PageFooter #t14Left{text-align:left;}
+#t14PageFooter #t14Right{text-align:right;}
+#t14Customize *{font-size:9pt;}
+.t14Login{text-align:center;width:300px;border:2px double #99BF9D;margin:40px auto;padding:25px;}
+#t14NavBar a.t14NavBar,#t14NavBar a.t14NavBar:visited{color:#666;text-decoration:none;margin:0 3px;}
+#t14NavBar a.t14NavBar:hover{text-decoration:underline;}
+#t14Tabs{border-top:1px solid #CCCCCC;border-bottom:1px solid #CCCCCC;text-align:center;}
+td.t14CurrentTab{white-space:nowrap;border-left:1px solid #CCCCCC;vetical-align:middle;padding:0;}
+td.t14Tab{white-space:nowrap;border-left:1px solid #CCCCCC;vetical-align:middle;padding:0;}
+td.t14CurrentTab a,td.t14CurrentTab span{font-weight:700;background-color:#99BF9D;display:block;text-decoration:none;color:#FFF;margin:0;padding:8px;}
+td.t14Tab a:link,td.t14Tab a:visited{font-weight:700;display:block;text-decoration:none;margin:0;padding:8px;}
+td.t14Tab a:hover{background-color:#99BF9D;color:#FFF;}
+td.t14CurrentTab2{padding:0 4px;}
+td.t14Tab2{padding:0 4px;}
+td.t14CurrentTab2 span,td.t14CurrentTab2 a:link,td.t14CurrentTab2 a:visited{display:block;text-decoration:none;color:#7A997E;margin:0;}
+td.t14Tab2 a:link,td.t14Tab2 a:visited{display:block;text-decoration:none;margin:0;}
+td.t14Tab2 a:hover{color:#7A997E;}
+.t14ColorBlock{background-color:#7A997E;height:10px;}
+.t14ChildTabs{text-align:center;background-color:#FFF;padding-bottom:4px;}
+.t14childtabcurrent{margin-left:3px;margin-right:3px;background-color:#99BF9D;border:2px solid #000;border-top:none;text-decoration:none;padding:2px;}
+.t14childtab{margin-left:3px;margin-right:3px;border:2px solid #000;border-top:none;text-decoration:none;padding:2px;}
+input.t14Button{margin:2px 5px;text-align:center;vertical-align:middle;padding:0 2px;font-weight:bold;}
+.t14ButtonAlternative1{cursor:pointer;background-color:#99BF9D;white-space:nowrap;border:#888888 1px solid;text-decoration:none;font-weight:700;color:#FFFFFF;margin:2px;padding:1px;}
+.t14ButtonAlternative1:hover{background-color:#CCCCCC;;color:#000000}
+.t14ButtonAlternative2{cursor:pointer;background-color:#EFEFEF;white-space:nowrap;border:#888888 1px solid;text-decoration:none;font-weight:700;margin:2px;padding:1px;}
+.t14ButtonAlternative2:hover{background-color:#CCCCCC;}
+.t14ButtonAlternative3{cursor:pointer;background-color:#FFFFFF;white-space:nowrap;border:#888888 1px solid;text-decoration:none;font-weight:700;margin:2px;padding:1px;}
+.t14ButtonAlternative3:hover{background-color:#CCCCCC;}
+.t14NoLabel{white-space:nowrap;}
+.t14OptionalLabel{white-space:nowrap;}
+a.t14OptionalLabelwithHelp{cursor:help;white-space:nowrap;}
+.t14RequiredLabel{white-space:nowrap;}
+a.t14RequiredLabelwithHelp{cursor:help;white-space:nowrap;}
+.t14InlineError{text-decoration:underline;color:red;}
+.t14InlineError span{text-decoration:underline;color:red;}
+.t14InlineError a{text-decoration:underline;color:red;}
+.t14InlineError a:hover{text-decoration:underline;color:red;}
+.t14InlineError a:visited{text-decoration:underline;color:red;}
+.t14ButtonList .t14current{background-color:#99BF9D;}
+.t14HorizontalImageswithLabelList td{text-align:center;padding:5px;}
+.t14HorizontalLinksList{text-align:left;}
+.t14HorizontalLinksList a{margin-left:3px;margin-right:3px;}
+.t14HorizontalLinksList a.t14current{text-decoration:none;}
+table.t14TabbedNavigationList{border-top:1px solid #AAA;margin:0 0 15px;}
+table.t14TabbedNavigationList td{background-color:#F6F6F6;white-space:nowrap;border-bottom:1px solid #AAA;padding:2px 8px;}
+table.t14TabbedNavigationList td.t14LeftTabList{width:30px;background-color:#F6F6F6;border-bottom:1px solid #AAA;font-size:18px;}
+table.t14TabbedNavigationList td.t14CurrentListTab{background-color:#FFF;white-space:nowrap;border-bottom:1px solid #FFF;}
+table.t14TabbedNavigationList a.t14CurrentListTab{text-decoration:none;}
+table.t14TabbedNavigationList a{font-size:14px;}
+table.t14TabbedNavigationList td.t14SepL{border:none;background-image:url(tab_list_left_cap.gif);padding:0;}
+table.t14TabbedNavigationList td.t14SepR{border:none;background-image:url(tab_list_right_cap.gif);padding:0;}
+table.t14TabbedNavigationList td.t14EndCap{background-color:#F6F6F6;border-bottom:1px solid #AAA;font-size:18px;}
+.t14VerticalImagesList img{display:block;margin:auto;}
+.t14VerticalImagesList td{text-align:center;padding:2px;}
+.t14VerticalImagesList .t14current{border-left:2px solid #99BF9D;border-right:2px solid #99BF9D;}
+.t14VerticalOrderedList .t14current a{text-decoration:none;}
+.t14VerticalSidebarList{width:100%;}
+.t14VerticalSidebarList td{white-space:nowrap;}
+.t14VerticalSidebarList a{display:block;padding:2px;}
+.t14VerticalUnorderedListwithBullets{list-style-type:circle;}
+.t14VerticalUnorderedListwithBullets .t14current a{text-decoration:none;}
+.t14VerticalUnorderedLinkswithoutBullets{list-style:none;}
+.t14VerticalUnorderedLinkswithoutBullets .t14current a{text-decoration:none;}
+.t14WizardProgressList{text-align:center;}
+.t14WizardProgressList div{width:200px;margin:2px;}
+.t14WizardProgressList .t14current{border:2px solid #99BF9D;padding:2px;}
+.t14BreadcrumbMenu{font-weight:700;font-size:10pt;}
+.t14BreadcrumbMenu a:link,.t14BreadcrumbMenu a:visited{text-decoration:none;font-size:8pt;color:#808080;}
+.t14BreadcrumbMenu a.t14currentBreadcrumb:link,.t14BreadcrumbMenu a.t14currentBreadcrumb:visited{text-decoration:none;font-size:8pt;color:#ff0000;}
+.t14BreadcrumbMenu a:active,.t14BreadcrumbMenu a:hover{color:#ff0000;}
+th.t14ReportHeader{empty-cells:show;border-collapse:collapse;white-space:nowrap;padding:2px 8px;}
+td.t14data{empty-cells:show;border-collapse:collapse;padding:2px 8px;}
+td.t14dataalt{empty-cells:show;border-collapse:collapse;padding:2px 8px;}
+.t14Borderless{empty-cells:show;border-collapse:collapse;}
+.t14Borderless th.t14ReportHeader{border:none;border-right:2px solid #FFF;}
+.t14Borderless td.t14data{border:none;}
+.t14HorizontalBorder{empty-cells:show;border-collapse:collapse;}
+.t14HorizontalBorder th.t14ReportHeader{border-bottom:1px solid #AAA;}
+.t14HorizontalBorder td.t14data{border-bottom:1px solid #AAA;}
+.t14Standard{empty-cells:show;border-collapse:collapse;border-left:1px solid #AAA;}
+.t14Standard th.t14ReportHeader{border:1px solid #AAA;border-left:none;}
+.t14Standard td.t14data{border:1px solid #AAA;border-left:none;border-top:none;}
+.t14StandardAlternatingRowColors{empty-cells:show;border-collapse:collapse;border-left:1px solid #AAA;}
+.t14StandardAlternatingRowColors th.t14ReportHeader{border:1px solid #AAA;border-left:none;}
+.t14StandardAlternatingRowColors td.t14data{border:1px solid #AAA;border-left:none;border-top:none;}
+.t14StandardAlternatingRowColors td.t14dataalt{background-color:#EEE;border:1px solid #AAA;border-left:none;border-top:none;}
+.t14ValueAttributePairs{empty-cells:show;border-collapse:collapse;}
+.t14ValueAttributePairs th.t14ReportHeader{text-align:left;border:1px solid #AAA;border-right:none;border-bottom:none;}
+.t14ValueAttributePairs td.t14data{border:1px solid #AAA;border-bottom:none;}
+.t14ValueAttributePairs td.t14seperate{border-top:1px solid #AAA;}
+.t14ValueAttributePairs td.t14seperate hr{height:2px;color:#AAA;background-color:#AAA;}
+.t14RegionBody{padding:5px;}
+.t14ButtonRegionwithTitle .t14RegionHeader{border:1px solid #99BF9D;}
+.t14BorderlessRegion{margin:0 0 10px;}
+.t14BorderlessRegion .t14RegionHeader{background-color:#FFF;border:none;}
+.t14BracketedRegion{border:none;margin:0 0 10px;}
+.t14BracketedRegion .t14RegionHeader{border:1px solid #99BF9D;}
+.t14BracketedRegion .t14RegionBody{border-bottom:1px solid #99BF9D;}
+.t14BracketedRegion .t14bracket{background-color:#99BF9D;width:2px;height:10px;}
+.t14ChartRegion{border:1px solid #99BF9D;margin:0 0 10px;}
+.t14ListRegionwithIcon{border:1px solid #99BF9D;margin:0 0 10px;}
+.t14ListRegionwithIcon .t14RegionBody td{padding:0px 0px 0px 10px;}
+.t14FormRegion{border:1px solid #99BF9D;margin:0 0 10px;}
+.t14FormRegion .t14RegionHeader{white-space:nowrap;}
+.t14ReportsRegionAlternative1{empty-cells:show;border-collapse:collapse;margin:0 0 10px;}
+.t14ReportsRegionAlternative1 th{background-color:#99BF9D;}
+.t14ReportsRegionAlternative1 .t14RegionHeader{text-align:left;font-weight:700;}
+.t14ReportsRegionAlternative1 .t14ButtonHolder{padding:5px;}
+.t14ReportsRegionAlternative1 .t14RegionBody{border-bottom:1px solid #99BF9D;}
+.t14RLeft{border-left:1px solid #99BF9D;}
+.t14RRight{border-right:1px solid #99BF9D;}
+.t14RBLeft{border-left:1px solid #99BF9D;border-bottom:1px solid #99BF9D;}
+.t14RBRight{border-right:1px solid #99BF9D;border-bottom:1px solid #99BF9D;}
+.t14ReportsRegion{margin:0 0 10px;}
+.t14ReportsRegion .t14RegionHeader{text-align:left;white-space:nowrap;border-bottom:1px solid #99BF9D;}
+.t14ReportsRegion .t14RegionHeader2{text-align:left;white-space:nowrap;border-bottom:1px solid #99BF9D;}
+.t14ReportsRegion .t14ButtonHolder{border-bottom:1px solid #99BF9D;}
+.t14ReportsRegion100Width{width:100%;margin:0 0 10px;}
+.t14ReportsRegion100Width .t14RegionHeader{text-align:left;white-space:nowrap;border-bottom:1px solid #99BF9D;}
+.t14ReportsRegion100Width .t14RegionHeader2{text-align:left;white-space:nowrap;border-bottom:1px solid #99BF9D;}
+.t14ReportsRegion100Width .t14ButtonHolder{border-bottom:1px solid #99BF9D;}
+.t14RegionwithoutTitle{border:1px solid #99BF9D;margin:0 0 10px;}
+.t14RegionwithoutButtonsandTitle{border:1px solid #99BF9D;margin:0 0 10px;}
+.t14HideandShowRegion{border:1px solid #99BF9D;margin:0 0 10px;}
+.t14HideandShowRegion .t14Hide{display:none;}
+.t14SidebarRegion{width:200px;margin:0 0 10px;}
+.t14SidebarRegion th{background-color:#99BF9D;}
+.t14SidebarRegion .t14RegionHeader{text-align:left;font-weight:700;}
+.t14SidebarRegion .t14ButtonHolder{border:1px solid #CCCCCC;border-top:none;border-bottom:none;padding:5px;}
+.t14SidebarRegion .t14RegionBody{border:1px solid #CCCCCC;border-top:none;padding:5px;}
+.t14SidebarRegion  a{text-decoration:none;}
+.t14SidebarRegionAlternative1{width:200px;border:1px solid #CCCCCC;margin:0 0 10px;}
+.t14SidebarRegionAlternative1 .t14RegionHeader{width:100%;}
+.t14SidebarRegionAlternative1  a{text-decoration:none;}
+.t14NavigationRegion{width:200px;border:1px solid #CCCCCC;background-color:#FFFFFF;margin:0 0 1px;}
+.t14NavigationRegion .t14RegionHeader{background-color:#FFFFFF;color:#000000;}
+.t14NavigationRegion .t14RegionBody{font-size:8pt;}
+.t14NavigationRegion a{text-decoration:none;}
+.t14NavigationRegionAlternative1{width:200px;border:1px solid #CCCCCC;background-color:#EFEFEF;margin:0 0 1px;}
+.t14NavigationRegionAlternative1 .t14RegionBody{background-color:#EFEFEF;font-size:8pt;}
+.t14NavigationRegionAlternative1 a{text-decoration:none;}
+.t14WizardRegion{width:600px;border:1px solid #99BF9D;background-color:#EFEFEF;margin:0 0 10px;}
+.t14WizardRegionwithIcon{width:600px;border:1px solid #99BF9D;background-color:#EFEFEF;margin:0 0 10px;}
+
+
+/* Alternate monthly calendar */
+.t14CalendarHolder{width:100%;}
+.t14CalendarHolder .t14MonthTitle{font-weight:700;text-align:center;font-size:15px;background-color:#99BF9D;color:#FFFFFF;border:1px solid #808080;padding:4px;}
+.t14CalendarHolder .t14MonthBody{border-left:1px solid #808080;}
+.t14Calendar{width:100%;background-color:#FFFFFF;}
+.t14Calendar .t14DayOfWeek{background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t14Calendar td{height:50px;width:14%;border-right:1px solid #808080;border-bottom:1px solid #808080;}
+.t14Calendar .t14DayTitle{text-align:right;float:right;border:#808080 1px solid;border-right:none;border-top:none;background-color:#FFFFFF;padding:2px;}
+.t14Calendar .t14Day{vertical-align:top;}
+.t14Calendar .t14NonDayTitle{text-align:right;color:#FFFFFF;background-color:#FFFFFF;}
+.t14Calendar .t14NonDay{background-color:#FFFFFF;}
+.t14Calendar .t14WeekendDayTitle{float:right;border:1px solid #808080;border-right:none;border-top:none;text-align:right;color:#000000;background-color:#F9F9F9;padding:2px;}
+.t14Calendar .t14WeekendDay{background-color:#F9F9F9;}
+.t14Calendar .t14Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;}
+.t14Calendar .t14Today .t14DayTitle{background-color:#CCCCCC;}
+
+
+/* Alternate weekly calendar */
+.t14WeekCalendarAlternative1Holder{width:100%;}
+.t14WeekCalendarAlternative1Holder .t14MonthTitle{font-weight:700;text-align:center;font-size:15px;background-color:#99BF9D;color:#FFFFFF;border:1px solid #808080;padding:4px;}
+.t14WeekCalendarAlternative1Holder .t14MonthBody{border-left:1px solid #808080;}
+.t14WeekCalendarAlternative1{width:100%;background-color:#FFFFFF;}
+.t14WeekCalendarAlternative1 .t14DayOfWeek{background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t14WeekCalendarAlternative1 td{height:50px;width:95px;border-right:1px solid #808080;border-bottom:1px solid #808080;}
+.t14WeekCalendarAlternative1 .t14DayTitle{text-align:right;float:right;border:#808080 1px solid;border-right:none;border-top:none;background-color:#FFFFFF;padding:2px;}
+.t14WeekCalendarAlternative1 .t14Day{vertical-align:top;}
+.t14WeekCalendarAlternative1 .t14NonDayTitle{text-align:right;color:#FFFFFF;background-color:#FFFFFF;}
+.t14WeekCalendarAlternative1 .t14NonDay{background-color:#F9F9F9;}
+.t14WeekCalendarAlternative1 .t14WeekendDayTitle{float:right;border:1px solid #808080;border-right:none;border-top:none;text-align:right;color:#000000;background-color:#F9F9F9;padding:2px;}
+.t14WeekCalendarAlternative1 .t14WeekendDay{background-color:#F9F9F9;}
+.t14WeekCalendarAlternative1 .t14Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;}
+.t14WeekCalendarAlternative1 .t14Today .t14DayTitle{background-color:#CCCCCC;}
+.t14WeekCalendarAlternative1 .t14Hour{width:35px;background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+
+
+/* Alternate daily calendar */
+.t14DayCalendarAlternative1Holder{width:100%;}
+.t14DayCalendarAlternative1Holder .t14MonthTitle{font-weight:700;text-align:center;font-size:15px;background-color:#99BF9D;color:#FFFFFF;border:1px solid #808080;padding:4px;}
+.t14DayCalendarAlternative1Holder .t14MonthBody{border-left:1px solid #808080;}
+.t14DayCalendarAlternative1{width:100%;background-color:#FFFFFF;}
+.t14DayCalendarAlternative1 .t14DayOfWeek{background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t14DayCalendarAlternative1 td{height:50px;width:665px;border-right:1px solid #808080;border-bottom:1px solid #808080;}
+.t14DayCalendarAlternative1 .t14DayTitle{text-align:right;float:right;border:#808080 1px solid;border-right:none;border-top:none;background-color:#FFFFFF;padding:2px;}
+.t14DayCalendarAlternative1 .t14Day{vertical-align:top;}
+.t14DayCalendarAlternative1 .t14NonDayTitle{text-align:right;color:#FFFFFF;background-color:#FFFFFF;}
+.t14DayCalendarAlternative1 .t14NonDay{background-color:#FFFFFF;}
+.t14DayCalendarAlternative1 .t14WeekendDayTitle{float:right;border:1px solid #808080;border-right:none;border-top:none;text-align:right;color:#000000;background-color:#F9F9F9;padding:2px;}
+.t14DayCalendarAlternative1 .t14WeekendDay{background-color:#F9F9F9;}
+.t14DayCalendarAlternative1 .t14Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;}
+.t14DayCalendarAlternative1 .t14Today .t14DayTitle{background-color:#CCCCCC;}
+.t14DayCalendarAlternative1 .t14Hour{width:35px;background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+
+
+/* monthly calendar */
+.t14CalendarAlternative1Holder .t14MonthTitle{text-align:center;font-size:20px;color:#999;font-weight:700;}
+.t14CalendarAlternative1Holder .t14MonthBody{border-top:1px solid #808080;border-left:1px solid #808080;}
+.t14CalendarAlternative1 .t14DayOfWeek{color:#FFFFFF;background-color:#99BF9D;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;}
+.t14CalendarAlternative1 td{width:100px;height:80px;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t14CalendarAlternative1 .t14DayTitle{font-weight:700;text-align:right;float:left;}
+.t14CalendarAlternative1 .t14Day{vertical-align:top;}
+.t14CalendarAlternative1 .t14NonDayTitle{font-weight:700;text-align:right;float:left;margin-right:5px;color:#FFFFFF;}
+.t14CalendarAlternative1 .t14NonDay{border-right:1px solid #808080;border-bottom:1px solid #808080;}
+.t14CalendarAlternative1 .t14WeekendDayTitle{font-weight:700;text-align:right;float:left;color:#99BF9D;}
+.t14CalendarAlternative1 .t14Today{vertical-align:top;background-color:#FDF9CE;}
+
+
+/* weekly calendar */
+.t14WeekCalendarHolder .t14MonthTitle{text-align:center;font-size:20px;color:#999;font-weight:700;}
+.t14WeekCalendarHolder .t14MonthBody{border-top:1px solid #808080;border-left:1px solid #808080;}
+.t14WeekCalendar .t14DayOfWeek{color:#FFFFFF;background-color:#99BF9D;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;}
+.t14WeekCalendar td{width:95px;height:40px;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t14WeekCalendar .t14DayTitle{font-weight:700;text-align:right;float:left;}
+.t14WeekCalendar .t14Day{vertical-align:top;}
+.t14WeekCalendar .t14NonDayTitle{font-weight:700;text-align:right;float:left;margin-right:5px;color:#FFFFFF;}
+.t14WeekCalendar .t14NonDay{border-right:1px solid #808080;border-bottom:1px solid #808080;background-color:#F6F6F6;}
+.t14WeekCalendar .t14WeekendDayTitle{font-weight:700;text-align:right;float:left;color:#99BF9D;}
+.t14WeekCalendar .t14Today{vertical-align:top;background-color:#FDF9CE;}
+.t14WeekCalendar .t14Hour{width:35px;color:#FFFFFF;background-color:#99BF9D;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;}
+
+
+/* Daily calendar */
+.t14DayCalendarHolder .t14MonthTitle{text-align:center;font-size:20px;color:#999;font-weight:700;}
+.t14DayCalendarHolder .t14MonthBody{border-top:1px solid #808080;border-left:1px solid #808080;}
+.t14DayCalendar .t14DayOfWeek{color:#FFFFFF;background-color:#99BF9D;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;}
+.t14DayCalendar td{width:665px;height:40px;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t14DayCalendar .t14DayTitle{font-weight:700;text-align:right;float:left;}
+.t14DayCalendar .t14Day{vertical-align:top;}
+.t14DayCalendar .t14NonDayTitle{font-weight:700;text-align:right;float:left;margin-right:5px;color:#FFFFFF;}
+.t14DayCalendar .t14NonDay{border-right:1px solid #808080;border-bottom:1px solid #808080;background-color:#F6F6F6;}
+.t14DayCalendar .t14DayendDayTitle{font-weight:700;text-align:right;float:left;color:#99BF9D;}
+.t14DayCalendar .t14Today{vertical-align:top;background-color:#FDF9CE;}
+.t14DayCalendar .t14Hour{width:35px;color:#FFFFFF;background-color:#99BF9D;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;}
+
+
+/* small monthly calendar */
+.t14SmallCalenderHolder .t14MonthTitle{background-color:#99BF9D;text-align:center;font-weight:700;color:#FFFFFF;border:1px solid #808080;padding:2px;}
+.t14SmallCalenderHolder .t14MonthBody{border-left:1px solid #808080;}
+.t14SmallCalender .t14DayTitle{border-bottom:1px solid #FFFFFF;background-color:#FFFFFF;}
+.t14SmallCalender td{border-right:1px solid #808080;border-bottom:1px solid #808080;width:40px;height:40px;}
+.t14SmallCalender .t14Day{vertical-align:top;background-color:#FFFFFF;}
+.t14SmallCalender .t14DayOfWeek{background-color:#EFEFEF;}
+.t14SmallCalender .t14NonDayTitle{color:#808080;border-bottom:1px solid #EFEFEF;background-color:#EFEFEF;}
+.t14SmallCalender .t14NonDay{color:#808080;background-color:#EFEFEF;}
+.t14SmallCalender .t14WeekendDayTitle{color:#000000;border-bottom:1px solid #CCCCCC;background-color:#CCCCCC;}
+.t14SmallCalender .t14WeekendDay{color:#000000;background-color:#CCCCCC;}
+.t14SmallCalender .t14Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;;}
+.t14SmallCalender .t14Today .t14DayTitle{border-bottom:1px solid #FDF9CE;background-color:#FDF9CE;}
+div.t14contentcollapse{display:table;}
+.t14PopupHead{background-color:#99BF9D;border-bottom:2px solid #000;padding:6px;}
+.t14PopupBody{padding:6px;}
+div.dhtmlMenuLG{white-space:nowrap;clear:both;}
+
+/* small weekly calendar */
+.t14SmallWeekCalendarHolder .t14MonthTitle{background-color:#99BF9D;text-align:center;font-weight:700;color:#FFFFFF;border:1px solid #808080;padding:2px;}
+.t14SmallWeekCalendarHolder .t14MonthBody{border-left:1px solid #808080;}
+.t14SmallWeekCalendar .t14DayTitle{border-bottom:1px solid #FFFFFF;background-color:#FFFFFF;}
+.t14SmallWeekCalendar td{border-right:1px solid #808080;border-bottom:1px solid #808080;width:40px;height:20px;}
+.t14SmallWeekCalendar .t14Day{vertical-align:top;background-color:#FFFFFF;}
+.t14SmallWeekCalendar .t14DayOfWeek{background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;font-size:10px;}
+.t14SmallWeekCalendar .t14NonDayTitle{color:#808080;border-bottom:1px solid #EFEFEF;background-color:#EFEFEF;}
+.t14SmallWeekCalendar .t14NonDay{color:#808080;background-color:#EFEFEF;}
+.t14SmallWeekCalendar .t14WeekendDayTitle{color:#000000;border-bottom:1px solid #CCCCCC;background-color:#CCCCCC;}
+.t14SmallWeekCalendar .t14WeekendDay{color:#000000;background-color:#CCCCCC;}
+.t14SmallWeekCalendar .t14Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;;}
+.t14SmallWeekCalendar .t14Today .t14DayTitle{border-bottom:1px solid #FDF9CE;background-color:#FDF9CE;}
+.t14SmallWeekCalendar .t14Hour{font-size:10px;width:25px;background-color:#99BF9D;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;}
+
+
+
+/* small daily calendar */
+.t14SmallDayCalendarHolder .t14MonthTitle{background-color:#99BF9D;text-align:center;font-weight:700;color:#FFFFFF;border:1px solid #808080;padding:2px;}
+.t14SmallDayCalendarHolder .t14MonthBody{border-left:1px solid #808080;}
+.t14SmallDayCalendar .t14DayTitle{border-bottom:1px solid #FFFFFF;background-color:#FFFFFF;}
+.t14SmallDayCalendar td{border-right:1px solid #808080;border-bottom:1px solid #808080;width:280px;height:20px;}
+.t14SmallDayCalendar .t14Day{vertical-align:top;background-color:#FFFFFF;}
+.t14SmallDayCalendar .t14DayOfWeek{font-size:10px;font-weight:bold;background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;}
+.t14SmallDayCalendar .t14NonDayTitle{color:#808080;border-bottom:1px solid #EFEFEF;background-color:#EFEFEF;}
+.t14SmallDayCalendar .t14NonDay{color:#808080;background-color:#EFEFEF;}
+.t14SmallDayCalendar .t14WeekendDayTitle{color:#000000;border-bottom:1px solid #CCCCCC;background-color:#CCCCCC;}
+.t14SmallDayCalendar .t14WeekendDay{color:#000000;background-color:#CCCCCC;}
+.t14SmallDayCalendar .t14Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;;}
+.t14SmallDayCalendar .t14Today .t14DayTitle{border-bottom:1px solid #FDF9CE;background-color:#FDF9CE;}
+.t14SmallDayCalendar .t14Hour{width:25px;background-color:#99BF9D;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;font-size:10px;font-weight:bold;}
+
+
+
+/* DHTML */
+div.dhtmlMenuLG{white-space:nowrap;clear:both;}
+div.dhtmlMenuLG div.dhtmlMenuItem{text-align:center;float:left;margin:0px 15px 0px 0px;}
+div.dhtmlMenuLG a.dhtmlBottom{text-decoration:none;display:block;font-size:12px;margin:0px 5px;font-weight:bold;}
+div.dhtmlMenuLG img.dhtmlMenu{}
+div.dhtmlMenuLG div.htmldbBKHolder{float:left;}
+div.dhtmlMenuLG img.dhtmlMenuOn{}
+
+ul.dhtmlTree {list-style:none;}
+ul.dhtmlTree li{padding:2px 0;vertical-align:middle;}
+ul.dhtmlTree li img{margin:0 4px;vertical-align:middle;}
+
+.dhtmlSubMenu {background-color: #FFFFFF;font-size: 11px;width: 200px;border:1px solid #b7b7b7;list-style-type : none;margin:0em;padding-left:0em;}
+.dhtmlSubMenu li{margin:0em;padding-left:0em;}
+.dhtmlMenuSep{text-align:center;}
+img.dhtmlMenuSep{display:block; margin:auto; width:80%;border:1px solid #efefef; height:1px; background-color:#CCCCCC; }
+.dhtmlSubMenu img.dhtmlSep {width:180px;height:1px;}
+.dhtmlSubMenu .htmldbMIMG {vertical-align:middle;float:right}
+.dhtmlSubMenu .dhtmlSubMenuP {text-align:center;color: #808080;padding: 3px;border-bottom:#CCCCCC 1px solid;padding:0px 8px;text-decoration: none;white-space: nowrap;font-weight:bold;margin:1px;}
+.dhtmlSubMenu a.dhtmlSubMenuN {border:1px solid #efefef;color:#808080;display:block;font-weight:normal;padding:3px 8px;text-decoration: none;white-space: nowrap;margin:1px;height:1%;overflow:hidden;}
+.dhtmlSubMenu a.dhtmlSubMenuN:hover {background-color:#DDDDDD;border:1px solid black;color:#000000;padding:3px 8px;margin:1px;}
+.dhtmlSubMenu a.dhtmlSubMenuS {border:1px solid #efefef;color:#808080;display:block;font-weight:normal;padding:3px 8px;text-decoration:none;white-space: nowrap;margin:1px;height:1%;overflow:hidden;}
+.dhtmlSubMenu a.dhtmlSubMenuS:hover {background-color:#DDDDDD;border:1px solid #000000;color: #000000;display: block;font-weight: normal;padding:3px 8px;margin:1px;}
+
+.dhtmlMenuLG2 li a{float:left;}
+
+
+.dhtmlMenuLG2{list-style-type:none;padding:0;margin:0;vertical-align:middle;white-space:nowrap;}
+.dhtmlMenuLG2 *{float:left;text-decoration:none;display:block;line-height:25px;height:25px;vertical-align:middle;white-space:nowrap;}
+.dhtmlMenuLG2 li{background-image:url(../menu_small_m.gif);}
+.dhtmlMenuLG2 li.dhtmlMenuItem{margin:0 4px 0 0;} 
+.dhtmlMenuLG2 li.dhtmlMenuItem a{color:#000000;padding:0 2px;}
+
+.dhtmlMenuLG2 li.dhtmlMenuItem1{margin:0 4px 0 0;}  
+.dhtmlMenuLG2 li.dhtmlMenuItem1 a{color:#000000;padding:0 2px;margin:0 4px 0 0;}
+.dhtmlMenuLG2 li.dhtmlMenuItem1 img{margin:0 4px 0 0;}
+
+.dhtmlSubMenu2 {background-color: #fff;font-size: 11px;width: 200px;border:1px solid #b7b7b7;list-style-type : none;margin:0em;padding-left:0em;}
+.dhtmlSubMenu2 li{margin:0em;padding-left:0em;}
+.dhtmlMenuSep2{text-align:center;}
+img.dhtmlMenuSep2{display:block; margin:auto; width:80%;border:1px solid #efefef; height:1px; background-color:#ccc; }
+.dhtmlSubMenu2 img.dhtmlSep {width:180px;height:1px;}
+.dhtmlSubMenu2 .t14MIMG {vertical-align:middle;float:right}
+.dhtmlSubMenu2 .dhtmlSubMenuP {background-color:#ddd;text-align:center;color: #808080;border-bottom:#ccc 1px solid;padding:2px 4px;text-decoration: none;white-space: nowrap;font-weight:bold;}
+.dhtmlSubMenu2 a.dhtmlSubMenuN:link,.dhtmlSubMenu2 a.dhtmlSubMenuN:visited {color:#808080;display:block;font-weight:normal;padding:2px 4px;text-decoration:none;white-space:nowrap;height:1%;overflow:hidden;}
+.dhtmlSubMenu2 a.dhtmlSubMenuN:hover {background-color:#eee;color:#000;}
+.dhtmlSubMenu2 a.dhtmlSubMenuS:link,.dhtmlSubMenu2 a.dhtmlSubMenuS:visited {color:#808080;display:block;font-weight:normal;padding:2px 4px;text-decoration:none;white-space:nowrap;height:1%;overflow:hidden;}
+.dhtmlSubMenu2 a.dhtmlSubMenuS:hover {background-color:#eee;color: #000;}
+
+
+
+
+.pseudoButtonInactive,.pseudoButtonActive{cursor:pointer;}
+
+.t14RegionHeader,.t14RegionHeaderButtonHolder,.t14ReportHeader,#t14Success,#t14Notification,td.t14CurrentTab a,td.t14Tab a:hover,.t14childtabcurrent,.t14ButtonList .t14current,.t14BracketedRegion .t14bracket,.t14ReportsRegionAlternative1 th,.t14SidebarRegion th,.t14NavigationRegionAlternative1,.t14RegionHeader,.t14ButtonAlternative1,.t14CalendarHolder .t14MonthTitle,.t14CalendarAlternative1 .t14DayOfWeek,.t14SmallCalenderHolder .t14MonthTitle,.t14PopupHead,img.dhtmlMenuSep{background-color:#99BF9D;}

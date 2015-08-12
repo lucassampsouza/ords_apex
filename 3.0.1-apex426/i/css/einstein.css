@@ -1,0 +1,295 @@
+body
+          {background-color: #ffffff;
+           margin: 5px;
+           padding: 0px 0px 0px 0px;
+           font-family: Arial, Helvetica, Geneva, sans-serif;}
+
+a:link {text-decoration: none;color:#9C6531}
+a:visited {text-decoration: none;color:#9C6531}
+a:hover {text-decoration: underline;color:red;}
+
+
+.ptabtextoff
+          {font-size: 11pt;
+           color: #003366;}
+                     
+.ptabtexton
+          {font-size: 11pt;
+           font-weight: bold;
+           color: #99ccff;}
+           
+td.ptaboff
+        {width:1%;
+         background-color:#cccc99;}
+
+td.ptabon
+        {width:1%;
+         background-color:#336699;}
+
+.tabtextoff
+          {font-size: 10pt;
+           color: #cccc99;}
+                     
+.tabtexton
+          {font-size: 10pt;
+           font-weight: bold;
+           color: #ffffff;}
+           
+td.tab
+        {width:1%;
+         background-color:#336699;}
+
+
+.white8{color:#ffffff;
+        font-size:8pt;}
+        
+.white9{color:#ffffff;
+        font-size:9pt;}
+        
+.white10{color:#ffffff;
+        font-size:10pt;}        
+
+.white11{color:#ffffff;
+        font-size:11pt;}
+
+.white12{color:#ffffff;
+        font-size:12pt;}
+
+.black10{color:#000000;
+        font-size:10pt;} 
+        
+.black11{color:#000000;
+        font-size:11pt;} 
+
+.navtext{color:#663300;
+         font-size:8pt;
+         margin:5px;}
+         
+.header1{font-size:14pt;
+         color:#336699;
+         font-weight:bold;}
+         
+.header2{font-size:12pt;
+         color:#336699;
+         font-weight:bold;}
+         
+ul.shuttle{margin-left:0em;
+           margin-top:0em;}
+li.shuttle{margin-left:1.5em;
+           list-style:disc;color:#6699cc;
+           font-size:11pt;}
+li.shuttle2{margin-left:1.5em;
+           list-style:disc;color:#336699;
+           font-size:11pt;}
+           
+a.shuttle:link{color:#9C6531;text-decoration:none;}
+a.shuttle:visited{color:#9C6531;text-decoration:none;}
+a.shuttle:hover{color:#9C6531;text-decoration:underline;}
+
+.tabledata
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           background: #f7f7e7;
+           color: #000000;}
+
+.tabledata-alt
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           background: #ffffff;
+           color: #000000;}
+           
+.tableheader
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           font-weight: bold;
+           background: #cccc99;
+           color: #336699;}
+/* The following classes are used for the BLAF style buttons */
+a.buttonhtml{font-size:10pt;}
+a.buttonhtml:link{text-decoration:none;color:#000000;}
+a.buttonhtml:visited{text-decoration:none;color:#000000;}
+a.buttonhtml:hover{text-decoration:none;color:#000000;}
+
+td.buttonhtmlmiddle{border-bottom:2px #656533 solid;
+                    border-top:1px #989867 solid;
+                    background-color:#f7f7e7;}
+                    
+td.buttonhtmlleft{border-bottom:2px #656533 solid;
+                   border-top:1px #989867 solid;
+                   background-color:#f7f7e7;
+                   border-right:2px #656533 solid;
+                   padding-right:8px;}
+                   
+td.buttonhtmlright{border-bottom:2px #656533 solid;
+                   border-top:1px #989867 solid;
+                   background-color:#f7f7e7;
+                   border-left:1px #656533 solid;
+                   padding-left:8px;}
+                    
+a.blaf{color:#663300;
+       font-size:10pt;}
+/* End BLAF style buttons */
+
+input.button8{
+  background-color:#336699;
+  color:#ffffff;
+  font-size:8pt;
+  border: 2px #84b7ea outset;
+}
+
+div.regioninfo1{z-index:3;
+      background-color:#ffffff;
+      padding: 0px 4px 0px 4px;
+      position:relative;
+      left:10px;
+      clear:right;
+      font-size:11pt;
+      font-weight:bold;
+      color:#336699;
+      margin-top:4px;
+      white-space:nowrap;
+      width:2%;}
+      
+div.regioninfo2{width:98%;
+      padding:4px;
+      padding-top: 12px;
+      font-size:9pt;
+      position:relative;
+      top:-10px;
+      left:-8px;
+      z-index:2;
+      border:1px #A4A471 dashed;
+      color:#000000;
+      text-align:left;}
+      
+div.regioninfo3{width:98%; 
+       padding:4px; 
+       padding-top: 12px; 
+       font-size:9pt; 
+       position:relative; 
+       top:-10px;
+       left:-8px;
+       z-index:2;
+       border:1px #A4A471 dashed;
+       color:#000000;
+       text-align:center;}      
+       
+div.boxInlineTitle{z-index:3;
+      background:#ffffff;
+      padding:2px;
+      width:1%;
+      position:relative;
+      clear:right;
+      font-size:12pt;
+      font-weight:bold;
+      color:#336699;
+      margin-top:4px;}
+      
+div.boxInlineTitleMain{width:98%;
+      padding:4px;
+      padding-top: 12px;
+      font-size:9pt;
+      position:relative;
+      top:-10px;
+      left:-8px;
+      z-index:2;
+      border:1px #A9A976 solid;
+      } 
+
+table.std{border-collapse: collapse;
+          border:0px;
+          width:100%;
+          padding:0px;
+          margin:0px;}
+          
+table.std th{padding:0px;}
+table.std td{padding:0px;}
+
+table.std2{border-collapse: collapse;
+          border:0px;
+          width:100%;
+          padding:2px;
+          margin:2px;}
+          
+table.std2 th{padding:2px;}
+table.std2 td{padding:2px;}
+
+.fieldtitleleft
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           color: #000000;}
+           
+.instructiontext
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           color: #000000;}
+
+
+ul.noIndent{margin:0em;padding-left:1.2em;}
+ul.noIndent li{
+    padding-left: 0em;}
+
+/* Platform2.css classes */
+.header{font-family: Arial, Helvetica, Geneva, sans-serif;font-size: 16pt;font-weight: bold;color: #336699;}
+.tab3heading{font-family: Arial, Helvetica, Geneva, sans-serif;font-size: 14pt;font-weight: bold;color: #003366;}
+.infobox{padding-left: 12px;padding-right: 8px;padding-top: 4px; font-family: Arial, Helvetica, Geneva, sans-serif;font-size: 10pt;color: #000000;}
+.regionheader{font-family: Arial, Helvetica, Geneva, sans-serif;font-size: 12pt;font-weight: bold;color: #FFFFFF;}
+
+/* Portal.css classes */
+.PortletHeading2 { font-family: Arial, Helvetica; font-size: 8pt; color: #336699; font-weight: bold ; } 
+.TabForegroundColor { background-color: #336699; } .TabForegroundText { font-family: Arial, Helvetica; font-size: 10pt; color: #FFFFFF; font-weight: bold ; } .TabBackgroundColor { background-color: #CCCC99; } 
+.LeftTabForeSlant { background-image: url(../FFFFFFtl3.gif); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-color: #336699; }
+.RightTabForeCurve{ background-image: url(../FFFFFFTR.gif); background-repeat: no-repeat; background-position: right top; background-attachment: scroll; background-color: #336699; } 
+.LeftTabBgSlant { background-image: url(../FFFFFFtl3.gif); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-color: #CCCC99; }
+.RightTabBgCurve{ background-image: url(../FFFFFFTR.gif); background-repeat: no-repeat; background-position: right top; background-attachment: scroll; background-color: #CCCC99; }
+.TabBackgroundText { font-family: Arial, Helvetica; font-size: 9pt; color: #003366; text-decoration: none; } 
+.PortletHeaderColor { background-color: #336699; } 
+.LeftCurve { background-image: url(../FFFFFFl.gif); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; } 
+.RightCurve{ background-image: url(../FFFFFFr.gif); background-repeat: no-repeat; background-position: right top; background-attachment: scroll; } 
+.RegionBorder { border: #336699 1px solid }
+.RegionHeaderColor { background-color: #FFFFFF; border: #336699 0px solid }
+.PortletText1 { font-size: 9pt; color: #000000; }
+.PortletHeaderText { font-size: 10pt; color: #FFFFFF; font-weight: bold ; }
+.PortletHeading2 { font-family: Arial, Helvetica; font-size: 8pt; color: #336699; font-weight: bold ; } 
+
+/* Override Built in Default Template classes */
+table.default4 { margin:5px auto 0.5em auto; border-left:1px solid #cccccc; border-top:1px solid #cccccc; border-right:1px solid #999999; border-bottom:1px solid #999999; background-color:#E0E0AD; }
+table.default4 td { border-left:1px solid #ffffff; border-top:1px solid #ffffff; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; }
+table.default4 th { font-weight:bold;font-size:10pt;color:#ffffff;background-color:#336699; border-left:1px solid #e0e7f7; border-top:1px solid #e0e7f7; border-right:1px solid #999999; border-bottom:1px solid #999999; white-space:nowrap;vertical-align:bottom;}
+table.default4 td.even { background-color:#FEFECB;font-size:10pt;white-space:nowrap;}
+table.default4 td.odd { background-color:#E0E0AD; font-size:10pt;white-space:nowrap;}
+
+table.standardLook th a{color:#336699;}
+table.standardLook th a:link{color:#336699;}
+table.standardLook th a:visited{color:#336699;}
+table.standardLook th a:hover{color:#ff0000;}
+
+table.default1 th a{color:#336699;}
+table.default1 th a:link{color:#336699;}
+table.default1 th a:visited{color:#336699;}
+table.default1 th a:hover{color:#ff0000;}
+
+table.default2 th a{color:#336699;}
+table.default2 th a:link{color:#336699;}
+table.default2 th a:visited{color:#336699;}
+table.default2 th a:hover{color:#ff0000;}
+
+table.default3 th a{color:#336699;}
+table.default3 th a:link{color:#336699;}
+table.default3 th a:visited{color:#336699;}
+table.default3 th a:hover{color:#ff0000;}
+
+table.default4 th a:link{color:#eeeeee;}
+table.default4 th a:visited{color:#eeeeee;}
+table.default4 th a:hover{color:#ffffff;}
+
+table.vertical2 {border:1px #cccc99 solid;border-collapse:collapse;
+                background:#ffffff;font-size:10pt; margin-top:1px;}
+table.vertical2 td.L{font-weight: bold;padding:2px;white-space:nowrap;vertical-align:bottom;width:30%;text-align:right;border:1px #cccc99 solid;background:#336699; color:#ffffff;} 
+table.vertical2 td{padding:2px;border:1px #cccc99 solid;text-align:left;}
+
+
+div.popupHead{
+    background-color:#cccc99;
+    padding:4px; 
+    border-bottom: 1px #8C8C59 solid;}

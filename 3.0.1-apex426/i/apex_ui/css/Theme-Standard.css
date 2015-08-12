@@ -1,0 +1,5173 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Accordion
+   ========================================================================== */
+/* ==========================================================================
+   jQuery UI Region Stacking
+   ========================================================================== */
+/* line 24, ../../scss/theme/standard/Accordion.scss */
+.a-Accordion-item .a-Region > .a-Region-header {
+  border-color: #E0E0E0;
+}
+
+/* line 29, ../../scss/theme/standard/Accordion.scss */
+.a-Accordion.ui-accordion .ui-accordion-header.ui-state-focus {
+  box-shadow: 2px -1px 0 0 #399bea inset, -2px 1px 0 0 #399bea inset, 0 0 1px 2px rgba(57, 155, 234, 0.25) !important;
+  outline: none;
+  z-index: 100;
+  border-color: #399BEA;
+}
+
+/* line 39, ../../scss/theme/standard/Accordion.scss */
+.a-Accordion.ui-accordion .ui-accordion-header,
+.a-Accordion.ui-accordion .ui-accordion-header.ui-state-active,
+.ui-dialog .ui-dialog-titlebar {
+  background-color: #F4F4F4;
+  box-shadow: none;
+  padding: 0 8px;
+}
+
+/**
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Region
+   ========================================================================== */
+/* line 15, ../../scss/theme/standard/AlertBadge.scss */
+.a-AlertBadge {
+  background-color: #FA0000;
+  color: #FFFFFF;
+  line-height: 20px;
+  min-width: 20px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+/* line 25, ../../scss/theme/standard/AlertBadge.scss */
+.a-AlertBadge--leftArrow {
+  position: relative;
+  margin-left: 8px;
+  border-radius: 3px;
+}
+
+/* line 30, ../../scss/theme/standard/AlertBadge.scss */
+.a-AlertBadge--leftArrow:before {
+  right: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* line 40, ../../scss/theme/standard/AlertBadge.scss */
+.a-AlertBadge--leftArrow:before {
+  border-color: rgba(255, 0, 0, 0);
+  border-right-color: #FA0000;
+  border-width: 4px;
+  top: 50%;
+  margin-top: -4px;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Alert Messages
+******************************************************************************/
+/* line 35, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-item:first-child {
+  margin-top: 0;
+  border-top-width: 0;
+}
+
+/* line 39, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-item {
+  border-bottom: 1px solid #F0F0F0;
+  border-top: 1px solid #F0F0F0;
+  margin-top: -1px;
+}
+
+/* line 46, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message {
+  color: #444444;
+  font-size: 12px;
+  padding: 8px;
+  border-left: 3px solid;
+}
+/* line 51, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message .a-MediaBlock-graphic {
+  margin: 8px 8px 8px 0;
+  width: 24px;
+}
+/* line 55, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message:hover, .a-AlertMessages-message:focus {
+  position: relative;
+  z-index: 100;
+}
+/* line 60, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-warning {
+  border-left-color: #FDB309;
+}
+/* line 62, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-warning .a-FAIcon {
+  color: #FDB309;
+}
+/* line 65, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-warning:hover, .a-AlertMessages-message.is-warning:focus {
+  background-color: #FFF8DF;
+}
+/* line 70, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-error {
+  border-left-color: #FC181B;
+}
+/* line 72, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-error .a-FAIcon {
+  color: #FC181B;
+}
+/* line 75, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message.is-error:hover, .a-AlertMessages-message.is-error:focus {
+  background-color: #FFEFEF;
+}
+/* line 80, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages-message:focus {
+  border-width: 0 1px;
+  border-color: #399BEA;
+  box-shadow: 2px -1px 0px 0px #399bea inset, -2px 1px 0px 0px #399bea inset !important;
+  outline: none;
+}
+
+/* line 89, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages--page .a-AlertMessages-message {
+  border-radius: 2px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
+/* line 92, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages--page .a-AlertMessages-message .a-MediaBlock-graphic .a-Icon,
+.a-AlertMessages--page .a-AlertMessages-message .a-AlertMessages-messageTitle {
+  color: #FFF;
+}
+/* line 96, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages--page .a-AlertMessages-message.is-success {
+  background-color: rgba(74, 170, 44, 0.9);
+}
+/* line 99, ../../scss/theme/standard/AlertMessages.scss */
+.a-AlertMessages--page .a-AlertMessages-message.is-error {
+  background-color: rgba(225, 56, 56, 0.9);
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Circular Badges
+   ========================================================================== */
+/* line 11, ../../scss/theme/standard/Badge.scss */
+.a-BadgeChart-value {
+  border-color: #F0F0F0;
+  background-color: transparent;
+  color: #404040;
+}
+
+/* line 16, ../../scss/theme/standard/Badge.scss */
+.a-BadgeChart-label {
+  color: #404040;
+}
+
+/* line 19, ../../scss/theme/standard/Badge.scss */
+.a-BadgeChart-desc {
+  color: #707070;
+}
+
+/* line 23, ../../scss/theme/standard/Badge.scss */
+.a-BadgeChart-link .a-BadgeChart-value {
+  color: #2D7BBB;
+}
+/* line 27, ../../scss/theme/standard/Badge.scss */
+.a-BadgeChart-link:hover .a-BadgeChart-value {
+  box-shadow: 0 0 0 12px #2D7BBB inset;
+  border-color: #2D7BBB;
+  background-color: #2D7BBB;
+  color: #FFF;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/* line 10, ../../scss/theme/standard/BadgeList.scss */
+.a-BadgeList-value {
+  border-color: #E0E0E0;
+  color: #404040;
+}
+/* line 13, ../../scss/theme/standard/BadgeList.scss */
+.a-BadgeList-value a {
+  color: #2D7BBB;
+}
+/* line 16, ../../scss/theme/standard/BadgeList.scss */
+.a-BadgeList-value a:hover {
+  box-shadow: 0 0 0 4px #2D7BBB inset;
+  background-color: #2D7BBB;
+  color: #FFF;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/* line 13, ../../scss/theme/standard/Body.scss */
+body {
+  background-color: #fff;
+}
+
+/* line 17, ../../scss/theme/standard/Body.scss */
+a {
+  color: #146FB8;
+  text-decoration: none;
+}
+/* line 20, ../../scss/theme/standard/Body.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 26, ../../scss/theme/standard/Body.scss */
+.lButtonContainer .aButton {
+  vertical-align: top;
+}
+
+/* line 29, ../../scss/theme/standard/Body.scss */
+.lButtonContainer .aButton.viewMode.rightPill {
+  margin-right: 8px;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Breadcrumb Top Icon
+   ========================================================================== */
+/* line 12, ../../scss/theme/standard/Breadcrumb.scss */
+.apex-app-builder .a-Breadcrumb-label .a-Icon.icon-breadcrumb-previous {
+  color: #7C8791;
+  background-color: #FFF;
+  box-shadow: 0 0 0 1px #399BEA;
+}
+/* line 17, ../../scss/theme/standard/Breadcrumb.scss */
+.apex-app-builder .a-Breadcrumb-label:hover .a-Icon.icon-breadcrumb-previous {
+  background-color: #399BEA;
+  color: #FFF;
+}
+
+/* line 23, ../../scss/theme/standard/Breadcrumb.scss */
+.apex-sql-workshop .a-Breadcrumb-label .a-Icon.icon-breadcrumb-previous {
+  color: #7C8791;
+  background-color: #FFF;
+  box-shadow: 0 0 0 1px #24CB7F;
+}
+/* line 28, ../../scss/theme/standard/Breadcrumb.scss */
+.apex-sql-workshop .a-Breadcrumb-label:hover .a-Icon.icon-breadcrumb-previous {
+  background-color: #24CB7F;
+  color: #FFF;
+}
+
+/* line 34, ../../scss/theme/standard/Breadcrumb.scss */
+.apex-team-dev .a-Breadcrumb-label .a-Icon.icon-breadcrumb-previous {
+  color: #7C8791;
+  background-color: #FFF;
+  box-shadow: 0 0 0 1px #FFBE2A;
+}
+/* line 39, ../../scss/theme/standard/Breadcrumb.scss */
+.apex-team-dev .a-Breadcrumb-label:hover .a-Icon.icon-breadcrumb-previous {
+  background-color: #FFBE2A;
+  color: #FFF;
+}
+
+/* line 46, ../../scss/theme/standard/Breadcrumb.scss */
+.apex-workspace-admin .a-Breadcrumb-label .a-Icon.icon-breadcrumb-previous,
+.apex-instance-admin .a-Breadcrumb-label .a-Icon.icon-breadcrumb-previous {
+  color: #7C8791;
+  background-color: #FFF;
+  box-shadow: 0 0 0 1px #BDC3C7;
+}
+/* line 51, ../../scss/theme/standard/Breadcrumb.scss */
+.apex-workspace-admin .a-Breadcrumb-label:hover .a-Icon.icon-breadcrumb-previous,
+.apex-instance-admin .a-Breadcrumb-label:hover .a-Icon.icon-breadcrumb-previous {
+  background-color: #BDC3C7;
+  color: #FFF;
+}
+
+/* line 57, ../../scss/theme/standard/Breadcrumb.scss */
+.apex-pkg-apps .a-Breadcrumb-label .a-Icon.icon-breadcrumb-previous {
+  color: #7C8791;
+  background-color: #FFF;
+  box-shadow: 0 0 0 1px #F54B21;
+}
+/* line 62, ../../scss/theme/standard/Breadcrumb.scss */
+.apex-pkg-apps .a-Breadcrumb-label:hover .a-Icon.icon-breadcrumb-previous {
+  background-color: #F54B21;
+  color: #FFF;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Button for Theme
+******************************************************************************/
+/* line 35, ../../scss/theme/standard/Button.scss */
+.a-Button,
+.fc-button {
+  border: none;
+  color: #505050;
+  background-clip: padding-box;
+  background-color: #F9F9F9;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.125) inset;
+  text-shadow: none;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color .1s, box-shadow .1s;
+}
+
+/* line 46, ../../scss/theme/standard/Button.scss */
+.a-Button,
+.ui-button {
+  border-radius: 2px;
+}
+
+/* line 50, ../../scss/theme/standard/Button.scss */
+.a-Button:hover,
+.fc-button.ui-state-hover {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset, 0 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+/* line 56, ../../scss/theme/standard/Button.scss */
+.a-Button:focus,
+.ui-button.ui-state-focus,
+.fc-button.ui-state-focus {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 1px #399bea inset, 0 0 0 1px #399bea !important;
+  outline: none;
+  z-index: 110;
+}
+
+/* line 69, ../../scss/theme/standard/Button.scss */
+.lte-ie9 .a-Button:focus,
+.lte-ie9 .ui-button.ui-state-focus,
+.lte-ie9 .fc-button.ui-state-focus,
+.ie9 .a-Button:focus,
+.ie9 .ui-button.ui-state-focus,
+.ie9 .fc-button.ui-state-focus {
+  outline: 1px dotted;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 76, ../../scss/theme/standard/Button.scss */
+  .a-Button:focus,
+  .ui-button.ui-state-focus,
+  .fc-button.ui-state-focus {
+    outline: 1px dotted;
+  }
+}
+@media screen and (-ms-high-contrast: active) {
+  /* line 85, ../../scss/theme/standard/Button.scss */
+  .a-Button,
+  .fc-button,
+  .ui-button {
+    border: 1px solid;
+  }
+}
+/* line 92, ../../scss/theme/standard/Button.scss */
+.a-Button:active,
+.fc-button.ui-state-hover:active {
+  background-color: #E4E4E4;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.25) inset;
+  z-index: 100;
+}
+
+/* line 98, ../../scss/theme/standard/Button.scss */
+.a-Button.is-active,
+.ui-buttonset .ui-button.ui-state-active,
+.fc-button.ui-state-active,
+.a-Button.is-active:active,
+.ui-buttonset .ui-button.ui-state-active.ui-state-hover:active,
+.a-MenuButton.is-active {
+  background-color: #CFE6FA;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 2px 1px rgba(0, 0, 0, 0.15) inset;
+  color: #505050;
+  font-weight: normal;
+  text-shadow: none;
+  z-index: 100;
+}
+
+/* line 112, ../../scss/theme/standard/Button.scss */
+.a-Header .a-Button.is-active {
+  box-shadow: none;
+  background-color: #FFF;
+}
+
+/* line 117, ../../scss/theme/standard/Button.scss */
+.a-Button.a-Button--activeTab {
+  background-color: #FFF;
+  box-shadow: none;
+  color: #505050;
+  font-weight: normal;
+  text-shadow: none;
+  z-index: 100;
+}
+
+/* line 125, ../../scss/theme/standard/Button.scss */
+.a-Button#header-adminMenu {
+  transition: none;
+}
+
+/* line 128, ../../scss/theme/standard/Button.scss */
+.a-Button#header-adminMenu:hover {
+  box-shadow: 0 3px 0 #BAC7C8 inset, 0 -1px 0 #E0E0E0 inset;
+}
+
+/* line 131, ../../scss/theme/standard/Button.scss */
+.a-Button.a-Button--activeTab.tab-admin {
+  box-shadow: 0 3px 0 #BAC7C8 inset !important;
+}
+
+/* line 135, ../../scss/theme/standard/Button.scss */
+.a-Button.is-disabled,
+.a-Button.is-disabled:active,
+.a-Button:disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+/* line 141, ../../scss/theme/standard/Button.scss */
+.a-Button.is-locked {
+  background-color: #DD0000;
+  color: #FFF;
+}
+
+/* line 146, ../../scss/theme/standard/Button.scss */
+.a-Button.is-locked-by-self {
+  background-color: #58C14A;
+  color: #FFF;
+}
+
+/* line 151, ../../scss/theme/standard/Button.scss */
+.a-Button--hot,
+body .ui-button.ui-button--hot,
+body .ui-button.a-Button--hot {
+  background-color: #2D7BBB;
+  color: #FFFFFF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset, 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 159, ../../scss/theme/standard/Button.scss */
+.a-Button--hot:hover,
+body .ui-button.ui-button--hot:hover,
+body .ui-button.a-Button--hot:hover {
+  background-color: #398FDF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 1px 4px 1px rgba(0, 0, 0, 0.15);
+}
+/* line 164, ../../scss/theme/standard/Button.scss */
+.a-Button--hot:hover, .a-Button--hot:focus,
+body .ui-button.ui-button--hot:hover,
+body .ui-button.ui-button--hot:focus,
+body .ui-button.a-Button--hot:hover,
+body .ui-button.a-Button--hot:focus {
+  background-color: #398FDF;
+}
+/* line 168, ../../scss/theme/standard/Button.scss */
+.a-Button--hot:active, .a-Button--hot.is-active, .a-Button--hot.a-MenuButton.is-active,
+body .ui-button.ui-button--hot:active,
+body .ui-button.ui-button--hot.is-active,
+body .ui-button.ui-button--hot.a-MenuButton.is-active,
+body .ui-button.a-Button--hot:active,
+body .ui-button.a-Button--hot.is-active,
+body .ui-button.a-Button--hot.a-MenuButton.is-active {
+  background-color: #2875D1;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.25) inset;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* line 176, ../../scss/theme/standard/Button.scss */
+.a-Button--primary {
+  background-color: #CFE6FA;
+  color: #404040;
+}
+/* line 179, ../../scss/theme/standard/Button.scss */
+.a-Button--primary:hover, .a-Button--primary:focus {
+  background-color: #DEEFFB;
+}
+/* line 183, ../../scss/theme/standard/Button.scss */
+.a-Button--primary:active, .a-Button--primary.is-active {
+  background-color: #7FBEF2;
+}
+
+/* line 188, ../../scss/theme/standard/Button.scss */
+.a-Button--regionHeader,
+.a-Button--regionHeader:hover,
+.a-Button--regionHeader:active,
+.a-Button--noUI,
+.a-Button--noUI:hover,
+.a-Button--noUI:active {
+  background-color: transparent;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+/* line 200, ../../scss/theme/standard/Button.scss */
+.a-Button,
+.ui-button {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 12px;
+}
+
+/* line 219, ../../scss/theme/standard/Button.scss */
+.a-Button--popupLOV {
+  padding: 4px 8px;
+  color: #404040;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px;
+  border-left-width: 0;
+}
+
+/* line 227, ../../scss/theme/standard/Button.scss */
+.a-Button--calendar {
+  padding: 4px 8px;
+  margin-left: -1px;
+}
+
+/* line 233, ../../scss/theme/standard/Button.scss */
+.a-Button .a-Icon--pullRight {
+  float: right !important;
+  margin-left: 4px;
+  margin-right: 0 !important;
+}
+
+/* line 240, ../../scss/theme/standard/Button.scss */
+.a-Button--withIcon {
+  padding: 8px 10px;
+  line-height: 16px;
+}
+/* line 243, ../../scss/theme/standard/Button.scss */
+.a-Button--withIcon .a-Icon {
+  margin-right: 4px;
+}
+/* line 247, ../../scss/theme/standard/Button.scss */
+.a-Button--withIcon.a-Button--slim {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+/* line 253, ../../scss/theme/standard/Button.scss */
+.a-Button--noLabel .a-FAIcon,
+.a-Button--noLabel .a-Icon {
+  margin-right: 0;
+}
+
+/* line 259, ../../scss/theme/standard/Button.scss */
+.a-Button--iconTextButton {
+  padding-right: 8px;
+}
+/* line 261, ../../scss/theme/standard/Button.scss */
+.a-Button--iconTextButton.a-Button--large, .a-Wizard-buttons .a-Button--iconTextButton.a-Button {
+  padding-right: 12px;
+}
+/* line 265, ../../scss/theme/standard/Button.scss */
+.a-Button--iconTextButton.a-Button--small {
+  padding-right: 6px !important;
+}
+
+/* line 271, ../../scss/theme/standard/Button.scss */
+.a-Button--iconLeft {
+  position: relative;
+  padding-right: 12px;
+  padding-left: 24px;
+}
+/* line 273, ../../scss/theme/standard/Button.scss */
+.a-Button--iconLeft .a-Icon {
+  position: absolute;
+  left: 8px;
+}
+/* line 281, ../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button--iconLeft.a-Button--large, .a-Button--iconLeft.a-Button--large {
+  padding-right: 16px;
+  padding-left: 32px;
+}
+/* line 285, ../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button--iconLeft.a-Button--large .a-Icon, .a-Button--iconLeft.a-Button--large .a-Icon {
+  left: 12px;
+}
+/* line 289, ../../scss/theme/standard/Button.scss */
+.a-Button--iconLeft.a-Button--small {
+  padding-right: 8px !important;
+  padding-left: 24px !important;
+}
+/* line 292, ../../scss/theme/standard/Button.scss */
+.a-Button--iconLeft.a-Button--small .a-Icon {
+  left: 6px;
+}
+
+/* line 299, ../../scss/theme/standard/Button.scss */
+.a-Button--small,
+.a-Button--listManager {
+  font-size: 11px;
+  line-height: 16px;
+  padding: 4px 8px !important;
+}
+
+/* line 307, ../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button,
+.a-Button--large {
+  padding: 14px 16px;
+  line-height: 16px;
+  font-size: 14px;
+}
+/* line 312, ../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button.a-Button--withIcon,
+.a-Button--large.a-Button--withIcon {
+  line-height: 16px;
+}
+
+/* line 318, ../../scss/theme/standard/Button.scss */
+.a-Button--largeIcon {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* line 322, ../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button,
+.a-Button--largeIcon {
+  line-height: 20px;
+}
+/* line 324, ../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button .a-Icon,
+.a-Button--largeIcon .a-Icon {
+  width: 20px;
+  height: 20px;
+}
+/* line 328, ../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button .a-Icon:before,
+.a-Button--largeIcon .a-Icon:before {
+  font-size: 20px !important;
+}
+
+/* line 333, ../../scss/theme/standard/Button.scss */
+.a-Button--largeIcon.a-Button--large
+.a-Wizard-buttons .a-Button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* line 338, ../../scss/theme/standard/Button.scss */
+.a-Button--largeIcon.a-Button--small {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+/* line 344, ../../scss/theme/standard/Button.scss */
+.a-Button--navLink {
+  padding: 12px;
+  color: #707070;
+}
+/* line 347, ../../scss/theme/standard/Button.scss */
+.a-Button--navLink:before {
+  background-color: #E0E0E0;
+}
+/* line 352, ../../scss/theme/standard/Button.scss */
+.a-Button--navLink:focus:before, .a-Button--navLink.is-focused:before {
+  display: none;
+}
+/* line 356, ../../scss/theme/standard/Button.scss */
+.a-Button--navLink:active, .a-Button--navLink.is-active {
+  background-color: #D0D0D0;
+}
+
+/* line 361, ../../scss/theme/standard/Button.scss */
+.a-Button--navLink:hover,
+.a-Button--navLink.a-MenuButton.is-active {
+  background-color: #fff;
+  box-shadow: 0 -1px 0 #E0E0E0 inset;
+  text-shadow: none;
+}
+
+/* line 367, ../../scss/theme/standard/Button.scss */
+.a-Button--navLink.a-MenuButton.is-active {
+  box-shadow: none;
+}
+
+/* line 370, ../../scss/theme/standard/Button.scss */
+.a-Button--accountMenu {
+  padding: 8px;
+}
+
+/* line 376, ../../scss/theme/standard/Button.scss */
+.a-Button.a-Button--hot,
+.a-Button--strongLabel {
+  font-weight: bold;
+}
+
+/* line 383, ../../scss/theme/standard/Button.scss */
+.a-Button--helpButton .a-Icon:before {
+  color: #D0D0D0;
+}
+/* line 386, ../../scss/theme/standard/Button.scss */
+.a-Button--helpButton:hover .a-Icon:before {
+  color: #404040;
+}
+
+/******************************************************************************
+jQuery Button Set
+******************************************************************************/
+/* line 393, ../../scss/theme/standard/Button.scss */
+.ui-buttonset {
+  font-size: 0;
+}
+
+/* line 397, ../../scss/theme/standard/Button.scss */
+.ui-buttonset .ui-button.ui-corner-left {
+  border-radius: 2px 0 0 2px;
+}
+
+/* line 400, ../../scss/theme/standard/Button.scss */
+.ui-buttonset .ui-button.ui-corner-right {
+  border-radius: 0 2px 2px 0;
+}
+
+/* line 403, ../../scss/theme/standard/Button.scss */
+.ui-buttonset .ui-state-active {
+  font-weight: bold;
+}
+
+/* line 406, ../../scss/theme/standard/Button.scss */
+.ui-button .ui-button-text {
+  line-height: 14px;
+}
+
+/* line 414, ../../scss/theme/standard/Button.scss */
+.a-Button--listManager {
+  margin-left: 4px;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Calendars
+   ========================================================================== */
+/* line 11, ../../scss/theme/standard/Calendar.scss */
+.fc .fc-toolbar {
+  margin: 0;
+}
+
+/* line 14, ../../scss/theme/standard/Calendar.scss */
+.fc-toolbar .fc-left,
+.fc-toolbar .fc-right,
+.fc-toolbar .fc-center {
+  padding: 16px 12px;
+}
+
+/* line 31, ../../scss/theme/standard/Calendar.scss */
+.fc .ui-button {
+  padding: 8px 12px;
+  line-height: 16px;
+  margin-bottom: 0;
+}
+
+/* line 36, ../../scss/theme/standard/Calendar.scss */
+.fc button.ui-button {
+  height: auto;
+}
+
+/* line 40, ../../scss/theme/standard/Calendar.scss */
+.fc .fc-button .fc-icon-wrap {
+  float: none;
+  display: block;
+  height: 32px;
+}
+
+/* line 45, ../../scss/theme/standard/Calendar.scss */
+.fc .ui-button .ui-icon {
+  float: none;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Header Title */
+/* line 53, ../../scss/theme/standard/Calendar.scss */
+.fc-toolbar h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 200;
+  color: #404040;
+}
+
+/* Calendar Container */
+/* line 62, ../../scss/theme/standard/Calendar.scss */
+.fc-content {
+  /*border-top: 1px solid #F0F0F0;*/
+}
+
+/* line 66, ../../scss/theme/standard/Calendar.scss */
+.fc td.fc-today {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #E0E0E0;
+}
+
+/* line 71, ../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-day.fc-today {
+  background: #E6EEF7;
+  border-width: 1px 0 0 0;
+}
+
+/* Table Header */
+/* line 77, ../../scss/theme/standard/Calendar.scss */
+.fc-grid .fc-day-header {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #707070;
+  text-align: right;
+  padding: 4px 8px;
+  border-color: #F0F0F0;
+  border-width: 0 0 1px 0;
+  background-color: transparent;
+}
+
+/* line 88, ../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-day {
+  border-top: 1px solid #F0F0F0;
+  border-right: 1px solid #F8F8F8;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  padding: 0;
+}
+
+/* line 95, ../../scss/theme/standard/Calendar.scss */
+.fc .fc-grid .fc-day-content {
+  padding: 8px;
+}
+
+/* line 98, ../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-last.fc-day {
+  border-right: none;
+}
+
+/* line 101, ../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-grid .fc-day-number {
+  color: #404040;
+  padding: 4px 12px;
+}
+
+/* line 105, ../../scss/theme/standard/Calendar.scss */
+.fc-header span.fc-button.fc-button-next,
+.fc-header span.fc-button.fc-button-prev {
+  padding: 0 8px;
+}
+
+/* Calendar Cell Events*/
+/* line 111, ../../scss/theme/standard/Calendar.scss */
+.fc-event-container .fc-event,
+.fc-event-container .fc-event.fc-apex-events-default {
+  white-space: nowrap;
+  font-size: 11px;
+  border: none;
+  border-radius: 2px !important;
+  padding: 4px;
+  margin-bottom: 2px;
+  background-color: #2D7BBB;
+}
+
+/* line 123, ../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-event:hover {
+  background-color: #256FFB;
+}
+
+/* line 126, ../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-event:hover .fc-event-title {
+  color: #FFF !important;
+}
+
+/* line 129, ../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-event:hover .fc-event-title:before {
+  background-color: #fff;
+}
+
+/* line 132, ../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-event a {
+  text-decoration: none;
+}
+
+/*.fc-content .fc-event a:hover {
+  text-decoration: underline;
+}*/
+/* line 138, ../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-event .fc-event-title {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: normal !important;
+  color: #404040 !important;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Control Bar
+   ========================================================================== */
+/* line 11, ../../scss/theme/standard/ControlBar.scss */
+.a-ControlBar {
+  border-bottom: 1px solid #E0E0E0;
+  background-color: #FFF;
+}
+
+/* line 15, ../../scss/theme/standard/ControlBar.scss */
+.a-ControlBar:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
+  margin-bottom: -6px;
+  z-index: 100;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Date List
+   ========================================================================== */
+/* line 12, ../../scss/theme/standard/DateList.scss */
+.a-DateList-item {
+  box-shadow: 0 -1px 0 #F8F8F8 inset;
+}
+/* line 18, ../../scss/theme/standard/DateList.scss */
+.a-DateList-item:hover {
+  background-color: #FAFAFA;
+}
+
+/* line 28, ../../scss/theme/standard/DateList.scss */
+.a-DateList-icon {
+  background-color: #FFF;
+}
+
+/* line 35, ../../scss/theme/standard/DateList.scss */
+.a-DateList-icon--warning .a-Icon {
+  color: #FACB09;
+}
+
+/* line 39, ../../scss/theme/standard/DateList.scss */
+.a-DateList-icon--danger {
+  background-color: #FA0000;
+  border-color: #CA0000;
+}
+/* line 42, ../../scss/theme/standard/DateList.scss */
+.a-DateList-icon--danger .a-Icon {
+  color: #FFFFFF;
+}
+
+/* line 46, ../../scss/theme/standard/DateList.scss */
+.a-DateList-day {
+  color: #404040;
+}
+
+/* line 49, ../../scss/theme/standard/DateList.scss */
+.a-DateList-month {
+  color: #EA0000;
+}
+
+/* line 52, ../../scss/theme/standard/DateList.scss */
+.a-DateList-desc {
+  color: #404040;
+}
+
+/* line 55, ../../scss/theme/standard/DateList.scss */
+.a-DateList-attribute {
+  color: #707070;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+/* line 10, ../../scss/theme/standard/Footer.scss */
+.a-Footer {
+  background-color: #FFF;
+  border-color: #E0E0E0;
+  font-size: 11px;
+  line-height: 16px;
+  color: #707070;
+}
+
+/* line 18, ../../scss/theme/standard/Footer.scss */
+.a-Page--simpleWizard .a-Footer {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+
+/**
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/* ==========================================================================
+	 Grid Layout Theme
+	 ========================================================================== */
+/* line 23, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-wrapper {
+  background-color: #DADADA;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15) inset;
+}
+
+/* ==========================================================================
+	 Containers
+	 ========================================================================== */
+/* ==========================================================================
+	 Page
+	 ========================================================================== */
+/* line 41, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  height: 32px;
+  background-color: #EFF1F2;
+  border: 1px solid #BDC3C7;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  margin: 4px 4px 12px 4px;
+  color: #404040;
+}
+/* line 53, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 .a-GridLayout-label {
+  line-height: 32px;
+}
+/* line 55, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 .a-GridLayout-label .a-Icon {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  margin-right: 0;
+  padding: 0;
+}
+/* line 61, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 .a-GridLayout-label .a-Icon:before {
+  line-height: 32px;
+}
+/* line 66, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 > .a-Icon {
+  width: 16px;
+  height: 16px;
+  color: #707070;
+  padding: 0;
+  text-align: center;
+  margin: 8px;
+}
+
+/* ==========================================================================
+	 Containers
+	 ========================================================================== */
+/* line 81, ../../scss/theme/standard/GridLayout.scss */
+td > .a-GridLayout-regionContainer, .a-GridLayout-page > .a-GridLayout-regionContainer, .a-GridLayout-regionContainer.a-GridLayout--legacy {
+  background-color: #FFF;
+  margin: 4px 4px 12px 4px;
+  padding: 4px;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+/* line 89, ../../scss/theme/standard/GridLayout.scss */
+td > .a-GridLayout-regionContainer > h3, .a-GridLayout-page > .a-GridLayout-regionContainer > h3, .a-GridLayout-regionContainer.a-GridLayout--legacy > h3 {
+  color: #707070;
+}
+
+/* ==========================================================================
+	 Button, Item and Region Container
+	 ========================================================================== */
+/* line 104, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region .a-GridLayout-regionContainer, .a-GridLayout-region
+.a-GridLayout-buttonContainer, .a-GridLayout-region
+.a-GridLayout-itemContainer, .a-GridLayout-region
+.a-GridLayout-regionContent {
+  border: 1px dashed #CFE6FA;
+  padding: 4px;
+  color: #606060;
+  margin: 8px;
+  border-radius: 2px;
+}
+/* line 113, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regionContainer > h3,
+.a-GridLayout-buttonContainer > h3,
+.a-GridLayout-itemContainer > h3,
+.a-GridLayout-regionContent > h3 {
+  padding: 0 4px;
+  margin: 0;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* line 122, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-buttonGroup {
+  margin: 4px;
+}
+/* line 126, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-buttonGroup .a-GridLayout-buttonContainer {
+  margin: 4px;
+}
+/* line 129, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-buttonGroup + .a-GridLayout-itemContainer, .a-GridLayout-buttonGroup + .a-GridLayout-itemContainer + .a-GridLayout-regionContent, .a-GridLayout-buttonGroup + .a-GridLayout-regionContainer {
+  margin-top: 4px;
+}
+
+/* line 137, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regionContainer + .a-GridLayout-buttonGroup .a-GridLayout-buttonContainer {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+/* line 143, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-buttonRow td:first-child {
+  border-right: 1px dashed #CFE6FA;
+}
+
+/* line 147, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-grid {
+  border-top: 1px dashed #CFE6FA;
+}
+
+/* ==========================================================================
+	 Region Content
+	 ========================================================================== */
+/* line 154, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regionContent {
+  overflow: hidden;
+}
+
+/* line 157, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regionContent > h3 {
+  float: left;
+}
+
+/* line 160, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regionContent > .a-GridLayout-buttonContainer {
+  float: right;
+  margin: 4px;
+}
+
+/* ==========================================================================
+	 Regions
+	 ========================================================================== */
+/* line 169, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region {
+  background-color: #F7FBFE;
+  border-radius: 2px;
+  border: 1px solid #B6DAF6;
+}
+/* line 174, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region + .a-GridLayout-region {
+  margin-top: 8px !important;
+}
+/* line 177, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regions > .a-GridLayout-region {
+  margin: 4px;
+}
+
+/* line 181, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region > h3 {
+  background-color: #DEEFFB;
+  border-bottom: 1px solid rgba(182, 218, 246, 0.75);
+  font-size: 12px;
+  line-height: 32px;
+  height: 32px;
+  color: #404040;
+}
+/* line 189, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region > h3 .a-Icon {
+  display: block;
+  float: left;
+  color: #8E99A0;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 8px;
+}
+/* line 198, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region > h3 .a-Icon:before {
+  font-size: 16px;
+  line-height: 16px;
+}
+/* line 204, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region > h3 .a-GridLayout-label {
+  line-height: 20px;
+  overflow: hidden;
+  display: block;
+  padding: 6px 0;
+}
+
+/* ==========================================================================
+	 Icons + Label
+	 ========================================================================== */
+/* line 215, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-pageItem .a-Icon {
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: top;
+  height: 22px;
+  width: 22px;
+  padding: 3px;
+}
+
+/* line 223, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-label {
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 22px;
+}
+/* line 229, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-label .a-Icon {
+  display: none !important;
+}
+
+/* ==========================================================================
+	 Items + Buttons
+	 ========================================================================== */
+/* line 239, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-pageItem {
+  border: 1px solid #CACFD2;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  margin: 4px;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 246, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-pageItem .a-Icon {
+  color: #979C9F;
+}
+
+/* line 251, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button {
+  border: 1px solid #7FDFB3;
+  background-color: #DDF7EB;
+  border-radius: 24px;
+  margin: 4px;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 258, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button .a-Icon {
+  display: none;
+}
+/* line 261, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button .a-GridLayout-label {
+  padding: 0 8px;
+}
+/* line 263, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button .a-GridLayout-label .a-Icon {
+  display: none;
+}
+/* line 271, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button.is-error h3 > .a-Icon, .a-GridLayout-button.is-warning h3 > .a-Icon {
+  display: inline-block;
+  margin: 4px 0 4px 8px;
+}
+/* line 275, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button.is-error .a-GridLayout-label, .a-GridLayout-button.is-warning .a-GridLayout-label {
+  padding-left: 0;
+}
+
+/* line 281, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-pageItem > h3,
+.a-GridLayout-button > h3 {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px;
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+	 Buttons
+	 ========================================================================== */
+/* ==========================================================================
+	 Stateful Selectors
+	 ========================================================================== */
+/* line 298, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regions.is-active,
+.a-GridLayout-items.is-active,
+.a-GridLayout-buttons.is-active {
+  background-color: #ffffa3;
+}
+
+/* line 304, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-placeholder {
+  background-color: rgba(0, 0, 0, 0.15);
+  border: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+/* line 315, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region.is-focused,
+.a-GridLayout-pageItem.is-focused,
+.a-GridLayout-button.is-focused {
+  border-color: #81AAD6;
+  box-shadow: 0 0 0 1px #81aad6, 0 0 2px 2px rgba(129, 170, 214, 0.25);
+  outline: none;
+}
+
+/* line 324, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-grid.is-active td {
+  border-color: #999;
+}
+
+/* line 335, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-focused,
+.a-GridLayout-region.is-focused,
+.a-GridLayout-pageItem.is-focused,
+.a-GridLayout-button.is-focused {
+  border-color: #399BEA;
+  box-shadow: 0 0 0 1px #399bea, 0 0 2px 2px rgba(57, 155, 234, 0.25);
+}
+/* line 344, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected > h3,
+.a-GridLayout-region.is-selected > h3,
+.a-GridLayout-pageItem.is-selected > h3,
+.a-GridLayout-button.is-selected > h3 {
+  background-color: #2D7BBB;
+  border-color: #2D7BBB;
+  color: #FFF;
+}
+/* line 348, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected > h3 .a-Icon,
+.a-GridLayout-region.is-selected > h3 .a-Icon,
+.a-GridLayout-pageItem.is-selected > h3 .a-Icon,
+.a-GridLayout-button.is-selected > h3 .a-Icon {
+  color: #FFF;
+}
+/* line 353, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected.is-focused,
+.a-GridLayout-region.is-selected.is-focused,
+.a-GridLayout-pageItem.is-selected.is-focused,
+.a-GridLayout-button.is-selected.is-focused {
+  border-color: #399BEA;
+}
+/* line 355, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected.is-focused > h3,
+.a-GridLayout-region.is-selected.is-focused > h3,
+.a-GridLayout-pageItem.is-selected.is-focused > h3,
+.a-GridLayout-button.is-selected.is-focused > h3 {
+  background-color: #2D7BBB;
+  border-color: #399BEA;
+}
+
+/* line 364, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-pageItem.is-selected,
+.a-GridLayout-button.is-selected {
+  border-color: #246396;
+  background-color: #246396;
+}
+
+/* line 371, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected > h3 {
+  border-color: #246396;
+  background-color: #246396;
+}
+
+/* line 378, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region.is-selected {
+  border-color: #399BEA;
+}
+
+/* line 388, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-focused {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* line 399, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning,
+.a-GridLayout-region.is-warning,
+.a-GridLayout-pageItem.is-warning,
+.a-GridLayout-button.is-warning {
+  border-color: #c9c7b9;
+  background-color: #fffcf4;
+}
+/* line 402, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning > h3,
+.a-GridLayout-region.is-warning > h3,
+.a-GridLayout-pageItem.is-warning > h3,
+.a-GridLayout-button.is-warning > h3 {
+  border-color: #c9c7b9;
+  background-color: #fff2c3;
+}
+/* line 406, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning > h3 .a-Icon:before,
+.a-GridLayout-region.is-warning > h3 .a-Icon:before,
+.a-GridLayout-pageItem.is-warning > h3 .a-Icon:before,
+.a-GridLayout-button.is-warning > h3 .a-Icon:before {
+  content: "\e017";
+}
+/* line 410, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-focused,
+.a-GridLayout-region.is-warning.is-focused,
+.a-GridLayout-pageItem.is-warning.is-focused,
+.a-GridLayout-button.is-warning.is-focused {
+  border-color: #399BEA;
+  box-shadow: 0 0 0 1px #399bea, 0 0 2px 2px rgba(57, 155, 234, 0.25);
+}
+/* line 416, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-selected,
+.a-GridLayout-region.is-warning.is-selected,
+.a-GridLayout-pageItem.is-warning.is-selected,
+.a-GridLayout-button.is-warning.is-selected {
+  border-color: #c7a62e;
+  background-color: #fffdf6;
+}
+/* line 419, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-selected > h3,
+.a-GridLayout-region.is-warning.is-selected > h3,
+.a-GridLayout-pageItem.is-warning.is-selected > h3,
+.a-GridLayout-button.is-warning.is-selected > h3 {
+  background-color: #FFD746;
+  border-color: #c7a62e;
+  color: #404040;
+}
+/* line 423, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-selected > h3 .a-Icon,
+.a-GridLayout-region.is-warning.is-selected > h3 .a-Icon,
+.a-GridLayout-pageItem.is-warning.is-selected > h3 .a-Icon,
+.a-GridLayout-button.is-warning.is-selected > h3 .a-Icon {
+  color: #404040;
+}
+/* line 430, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-selected.is-focused,
+.a-GridLayout-region.is-warning.is-selected.is-focused,
+.a-GridLayout-pageItem.is-warning.is-selected.is-focused,
+.a-GridLayout-button.is-warning.is-selected.is-focused {
+  border-color: #399BEA;
+}
+/* line 432, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-selected.is-focused > h3,
+.a-GridLayout-region.is-warning.is-selected.is-focused > h3,
+.a-GridLayout-pageItem.is-warning.is-selected.is-focused > h3,
+.a-GridLayout-button.is-warning.is-selected.is-focused > h3 {
+  background-color: #FFD746;
+  border-color: #c7a62e;
+}
+
+/* line 445, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error,
+.a-GridLayout-region.is-error,
+.a-GridLayout-pageItem.is-error,
+.a-GridLayout-button.is-error {
+  border-color: #bda9a9;
+  background-color: #fff4f4;
+}
+/* line 448, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error > h3,
+.a-GridLayout-region.is-error > h3,
+.a-GridLayout-pageItem.is-error > h3,
+.a-GridLayout-button.is-error > h3 {
+  border-color: #bda9a9;
+  background-color: #ffc3c3;
+}
+/* line 451, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error > h3 .a-Icon,
+.a-GridLayout-region.is-error > h3 .a-Icon,
+.a-GridLayout-pageItem.is-error > h3 .a-Icon,
+.a-GridLayout-button.is-error > h3 .a-Icon {
+  color: #606060;
+}
+/* line 453, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error > h3 .a-Icon:before,
+.a-GridLayout-region.is-error > h3 .a-Icon:before,
+.a-GridLayout-pageItem.is-error > h3 .a-Icon:before,
+.a-GridLayout-button.is-error > h3 .a-Icon:before {
+  content: "\e0a2";
+}
+/* line 456, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-focused,
+.a-GridLayout-region.is-error.is-focused,
+.a-GridLayout-pageItem.is-error.is-focused,
+.a-GridLayout-button.is-error.is-focused {
+  border-color: #399BEA;
+  box-shadow: 0 0 0 1px #399bea, 0 0 2px 2px rgba(57, 155, 234, 0.25);
+}
+/* line 462, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected,
+.a-GridLayout-region.is-error.is-selected,
+.a-GridLayout-pageItem.is-error.is-selected,
+.a-GridLayout-button.is-error.is-selected {
+  border-color: #b93b3c;
+  background-color: #fef4f4;
+}
+/* line 465, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected > h3,
+.a-GridLayout-region.is-error.is-selected > h3,
+.a-GridLayout-pageItem.is-error.is-selected > h3,
+.a-GridLayout-button.is-error.is-selected > h3 {
+  background-color: #f22f2f;
+  border-color: #b93b3c;
+  color: #FFF;
+}
+/* line 469, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected > h3 .a-Icon,
+.a-GridLayout-region.is-error.is-selected > h3 .a-Icon,
+.a-GridLayout-pageItem.is-error.is-selected > h3 .a-Icon,
+.a-GridLayout-button.is-error.is-selected > h3 .a-Icon {
+  color: #FFF;
+}
+/* line 475, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected.is-focused,
+.a-GridLayout-region.is-error.is-selected.is-focused,
+.a-GridLayout-pageItem.is-error.is-selected.is-focused,
+.a-GridLayout-button.is-error.is-selected.is-focused {
+  border-color: #399BEA;
+}
+/* line 477, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected.is-focused > h3,
+.a-GridLayout-region.is-error.is-selected.is-focused > h3,
+.a-GridLayout-pageItem.is-error.is-selected.is-focused > h3,
+.a-GridLayout-button.is-error.is-selected.is-focused > h3 {
+  background-color: #f22f2f;
+  border-color: #b93b3c;
+}
+
+/* line 487, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error {
+  background-color: transparent;
+}
+/* line 489, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected {
+  background-color: transparent;
+}
+
+/* line 503, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-page.is-selected > h3 .a-Icon.icon-warning, .a-GridLayout-page > h3 .a-Icon.icon-error,
+.a-GridLayout-page > h3 .a-Icon.icon-warning,
+.a-GridLayout-region.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-region.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-region > h3 .a-Icon.icon-error,
+.a-GridLayout-region > h3 .a-Icon.icon-warning,
+.a-GridLayout-pageItem.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-pageItem.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-pageItem > h3 .a-Icon.icon-error,
+.a-GridLayout-pageItem > h3 .a-Icon.icon-warning,
+.a-GridLayout-button.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-button.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-button > h3 .a-Icon.icon-error,
+.a-GridLayout-button > h3 .a-Icon.icon-warning {
+  box-shadow: none;
+  background: transparent;
+  text-shadow: none;
+}
+/* line 511, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 .a-Icon.icon-error,
+.a-GridLayout-region > h3 .a-Icon.icon-error,
+.a-GridLayout-pageItem > h3 .a-Icon.icon-error,
+.a-GridLayout-button > h3 .a-Icon.icon-error {
+  color: #f22f2f;
+}
+/* line 514, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 .a-Icon.icon-warning,
+.a-GridLayout-region > h3 .a-Icon.icon-warning,
+.a-GridLayout-pageItem > h3 .a-Icon.icon-warning,
+.a-GridLayout-button > h3 .a-Icon.icon-warning {
+  color: #c7a62e;
+}
+/* line 519, ../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-page.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-region.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-region.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-pageItem.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-pageItem.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-button.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-button.is-selected > h3 .a-Icon.icon-warning {
+  color: #FFF;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   APEX Builder Header
+   ========================================================================== */
+/* line 11, ../../scss/theme/standard/Header.scss */
+.a-Header, .a-Header-logo:hover, .a-Header-tabsContainer .a-MenuBar-item, .a-Header-tabsContainer .a-MenuBar-item.is-focused:hover, .a-Header-tabLink:hover, .a-Header-account:hover, .a-Header-helpLink:hover, .a-Header-navLinks {
+  box-shadow: 0 -1px 0 #E0E0E0 inset;
+}
+
+/* line 24, ../../scss/theme/standard/Header.scss */
+.a-Header {
+  background-color: #F8F8F8;
+  min-height: 40px;
+}
+
+/* line 29, ../../scss/theme/standard/Header.scss */
+.a-Header--login,
+.a-Page--simpleWizard .a-Header {
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: background-color .2s;
+}
+/* line 38, ../../scss/theme/standard/Header.scss */
+.a-Header--login:hover,
+.a-Page--simpleWizard .a-Header:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+/* line 41, ../../scss/theme/standard/Header.scss */
+.a-Header--login .a-Header-logo:hover,
+.a-Page--simpleWizard .a-Header .a-Header-logo:hover {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+/* line 46, ../../scss/theme/standard/Header.scss */
+.a-Header-logo {
+  color: #404040;
+}
+/* line 48, ../../scss/theme/standard/Header.scss */
+.a-Header-logo:focus {
+  box-shadow: 0 0 0 2px #399bea inset;
+  outline: none;
+}
+/* line 52, ../../scss/theme/standard/Header.scss */
+.a-Header-logo:hover {
+  background-color: #FFF;
+}
+
+/* line 59, ../../scss/theme/standard/Header.scss */
+.a-Header-tabsContainer .a-Menu-statusCol {
+  width: 12px;
+}
+/* line 62, ../../scss/theme/standard/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-label {
+  color: #6D6D6D;
+}
+/* line 65, ../../scss/theme/standard/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item {
+  border-left: 1px solid #E0E0E0;
+}
+/* line 67, ../../scss/theme/standard/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item:last-child {
+  border-right: 1px solid #E0E0E0;
+}
+/* line 71, ../../scss/theme/standard/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item.is-focused, .a-Header-tabsContainer .a-MenuBar-item.is-active, .a-Header-tabsContainer .a-MenuBar-item.is-expanded, .a-Header-tabsContainer .a-MenuBar-item.a-Menu--current {
+  background-color: #FFF;
+}
+/* line 76, ../../scss/theme/standard/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item.is-focused .a-MenuBar-label, .a-Header-tabsContainer .a-MenuBar-item.is-active .a-MenuBar-label, .a-Header-tabsContainer .a-MenuBar-item.is-expanded .a-MenuBar-label, .a-Header-tabsContainer .a-MenuBar-item.a-Menu--current .a-MenuBar-label {
+  color: #404040;
+}
+/* line 82, ../../scss/theme/standard/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item.is-expanded {
+  box-shadow: none !important;
+}
+/* line 91, ../../scss/theme/standard/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item > .a-Menu-subMenuCol .a-Icon {
+  color: #A0A0A0;
+  border-color: rgba(208, 208, 208, 0.5);
+}
+/* line 95, ../../scss/theme/standard/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item > .a-Menu-subMenuCol:hover .a-Icon {
+  border-color: #2D7BBB;
+  color: #2D7BBB;
+}
+/* line 100, ../../scss/theme/standard/Header.scss */
+.a-Header-tabsContainer .a-MenuBar-item.is-expanded > .a-Menu-subMenuCol .a-Icon {
+  border-color: #2D7BBB;
+  color: #FFF;
+  background-color: #2D7BBB;
+}
+/* line 108, ../../scss/theme/standard/Header.scss */
+.a-Header-tabsContainer .a-Menu-label {
+  min-width: 140px;
+}
+
+/* ==========================================================================
+   Tab Colors
+   ========================================================================== */
+/* line 120, ../../scss/theme/standard/Header.scss */
+.a-MenuBar-item.tab-app-builder.a-Menu--current, .a-MenuBar-item.tab-app-builder.is-expanded {
+  box-shadow: 0 3px 0 #399BEA inset !important;
+}
+/* line 124, ../../scss/theme/standard/Header.scss */
+.a-MenuBar-item.tab-app-builder.is-focused {
+  box-shadow: 0 3px 0 #399BEA inset, 0 -1px 0 #F0F0F0 inset !important;
+}
+
+/* line 129, ../../scss/theme/standard/Header.scss */
+.a-MenuBar-item.tab-sql-workshop.a-Menu--current, .a-MenuBar-item.tab-sql-workshop.is-expanded {
+  box-shadow: 0 3px 0 #24CB7F inset !important;
+}
+/* line 133, ../../scss/theme/standard/Header.scss */
+.a-MenuBar-item.tab-sql-workshop.is-focused {
+  box-shadow: 0 3px 0 #24CB7F inset, 0 -1px 0 #F0F0F0 inset !important;
+}
+
+/* line 138, ../../scss/theme/standard/Header.scss */
+.a-MenuBar-item.tab-team-dev.a-Menu--current, .a-MenuBar-item.tab-team-dev.is-expanded {
+  box-shadow: 0 3px 0 #FFBE2A inset !important;
+}
+/* line 142, ../../scss/theme/standard/Header.scss */
+.a-MenuBar-item.tab-team-dev.is-focused {
+  box-shadow: 0 3px 0 #FFBE2A inset, 0 -1px 0 #F0F0F0 inset !important;
+}
+
+/* line 147, ../../scss/theme/standard/Header.scss */
+.a-MenuBar-item.tab-apps.a-Menu--current, .a-MenuBar-item.tab-apps.is-expanded {
+  box-shadow: 0 3px 0 #F54B21 inset !important;
+}
+/* line 151, ../../scss/theme/standard/Header.scss */
+.a-MenuBar-item.tab-apps.is-focused {
+  box-shadow: 0 3px 0 #F54B21 inset, 0 -1px 0 #F0F0F0 inset !important;
+}
+
+/* line 156, ../../scss/theme/standard/Header.scss */
+.a-Header-tabLink {
+  color: #6D6D6D;
+  border-left: 1px solid #E0E0E0;
+}
+/* line 159, ../../scss/theme/standard/Header.scss */
+.a-Header-tabItem:last-child .a-Header-tabLink {
+  border-right: 1px solid #E0E0E0;
+}
+/* line 162, ../../scss/theme/standard/Header.scss */
+.a-Header-tabLink:hover {
+  background-color: #FFF;
+}
+
+/* line 167, ../../scss/theme/standard/Header.scss */
+.a-Header-account {
+  color: #6D6D6D;
+  border-left-color: #E0E0E0;
+}
+/* line 170, ../../scss/theme/standard/Header.scss */
+.a-Header-account:hover {
+  background-color: #FFF;
+}
+
+/* line 176, ../../scss/theme/standard/Header.scss */
+.a-Header-userPhoto {
+  box-shadow: 0 0 0 1px #B0B0B0 inset;
+}
+/* line 178, ../../scss/theme/standard/Header.scss */
+.a-Header-userPhoto .a-Icon {
+  color: #A0A0A0;
+}
+
+/* line 192, ../../scss/theme/standard/Header.scss */
+.a-Header-accountDialog .a-Header-userPhoto--large {
+  background-color: #F8F8F8;
+}
+/* line 194, ../../scss/theme/standard/Header.scss */
+.a-Header-accountDialog .a-Header-userPhoto--large .a-Icon {
+  margin-left: -3px;
+}
+/* line 196, ../../scss/theme/standard/Header.scss */
+.a-Header-accountDialog .a-Header-userPhoto--large .a-Icon:before {
+  font-size: 72px;
+  content: "\e0f5";
+}
+
+/* line 202, ../../scss/theme/standard/Header.scss */
+.a-Header-accountDialog .a-Header-userPhoto--default {
+  box-shadow: none;
+  background-color: transparent;
+}
+/* line 205, ../../scss/theme/standard/Header.scss */
+.a-Header-accountDialog .a-Header-userPhoto--default .a-Header-noUserPhoto {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px #B0B0B0 inset;
+  background-color: #F8F8F8;
+}
+
+/* line 218, ../../scss/theme/standard/Header.scss */
+.a-Header-search .a-SearchBox:before {
+  background-color: #E0E0E0;
+}
+/* line 221, ../../scss/theme/standard/Header.scss */
+.a-Header-search .a-SearchBox-icon {
+  color: #6D6D6D;
+}
+
+/* line 225, ../../scss/theme/standard/Header.scss */
+.a-Header-accountDialog {
+  background-color: #fff;
+  border-color: #D0D0D0;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* line 230, ../../scss/theme/standard/Header.scss */
+.a-Header-dialogName,
+.a-Header-dialogValue {
+  color: #404040;
+}
+
+/* line 234, ../../scss/theme/standard/Header.scss */
+.a-Header-dialogUsername,
+.a-Header-dialogLabel {
+  color: #777777;
+}
+
+/* line 238, ../../scss/theme/standard/Header.scss */
+.a-Header-dialogRole,
+.a-Header-dialogWorkspace {
+  color: #777;
+  border-top-color: #F8F8F8;
+}
+/* line 242, ../../scss/theme/standard/Header.scss */
+.a-Header-dialogRole .a-Icon,
+.a-Header-dialogWorkspace .a-Icon {
+  color: #404040;
+}
+
+/* line 247, ../../scss/theme/standard/Header.scss */
+.a-Header-accountDialog-buttons {
+  border-top-color: #F0F0F0;
+  background-color: #FBFBFB;
+}
+
+/* line 252, ../../scss/theme/standard/Header.scss */
+.a-Header-help {
+  border-left-color: #E0E0E0;
+}
+
+/* line 255, ../../scss/theme/standard/Header.scss */
+.a-Header-helpLink {
+  color: #6D6D6D;
+}
+/* line 257, ../../scss/theme/standard/Header.scss */
+.a-Header-helpLink:hover {
+  background-color: #fff;
+}
+
+/* line 263, ../../scss/theme/standard/Header.scss */
+.a-Header-navLinks {
+  font-size: 0;
+}
+
+/* line 269, ../../scss/theme/standard/Header.scss */
+.a-Header .icon-home {
+  color: #A0A0A0;
+}
+
+/* ==========================================================================
+   Header for Simple Wizard
+   ========================================================================== */
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Help Region
+   ========================================================================== */
+/* line 15, ../../scss/theme/standard/HelpRegion.scss */
+.a-HelpRegion {
+  background-color: #FFFBEB;
+  min-height: 100%;
+  padding: 12px;
+}
+/* line 20, ../../scss/theme/standard/HelpRegion.scss */
+.a-HelpRegion h3 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #202020;
+  margin-bottom: 8px;
+}
+/* line 26, ../../scss/theme/standard/HelpRegion.scss */
+.a-HelpRegion a {
+  color: #146FB8;
+}
+
+/* line 30, ../../scss/theme/standard/HelpRegion.scss */
+.ui-tabs-helpTab.ui-state-active .ui-tabs-anchor {
+  background-color: #FFFBEB !important;
+}
+
+/* ==========================================================================
+   Help Region (Property Editor)
+   ========================================================================== */
+/* line 37, ../../scss/theme/standard/HelpRegion.scss */
+.a-Region.a-Region--helpRegion {
+  background-color: #FFFBEB;
+}
+/* line 39, ../../scss/theme/standard/HelpRegion.scss */
+.a-Region.a-Region--helpRegion .a-Region-header,
+.a-Region.a-Region--helpRegion .a-Region-body {
+  border-color: #FFFBEB;
+}
+/* line 43, ../../scss/theme/standard/HelpRegion.scss */
+.a-Region.a-Region--helpRegion .a-Region-header {
+  background-color: #FFFBEB;
+}
+/* line 46, ../../scss/theme/standard/HelpRegion.scss */
+.a-Region.a-Region--helpRegion .a-Region-title {
+  color: #404040;
+}
+/* line 49, ../../scss/theme/standard/HelpRegion.scss */
+.a-Region.a-Region--helpRegion .a-Region-body {
+  overflow: auto;
+}
+
+/* ==========================================================================
+   Help Typography
+   ========================================================================== */
+/* line 59, ../../scss/theme/standard/HelpRegion.scss */
+.a-HelpRegion p,
+.a-Region--helpRegion .a-Region-body p {
+  margin: 0 0 12px 0;
+}
+/* line 61, ../../scss/theme/standard/HelpRegion.scss */
+.a-HelpRegion p:only-child, .a-HelpRegion p:last-child,
+.a-Region--helpRegion .a-Region-body p:only-child,
+.a-Region--helpRegion .a-Region-body p:last-child {
+  margin-bottom: 0;
+}
+/* line 66, ../../scss/theme/standard/HelpRegion.scss */
+.a-HelpRegion p, .a-HelpRegion li,
+.a-Region--helpRegion .a-Region-body p,
+.a-Region--helpRegion .a-Region-body li {
+  font-size: 12px;
+  line-height: 20px;
+  color: #404040;
+}
+/* line 71, ../../scss/theme/standard/HelpRegion.scss */
+.a-HelpRegion pre,
+.a-Region--helpRegion .a-Region-body pre {
+  font-size: 11px;
+  font-family: 'Menlo', 'Consolas', monospace, serif;
+  line-height: 14px;
+  border-radius: 2px;
+  background-color: #FFFCF2;
+  padding: 2px;
+  margin: 8px 0;
+  border: 1px solid #EFE3B5;
+  color: #404040;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Interactive Report Styles
+   ========================================================================== */
+/* line 14, ../../scss/theme/standard/IRR.scss */
+.a-IRR-header.is-active .a-IRR-headerLink {
+  color: #FFF;
+}
+/* line 17, ../../scss/theme/standard/IRR.scss */
+.a-IRR-header.is-active .a-IRR-headerSort {
+  color: #FFF;
+}
+
+/* line 21, ../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget {
+  border-color: #286da6;
+}
+
+/* line 24, ../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-actions {
+  border-collapse: separate;
+  padding: 4px;
+  border-bottom-color: #236092;
+}
+
+/* line 29, ../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-actions-item {
+  border: none;
+}
+
+/* line 32, ../../scss/theme/standard/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button {
+  background-color: transparent;
+  color: #86b8e2;
+  border-radius: 2px;
+  padding: 10px 0;
+}
+/* line 37, ../../scss/theme/standard/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button.is-active, .a-IRR-button.a-IRR-sortWidget-button:focus {
+  background-color: transparent;
+  color: #FFF;
+}
+/* line 42, ../../scss/theme/standard/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button.is-active, .a-IRR-button.a-IRR-sortWidget-button.is-active:hover {
+  background-color: #25659a;
+  box-shadow: inherit;
+}
+/* line 47, ../../scss/theme/standard/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button:hover, .a-IRR-button.a-IRR-sortWidget-button:active:focus {
+  background-color: #286da6;
+  color: #FFF;
+  box-shadow: none;
+}
+
+/* line 55, ../../scss/theme/standard/IRR.scss */
+.a-IRR-header.is-active,
+.a-IRR-sortWidget-actions,
+.a-IRR-sortWidget-actions-item,
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"] {
+  background-color: #286da6;
+}
+
+/* line 61, ../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"]::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 64, ../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"]::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 67, ../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"]:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 70, ../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"] {
+  color: #FFF;
+  border-bottom: 1px solid #236092;
+}
+
+/* line 74, ../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-searchLabel:before {
+  color: #FFF;
+}
+
+/* line 77, ../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-rows {
+  background-color: #2D7BBB;
+  border-top-width: 0;
+  background: linear-gradient(#2d7bbb 30%, rgba(45, 123, 187, 0)), linear-gradient(rgba(45, 123, 187, 0), #2d7bbb 70%) 0 100%, linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: #2d7bbb;
+  background-size: 100% 12px, 100% 12px, 100% 6px, 100% 6px;
+  background-attachment: local, local, scroll, scroll;
+}
+
+/* line 90, ../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-row {
+  color: #FFF;
+  box-shadow: 0 -1px 0 #286da6 inset;
+}
+/* line 93, ../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-row:hover {
+  background-color: #3388ce;
+}
+
+/* line 98, ../../scss/theme/standard/IRR.scss */
+.a-IRR-table tr:nth-child(even) td {
+  background-color: #FAFAFA;
+}
+
+/* line 101, ../../scss/theme/standard/IRR.scss */
+.a-IRR-table tr:hover td,
+.a-IRR-table tr:nth-child(even):hover td {
+  background-color: #F4F4F4;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Icon List
+******************************************************************************/
+/* line 27, ../../scss/theme/standard/IconList.scss */
+.a-IconList {
+  margin: 4px;
+}
+
+/* line 30, ../../scss/theme/standard/IconList.scss */
+.wizard-selection .a-IconList {
+  margin: 8px;
+}
+
+/* line 33, ../../scss/theme/standard/IconList.scss */
+.wizard-selection .a-IconList-item {
+  width: 200px;
+  height: 150px;
+}
+
+/* line 37, ../../scss/theme/standard/IconList.scss */
+.a-Gallery .a-IconList-item {
+  width: 96px;
+  height: 90px;
+}
+
+/* line 41, ../../scss/theme/standard/IconList.scss */
+.a-IconList-item {
+  padding: 8px 4px;
+  margin: 0 4px 4px 0;
+  color: #6F6F6F;
+  border-radius: 3px;
+}
+/* line 47, ../../scss/theme/standard/IconList.scss */
+.a-IconList-item:hover {
+  color: #444444;
+  background-color: #FAFAFA;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+}
+/* line 52, ../../scss/theme/standard/IconList.scss */
+.a-IconList-item:active {
+  color: #444444;
+  background-color: #E4E4E4;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+}
+/* line 57, ../../scss/theme/standard/IconList.scss */
+.a-IconList-item:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #399bea inset;
+}
+/* line 62, ../../scss/theme/standard/IconList.scss */
+.a-IconList-item.is-selected {
+  background-color: #F2F2F2;
+  box-shadow: 0 0 0 1px #399bea inset;
+}
+/* line 67, ../../scss/theme/standard/IconList.scss */
+.a-IconList-item.is-selected.is-focused {
+  color: #444444;
+  box-shadow: 0 0 0 1px #399bea inset, 0 0 0 1px #399bea, 0 0 2px 2px rgba(57, 155, 234, 0.5);
+  outline: none;
+}
+
+/* line 76, ../../scss/theme/standard/IconList.scss */
+.a-IconList-item a {
+  display: block;
+}
+/* line 78, ../../scss/theme/standard/IconList.scss */
+.a-IconList-item a:hover {
+  text-decoration: none;
+}
+
+/* line 82, ../../scss/theme/standard/IconList.scss */
+.a-Gallery-componentName,
+.a-IconList-iconName {
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  height: 42px;
+}
+
+/* line 90, ../../scss/theme/standard/IconList.scss */
+.a-Gallery .a-Icon {
+  display: block;
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  line-height: 1;
+}
+/* line 96, ../../scss/theme/standard/IconList.scss */
+.a-Gallery .a-Icon:before {
+  font-size: 32px;
+  vertical-align: top;
+}
+
+/* line 102, ../../scss/theme/standard/IconList.scss */
+.a-Gallery-region .a-Icon {
+  color: #7FBEF2;
+}
+
+/* line 105, ../../scss/theme/standard/IconList.scss */
+.a-Gallery-pageItem .a-Icon {
+  color: #979C9F;
+}
+
+/* line 108, ../../scss/theme/standard/IconList.scss */
+.a-Gallery-button .a-Icon {
+  color: #56D49A;
+}
+
+/* line 112, ../../scss/theme/standard/IconList.scss */
+.a-IconList--wizard .a-Icon {
+  color: #7c8791;
+}
+
+/* line 116, ../../scss/theme/standard/IconList.scss */
+.a-IconList--wizard .a-IconList-item:hover .a-IconList-iconName,
+.a-IconList--wizard .a-IconList-item:hover .a-Icon {
+  color: #2E64B5;
+}
+
+/* line 124, ../../scss/theme/standard/IconList.scss */
+.a-IconList--featured .a-IconList {
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 128, ../../scss/theme/standard/IconList.scss */
+.a-IconList--featured .a-IconList-item {
+  display: inline-block;
+  float: none;
+  width: 172px;
+  height: auto;
+  padding: 8px;
+  vertical-align: top;
+  margin: 0;
+}
+/* line 137, ../../scss/theme/standard/IconList.scss */
+.a-IconList--featured .a-IconList .a-Icon {
+  margin: 16px auto 8px auto;
+  width: 96px;
+  height: 96px;
+  background-color: #399BEA;
+  border-radius: 2px;
+}
+@media only screen and (min-width: 1281px) {
+  /* line 137, ../../scss/theme/standard/IconList.scss */
+  .a-IconList--featured .a-IconList .a-Icon {
+    width: 108px;
+    height: 108px;
+  }
+}
+@media only screen and (max-height: 600px) {
+  /* line 137, ../../scss/theme/standard/IconList.scss */
+  .a-IconList--featured .a-IconList .a-Icon {
+    width: 72px;
+    height: 72px;
+  }
+}
+/* line 152, ../../scss/theme/standard/IconList.scss */
+.a-IconList--featured .a-IconList-iconName {
+  font-size: 14px;
+  line-height: 20px;
+  height: auto;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* line 165, ../../scss/theme/standard/IconList.scss */
+.a-IconList--featured--wide .a-IconList-item {
+  width: 240px;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Image Navigation List
+   ========================================================================== */
+/* line 17, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-link {
+  border-radius: 2px;
+}
+/* line 22, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-item:first-child .a-ImageNav-link {
+  border-left: none;
+}
+/* line 25, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-link:hover {
+  background-color: #F8F8F8;
+  box-shadow: 0 0 0 1px #EDEDED inset;
+}
+/* line 28, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-link:hover .a-ImageNav-img {
+  background-color: #E0E0E0;
+}
+/* line 32, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-link:focus {
+  outline: none;
+  background-color: #F8F8F8;
+  box-shadow: 0 0 0 1px #399bea inset;
+}
+
+/* line 39, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-img {
+  background-color: #E0E0E0;
+}
+
+/* line 42, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav-label {
+  color: #707070;
+}
+
+/* ==========================================================================
+   Context Colors
+   ========================================================================== */
+/* line 52, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.app-builder .a-ImageNav-img,
+.a-ImageNav-link.app-builder .a-ImageNav-img {
+  background-color: #399BEA;
+}
+
+/* line 58, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.pkg-apps .a-ImageNav-img,
+.a-ImageNav-link.pkg-apps .a-ImageNav-img {
+  background-color: #F54B21;
+}
+
+/* line 64, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.sql-workshop .a-ImageNav-img,
+.a-ImageNav-link.sql-workshop .a-ImageNav-img {
+  background-color: #24CB7F;
+}
+
+/* line 70, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.team-dev .a-ImageNav-img,
+.a-ImageNav-link.team-dev .a-ImageNav-img {
+  background-color: #FFBE2A;
+}
+
+/* line 76, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.instance-admin .a-ImageNav-img,
+.a-ImageNav-link.instance-admin .a-ImageNav-img {
+  background-color: #BDC3C7;
+}
+
+/* line 82, ../../scss/theme/standard/ImageNav.scss */
+.a-ImageNav.workspace-admin .a-ImageNav-img,
+.a-ImageNav-link.workspace-admin .a-ImageNav-img {
+  background-color: #BDC3C7;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Links List
+   ========================================================================== */
+/* line 14, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList-item {
+  border-color: #F0F0F0;
+}
+
+/* line 17, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList-item.is-expanded .a-LinksList-link:hover:before {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 20, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList-icon {
+  color: #A0A0A0;
+}
+
+/* line 25, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList-link:hover,
+.a-LinksList--report a:hover {
+  background-color: #2580D4;
+  color: #FFF;
+}
+/* line 28, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList-link:hover .a-LinksList-icon,
+.a-LinksList--report a:hover .a-LinksList-icon {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/**
+ * Modifier: Go To Arrow
+ *
+ * Show Go To Arrow on right
+ */
+/* line 42, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--showArrow .a-LinksList-link:hover:before {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* line 46, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--showArrow .a-LinksList-link:before {
+  color: rgba(0, 0, 0, 0.15);
+}
+
+/**
+ * Modifier: Show Badge
+ *
+ * Show Badge on Right
+ */
+/* line 58, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--showBadge .a-LinksList-badge {
+  background-color: #F8F8F8;
+  color: #707070;
+}
+/* line 62, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--showBadge .a-LinksList-link:hover .a-LinksList-badge {
+  background-color: #FFF;
+}
+/* line 66, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--showBadge.a-LinksList--brightHover .a-LinksList-link:hover .a-LinksList-badge {
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #FFF;
+}
+/* line 71, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--showBadge .a-LinksList-item.is-expanded > .a-LinksList-link .a-LinksList-badge {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/**
+ * Modifier: Bright Hover
+ *
+ * Show Bright
+ */
+/* line 84, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--brightHover .a-LinksList-link:hover, .a-LinksList--brightHover.a-LinksList--report a:hover {
+  color: #2379C8;
+  background-color: #F1F7FD;
+}
+/* line 88, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--brightHover .a-LinksList-link:hover .a-LinksList-icon, .a-LinksList--brightHover.a-LinksList--report a:hover .a-LinksList-icon {
+  color: #2379C8;
+}
+
+/* ==========================================================================
+   Icon-based Links List
+   ========================================================================== */
+/* line 101, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--iconOnly .a-LinksList-link {
+  color: #707070;
+}
+/* line 103, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--iconOnly .a-LinksList-link:hover, .a-LinksList--iconOnly .a-LinksList-link:focus {
+  background-color: #FFF;
+  color: #404040;
+}
+/* line 110, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--iconOnly .a-LinksList-icon {
+  background-color: #FFF;
+  border: 1px solid rgba(208, 208, 208, 0.5);
+}
+/* line 114, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--iconOnly .a-LinksList-link:hover,
+.a-LinksList--iconOnly .a-LinksList-link:focus {
+  background-color: #4c99e0;
+}
+/* line 117, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--iconOnly .a-LinksList-link:hover .a-LinksList-icon,
+.a-LinksList--iconOnly .a-LinksList-link:focus .a-LinksList-icon {
+  background-color: #fff;
+  border-color: #FFF;
+  color: #2580D4;
+}
+/* line 124, ../../scss/theme/standard/LinksList.scss */
+.a-LinksList--iconOnly .is-current .a-LinksList-icon {
+  background-color: #2580D4;
+  border-color: #2580D4;
+  color: #FFF;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Main
+   ========================================================================== */
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/* line 11, ../../scss/theme/standard/MediaList.scss */
+.a-MediaList-item {
+  border-color: #F0F0F0;
+}
+
+/* ==========================================================================
+   Link
+   ========================================================================== */
+/* line 19, ../../scss/theme/standard/MediaList.scss */
+.a-MediaList-link .a-MediaList-badge {
+  color: #404040;
+}
+/* line 22, ../../scss/theme/standard/MediaList.scss */
+.a-MediaList-link:hover {
+  background-color: #2580D4;
+  color: #FFF;
+}
+/* line 25, ../../scss/theme/standard/MediaList.scss */
+.a-MediaList-link:hover .a-MediaList-desc {
+  color: inherit;
+}
+/* line 28, ../../scss/theme/standard/MediaList.scss */
+.a-MediaList-link:hover .a-MediaList-badge {
+  background-color: #368ddc;
+  border-color: #4c99e0;
+  color: #FFF;
+}
+/* line 33, ../../scss/theme/standard/MediaList.scss */
+.a-MediaList-link:hover .a-MediaList-icon {
+  color: #cee3f7;
+}
+/* line 38, ../../scss/theme/standard/MediaList.scss */
+.a-MediaList--circularIcons .a-MediaList-link:hover .a-MediaList-icon {
+  color: #2580D4;
+  background-color: #8dbeeb;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Menu Bar
+   ========================================================================== */
+/* line 15, ../../scss/theme/standard/Menu.scss */
+.a-MenuBar-label {
+  padding: 8px;
+  color: #404040;
+}
+
+/* line 19, ../../scss/theme/standard/Menu.scss */
+.a-MenuBar-item {
+  border-right: 1px solid #D0D0D0;
+  border-left: 1px solid #D0D0D0;
+  margin-left: -1px;
+}
+/* line 23, ../../scss/theme/standard/Menu.scss */
+.a-MenuBar-item:first-child {
+  margin-left: 0;
+}
+
+/* line 28, ../../scss/theme/standard/Menu.scss */
+.a-MenuBar-item.is-disabled .a-MenuBar-label {
+  color: #A0A0A0;
+}
+
+/* line 32, ../../scss/theme/standard/Menu.scss */
+.a-MenuBar-item:hover {
+  background-color: #FFF;
+}
+
+/* line 35, ../../scss/theme/standard/Menu.scss */
+.a-MenuBar-item.is-expanded {
+  background-color: #FFF;
+}
+
+/* line 38, ../../scss/theme/standard/Menu.scss */
+.a-MenuBar-item.is-focused {
+  box-shadow: 0 0 0 2px #2d7bbb inset;
+  outline: none;
+}
+
+/* ==========================================================================
+   Menu 
+   ========================================================================== */
+/* line 45, ../../scss/theme/standard/Menu.scss */
+.a-Menu-content {
+  border-color: #D0D0D0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  padding: 8px 0;
+}
+
+/* line 51, ../../scss/theme/standard/Menu.scss */
+.a-Menu .a-Menu {
+  margin-top: -9px;
+}
+
+/* line 55, ../../scss/theme/standard/Menu.scss */
+.a-Menu .a-Menu-item {
+  color: #404040;
+}
+
+/* line 66, ../../scss/theme/standard/Menu.scss */
+.a-Menu-itemSep .a-Menu-hSeparator {
+  border-color: #F0F0F0;
+}
+
+/* line 71, ../../scss/theme/standard/Menu.scss */
+.a-Menu .a-Menu-item.is-focused,
+.a-Menu .a-Menu-item.is-expanded {
+  background-color: #2D7BBB;
+  color: #FFF;
+}
+/* line 78, ../../scss/theme/standard/Menu.scss */
+.a-Menu .a-Menu-item.is-focused > .a-Menu-statusCol > .a-Icon, .a-Menu .a-Menu-item.is-focused > .a-Menu-accel,
+.a-Menu .a-Menu-item.is-expanded > .a-Menu-statusCol > .a-Icon,
+.a-Menu .a-Menu-item.is-expanded > .a-Menu-accel {
+  color: #FFF;
+}
+/* line 82, ../../scss/theme/standard/Menu.scss */
+.a-Menu .a-Menu-item.is-focused .a-Menu-scrollBtn,
+.a-Menu .a-Menu-item.is-expanded .a-Menu-scrollBtn {
+  color: #404040;
+}
+
+/* line 87, ../../scss/theme/standard/Menu.scss */
+.a-Menu .a-Menu-item.is-disabled.is-focused {
+  background-color: #F8F8F8;
+  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.15) inset, 0 1px 1px 0 rgba(0, 0, 0, 0.15) inset;
+}
+/* line 90, ../../scss/theme/standard/Menu.scss */
+.a-Menu .a-Menu-item.is-disabled.is-focused > .a-Menu-subMenuCol > .a-Icon {
+  color: #404040;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Page Columns
+******************************************************************************/
+/* line 25, ../../scss/theme/standard/PageColumn.scss */
+.a-PageColumn-heading {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 8px;
+  color: #707070;
+  margin-bottom: 1px;
+}
+@media only screen and (max-width: 1024px) {
+  /* line 25, ../../scss/theme/standard/PageColumn.scss */
+  .a-PageColumn-heading {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  /* line 25, ../../scss/theme/standard/PageColumn.scss */
+  .a-PageColumn-heading {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1679px) {
+  /* line 25, ../../scss/theme/standard/PageColumn.scss */
+  .a-PageColumn-heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Page Select Widget
+   ========================================================================== */
+/* line 13, ../../scss/theme/standard/PageSelect.scss */
+.a-PageSelect {
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+/* line 16, ../../scss/theme/standard/PageSelect.scss */
+.a-PageSelect .a-Icon.icon-down-arrow {
+  margin-left: -2px;
+}
+
+/* line 20, ../../scss/theme/standard/PageSelect.scss */
+.a-PageSelect--readOnly {
+  border-color: transparent;
+}
+
+/* line 23, ../../scss/theme/standard/PageSelect.scss */
+.a-PageSelect-input {
+  color: #404040;
+  background-color: transparent;
+}
+/* line 26, ../../scss/theme/standard/PageSelect.scss */
+.a-PageSelect-input:focus, .a-PageSelect-input.is-focused {
+  box-shadow: 0 0 0 1px #399bea inset, 0 0 0 1px #399bea, 0 0 2px 2px rgba(57, 155, 234, 0.5) !important;
+}
+
+/* line 35, ../../scss/theme/standard/PageSelect.scss */
+.a-Button.a-PageSelect-menuButton:hover, .a-Button.a-PageSelect-menuButton:focus {
+  background-color: #2D7BBB;
+  color: #FFF;
+}
+/* line 40, ../../scss/theme/standard/PageSelect.scss */
+.a-Button.a-PageSelect-menuButton:active {
+  background-color: #235DB2;
+}
+
+/* line 45, ../../scss/theme/standard/PageSelect.scss */
+.a-Button.a-PageSelect-menuButton {
+  color: #707070;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Popup LOV
+   ========================================================================== */
+/* line 13, ../../scss/theme/standard/PopupLOV.scss */
+.a-PopupLOV-filters,
+.a-PopupLOV-search {
+  background-color: #F8F8F8;
+}
+
+/* line 18, ../../scss/theme/standard/PopupLOV.scss */
+.a-PopupLOV-filterGroup,
+.a-PopupLOV-filters,
+.a-PopupLOV-search {
+  border-color: #F0F0F0;
+}
+
+/* line 23, ../../scss/theme/standard/PopupLOV.scss */
+.a-PopupLOV-filterItem .a-Form-field {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.2) inset;
+}
+
+/**
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Properties
+******************************************************************************/
+/* line 39, ../../scss/theme/standard/Property.scss */
+.a-Property {
+  transition: box-shadow .1s;
+}
+
+/* line 49, ../../scss/theme/standard/Property.scss */
+.a-Property.is-active {
+  background-color: #DEEFFB;
+}
+/* line 51, ../../scss/theme/standard/Property.scss */
+.a-Property.is-active .a-Property-field {
+  box-shadow: 0 0 0 1px rgba(57, 155, 234, 0.5) inset;
+}
+
+/* line 55, ../../scss/theme/standard/Property.scss */
+.a-Property.is-focused {
+  border-color: rgba(57, 155, 234, 0.5) !important;
+  z-index: 100;
+  position: relative;
+}
+
+/* line 67, ../../scss/theme/standard/Property.scss */
+.a-Property-buttonContainer,
+.a-Property-labelContainer,
+.a-Property-fieldContainer,
+.a-Property-unitContainer,
+.a-PropertyEditor--stacked .a-Property-labelContainer .a-Property-label {
+  padding: 6px 8px;
+}
+@media only screen and (max-width: 1024px) {
+  /* line 67, ../../scss/theme/standard/Property.scss */
+  .a-Property-buttonContainer,
+  .a-Property-labelContainer,
+  .a-Property-fieldContainer,
+  .a-Property-unitContainer,
+  .a-PropertyEditor--stacked .a-Property-labelContainer .a-Property-label {
+    padding: 2px 8px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  /* line 67, ../../scss/theme/standard/Property.scss */
+  .a-Property-buttonContainer,
+  .a-Property-labelContainer,
+  .a-Property-fieldContainer,
+  .a-Property-unitContainer,
+  .a-PropertyEditor--stacked .a-Property-labelContainer .a-Property-label {
+    padding: 4px 8px;
+  }
+}
+
+/* line 83, ../../scss/theme/standard/Property.scss */
+.a-PropertyEditor--stacked .a-Property--stacked .a-Property-labelContainer .a-Property-label {
+  padding: 4px 0 !important;
+}
+
+/* line 86, ../../scss/theme/standard/Property.scss */
+.a-PropertyEditor--stacked .a-Property-labelContainer .a-Property-label {
+  padding-bottom: 0 !important;
+}
+
+/* line 89, ../../scss/theme/standard/Property.scss */
+.a-Property.is-error {
+  background-color: #FFEFEF !important;
+}
+/* line 91, ../../scss/theme/standard/Property.scss */
+.a-Property.is-error .a-Property-label {
+  color: #4C4242;
+}
+/* line 94, ../../scss/theme/standard/Property.scss */
+.a-Property.is-error .a-Property-field {
+  background-color: #FFF;
+}
+/* line 97, ../../scss/theme/standard/Property.scss */
+.a-Property.is-error.is-focused {
+  background-color: #FEDFDF !important;
+  box-shadow: 0 1px 2px 0px rgba(252, 24, 27, 0.25), 0 -1px 2px 0px rgba(252, 24, 27, 0.25), 0 1px 0 0 rgba(255, 255, 255, 0.25) inset !important;
+  border-color: #FC181B !important;
+}
+/* line 105, ../../scss/theme/standard/Property.scss */
+.a-Property.is-error .a-Property-labelContainer .a-Icon {
+  margin-right: 4px;
+  color: #FC181B !important;
+}
+
+/* line 112, ../../scss/theme/standard/Property.scss */
+.a-Property.is-warning {
+  background-color: #FFF8DF !important;
+}
+/* line 114, ../../scss/theme/standard/Property.scss */
+.a-Property.is-warning .a-Property-label {
+  color: #463403;
+}
+/* line 117, ../../scss/theme/standard/Property.scss */
+.a-Property.is-warning .a-Property-field {
+  background-color: #FFF;
+}
+/* line 120, ../../scss/theme/standard/Property.scss */
+.a-Property.is-warning.is-focused {
+  background-color: #FEEDB9 !important;
+  box-shadow: 0 1px 2px 0px rgba(253, 179, 9, 0.25), 0 -1px 2px 0px rgba(253, 179, 9, 0.25), 0 1px 0 0 rgba(255, 255, 255, 0.25) inset !important;
+  border-color: #FDB309 !important;
+}
+/* line 127, ../../scss/theme/standard/Property.scss */
+.a-Property.is-warning .a-Property-labelContainer .a-Icon {
+  margin-right: 4px;
+  color: #F69F00 !important;
+}
+
+/* line 133, ../../scss/theme/standard/Property.scss */
+.a-Property-label,
+.a-Property-setItemsHeader-header,
+.a-Property-unit {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 0;
+  color: #444444;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+/* line 142, ../../scss/theme/standard/Property.scss */
+.a-Property-checkbox-label,
+.a-Property-radio {
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+/* line 149, ../../scss/theme/standard/Property.scss */
+.a-Property-unit {
+  font-size: 11px;
+}
+
+/* line 152, ../../scss/theme/standard/Property.scss */
+.a-Property-label--withIcon {
+  line-height: 16px;
+  padding: 4px 0;
+}
+
+/*
+Property Field - Used for property editor
+*/
+/* line 159, ../../scss/theme/standard/Property.scss */
+.a-Property-field {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px;
+  height: 24px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset, 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 2px;
+  border: none;
+}
+/* line 171, ../../scss/theme/standard/Property.scss */
+.a-Property-field:focus {
+  box-shadow: 0 0 0px 1px #399bea inset !important;
+  outline: none;
+  /* 1 */
+  background-color: #FFFFFF;
+}
+
+/* line 180, ../../scss/theme/standard/Property.scss */
+.a-Property.is-variable.is-active .a-Icon.icon-variable {
+  color: #404040;
+}
+/* line 183, ../../scss/theme/standard/Property.scss */
+.a-Property.is-variable .a-Icon.icon-variable {
+  color: #A0A0A0;
+  margin-right: 4px;
+}
+
+/* line 188, ../../scss/theme/standard/Property.scss */
+.a-Property-field.is-variable {
+  background-color: #DFEBFB;
+}
+
+/* line 194, ../../scss/theme/standard/Property.scss */
+.a-Property.is-warning .a-Property-field:focus {
+  box-shadow: 0 0 0px 1px rgba(253, 179, 9, 0.75) inset !important;
+}
+
+/* line 200, ../../scss/theme/standard/Property.scss */
+.a-Property.is-error .a-Property-field:focus {
+  box-shadow: 0 0 0px 1px rgba(252, 24, 27, 0.5) inset !important;
+}
+
+/* Property Editor Select List
+   ========================================================================== */
+/* line 214, ../../scss/theme/standard/Property.scss */
+.a-Property-field--select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  color: #404040;
+  padding-right: 30px;
+  text-overflow: ' ';
+  overflow: hidden;
+}
+
+/* line 226, ../../scss/theme/standard/Property.scss */
+body:not(:-moz-handler-blocked) .a-Property-field--select {
+  padding: 2px 24px 2px 2px;
+}
+
+/* Text Area
+   ========================================================================== */
+/* line 233, ../../scss/theme/standard/Property.scss */
+.a-Property-field--textarea,
+body .ui-widget .a-Property-field--textarea {
+  line-height: 14px;
+  font-size: 11px;
+  height: auto;
+  max-height: 320px;
+  font-family: 'Consolas', 'Menlo', monospace;
+}
+
+/* line 241, ../../scss/theme/standard/Property.scss */
+.a-Property-readOnly {
+  font-size: 12px;
+  line-height: 2;
+  font-weight: bold;
+  color: #444444;
+}
+
+/* line 248, ../../scss/theme/standard/Property.scss */
+.a-Property-field--readOnly {
+  box-shadow: none;
+}
+
+/* line 252, ../../scss/theme/standard/Property.scss */
+.a-Property-setItemsTable-header {
+  font-weight: normal;
+}
+
+/* line 256, ../../scss/theme/standard/Property.scss */
+.a-Property-setItemsTable .a-Property-field {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/******************************************************************************
+Property Editor in Dialogs
+******************************************************************************/
+/* line 265, ../../scss/theme/standard/Property.scss */
+.ui-dialog .a-Property {
+  border-color: #E0E0E0;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Property Editor
+   ========================================================================== */
+/* ==========================================================================
+   Property Editor
+   ========================================================================== */
+/* Property Editor Groups
+   ========================================================================== */
+/* line 28, ../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup,
+.a-PropertyEditor-propertyGroup-header,
+.a-PropertyEditor-propertyGroup-body {
+  border-color: #E0E0E0;
+}
+
+/* line 34, ../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup {
+  background-color: #FFFFFF;
+}
+
+/* line 37, ../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup-header .a-Icon {
+  color: #404040;
+}
+
+/* line 40, ../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup-header {
+  background-color: #F4F4F4;
+  padding: 12px 8px;
+}
+@media only screen and (max-width: 1024px) {
+  /* line 40, ../../scss/theme/standard/PropertyEditor.scss */
+  .a-PropertyEditor-propertyGroup-header {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  /* line 40, ../../scss/theme/standard/PropertyEditor.scss */
+  .a-PropertyEditor-propertyGroup-header {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1679px) {
+  /* line 40, ../../scss/theme/standard/PropertyEditor.scss */
+  .a-PropertyEditor-propertyGroup-header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+/* line 57, ../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup-title {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  line-height: 16px;
+  font-size: 12px;
+  color: #444444;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: top;
+}
+
+/* line 71, ../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup-body .a-Property {
+  border-color: #E0E0E0;
+}
+
+/* line 77, ../../scss/theme/standard/PropertyEditor.scss */
+.a-PropertyEditor-propertyGroup-header.is-focused {
+  box-shadow: 2px -1px 0 0 #399bea inset, -2px 1px 0 0 #399bea inset, 0 0 0px 1px #399bea, 0 0 1px 2px rgba(57, 155, 234, 0.25) !important;
+  outline: none;
+  z-index: 100;
+  position: relative;
+  border-color: #399BEA;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Property Group Styles
+******************************************************************************/
+/* line 16, ../../scss/theme/standard/PropertyGroup.scss */
+.a-PropertyGroup-item {
+  border-top-color: #C3C3C3;
+  border-bottom-width: 0;
+}
+
+/**
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Region
+   ========================================================================== */
+/* line 42, ../../scss/theme/standard/Region.scss */
+.a-Region-header {
+  background-color: #F4F4F4;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  padding: 0 12px;
+}
+
+/* line 47, ../../scss/theme/standard/Region.scss */
+.a-Side .a-Region-header {
+  background-color: #F4F4F4;
+}
+
+/* line 58, ../../scss/theme/standard/Region.scss */
+.a-Region-title {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 0;
+  font-weight: bold;
+  line-height: 16px;
+  color: #444444;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 68, ../../scss/theme/standard/Region.scss */
+.a-Accordion-item .a-Region-title {
+  font-weight: normal;
+  font-size: inherit;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* line 74, ../../scss/theme/standard/Region.scss */
+.a-PageDesigner .a-Region-title {
+  font-size: 12px;
+}
+@media only screen and (max-width: 1024px) {
+  /* line 74, ../../scss/theme/standard/Region.scss */
+  .a-PageDesigner .a-Region-title {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  /* line 74, ../../scss/theme/standard/Region.scss */
+  .a-PageDesigner .a-Region-title {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1679px) {
+  /* line 74, ../../scss/theme/standard/Region.scss */
+  .a-PageDesigner .a-Region-title {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+/* line 92, ../../scss/theme/standard/Region.scss */
+.a-Region-title--withBadge {
+  padding: 10px 0;
+  line-height: 20px;
+}
+
+/* line 100, ../../scss/theme/standard/Region.scss */
+.a-Region--sideRegion .a-Region-header {
+  padding-right: 4px;
+}
+
+/* ==========================================================================
+   Region Caption
+   ========================================================================== */
+/* line 141, ../../scss/theme/standard/Region.scss */
+.a-Region-caption {
+  padding: 8px;
+  font-size: 11px;
+}
+
+/* line 145, ../../scss/theme/standard/Region.scss */
+.a-Region-caption--borderTop {
+  border-top: 1px solid #F8F8F8;
+}
+
+/* line 148, ../../scss/theme/standard/Region.scss */
+.a-Region-caption--borderBottom {
+  border-bottom: 1px solid #F8F8F8;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Search Box Widget
+   ========================================================================== */
+/* line 13, ../../scss/theme/standard/SearchBox.scss */
+.a-SearchBox-field {
+  border-color: rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+/* line 18, ../../scss/theme/standard/SearchBox.scss */
+.a-SearchBox-input {
+  color: #404040;
+  background-color: transparent;
+}
+/* line 21, ../../scss/theme/standard/SearchBox.scss */
+.a-SearchBox-input:focus, .a-SearchBox-input.is-focused {
+  box-shadow: 0 0 0 1px #399bea inset, 0 0 0 1px #399bea, 0 0 2px 2px rgba(57, 155, 234, 0.5) !important;
+}
+
+/* line 30, ../../scss/theme/standard/SearchBox.scss */
+.a-Button.a-SearchBox-button {
+  color: #2D7BBB;
+}
+/* line 32, ../../scss/theme/standard/SearchBox.scss */
+.a-Button.a-SearchBox-button:hover, .a-Button.a-SearchBox-button:focus {
+  background-color: #2D7BBB;
+  color: #FFF;
+}
+/* line 37, ../../scss/theme/standard/SearchBox.scss */
+.a-Button.a-SearchBox-button:active {
+  background-color: #235DB2;
+}
+
+/* line 41, ../../scss/theme/standard/SearchBox.scss */
+.a-SearchBox-icon {
+  color: #404040;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Splitter Styles
+******************************************************************************/
+/**
+ * Splitter Bar
+ */
+/* line 34, ../../scss/theme/standard/Splitter.scss */
+.a-Splitter-barH,
+.a-Splitter-barV,
+.a-Splitter-barH.is-disabled:hover,
+.a-Splitter-barV.is-disabled:hover {
+  background-color: #E8E8E8;
+}
+
+/* line 43, ../../scss/theme/standard/Splitter.scss */
+.a-Splitter-barH {
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.15) inset, -1px 0 0 rgba(0, 0, 0, 0.15) inset;
+}
+
+/* line 46, ../../scss/theme/standard/Splitter.scss */
+.a-Splitter-barV {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15) inset, 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+}
+
+/**
+ * Splitter Bar Hover and Focus States
+ */
+/* line 53, ../../scss/theme/standard/Splitter.scss */
+.a-Splitter-barH:hover,
+.a-Splitter-barV:hover {
+  background-color: #E0E0E0;
+}
+
+/* line 62, ../../scss/theme/standard/Splitter.scss */
+.a-Splitter-barH.is-focused,
+.a-Splitter-barH.is-active,
+.a-Splitter-barV.is-focused,
+.a-Splitter-barV.is-active {
+  background-color: #81AAD6;
+}
+
+/* line 68, ../../scss/theme/standard/Splitter.scss */
+.a-Splitter-barH.is-active,
+.a-Splitter-barV.is-active {
+  z-index: 1000;
+}
+
+/* line 72, ../../scss/theme/standard/Splitter.scss */
+.a-Splitter-barH.is-focused,
+.a-Splitter-barV.is-focused {
+  box-shadow: 0 0 2px rgba(129, 170, 214, 0.25) inset, 0 0 1px 1px rgba(129, 170, 214, 0.5);
+}
+
+/**
+ * Splitter Bar Button Focus and Hovers
+ */
+/* line 86, ../../scss/theme/standard/Splitter.scss */
+.a-Splitter-barH button:hover,
+.a-Splitter-barV button:hover,
+.a-Splitter-barH button:focus,
+.a-Splitter-barV button:focus {
+  background-color: #FFF;
+  box-shadow: 0 0 0 1px #E0E0E0 inset;
+}
+
+/* line 94, ../../scss/theme/standard/Splitter.scss */
+.a-Splitter-barH.is-disabled button:hover,
+.a-Splitter-barV.is-disabled button:hover {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/* line 47, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simple {
+  border: none;
+  background-color: #F4F4F4;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+}
+/* line 51, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simple .a-Tabs-link {
+  padding: 8px 12px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #444444;
+  border-right: 1px solid #E0E0E0;
+}
+/* line 57, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simple .a-Tabs-link:hover {
+  background-color: #FFFFFF;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+/* line 61, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simple .a-Tabs-link:active {
+  background-color: #D0D0D0;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15), inset 0 1px 1px 1px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+/* line 67, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simple .a-Tabs-item.is-active .a-Tabs-link {
+  background-color: #FFFFFF;
+}
+/* line 69, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simple .a-Tabs-item.is-active .a-Tabs-link:hover, .a-Tabs--simple .a-Tabs-item.is-active .a-Tabs-link:active, .a-Tabs--simple .a-Tabs-item.is-active .a-Tabs-link:focus {
+  background-color: #FFFFFF;
+  box-shadow: none;
+}
+
+/* line 77, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simpleInset,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav {
+  border: none;
+}
+/* line 80, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simpleInset .a-Tabs-link,
+.a-Tabs--simpleInset .ui-tabs-anchor,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-link,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .ui-tabs-anchor {
+  padding: 8px 8px 9px 8px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #444444;
+  border-right: 1px solid #E0E0E0;
+}
+@media only screen and (max-width: 1024px) {
+  /* line 80, ../../scss/theme/standard/Tabs.scss */
+  .a-Tabs--simpleInset .a-Tabs-link,
+  .a-Tabs--simpleInset .ui-tabs-anchor,
+  .ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-link,
+  .ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .ui-tabs-anchor {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  /* line 80, ../../scss/theme/standard/Tabs.scss */
+  .a-Tabs--simpleInset .a-Tabs-link,
+  .a-Tabs--simpleInset .ui-tabs-anchor,
+  .ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-link,
+  .ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .ui-tabs-anchor {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1679px) {
+  /* line 80, ../../scss/theme/standard/Tabs.scss */
+  .a-Tabs--simpleInset .a-Tabs-link,
+  .a-Tabs--simpleInset .ui-tabs-anchor,
+  .ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-link,
+  .ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .ui-tabs-anchor {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+/* line 101, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simpleInset .a-Tabs-link:hover,
+.a-Tabs--simpleInset .a-Tabs-link:focus,
+.a-Tabs--simpleInset .ui-state-hover .ui-tabs-anchor,
+.a-Tabs--simpleInset .ui-state-focus .ui-tabs-anchor,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-link:hover,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-link:focus,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .ui-state-hover .ui-tabs-anchor,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .ui-state-focus .ui-tabs-anchor {
+  background-color: #FFFFFF;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+/* line 109, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simpleInset .a-Tabs-link:focus,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-link:focus {
+  box-shadow: 0 0 0 2px #399bea inset, 0 0 1px 1px rgba(57, 155, 234, 0.25);
+}
+/* line 114, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simpleInset .a-Tabs-link:active,
+.a-Tabs--simpleInset li.ui-state-hover:not(.ui-tabs-active):active .ui-tabs-anchor,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-link:active,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav li.ui-state-hover:not(.ui-tabs-active):active .ui-tabs-anchor {
+  background-color: #D0D0D0;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15), inset 0 0 1px rgba(0, 0, 0, 0.25);
+  margin-left: -1px;
+  border-left: 1px solid #BBBBBB;
+  border-right-color: #BBBBBB;
+}
+/* line 122, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simpleInset .a-Tabs-item.is-active .a-Tabs-link,
+.a-Tabs--simpleInset .ui-tabs-active .ui-tabs-anchor,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-item.is-active .a-Tabs-link,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .ui-tabs-active .ui-tabs-anchor {
+  background-color: #FFFFFF;
+  color: #444444;
+  box-shadow: none;
+}
+/* line 128, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simpleInset .a-Tabs-item.is-active .a-Tabs-link:hover,
+.a-Tabs--simpleInset .a-Tabs-item.is-active .a-Tabs-link:active,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-item.is-active .a-Tabs-link:hover,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-item.is-active .a-Tabs-link:active {
+  background-color: #FFFFFF;
+  box-shadow: none;
+}
+/* line 133, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--simpleInset .a-Tabs-item.is-active .a-Tabs-link:focus,
+.a-Tabs--simpleInset .ui-state-default:focus .ui-tabs-anchor,
+.a-Tabs--simpleInset .ui-state-focus .ui-tabs-anchor,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .a-Tabs-item.is-active .a-Tabs-link:focus,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .ui-state-default:focus .ui-tabs-anchor,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .ui-state-focus .ui-tabs-anchor {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 2px #399bea inset, 0 0 1px 1px rgba(57, 155, 234, 0.25);
+}
+
+/* line 145, ../../scss/theme/standard/Tabs.scss */
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .ui-state-default {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+/* line 152, ../../scss/theme/standard/Tabs.scss */
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav .ui-state-default:focus {
+  outline: none;
+}
+
+/* line 156, ../../scss/theme/standard/Tabs.scss */
+.ui-tabs--simpleInset.ui-tabs--componentLibrary .ui-tabs-nav {
+  border-top: 1px solid #BBBBBB !important;
+}
+
+/* line 162, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--subTabButtons {
+  border: none;
+  padding: 8px;
+  background-color: transparent;
+  box-shadow: none;
+}
+/* line 169, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--subTabButtons .a-Tabs-item:focus {
+  outline: none;
+}
+/* line 174, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--subTabButtons .a-Tabs-link {
+  padding: 0 12px;
+  font-size: 12px;
+  line-height: 2;
+  color: #6F6F6F;
+  border-radius: 2px;
+  margin-right: 8px;
+  border-right: none;
+}
+/* line 185, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--subTabButtons .a-Tabs-link:hover,
+.a-Tabs--subTabButtons .a-Tabs-link:focus {
+  color: #444444;
+  background-color: #FFF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.13) inset, 0 2px 0 rgba(255, 255, 255, 0.75) inset, 0 1px 4px rgba(0, 0, 0, 0.07);
+  outline: none;
+  text-decoration: none;
+}
+/* line 194, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--subTabButtons .a-Tabs-link:focus
+ {
+  box-shadow: 0 0 0 1px #399bea inset, 0 0 1px 1px rgba(57, 155, 234, 0.25) !important;
+}
+/* line 204, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--subTabButtons .a-Tabs-link:active {
+  background-color: #E4E4E4;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25) inset, 0 1px 1px rgba(0, 0, 0, 0.25) inset;
+}
+/* line 209, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--subTabButtons .a-Tabs-item.is-active .a-Tabs-link {
+  background-color: #CFE6FA;
+  color: #444444;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* line 216, ../../scss/theme/standard/Tabs.scss */
+.ui-tabs--subTabButtons > .a-Tabs-toolbar > .ui-tabs-nav {
+  padding: 8px;
+}
+/* line 218, ../../scss/theme/standard/Tabs.scss */
+.ui-tabs--subTabButtons > .a-Tabs-toolbar > .ui-tabs-nav .ui-tabs-anchor {
+  line-height: 2;
+  padding: 0 12px;
+  outline: none;
+}
+/* line 223, ../../scss/theme/standard/Tabs.scss */
+.ui-tabs--subTabButtons > .a-Tabs-toolbar > .ui-tabs-nav li {
+  margin-right: 8px;
+  border-radius: 2px;
+}
+/* line 227, ../../scss/theme/standard/Tabs.scss */
+.ui-tabs--subTabButtons > .a-Tabs-toolbar > .ui-tabs-nav .ui-state-focus,
+.ui-tabs--subTabButtons > .a-Tabs-toolbar > .ui-tabs-nav .ui-tabs-active.ui-state-focus {
+  box-shadow: 0 0 0 1px #399bea inset, 0 0 1px 1px rgba(57, 155, 234, 0.25) !important;
+}
+/* line 232, ../../scss/theme/standard/Tabs.scss */
+.ui-tabs--subTabButtons > .a-Tabs-toolbar > .ui-tabs-nav .ui-tabs-active {
+  background-color: #CFE6FA;
+  color: #444444;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 1px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* line 254, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--fill {
+  border: none;
+  background-color: #F4F4F4;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+}
+/* line 258, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--fill .a-Tabs-link {
+  padding: 8px 12px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #444444;
+  border-right: 1px solid #E0E0E0;
+}
+/* line 264, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--fill .a-Tabs-link:hover {
+  background-color: #FFFFFF;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+/* line 268, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--fill .a-Tabs-link:active {
+  background-color: #D0D0D0;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15), inset 0 1px 1px 1px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+/* line 274, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--fill .a-Tabs-item.is-active .a-Tabs-link {
+  background-color: #FFFFFF;
+}
+/* line 276, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--fill .a-Tabs-item.is-active .a-Tabs-link:hover, .a-Tabs--fill .a-Tabs-item.is-active .a-Tabs-link:active, .a-Tabs--fill .a-Tabs-item.is-active .a-Tabs-link:focus {
+  background-color: #FFFFFF;
+  box-shadow: none;
+}
+
+/* line 285, ../../scss/theme/standard/Tabs.scss */
+.a-Tabs--forComponentLibraryFilters,
+.ui-tabs--forComponentLibraryFilters > .ui-tabs-nav {
+  border-bottom: 1px solid #E0E0E0;
+  padding: 8px 4px 0 12px;
+}
+
+/* line 292, ../../scss/theme/standard/Tabs.scss */
+.a-TabsContainer {
+  background-color: #FFFFFF;
+}
+
+/* line 296, ../../scss/theme/standard/Tabs.scss */
+.a-TabsContainer--subTabs {
+  border-bottom: 1px solid #E0E0E0;
+}
+/* line 299, ../../scss/theme/standard/Tabs.scss */
+.a-TabsContainer--subTabs .a-Tabs--subTabButtons .a-Tabs-link {
+  color: #146FB8;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Tag Cloud
+   ========================================================================== */
+/* line 14, ../../scss/theme/standard/TagCloud.scss */
+.a-TagCloud-link {
+  border-color: #F0F0F0;
+  border-radius: 2px;
+  background: #FFF;
+  transition: background-color .2s, border-color .2s, box-shadow .2s, color .2s;
+}
+/* line 20, ../../scss/theme/standard/TagCloud.scss */
+.a-TagCloud-link span {
+  transition: color .2s;
+}
+/* line 23, ../../scss/theme/standard/TagCloud.scss */
+.a-TagCloud-link:hover {
+  text-decoration: none;
+  background-color: #2D7BBB;
+  border-color: #2D7BBB;
+  color: #FFF;
+  box-shadow: 0 0 0 2px #2D7BBB inset;
+}
+/* line 29, ../../scss/theme/standard/TagCloud.scss */
+.a-TagCloud-link:hover span {
+  color: #FFF;
+}
+
+/* line 34, ../../scss/theme/standard/TagCloud.scss */
+.a-TagCloud-count {
+  color: #707070;
+  font-weight: 200;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/* line 17, ../../scss/theme/standard/Toolbar.scss */
+.a-Toolbar--insetShadow,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav {
+  border-color: #E0E0E0;
+  background-color: #F4F4F4;
+  box-shadow: inset 0 -1px 0 #E0E0E0;
+  border-radius: 0;
+}
+
+/* line 25, ../../scss/theme/standard/Toolbar.scss */
+.ui-tabs--subTabButtons > .a-Tabs-toolbar {
+  background-color: #FFF;
+  border-color: #E0E0E0;
+  padding-bottom: 1px;
+  box-shadow: inset 0 -1px 0 #F0F0F0;
+}
+
+/* line 32, ../../scss/theme/standard/Toolbar.scss */
+.a-Tabs-toolbar {
+  overflow: hidden;
+  background-color: #F4F4F4;
+  box-shadow: inset 0 -1px 0 #E0E0E0;
+}
+/* line 36, ../../scss/theme/standard/Toolbar.scss */
+.a-Tabs-toolbar .a-Toolbar-items {
+  padding: 4px;
+}
+
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Tooltip Styles
+******************************************************************************/
+/* line 35, ../../scss/theme/standard/Tooltip.scss */
+.a-Tooltip,
+.ui-widget-content.ui-tooltip {
+  min-width: 220px;
+  max-width: 280px;
+  padding: 8px;
+  border-radius: 2px;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #000;
+  border-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  font-size: 11px;
+  line-height: 1.5;
+  color: #D0D0D0;
+}
+
+/**
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+ Tree Component
+ ========================================================================== */
+/*
+ * Tree Node that is not important (used for Attributes / etc)
+ */
+/* line 13, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-not-important .a-TreeView-label {
+  color: #707070;
+}
+
+/*
+ * Populated Tree Node
+ */
+/* line 20, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-populated .a-TreeView-label {
+  font-weight: bold;
+}
+
+/*
+ * Header Styles
+ */
+/* line 27, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-selected.is-header,
+.a-TreeView-content.is-selected.is-not-important .a-TreeView-label {
+  color: white;
+}
+
+/* line 32, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-header {
+  color: #505050;
+}
+
+/*
+ * Conditional
+ */
+/* line 38, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-conditional .a-TreeView-label {
+  font-style: italic;
+}
+
+/* ==========================================================================
+ Tree Nodes
+ ========================================================================== */
+/* line 45, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content {
+  color: #B0B0B0;
+}
+/* line 47, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content .a-Icon.icon-tree-page {
+  color: #A0A0A0;
+}
+/* line 50, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content .a-Icon.icon-tree-region,
+.a-TreeView-content .a-Icon[class*="icon-region-"] {
+  color: #7FBEF2;
+}
+/* line 54, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content .a-Icon.icon-tree-item,
+.a-TreeView-content span.a-Icon[class*="icon-item-"] {
+  color: #979C9F;
+}
+/* line 58, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content .a-Icon.icon-tree-button,
+.a-TreeView-content span.a-Icon[class*="icon-button-"] {
+  color: #56D49A;
+}
+
+/* line 68, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-error .a-TreeView-label,
+.a-TreeView-content.is-warning .a-TreeView-label {
+  margin-right: 20px;
+}
+/* line 70, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-error .a-TreeView-label .a-Icon,
+.a-TreeView-content.is-warning .a-TreeView-label .a-Icon {
+  display: none;
+}
+
+/* line 76, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-error > .a-Icon:before {
+  content: "\e0a2";
+}
+
+/* line 79, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-warning > .a-Icon:before {
+  content: "\e017";
+}
+
+/* line 82, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content .a-Icon.icon-warning,
+.a-TreeView-content .a-Icon.icon-error {
+  float: right;
+}
+
+/*
+ * Warning
+ */
+/* line 90, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-row.is-warning {
+  background-color: #FFF2C3;
+}
+
+/*
+ * Error
+ */
+/* line 97, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-row.is-error {
+  background-color: #FFC3C3;
+}
+
+/* line 111, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-selected.is-error .a-TreeView-toggle, .a-TreeView-content.is-selected.is-warning .a-TreeView-toggle {
+  color: rgba(0, 0, 0, 0.2);
+}
+/* line 114, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-selected.is-error .a-TreeView-label, .a-TreeView-content.is-selected.is-warning .a-TreeView-label {
+  color: #404040;
+}
+/* line 119, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-warning .a-Icon:before {
+  color: #C5AE5E;
+}
+/* line 124, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-error .a-Icon:before {
+  color: #f22f2f;
+}
+/* line 129, ../../scss/theme/standard/Tree.scss */
+.a-TreeView-content.is-selected.is-focused .a-TreeView-label,
+.a-TreeView-content.is-selected.is-focused .a-Icon:before {
+  color: #FFF !important;
+}

@@ -1,0 +1,180 @@
+<map_data>
+ <name>sweden</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="11.1069431304932" top="69.060302734375" right="24.1670074462891" bottom="55.3391647338867"/>
+ <regions>
+  <region>
+   <centroid lat="58.1817436218262" lon="12.6602153778076"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-ALV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alvsborgs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.2448577880859" lon="15.2168045043945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-BLK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Blekinge]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.2510452270508" lon="15.9810647964478"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-GVL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gavleborgs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3074989318848" lon="11.8293046951294"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-GOB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Goteborgs Och Bohus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.650691986084" lon="18.7227745056152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-GTL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gotlands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.9495811462402" lon="12.7848110198975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-HLL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hallands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.3260612487793" lon="14.4705533981323"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-JMT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jamtlands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.4977722167969" lon="14.3343787193298"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-JNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jonkopings]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3424949645996" lon="15.6219434738159"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-OST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ostergotlands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.0467147827148" lon="14.4048957824707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-KPP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kopparbergs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.9494590759277" lon="13.5983324050903"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-KRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kristianstads]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.7959671020508" lon="14.5576372146606"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-KRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kronobergs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.8187484741211" lon="13.322606086731"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-MLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malmohus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.0583419799805" lon="19.7656936645508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-NRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norrbottens]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3734664916992" lon="15.0116987228394"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-ORB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orebro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.1631889343262" lon="16.2391653060913"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-KLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kalmar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4227714538574" lon="13.6138210296631"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-SKR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skaraborgs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.7448272705078" lon="16.3759984970093"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-VSM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vastmanlands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.5059700012207" lon="18.1622219085693"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-STC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stockholms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8786277770996" lon="13.0682621002197"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-VRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Varmlands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.8755493164063" lon="17.9407186508179"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-VST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vasterbottens]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.054515838623" lon="17.0468139648438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-VSR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vasternorrlands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0537452697754" lon="16.6129150390625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-SDR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sodermanlands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0562438964844" lon="17.6648597717285"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWE-UPP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uppsala]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

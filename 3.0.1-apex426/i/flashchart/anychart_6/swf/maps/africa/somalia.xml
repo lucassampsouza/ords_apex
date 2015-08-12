@@ -1,0 +1,138 @@
+<map_data>
+ <name>somalia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="40.9865951538086" top="11.9791660308838" right="51.4126358032227" bottom="-1.67486810684204"/>
+ <regions>
+  <region>
+   <centroid lat="10.5521283149719" lon="43.4356899261475"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-AWD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Awdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.90113115310669" lon="47.4779262542725"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-SOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sool]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.22889983654022" lon="43.6751098632813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-BAK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bakool]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.04972720146179" lon="45.3552722930908"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-BND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Banaadir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.1586074829102" lon="50.1452732086182"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-BAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bari]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.5647229552269" lon="43.4784336090088"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-BAY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.87742507457733" lon="46.7068729400635"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-GLG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Galguduud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.26010811328888" lon="41.9956283569336"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-GED]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gedo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.39066469669342" lon="45.4067611694336"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-HII]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hiiraan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.34419248998165" lon="42.2386093139648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-JDH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jubbada Dhexe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.157188057899475" lon="42.1181888580322"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-JHO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jubbada Hoose]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.09238481521606" lon="47.8726959228516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-MUD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mudug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.17607092857361" lon="48.9700832366943"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-NUG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nugaal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.2845430374146" lon="47.4131927490234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-SAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sanaag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.07913196086884" lon="46.079080581665"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-SDH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shabeellaha Dhexe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.97178584337234" lon="44.1155090332031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-SHO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shabeellaha Hoose]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.0596752166748" lon="45.826000213623"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-TGD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Togdheer]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.83605670928955" lon="44.612735748291"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SOM-WGL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Woqooyi Galbeed]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

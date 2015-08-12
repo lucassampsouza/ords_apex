@@ -1,0 +1,89 @@
+<map_data>
+ <name>belgium</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="2.54166650772095" top="51.5036087036133" right="6.39820384979248" bottom="49.5041656494141"/>
+ <regions>
+  <region>
+   <centroid lat="50.8411045074463" lon="4.36471962928772"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-BRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bruxelles-Brussel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.6687450408936" lon="4.55819344520569"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-NVL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nivelles]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.2479133605957" lon="4.71944379806519"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-ANT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Antwerpen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.8677749633789" lon="4.52861094474792"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-BRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brabant]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.3773612976074" lon="3.72611093521118"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-HAI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hainaut]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0012435913086" lon="5.44749975204468"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Limburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.4683303833008" lon="5.69271278381348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LIE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Liege]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.9638862609863" lon="5.493332862854"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LXM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Luxembourg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.215690612793" lon="4.84416627883911"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-NAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Namur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0407676696777" lon="3.86263394355774"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-OVL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oost-Vlaanderen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0436172485352" lon="3.03083324432373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-WVL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West-Vlaanderen]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

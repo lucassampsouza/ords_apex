@@ -1,0 +1,267 @@
+.apex-pick-theme td:hover {
+    background-color: #f0f0f0;
+}
+
+.apex-pick-theme span {
+        font: normal 12px/14px Arial,sans-serif;
+}
+
+.apex-pick-theme span.fielddata a {
+    display: block;
+    width: 210px;
+    height: 94px;
+    border: 1px solid #808080;
+    background-color: #fff;
+    margin: 8px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}       
+    
+.apex-pick-theme span.fielddata a img {
+    display: block;
+    background-image: url(../themes/themeshots.png);
+    background-repeat: no-repeat;
+    border: none;
+    width: 200px;
+    height: 84px;
+    margin: 5px; 
+}
+
+.apex-pick-theme a img.theme_1 {
+    background-position: 0 0;
+}
+
+.apex-pick-theme a img.theme_2 {
+    background-position: -200px 0;
+}
+
+.apex-pick-theme a img.theme_3 {
+    background-position: -400px 0;
+}
+
+.apex-pick-theme a img.theme_4 {
+    background-position: -600px 0;
+}
+
+.apex-pick-theme a img.theme_5 {
+    background-position: -800px 0;
+}
+
+.apex-pick-theme a img.theme_6 {
+    background-position: 0 -84px;
+}
+
+.apex-pick-theme a img.theme_7 {
+    background-position: -200px -84px;
+}
+
+.apex-pick-theme a img.theme_8 {
+    background-position: -400px -84px;
+}
+
+.apex-pick-theme a img.theme_9 {
+    background-position: -600px -84px;
+}
+
+.apex-pick-theme a img.theme_10 {
+    background-position: -800px -84px;
+}
+
+.apex-pick-theme a img.theme_11 {
+    background-position: 0 -168px;
+}
+
+.apex-pick-theme a img.theme_12 {
+    background-position: -200px -168px;
+}
+
+.apex-pick-theme a img.theme_13 {
+    background-position: -400px -168px;
+}
+
+.apex-pick-theme a img.theme_14 {
+    background-position: -600px -168px;
+}
+
+.apex-pick-theme a img.theme_15 {
+    background-position: -800px -168;px
+}
+
+.apex-pick-theme a img.theme_16 {
+    background-position: 0 -252px;
+}
+
+.apex-pick-theme a img.theme_17 {
+    background-position: -200px -252px;
+}
+
+.apex-pick-theme a img.theme_18 {
+    background-position: -400px -252px;
+}
+
+.apex-pick-theme a img.theme_19 {
+    background-position: -600px -252px;
+}
+
+.apex-pick-theme a img.theme_20 {
+    background-position: -800px -252px;
+}
+
+.apex-pick-theme a img.theme_21 {
+    background-position: 0 -336px;
+}
+
+.apex-pick-theme a img.theme_22 {
+    background-position: -200px -336px;
+}
+
+.apex-pick-theme a img.theme_23 {
+    background-position: -400px -336px;
+}
+
+.apex-pick-theme a img.theme_24 {
+    background-position: -600px -336px;
+}
+
+.apex-pick-theme a img.theme_25 {
+    background-position: -800px -336px;
+}
+
+.apex-pick-theme a img.theme_26 {
+    background-position: -200px -420px;
+}
+
+.apex-pick-theme a img.theme_50 {
+    background-position: 0 -420px;
+}
+
+
+#select-theme span.theme-preview {
+    display: block;
+    background-image: url(../themes/themeshots.png);
+    background-repeat: no-repeat;
+    border: none;
+    width: 200px;
+    height: 84px;
+    margin: 5px; 
+}
+
+
+#select-theme span.theme_1 {
+    background-position: 0 0;
+}
+
+#select-theme span.theme_2 {
+    background-position: -200px 0;
+}
+
+#select-theme span.theme_3 {
+    background-position: -400px 0;
+}
+
+#select-theme span.theme_4 {
+    background-position: -600px 0;
+}
+
+#select-theme span.theme_5 {
+    background-position: -800px 0;
+}
+
+#select-theme span.theme_6 {
+    background-position: 0 -84px;
+}
+
+#select-theme span.theme_7 {
+    background-position: -200px -84px;
+}
+
+#select-theme span.theme_8 {
+    background-position: -400px -84px;
+}
+
+#select-theme span.theme_9 {
+    background-position: -600px -84px;
+}
+
+#select-theme span.theme_10 {
+    background-position: -800px -84px;
+}
+
+#select-theme span.theme_11 {
+    background-position: 0 -168px;
+}
+
+#select-theme span.theme_12 {
+    background-position: -200px -168px;
+}
+
+#select-theme span.theme_13 {
+    background-position: -400px -168px;
+}
+
+#select-theme span.theme_14 {
+    background-position: -600px -168px;
+}
+
+#select-theme span.theme_15 {
+    background-position: -800px -168;px
+}
+
+#select-theme span.theme_16 {
+    background-position: 0 -252px;
+}
+
+#select-theme span.theme_17 {
+    background-position: -200px -252px;
+}
+
+#select-theme span.theme_18 {
+    background-position: -400px -252px;
+}
+
+#select-theme span.theme_19 {
+    background-position: -600px -252px;
+}
+
+#select-theme span.theme_20 {
+    background-position: -800px -252px;
+}
+
+#select-theme span.theme_21 {
+    background-position: 0 -336px;
+}
+
+#select-theme span.theme_22 {
+    background-position: -200px -336px;
+}
+
+#select-theme span.theme_23 {
+    background-position: -400px -336px;
+}
+
+#select-theme span.theme_24 {
+    background-position: -600px -336px;
+}
+
+#select-theme span.theme_25 {
+    background-position: -800px -336px;
+}
+
+#select-theme span.theme_26 {
+    background-position: -200px -420px;
+}
+
+#select-theme span.theme_31 {
+    background-position: -800px -336px;
+}
+
+#select-theme span.theme_50 {
+    background-position: 0 -420px;
+}
+
+#select-theme span.theme_51 {
+    background-position: 0 -420px;
+}

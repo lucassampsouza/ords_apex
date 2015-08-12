@@ -1,0 +1,56 @@
+/*
+	Oracle Application Express Plugins
+	D3 Line Chart (d3.oracle.linechart)
+
+	To be compiled alongside the Universal Theme LESS file.
+*/
+.a-D3LineChart .a-D3LineChart-axis line,
+.a-D3LineChart .a-D3LineChart-axis path {
+  fill: none;
+  stroke: #dddddd;
+}
+.a-D3LineChart .a-D3LineChart-axis .tick text {
+  fill: #707070;
+}
+.a-D3LineChart .a-D3LineChart-axis-title {
+  fill: #404040;
+  font-size: 1.1em;
+}
+.a-D3LineChart .a-D3LineChart-line--fade,
+.a-D3LineChart .a-D3LineChart-area--fade {
+  opacity: 0.1;
+}
+.a-D3LineChart .a-D3LineChart-axisLineX,
+.a-D3LineChart .a-D3LineChart-axisLineY {
+  stroke-width: 2px;
+  stroke: #000000;
+}
+.a-D3LineChart .a-D3LineChart-tooltip {
+  position: absolute;
+}
+.a-D3LineChart .a-D3LineChart-container {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.a-D3LineChart .u-Processing {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.a-D3LineChart .a-D3ChartLegend,
+.a-D3LineChart .a-D3ChartLegend-layout,
+.a-D3LineChart .a-D3ChartLegend-item {
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: none !important;
+  background-color: transparent;
+}
+.a-D3LineChart-pointContainer-dot {
+  cursor: pointer;
+}
+.a-D3LineChart-pointContainer--fade {
+  opacity: 0.1;
+}

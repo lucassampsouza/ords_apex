@@ -1,0 +1,341 @@
+<map_data>
+ <name>japan_second_level</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="122.954399108887" top="45.5136108398438" right="145.822204589844" bottom="20.351390838623"/>
+ <regions>
+  <region>
+   <centroid lat="43.4544410705566" lon="142.579002380371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-HKK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hokkaido]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.416820526123" lon="140.085945129395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-YMG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yamagata]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.59547996521" lon="141.359550476074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-IWA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iwate]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7898502349854" lon="136.801651000977"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-ISH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ishikawa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0105495452881" lon="139.289398193359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-SAI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saitama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.323766708374" lon="133.820449829102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-TTT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tottori]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.5572147369385" lon="138.641250610352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-YMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yamanashi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6843910217285" lon="139.40975189209"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-TOK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tokyo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3829097747803" lon="139.342399597168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-KNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kanagawa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.624755859375" lon="135.40210723877"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-OSA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Osaka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2988586425781" lon="135.875793457031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-NAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9187450408936" lon="134.850151062012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-HYO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hyogo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2455501556396" lon="131.619003295898"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-YMC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yamaguchi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8454151153564" lon="133.835205078125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-OKY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Okayama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2740001678467" lon="134.010551452637"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-KAG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kagawa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9011001586914" lon="135.528999328613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-WKY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wakayama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.5913848876953" lon="132.843444824219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-EHI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ehime]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.4651851654053" lon="130.615600585938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-FUU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fukuoka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2726345062256" lon="133.420753479004"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-KOC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kochi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6256847381592" lon="129.483551025391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-NGS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nagasaki]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8811435699463" lon="134.238899230957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-TKS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tokushima]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2559299468994" lon="130.137351989746"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-SAG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2267951965332" lon="131.457054138184"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-OIT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oita]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3181858062744" lon="132.522651672363"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-SHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shimane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.0974950790405" lon="131.284103393555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-MYZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Miyazaki]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6378345489502" lon="130.639503479004"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-KMM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kumamoto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.9604396820068" lon="145.714851379395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-SHZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shizuoka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.6627759933472" lon="129.796249389648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-KGS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kagoshima]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.71875" lon="129.527503967285"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-OKN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Okinawa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.8693008422852" lon="140.76350402832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-AOM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aomori]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.687219619751" lon="140.331398010254"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-AKI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Akita]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.3781909942627" lon="140.972450256348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-MIY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Miyagi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6377201080322" lon="138.747444152832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-NII]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niigata]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3715362548828" lon="140.094451904297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-FKS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fukushima]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6715202331543" lon="139.78784942627"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-TCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tochigi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.5072784423828" lon="139.013847351074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-GUM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gumma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1015186309814" lon="138.012397766113"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-NAG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nagano]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6161651611328" lon="137.245552062988"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-TOY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Toyama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3301906585693" lon="140.258346557617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-IBR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ibaraki]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.787239074707" lon="136.942497253418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-GIF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gifu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7981853485107" lon="136.121948242188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-FUK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fukui]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4863796234131" lon="140.316749572754"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-CHI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chiba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.225959777832" lon="135.450706481934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-KYO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kyoto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2297306060791" lon="136.093856811523"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-SHI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shiga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5738754272461" lon="132.747596740723"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-HRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hiroshima]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9766597747803" lon="137.223999023438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-AIC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aichi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4619560241699" lon="136.38330078125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-MIE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mie]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

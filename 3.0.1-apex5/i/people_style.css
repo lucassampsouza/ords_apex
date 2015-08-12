@@ -1,0 +1,15 @@
+.TestRowItem 
+{ COLOR: black;font-weight: normal;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 8pt;TEXT-DECORATION: none }
+.SearchRowItem 
+{ COLOR: black;font-weight: normal;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 8pt;TEXT-DECORATION: none }
+.OffTab { COLOR: #CCCC99;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 10pt;TEXT-DECORATION: none }
+.OnTab { COLOR: white;font-weight: bold;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 12pt;TEXT-DECORATION: none }
+.OffParentTab { COLOR: black;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 9pt;TEXT-DECORATION: none }
+.OnParentTab { COLOR: white;font-weight: bold;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 9pt;TEXT-DECORATION: none }
+.onListItem { COLOR: "#326598";font-weight: bold;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 10pt;TEXT-DECORATION: none }
+.offListItem  { COLOR: black;font-weight: bold;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 10pt;TEXT-DECORATION: none }
+.smallWhite { COLOR: white;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 9pt;TEXT-DECORATION: none }
+.detailHeader { COLOR: white;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 12pt;TEXT-DECORATION: none }
+.smallBlack { COLOR: black;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 9pt;TEXT-DECORATION: none }
+.PortletUtilities{ COLOR: white;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 8pt; }
+TD { white-space: no-wrap; }

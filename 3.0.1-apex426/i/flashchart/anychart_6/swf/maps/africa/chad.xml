@@ -1,0 +1,110 @@
+<map_data>
+ <name>chad</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="13.4616661071777" top="23.450553894043" right="24.0027465820313" bottom="7.45777702331543"/>
+ <regions>
+  <region>
+   <centroid lat="14.1354084014893" lon="18.6218032836914"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-BAT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Batha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.9580535888672" lon="21.5583820343018"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-BLT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Biltine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.4168043136597" lon="19.5003175735474"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-BET]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Borkou-Ennedi-Tibesti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.5916080474854" lon="16.063214302063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-CBG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chari-Baguirmi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.3195819854736" lon="18.6041660308838"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-GUE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guera]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.9718227386475" lon="15.8039779663086"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-KAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kanem]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7581934928894" lon="14.6813879013062"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-LAC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lac]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.74972152709961" lon="15.9327774047852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-LOC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Logone Occidental]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.2993049621582" lon="16.2403779029846"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-LOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Logone Oriental]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.81129360198975" lon="15.1020817756653"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-MKE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mayo Kebi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.21072816848755" lon="18.4802074432373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-MCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moyen-Chari]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.6969175338745" lon="21.3947200775146"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-OUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ouaddai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.6082038879395" lon="20.6049709320068"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-SLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salamat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.62319374084473" lon="16.500497341156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TCD-TND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tandjile]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

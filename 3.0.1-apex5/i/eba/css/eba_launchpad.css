@@ -1,0 +1,211 @@
+body {margin: 0 !important; padding: 0 !important; width: auto !important;}
+div#body {
+	min-width: 750px;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+	position: relative;
+	}
+div#footer {
+	min-width: 750px;
+	max-width: 960px;
+	margin: 0 auto 40px auto;
+	}
+div.ebaHeader {
+	min-width: 750px;
+	max-width: 960px;
+	margin: 0 auto 10px auto;
+	}
+#topbar {
+	min-width: 750px;
+	max-width: 960px;
+	margin: 0 auto;
+	}
+	#topbar > div {
+		padding: 0 10px;
+		}
+table.tbl-body {
+	width: 100%;
+	}
+.tbl-sidebar {
+	padding: 0 !important;
+	}
+
+.tsToolTip {
+	display: none;
+	position:absolute;
+	padding:5px 10px;
+	color: #FFF;
+	text-align: center;
+	border-radius:6px;
+	-moz-border-radius: 6px;
+	background-color: #222;
+	background: -webkit-gradient(linear,0 0, 0 100%, from(rgba(0,0,0,.75)), to(rgba(0,0,0,.9)));
+	background: -moz-linear-gradient(top, rgba(0,0,0,.75), rgba(0,0,0,.9));
+	width: 160px;
+	font: normal 11px/14px Arial, sans-serif;
+	text-shadow: 0 1px 1px rgba(255,255,255,.05);
+	-webkit-box-shadow: 0 -2px 2px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 -2px 2px rgba(0,0,0,.25);
+}
+.tsToolTip:after {
+	content:"";
+	display:block;
+	position:absolute;
+	bottom: -10px;
+	left: 80px;
+	width:0;
+	height:0;
+	border-width: 10px 10px 0;
+	border-style:solid;
+	border-color: rgba(0,0,0,.9) transparent;
+}
+
+div.ebaLaunchPadRegion {
+	border: 1px solid #999;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	margin: 0 0 10px 0;
+	background-color: #AAA;
+	overflow: hidden;
+	}
+	
+#LAUNCHPAD .rc-content-main {
+	padding: 0;
+	}
+#LAUNCHPAD .sCustomSearch {
+	padding: 0;
+	}
+.tbl-sidebar {
+	padding: 0;
+	}
+
+div.ebaLaunchPadRegion div.ebaLaunchPad {
+	padding: 10px 9px !important;
+	}
+
+div.ebaLaunchPad ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+	div.ebaLaunchPad ul li {
+		float: left;
+		display: block;
+		margin: 0;
+		}
+	div.ebaLaunchPad ul li a {
+		display: block;
+		text-decoration: none;
+		width: 94px;
+		height: 98px;
+		outline: none;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		padding: 10px 5px;
+		-webkit-transition: background-color .2s linear;
+		}
+		div.ebaLaunchPad ul li a:hover {
+			background-color: rgba(0,0,0,0.1);
+			text-decoration: none;
+			}
+		div.ebaLaunchPad ul li a span.ebaAppIcon {
+			display: block;
+			margin: 0 auto;
+			padding: 0;
+			width: 64px;
+			height: 64px;
+			-webkit-border-radius: 12px;
+			-moz-border-radius: 12px;
+			border-radius: 12px;
+			background: #DDD;
+			background: -webkit-gradient(linear,0 0,0 100%, from(#FFF), to(#DDD));
+			background: -moz-linear-gradient(top, #FFF, #DDD);
+			-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.4);
+			-moz-box-shadow: 0 2px 4px rgba(0,0,0,.4);
+			}
+		div.ebaLaunchPad ul li a span.ebaAppIcon img {
+			width: 64px;
+			height: 64px;
+			background-image: url(../img/eba_launchpad.png);
+			background-repeat: no-repeat;
+			border: none;
+			-webkit-border-radius: 11px;
+			-moz-border-radius: 11px;
+			border-radius: 11px;
+			-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+			-moz-box-shadow: 0 0 0 1px rgba(0,0,0,.25) inset;
+			}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.generic{background-position:0 0;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.bug_tracker{background-position:-64px 0;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.checklist_manager{background-position:-128px 0;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.aria_people{background-position:-192px 0;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.project_tracking{background-position:-256px 0;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.solar{background-position:-320px 0;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.website{background-position:-384px 0;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.apex_service{background-position:-448px 0;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.solar_red{background-position:-512px 0;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.sales{background-position:-576px 0;}
+
+div.ebaLaunchPad ul li a span.ebaAppIcon img.data_modeler{background-position:0 -64px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.group_calendar{background-position:-64px -64px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.ask_tom{background-position:-128px -64px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.learning_library2{background-position:-192px -64px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.document_library{background-position:-256px -64px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.learning_library{background-position:-320px -64px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.comp_tracker{background-position:-384px -64px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.artwork_catalog{background-position:-448px -64px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.customer_tracker{background-position:-512px -64px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.knowledge_testing{background-position:-576px -64px;}
+
+div.ebaLaunchPad ul li a span.ebaAppIcon img.software_release_tracking{background-position:0 -128px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.approvals_tracking {background-position:-64px -128px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.community_requests{background-position:-128px -128px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.reference_tracking{background-position:-192px -128px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.event_registration{background-position:-256px -128px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.systems_catalog{background-position:-320px -128px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.discussion_forum {background-position:-384px -128px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.expertise_tracker{background-position:-448px -128px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.asset_manager{background-position:-512px -128px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.survey_builder{background-position:-576px -128px;}
+
+div.ebaLaunchPad ul li a span.ebaAppIcon img.help_builder{background-position:0 -192px;}
+div.ebaLaunchPad ul li a span.ebaAppIcon img.oratweet {background-position:-64px -192px;}
+xdiv.ebaLaunchPad ul li a span.ebaAppIcon img.community_requests{background-position:-128px -192px;}
+xdiv.ebaLaunchPad ul li a span.ebaAppIcon img.reference_tracking{background-position:-192px -192px;}
+xdiv.ebaLaunchPad ul li a span.ebaAppIcon img.event_registration{background-position:-256px -192px;}
+xdiv.ebaLaunchPad ul li a span.ebaAppIcon img.systems_catalog{background-position:-320px -192px;}
+xdiv.ebaLaunchPad ul li a span.ebaAppIcon img.discussion_forum {background-position:-384px -192px;}
+xdiv.ebaLaunchPad ul li a span.ebaAppIcon img.expertise_tracker{background-position:-448px -192px;}
+xdiv.ebaLaunchPad ul li a span.ebaAppIcon img.asset_manager{background-position:-512px -192px;}
+xdiv.ebaLaunchPad ul li a span.ebaAppIcon img.survey_builder{background-position:-576px -192px;}
+		
+/*		div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img {
+			background-image: url(eba_launchpad_generic.png);
+			}*/
+div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img.icon1 {background-image: url(../img/eba_launchpad_generic.png); background-position:0 0;}
+div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img.icon2 {background-image: url(../img/eba_launchpad_generic.png); background-position:-64px 0;}
+div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img.icon3 {background-image: url(../img/eba_launchpad_generic.png); background-position:-128px 0;}
+div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img.icon4 {background-image: url(../img/eba_launchpad_generic.png); background-position:-192px 0;}
+div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img.icon5 {background-image: url(../img/eba_launchpad_generic.png); background-position:-256px 0;}
+div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img.icon6 {background-image: url(../img/eba_launchpad_generic.png); background-position:-320px 0;}
+div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img.icon7 {background-image: url(../img/eba_launchpad_generic.png); background-position:-384px 0;}
+div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img.icon8 {background-image: url(../img/eba_launchpad_generic.png); background-position:-448px 0;}
+div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img.icon9 {background-image: url(../img/eba_launchpad_generic.png); background-position:-512px 0;}
+div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img.icon10{background-image: url(../img/eba_launchpad_generic.png); background-position:-576px 0;}
+div.ebaLaunchPad ul li.ebaGenericIcons a span.ebaAppIcon img.icon11{background-image: url(../img/eba_launchpad_generic.png); background-position:0 -64px;}
+		
+		div.ebaLaunchPad ul li a span.ebaAppName {
+			display: block;
+			text-align: center;
+			font: bold 11px/14px Arial, sans-serif;
+			color: #222;
+			text-decoration: none;
+			padding-top: 5px;
+			text-shadow: 0 2px 1px rgba(0,0,0,.10);
+			}
+		div.ebaLaunchPad ul li a span.ebaAppDesc {
+			display: none;
+			}
+			
+

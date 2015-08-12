@@ -1,0 +1,33 @@
+text{font-family:Arial, sans-serif;fill:#000000;}
+tspan{font-family:Arial, sans-serif;fill:#000000;}
+text.moredatafound{font-size:12px;}
+rect.legend{fill:#FFFFFF;stroke:#000000;stroke-width:1;}
+text.legend{font-size:10px;}
+#background{fill:#FFFFFF;stroke:none;}
+rect.chartholderbackground{fill:#ffffff;stroke:#000000;stroke-width:1;}
+
+/*dial*/
+text.tic{stroke:none;fill:#000000;font-size:10px;}
+line.tic{stroke:#000000;stroke-width:1px;fill:none;}
+#dial{stroke:#000000;stroke-width:3px;fill:#bbbbbb;fill-opacity:.5;}
+#dial.alert{fill:#FF0000;fill-opacity:.5;}
+#dialbackground{stroke:#333333;stroke-width:2px;fill:none;}
+#dialcenter{stroke:none;fill:#DDDDFF;filter:url(#MyFilter);}
+#dialbackground-border{display:none;}
+#low{stroke-width:3;stroke:#336699;}
+#high{stroke-width:3;stroke:#FF0000;}
+
+/*most charts*/
+#XAxisTitle{letter-spacing:2;kerning:auto;font-size:14px;fill:#000000;text-anchor:middle;}
+#YAxisTitle{letter-spacing:2;kerning:auto;font-size:14px;fill:#000000;text-anchor:middle;writing-mode:tb;}
+.XAxisValue{font-size:8px;fill:#000000;}
+.YAxisValue{font-size:8px;fill:#000000;text-anchor:end;}
+.AxisLabel{font-size:8px;fill:#000000;}
+.nodatafound{stroke:#000000;stroke-width:1;font-size:12px;}
+.AxisLine{stroke:#000000;stroke-width:2;fill:#FFFFFF;}
+.GridLine{stroke:#000000;stroke-width:0.3;stroke-dasharray:2,4;fill:none;}
+g.dataholder rect{stroke:#000000;stroke-width:0.5;}
+.legenditem rect{stroke:#000000;stroke-width:0.5;}
+/**/
+#timestamp{text-anchor:start;font-size:9px;}
+

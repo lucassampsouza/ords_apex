@@ -1,0 +1,215 @@
+<map_data>
+ <name>afghanistan</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="60.5044403076172" top="38.4721145629883" right="74.9157409667969" bottom="29.4061050415039"/>
+ <regions>
+  <region>
+   <centroid lat="36.9558372497559" lon="72.4241104125977"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-BDK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Badakhshan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2613639831543" lon="63.500545501709"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-BDG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Badghis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7662734985352" lon="68.9049224853516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-BGH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baghlan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6849899291992" lon="67.2981796264648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-BAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bamian]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.9369163513184" lon="62.6205444335938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-FAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Farah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1251335144043" lon="64.8151702880859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-FRY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Faryab]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.1616554260254" lon="67.8411712646484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-GHZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ghazni]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2393341064453" lon="64.971809387207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-GHW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ghowr]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.4665203094482" lon="64.1509590148926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-HLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Helmand]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5420761108398" lon="62.4774932861328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-HER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Herat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5436058044434" lon="69.360954284668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-KAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kabol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2698554992676" lon="69.7909469604492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-KAP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kapisa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2954139709473" lon="71.0620651245117"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-KNR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Konarha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.056526184082" lon="70.2216491699219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-LGH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Laghman]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.0171699523926" lon="69.2645645141602"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-LWG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lowgar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3924903869629" lon="70.3245697021484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-NNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nangarhar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.70166015625" lon="62.1516380310059"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-NMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nimruz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.3280487060547" lon="66.2827606201172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-ORZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oruzgan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.5949249267578" lon="69.5653991699219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-PAK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paktia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9894409179688" lon="68.8600997924805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-PRV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Parvan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.0330505371094" lon="66.0422286987305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-QND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quandahar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.8426284790039" lon="68.6587219238281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-KNZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Konduz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6545753479004" lon="69.7184448242188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-TKH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Takhar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2388305664063" lon="68.3049850463867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-VRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vardak]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.061882019043" lon="67.1752624511719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-ZAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zabol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.51735496521" lon="68.7444305419922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-PKT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paktika]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.4216079711914" lon="66.9244232177734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-BLK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Balkh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1981887817383" lon="66.2056427001953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-JWZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jowzjan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3040161132813" lon="67.6523742675781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AFG-SMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Samangan]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

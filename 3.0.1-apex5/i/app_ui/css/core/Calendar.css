@@ -1,0 +1,354 @@
+/**
+ * Import Compass
+ */
+/******************************************************************************
+Sprite Mixin
+******************************************************************************/
+/******************************************************************************
+Extendible Sprite Class
+******************************************************************************/
+/* ==========================================================================
+   Calendar
+   ========================================================================== */
+/* Calendar Wrapper
+   ========================================================================== */
+/* line 12, ../../scss/core/Calendar.scss */
+.fc.ui-widget {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 31, ../../scss/core/Calendar.scss */
+.fc-day-header.ui-widget-header {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #606060;
+  text-align: center;
+  background-image: none;
+  background-color: #F8F8F8;
+  border-color: #E0E0E0;
+}
+
+/* line 43, ../../scss/core/Calendar.scss */
+.fc-agenda-divider.ui-widget-header,
+.fc-agenda-gutter.ui-widget-header {
+  padding: 0;
+}
+
+/* line 51, ../../scss/core/Calendar.scss */
+.fc .fc-basic-view td.fc-day-number,
+.fc .fc-day-number {
+  padding: 8px 12px 4px 12px;
+  line-height: 1;
+  font-size: 12px;
+  color: #404040;
+}
+
+/* line 57, ../../scss/core/Calendar.scss */
+.fc-content .fc-today {
+  background: #E6EEF7;
+}
+
+/* line 62, ../../scss/core/Calendar.scss */
+.fc .fc-toolbar {
+  margin: 0;
+}
+
+/* line 67, ../../scss/core/Calendar.scss */
+.fc-toolbar .fc-left,
+.fc-toolbar .fc-right,
+.fc-toolbar .fc-center {
+  padding: 16px 12px;
+}
+
+/* line 74, ../../scss/core/Calendar.scss */
+.fc .ui-button {
+  padding: 8px 12px;
+  line-height: 16px;
+  margin-bottom: 0;
+}
+
+/* line 79, ../../scss/core/Calendar.scss */
+.fc button.ui-button {
+  height: auto;
+}
+
+/* line 83, ../../scss/core/Calendar.scss */
+.fc .fc-button .fc-icon-wrap {
+  float: none;
+  display: block;
+  height: 32px;
+}
+
+/* line 88, ../../scss/core/Calendar.scss */
+.fc .ui-button .ui-icon {
+  float: none;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Header Title */
+/* line 96, ../../scss/core/Calendar.scss */
+.fc-toolbar h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 200;
+  color: #404040;
+}
+
+/* Calendar Container */
+/* line 108, ../../scss/core/Calendar.scss */
+body .fc td.fc-today {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #E0E0E0;
+}
+
+/* line 113, ../../scss/core/Calendar.scss */
+.fc-content .fc-day.fc-today {
+  background: #E6EEF7;
+  border-width: 1px 0 0 0;
+}
+
+/* Table Header */
+/* line 119, ../../scss/core/Calendar.scss */
+.fc-grid .fc-day-header {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #707070;
+  text-align: right;
+  padding: 4px 8px;
+  border-color: #F0F0F0;
+  border-width: 0 0 1px 0;
+  background-color: transparent;
+}
+
+/* line 130, ../../scss/core/Calendar.scss */
+.fc-content .fc-day {
+  border-top: 1px solid #F0F0F0;
+  border-right: 1px solid #F8F8F8;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  padding: 0;
+}
+
+/* line 137, ../../scss/core/Calendar.scss */
+.fc .fc-grid .fc-day-content {
+  padding: 8px;
+}
+
+/* line 140, ../../scss/core/Calendar.scss */
+.fc-content .fc-last.fc-day {
+  border-right: none;
+}
+
+/* line 143, ../../scss/core/Calendar.scss */
+.fc-content .fc-grid .fc-day-number {
+  color: #404040;
+  padding: 4px 12px;
+}
+
+/* line 148, ../../scss/core/Calendar.scss */
+.fc-header span.fc-button.fc-button-next,
+.fc-header span.fc-button.fc-button-prev {
+  padding: 0 8px;
+}
+
+/* Calendar Cell Events*/
+/* line 154, ../../scss/core/Calendar.scss */
+.fc-content .fc-event,
+.fc-content .fc-event.fc-apex-events-default {
+  white-space: nowrap;
+  font-size: 11px;
+  border: none;
+  border-radius: 2px !important;
+  padding: 4px;
+  margin-bottom: 2px;
+  background-color: rgba(79, 137, 223, 0.1);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.025) inset;
+}
+
+/* line 164, ../../scss/core/Calendar.scss */
+.fc-content .fc-event:hover {
+  background-color: #256FFB;
+}
+
+/* line 167, ../../scss/core/Calendar.scss */
+.fc-content .fc-event:hover .fc-event-title {
+  color: #FFF !important;
+}
+
+/* line 170, ../../scss/core/Calendar.scss */
+.fc-content .fc-event:hover .fc-event-title:before {
+  background-color: #fff;
+}
+
+/* line 173, ../../scss/core/Calendar.scss */
+.fc-content .fc-event a {
+  text-decoration: none;
+}
+
+/* line 176, ../../scss/core/Calendar.scss */
+.fc-content .fc-event .fc-event-title {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: normal !important;
+  color: #404040 !important;
+}
+
+/* line 185, ../../scss/core/Calendar.scss */
+.fc-agendaList .fc-agendaList {
+  border-width: 0;
+}
+
+/* line 194, ../../scss/core/Calendar.scss */
+.fc .fc-event a {
+  color: inherit;
+}
+
+/*
+* fullcalendar dialog - sending event invitation
+*/
+/* line 201, ../../scss/core/Calendar.scss */
+.fc-apex-dialog-invitation {
+  width: 650px;
+  margin: 20px 0;
+}
+
+/* line 205, ../../scss/core/Calendar.scss */
+.fc-apex-dialog-invitation input,
+.fc-apex-dialog-invitation label {
+  display: block;
+}
+
+/* line 206, ../../scss/core/Calendar.scss */
+.fc-apex-dialog-details {
+  /* add necessary style for the description div element*/
+}
+
+/* line 211, ../../scss/core/Calendar.scss */
+.fc-apex-dialog-title,
+.fc-apex-dialog-desc,
+.fc-apex-dialog-date {
+  display: block;
+}
+
+/* line 213, ../../scss/core/Calendar.scss */
+.fc-apex-dialog-title {
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #808080;
+}
+
+/* line 215, ../../scss/core/Calendar.scss */
+.fc-apex-dialog-desc {
+  color: #808080;
+}
+
+/* line 217, ../../scss/core/Calendar.scss */
+.fc-apex-dialog-date {
+  font-size: 11px;
+  margin-top: 4px;
+  color: #808080;
+}
+
+/* line 220, ../../scss/core/Calendar.scss */
+.fc-apex-dialog-date label {
+  display: inline-block;
+  width: 30px;
+  padding: 0 0 0 4px;
+  font: bold 11px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #666;
+  vertical-align: top;
+}
+
+/*
+* fullcalendar tooltip
+*/
+/* line 232, ../../scss/core/Calendar.scss */
+.fc-apex-tooltip {
+  display: none;
+  position: fixed;
+  z-index: 10001;
+  width: 240px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* line 236, ../../scss/core/Calendar.scss */
+.fc-apex-tooltip-title,
+.fc-apex-tooltip-desc,
+.fc-apex-tooltip-date {
+  display: block;
+}
+
+/* line 238, ../../scss/core/Calendar.scss */
+.fc-apex-tooltip-title {
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #E0E0E0;
+}
+
+/* line 240, ../../scss/core/Calendar.scss */
+.fc-apex-tooltip-desc {
+  color: #C0C0C0;
+}
+
+/* line 242, ../../scss/core/Calendar.scss */
+.fc-apex-tooltip-date {
+  font-size: 11px;
+  margin-top: 4px;
+  color: #808080;
+}
+
+/* line 245, ../../scss/core/Calendar.scss */
+.fc-apex-tooltip-date label {
+  display: inline-block;
+  width: 30px;
+  padding: 0 0 0 4px;
+  font: bold 11px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #666;
+  vertical-align: top;
+}
+
+/*
+ * Agenda View Colors
+ */
+/* line 257, ../../scss/core/Calendar.scss */
+.fc-eventlist.apex-css-cal-01 {
+  border-color: #E74C3C;
+}
+
+/* line 259, ../../scss/core/Calendar.scss */
+.fc-eventlist.apex-css-cal-02 {
+  border-color: #FF9500;
+}
+
+/* line 260, ../../scss/core/Calendar.scss */
+.fc-eventlist.apex-css-cal-03, .fc-eventlist.fc-apex-events-default {
+  border-color: #3498DB;
+}
+
+/* line 262, ../../scss/core/Calendar.scss */
+.fc-eventlist.apex-css-cal-04 {
+  border-color: #2ECC71;
+}
+
+/* line 263, ../../scss/core/Calendar.scss */
+.fc-eventlist.fc-apex-events-gcal {
+  border-color: #019655;
+}
+
+/* line 264, ../../scss/core/Calendar.scss */
+.fc-eventlist.fc-apex-events-webservice {
+  border-color: #9B59B6;
+}

@@ -1,0 +1,57 @@
+/**
+ * Import Compass
+ */
+/* Calendar Wrapper
+   ========================================================================== */
+.a-MiniCal {
+  -webkit-font-smoothing: antialiased; }
+
+.a-MiniCal-month {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Calendar Header
+   ========================================================================== */
+.a-MiniCal-title {
+  line-height: 24px;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  padding: 12px;
+  font-weight: 300; }
+
+/* Month Calendar
+   ========================================================================== */
+.a-MiniCal-month {
+  font-size: 12px; }
+
+.a-MiniCal-dayOfWeek {
+  font-weight: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 11px; }
+
+.a-MiniCal-date {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-weight: normal;
+  font-size: 11px; }
+
+.a-MiniCal-day {
+  vertical-align: top;
+  padding: 6px 0; }
+  .a-MiniCal-day.is-today .a-MiniCal-date, .a-MiniCal-day.is-active .a-MiniCal-date {
+    border-radius: 100%;
+    font-weight: bold;
+    opacity: 1;
+    text-shadow: none; }
+  .a-MiniCal-day.is-weekend .a-MiniCal-date, .a-MiniCal-day.is-null .a-MiniCal-date {
+    opacity: 0.5; }

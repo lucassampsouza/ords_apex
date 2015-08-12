@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Calendar (Native APEX Full Calendar Plugin)
+   ========================================================================== */
+.t-Region--noPadding > .t-Region-bodyWrap > .t-Region-body > .fc .fc-view-container {
+  margin: 0 -1px; }
+
+.fc-day-header.ui-widget-header {
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+/* Calendar Header
+   ========================================================================== */
+.fc-toolbar {
+  border-style: solid;
+  border-width: 1px 1px 0 1px; }
+  .fc-toolbar .fc-left, .fc-toolbar .fc-right, .fc-toolbar .fc-center {
+    vertical-align: top; }
+
+.fc .fc-event {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  padding: 2px 4px; }
+
+.fc .fc-day-grid-event {
+  margin: 0 2px 1px 2px; }
+
+.fc .fc-time-grid-event {
+  margin-right: 1px; }
+
+.fc .fc-agendaList {
+  border-width: 0; }
+
+.fc div.fc-agendaList {
+  border-width: 1px; }
+
+.fc .fc-agendaList-dayHeader {
+  border-width: 0 0 1px 0; }

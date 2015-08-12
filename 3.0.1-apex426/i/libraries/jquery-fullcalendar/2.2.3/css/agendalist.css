@@ -1,0 +1,103 @@
+.fc-body {
+  background-color: #E0E0E0;
+  font-family: Arial, sans-serif;
+}
+.fc-list-container {
+  border: 1px solid #CCC;
+  margin: 20px;
+  padding: 20px;
+  background-color: #FFF;
+}
+.fc-agendaList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #E0E0E0;
+  border-bottom: none;
+}
+.fc-agendaList-dayHeader {
+  background-image: none;
+  background-color: #F0F0F0;
+  border-color: #E0E0E0;
+  border-width: 0 0 1px 0;
+  padding: 8px 12px;
+  overflow: hidden;
+}
+.fc-agendaList-day,
+.fc-agendaList-date {
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+}
+.fc-agendaList-day {
+  font-weight: bold;
+  color: #404040;
+  float: left;
+}
+.fc-agendaList-date {
+  color: #606060;
+  float: right;
+  font-weight: normal;
+}
+.fc-agendaList-item {
+  border-bottom: 1px solid #E0E0E0;
+}
+.fc-agendaList-event {
+  display: block;
+  padding: 6px;
+  margin: 1px;
+  border-left: 4px solid #FFF;
+}
+/* Event Link */
+a.fc-agendaList-event {
+  text-decoration: none;
+}
+a.fc-agendaList-event:hover {
+  background-color: #F8F8F8;
+}
+a.fc-agendaList-event .fc-event-title {
+  color: #4B66A7;
+  text-decoration: underline;
+}
+.fc-agendaList .fc-apex-events-gcal {
+  border-color: #5284C1;
+}
+.fc-agendaList .fc-apex-events {
+  border-color: #C11E21;
+}
+.fc-agendaList .fc-event-time {
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+  margin-right: 8px;
+}
+.fc-agendaList .fc-event-start-time,
+.fc-agendaList .fc-event-end-time {
+  display: block;
+}
+.fc-agendaList .fc-event-start-time,
+.fc-agendaList .fc-event-all-day {
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+}
+.fc-agendaList .fc-event-end-time {
+  font-size: 12px;
+  line-height: 16px;
+  color: #A0A0A0;
+}
+.fc-agendaList-eventDetails {
+  display: inline-block;
+  vertical-align: top;
+}
+.fc-agendaList .fc-event-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+}
+.fc-agendaList .fc-event-desc {
+  font-size: 12px;
+  line-height: 16px;
+  color: #707070;
+}

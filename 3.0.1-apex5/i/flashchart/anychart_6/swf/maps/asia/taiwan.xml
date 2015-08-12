@@ -1,0 +1,159 @@
+<map_data>
+ <name>taiwan</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="118.205833435059" top="26.2297172546387" right="122.002212524414" bottom="21.9277725219727"/>
+ <regions>
+  <region>
+   <centroid lat="23.9809675216675" lon="120.453201293945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-CHH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chang-hua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.4300594329834" lon="120.524883270264"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-CHI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chia-i]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.1148586273193" lon="121.70539855957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-CLS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chi-lung Shih]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.6858253479004" lon="121.133949279785"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-HSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hsin-chu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.734055519104" lon="121.393947601318"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-HUL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hua-lien]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.6476955413818" lon="121.639907836914"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-ILN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[I-lan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.9727745056152" lon="120.603839874268"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-KAH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kao-hsiung]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.5133857727051" lon="120.925319671631"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-MIL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Miao-li]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.8341903686523" lon="120.972351074219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-NNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nan-t'ou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.8701362609863" lon="119.106243133545"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-PNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[P'eng-hu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.4076862335205" lon="121.00025177002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-PNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[P'ing-tung]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.159255027771" lon="120.671348571777"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-TCS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[T'ai-chung Shih]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.2211847305298" lon="120.958053588867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-TCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[T'ai-chung]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.1542501449585" lon="120.342971801758"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-TNN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[T'ai-nan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.0000219345093" lon="120.1413230896"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-TNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[T'ai-nan Shih]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.978217124939" lon="121.639041900635"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-TPE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[T'ai-pei]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.8382863998413" lon="121.097263336182"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-TTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[T'ai-tung]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.8541784286499" lon="121.212200164795"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-TYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[T'ao-yuan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.6676502227783" lon="120.414398193359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-YNL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yun-lin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.6796751022339" lon="120.276988983154"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-KAS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kao-hsiung Shih]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.075044631958" lon="121.538803100586"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TWN-TPS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[T'ai-pei Shih]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

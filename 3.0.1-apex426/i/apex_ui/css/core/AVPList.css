@@ -1,0 +1,145 @@
+/* ==========================================================================
+   Attribute Value Pair List
+   ========================================================================== */
+/* line 9, ../../scss/core/AVPList.scss */
+.a-AVPList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 14, ../../scss/core/AVPList.scss */
+.a-AVPList-item {
+  display: table;
+  width: 100%;
+  box-shadow: 0 -1px #F0F0F0 inset;
+  transition: background-color .1s;
+}
+/* line 19, ../../scss/core/AVPList.scss */
+.a-AVPList-item:hover {
+  background-color: #F8F8F8;
+}
+
+/* line 23, ../../scss/core/AVPList.scss */
+.a-AVPList-label,
+.a-AVPList-value {
+  display: table-cell;
+  vertical-align: top;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 12px;
+}
+
+/* line 31, ../../scss/core/AVPList.scss */
+.a-AVPList-value {
+  text-align: right;
+  color: #707070;
+}
+
+/* line 36, ../../scss/core/AVPList.scss */
+.a-AVPList-label {
+  color: #404040;
+}
+
+/* line 41, ../../scss/core/AVPList.scss */
+.a-AVPList--shortcuts .a-AVPList-item {
+  box-shadow: none;
+  border-radius: 2px;
+}
+/* line 45, ../../scss/core/AVPList.scss */
+.a-AVPList--shortcuts .a-AVPList-value {
+  width: 50%;
+  text-align: left;
+}
+
+/* Left Aligned
+   ========================================================================== */
+/* line 54, ../../scss/core/AVPList.scss */
+.a-AVPList--leftAligned {
+  padding: 0 0 12px 0;
+}
+/* line 56, ../../scss/core/AVPList.scss */
+.a-AVPList--leftAligned .a-AVPList-label {
+  padding-left: 12px;
+  width: 30%;
+}
+/* line 60, ../../scss/core/AVPList.scss */
+.a-AVPList--leftAligned .a-AVPList-value {
+  padding-right: 12px;
+  text-align: left;
+  width: auto;
+}
+
+/* ==========================================================================
+   Widths
+   ========================================================================== */
+/* Fixed - Small
+   ========================================================================== */
+/* line 74, ../../scss/core/AVPList.scss */
+.a-AVPList--fixedLabelSmall .a-AVPList-label {
+  width: 160px;
+}
+
+/* Fixed - Medium
+   ========================================================================== */
+/* line 82, ../../scss/core/AVPList.scss */
+.a-AVPList--fixedLabelMedium .a-AVPList-label {
+  width: 220px;
+}
+
+/* Fixed - Large
+   ========================================================================== */
+/* line 90, ../../scss/core/AVPList.scss */
+.a-AVPList--fixedLabelLarge .a-AVPList-label {
+  width: 260px;
+}
+
+/* Variable - Small
+   ========================================================================== */
+/* line 98, ../../scss/core/AVPList.scss */
+.a-AVPList--variableLabelSmall .a-AVPList-label {
+  width: 20%;
+}
+
+/* Variable - Medium
+   ========================================================================== */
+/* line 106, ../../scss/core/AVPList.scss */
+.a-AVPList--variableLabelMedium .a-AVPList-label {
+  width: 30%;
+}
+
+/* Variable - Large
+   ========================================================================== */
+/* line 114, ../../scss/core/AVPList.scss */
+.a-AVPList--variableLabelLarge .a-AVPList-label {
+  width: 40%;
+}
+
+/* ==========================================================================
+   UI Modifiers
+   ========================================================================== */
+/* Variable - Large
+   ========================================================================== */
+/* line 127, ../../scss/core/AVPList.scss */
+.a-AVPList--appDetails .a-AVPList-label,
+.a-AVPList--appDetails .a-AVPList-value {
+  font-size: 14px;
+  line-height: 22px;
+  color: #707070;
+}
+/* line 133, ../../scss/core/AVPList.scss */
+.a-AVPList--appDetails .a-AVPList-label {
+  padding-left: 0;
+}
+/* line 136, ../../scss/core/AVPList.scss */
+.a-AVPList--appDetails .a-AVPList-value {
+  padding-right: 0;
+}
+/* line 139, ../../scss/core/AVPList.scss */
+.a-AVPList--appDetails .a-AVPList-item {
+  box-shadow: 0 -1px #F8F8F8 inset;
+}
+/* line 142, ../../scss/core/AVPList.scss */
+.a-AVPList--appDetails .a-AVPList-item:hover {
+  background-color: transparent;
+}

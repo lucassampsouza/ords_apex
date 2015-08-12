@@ -1,0 +1,15 @@
+table.eba-app-screenshots td.screenshot {
+  padding: 0 0 5px 0;
+}
+
+table.eba-app-screenshots td.desc {
+  padding: 5px 4px 10px 4px;
+  color: #808080;
+}
+
+table.eba-app-screenshots td img {
+	border:1px solid #cccccc !important;;
+	-moz-box-shadow: 4px 4px 6px #888;
+	-webkit-box-shadow: 4px 4px 6px #888;
+	box-shadow: 4px 4px 6px #888;
+}	

@@ -1,0 +1,103 @@
+<map_data>
+ <name>syria</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="35.6144638061523" top="37.2905426025391" right="42.3791656494141" bottom="32.313606262207"/>
+ <regions>
+  <region>
+   <centroid lat="36.4205513000488" lon="40.9091606140137"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-AHS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Hasakah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.5718269348145" lon="36.0115242004395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-ALD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Ladhiqiyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0162467956543" lon="35.7919540405273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-AQN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Qunaytirah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0086669921875" lon="38.9123039245605"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-ARQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ar Raqqah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.7706909179688" lon="36.915885925293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-ASW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[As Suwayda']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.829719543457" lon="36.1670379638672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-DAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dar'a]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2521781921387" lon="40.2822227478027"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-DAZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dayr az Zawr]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1720809936523" lon="37.610408782959"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-HAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Halab]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3014068603516" lon="37.2456893920898"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-HAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hamah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2599220275879" lon="38.1561050415039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-HIM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hims]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8256874084473" lon="36.682445526123"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-IDL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Idlib]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.4594383239746" lon="37.052791595459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-DMS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dimashq]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9471397399902" lon="36.0939064025879"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SYR-TRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tartus]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

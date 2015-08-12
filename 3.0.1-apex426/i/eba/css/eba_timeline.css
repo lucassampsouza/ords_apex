@@ -1,0 +1,135 @@
+div.ebaTimeline {
+	border-bottom: 1px solid #DDD;
+	clear: both;
+	position: relative;
+	}
+	div.ebaTimeline:last-child {
+		border-bottom: none;
+		}
+	div.ebaTimeline h3 {
+		font: bold 11px/12px Arial, sans-serif;
+		margin: 0;
+		padding: 9px 10px;
+		width: 80px;
+		color: #333;
+		position: absolute;
+		top: 0;
+		left: 0;
+		}
+	div.ebaTimeline h3 + ul {
+		margin: 0;
+		list-style: none;
+		padding: 0;
+		margin: 0 0 0 80px;
+		}
+		
+		
+
+
+/*<li>
+<span class="eD">
+<span class="eS">
+<a class="eN">
+	<span>*/
+div.ebaTimeline ul li {
+	display: table;
+	width: 100%;
+	position: relative;
+	}
+	div.ebaTimeline ul.ebaNoHover li:hover span.eS,
+	div.ebaTimeline ul.ebaNoHover li:hover span.eL {
+		background: transparent;
+		}
+	div.ebaTimeline ul li:hover span.eS {
+		background-color: #F8F8F8;
+		}
+	div.ebaTimeline ul li:hover span.eL {
+		background: url(../img/aRightArrow.png) 99% 50% no-repeat #F8F8F8;
+		}
+		div.ebaTimeline ul li:hover span.eL a.eN span {
+			text-decoration: underline;
+			}
+div.ebaTimeline ul li span.eD,
+div.ebaTimeline ul li span.eS,
+div.ebaTimeline ul li span.eL {
+	display: table-cell;
+	vertical-align: top;
+	}
+div.ebaTimeline ul li span.eD {
+	width: 20px;
+	padding: 0 10px 0 0;
+	font: normal 11px/30px Arial, sans-serif;
+	border-right: 1px solid #EEE;
+	text-align: right;
+	color: #666;
+	}
+div.ebaTimeline ul li span.eS {
+	padding: 5px;
+	width: 20px;
+	border-bottom: 1px dotted #EEE;;
+	}
+	div.ebaTimeline ul li:last-child span.eS,
+	div.ebaTimeline ul li:last-child span.eL {
+		border-bottom: none;
+		}
+div.ebaTimeline ul li span.eS span {
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, .75), 0 0 2px rgba(0, 0, 0, .5) inset;
+	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, .75), 0 0 2px rgba(0, 0, 0, .5) inset;
+	box-shadow: 0 1px 1px rgba(255, 255, 255, .75), 0 0 2px rgba(0, 0, 0, .5) inset;
+	background: -webkit-gradient(linear,0 0,0 100%,from(transparent),to(rgba(0, 0, 0, .25)));
+	background: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, .25));
+	margin: 4px;
+	}
+	div.ebaTimeline ul li span.eS span.ebaRed {background-color: #F00;}
+	div.ebaTimeline ul li span.eS span.ebaYellow {background-color: #FCE709;}
+	div.ebaTimeline ul li span.eS span.ebaGreen {background-color: #22C615;}
+	div.ebaTimeline ul li span.eS span.ebaBlack {background-color: #444;}
+	div.ebaTimeline ul li span.eS span.ebaNull {background-color: #CCC;}
+
+div.ebaTimeline ul li span.eL {
+	border-bottom: 1px dotted #EEE;
+	}
+div.ebaTimeline ul li a.eN {
+	display: block;
+	padding: 7px 0;
+	text-decoration: none;
+	}
+div.ebaTimeline ul li a.eN span {
+	display: block;
+	font: bold 12px/16px Arial, sans-serif;
+	color: #333;
+	}
+	
+div.ebaTimeline ul li a.eN em,
+div.ebaTimeline ul li span.eL em {
+	display: block;
+	font: normal 11px/16px Arial, sans-serif;
+	color: #666;
+	}
+	
+div.ebaTimeline ul li a.ebaEditLink {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	margin: 7px 7px 0 0;
+	font: normal 11px/12px Arial, sans-serif;
+	text-decoration: none;
+	color: #666;
+	padding: 2px 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: 1px solid #EEE;
+	-webkit-transition: background .2s linear, border .2s linear, color .2s linear;
+}
+
+div.ebaTimeline ul li a.ebaEditLink:hover {
+	border: 1px solid #BBB;
+	background: #FFF;
+	color: #333;
+	}

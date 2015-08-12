@@ -1,0 +1,69 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/* line 17, ../../../scss/theme/standard/Toolbar.scss */
+.a-Toolbar--insetShadow,
+.ui-tabs--simpleInset > .a-Tabs-toolbar > .ui-tabs-nav {
+  border-color: #E0E0E0;
+  background-color: #F4F4F4;
+  box-shadow: inset 0 -1px 0 #E0E0E0;
+  border-radius: 0;
+}
+
+/* line 25, ../../../scss/theme/standard/Toolbar.scss */
+.ui-tabs--subTabButtons > .a-Tabs-toolbar {
+  background-color: #FFF;
+  border-color: #E0E0E0;
+  padding-bottom: 1px;
+  box-shadow: inset 0 -1px 0 #F0F0F0;
+}
+
+/* line 32, ../../../scss/theme/standard/Toolbar.scss */
+.a-Tabs-toolbar {
+  overflow: hidden;
+  background-color: #F4F4F4;
+  box-shadow: inset 0 -1px 0 #E0E0E0;
+}
+/* line 36, ../../../scss/theme/standard/Toolbar.scss */
+.a-Tabs-toolbar .a-Toolbar-items {
+  padding: 4px;
+}

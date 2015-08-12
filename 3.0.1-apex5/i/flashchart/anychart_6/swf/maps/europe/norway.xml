@@ -1,0 +1,145 @@
+<map_data>
+ <name>norway</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="4.61999988555908" top="71.1547088623047" right="31.0747184753418" bottom="57.9880523681641"/>
+ <regions>
+  <region>
+   <centroid lat="60.0306930541992" lon="11.116229057312"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-AKR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Akershus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8942451477051" lon="8.0781044960022"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-AAG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aust-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2543029785156" lon="9.0381932258606"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-BSK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Buskerud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.3122100830078" lon="19.2322196960449"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-TRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Troms]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.264575958252" lon="11.2297210693359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-HDM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hedmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.2474975585938" lon="6.27097129821777"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-HRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hordaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.713191986084" lon="7.43597173690796"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-MOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[More Og Romsdal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.1565208435059" lon="12.2237215042114"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-NTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nord-Trondelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.1301345825195" lon="14.9569435119629"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-NRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nordland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.2583923339844" lon="9.23979473114014"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-OPP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oppland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.9773445129395" lon="10.7055540084839"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-OSL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oslo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.3292999267578" lon="11.2780542373657"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-OST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ostfold]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0501098632813" lon="6.14904594421387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-RGL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rogaland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.4405517578125" lon="6.46374940872192"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-SOF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sogn Og Fjordane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.3384323120117" lon="10.2576713562012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-STR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sor-Trondelag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.469482421875" lon="8.47875118255615"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-TLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Telemark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="69.8677597045898" lon="26.1616344451904"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-FNN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Finnmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.5805244445801" lon="7.25518178939819"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-VAG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vest-Agder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.318603515625" lon="10.125693321228"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NOR-VST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vestfold]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

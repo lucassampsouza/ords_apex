@@ -1,0 +1,54 @@
+<map_data>
+ <name>israel</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="34.267578125" top="33.2702713012695" right="35.6830520629883" bottom="29.4867057800293"/>
+ <regions>
+  <region>
+   <centroid lat="31.7182140350342" lon="35.0451374053955"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISR-YRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yerushalayim]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.0948581695557" lon="34.8087463378906"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISR-TAV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tel Aviv]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.8322334289551" lon="35.353328704834"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISR-HZF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hazafon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6379547119141" lon="35.0381927490234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISR-HEF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hefa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.087495803833" lon="34.8591651916504"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISR-HMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hamerkaz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.6814079284668" lon="34.8730926513672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ISR-HDR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hadarom]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

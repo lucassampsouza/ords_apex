@@ -1,0 +1,431 @@
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Bar Chart
+   ========================================================================== */
+/* line 23, ../../scss/core/BarChart.scss */
+.a-BarChart {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 28, ../../scss/core/BarChart.scss */
+.a-BarChart-item {
+  display: block;
+  position: relative;
+  padding: 16px 12px;
+  box-shadow: 0 -1px 0 #F8F8F8 inset;
+}
+/* line 34, ../../scss/core/BarChart.scss */
+.a-BarChart-item:first-child {
+  border-top: none;
+}
+/* line 37, ../../scss/core/BarChart.scss */
+.a-BarChart-item:hover {
+  background-color: #FAFAFA;
+}
+/* line 40, ../../scss/core/BarChart.scss */
+.a-BarChart-item:hover .a-BarChart-bar {
+  background-color: #fff;
+}
+/* line 43, ../../scss/core/BarChart.scss */
+.a-BarChart-item:hover .a-BarChart-filled {
+  background-color: rgba(45, 123, 187, 0.75);
+}
+
+/* line 47, ../../scss/core/BarChart.scss */
+.a-BarChart-image {
+  border-radius: 100%;
+  width: 32px;
+  background-color: #FFF;
+}
+
+/* line 53, ../../scss/core/BarChart.scss */
+.a-BarChart-link:hover {
+  text-decoration: none;
+}
+
+/* line 57, ../../scss/core/BarChart.scss */
+.a-BarChart-icon {
+  display: block;
+  background-color: #D0D0D0;
+  color: #FFF;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  font-size: 32px;
+}
+/* line 65, ../../scss/core/BarChart.scss */
+.a-BarChart-icon.a-BarChart-icon--square {
+  border-radius: 2px;
+}
+
+/* line 69, ../../scss/core/BarChart.scss */
+.a-BarChart-initials {
+  display: block;
+  border-radius: 100%;
+  background-color: #FFF;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  text-transform: uppercase;
+  border: 1px solid;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/* line 88, ../../scss/core/BarChart.scss */
+.a-BarChart-label,
+.a-BarChart-value {
+  font-size: 12px;
+  line-height: 20px;
+}
+/* line 92, ../../scss/core/BarChart.scss */
+.a-BarChart-label a,
+.a-BarChart-value a {
+  text-decoration: none;
+}
+/* line 95, ../../scss/core/BarChart.scss */
+.a-BarChart-label a:hover,
+.a-BarChart-value a:hover {
+  text-decoration: underline;
+}
+
+/* line 100, ../../scss/core/BarChart.scss */
+.a-BarChart-label {
+  display: block;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  color: #404040;
+  overflow: hidden;
+}
+
+/* line 108, ../../scss/core/BarChart.scss */
+.a-BarChart-value {
+  float: right;
+}
+/* line 110, ../../scss/core/BarChart.scss */
+.a-BarChart-value, .a-BarChart-value a {
+  color: #707070;
+}
+
+/* line 114, ../../scss/core/BarChart.scss */
+.a-BarChart-bar {
+  height: 8px;
+  border-radius: 1px;
+  overflow: hidden;
+  margin: 2px 0;
+  background-color: #F8F8F8;
+}
+
+/* line 121, ../../scss/core/BarChart.scss */
+.a-BarChart-barLink {
+  display: block;
+}
+
+/* line 124, ../../scss/core/BarChart.scss */
+.a-BarChart-filled {
+  height: 8px;
+  background-color: #2D7BBB;
+  background-color: rgba(45, 123, 187, 0.75);
+  border-radius: 1px;
+}
+
+/* line 131, ../../scss/core/BarChart.scss */
+.a-BarChart-bar,
+.a-BarChart-filled {
+  transition: background-color .2s;
+}
+
+/* line 135, ../../scss/core/BarChart.scss */
+.a-BarChart-item:hover .a-BarChart-bar {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Classic Bar Chart
+   ========================================================================== */
+/* line 141, ../../scss/core/BarChart.scss */
+.a-BarChart--classic {
+  display: table;
+  width: 100%;
+}
+/* line 144, ../../scss/core/BarChart.scss */
+.a-BarChart--classic .a-BarChart-item {
+  display: table-row;
+  padding: 0;
+}
+/* line 148, ../../scss/core/BarChart.scss */
+.a-BarChart--classic .a-BarChart-label,
+.a-BarChart--classic .a-BarChart-barLink,
+.a-BarChart--classic .a-BarChart-value {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: table-cell;
+  vertical-align: top;
+  white-space: nowrap;
+  box-shadow: 0 -1px 0 #F0F0F0 inset;
+}
+/* line 158, ../../scss/core/BarChart.scss */
+.a-BarChart--classic .a-BarChart-barLink {
+  width: 80%;
+}
+/* line 161, ../../scss/core/BarChart.scss */
+.a-BarChart--classic .a-BarChart-value {
+  width: 5%;
+  float: none;
+  text-align: right;
+  padding-left: 8px;
+  padding-right: 12px;
+}
+/* line 168, ../../scss/core/BarChart.scss */
+.a-BarChart--classic .a-BarChart-label {
+  padding-right: 8px;
+  padding-left: 12px;
+}
+/* line 172, ../../scss/core/BarChart.scss */
+.a-BarChart--classic .a-BarChart-bar {
+  margin: 4px 0;
+}
+/* line 175, ../../scss/core/BarChart.scss */
+.a-BarChart--classic .a-BarChart-filled {
+  opacity: .75;
+}
+/* line 178, ../../scss/core/BarChart.scss */
+.a-BarChart--classic .a-BarChart-filled,
+.a-BarChart--classic .a-BarChart-bar {
+  height: 12px;
+}
+
+/* Bar Charts for Apps
+   ========================================================================== */
+/* line 187, ../../scss/core/BarChart.scss */
+.a-BarChart--apps .a-BarChart-initials {
+  border-radius: 2px;
+  color: #FFF;
+  border-width: 0;
+  line-height: 32px;
+}
+
+/* Bar Charts for Users
+   ========================================================================== */
+/* line 197, ../../scss/core/BarChart.scss */
+.a-BarChart--users {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 201, ../../scss/core/BarChart.scss */
+.a-BarChart--users .a-BarChart-initials {
+  background-color: #fff;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--1 {
+  border-color: #5856D6;
+  color: #5856D6;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--2 {
+  border-color: #007aff;
+  color: #007aff;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--3 {
+  border-color: #34aadc;
+  color: #34aadc;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--4 {
+  border-color: #5ac8fa;
+  color: #5ac8fa;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--5 {
+  border-color: #4cd964;
+  color: #4cd964;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--6 {
+  border-color: #ff2d55;
+  color: #ff2d55;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--7 {
+  border-color: #ff3b30;
+  color: #ff3b30;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--8 {
+  border-color: #ff9500;
+  color: #ff9500;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--9 {
+  border-color: #ffcc00;
+  color: #ffcc00;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--10 {
+  border-color: #8e8e93;
+  color: #8e8e93;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--11 {
+  border-color: #7977de;
+  color: #7977de;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--12 {
+  border-color: #3394ff;
+  color: #3394ff;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--13 {
+  border-color: #5cbbe3;
+  color: #5cbbe3;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--14 {
+  border-color: #7bd3fb;
+  color: #7bd3fb;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--15 {
+  border-color: #6fe083;
+  color: #6fe083;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--16 {
+  border-color: #ff5777;
+  color: #ff5777;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--17 {
+  border-color: #ff6259;
+  color: #ff6259;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--18 {
+  border-color: #ffaa33;
+  color: #ffaa33;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--19 {
+  border-color: #ffd633;
+  color: #ffd633;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--20 {
+  border-color: #a4a4a8;
+  color: #a4a4a8;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--21 {
+  border-color: #4f4dc0;
+  color: #4f4dc0;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--22 {
+  border-color: #006de5;
+  color: #006de5;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--23 {
+  border-color: #2e99c6;
+  color: #2e99c6;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--24 {
+  border-color: #51b4e1;
+  color: #51b4e1;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--25 {
+  border-color: #44c35a;
+  color: #44c35a;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--26 {
+  border-color: #e5284c;
+  color: #e5284c;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--27 {
+  border-color: #e5352b;
+  color: #e5352b;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--28 {
+  border-color: #e58600;
+  color: #e58600;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--29 {
+  border-color: #e5b700;
+  color: #e5b700;
+}
+/* line 205, ../../scss/core/BarChart.scss */
+.a-BarChart--users .u-ColorBG--30 {
+  border-color: #7f7f84;
+  color: #7f7f84;
+}
+
+/* Modern Bar Charts (For Apps / Users)
+   ========================================================================== */
+/* line 216, ../../scss/core/BarChart.scss */
+.a-BarChart--modern .a-BarChart-labelContainer {
+  display: table;
+  width: 100%;
+}
+/* line 220, ../../scss/core/BarChart.scss */
+.a-BarChart--modern .a-BarChart-label,
+.a-BarChart--modern .a-BarChart-value {
+  display: table-cell;
+  float: none;
+  vertical-align: top;
+}
+/* line 226, ../../scss/core/BarChart.scss */
+.a-BarChart--modern .a-BarChart-value {
+  text-align: right;
+}

@@ -1,0 +1,110 @@
+<map_data>
+ <name>ma</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-73.4992752075195" top="42.8867874145508" right="-69.9183197021484" bottom="41.2381553649902"/>
+ <regions>
+  <region>
+   <centroid lat="42.6572704315186" lon="-70.9272232055664"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Essex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3910980224609" lon="-73.221981048584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berkshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.5249214172363" lon="-72.6199798583984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.1654739379883" lon="-71.1435737609863"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norfolk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3622798919678" lon="-71.8914680480957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Worcester]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3705348968506" lon="-72.6385765075684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hampshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.4400539398193" lon="-71.4643173217773"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Middlesex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.169605255127" lon="-72.6037445068359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hampden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3365440368652" lon="-71.075798034668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suffolk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.9461269378662" lon="-70.8084564208984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Plymouth]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7923221588135" lon="-71.1122016906738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bristol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8060436248779" lon="-70.2918663024902"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Barnstable]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.3863010406494" lon="-70.6655578613281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dukes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.314998626709" lon="-70.0901641845703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[25019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nantucket]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

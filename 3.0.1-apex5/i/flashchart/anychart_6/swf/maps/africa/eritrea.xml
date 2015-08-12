@@ -1,0 +1,68 @@
+<map_data>
+ <name>eritrea</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="36.4432830810547" top="17.9948806762695" right="43.1213836669922" bottom="12.3638877868652"/>
+ <regions>
+  <region>
+   <centroid lat="14.8044457435608" lon="39.6017265319824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ERI-AGZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Akale Guzay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.7804307937622" lon="37.4296760559082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ERI-BRK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baraka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.9266653060913" lon="41.4445819854736"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ERI-DNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Denakil]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.3301100730896" lon="38.7320899963379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ERI-HMS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hamasen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.0630054473877" lon="38.5633277893066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ERI-SHL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sahil]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.7637705802917" lon="39.6382656097412"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ERI-SMH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Samhar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.8367247581482" lon="38.5165901184082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ERI-SNH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Senhit]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.7727837562561" lon="38.5016632080078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ERI-SRY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seraye]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

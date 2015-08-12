@@ -1,0 +1,82 @@
+<map_data>
+ <name>cameroon</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="8.50222206115723" top="13.0847206115723" right="16.2072219848633" bottom="1.65416646003723"/>
+ <regions>
+  <region>
+   <centroid lat="3.87569391727448" lon="14.3541660308838"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CMR-EST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Est]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.31277298927307" lon="10.2267532348633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CMR-LTT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Littoral]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.39847135543823" lon="10.3993053436279"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CMR-NOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nord-Ouest]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.59222173690796" lon="10.5861101150513"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CMR-OUE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ouest]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.22395968437195" lon="9.31027698516846"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CMR-SOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sud-Ouest]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.08274555206299" lon="13.2221164703369"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CMR-ADM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Adamoua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.67999982833862" lon="11.7356939315796"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CMR-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Centre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.5031938552856" lon="14.5387687683105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CMR-ENO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Extreme-Nord]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.62555551528931" lon="13.9106941223145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CMR-NOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nord]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.91525888442993" lon="11.7367925643921"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CMR-SUD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sud]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,47 @@
+<map_data>
+ <name>djibouti</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="41.7597198486328" top="12.7083320617676" right="43.4208297729492" bottom="10.9419441223145"/>
+ <regions>
+  <region>
+   <centroid lat="11.2835474014282" lon="42.9068565368652"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DJI-ASA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA['Ali Sabih]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.4341535568237" lon="42.3132629394531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DJI-DKH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dikhil]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.4895367622375" lon="43.1365928649902"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DJI-DJI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Djibouti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.2505540847778" lon="42.9528198242188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DJI-OBC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Obock]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.0368041992188" lon="42.5039253234863"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DJI-TDJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tadjoura]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

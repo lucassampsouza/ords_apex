@@ -1,0 +1,621 @@
+<map_data>
+ <name>russia</name>
+ <defaultProjection>equirectangular</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="GMI_ADMIN" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="19.6272583007813" top="81.8519287109375" right="180" bottom="41.1965789794922"/>
+ <regions>
+  <region>
+   <centroid lat="67.8734931945801" lon="74.0209846496582"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-YMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yamalo-Nenetskiy avtonomnyy okrug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="73.829704284668" lon="56.1005401611328"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-NEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nenetskiy avtonomnyy okrug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.7016525268555" lon="0"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-CHU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chukotskiy avtonomnyy okrug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.0076217651367" lon="34.9131898880005"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-MRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Murmanskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.599250793457" lon="154.08869934082"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-MAG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Magadanskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.268871307373" lon="98.4673500061035"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-EVE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Evenkiyskiy avtonomnyy okrug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.819637298584" lon="55.8052444458008"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KOM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Komi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.5005798339844" lon="86.9298095703125"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KEM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kemerovskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.304988861084" lon="134.185596466064"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-YAK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Sakha(Yakutiya)]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.7177658081055" lon="42.9951248168945"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-ARK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arkhangel'skaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.6647071838379" lon="33.6134357452393"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KRL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Kareliya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.1501159667969" lon="72.6001968383789"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khanty-Mansiyskiy avtonomnyy okrug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.3013172149658" lon="165.055801391602"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Koryakskiy avtonomnyy okrug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.2217960357666" lon="104.182624816895"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-UOB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ust'-Ordynskiy Buryatskiy avt.okrug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0227699279785" lon="61.7132015228271"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-SVD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sverdlovskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.8908233642578" lon="56.5847434997559"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-PER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Permskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0437850952148" lon="40.9357357025146"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-VLG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vologodskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8737869262695" lon="31.7042465209961"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-SPT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leningradskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.8508262634277" lon="54.006555557251"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KMP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Komi-Permyatskiy avton. okrug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.5837440490723" lon="50.1202030181885"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KRV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kirovskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3708267211914" lon="82.2290115356445"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-TOM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tomskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.5658264160156" lon="70.0007553100586"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-TYU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tyumenskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.4553680419922" lon="43.9946441650391"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kostromskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.1842269897461" lon="32.9233264923096"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-NVG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Novgorodskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="74.2537384033203" lon="94.9672088623047"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-TAY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taymyrskiy(Dolgano-Nenetskiy) avt.okrug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.294017791748" lon="29.4279069900513"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-PSK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pskovskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.7482929229736" lon="39.2545738220215"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-YRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yaroslavskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.2557544708252" lon="34.5431184768677"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-TVR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tverskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.0086059570313" lon="73.3672370910645"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-OMS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Omskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.1994552612305" lon="52.7564868927002"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-UDM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Udmurtskaya Respublika]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0490188598633" lon="114.15308380127"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-AGB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aginskiy Buryatskiy avtonomnyy okrug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.281795501709" lon="44.7741947174072"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-NZN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nizhegorodskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.061107635498" lon="41.3041706085205"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-IVN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ivanovskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.5720901489258" lon="47.9193000793457"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-MRL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Mariy-El]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.2981109619141" lon="80.0809097290039"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-NOV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Novosibirskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.7738838195801" lon="114.945854187012"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-CHI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chitinskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.9442310333252" lon="127.313625335693"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-AMU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amurskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.5963878631592" lon="37.6879940032959"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-MSC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moskovskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.5065879821777" lon="65.3436660766602"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kurganskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0974197387695" lon="92.1701507568359"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KRA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Krasnoyarskiy kray]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.9722290039063" lon="40.6321811676025"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-VLD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vladimirskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.3302688598633" lon="50.7660846710205"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-TRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Tatarstan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.0536060333252" lon="56.5679779052734"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-BSK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Bashkortostan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.1874923706055" lon="60.2397842407227"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-CHL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chelyabinskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.4831867218018" lon="47.1641960144043"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-CHV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chuvashskaya Respublika]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.7582550048828" lon="33.0901651382446"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-SML]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Smolenskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.3906936645508" lon="89.8997039794922"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KHK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Khakasiya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.336727142334" lon="40.6867618560791"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-RYZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ryazanskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.2962646484375" lon="35.3738441467285"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KLG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kaluzhskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.4185657501221" lon="44.4646472930908"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-MRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Mordoviya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.7270755767822" lon="48.0327739715576"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-ULY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ul'yanovskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.2478713989258" lon="161.82836151123"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kamchatskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.9091567993164" lon="37.4372138977051"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-TUL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tul'skaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.2108688354492" lon="50.2399673461914"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-SAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Samarskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.8063774108887" lon="21.2470645904541"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kaliningradskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.576587677002" lon="132.759628295898"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-YEV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yevreyskaya avtonomnaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.565746307373" lon="82.4930229187012"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-ALT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Altayskiy kray]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.4277000427246" lon="56.2295608520508"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-ORB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orenburgskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.7159042358398" lon="107.393665313721"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-IRK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Irkutskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.9382209777832" lon="33.290078163147"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-BRY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bryanskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.1627044677734" lon="44.5395774841309"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-PNZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Penzenskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.715747833252" lon="41.5931491851807"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-TMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tambovskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.7303371429443" lon="93.9929122924805"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-TUV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Tyva]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.7796802520752" lon="36.425687789917"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-ORL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orlovskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.7359619140625" lon="39.206033706665"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-LPT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lipetskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.3140888214111" lon="46.6504096984863"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-SRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saratovskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.8730449676514" lon="86.9342880249023"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-GAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Altay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.6688175201416" lon="36.3038139343262"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kurskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.8290920257568" lon="40.5140342712402"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-VRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Voronezhskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.612268447876" lon="107.783321380615"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-BUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Buryatiya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.6140174865723" lon="37.2721862792969"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-BLG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Belgorodskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.3463096618652" lon="44.3061809539795"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-VGG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Volgogradskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.086612701416" lon="41.2754001617432"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-RSV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rostovskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.6086578369141" lon="138.778305053711"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khabarovskiy kray]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.3692226409912" lon="134.718101501465"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-PRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Primorskiy kray]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.0372848510742" lon="149.067329406738"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-SAK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sakhalinskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4713802337646" lon="39.7133293151855"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-ADY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Adygeya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.9451446533203" lon="43.2786674499512"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-STV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stavropol'skiy kray]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1202278137207" lon="39.155143737793"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Krasnodarskiy kray]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.8412418365479" lon="41.6881561279297"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karachayevo-Cherkesskaya Resp.]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.4470710754395" lon="43.3990859985352"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KBK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kabardino-Balkarskaya Resp.]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.205680847168" lon="44.1682434082031"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-NOS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Severnaya Osetiya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1348171234131" lon="44.8754730224609"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-ING]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ingushskaya Respublika]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8121662139893" lon="47.5092811584473"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-AST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Astrakhanskaya oblast']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.2738380432129" lon="45.3070526123047"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-KLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kalmykiya-Khal'mg Tangch]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.09912109375" lon="47.4336414337158"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-DGS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Respublika Dagestan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.2465476989746" lon="45.7560787200928"/>
+   <data>
+    <item column="GMI_ADMIN"><value><![CDATA[RUS-CHG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chechenskaya Respublika]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

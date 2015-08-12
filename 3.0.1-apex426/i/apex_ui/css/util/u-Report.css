@@ -1,0 +1,29 @@
+/* ==========================================================================
+ Report Utility Class
+ ---
+ Slightly updated styles to better fit Builder
+ ========================================================================== */
+/* line 8, ../../scss/util/u-Report.scss */
+.u-Report .u-Report-header,
+.u-Report th {
+  padding: 12px;
+}
+/* line 12, ../../scss/util/u-Report.scss */
+.u-Report td {
+  padding: 8px 12px;
+}
+/* line 15, ../../scss/util/u-Report.scss */
+.u-Report td,
+.u-Report th {
+  border-left-color: #F0F0F0;
+  border-top-color: #F0F0F0;
+}
+/* line 20, ../../scss/util/u-Report.scss */
+.u-Report tr td:last-child,
+.u-Report tr th:last-child {
+  border-right-color: #F0F0F0;
+}
+/* line 24, ../../scss/util/u-Report.scss */
+.u-Report tr:last-child td {
+  border-bottom-color: #F0F0F0;
+}

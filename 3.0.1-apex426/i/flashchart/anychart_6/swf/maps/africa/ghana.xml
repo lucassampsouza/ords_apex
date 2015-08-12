@@ -1,0 +1,82 @@
+<map_data>
+ <name>ghana</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-3.24916696548462" top="11.1666660308838" right="1.20111107826233" bottom="4.7263879776001"/>
+ <regions>
+  <region>
+   <centroid lat="5.74684762954712" lon="0.1061110496521"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GHA-GAC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greater Accra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.75444364547729" lon="-1.33041681349277"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GHA-ASH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ashanti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.58395528793335" lon="-1.42734415829182"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GHA-BAH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brong-Ahafo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.65874147415161" lon="-1.26504030823708"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GHA-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.45924472808838" lon="-0.458923786878586"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GHA-EST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eastern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.33213424682617" lon="-1.10902786254883"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GHA-NRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.26361036300659" lon="0.403942108154297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GHA-VOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Volta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.88850498199463" lon="-2.333611369133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GHA-WST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.7294435501099" lon="-0.773055579513311"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GHA-UPE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Upper East]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.3406858444214" lon="-2.14167928695679"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GHA-UPW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Upper West]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

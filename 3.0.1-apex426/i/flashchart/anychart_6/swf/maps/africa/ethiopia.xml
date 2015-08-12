@@ -1,0 +1,103 @@
+<map_data>
+ <name>ethiopia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="32.9911041259766" top="14.8836097717285" right="47.9882431030273" bottom="3.40638875961304"/>
+ <regions>
+  <region>
+   <centroid lat="7.89631605148315" lon="39.6993141174316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-ARS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arsi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.7038717269897" lon="37.1016044616699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-GND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gonder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.7434706687927" lon="40.4077758789063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-WEO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Welo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.03031158447266" lon="44.0338401794434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-HRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Harerge]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.00137376785278" lon="38.8141632080078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-SHE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shewa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.9530363082886" lon="36.741382598877"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-GOJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gojam]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.6474990844727" lon="39.7080497741699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-TGR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tigray]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.1659893989563" lon="41.8830833435059"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-BAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bale]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.62580490112305" lon="36.8363876342773"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-GGO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gamo Gofa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.85041618347168" lon="34.9474945068359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-ILB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ilubabor]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.1280722618103" lon="35.9141654968262"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-KEF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kefa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.29638838768005" lon="39.3930168151855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-SID]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sidamo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.70388793945313" lon="35.8733940124512"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ETH-WEL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Welega]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

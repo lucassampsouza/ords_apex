@@ -1,0 +1,4794 @@
+/* Set up Variable Colors */
+/* ================ */
+/* = Reset Basics = */
+/* ================ */
+/* line 37, ../scss/4_1.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* line 48, ../scss/4_1.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 56, ../scss/4_1.scss */
+th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+/* line 63, ../scss/4_1.scss */
+strong, b {
+  font-weight: bold;
+}
+
+/* line 66, ../scss/4_1.scss */
+em {
+  font-style: italic;
+}
+
+/* line 70, ../scss/4_1.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 73, ../scss/4_1.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 75, ../scss/4_1.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 76, ../scss/4_1.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 77, ../scss/4_1.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 78, ../scss/4_1.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 79, ../scss/4_1.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 80, ../scss/4_1.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 81, ../scss/4_1.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 82, ../scss/4_1.scss */
+input, select {
+  vertical-align: baseline;
+}
+
+/* line 84, ../scss/4_1.scss */
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif;
+}
+
+/* line 86, ../scss/4_1.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 87, ../scss/4_1.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+/* line 88, ../scss/4_1.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 89, ../scss/4_1.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 91, ../scss/4_1.scss */
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 92, ../scss/4_1.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 93, ../scss/4_1.scss */
+.clearfix {
+  zoom: 1;
+}
+
+/* line 94, ../scss/4_1.scss */
+.clear {
+  clear: both;
+}
+
+/* line 96, ../scss/4_1.scss */
+a {
+  color: #405580;
+}
+
+/* line 99, ../scss/4_1.scss */
+::-moz-selection {
+  background: #EA0000;
+  color: #FFF;
+  text-shadow: none;
+}
+
+/* line 100, ../scss/4_1.scss */
+::selection {
+  background: #EA0000;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* ====================== */
+/* = Begin Styling Here = */
+/* ====================== */
+/* line 106, ../scss/4_1.scss */
+body {
+  background: url(../images/bg_noise.png) #f8f8f8;
+  font: normal 12px/16px Arial, sans-serif;
+}
+/* line 109, ../scss/4_1.scss */
+body#uPopup {
+  margin: 8px 0 0 0;
+}
+
+/* Error Page */
+/* line 114, ../scss/4_1.scss */
+div.uErrorTechInfo {
+  font: normal 11px/16px monospace;
+  color: #666;
+}
+
+/* Hidden Items (Region Position 8)*/
+/* line 120, ../scss/4_1.scss */
+div#uHiddenItems {
+  display: none;
+}
+
+/* ================ */
+/* = Page Columns = */
+/* ================ */
+/* line 126, ../scss/4_1.scss */
+div#uBodyContainer {
+  margin: 0 8px;
+}
+
+/* line 130, ../scss/4_1.scss */
+body#uLogin div#uBodyContainer {
+  margin: 60px auto;
+}
+
+/* line 134, ../scss/4_1.scss */
+div#uLoginContainer {
+  margin: 0 auto;
+  width: 600px;
+}
+/* line 137, ../scss/4_1.scss */
+div#uLoginContainer table.formlayout {
+  margin: 16px auto;
+}
+/* line 139, ../scss/4_1.scss */
+div#uLoginContainer table.formlayout td {
+  vertical-align: top;
+}
+/* line 141, ../scss/4_1.scss */
+div#uLoginContainer table.formlayout td input.password {
+  display: block;
+  float: left;
+}
+/* line 145, ../scss/4_1.scss */
+div#uLoginContainer table.formlayout td a.uButton {
+  display: block;
+  float: left;
+}
+
+/* line 152, ../scss/4_1.scss */
+#uOneCol {
+  clear: both;
+}
+
+/* line 155, ../scss/4_1.scss */
+table#uPageCols {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+/* line 161, ../scss/4_1.scss */
+table#uPageCols td#uLeftCol,
+table#uPageCols td#uRightCol,
+table#uPageCols td#uMidCol {
+  vertical-align: top;
+}
+/* line 164, ../scss/4_1.scss */
+table#uPageCols td#uLeftCol {
+  padding-right: 8px;
+}
+/* line 167, ../scss/4_1.scss */
+table#uPageCols td#uRightCol {
+  padding-left: 8px;
+}
+/* line 171, ../scss/4_1.scss */
+table#uPageCols td#uLeftCol,
+table#uPageCols td#uRightCol {
+  width: 190px;
+}
+/* line 173, ../scss/4_1.scss */
+table#uPageCols td#uLeftCol > aside,
+table#uPageCols td#uRightCol > aside {
+  width: 190px;
+}
+
+/* Header */
+/* line 180, ../scss/4_1.scss */
+header#uHeader {
+  margin-bottom: 8px;
+}
+/* line 182, ../scss/4_1.scss */
+header#uHeader hgroup {
+  /* Removing Height so header extends to logo */
+  /*height: 40px;*/
+  position: relative;
+}
+/* line 186, ../scss/4_1.scss */
+header#uHeader hgroup div.uAPEXNavBar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px 0;
+  padding: 0;
+}
+/* line 192, ../scss/4_1.scss */
+header#uHeader hgroup div.uAPEXNavBar ul {
+  padding: 0;
+  position: static;
+  height: 20px;
+}
+/* line 196, ../scss/4_1.scss */
+header#uHeader hgroup div.uAPEXNavBar ul li {
+  display: block;
+  float: left;
+  font: normal 11px/20px Arial, sans-serif;
+  margin: 0 8px;
+  color: #555;
+  text-shadow: 0 1px o rgba(255, 255, 255, 0.5);
+}
+/* line 203, ../scss/4_1.scss */
+header#uHeader hgroup div.uAPEXNavBar ul li a {
+  color: #405580;
+}
+/* line 205, ../scss/4_1.scss */
+header#uHeader hgroup div.uAPEXNavBar ul li a:hover {
+  color: #ea0000;
+}
+/* line 209, ../scss/4_1.scss */
+header#uHeader hgroup div.uAPEXNavBar ul li:last-child {
+  margin-right: 0;
+}
+/* line 215, ../scss/4_1.scss */
+header#uHeader hgroup ul {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 8px;
+}
+/* line 221, ../scss/4_1.scss */
+header#uHeader hgroup ul li {
+  display: block;
+  float: left;
+  font: normal 11px/18px Arial, sans-serif;
+  margin: 0 8px;
+  color: #555;
+  text-shadow: 0 1px o rgba(255, 255, 255, 0.5);
+}
+/* line 230, ../scss/4_1.scss */
+header#uHeader hgroup ul li a,
+header#uHeader hgroup ul li span {
+  display: inline-block;
+  font: normal 11px/18px Arial, sans-serif;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+/* line 237, ../scss/4_1.scss */
+header#uHeader hgroup ul li a:hover img.uAdmin,
+header#uHeader hgroup ul li span:hover img.uAdmin {
+  background-position: -24px -32px;
+}
+/* line 238, ../scss/4_1.scss */
+header#uHeader hgroup ul li a:hover img.uMobile,
+header#uHeader hgroup ul li span:hover img.uMobile {
+  background-position: 0 -32px;
+}
+/* line 239, ../scss/4_1.scss */
+header#uHeader hgroup ul li a:hover img.uHelp,
+header#uHeader hgroup ul li span:hover img.uHelp {
+  background-position: -12px -32px;
+}
+/* line 242, ../scss/4_1.scss */
+header#uHeader hgroup ul li img {
+  background-image: url(../images/theme_23.png);
+  background-repeat: none;
+  background-color: transparent;
+  width: 12px;
+  height: 12px;
+  vertical-align: text-top;
+}
+/* line 249, ../scss/4_1.scss */
+header#uHeader hgroup ul li img.uAdmin {
+  background-position: -24px -20px;
+}
+/* line 250, ../scss/4_1.scss */
+header#uHeader hgroup ul li img.uMobile {
+  background-position: 0 -20px;
+}
+/* line 251, ../scss/4_1.scss */
+header#uHeader hgroup ul li img.uHelp {
+  background-position: -12px -20px;
+}
+/* line 252, ../scss/4_1.scss */
+header#uHeader hgroup ul li img.uUser {
+  background-position: -36px -20px;
+}
+/* line 254, ../scss/4_1.scss */
+header#uHeader hgroup ul li a.uLogout {
+  padding: 0 6px;
+  border: 1px solid #CCC;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 258, ../scss/4_1.scss */
+header#uHeader hgroup ul li a.uLogout:hover {
+  color: #333;
+  background-color: #EEE;
+}
+/* line 263, ../scss/4_1.scss */
+header#uHeader hgroup ul li a:hover {
+  color: #EA0000;
+}
+/* line 266, ../scss/4_1.scss */
+header#uHeader hgroup ul li:last-child {
+  margin-right: 0;
+}
+/* line 269, ../scss/4_1.scss */
+header#uHeader hgroup a#uLogo {
+  margin: 10px 0;
+  display: inline-block;
+  font: normal 20px/20px Arial, sans-serif;
+  color: #333;
+  text-decoration: none;
+}
+/* line 275, ../scss/4_1.scss */
+header#uHeader hgroup a#uLogo img {
+  /*              background: url(../images/theme_23.png) 0 0 no-repeat;
+                  width: 136px;
+                  height: 18px;*/
+  vertical-align: bottom;
+}
+
+/* Vertically Center Logo */
+/* line 286, ../scss/4_1.scss */
+.ie7 header#uHeader hgroup a#uLogo img {
+  vertical-align: middle;
+}
+
+/* NO-CSS3 Version */
+/* line 293, ../scss/4_1.scss */
+.no-css3 header#uHeader nav ul,
+.no-css3 nav.uPageTabs ul {
+  border: 1px solid #AAA;
+}
+
+/* line 299, ../scss/4_1.scss */
+header#uHeader nav,
+nav.uPageTabs {
+  clear: both;
+  margin: 0;
+}
+/* line 302, ../scss/4_1.scss */
+header#uHeader nav ul,
+nav.uPageTabs ul {
+  background: url(../images/theme_23.png) 0 -44px repeat-x transparent;
+  height: 32px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 0 1px #aaaaaa inset, 0 2px 0 rgba(255, 255, 255, 0.75) inset, 0 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 0 1px #aaaaaa inset, 0 2px 0 rgba(255, 255, 255, 0.75) inset, 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 1px #aaaaaa inset, 0 2px 0 rgba(255, 255, 255, 0.75) inset, 0 1px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+/* line 308, ../scss/4_1.scss */
+header#uHeader nav ul li,
+nav.uPageTabs ul li {
+  display: block;
+  float: left;
+}
+/* line 311, ../scss/4_1.scss */
+header#uHeader nav ul li:first-child a,
+nav.uPageTabs ul li:first-child a {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  border-left: 1px solid transparent;
+}
+/* line 315, ../scss/4_1.scss */
+header#uHeader nav ul li a,
+nav.uPageTabs ul li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  font: bold 12px/32px Arial, sans-serif;
+  padding: 0 16px;
+  border-right: 1px solid #AAA;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 0 0 0 1px rgba(255, 255, 255, 0.35) inset;
+  -moz-box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 0 0 0 1px rgba(255, 255, 255, 0.35) inset;
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 0 0 0 1px rgba(255, 255, 255, 0.35) inset;
+}
+/* line 325, ../scss/4_1.scss */
+header#uHeader nav ul li a.active, header#uHeader nav ul li a.active:hover,
+nav.uPageTabs ul li a.active,
+nav.uPageTabs ul li a.active:hover {
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 16px 5px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 16px 5px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 16px 5px rgba(0, 0, 0, 0.25) inset;
+  background: url(../images/theme_23.png) 0 -76px repeat-x;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  color: #F0F0F0;
+}
+/* line 331, ../scss/4_1.scss */
+header#uHeader nav ul li a:hover,
+nav.uPageTabs ul li a:hover {
+  -webkit-box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 0 16px 8px 0 rgba(255, 255, 255, 0.65) inset;
+  -moz-box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 0 16px 8px 0 rgba(255, 255, 255, 0.65) inset;
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 0 16px 8px 0 rgba(255, 255, 255, 0.65) inset;
+}
+/* line 334, ../scss/4_1.scss */
+header#uHeader nav ul li a:active,
+nav.uPageTabs ul li a:active {
+  -webkit-box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 0 16px 10px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 0 16px 10px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 1px 0 #aaaaaa inset, 0 -1px 0 #aaaaaa inset, 0 16px 10px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* line 341, ../scss/4_1.scss */
+nav.uPageTabs {
+  margin: 0 0 8px 0;
+}
+
+/* line 346, ../scss/4_1.scss */
+div.uParentTabs ul {
+  float: right;
+  list-style: none;
+  margin: 0 8px;
+}
+/* line 350, ../scss/4_1.scss */
+div.uParentTabs ul li {
+  float: left;
+}
+/* line 352, ../scss/4_1.scss */
+div.uParentTabs ul li a {
+  display: block;
+  font: normal 11px/18px Arial, sans-serif;
+  color: #333;
+  padding: 0 8px;
+  margin: 0 0 0 1px;
+  text-decoration: none;
+  border: 1px solid #CCC;
+  border-bottom: none;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  background-color: #F0F0F0;
+  -webkit-transition: background-color border, 0.2s;
+  -moz-transition: background-color border, 0.2s;
+  transition: background-color border, 0.2s;
+}
+/* line 364, ../scss/4_1.scss */
+div.uParentTabs ul li a:hover {
+  background-color: #FFF;
+  border: 1px solid #AAA;
+  border-bottom: none;
+}
+/* line 370, ../scss/4_1.scss */
+div.uParentTabs ul li.active a {
+  background-color: #FFF;
+  border: 1px solid #AAA;
+  border-bottom: none;
+}
+
+/* line 379, ../scss/4_1.scss */
+div#uBreadcrumbs {
+  font: normal 11px/16px Arial, sans-serif;
+  color: #222;
+  margin: 0;
+  position: relative;
+  height: 32px;
+}
+/* line 385, ../scss/4_1.scss */
+div#uBreadcrumbs ul {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+/* line 391, ../scss/4_1.scss */
+div#uBreadcrumbs ul li {
+  padding: 8px 0;
+  display: inline-block;
+}
+/* line 394, ../scss/4_1.scss */
+div#uBreadcrumbs ul li a {
+  color: #405580;
+  text-decoration: none;
+  -webkit-transition: color, 0.2s;
+  -moz-transition: color, 0.2s;
+  transition: color, 0.2s;
+}
+/* line 398, ../scss/4_1.scss */
+div#uBreadcrumbs ul li a:hover {
+  color: #ea0000;
+}
+/* line 402, ../scss/4_1.scss */
+div#uBreadcrumbs ul li.active span {
+  color: #555;
+}
+/* line 406, ../scss/4_1.scss */
+div#uBreadcrumbs ul li.uSeparator img {
+  background: url(../images/theme_23.png) -48px -20px no-repeat;
+  width: 12px;
+  height: 12px;
+  vertical-align: text-top;
+}
+/* line 415, ../scss/4_1.scss */
+div#uBreadcrumbs div.uBreadcrumbsBG {
+  margin: 0 126px;
+  background: url(../images/theme_23.png) 0 -172px repeat-x;
+  height: 32px;
+}
+/* line 420, ../scss/4_1.scss */
+div#uBreadcrumbs div.uBreadcrumbsBG div.uLeft,
+div#uBreadcrumbs div.uBreadcrumbsBG div.uRight {
+  width: 126px;
+  height: 32px;
+  position: absolute;
+}
+/* line 425, ../scss/4_1.scss */
+div#uBreadcrumbs div.uBreadcrumbsBG div.uLeft {
+  background: url(../images/theme_23.png) 0 -140px repeat-x;
+  left: 0;
+}
+/* line 429, ../scss/4_1.scss */
+div#uBreadcrumbs div.uBreadcrumbsBG div.uRight {
+  background: url(../images/theme_23.png) 0 -108px repeat-x;
+  right: 0;
+}
+
+/* IE 7 Breadcrumbs Fix */
+/* line 438, ../scss/4_1.scss */
+.ie7 div#uBreadcrumbs ul li,
+.ie8 div#uBreadcrumbs ul li {
+  zoom: 1;
+  display: inline;
+  padding: 8px 4px;
+}
+/* line 443, ../scss/4_1.scss */
+.ie7 div#uBreadcrumbs ul li.uSeparator,
+.ie8 div#uBreadcrumbs ul li.uSeparator {
+  padding: 8px 0;
+}
+/* line 446, ../scss/4_1.scss */
+.ie7 div#uBreadcrumbs ul li:first-child,
+.ie8 div#uBreadcrumbs ul li:first-child {
+  padding-left: 0;
+}
+
+/* Footer */
+/* line 452, ../scss/4_1.scss */
+footer#uFooter {
+  clear: both;
+  position: relative;
+  margin: 8px 0 0 0;
+}
+/* line 456, ../scss/4_1.scss */
+footer#uFooter div.uFooterContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px 0;
+  font: normal 11px/16px Arial, sans-serif;
+  color: #555;
+  z-index: 2;
+}
+/* line 464, ../scss/4_1.scss */
+footer#uFooter div.uFooterContent a {
+  color: #333;
+}
+/* line 469, ../scss/4_1.scss */
+footer#uFooter div.uFooterBG {
+  z-index: 1;
+  margin: 0 126px;
+  background: url(../images/theme_23.png) 0 -204px repeat-x;
+  height: 32px;
+}
+/* line 475, ../scss/4_1.scss */
+footer#uFooter div.uFooterBG div.uLeft,
+footer#uFooter div.uFooterBG div.uRight {
+  width: 126px;
+  height: 32px;
+  position: absolute;
+}
+/* line 480, ../scss/4_1.scss */
+footer#uFooter div.uFooterBG div.uLeft {
+  background: url(../images/theme_23.png) 0 -236px repeat-x;
+  left: 0;
+}
+/* line 484, ../scss/4_1.scss */
+footer#uFooter div.uFooterBG div.uRight {
+  background: url(../images/theme_23.png) 0 -268px repeat-x;
+  right: 0;
+}
+
+/* =========================== */
+/* = Page Regions (Sections) = */
+/* =========================== */
+/* line 495, ../scss/4_1.scss */
+.nocss3 section.uRegion h1 {
+  background: url(../images/theme_23.png) 0 -348px repeat-x #dedede;
+}
+
+/* line 499, ../scss/4_1.scss */
+section.uRegion {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #AAA;
+  background-color: #FFF;
+  color: #333;
+  margin: 0 0 8px 0;
+}
+/* line 508, ../scss/4_1.scss */
+section.uRegion p {
+  margin: 0 0 8px 0;
+}
+/* line 511, ../scss/4_1.scss */
+section.uRegion > div.uRegionHeading {
+  display: table;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: #e6e6e6;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #dddddd));
+  background-image: -webkit-linear-gradient(top, #f0f0f0, #dddddd);
+  background-image: -moz-linear-gradient(top, #f0f0f0, #dddddd);
+  background-image: linear-gradient(top, #f0f0f0, #dddddd);
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  border-bottom: 1px solid #AAA;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+}
+/* line 520, ../scss/4_1.scss */
+section.uRegion > div.uRegionHeading h1 {
+  display: table-cell;
+  vertical-align: middle;
+  font: bold 12px/30px Arial, sans-serif;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  padding: 0 0 0 8px;
+  color: #333;
+}
+/* line 527, ../scss/4_1.scss */
+section.uRegion > div.uRegionHeading h1 a.uRegionControl {
+  display: block;
+  float: left;
+}
+/* line 530, ../scss/4_1.scss */
+section.uRegion > div.uRegionHeading h1 a.uRegionControl img {
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin: 6px 6px 6px 0;
+  background: url(../images/theme_23.png) -18px -520px no-repeat;
+  border: none;
+}
+/* line 538, ../scss/4_1.scss */
+section.uRegion > div.uRegionHeading h1 a.uRegionControl.uRegionCollapsed img {
+  background: url(../images/theme_23.png) 0 -520px no-repeat;
+}
+/* line 543, ../scss/4_1.scss */
+section.uRegion > div.uRegionHeading span.uButtonContainer {
+  display: table-cell;
+  text-align: right;
+}
+/* line 549, ../scss/4_1.scss */
+section.uRegion > div.uRegionHeading span.uButtonContainer a.uButton,
+section.uRegion > div.uRegionHeading span.uButtonContainer a.uButtonSmall,
+section.uRegion > div.uRegionHeading span.uButtonContainer a.uButtonLarge,
+section.uRegion > div.uRegionHeading span.uButtonContainer a.uButtonIR {
+  margin: 8px 8px 8px 0;
+}
+/* line 554, ../scss/4_1.scss */
+section.uRegion > div.uRegionContent {
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  padding: 8px;
+}
+/* line 558, ../scss/4_1.scss */
+section.uRegion > div.uRegionContent > ul, section.uRegion > div.uRegionContent > ol {
+  margin: 8px 0 8px 16px;
+}
+
+/* Error Region */
+/* line 565, ../scss/4_1.scss */
+section.uErrorRegion {
+  width: 600px;
+  margin: 30px auto;
+  border: 2px solid #EA4444;
+}
+/* line 569, ../scss/4_1.scss */
+section.uErrorRegion img#error_technical_info_expand_icon {
+  margin-right: 4px;
+}
+/* line 572, ../scss/4_1.scss */
+section.uErrorRegion ul#error_technical_info {
+  margin: 0 0 0 24px;
+}
+
+/* Region with White Heading */
+/* line 579, ../scss/4_1.scss */
+section.uWhiteRegion > div.uRegionHeading {
+  background: none transparent;
+  border-bottom: none;
+}
+/* line 582, ../scss/4_1.scss */
+section.uWhiteRegion > div.uRegionHeading h1 {
+  font: bold 12px/14px Arial, sans-serif;
+  padding: 8px 8px 0 8px;
+}
+/* line 590, ../scss/4_1.scss */
+section.uWhiteRegion > div.uRegionHeading span.uButtonContainer a.uButton,
+section.uWhiteRegion > div.uRegionHeading span.uButtonContainer a.uButtonSmall,
+section.uWhiteRegion > div.uRegionHeading span.uButtonContainer a.uButtonLarge,
+section.uWhiteRegion > div.uRegionHeading span.uButtonContainer a.uButtonIR {
+  margin: 8px 8px 0 0;
+}
+
+/* line 597, ../scss/4_1.scss */
+section.uMessageRegion {
+  width: 600px;
+  margin: 0 auto 8px auto;
+  /*  border: 2px solid #11AA11;*/
+  background-color: #F0F0F0;
+  min-height: 32px;
+}
+/* line 604, ../scss/4_1.scss */
+section.uMessageRegion img.uCheckmarkIcon,
+section.uMessageRegion img.uWarningIcon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  float: left;
+}
+/* line 610, ../scss/4_1.scss */
+section.uMessageRegion img.uCheckmarkIcon {
+  background: url(../images/theme_23.png) 0 -854px no-repeat;
+}
+/* line 613, ../scss/4_1.scss */
+section.uMessageRegion img.uWarningIcon {
+  background: url(../images/theme_23.png) -32px -854px no-repeat;
+}
+/* line 616, ../scss/4_1.scss */
+section.uMessageRegion div.uMessageText {
+  float: left;
+  width: 532px;
+  font: normal 14px/20px Arial, sans-serif;
+  padding: 6px;
+  color: #333;
+}
+/* line 623, ../scss/4_1.scss */
+section.uMessageRegion div.uRegionContent {
+  position: relative;
+}
+/* line 625, ../scss/4_1.scss */
+section.uMessageRegion div.uRegionContent a.uCloseMessage {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  background: url(../images/theme_23.png) -72px -20px no-repeat;
+  display: block;
+}
+/* line 634, ../scss/4_1.scss */
+section.uMessageRegion div.uRegionContent ul.htmldbUlErr {
+  margin: 4px 0 0 15px;
+}
+/* line 636, ../scss/4_1.scss */
+section.uMessageRegion div.uRegionContent ul.htmldbUlErr li {
+  font: normal 11px/18px Arial, sans-serif;
+  color: #555;
+}
+
+/* line 646, ../scss/4_1.scss */
+section.uReportFilter div.uReportFilterRow img.uSearchIcon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  float: left;
+  background: url(../images/theme_23.png) -168px -520px no-repeat;
+}
+/* line 653, ../scss/4_1.scss */
+section.uReportFilter div.uReportFilterRow table.formlayout {
+  margin-left: 8px;
+}
+/* line 655, ../scss/4_1.scss */
+section.uReportFilter div.uReportFilterRow table.formlayout td {
+  padding: 0 4px 0 0;
+  background: none transparent;
+  vertical-align: baseline;
+}
+/* line 659, ../scss/4_1.scss */
+section.uReportFilter div.uReportFilterRow table.formlayout td input.text_field {
+  margin-right: 8px;
+}
+
+/* line 667, ../scss/4_1.scss */
+section.uBracketedRegion {
+  background: none #F0F0F0;
+}
+/* line 669, ../scss/4_1.scss */
+section.uBracketedRegion > div.uRegionHeading {
+  background: none transparent;
+  border-bottom: none;
+}
+/* line 672, ../scss/4_1.scss */
+section.uBracketedRegion > div.uRegionHeading h1 {
+  font: bold 12px/14px Arial, sans-serif;
+  padding: 8px 8px 0 8px;
+}
+/* line 680, ../scss/4_1.scss */
+section.uBracketedRegion > div.uRegionHeading span.uButtonContainer a.uButton,
+section.uBracketedRegion > div.uRegionHeading span.uButtonContainer a.uButtonSmall,
+section.uBracketedRegion > div.uRegionHeading span.uButtonContainer a.uButtonLarge,
+section.uBracketedRegion > div.uRegionHeading span.uButtonContainer a.uButtonIR {
+  margin: 8px 8px 0 0;
+}
+
+/* line 688, ../scss/4_1.scss */
+section.uRegionNoPadding > div.uRegionContent {
+  padding: 0;
+}
+/* line 691, ../scss/4_1.scss */
+section.uRegionNoPadding > div.uRegionContent table.uReportContainer,
+section.uRegionNoPadding > div.uRegionContent table.uReport {
+  border-right: none;
+  border-left: none;
+  width: 100%;
+}
+/* line 696, ../scss/4_1.scss */
+section.uRegionNoPadding > div.uRegionContent table.uReport.uReportFixedHeaders {
+  width: auto;
+}
+/* line 700, ../scss/4_1.scss */
+section.uRegionNoPadding > div.uRegionContent tbody.uReportPagination > tr > td {
+  padding: 0 8px;
+}
+/* line 702, ../scss/4_1.scss */
+section.uRegionNoPadding > div.uRegionContent tbody.uReportPagination > tr > td table td {
+  padding: 4px 0;
+}
+/* line 706, ../scss/4_1.scss */
+section.uRegionNoPadding > div.uRegionContent div.uReportDownloadLinks {
+  padding: 4px 8px;
+}
+
+/* line 714, ../scss/4_1.scss */
+section.uHideShowRegion > div.uRegionHeading h1 {
+  line-height: 30px !important;
+}
+
+/* line 720, ../scss/4_1.scss */
+section.uBorderlessRegion {
+  background: none transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 724, ../scss/4_1.scss */
+section.uBorderlessRegion > div.uRegionHeading {
+  background: none transparent;
+  border-bottom: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 728, ../scss/4_1.scss */
+section.uBorderlessRegion > div.uRegionHeading h1 {
+  font: bold 12px/14px Arial, sans-serif;
+  padding: 8px 8px 0 8px;
+}
+/* line 736, ../scss/4_1.scss */
+section.uBorderlessRegion > div.uRegionHeading span.uButtonContainer a.uButton,
+section.uBorderlessRegion > div.uRegionHeading span.uButtonContainer a.uButtonSmall,
+section.uBorderlessRegion > div.uRegionHeading span.uButtonContainer a.uButtonLarge,
+section.uBorderlessRegion > div.uRegionHeading span.uButtonContainer a.uButtonIR {
+  margin: 8px 8px 0 0;
+}
+
+/* Region with No Heading */
+/* line 745, ../scss/4_1.scss */
+section.uNoHeading div.uRegionHeading {
+  background: none transparent;
+  border-bottom: none;
+}
+/* line 750, ../scss/4_1.scss */
+section.uNoHeading div.uRegionContent {
+  padding: 8px;
+}
+
+/* Button Region with Title */
+/* line 756, ../scss/4_1.scss */
+section.uButtonRegion {
+  background-color: #e6e6e6;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #dddddd));
+  background-image: -webkit-linear-gradient(top, #f0f0f0, #dddddd);
+  background-image: -moz-linear-gradient(top, #f0f0f0, #dddddd);
+  background-image: linear-gradient(top, #f0f0f0, #dddddd);
+  border: 1px solid #AAA;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin: 0 0 8px 0;
+}
+/* line 762, ../scss/4_1.scss */
+section.uButtonRegion div.uButtonRegionContentContainer {
+  display: table;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+/* line 767, ../scss/4_1.scss */
+section.uButtonRegion div.uButtonRegionContentContainer h1 {
+  display: table-cell;
+  vertical-align: middle;
+  font: bold 12px/30px Arial, sans-serif;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  padding: 0 0 0 8px;
+  color: #333;
+}
+/* line 775, ../scss/4_1.scss */
+section.uButtonRegion div.uButtonRegionContentContainer div.uButtonRegionContent {
+  display: table-cell;
+  vertical-align: middle;
+  font: normal 12px/30px Arial, sans-serif;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  padding: 0 0 0 8px;
+  color: #333;
+}
+/* line 782, ../scss/4_1.scss */
+section.uButtonRegion div.uButtonRegionContentContainer div.uButtonRegionContent table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 787, ../scss/4_1.scss */
+section.uButtonRegion div.uButtonRegionContentContainer span.uButtonContainer {
+  display: table-cell;
+  text-align: right;
+}
+/* line 793, ../scss/4_1.scss */
+section.uButtonRegion div.uButtonRegionContentContainer span.uButtonContainer a.uButton,
+section.uButtonRegion div.uButtonRegionContentContainer span.uButtonContainer a.uButtonSmall,
+section.uButtonRegion div.uButtonRegionContentContainer span.uButtonContainer a.uButtonLarge,
+section.uButtonRegion div.uButtonRegionContentContainer span.uButtonContainer a.uButtonIR {
+  margin: 8px 8px 8px 0;
+}
+
+/* IE7 Styles for uButtonRegion */
+/* line 803, ../scss/4_1.scss */
+.ie7 section.uButtonRegion div.uButtonRegionContentContainer h1,
+.ie7 section.uButtonRegion div.uButtonRegionContentContainer div.uButtonRegionContent {
+  float: left;
+  border-bottom: none;
+  line-height: 38px;
+}
+/* line 808, ../scss/4_1.scss */
+.ie7 section.uButtonRegion span.uButtonContainer {
+  float: right;
+}
+
+/* Add Gradient Image for IE */
+/* line 819, ../scss/4_1.scss */
+.ie6 section.uButtonRegion.uWhiteRegion div.uRegionHeading, .ie6 section.uButtonRegion.uBorderlessRegion div.uRegionHeading, .ie6 section.uButtonRegion.uNoHeading div.uRegionHeading,
+.ie6 section.uRegion.uWhiteRegion div.uRegionHeading,
+.ie6 section.uRegion.uBorderlessRegion div.uRegionHeading,
+.ie6 section.uRegion.uNoHeading div.uRegionHeading, .ie7 section.uButtonRegion.uWhiteRegion div.uRegionHeading, .ie7 section.uButtonRegion.uBorderlessRegion div.uRegionHeading, .ie7 section.uButtonRegion.uNoHeading div.uRegionHeading,
+.ie7 section.uRegion.uWhiteRegion div.uRegionHeading,
+.ie7 section.uRegion.uBorderlessRegion div.uRegionHeading,
+.ie7 section.uRegion.uNoHeading div.uRegionHeading, .ie8 section.uButtonRegion.uWhiteRegion div.uRegionHeading, .ie8 section.uButtonRegion.uBorderlessRegion div.uRegionHeading, .ie8 section.uButtonRegion.uNoHeading div.uRegionHeading,
+.ie8 section.uRegion.uWhiteRegion div.uRegionHeading,
+.ie8 section.uRegion.uBorderlessRegion div.uRegionHeading,
+.ie8 section.uRegion.uNoHeading div.uRegionHeading, .ie9 section.uButtonRegion.uWhiteRegion div.uRegionHeading, .ie9 section.uButtonRegion.uBorderlessRegion div.uRegionHeading, .ie9 section.uButtonRegion.uNoHeading div.uRegionHeading,
+.ie9 section.uRegion.uWhiteRegion div.uRegionHeading,
+.ie9 section.uRegion.uBorderlessRegion div.uRegionHeading,
+.ie9 section.uRegion.uNoHeading div.uRegionHeading {
+  background: none transparent;
+}
+/* line 822, ../scss/4_1.scss */
+.ie6 section.uButtonRegion.uNoHeading div.uRegionHeading,
+.ie6 section.uRegion.uNoHeading div.uRegionHeading, .ie7 section.uButtonRegion.uNoHeading div.uRegionHeading,
+.ie7 section.uRegion.uNoHeading div.uRegionHeading, .ie8 section.uButtonRegion.uNoHeading div.uRegionHeading,
+.ie8 section.uRegion.uNoHeading div.uRegionHeading, .ie9 section.uButtonRegion.uNoHeading div.uRegionHeading,
+.ie9 section.uRegion.uNoHeading div.uRegionHeading {
+  height: 0;
+}
+/* line 825, ../scss/4_1.scss */
+.ie6 section.uButtonRegion > div.uRegionHeading,
+.ie6 section.uRegion > div.uRegionHeading, .ie7 section.uButtonRegion > div.uRegionHeading,
+.ie7 section.uRegion > div.uRegionHeading, .ie8 section.uButtonRegion > div.uRegionHeading,
+.ie8 section.uRegion > div.uRegionHeading, .ie9 section.uButtonRegion > div.uRegionHeading,
+.ie9 section.uRegion > div.uRegionHeading {
+  background: url(../images/theme_23.png) 0 -968px repeat-x #dddddd;
+}
+
+/* IE 9 Border Radius hack, 3px looks too small*/
+/* line 833, ../scss/4_1.scss */
+.ie9 section.uRegion,
+.ie9 section.uButtonRegion {
+  border-radius: 3.2px;
+}
+
+/* ===================================== */
+/* = target regions place in side bars = */
+/* ===================================== */
+/* line 843, ../scss/4_1.scss */
+aside section.uRegion div.uRegionHeading h1 {
+  font: bold 11px/24px Arial, sans-serif;
+}
+/* line 846, ../scss/4_1.scss */
+aside section.uRegion div.uRegionContent {
+  padding: 4px 8px;
+}
+/* line 848, ../scss/4_1.scss */
+aside section.uRegion div.uRegionContent ul.uVerticalSidebarList {
+  margin: -4px -8px !important;
+}
+/* line 851, ../scss/4_1.scss */
+aside section.uRegion div.uRegionContent ul.uVerticalSidebarList li a {
+  padding: 6px 8px;
+}
+/* line 854, ../scss/4_1.scss */
+aside section.uRegion div.uRegionContent ul.uVerticalSidebarList li:last-child a {
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+/* line 859, ../scss/4_1.scss */
+aside section.uRegion div.uRegionContent div.uVerticalProgressList {
+  margin: -3px 0 -3px -7px;
+}
+/* line 867, ../scss/4_1.scss */
+aside section.uWhiteRegion div.uRegionHeading,
+aside section.uBorderlessRegion div.uRegionHeading,
+aside section.uBracketedRegion div.uRegionHeading {
+  background: none transparent;
+}
+/* line 869, ../scss/4_1.scss */
+aside section.uWhiteRegion div.uRegionHeading h1,
+aside section.uBorderlessRegion div.uRegionHeading h1,
+aside section.uBracketedRegion div.uRegionHeading h1 {
+  border-bottom: none;
+  font: bold 11px/12px Arial, sans-serif;
+  padding-top: 6px;
+}
+
+/* line 880, ../scss/4_1.scss */
+.ie7 aside section.uRegion div.uRegionHeading h1 {
+  line-height: 24px;
+}
+/* line 887, ../scss/4_1.scss */
+.ie7 aside section.uWhiteRegion div.uRegionHeading h1,
+.ie7 aside section.uBorderlessRegion div.uRegionHeading h1,
+.ie7 aside section.uBracketedRegion div.uRegionHeading h1 {
+  line-height: 12px;
+  padding-top: 6px;
+}
+
+/* =========== */
+/* = Buttons = */
+/* =========== */
+/* line 901, ../scss/4_1.scss */
+a.uButton,
+a.uButtonLarge,
+a.uButtonSmall,
+a.uButtonIR {
+  text-align: center;
+}
+/* line 903, ../scss/4_1.scss */
+a.uButton span,
+a.uButtonLarge span,
+a.uButtonSmall span,
+a.uButtonIR span {
+  white-space: nowrap;
+}
+
+/* line 908, ../scss/4_1.scss */
+a.uButton {
+  display: inline-block;
+  font: bold 12px/22px Arial, sans-serif;
+  text-decoration: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #888;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  background: #d4d4d4;
+}
+/* line 916, ../scss/4_1.scss */
+a.uButton span {
+  display: block;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  padding: 0 8px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #d4d4d4;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #bababa));
+  background-image: -webkit-linear-gradient(top, #efefef, #bababa);
+  background-image: -moz-linear-gradient(top, #efefef, #bababa);
+  background-image: linear-gradient(top, #efefef, #bababa);
+  -webkit-box-shadow: 0 1px 0 white inset;
+  -moz-box-shadow: 0 1px 0 white inset;
+  box-shadow: 0 1px 0 white inset;
+}
+/* line 925, ../scss/4_1.scss */
+a.uButton span:hover {
+  background-color: #e7e7e7;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #d6d6d6));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #d6d6d6);
+  background-image: -moz-linear-gradient(top, #f8f8f8, #d6d6d6);
+  background-image: linear-gradient(top, #f8f8f8, #d6d6d6);
+}
+/* line 928, ../scss/4_1.scss */
+a.uButton span:active {
+  -webkit-box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+}
+/* line 932, ../scss/4_1.scss */
+a.uButton.uHotButton {
+  border: 1px solid #900;
+  background: #d10c0c;
+}
+/* line 936, ../scss/4_1.scss */
+a.uButton.uHotButton span {
+  background-color: #d10c0c;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f21818', endColorstr='#b00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f21818', endColorstr='#b00101')";
+  background-color: #d10c0c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f21818), color-stop(100%, #b00101));
+  background-image: -webkit-linear-gradient(top, #f21818, #b00101);
+  background-image: -moz-linear-gradient(top, #f21818, #b00101);
+  background-image: linear-gradient(top, #f21818, #b00101);
+  color: #FFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+/* line 941, ../scss/4_1.scss */
+a.uButton.uHotButton span:hover {
+  background-color: #df1212;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#ff2424', endColorstr='#c00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2424', endColorstr='#c00101')";
+  background-color: #df1212;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff2424), color-stop(100%, #c00101));
+  background-image: -webkit-linear-gradient(top, #ff2424, #c00101);
+  background-image: -moz-linear-gradient(top, #ff2424, #c00101);
+  background-image: linear-gradient(top, #ff2424, #c00101);
+}
+/* line 944, ../scss/4_1.scss */
+a.uButton.uHotButton span:active {
+  -webkit-box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* line 951, ../scss/4_1.scss */
+a.uButtonSmall {
+  display: inline-block;
+  font: bold 11px/18px Arial, sans-serif;
+  text-decoration: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #888;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  background: #d4d4d4;
+}
+/* line 959, ../scss/4_1.scss */
+a.uButtonSmall span {
+  display: block;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  padding: 0 8px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  background-color: #d4d4d4;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #bababa));
+  background-image: -webkit-linear-gradient(top, #efefef, #bababa);
+  background-image: -moz-linear-gradient(top, #efefef, #bababa);
+  background-image: linear-gradient(top, #efefef, #bababa);
+  -webkit-box-shadow: 0 1px 0 white inset;
+  -moz-box-shadow: 0 1px 0 white inset;
+  box-shadow: 0 1px 0 white inset;
+}
+/* line 968, ../scss/4_1.scss */
+a.uButtonSmall span:hover {
+  background-color: #e7e7e7;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #d6d6d6));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #d6d6d6);
+  background-image: -moz-linear-gradient(top, #f8f8f8, #d6d6d6);
+  background-image: linear-gradient(top, #f8f8f8, #d6d6d6);
+}
+/* line 971, ../scss/4_1.scss */
+a.uButtonSmall span:active {
+  -webkit-box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+}
+/* line 975, ../scss/4_1.scss */
+a.uButtonSmall.uHotButton {
+  border: 1px solid #900;
+  background: #d10c0c;
+}
+/* line 979, ../scss/4_1.scss */
+a.uButtonSmall.uHotButton span {
+  background-color: #d10c0c;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f21818', endColorstr='#b00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f21818', endColorstr='#b00101')";
+  background-color: #d10c0c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f21818), color-stop(100%, #b00101));
+  background-image: -webkit-linear-gradient(top, #f21818, #b00101);
+  background-image: -moz-linear-gradient(top, #f21818, #b00101);
+  background-image: linear-gradient(top, #f21818, #b00101);
+  color: #FFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+/* line 984, ../scss/4_1.scss */
+a.uButtonSmall.uHotButton span:hover {
+  background-color: #df1212;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#ff2424', endColorstr='#c00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2424', endColorstr='#c00101')";
+  background-color: #df1212;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff2424), color-stop(100%, #c00101));
+  background-image: -webkit-linear-gradient(top, #ff2424, #c00101);
+  background-image: -moz-linear-gradient(top, #ff2424, #c00101);
+  background-image: linear-gradient(top, #ff2424, #c00101);
+}
+/* line 987, ../scss/4_1.scss */
+a.uButtonSmall.uHotButton span:active {
+  -webkit-box-shadow: 0 9px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0 9px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 9px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* line 994, ../scss/4_1.scss */
+a.uButtonLarge {
+  display: inline-block;
+  font: bold 14px/30px Arial, sans-serif;
+  text-decoration: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #888;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  background: #d4d4d4;
+}
+/* line 1002, ../scss/4_1.scss */
+a.uButtonLarge span {
+  display: block;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  padding: 0 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #d4d4d4;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #bababa));
+  background-image: -webkit-linear-gradient(top, #efefef, #bababa);
+  background-image: -moz-linear-gradient(top, #efefef, #bababa);
+  background-image: linear-gradient(top, #efefef, #bababa);
+  -webkit-box-shadow: 0 1px 0 white inset;
+  -moz-box-shadow: 0 1px 0 white inset;
+  box-shadow: 0 1px 0 white inset;
+}
+/* line 1011, ../scss/4_1.scss */
+a.uButtonLarge span:hover {
+  background-color: #e7e7e7;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #d6d6d6));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #d6d6d6);
+  background-image: -moz-linear-gradient(top, #f8f8f8, #d6d6d6);
+  background-image: linear-gradient(top, #f8f8f8, #d6d6d6);
+}
+/* line 1014, ../scss/4_1.scss */
+a.uButtonLarge span:active {
+  -webkit-box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 11px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+}
+/* line 1018, ../scss/4_1.scss */
+a.uButtonLarge.uHotButton {
+  border: 1px solid #900;
+  background: #d10c0c;
+}
+/* line 1022, ../scss/4_1.scss */
+a.uButtonLarge.uHotButton span {
+  background-color: #d10c0c;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f21818', endColorstr='#b00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f21818', endColorstr='#b00101')";
+  background-color: #d10c0c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f21818), color-stop(100%, #b00101));
+  background-image: -webkit-linear-gradient(top, #f21818, #b00101);
+  background-image: -moz-linear-gradient(top, #f21818, #b00101);
+  background-image: linear-gradient(top, #f21818, #b00101);
+  color: #FFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.35) inset;
+}
+/* line 1027, ../scss/4_1.scss */
+a.uButtonLarge.uHotButton span:hover {
+  background-color: #df1212;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#ff2424', endColorstr='#c00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2424', endColorstr='#c00101')";
+  background-color: #df1212;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff2424), color-stop(100%, #c00101));
+  background-image: -webkit-linear-gradient(top, #ff2424, #c00101);
+  background-image: -moz-linear-gradient(top, #ff2424, #c00101);
+  background-image: linear-gradient(top, #ff2424, #c00101);
+}
+/* line 1030, ../scss/4_1.scss */
+a.uButtonLarge.uHotButton span:active {
+  -webkit-box-shadow: 0 15px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  -moz-box-shadow: 0 15px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 15px 5px rgba(0, 0, 0, 0.25) inset, 0 0 1px rgba(0, 0, 0, 0.25) inset;
+}
+
+/* line 1037, ../scss/4_1.scss */
+a.uButtonIR {
+  display: inline-block;
+  font: bold 11px/22px Arial, sans-serif;
+  padding: 0 8px;
+  background-color: #e5e5e5;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #dddddd));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: -moz-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: linear-gradient(top, #eeeeee, #dddddd);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #969696;
+  color: #444;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+}
+/* line 1048, ../scss/4_1.scss */
+a.uButtonIR:hover {
+  background-color: #f6f6f6;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, white), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(top, white, #eeeeee);
+  background-image: -moz-linear-gradient(top, white, #eeeeee);
+  background-image: linear-gradient(top, #ffffff, #eeeeee);
+}
+/* line 1051, ../scss/4_1.scss */
+a.uButtonIR:active {
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  background-color: #d4d4d4;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#dddddd', endColorstr='#cccccc');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd', endColorstr='#cccccc')";
+  background-color: #d4d4d4;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(top, #dddddd, #cccccc);
+  background-image: -moz-linear-gradient(top, #dddddd, #cccccc);
+  background-image: linear-gradient(top, #dddddd, #cccccc);
+}
+
+/* line 1056, ../scss/4_1.scss */
+a.uButtonIR.uHotButton {
+  border: 1px solid #822024;
+  background-color: #d10c0c;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f21818', endColorstr='#b00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f21818', endColorstr='#b00101')";
+  background-color: #d10c0c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f21818), color-stop(100%, #b00101));
+  background-image: -webkit-linear-gradient(top, #f21818, #b00101);
+  background-image: -moz-linear-gradient(top, #f21818, #b00101);
+  background-image: linear-gradient(top, #f21818, #b00101);
+  color: #FFF;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  font-weight: bold;
+}
+/* line 1063, ../scss/4_1.scss */
+a.uButtonIR.uHotButton:hover {
+  background-color: #df1212;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#ff2424', endColorstr='#c00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2424', endColorstr='#c00101')";
+  background-color: #df1212;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff2424), color-stop(100%, #c00101));
+  background-image: -webkit-linear-gradient(top, #ff2424, #c00101);
+  background-image: -moz-linear-gradient(top, #ff2424, #c00101);
+  background-image: linear-gradient(top, #ff2424, #c00101);
+}
+/* line 1066, ../scss/4_1.scss */
+a.uButtonIR.uHotButton:active {
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  background-color: #c10c0c;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#d21818', endColorstr='#b00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#d21818', endColorstr='#b00101')";
+  background-color: #c10c0c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d21818), color-stop(100%, #b00101));
+  background-image: -webkit-linear-gradient(top, #d21818, #b00101);
+  background-image: -moz-linear-gradient(top, #d21818, #b00101);
+  background-image: linear-gradient(top, #d21818, #b00101);
+}
+
+/* line 1077, ../scss/4_1.scss */
+.ie6 a.uButton span,
+.ie6 a.uButtonLarge span,
+.ie6 a.uButtonSmall span, .ie7 a.uButton span,
+.ie7 a.uButtonLarge span,
+.ie7 a.uButtonSmall span, .ie8 a.uButton span,
+.ie8 a.uButtonLarge span,
+.ie8 a.uButtonSmall span, .ie9 a.uButton span,
+.ie9 a.uButtonLarge span,
+.ie9 a.uButtonSmall span {
+  background: url(../images/theme_23.png) 0 -300px repeat-x #b6b6b6;
+}
+/* line 1080, ../scss/4_1.scss */
+.ie6 a.uButton.uHotButton span,
+.ie6 a.uButtonLarge.uHotButton span,
+.ie6 a.uButtonSmall.uHotButton span, .ie7 a.uButton.uHotButton span,
+.ie7 a.uButtonLarge.uHotButton span,
+.ie7 a.uButtonSmall.uHotButton span, .ie8 a.uButton.uHotButton span,
+.ie8 a.uButtonLarge.uHotButton span,
+.ie8 a.uButtonSmall.uHotButton span, .ie9 a.uButton.uHotButton span,
+.ie9 a.uButtonLarge.uHotButton span,
+.ie9 a.uButtonSmall.uHotButton span {
+  background: url(../images/theme_23.png) 0 -350px repeat-x #b20000;
+}
+
+/* line 1089, ../scss/4_1.scss */
+.ie9 a.uButton span,
+.ie9 a.uButtonLarge span,
+.ie9 a.uButtonSmall span {
+  border-radius: 1px;
+}
+/* line 1092, ../scss/4_1.scss */
+.ie9 a.uButton.uHotButton span,
+.ie9 a.uButtonLarge.uHotButton span,
+.ie9 a.uButtonSmall.uHotButton span {
+  background: url(../images/theme_23.png) 0 -351px repeat-x #b20000;
+}
+
+/* Inset Buttons */
+/* line 1104, ../scss/4_1.scss */
+section.uRegion span.uButtonContainer a.uButton,
+section.uRegion span.uButtonContainer a.uButtonLarge,
+section.uRegion span.uButtonContainer a.uButtonSmall,
+section.uRegion span.uButtonContainer a.uButtonIR,
+section.uButtonRegion a.uButton,
+section.uButtonRegion a.uButtonLarge,
+section.uButtonRegion a.uButtonSmall,
+section.uButtonRegion a.uButtonIR {
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.95);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+/* Buttons in White Region have a Shadow */
+/* line 1114, ../scss/4_1.scss */
+section.uWhiteRegion span.uButtonContainer a.uButton,
+section.uWhiteRegion span.uButtonContainer a.uButtonLarge,
+section.uWhiteRegion span.uButtonContainer a.uButtonSmall,
+section.uWhiteRegion span.uButtonContainer a.uButtonIR {
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* ================== */
+/* = List Templates = */
+/* ================== */
+/* line 1123, ../scss/4_1.scss */
+ul.uVerticalList,
+ul.uVerticalSidebarList {
+  margin: 0 !important;
+  list-style: none;
+}
+/* line 1126, ../scss/4_1.scss */
+ul.uVerticalList li,
+ul.uVerticalSidebarList li {
+  display: block;
+  padding: 3px 0 3px 8px;
+  background: url(../images/theme_23.png) 0 -450px no-repeat;
+}
+/* line 1130, ../scss/4_1.scss */
+ul.uVerticalList li a,
+ul.uVerticalSidebarList li a {
+  color: #333;
+  font: normal 12px/14px Arial, sans-serif;
+  text-decoration: none;
+  color: #405580;
+  -webkit-transition: color, 0.2s;
+  -moz-transition: color, 0.2s;
+  transition: color, 0.2s;
+}
+/* line 1136, ../scss/4_1.scss */
+ul.uVerticalList li a:hover,
+ul.uVerticalSidebarList li a:hover {
+  color: #EA0000;
+}
+/* line 1140, ../scss/4_1.scss */
+ul.uVerticalList li.active a,
+ul.uVerticalSidebarList li.active a {
+  font-weight: bold;
+}
+
+/* line 1145, ../scss/4_1.scss */
+ol.uNumberedList {
+  list-style-type: decimal;
+  list-style-position: outside;
+  margin: 0 0 0 16px !important;
+  padding-left: 4px;
+}
+/* line 1150, ../scss/4_1.scss */
+ol.uNumberedList li {
+  display: list-item;
+  padding: 3px 0 3px 0;
+}
+/* line 1153, ../scss/4_1.scss */
+ol.uNumberedList li a {
+  color: #333;
+  font: normal 12px/14px Arial, sans-serif;
+  text-decoration: none;
+  color: #405580;
+  -webkit-transition: background-color color, 0.2s;
+  -moz-transition: background-color color, 0.2s;
+  transition: background-color color, 0.2s;
+}
+/* line 1159, ../scss/4_1.scss */
+ol.uNumberedList li a:hover {
+  color: #EA0000;
+}
+/* line 1163, ../scss/4_1.scss */
+ol.uNumberedList li.active a {
+  font-weight: bold;
+}
+
+/* line 1169, ../scss/4_1.scss */
+ul.uHorizontalLinksList li {
+  display: inline;
+  margin: 0 4px 0 0;
+}
+/* line 1172, ../scss/4_1.scss */
+ul.uHorizontalLinksList li a {
+  font: normal 12px/20px Arial, sans-serif;
+  text-decoration: none;
+  -webkit-transition: color, 0.2s;
+  -moz-transition: color, 0.2s;
+  transition: color, 0.2s;
+}
+/* line 1176, ../scss/4_1.scss */
+ul.uHorizontalLinksList li a:hover {
+  color: #ea0000;
+}
+/* line 1180, ../scss/4_1.scss */
+ul.uHorizontalLinksList li.active a {
+  font-weight: bold;
+}
+
+/* line 1186, ../scss/4_1.scss */
+ul.noBullets li {
+  padding: 3px 0;
+  background: none transparent;
+}
+
+/* line 1192, ../scss/4_1.scss */
+ul.uVerticalSidebarList li {
+  background: none transparent;
+  padding: 0;
+  border-bottom: 1px solid #D6D6D6;
+}
+/* line 1196, ../scss/4_1.scss */
+ul.uVerticalSidebarList li:last-child {
+  border-bottom: none;
+}
+/* line 1199, ../scss/4_1.scss */
+ul.uVerticalSidebarList li a {
+  padding: 6px 0;
+  display: block;
+  font: normal 12px/16px Arial, sans-serif;
+}
+/* line 1203, ../scss/4_1.scss */
+ul.uVerticalSidebarList li a:hover {
+  background: #F8F8F8;
+}
+/* line 1207, ../scss/4_1.scss */
+ul.uVerticalSidebarList li.active a {
+  background: #F0F0F0;
+}
+
+/* Horizontal Tabs + Region Display Selector */
+/* line 1219, ../scss/4_1.scss */
+.no-css3 div.apex-rds-container ul li a,
+.no-css3 div.uHorizontalTabs ul li a, .ie9 div.apex-rds-container ul li a,
+.ie9 div.uHorizontalTabs ul li a {
+  background: url(../images/theme_23.png) 0 -301px repeat-x #dddddd;
+}
+/* line 1224, ../scss/4_1.scss */
+.no-css3 div.apex-rds-container ul li.apex-rds-selected a, .no-css3 div.apex-rds-container ul li.active a, .no-css3 div.apex-rds-container ul li:hover a,
+.no-css3 div.uHorizontalTabs ul li.apex-rds-selected a,
+.no-css3 div.uHorizontalTabs ul li.active a,
+.no-css3 div.uHorizontalTabs ul li:hover a, .ie9 div.apex-rds-container ul li.apex-rds-selected a, .ie9 div.apex-rds-container ul li.active a, .ie9 div.apex-rds-container ul li:hover a,
+.ie9 div.uHorizontalTabs ul li.apex-rds-selected a,
+.ie9 div.uHorizontalTabs ul li.active a,
+.ie9 div.uHorizontalTabs ul li:hover a {
+  background: url(../images/theme_23.png) 0 -401px repeat-x #dddddd;
+}
+
+/* line 1232, ../scss/4_1.scss */
+div.apex-rds-container,
+div.uHorizontalTabs {
+  height: 24px;
+  margin: 0 0 8px 0;
+}
+/* line 1235, ../scss/4_1.scss */
+div.apex-rds-container ul,
+div.uHorizontalTabs ul {
+  list-style: none;
+  padding: 0;
+  height: 24px;
+}
+/* line 1239, ../scss/4_1.scss */
+div.apex-rds-container ul li,
+div.uHorizontalTabs ul li {
+  display: block;
+  float: left;
+  margin: 0;
+}
+/* line 1243, ../scss/4_1.scss */
+div.apex-rds-container ul li a,
+div.uHorizontalTabs ul li a {
+  display: block;
+  float: left;
+  font: normal 11px/14px Arial, sans-serif;
+  padding: 4px 10px;
+  background-color: #dedede;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e6e6e6), color-stop(100%, #d6d6d6));
+  background-image: -webkit-linear-gradient(top, #e6e6e6, #d6d6d6);
+  background-image: -moz-linear-gradient(top, #e6e6e6, #d6d6d6);
+  background-image: linear-gradient(top, #e6e6e6, #d6d6d6);
+  border: 1px solid #969696;
+  border-left: none;
+  color: #444;
+  font-weight: bold;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+}
+/* line 1259, ../scss/4_1.scss */
+div.apex-rds-container ul li.apex-rds-selected a, div.apex-rds-container ul li.active a, div.apex-rds-container ul li:hover a,
+div.uHorizontalTabs ul li.apex-rds-selected a,
+div.uHorizontalTabs ul li.active a,
+div.uHorizontalTabs ul li:hover a {
+  background-color: #f6f6f6;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, white), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(top, white, #eeeeee);
+  background-image: -moz-linear-gradient(top, white, #eeeeee);
+  background-image: linear-gradient(top, #ffffff, #eeeeee);
+  color: #444;
+}
+/* line 1263, ../scss/4_1.scss */
+div.apex-rds-container ul li:first-child a,
+div.uHorizontalTabs ul li:first-child a {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  border-left: 1px solid #969696;
+}
+/* line 1267, ../scss/4_1.scss */
+div.apex-rds-container ul li:last-child a,
+div.uHorizontalTabs ul li:last-child a {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Button List */
+/* line 1276, ../scss/4_1.scss */
+div.uButtonList > a {
+  margin-bottom: 4px;
+}
+
+/* Horizontal Wizard Progress List */
+/* line 1283, ../scss/4_1.scss */
+div.uHorizontalProgressList {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 8px 0;
+}
+/* line 1288, ../scss/4_1.scss */
+div.uHorizontalProgressList ul {
+  margin: 0 0 10px 0;
+  height: 50px;
+  padding: 0;
+  clear: left;
+  float: left;
+  position: relative;
+  left: 50%;
+}
+/* line 1296, ../scss/4_1.scss */
+div.uHorizontalProgressList ul li {
+  float: left;
+  display: block;
+  position: relative;
+  right: 50%;
+  background: url(../images/theme_23.png) 0 -754px no-repeat;
+}
+/* line 1302, ../scss/4_1.scss */
+div.uHorizontalProgressList ul li span {
+  display: block;
+  float: left;
+  padding: 10px 5px 28px 5px;
+  font: normal 12px/12px Arial, sans-serif;
+  color: #555;
+  background-image: url(../images/theme_23.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 80px;
+  max-width: 190px;
+}
+/* line 1318, ../scss/4_1.scss */
+div.uHorizontalProgressList ul li.current span, div.uHorizontalProgressList ul li.first-current span, div.uHorizontalProgressList ul li.last-current span {
+  color: #333;
+  font-weight: bold;
+  background-position: 50% -654px;
+}
+/* line 1325, ../scss/4_1.scss */
+div.uHorizontalProgressList ul li.non-current span, div.uHorizontalProgressList ul li.first-non-current span, div.uHorizontalProgressList ul li.last-non-current span {
+  background-position: 50% -604px;
+}
+/* line 1329, ../scss/4_1.scss */
+div.uHorizontalProgressList ul li.last-non-current, div.uHorizontalProgressList ul li.last-current {
+  background: url(../images/theme_23.png) 50% -804px no-repeat;
+}
+/* line 1333, ../scss/4_1.scss */
+div.uHorizontalProgressList ul li.first-non-current, div.uHorizontalProgressList ul li.first-current {
+  background: url(../images/theme_23.png) 50% -704px no-repeat;
+}
+
+/* Vertical Wizard Progress List */
+/* line 1342, ../scss/4_1.scss */
+div.uVerticalProgressList ul {
+  list-style: none;
+}
+/* line 1344, ../scss/4_1.scss */
+div.uVerticalProgressList ul li {
+  display: block;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 1349, ../scss/4_1.scss */
+div.uVerticalProgressList ul li img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../images/theme_23.png);
+  background-repeat: no-repeat;
+  background-position: -120px -490px;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+/* line 1362, ../scss/4_1.scss */
+div.uVerticalProgressList ul li.first-current img {
+  background-position: 0 -490px;
+}
+/* line 1363, ../scss/4_1.scss */
+div.uVerticalProgressList ul li.current img {
+  background-position: -30px -490px;
+}
+/* line 1364, ../scss/4_1.scss */
+div.uVerticalProgressList ul li.last-current img {
+  background-position: -60px -490px;
+}
+/* line 1365, ../scss/4_1.scss */
+div.uVerticalProgressList ul li.first-non-current img {
+  background-position: -90px -490px;
+}
+/* line 1366, ../scss/4_1.scss */
+div.uVerticalProgressList ul li.non-current img {
+  background-position: -120px -490px;
+}
+/* line 1367, ../scss/4_1.scss */
+div.uVerticalProgressList ul li.last-non-current img {
+  background-position: -150px -490px;
+}
+/* line 1368, ../scss/4_1.scss */
+div.uVerticalProgressList ul li span {
+  display: block;
+  padding: 0 0 0 30px;
+  font: normal 12px/30px Arial, sans-serif;
+  -webkit-transition: color, 0.2s;
+  -moz-transition: color, 0.2s;
+  transition: color, 0.2s;
+  color: #555;
+  white-space: nowrap;
+}
+/* line 1378, ../scss/4_1.scss */
+div.uVerticalProgressList ul li.first-current span, div.uVerticalProgressList ul li.current span, div.uVerticalProgressList ul li.last-current span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* line 1387, ../scss/4_1.scss */
+div.uImagesList ul {
+  list-style: none;
+}
+/* line 1389, ../scss/4_1.scss */
+div.uImagesList ul li {
+  display: block;
+  float: left;
+}
+/* line 1392, ../scss/4_1.scss */
+div.uImagesList ul li a {
+  display: block;
+  float: left;
+  min-width: 80px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid transparent;
+  padding: 8px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: background-color border-color, 0.2s;
+  -moz-transition: background-color border-color, 0.2s;
+  transition: background-color border-color, 0.2s;
+}
+/* line 1402, ../scss/4_1.scss */
+div.uImagesList ul li a span {
+  display: block;
+  font: normal 12px/16px Arial, sans-serif;
+  color: #405580;
+  margin-top: 4px;
+}
+/* line 1408, ../scss/4_1.scss */
+div.uImagesList ul li a:hover {
+  background-color: #F8F8F8;
+  border: 1px solid #AAA;
+}
+/* line 1413, ../scss/4_1.scss */
+div.uImagesList ul li.active a {
+  background-color: #F0F0F0;
+  border: 1px solid #888;
+}
+/* line 1416, ../scss/4_1.scss */
+div.uImagesList ul li.active a span {
+  font-weight: bold;
+}
+/* line 1423, ../scss/4_1.scss */
+div.uImagesList.uVerticalImagesList li {
+  clear: left;
+}
+/* line 1425, ../scss/4_1.scss */
+div.uImagesList.uVerticalImagesList li a {
+  text-align: left;
+  min-width: 160px;
+}
+/* line 1428, ../scss/4_1.scss */
+div.uImagesList.uVerticalImagesList li a img {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 1432, ../scss/4_1.scss */
+div.uImagesList.uVerticalImagesList li a span {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 4px;
+}
+
+/* ====================================== */
+/* = Form Layout Table (apex-generated) = */
+/* ====================================== */
+/* Override FCK Editor's Padding */
+/* line 1446, ../scss/4_1.scss */
+span.cke_skin_kama {
+  padding: 0 !important;
+}
+
+/* line 1449, ../scss/4_1.scss */
+div.formNoHighlight tr:hover td {
+  background: none !important;
+}
+
+/* Style APEX Generated Form Table when in a Region Template */
+/* line 1454, ../scss/4_1.scss */
+table.formlayout {
+  border-spacing: 0 0;
+  border-collapse: collapse;
+}
+/* line 1457, ../scss/4_1.scss */
+table.formlayout td:empty {
+  padding: 0;
+}
+/* line 1465, ../scss/4_1.scss */
+table.formlayout td input.text_field,
+table.formlayout td select.selectlist,
+table.formlayout td input.password,
+table.formlayout td input[type=text],
+table.formlayout td textarea {
+  margin: 0;
+  border: 1px solid #888888;
+  padding: 3px;
+  font: normal 12px/16px Arial, sans-serif;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) inset;
+  background-color: #F8F8F8;
+  color: #333;
+}
+/* line 1474, ../scss/4_1.scss */
+table.formlayout td input.text_field:focus,
+table.formlayout td select.selectlist:focus,
+table.formlayout td input.password:focus,
+table.formlayout td input[type=text]:focus,
+table.formlayout td textarea:focus {
+  background-color: #FFF;
+  border: 1px solid #666;
+}
+/* line 1479, ../scss/4_1.scss */
+table.formlayout td input[disabled] {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+/* line 1482, ../scss/4_1.scss */
+table.formlayout td input[type=hidden] {
+  display: none;
+}
+/* line 1485, ../scss/4_1.scss */
+table.formlayout td textarea.codeTextarea {
+  font: normal 11px/14px monospace;
+}
+/* line 1488, ../scss/4_1.scss */
+table.formlayout td select.selectlist {
+  /* Add extra margin to get cell height same as single text field*/
+  margin: 6px 0 7px 0;
+}
+/* line 1493, ../scss/4_1.scss */
+table.formlayout td span.display_only,
+table.formlayout td span.display_only a {
+  font: normal 12px/16px Arial, sans-serif;
+  color: #333;
+}
+/* line 1498, ../scss/4_1.scss */
+table.formlayout td span.display_bold,
+table.formlayout td span.display_bold a {
+  font: bold 12px/16px Arial, sans-serif;
+  color: #333;
+}
+/* line 1502, ../scss/4_1.scss */
+table.formlayout td fieldset label {
+  display: inline;
+}
+/* line 1505, ../scss/4_1.scss */
+table.formlayout td label {
+  display: inline-block;
+  padding: 3px 8px 3px 0;
+  font: normal 12px/16px Arial, sans-serif;
+  color: #555;
+}
+/* line 1510, ../scss/4_1.scss */
+table.formlayout td label span {
+  display: none;
+}
+/* line 1513, ../scss/4_1.scss */
+table.formlayout td label a {
+  font: normal 12px/16px Arial, sans-serif;
+  color: #555;
+  text-decoration: none;
+}
+/* line 1518, ../scss/4_1.scss */
+table.formlayout td label a.uHelpLink {
+  color: #555;
+}
+/* line 1520, ../scss/4_1.scss */
+table.formlayout td label a.uHelpLink:hover {
+  text-decoration: underline;
+}
+/* line 1524, ../scss/4_1.scss */
+table.formlayout td label.uRequired {
+  font-weight: bold;
+}
+/* line 1527, ../scss/4_1.scss */
+table.formlayout td label.uRequired a.uHelpLink {
+  font-weight: bold;
+}
+/* line 1530, ../scss/4_1.scss */
+table.formlayout td label.uRequired img.uAsterisk {
+  width: 7px;
+  height: 11px;
+  background: url(../images/theme_23.png) -60px -20px no-repeat;
+  vertical-align: top;
+}
+/* line 1537, ../scss/4_1.scss */
+table.formlayout td span.uLabelError {
+  display: block;
+  font: normal 11px/12px Arial, sans-serif;
+  color: #EA0000;
+  margin-right: 8px;
+}
+/* line 1543, ../scss/4_1.scss */
+table.formlayout td span.uNoLabel {
+  display: none;
+}
+/* line 1547, ../scss/4_1.scss */
+table.formlayout > tbody > tr {
+  /*      &:hover > td {
+              background-color: #F8F8F8;
+          }*/
+}
+/* line 1548, ../scss/4_1.scss */
+table.formlayout > tbody > tr > td {
+  /*@include border-radius(4px);*/
+  background: none transparent;
+}
+/* line 1552, ../scss/4_1.scss */
+table.formlayout > tbody > tr > td:only-child {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 1555, ../scss/4_1.scss */
+table.formlayout > tbody > tr > td:first-child {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+/* line 1558, ../scss/4_1.scss */
+table.formlayout > tbody > tr > td:last-child {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+/* line 1564, ../scss/4_1.scss */
+table.formlayout > tbody > tr.rowHighlight > td {
+  background-color: #F0F0F0;
+}
+/* line 1569, ../scss/4_1.scss */
+table.formlayout table.lov a {
+  margin: 0;
+}
+/* line 1573, ../scss/4_1.scss */
+table.formlayout td.lov input.popup_lov {
+  border: 1px solid #888888;
+  padding: 4px;
+  font: normal 14px/16px Arial, sans-serif;
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) inset;
+  background-color: #F8F8F8;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+  opacity: 0.75;
+  color: #333;
+}
+/* line 1583, ../scss/4_1.scss */
+table.formlayout td img.uPopupLOVIcon {
+  display: block;
+  width: 30px;
+  height: 26px;
+  background: url(../images/theme_23.png) -110px -552px no-repeat;
+  margin: 0;
+  border: 0;
+}
+/* line 1592, ../scss/4_1.scss */
+table.formlayout table.shuttle td {
+  vertical-align: top;
+}
+/* line 1596, ../scss/4_1.scss */
+table.formlayout > tbody > tr > td {
+  padding: 4px 8px;
+}
+
+/* Popup LOV key in tabular forms */
+/* line 1604, ../scss/4_1.scss */
+table span.lov img.uPopupLOVIcon {
+  width: 20px;
+  height: 18px;
+  background: url(../images/theme_23.png) -115px -556px no-repeat;
+  margin: 0;
+  border: 1px solid #AAA;
+}
+
+/* ================= */
+/* = Auto Complete = */
+/* ================= */
+/* line 1618, ../scss/4_1.scss */
+div.ac_results {
+  border: 1px solid #AAA;
+  border-top: none;
+  padding: 8px 0;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+/* line 1624, ../scss/4_1.scss */
+div.ac_results ul li {
+  padding: 0 8px;
+  font: normal 12px/20px Arial, sans-serif;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 1631, ../scss/4_1.scss */
+div.ac_results ul li.ac_even {
+  background-color: #FFF;
+}
+/* line 1634, ../scss/4_1.scss */
+div.ac_results ul li.ac_odd {
+  background-color: #F8F8F8;
+}
+/* line 1637, ../scss/4_1.scss */
+div.ac_results ul li.ac_over {
+  background-color: #EA0000;
+  color: #FFF;
+}
+/* line 1641, ../scss/4_1.scss */
+div.ac_results ul li:active {
+  background-color: #D8D8D8;
+}
+/* line 1644, ../scss/4_1.scss */
+div.ac_results ul li strong {
+  font-weight: bold;
+}
+
+/* ===================== */
+/* =  Report Templates = */
+/* ===================== */
+/* Value Attribute Pairs Tables */
+/* line 1655, ../scss/4_1.scss */
+ul.uValuePairs {
+  list-style: none;
+}
+/* line 1657, ../scss/4_1.scss */
+ul.uValuePairs li {
+  display: block;
+  position: relative;
+  border-top: 1px dotted #DDD;
+}
+/* line 1661, ../scss/4_1.scss */
+ul.uValuePairs li:first-child {
+  border-top: none;
+}
+/* line 1664, ../scss/4_1.scss */
+ul.uValuePairs li span {
+  display: block;
+  font: normal 12px/16px Arial, sans-serif;
+  padding: 4px 0;
+}
+/* line 1668, ../scss/4_1.scss */
+ul.uValuePairs li span.uValueHeading {
+  /*float: left;*/
+}
+/* line 1671, ../scss/4_1.scss */
+ul.uValuePairs li span.uValue {
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 1681, ../scss/4_1.scss */
+table.uReport {
+  empty-cells: show;
+  border-collapse: collapse;
+  border-spacing: 0 0;
+}
+/* line 1685, ../scss/4_1.scss */
+table.uReport thead > tr > th {
+  vertical-align: bottom;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #DDD;
+  padding: 8px 8px 8px 0;
+  font: bold 11px/16px Arial, sans-serif;
+  color: #555;
+}
+/* line 1693, ../scss/4_1.scss */
+table.uReport thead > tr > th a {
+  color: #555;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+/* line 1698, ../scss/4_1.scss */
+table.uReport > tbody > tr > td {
+  border: none;
+  border-bottom: 1px solid #EEE;
+  padding: 8px 8px 8px 0;
+  font: normal 12px/16px Arial, sans-serif;
+  color: #333;
+}
+/* line 1705, ../scss/4_1.scss */
+table.uReport > tbody > tr:nth-child(2n) > td {
+  background-color: #F8F8F8;
+}
+/* line 1708, ../scss/4_1.scss */
+table.uReport > tbody > tr:hover > td {
+  background-color: #EFEFEF;
+}
+
+/* line 1712, ../scss/4_1.scss */
+table.uReportStandard {
+  border: 1px solid #AAA;
+}
+/* line 1714, ../scss/4_1.scss */
+table.uReportStandard thead > tr > th {
+  border-bottom: 1px solid #AAA;
+  padding: 8px;
+  background-color: #f3f3f3;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #eeeeee);
+  background-image: -moz-linear-gradient(top, #f8f8f8, #eeeeee);
+  background-image: linear-gradient(top, #f8f8f8, #eeeeee);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+/* line 1720, ../scss/4_1.scss */
+table.uReportStandard > tbody > tr > td {
+  padding: 4px 8px;
+  border-top: 1px solid #DDD;
+  border-bottom: none;
+  line-height: 20px;
+}
+
+/* line 1727, ../scss/4_1.scss */
+table.uReportAlternative {
+  border: 1px solid #DDD;
+}
+/* line 1729, ../scss/4_1.scss */
+table.uReportAlternative thead > tr > th {
+  border-bottom: 2px solid #DDD;
+  padding: 8px;
+  background-color: #f6f6f6;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, white));
+  background-image: -webkit-linear-gradient(top, #eeeeee, white);
+  background-image: -moz-linear-gradient(top, #eeeeee, white);
+  background-image: linear-gradient(top, #eeeeee, #ffffff);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+/* line 1735, ../scss/4_1.scss */
+table.uReportAlternative > tbody > tr > td {
+  padding: 4px 8px;
+  border-bottom: 1px solid #DDD;
+}
+/* line 1739, ../scss/4_1.scss */
+table.uReportAlternative > tbody > tr:last-child > td {
+  border-bottom: none;
+}
+
+/* line 1743, ../scss/4_1.scss */
+table.uReportFixedHeaders {
+  border: none;
+  border-bottom: 1px solid #AAA;
+}
+/* line 1746, ../scss/4_1.scss */
+table.uReportFixedHeaders thead > tr > th {
+  border-bottom: 1px solid #AAA;
+  padding: 8px;
+  background: none #F0F0F0;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+/* line 1752, ../scss/4_1.scss */
+table.uReportFixedHeaders > thead {
+  display: block;
+}
+/* line 1754, ../scss/4_1.scss */
+table.uReportFixedHeaders > thead th {
+  border-bottom: 1px solid #AAA;
+}
+/* line 1758, ../scss/4_1.scss */
+table.uReportFixedHeaders > tbody {
+  display: block;
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+}
+/* line 1765, ../scss/4_1.scss */
+table.uReportFixedHeaders > tbody > tr {
+  display: block;
+  height: 28px;
+}
+/* line 1769, ../scss/4_1.scss */
+table.uReportFixedHeaders > tbody > tr > td {
+  padding: 4px 8px;
+  border-top: 1px solid #DDD;
+  border-bottom: none;
+  line-height: 20px;
+}
+
+/* line 1776, ../scss/4_1.scss */
+table.uReportHorizontal {
+  border: none;
+}
+/* line 1778, ../scss/4_1.scss */
+table.uReportHorizontal thead > tr > th {
+  border-bottom: 2px solid #CCC;
+  padding: 4px 8px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+/* line 1783, ../scss/4_1.scss */
+table.uReportHorizontal > tbody > tr > td {
+  padding: 4px 8px;
+  border-left: 1px solid #DDD;
+  border-bottom: 1px solid #EEE;
+}
+/* line 1788, ../scss/4_1.scss */
+table.uReportHorizontal > tbody > tr > td:last-child {
+  border-right: 1px solid #CCC;
+}
+/* line 1791, ../scss/4_1.scss */
+table.uReportHorizontal > tbody > tr > td:first-child {
+  border-left: 1px solid #CCC;
+}
+/* line 1794, ../scss/4_1.scss */
+table.uReportHorizontal > tbody > tr:last-child > td {
+  border-bottom: 1px solid #CCC;
+}
+
+/* line 1798, ../scss/4_1.scss */
+table.uReportBorderless {
+  border: none;
+}
+/* line 1800, ../scss/4_1.scss */
+table.uReportBorderless thead > tr > th {
+  border-bottom: 2px solid #DDD;
+  padding: 8px;
+}
+/* line 1804, ../scss/4_1.scss */
+table.uReportBorderless > tbody > tr > td {
+  padding: 4px 8px;
+  border-bottom: none;
+}
+
+/* Report Download Links */
+/* line 1811, ../scss/4_1.scss */
+div.uReportDownloadLinks {
+  font: normal 11px/20px Arial, sans-serif;
+  color: #AAA;
+}
+
+/* Report Pagination */
+/* line 1817, ../scss/4_1.scss */
+table td.pagination a.pagination {
+  display: block;
+  float: left;
+  font: normal 11px/20px Arial, sans-serif;
+  color: #888;
+}
+
+/* line 1823, ../scss/4_1.scss */
+table table td.pagination a.pagination img {
+  vertical-align: bottom;
+  margin: 0 6px;
+}
+
+/* line 1827, ../scss/4_1.scss */
+a.uPaginationPrev, a.uPaginationNext {
+  display: block;
+  font: normal 11px/20px Arial, sans-serif;
+  text-decoration: none !important;
+  -webkit-transition: color, 0.1s;
+  -moz-transition: color, 0.1s;
+  transition: color, 0.1s;
+}
+
+/* line 1833, ../scss/4_1.scss */
+a.uPaginationPrev:hover, a.uPaginationNext:hover {
+  color: #ea0000;
+}
+
+/* line 1836, ../scss/4_1.scss */
+a.uPaginationNext {
+  font-weight: bold;
+  margin-left: 8px;
+}
+/* line 1839, ../scss/4_1.scss */
+a.uPaginationNext img {
+  width: 9px;
+  height: 12px;
+  background: url(../images/theme_23.png) -51px -20px no-repeat;
+  vertical-align: text-top;
+}
+
+/* line 1846, ../scss/4_1.scss */
+a.uPaginationPrev {
+  margin-right: 8px;
+}
+/* line 1848, ../scss/4_1.scss */
+a.uPaginationPrev img {
+  width: 9px;
+  height: 12px;
+  background: url(../images/theme_23.png) -48px -32px no-repeat;
+  vertical-align: text-top;
+}
+
+/* line 1855, ../scss/4_1.scss */
+table td.pagination span.fielddata {
+  font: normal 11px/20px Arial, sans-serif;
+  color: #666;
+}
+
+/* Single Row Filter View */
+/* line 1865, ../scss/4_1.scss */
+td.apex_finderbar_left_top,
+td.apex_finderbar_left_top img,
+td.apex_finderbar_left_bottom,
+td.apex_finderbar_left_bottom img {
+  background: none !important;
+}
+
+/* line 1868, ../scss/4_1.scss */
+td.apex_finderbar_middle {
+  border-left: 1px solid #CCC;
+}
+
+/* ==================== */
+/* = Actions Sub Menu = */
+/* ==================== */
+/* line 1877, ../scss/4_1.scss */
+.dhtmlSubMenu {
+  margin: 2px 0 0 0;
+  font: normal 12px/20px Arial, sans-serif;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: none #FFF;
+  padding: 3px 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  border: 1px solid #aaaaaa;
+}
+/* line 1885, ../scss/4_1.scss */
+.dhtmlSubMenu li.dhtmlMenuSep {
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  line-height: 1px;
+  font-size: 1px;
+  background: #FFF;
+}
+/* line 1886, ../scss/4_1.scss */
+.dhtmlSubMenu li.dhtmlMenuSep img {
+  display: none;
+}
+/* line 1897, ../scss/4_1.scss */
+.dhtmlSubMenu li.dhtmlSubMenuSelected a {
+  background-color: #F0F0F0;
+  font-weight: bold !important;
+  color: #333;
+}
+/* line 1902, ../scss/4_1.scss */
+.dhtmlSubMenu li a {
+  color: #333 !important;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: #FFF;
+}
+/* line 1908, ../scss/4_1.scss */
+.dhtmlSubMenu li a span {
+  color: #333;
+}
+/* line 1912, ../scss/4_1.scss */
+.dhtmlSubMenu li a.dhtmlSubMenuN, .dhtmlSubMenu li a.dhtmlSubMenuS {
+  font: normal 12px/16px Arial, sans-serif;
+  border: none;
+  padding: 5px;
+  margin: 0;
+}
+/* line 1917, ../scss/4_1.scss */
+.dhtmlSubMenu li a.dhtmlSubMenuN:hover, .dhtmlSubMenu li a.dhtmlSubMenuS:hover {
+  border: none;
+}
+/* line 1921, ../scss/4_1.scss */
+.dhtmlSubMenu li a:hover {
+  color: #333 !important;
+  background-color: #F0F0F0 !important;
+  border: none;
+}
+/* line 1925, ../scss/4_1.scss */
+.dhtmlSubMenu li a:hover span {
+  color: #333;
+}
+/* line 1929, ../scss/4_1.scss */
+.dhtmlSubMenu li a img {
+  display: none;
+}
+/* line 1931, ../scss/4_1.scss */
+.dhtmlSubMenu li a img.htmldbMIMG {
+  display: block;
+  margin: 4px 2px 0 0;
+}
+
+/* ============= */
+/* = Popup LOV = */
+/* ============= */
+/* line 1943, ../scss/4_1.scss */
+body.uPopUpLOV {
+  margin: 8px;
+}
+/* line 1945, ../scss/4_1.scss */
+body.uPopUpLOV input.searchField {
+  padding: 4px;
+  border: none;
+  font: normal 12px/16px Arial, sans-serif;
+  color: #333;
+  border: 1px solid #969696;
+  margin: 6px 0 6px 6px;
+  height: 24px;
+  background: #FFF;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+}
+/* line 1957, ../scss/4_1.scss */
+body.uPopUpLOV div.uActionBar {
+  background-color: #F8F8F8;
+  border: 1px solid #aaaaaa;
+  height: 36px;
+  position: relative;
+  -webkit-border-radius: 2px 2px;
+  -moz-border-radius: 2px 2px;
+  border-radius: 2px 2px;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin: 0 0 8px 0;
+}
+/* line 1966, ../scss/4_1.scss */
+body.uPopUpLOV input.smallButton {
+  display: inline-block;
+  font: bold 11px/22px Arial, sans-serif;
+  padding: 0 8px;
+  margin: 6px 0 6px 6px;
+  background-color: #e5e5e5;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #dddddd));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: -moz-linear-gradient(top, #eeeeee, #dddddd);
+  background-image: linear-gradient(top, #eeeeee, #dddddd);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #969696;
+  color: #444;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+}
+/* line 1978, ../scss/4_1.scss */
+body.uPopUpLOV input.smallButton:hover {
+  background-color: #f6f6f6;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, white), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(top, white, #eeeeee);
+  background-image: -moz-linear-gradient(top, white, #eeeeee);
+  background-image: linear-gradient(top, #ffffff, #eeeeee);
+}
+/* line 1981, ../scss/4_1.scss */
+body.uPopUpLOV input.smallButton:active {
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  background-color: #d4d4d4;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#dddddd', endColorstr='#cccccc');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#dddddd', endColorstr='#cccccc')";
+  background-color: #d4d4d4;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(top, #dddddd, #cccccc);
+  background-image: -moz-linear-gradient(top, #dddddd, #cccccc);
+  background-image: linear-gradient(top, #dddddd, #cccccc);
+}
+/* line 1985, ../scss/4_1.scss */
+body.uPopUpLOV input.smallButton.hotButton {
+  border: 1px solid #822024;
+  background-color: #d10c0c;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f21818', endColorstr='#b00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f21818', endColorstr='#b00101')";
+  background-color: #d10c0c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f21818), color-stop(100%, #b00101));
+  background-image: -webkit-linear-gradient(top, #f21818, #b00101);
+  background-image: -moz-linear-gradient(top, #f21818, #b00101);
+  background-image: linear-gradient(top, #f21818, #b00101);
+  color: #FFF;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  font-weight: bold;
+}
+/* line 1992, ../scss/4_1.scss */
+body.uPopUpLOV input.smallButton.hotButton:hover {
+  background-color: #df1212;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#ff2424', endColorstr='#c00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2424', endColorstr='#c00101')";
+  background-color: #df1212;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff2424), color-stop(100%, #c00101));
+  background-image: -webkit-linear-gradient(top, #ff2424, #c00101);
+  background-image: -moz-linear-gradient(top, #ff2424, #c00101);
+  background-image: linear-gradient(top, #ff2424, #c00101);
+}
+/* line 1995, ../scss/4_1.scss */
+body.uPopUpLOV input.smallButton.hotButton:active {
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  background-color: #c10c0c;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#d21818', endColorstr='#b00101');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#d21818', endColorstr='#b00101')";
+  background-color: #c10c0c;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d21818), color-stop(100%, #b00101));
+  background-image: -webkit-linear-gradient(top, #d21818, #b00101);
+  background-image: -moz-linear-gradient(top, #d21818, #b00101);
+  background-image: linear-gradient(top, #d21818, #b00101);
+}
+/* line 2002, ../scss/4_1.scss */
+body.uPopUpLOV div.lovLinks a {
+  display: block;
+  font: normal 12px/16px Arial, sans-serif;
+  padding: 5px 0;
+  border-bottom: 1px solid #E0E0E0;
+  color: #333;
+  text-decoration: none;
+}
+/* line 2009, ../scss/4_1.scss */
+body.uPopUpLOV div.lovLinks a:hover {
+  background-color: #F0F0F0;
+}
+/* line 2013, ../scss/4_1.scss */
+body.uPopUpLOV div.lovLinks br {
+  display: none;
+}
+/* line 2017, ../scss/4_1.scss */
+body.uPopUpLOV div.lovPagination {
+  text-align: center;
+  font: normal 11px/16px Arial, sans-serif;
+  color: #888;
+  padding: 10px 0;
+}
+
+/* ======================== */
+/* = Search Field Styling = */
+/* ======================== */
+/* line 2028, ../scss/4_1.scss */
+.sCustomSearch {
+  margin: 0 auto;
+  padding: 20px 0 24px 0;
+}
+
+/* line 2032, ../scss/4_1.scss */
+.sCustomSearch table {
+  margin: 0 auto;
+}
+
+/* line 2035, ../scss/4_1.scss */
+.sCustomSearch.left {
+  margin: 0;
+  padding: 0 0 8px 0;
+}
+
+/* line 2040, ../scss/4_1.scss */
+.sCustomSearch.left table,
+.sCustomSearch.left td {
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0;
+  border-spacing: 0;
+}
+
+/* line 2047, ../scss/4_1.scss */
+.sCustomSearch table.formlayout {
+  padding: 0;
+}
+
+/* line 2050, ../scss/4_1.scss */
+.sCustomSearch table.formlayout td {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 2055, ../scss/4_1.scss */
+.sCustomSearch table.formlayout td button {
+  margin-top: 0;
+}
+
+/* line 2058, ../scss/4_1.scss */
+.sCustomSearch table.formlayout br {
+  display: none;
+}
+
+/* line 2061, ../scss/4_1.scss */
+.sCustomSearch.large .sSearchField {
+  min-width: 300px;
+}
+
+/* line 2064, ../scss/4_1.scss */
+div.sCustomSearch table.formlayout input.sSearchFieldBig {
+  display: block;
+  font: normal 16px/16px Arial, sans-serif;
+  border: 1px solid #aaaaaa;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 8px 8px 8px 32px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+  color: #333;
+  margin: 0;
+  height: 16px;
+  background: url(../images/theme_23.png) no-repeat -168px -520px white;
+}
+/* line 2075, ../scss/4_1.scss */
+div.sCustomSearch table.formlayout input.sSearchFieldBig:focus {
+  color: #222;
+}
+
+/* line 2079, ../scss/4_1.scss */
+ul.sSearchResultsReport {
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 2084, ../scss/4_1.scss */
+ul.sSearchResultsReport li {
+  display: block;
+  list-style: none;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+/* line 2090, ../scss/4_1.scss */
+ul.sSearchResultsReport li span.title {
+  display: block;
+}
+
+/* line 2093, ../scss/4_1.scss */
+ul.sSearchResultsReport li span.title a {
+  font: bold 16px/24px Arial, sans-serif;
+  color: #405580;
+  text-decoration: underline;
+  clear: both;
+}
+
+/* line 2099, ../scss/4_1.scss */
+ul.sSearchResultsReport li span.description {
+  font: normal 13px/16px Arial, sans-serif;
+  color: #333;
+  display: block;
+}
+
+/* line 2104, ../scss/4_1.scss */
+ul.sSearchResultsReport li span.type {
+  font: normal 11px/16px Arial, sans-serif;
+  padding: 0 10px 0 0;
+  color: #666;
+}
+
+/* line 2109, ../scss/4_1.scss */
+ul.sSearchResultsReport li span.last_modified {
+  font: normal 13px/16px Arial, sans-serif;
+  padding: 0 10px 0 0;
+  color: #666;
+}
+
+/* ================= */
+/* = Legacy Styles = */
+/* ================= */
+/*.dhtmlSubMenu{border:1px solid #999;-moz-border-radius:6px;-webkit-border-radius:6px;padding:6px 0;margin:0;background:none #F8F8F8;;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;}
+.dhtmlSubMenu li{display:block;overflow:hidden;font:normal 13px/14px Arial,sans-serif;color:#333;text-shadow:0 1px 0 rgba(255,255,255,.5);}
+.dhtmlMenuSep{text-align:center;}
+img.dhtmlMenuSep{display:block;margin:auto;border-bottom:2px solid #e1e1e2;height:1px;background:#e1e1e2;margin:5px 0;width:100%;}
+.dhtmlSubMenu img.dhtmlSep{width:180px;height:1px;}
+.dhtmlSubMenu .htmldbMIMG,.dhtmlSubMenuS .htmldbMIMG{vertical-align:middle;float:right;width:5px;height:9px;padding-top:6px;}*/
+/*.dhtmlSubMenu .dhtmlSubMenuP{text-align:center;color:#808080;padding:3px 8px;
+text-decoration:none;white-space:nowrap;font-weight:bold;margin:1px;}*/
+/*.dhtmlSubMenu a.dhtmlSubMenuS,.dhtmlSubMenu a.dhtmlSubMenuN{display:hidden;font:normal 13px/24px Arial,sans-serif;margin:0;padding:3px 8px;border:1px solid #F8F8F8;}
+.dhtmlSubMenu a.dhtmlSubMenuS:hover,.dhtmlSubMenu a.dhtmlSubMenuN:hover,a.dhtmlSubMenuS:focus,a.dhtmlSubMenuN:focus{background:none #d8e4f0 !important;color:#222;border:1px solid #d8e4f0;}
+a.dhtmlSubMenuS,a.dhtmlSubMenuN{display:block;vertical-align:middle;}
+a.dhtmlSubMenuS *,a.dhtmlSubMenuN *{vertical-align:middle;}
+a.dhtmlSubMenuS span{display:block;font-size:1em;float:left;line-height:24px;padding-left:1px;}
+a.dhtmlSubMenuS img{display:block;float:right;width:5px;height:9px;}
+.dhtmlSubMenu a.dhtmlSubMenuS,.dhtmlSubMenu a.dhtmlSubMenuN{color:#000;}*/
+/* line 2133, ../scss/4_1.scss */
+ul.dhtmlTree {
+  list-style: none;
+}
+
+/* line 2134, ../scss/4_1.scss */
+ul.dhtmlTree li {
+  padding: 2px 0;
+  vertical-align: middle;
+}
+
+/* line 2135, ../scss/4_1.scss */
+ul.dhtmlTree li img {
+  margin: 0 4px;
+  vertical-align: middle;
+}
+
+/* line 2136, ../scss/4_1.scss */
+div.dhtmlMenuLG {
+  white-space: nowrap;
+  clear: both;
+}
+
+/* line 2137, ../scss/4_1.scss */
+div.dhtmlMenuLG div.dhtmlMenuItem {
+  text-align: center;
+  float: left;
+  margin: 0px 15px 0px 0px;
+}
+
+/* line 2138, ../scss/4_1.scss */
+div.dhtmlMenuLG a.dhtmlBottom {
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  margin: 0px 5px;
+  font-weight: bold;
+}
+
+/* line 2140, ../scss/4_1.scss */
+div.dhtmlMenuLG div.htmldbBKHolder {
+  float: left;
+}
+
+/* line 2142, ../scss/4_1.scss */
+.dhtmlMenuLG2 li a {
+  float: left;
+}
+
+/* line 2143, ../scss/4_1.scss */
+.dhtmlMenuLG2 {
+  list-style-type: none;
+  padding: 0;
+  margin: 8px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* line 2144, ../scss/4_1.scss */
+.dhtmlMenuLG2 img {
+  margin: 8px 6px;
+}
+
+/* line 2145, ../scss/4_1.scss */
+.dhtmlMenuLG2 li {
+  float: left;
+  text-decoration: none;
+  display: block;
+  line-height: 25px;
+  height: 25px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+/* line 2146, ../scss/4_1.scss */
+.dhtmlMenuLG2 li a {
+  text-decoration: none;
+}
+
+/* line 2148, ../scss/4_1.scss */
+.dhtmlMenuLG2 li.dhtmlMenuItem {
+  background: #efefef;
+  background-repeat: repeat-x;
+  margin: 0 4px 0 0;
+  border: 1px solid #606060;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+/* line 2149, ../scss/4_1.scss */
+.dhtmlMenuLG2 li.dhtmlMenuItem a {
+  padding: 0 4px;
+  color: #222;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* line 2150, ../scss/4_1.scss */
+.dhtmlMenuLG2 li.dhtmlMenuItem1 {
+  background: #efefef;
+  background-repeat: repeat-x;
+  margin: 0 4px 0 0;
+  border: 1px solid #606060;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+/* line 2151, ../scss/4_1.scss */
+.dhtmlMenuLG2 li.dhtmlMenuItem1 a {
+  padding: 0 0 0 10px;
+  margin: 0 4px 0 0;
+  color: #222;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* line 2152, ../scss/4_1.scss */
+.dhtmlMenuLG2 li.dhtmlMenuItem1 img {
+  margin: 0 2px 0 0;
+}
+
+/* line 2153, ../scss/4_1.scss */
+.dhtmlSubMenu2 {
+  border: 1px solid #999;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 6px 0;
+  background: none #F8F8F8;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #FFF;
+  font-size: 13px;
+  width: 200px;
+  list-style-type: none;
+  margin: 0;
+}
+
+/* line 2154, ../scss/4_1.scss */
+.dhtmlSubMenu2 li {
+  margin: 0em;
+  padding-left: 0em;
+}
+
+/* line 2155, ../scss/4_1.scss */
+.dhtmlMenuSep2 {
+  text-align: center;
+}
+
+/* line 2156, ../scss/4_1.scss */
+img.dhtmlMenuSep2 {
+  display: block;
+  margin: auto;
+  width: 80%;
+  border: 1px solid #efefef;
+  height: 1px;
+  background-color: #ccc;
+}
+
+/* line 2157, ../scss/4_1.scss */
+.dhtmlSubMenu2 img.dhtmlSep {
+  width: 180px;
+  height: 1px;
+}
+
+/* line 2158, ../scss/4_1.scss */
+.dhtmlSubMenu2 .t13MIMG {
+  vertical-align: middle;
+  float: right;
+  padding-top: 6px;
+}
+
+/* line 2159, ../scss/4_1.scss */
+.dhtmlSubMenu2 .dhtmlSubMenuP {
+  background-color: #ddd;
+  text-align: center;
+  color: #808080;
+  border-bottom: #ccc 1px solid;
+  padding: 3px 8px;
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+/* line 2169, ../scss/4_1.scss */
+.dhtmlSubMenu2 a.dhtmlSubMenuN:link, .dhtmlSubMenu2 a.dhtmlSubMenuN:visited {
+  white-space: nowrap;
+  height: 1%;
+  overflow: hidden;
+  display: block;
+  overflow: hidden;
+  font: normal 12px/20px Arial,sans-serif;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  padding: 2px 8px !important;
+  text-decoration: none;
+}
+
+/* line 2181, ../scss/4_1.scss */
+.dhtmlSubMenu2 a.dhtmlSubMenuN:hover {
+  background: none #E0E0E0 !important;
+}
+
+/* line 2184, ../scss/4_1.scss */
+.dhtmlSubMenu2 a.dhtmlSubMenuS:link, .dhtmlSubMenu2 a.dhtmlSubMenuS:visited {
+  color: #222;
+  display: block;
+  font-weight: normal;
+  padding: 3px 8px;
+  text-decoration: none;
+  white-space: nowrap;
+  height: 1%;
+  overflow: hidden;
+}
+
+/* line 2194, ../scss/4_1.scss */
+.dhtmlSubMenu2 a.dhtmlSubMenuS:hover {
+  background: none #E0E0E0 !important;
+}
+
+/* line 2197, ../scss/4_1.scss */
+.dhtmlSubMenuN {
+  border: none !important;
+}
+
+/* ============================== */
+/* = Calendar Styles (Theme 21) = */
+/* ============================== */
+/* line 2205, ../scss/4_1.scss */
+table.CalendarHolder table tr td div, table.CalendarAlternative1Holder table tr td div, table.CalendarAlternativeHolder table tr td div,
+table.WeekCalendarHolder table tr td div, table.DayCalendarHolder table tr td div,
+table.WeekCalendarAlternative1Holder table tr td div, table.DayCalendarHolderAlternative1 table tr td div {
+  font: normal 11px/18px Arial, sans-serif;
+  color: #333;
+}
+
+/* -------------------- Small Calendar -------------------- */
+/* Format Calendar when Entries are not Links */
+/* line 2213, ../scss/4_1.scss */
+table.CalendarHolder table tr td div,
+table.CalendarAlternative1Holder table tr td div,
+table.CalendarAlternativeHolder table tr td div {
+  font-size: 11px;
+  padding: 5px;
+}
+
+/* line 2216, ../scss/4_1.scss */
+table.CalendarHolder table tr td div div,
+table.CalendarAlternative1Holder table tr td div div,
+table.CalendarAlternativeHolder table tr td div div {
+  padding: 0 !important;
+}
+
+/* line 2217, ../scss/4_1.scss */
+.Day a, .NonDay a, .Today a, .WeekendDay a {
+  font: bold 11px/16px Arial,sans-serif;
+  display: block;
+  text-decoration: none;
+  text-shadow: none;
+  padding: 0;
+  color: #444;
+  padding: 2px 0;
+}
+
+/* line 2218, ../scss/4_1.scss */
+.Day a:hover, .NonDay a:hover, .Today a:hover, .WeekendDay a:hover {
+  text-decoration: underline;
+}
+
+/* line 2219, ../scss/4_1.scss */
+.small-calendar-holder {
+  border: 4px solid #DDD;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 2220, ../scss/4_1.scss */
+.small-calendar-holder .month-title {
+  text-align: center;
+  color: #444;
+  background-color: #F2F2F2;
+  font: bold 14px/16px Arial,sans-serif;
+  padding: 8px 0;
+  text-shadow: 0 1px 0 white;
+  border: 1px solid #BBB;
+  border-bottom: none;
+}
+
+/* line 2221, ../scss/4_1.scss */
+.small-calendar {
+  width: 250px;
+  border-right: 1px solid #BBB;
+}
+
+/* line 2222, ../scss/4_1.scss */
+.small-calendar .day-of-week {
+  font: bold 10px/11px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+}
+
+/* line 2223, ../scss/4_1.scss */
+.small-calendar .day-of-week:first-child {
+  border-left: 1px solid #BBB;
+}
+
+/* line 2224, ../scss/4_1.scss */
+.small-calendar td {
+  height: 14%;
+  width: 14%;
+  padding: 0;
+  border-left: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #F2F2F2;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 2225, ../scss/4_1.scss */
+.small-calendar td a {
+  text-decoration: none;
+}
+
+/* line 2226, ../scss/4_1.scss */
+.small-calendar .calDragDrop {
+  width: auto !important;
+}
+
+/* Format Day Numbers */
+/* line 2230, ../scss/4_1.scss */
+.non-day-title,
+.day-title,
+.weekend-day-title {
+  color: #444;
+  padding: 8px 0;
+  border-top: 1px solid #f6f8f9;
+  border-left: 1px solid #f6f8f9;
+  text-shadow: 0 1px 0 white;
+}
+
+/* line 2231, ../scss/4_1.scss */
+.non-day-title {
+  color: #AAA;
+}
+
+/* line 2233, ../scss/4_1.scss */
+.small-calendar td.today div.day-title,
+.small-calendar td.today div.weekend-day-title {
+  background-color: #EA0000;
+  color: #FFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  border-top: 1px solid #CA0000;
+  border-left: 1px solid #CA0000;
+}
+
+/* line 2234, ../scss/4_1.scss */
+.CalendarHolder {
+  width: 100%;
+  border: none;
+}
+
+/* line 2235, ../scss/4_1.scss */
+.CalendarHolder .MonthTitle {
+  text-align: center;
+  color: #444;
+  background-color: #F2F2F2;
+  font: bold 14px/16px Arial,sans-serif;
+  padding: 8px 0;
+  text-shadow: 0 1px 0 white;
+  border: 1px solid #BBB;
+  border-bottom: none;
+}
+
+/* line 2236, ../scss/4_1.scss */
+table.CalendarHolder tbody > tr > td {
+  border-right: 1px solid #BBB;
+}
+
+/* line 2240, ../scss/4_1.scss */
+.Calendar {
+  border: 0;
+  width: 100%;
+}
+
+/* line 2241, ../scss/4_1.scss */
+.Calendar .DayOfWeek {
+  font: bold 11px/11px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+}
+
+/* line 2242, ../scss/4_1.scss */
+.Calendar .DayOfWeek:first-child {
+  border-left: 1px solid #BBB;
+}
+
+/* line 2243, ../scss/4_1.scss */
+.Calendar td {
+  width: 75px;
+  height: 75px;
+  width: 14%;
+  padding: 0;
+  border-left: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+}
+
+/* line 2244, ../scss/4_1.scss */
+.Calendar .DayTitle {
+  padding: 5px 5px;
+  font: normal 12px/12px Arial,sans-serif;
+  text-align: right;
+  float: right;
+  color: #000;
+  text-shadow: 0 1px 0 white;
+}
+
+/* line 2245, ../scss/4_1.scss */
+.Calendar .Day {
+  background-color: #FFF;
+  vertical-align: top;
+}
+
+/* line 2246, ../scss/4_1.scss */
+.Calendar .NonDayTitle {
+  padding: 5px 5px;
+  font: normal 12px/12px Arial,sans-serif;
+  text-align: right;
+  float: right;
+  color: #AAA;
+  text-shadow: 0 1px 0 white;
+}
+
+/* line 2248, ../scss/4_1.scss */
+.Calendar .WeekendDayTitle {
+  padding: 5px 5px;
+  font: normal 12px/12px Arial,sans-serif;
+  text-align: right;
+  float: right;
+  color: #000;
+  text-shadow: 0 1px 0 white;
+}
+
+/* line 2249, ../scss/4_1.scss */
+.Calendar .WeekendDay {
+  background-color: #FFF;
+}
+
+/* line 2250, ../scss/4_1.scss */
+.Calendar .Today {
+  vertical-align: top;
+  background-color: #F2F2F2;
+}
+
+/* line 2251, ../scss/4_1.scss */
+.Calendar .Today .DayTitle {
+  /* background-color:#FFFFFF*/
+}
+
+/* custom calendar */
+/* line 2253, ../scss/4_1.scss */
+.cstCalendarHolder {
+  width: 600px;
+}
+
+/* line 2254, ../scss/4_1.scss */
+.cstCalendarHolder .MonthTitle {
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  color: #FF0000;
+}
+
+/* line 2255, ../scss/4_1.scss */
+.cstCalendar {
+  border: 1px solid #86888a;
+  width: 100%;
+}
+
+/* line 2256, ../scss/4_1.scss */
+.cstCalendar .DayOfWeek {
+  color: #000000;
+  padding: 3px;
+  background-color: #DDDDDD;
+  border-right: 1px solid #86888a;
+}
+
+/* line 2257, ../scss/4_1.scss */
+.cstCalendar td {
+  width: 75px;
+  height: 75px;
+  width: 14%;
+  border: 1px solid #86888a;
+}
+
+/* line 2258, ../scss/4_1.scss */
+.cstCalendar .DayTitle {
+  padding: 2px;
+  font-weight: bold;
+  text-align: right;
+  float: right;
+  border: 2px solid #86888a;
+  border-right: none;
+  border-top: none;
+}
+
+/* line 2259, ../scss/4_1.scss */
+.cstCalendar .Day {
+  vertical-align: top;
+}
+
+/* line 2260, ../scss/4_1.scss */
+.cstCalendar .NonDayTitle {
+  text-align: right;
+  color: #CCCCCC;
+}
+
+/* line 2261, ../scss/4_1.scss */
+.cstCalendar .NonDay {
+  background-color: #EEEEEE;
+}
+
+/* line 2262, ../scss/4_1.scss */
+.cstCalendar .WeekendDayTitle {
+  padding: 2px;
+  font-weight: bold;
+  text-align: right;
+  float: right;
+  border: 2px solid #86888a;
+  border-right: none;
+  border-top: none;
+  text-align: right;
+  color: #CCCCCC;
+}
+
+/* line 2264, ../scss/4_1.scss */
+.cstCalendar .Today {
+  vertical-align: top;
+  border: #FF0000 2px solid;
+}
+
+/* line 2265, ../scss/4_1.scss */
+.cstCalendar .Today .DayTitle {
+  background-color: #FFFFFF;
+}
+
+/* Week Calendar */
+/* line 2267, ../scss/4_1.scss */
+.WeekCalendarHolder {
+  width: 100%;
+  border: 4px solid #DDD;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 2268, ../scss/4_1.scss */
+.WeekCalendarHolder .MonthTitle {
+  text-align: center;
+  color: #444;
+  background-color: #F2F2F2;
+  font: bold 14px/16px Arial,sans-serif;
+  padding: 8px 0;
+  text-shadow: 0 1px 0 white;
+  border: 1px solid #BBB;
+  border-bottom: none;
+}
+
+/* line 2269, ../scss/4_1.scss */
+.WeekCalendar {
+  border: 0;
+  width: 100%;
+  border-right: 1px solid #BBB;
+}
+
+/* line 2270, ../scss/4_1.scss */
+.WeekCalendar .DayOfWeek {
+  font: bold 11px/11px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+}
+
+/* line 2271, ../scss/4_1.scss */
+.WeekCalendar td {
+  height: 40px;
+  width: 14%;
+  padding: 0;
+  border-left: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+}
+
+/* line 2274, ../scss/4_1.scss */
+.WeekCalendar .Day {
+  vertical-align: top;
+}
+
+/* line 2276, ../scss/4_1.scss */
+.WeekCalendar .NonDay {
+  background-color: #FFF;
+}
+
+/* line 2278, ../scss/4_1.scss */
+.WeekCalendar .Today {
+  vertical-align: top;
+  background-color: #F2F2F2;
+}
+
+/* line 2280, ../scss/4_1.scss */
+.WeekCalendar th.Hour {
+  width: 40px;
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-align: right;
+  padding: 5px 5px 5px 10px;
+  white-space: nowrap;
+  border-left: 1px solid #BBB;
+}
+
+/* custom calendar */
+/* line 2283, ../scss/4_1.scss */
+.cstWeekCalendarHolder {
+  width: 600px;
+}
+
+/* line 2284, ../scss/4_1.scss */
+.cstWeekCalendarHolder .MonthTitle {
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  color: #FF0000;
+}
+
+/* line 2285, ../scss/4_1.scss */
+.cstWeekCalendar {
+  border-left: 1px solid #86888a;
+  border-bottom: 1px solid #86888a;
+  width: 100%;
+  empty-cells: show;
+}
+
+/* line 2286, ../scss/4_1.scss */
+.cstWeekCalendar .DayOfWeek {
+  color: #000000;
+  background-color: #DDDDDD;
+}
+
+/* line 2287, ../scss/4_1.scss */
+.cstWeekCalendar td, .cstWeekCalendar th {
+  padding: 3px;
+  height: 40px;
+  width: 14%;
+  border-right: 1px solid #86888a;
+  border-top: 1px solid #86888a;
+}
+
+/* line 2288, ../scss/4_1.scss */
+.cstWeekCalendar .DayTitle {
+  padding: 0px;
+  font-weight: bold;
+  text-align: right;
+  float: right;
+  border: 0px solid #86888a;
+  border-right: none;
+  border-top: none;
+}
+
+/* line 2289, ../scss/4_1.scss */
+.cstWeekCalendar .Day {
+  vertical-align: top;
+}
+
+/* line 2290, ../scss/4_1.scss */
+.cstWeekCalendar .NonDayTitle {
+  text-align: right;
+  color: #CCCCCC;
+}
+
+/* line 2291, ../scss/4_1.scss */
+.cstWeekCalendar .NonDay {
+  background-color: #EEEEEE;
+}
+
+/* line 2292, ../scss/4_1.scss */
+.cstWeekCalendar .WeekendDayTitle {
+  padding: 2px;
+  font-weight: bold;
+  text-align: right;
+  float: right;
+  border: 2px solid #86888a;
+  border-right: none;
+  border-top: none;
+  text-align: right;
+  color: #CCCCCC;
+}
+
+/* line 2293, ../scss/4_1.scss */
+.cstWeekCalendar .Today {
+  vertical-align: top;
+  border: #FF0000 1px solid;
+}
+
+/* line 2294, ../scss/4_1.scss */
+.cstWeekCalendar .Today .DayTitle {
+  background-color: #FFFFFF;
+}
+
+/* line 2295, ../scss/4_1.scss */
+.cstWeekCalendar .Hour {
+  width: 40px;
+  height: 40px;
+  background-color: #DDDDDD;
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* line 2296, ../scss/4_1.scss */
+.cstWeekCalendar .HourTitle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #86888a;
+  background-color: #DDDDDD;
+}
+
+/* Day Calendar */
+/* line 2298, ../scss/4_1.scss */
+.DayCalendarHolder {
+  width: 100%;
+  border: 4px solid #DDD;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+/* line 2299, ../scss/4_1.scss */
+.DayCalendarHolder .MonthTitlem, .DayCalendarHolder .t1MonthTitle {
+  text-align: center;
+  color: #444;
+  background-color: #F2F2F2;
+  font: bold 14px/16px Arial,sans-serif;
+  padding: 8px 0;
+  text-shadow: 0 1px 0 white;
+  border: 1px solid #BBB;
+  border-bottom: none;
+}
+
+/* line 2300, ../scss/4_1.scss */
+.DayCalendar {
+  border: 0;
+  width: 100%;
+  border-right: 1px solid #BBB;
+}
+
+/* line 2301, ../scss/4_1.scss */
+.DayCalendar .DayOfWeek {
+  font: bold 11px/11px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+}
+
+/* line 2302, ../scss/4_1.scss */
+.DayCalendar td {
+  height: 40px;
+  width: 98%;
+  padding: 0;
+  border-left: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+}
+
+/* line 2304, ../scss/4_1.scss */
+.DayCalendar .Day {
+  vertical-align: top;
+}
+
+/* line 2305, ../scss/4_1.scss */
+.DayCalendar .Today {
+  vertical-align: top;
+  background-color: #F2F2F2;
+}
+
+/* line 2307, ../scss/4_1.scss */
+.DayCalendar .Hour {
+  width: 40px;
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-align: right;
+  padding: 5px 5px 5px 10px;
+  white-space: nowrap;
+  border-left: 1px solid #BBB;
+}
+
+/**/
+/* list Calendar */
+/* line 2311, ../scss/4_1.scss */
+.ListCalendarHolder {
+  width: 100%;
+  border: 1px solid #DDD;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+/* line 2312, ../scss/4_1.scss */
+.ListCalendarHolder .ListCalendar {
+  width: 100%;
+}
+
+/* line 2313, ../scss/4_1.scss */
+.ListCalendarHolder .MonthTitle {
+  text-align: left;
+  color: #444;
+  font: bold 16px/16px Arial,sans-serif;
+  padding: 10px 0 5px 0;
+  text-shadow: 0 1px 0 white;
+  border-bottom: none;
+}
+
+/* line 2314, ../scss/4_1.scss */
+.ListCalendarHolder .PastDayTitle {
+  font: normal 11px/11px Arial,sans-serif;
+  text-align: left;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+}
+
+/* line 2315, ../scss/4_1.scss */
+.ListCalendarHolder .PastDay {
+  height: 40px;
+  width: 98%;
+  padding: 0;
+  border-left: 0px solid #EEE;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+}
+
+/* line 2316, ../scss/4_1.scss */
+.ListCalendarHolder .PastHour {
+  width: 40px;
+  font: normal 10px/14px Arial,sans-serif;
+  color: #444;
+  text-align: right;
+  padding: 0 5px 0 0;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+/* line 2318, ../scss/4_1.scss */
+.ListCalendarHolder .ToDayTitle {
+  font: normal 11px/11px Arial,sans-serif;
+  text-align: left;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+}
+
+/* line 2319, ../scss/4_1.scss */
+.ListCalendarHolder .ToDay {
+  height: 40px;
+  width: 98%;
+  padding: 0;
+  border-left: 0px solid #EEE;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #F2F2F2;
+}
+
+/* line 2320, ../scss/4_1.scss */
+.ListCalendarHolder .TodayHour {
+  width: 40px;
+  font: normal 10px/14px Arial,sans-serif;
+  color: #444;
+  text-align: right;
+  padding: 0 5px 0 0;
+  white-space: nowrap;
+  vertical-align: top;
+  background-color: #F2F2F2;
+}
+
+/* line 2322, ../scss/4_1.scss */
+.ListCalendarHolder .FutureDayTitle {
+  font: normal 11px/11px Arial,sans-serif;
+  text-align: left;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+  background-color: #F2F2F2;
+}
+
+/* line 2323, ../scss/4_1.scss */
+.ListCalendarHolder .FutureDay {
+  height: 40px;
+  width: 98%;
+  padding: 0;
+  border-left: 0px solid #EEE;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+}
+
+/* line 2324, ../scss/4_1.scss */
+.ListCalendarHolder .FutureHour {
+  width: 40px;
+  font: normal 10px/14px Arial,sans-serif;
+  color: #444;
+  text-align: right;
+  padding: 0 5px 0 0;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+/**/
+/* line 2327, ../scss/4_1.scss */
+.CalendarAlternative1Holder {
+  width: 100%;
+}
+
+/* line 2328, ../scss/4_1.scss */
+.CalendarAlternative1Holder .MonthTitle {
+  text-align: left;
+  color: #444;
+  /* background-color:#D2D2D2;*/
+  font: bold 16px/16px Arial,sans-serif;
+  padding: 10px 0 5px 0;
+  text-shadow: 0 1px 0 white;
+  /* border:1px solid #BBB;*/
+  border-bottom: none;
+}
+
+/* line 2331, ../scss/4_1.scss */
+.CalendarAlternative1 {
+  border: 0;
+  width: 100%;
+  /* border-right:1px solid #BBB;*/
+}
+
+/* line 2332, ../scss/4_1.scss */
+.CalendarAlternative1 .DayOfWeek {
+  font: normal 11px/11px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  /* background-color:#D2D2D2;*/
+  text-transform: capitalize;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #999;
+  text-align: left;
+}
+
+/* line 2334, ../scss/4_1.scss */
+.CalendarAlternative1 .DayOfWeek:first-child {
+  /* border-left:1px solid #BBB;*/
+}
+
+/* line 2335, ../scss/4_1.scss */
+.CalendarAlternative1 td:first-child {
+  border-left: 1px solid #EEE;
+}
+
+/* line 2336, ../scss/4_1.scss */
+.CalendarAlternative1 td {
+  width: 75px;
+  height: 75px;
+  width: 14%;
+  padding: 0;
+  border-right: 1px solid #EEE;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+}
+
+/* line 2337, ../scss/4_1.scss */
+.CalendarAlternative1 .DayTitle {
+  padding: 5px 5px;
+  font: normal 12px/12px Arial,sans-serif;
+  color: #000;
+  text-shadow: 0 1px 0 white;
+}
+
+/* line 2338, ../scss/4_1.scss */
+.CalendarAlternative1 .Day {
+  background-color: #FFF;
+  vertical-align: top;
+}
+
+/* line 2339, ../scss/4_1.scss */
+.CalendarAlternative1 .NonDayTitle {
+  padding: 5px 5px;
+  font: normal 12px/12px Arial,sans-serif;
+  color: #AAA;
+  text-shadow: 0 1px 0 white;
+}
+
+/* line 2341, ../scss/4_1.scss */
+.CalendarAlternative1 .WeekendDayTitle {
+  padding: 5px 5px;
+  font: normal 12px/12px Arial,sans-serif;
+  color: #000;
+  text-shadow: 0 1px 0 white;
+}
+
+/* line 2342, ../scss/4_1.scss */
+.CalendarAlternative1 .WeekendDay {
+  background-color: #FFF;
+}
+
+/* line 2343, ../scss/4_1.scss */
+.CalendarAlternative1 .Today {
+  vertical-align: top;
+  background-color: #F2F2F2;
+}
+
+/* line 2344, ../scss/4_1.scss */
+.CalendarAlternative1 .Today .DayTitle {
+  /* background-color:#FFFFFF*/
+}
+
+/* Alternate Week Calendar */
+/* Week Calendar */
+/* line 2347, ../scss/4_1.scss */
+.WeekCalendarAlternative1Holder {
+  width: 100%;
+}
+
+/* line 2348, ../scss/4_1.scss */
+.WeekCalendarAlternative1Holder .MonthTitle {
+  text-align: left;
+  color: #444;
+  font: bold 16px/16px Arial,sans-serif;
+  padding: 10px 0 5px 0;
+  text-shadow: 0 1px 0 white;
+  border-bottom: none;
+}
+
+/* line 2349, ../scss/4_1.scss */
+.WeekCalendarAlternative1 {
+  border: 0;
+  width: 100%;
+}
+
+/* line 2350, ../scss/4_1.scss */
+.WeekCalendarAlternative1 .DayOfWeek {
+  font: normal 11px/11px Arial,sans-serif;
+  text-align: left;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+}
+
+/* line 2351, ../scss/4_1.scss */
+.WeekCalendarAlternative1 td {
+  height: 40px;
+  width: 14%;
+  padding: 0;
+  border-right: 1px solid #EEE;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+}
+
+/* line 2352, ../scss/4_1.scss */
+.WeekCalendarAlternative1 tr:first-child th {
+  border-right: none;
+}
+
+/* line 2353, ../scss/4_1.scss */
+.WeekCalendarAlternative1 th {
+  border-right: 1px solid #EEE;
+}
+
+/* line 2355, ../scss/4_1.scss */
+.WeekCalendarAlternative1 .Day {
+  vertical-align: top;
+}
+
+/* line 2357, ../scss/4_1.scss */
+.WeekCalendarAlternative1 .NonDay {
+  background-color: #FFF;
+}
+
+/* line 2359, ../scss/4_1.scss */
+.WeekCalendarAlternative1 .Today {
+  vertical-align: top;
+  background-color: #F2F2F2;
+}
+
+/* line 2361, ../scss/4_1.scss */
+.WeekCalendarAlternative1 th.Hour {
+  width: 40px;
+  font: normal 10px/14px Arial,sans-serif;
+  color: #444;
+  text-align: right;
+  padding: 0 5px 0 0;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+/* alternate Day Calendar */
+/* line 2364, ../scss/4_1.scss */
+.DayCalendarAlternative1Holder {
+  width: 100%;
+}
+
+/* line 2365, ../scss/4_1.scss */
+.DayCalendarAlternative1Holder .MonthTitle {
+  text-align: left;
+  color: #444;
+  font: bold 16px/16px Arial,sans-serif;
+  padding: 10px 0 5px 0;
+  text-shadow: 0 1px 0 white;
+  border-bottom: none;
+}
+
+/* line 2366, ../scss/4_1.scss */
+.DayCalendarAlternative1 {
+  border: 0;
+  width: 100%;
+}
+
+/* line 2367, ../scss/4_1.scss */
+.DayCalendarAlternative1 .DayOfWeek {
+  font: normal 11px/11px Arial,sans-serif;
+  text-align: left;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+}
+
+/* line 2368, ../scss/4_1.scss */
+.DayCalendarAlternative1 td {
+  height: 40px;
+  width: 98%;
+  padding: 0;
+  border-left: 1px solid #EEE;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+}
+
+/* line 2369, ../scss/4_1.scss */
+.DayCalendarAlternative1 tr:first-child th {
+  border-right: none;
+}
+
+/* line 2371, ../scss/4_1.scss */
+.DayCalendarAlternative1 .Day {
+  vertical-align: top;
+}
+
+/* line 2372, ../scss/4_1.scss */
+.DayCalendarAlternative1 .Today {
+  vertical-align: top;
+  background-color: #F2F2F2;
+}
+
+/* line 2374, ../scss/4_1.scss */
+.DayCalendarAlternative1 .Hour {
+  width: 40px;
+  font: normal 10px/14px Arial,sans-serif;
+  color: #444;
+  text-align: right;
+  padding: 0 5px 0 0;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+/**/
+/* Alternative list Calendar */
+/* line 2378, ../scss/4_1.scss */
+.ListCalendarAlternateHolder {
+  width: 100%;
+  border: 4px solid #DDD;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+/* line 2379, ../scss/4_1.scss */
+.ListCalendarAlternateHolder .ListCalendar {
+  width: 100%;
+}
+
+/* line 2380, ../scss/4_1.scss */
+.ListCalendarAlternateHolder .MonthTitle {
+  text-align: center;
+  color: #444;
+  background-color: #F2F2F2;
+  font: bold 14px/16px Arial,sans-serif;
+  padding: 8px 0;
+  text-shadow: 0 1px 0 white;
+  border: 1px solid #BBB;
+  border-bottom: none;
+}
+
+/* line 2381, ../scss/4_1.scss */
+.ListCalendarAlternateHolder .PastDayTitle {
+  font: bold 11px/11px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+}
+
+/* line 2382, ../scss/4_1.scss */
+.ListCalendarAlternateHolder .PastDay {
+  height: 40px;
+  width: 98%;
+  padding: 0;
+  border-left: 0px;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+}
+
+/* line 2383, ../scss/4_1.scss */
+.ListCalendarAlternateHolder .PastHour {
+  width: 40px;
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-align: right;
+  padding: 5px 5px 5px 10px;
+  white-space: nowrap;
+}
+
+/* line 2385, ../scss/4_1.scss */
+.ListCalendarAlternateHolder .ToDayTitle {
+  font: bold 11px/11px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+}
+
+/* line 2386, ../scss/4_1.scss */
+.ListCalendarAlternateHolder .ToDay {
+  height: 40px;
+  width: 98%;
+  padding: 0;
+  border-left: 0px;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+  background-color: #F2F2F2;
+}
+
+/* line 2387, ../scss/4_1.scss */
+.ListCalendarAlternateHolder .TodayHour {
+  width: 40px;
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-align: right;
+  padding: 5px 5px 5px 10px;
+  white-space: nowrap;
+  background-color: #F2F2F2;
+}
+
+/* line 2389, ../scss/4_1.scss */
+.ListCalendarAlternateHolder .FutureDayTitle {
+  font: bold 11px/11px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #BBB;
+  background-color: #FFF;
+}
+
+/* line 2390, ../scss/4_1.scss */
+.ListCalendarAlternateHolder .FutureDay {
+  height: 40px;
+  width: 98%;
+  padding: 0;
+  border-left: 0px;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+  background-color: #F2F2F2;
+}
+
+/* line 2391, ../scss/4_1.scss */
+.ListCalendarAlternateHolder .FutureHour {
+  width: 40px;
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-align: right;
+  padding: 5px 5px 5px 10px;
+  white-space: nowrap;
+}
+
+/**/
+/* line 2395, ../scss/4_1.scss */
+.SmallCalendarHolder .MonthTitle {
+  text-align: center;
+  font-size: 13px;
+  color: #FF0000;
+  font-weight: bold;
+}
+
+/* line 2396, ../scss/4_1.scss */
+.SmallCalendar {
+  width: 250px;
+  border: 1px solid #CCCCCC;
+}
+
+/* line 2397, ../scss/4_1.scss */
+.SmallCalendar .DayOfWeek {
+  height: 14px;
+}
+
+/* line 2398, ../scss/4_1.scss */
+.SmallCalendar td {
+  height: 14%;
+  width: 14%;
+  padding: 2px;
+  border: 1px solid #CCCCCC;
+}
+
+/* line 2399, ../scss/4_1.scss */
+.SmallCalendar .DayTitle {
+  font-weight: bold;
+  text-align: right;
+  text-decoration: underline;
+}
+
+/* line 2400, ../scss/4_1.scss */
+.SmallCalendar .Day {
+  vertical-align: top;
+}
+
+/* line 2401, ../scss/4_1.scss */
+.SmallCalendar .NonDayTitle {
+  text-align: right;
+  color: #CCCCCC;
+  text-align: right;
+  text-decoration: underline;
+}
+
+/* line 2402, ../scss/4_1.scss */
+.SmallCalendar .NonDay {
+  border: 1px dotted #CCCCCC;
+}
+
+/* line 2403, ../scss/4_1.scss */
+.SmallCalendar .WeekendDayTitle {
+  text-align: right;
+  color: #CCCCCC;
+  text-align: right;
+  text-decoration: underline;
+}
+
+/* line 2405, ../scss/4_1.scss */
+.SmallCalendar .Today {
+  vertical-align: top;
+  vertical-align: top;
+  border: 1px solid #FF0000;
+}
+
+/* Small Week Calendar */
+/* line 2407, ../scss/4_1.scss */
+.SmallWeekCalendarHolder {
+  border: 4px solid #DDD;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+/* line 2408, ../scss/4_1.scss */
+.SmallWeekCalendarHolder .MonthTitle {
+  text-align: center;
+  color: #444;
+  background-color: #F2F2F2;
+  font: bold 14px/16px Arial,sans-serif;
+  padding: 8px 0;
+  text-shadow: 0 1px 0 white;
+  border: 1px solid #BBB;
+  border-bottom: none;
+}
+
+/* line 2409, ../scss/4_1.scss */
+.SmallWeekCalendar {
+  width: 300px;
+  empty-cells: show;
+}
+
+/* line 2410, ../scss/4_1.scss */
+.SmallWeekCalendar .DayOfWeek {
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-transform: capitalize;
+  border-bottom: 1px solid #BBB;
+  padding: 5px 0;
+}
+
+/* line 2411, ../scss/4_1.scss */
+.SmallWeekCalendar td {
+  height: 14%;
+  width: 14%;
+  padding: 0;
+  border-left: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #F2F2F2;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* line 2412, ../scss/4_1.scss */
+.SmallWeekCalendar td.t1Today {
+  background-color: #d2d2d4;
+}
+
+/* line 2413, ../scss/4_1.scss */
+.SmallWeekCalendar td .inner {
+  border-top: 1px solid #f6f8f9;
+  border-left: 1px solid #f6f8f9;
+  display: block;
+}
+
+/* line 2419, ../scss/4_1.scss */
+.SmallWeekCalendar .Hour {
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-transform: capitalize;
+  padding: 5px 2px 5px 10px;
+}
+
+/* Small Day Calendar */
+/* line 2422, ../scss/4_1.scss */
+.SmallDayCalendarHolder {
+  border: 4px solid #DDD;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+/* line 2423, ../scss/4_1.scss */
+.SmallDayCalendarHolder .MonthTitle {
+  text-align: center;
+  color: #444;
+  background-color: #F2F2F2;
+  font: bold 14px/16px Arial,sans-serif;
+  padding: 8px 0;
+  text-shadow: 0 1px 0 white;
+  border: 1px solid #BBB;
+  border-bottom: none;
+}
+
+/* line 2424, ../scss/4_1.scss */
+.SmallDayCalendar {
+  width: 300px;
+  empty-cells: show;
+}
+
+/* line 2425, ../scss/4_1.scss */
+.SmallDayCalendar .DayOfWeek {
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-transform: capitalize;
+  border-bottom: 1px solid #BBB;
+  padding: 5px 0;
+}
+
+/* line 2426, ../scss/4_1.scss */
+.SmallDayCalendar td {
+  height: 14%;
+  width: 98%;
+  padding: 0;
+  border-left: 1px solid #BBB;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #F2F2F2;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* line 2428, ../scss/4_1.scss */
+.SmallDayCalendar .Day {
+  vertical-align: top;
+}
+
+/* line 2429, ../scss/4_1.scss */
+.SmallDayCalendar .Today {
+  background-color: #d2d2d4;
+}
+
+/* line 2430, ../scss/4_1.scss */
+.SmallDayCalendar .Hour {
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-transform: capitalize;
+  padding: 5px 2px 5px 10px;
+}
+
+/* Small list Calendar */
+/* line 2434, ../scss/4_1.scss */
+.ListCalendarSmallHolder {
+  width: 300px;
+  border: 4px solid #DDD;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+/* line 2435, ../scss/4_1.scss */
+.ListCalendarSmallHolder .ListCalendar {
+  width: 300px;
+  empty-cells: show;
+}
+
+/* line 2436, ../scss/4_1.scss */
+.ListCalendarSmallHolder .MonthTitle {
+  text-align: center;
+  color: #444;
+  background-color: #F2F2F2;
+  font: bold 14px/16px Arial,sans-serif;
+  padding: 8px 0;
+  text-shadow: 0 1px 0 white;
+  border: 1px solid #BBB;
+  border-bottom: none;
+}
+
+/* line 2437, ../scss/4_1.scss */
+.ListCalendarSmallHolder .PastDayTitle {
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-transform: capitalize;
+  border-bottom: 1px solid #BBB;
+  padding: 5px 0;
+}
+
+/* line 2438, ../scss/4_1.scss */
+.ListCalendarSmallHolder .PastDay {
+  height: 14%;
+  width: 98%;
+  padding: 0;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #F2F2F2;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* line 2439, ../scss/4_1.scss */
+.ListCalendarSmallHolder .PastHour {
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-transform: capitalize;
+  padding: 5px 2px 5px 10px;
+}
+
+/* line 2441, ../scss/4_1.scss */
+.ListCalendarSmallHolder .ToDayTitle {
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-transform: capitalize;
+  border-bottom: 1px solid #BBB;
+  padding: 5px 0;
+}
+
+/* line 2442, ../scss/4_1.scss */
+.ListCalendarSmallHolder .ToDay {
+  height: 14%;
+  width: 98%;
+  padding: 0;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #D2D2D4;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* line 2443, ../scss/4_1.scss */
+.ListCalendarSmallHolder .TodayHour {
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #D2D2D4;
+  text-transform: capitalize;
+  padding: 5px 2px 5px 10px;
+}
+
+/* line 2445, ../scss/4_1.scss */
+.ListCalendarSmallHolder .FutureDayTitle {
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #F2F2F2;
+  text-transform: capitalize;
+  border-bottom: 1px solid #BBB;
+  padding: 5px 0;
+}
+
+/* line 2446, ../scss/4_1.scss */
+.ListCalendarSmallHolder .FutureDay {
+  height: 14%;
+  width: 98%;
+  padding: 0;
+  border-bottom: 1px solid #BBB;
+  font: bold 13px/13px Arial,sans-serif;
+  background-color: #FFF;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* line 2447, ../scss/4_1.scss */
+.ListCalendarSmallHolder .FutureHour {
+  font: bold 10px/14px Arial,sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 white;
+  background-color: #FFF;
+  text-transform: capitalize;
+  padding: 5px 2px 5px 10px;
+}
+
+/**/
+/* line 2450, ../scss/4_1.scss */
+.apex_cal_data_grid_src {
+  width: 100%;
+  margin-top: 2px;
+}
+
+/* =========================== */
+/* = Internet Explorer Fixes = */
+/* =========================== */
+/* line 2457, ../scss/4_1.scss */
+.ie7 {
+  /* Make Image Resizing smoother in IE7 */
+  /* IE7 Fixes as there is no support for display:table */
+  /* DHTML Menu with Sublist Image Positioning*/
+}
+/* line 2459, ../scss/4_1.scss */
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+/* line 2461, ../scss/4_1.scss */
+.ie7 .calDragDrop {
+  width: auto !important;
+}
+/* line 2466, ../scss/4_1.scss */
+.ie7 section.uRegion > div.uRegionHeading h1 {
+  float: left;
+  border-bottom: none;
+  line-height: 38px;
+}
+/* line 2471, ../scss/4_1.scss */
+.ie7 section.uRegion.uBorderlessRegion > div.uRegionHeading h1 {
+  float: left;
+  border-bottom: none;
+  line-height: 14px;
+}
+/* line 2476, ../scss/4_1.scss */
+.ie7 section.uRegion section.uRegion {
+  /* Nested Regions for IE7*/
+}
+/* line 2478, ../scss/4_1.scss */
+.ie7 section.uRegion section.uRegion div.uRegionHeading h1 {
+  line-height: 20px;
+}
+/* line 2482, ../scss/4_1.scss */
+.ie7 section.uRegion span.uButtonContainer {
+  float: right;
+}
+/* line 2486, ../scss/4_1.scss */
+.ie7 section.uRegion.uHideShowRegion > div.uRegionHeading > h1 {
+  line-height: 30px !important;
+}
+/* line 2492, ../scss/4_1.scss */
+.ie7 section.uWhiteRegion div.uRegionHeading h1 {
+  line-height: 24px;
+}
+/* line 2496, ../scss/4_1.scss */
+.ie7 table#uPageCols {
+  table-layout: fixed;
+}
+/* line 2500, ../scss/4_1.scss */
+.ie7 .dhtmlMenuLG2 li.dhtmlMenuItem1 img {
+  display: block;
+  margin: 6px;
+}
+/* line 2501, ../scss/4_1.scss */
+.ie7 div.uReportFilterRow table.formlayout td {
+  vertical-align: middle !important;
+}
+
+/* line 2506, ../scss/4_1.scss */
+.no-css3 section.uButtonRegion, .ie9 section.uButtonRegion {
+  background: url(../images/theme_23.png) 0 -968px repeat-x #dddddd;
+}
+
+/* line 2511, ../scss/4_1.scss */
+.ie7 div.uFixedHeadersContainer, .ie8 div.uFixedHeadersContainer, .ie9 div.uFixedHeadersContainer {
+  position: relative;
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* line 2518, ../scss/4_1.scss */
+.ie7 table.uReportFixedHeaders thead, .ie8 table.uReportFixedHeaders thead, .ie9 table.uReportFixedHeaders thead {
+  height: auto;
+}
+/* line 2520, ../scss/4_1.scss */
+.ie7 table.uReportFixedHeaders thead tr, .ie8 table.uReportFixedHeaders thead tr, .ie9 table.uReportFixedHeaders thead tr {
+  position: absolute;
+  top: expression(this.offsetParent.scrollTop);
+}
+/* line 2525, ../scss/4_1.scss */
+.ie7 table.uReportFixedHeaders tbody, .ie8 table.uReportFixedHeaders tbody, .ie9 table.uReportFixedHeaders tbody {
+  height: auto;
+}
+/* line 2527, ../scss/4_1.scss */
+.ie7 table.uReportFixedHeaders tbody tr:first-child td, .ie8 table.uReportFixedHeaders tbody tr:first-child td, .ie9 table.uReportFixedHeaders tbody tr:first-child td {
+  padding-top: 30px;
+}
+
+/*==========  APEX 5.0 Core Overrides  ==========*/
+/* line 2538, ../scss/4_1.scss */
+.a-IRR-container button.a-Button span,
+.a-DevToolbar button span,
+.a-IRR-dialogTable button span {
+  padding: 0;
+  position: static;
+}
+
+/* line 2542, ../scss/4_1.scss */
+.a-IRR-dialogTable th, .a-IRR-dialogTable td {
+  white-space: nowrap;
+}
+
+/* line 2545, ../scss/4_1.scss */
+.a-IRR-container button.a-Button span {
+  display: inline-block;
+}
+
+/* line 2548, ../scss/4_1.scss */
+.a-DevToolbar button span {
+  display: inline-block;
+}
+
+/*==========  APEX 5.0 IRR Core Overrides  ==========*/
+/* line 2554, ../scss/4_1.scss */
+.a-IRR-fullView,
+.a-IRR-reportView {
+  float: left;
+}
+
+/* line 2557, ../scss/4_1.scss */
+.a-IRR-toolbar--singleRow + .a-IRR-content {
+  background-color: #FFF;
+  border: 1px solid #D0D0D0;
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+
+/* line 2564, ../scss/4_1.scss */
+.a-IRR-buttons,
+.a-IRR-controls {
+  display: block;
+  float: left;
+}
+
+/* line 2568, ../scss/4_1.scss */
+.a-IRR-buttons {
+  margin-left: 8px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+/* line 2573, ../scss/4_1.scss */
+.a-IRR {
+  border-width: 0;
+}
+
+/* line 2576, ../scss/4_1.scss */
+.a-IRR-table {
+  width: auto;
+  border: 1px solid #D0D0D0;
+  background-color: #FFF;
+}
+
+/* line 2581, ../scss/4_1.scss */
+.a-IRR-toolbar {
+  display: block;
+  float: left;
+  width: auto;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  border-collapse: separate;
+  border: 1px solid #C0C0C0;
+  background-image: linear-gradient(#f4f4f4, #dddddd);
+  box-shadow: 0 1px 0 white inset;
+}
+
+/* line 2593, ../scss/4_1.scss */
+.a-IRR {
+  border: none;
+  background-color: transparent;
+}
+
+/* line 2597, ../scss/4_1.scss */
+.a-IRR-paginationWrap--bottom {
+  border-top-width: 0;
+}
+
+/* line 2601, ../scss/4_1.scss */
+.a-IRR-table td,
+.a-IRR-singleRow-name, .a-IRR-singleRow-value {
+  padding: 4px 8px;
+}
+
+/* line 2604, ../scss/4_1.scss */
+.a-IRR-headerLink, .a-IRR-headerLabel {
+  padding: 8px;
+  white-space: nowrap;
+}
+
+/* line 2609, ../scss/4_1.scss */
+span.lov img {
+  vertical-align: top;
+}

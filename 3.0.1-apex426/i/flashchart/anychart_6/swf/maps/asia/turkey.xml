@@ -1,0 +1,481 @@
+<map_data>
+ <name>turkey</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="25.6644439697266" top="42.109992980957" right="44.8227615356445" bottom="35.817497253418"/>
+ <regions>
+  <region>
+   <centroid lat="37.5070762634277" lon="35.7537422180176"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ADA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Adana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8267974853516" lon="38.3349876403809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ADY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Adiyaman]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5208168029785" lon="30.6830520629883"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-AFY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Afyon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5077705383301" lon="43.3610229492188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-AGR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Agri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6378326416016" lon="35.7492980957031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-AMS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amasya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7597198486328" lon="30.9554023742676"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ANT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Antalya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.0499935150146" lon="41.8544387817383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ART]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Artvin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.7210426330566" lon="28.037914276123"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-AYD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aydin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.8509635925293" lon="27.8059482574463"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-BLK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Balikesir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0679092407227" lon="30.2003326416016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-BLC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bilecik]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.028736114502" lon="40.6456832885742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-BNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bingol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5194320678711" lon="42.3662872314453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-BTL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bitlis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.641414642334" lon="31.5595779418945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-BOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bolu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3816261291504" lon="30.1627044677734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-BRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Burdur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0813827514648" lon="29.0266609191895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-BUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bursa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.1279792785645" lon="26.6236057281494"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-CNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Canakkale]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7092971801758" lon="33.2201347351074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-CNR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cankiri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6092681884766" lon="34.7116584777832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-COR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Corum]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6790008544922" lon="29.3023586273193"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-DNZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Denizli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1477966308594" lon="40.2751312255859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-DYR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Diyarbakir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.2995758056641" lon="26.5230646133423"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-EDR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Edirne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7773513793945" lon="39.3711051940918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ELZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Elazig]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5477523803711" lon="39.5165214538574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ERZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Erzincan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0727844238281" lon="41.4009590148926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ERR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Erzurum]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.623462677002" lon="31.0709667205811"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ESK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eskisehir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.0998573303223" lon="37.2470359802246"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-GZN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaziantep]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.5639190673828" lon="38.618049621582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-GRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Giresun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.419303894043" lon="36.2379112243652"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-HAT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hatay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7144393920898" lon="33.8185844421387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ICE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Icel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9299926757813" lon="30.8209705352783"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ISP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Isparta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.0274238586426" lon="28.973274230957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-IST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Istanbul]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.6781845092773" lon="27.4186706542969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-IZM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Izmir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6127662658691" lon="43.4747085571289"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-KAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kars]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4404067993164" lon="33.6431884765625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-KST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kastamonu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.6302680969238" lon="35.9286041259766"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-KYS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kayseri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6637706756592" lon="27.5707979202271"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-KRK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kirklareli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.332145690918" lon="34.128288269043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-KRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kirsehir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.8791656494141" lon="29.8754119873047"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-KOC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kocaeli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.3159523010254" lon="29.5490245819092"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-KTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kutahya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4835662841797" lon="38.1645774841309"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-MLT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malatya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7576332092285" lon="28.1343021392822"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-MAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manisa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9248542785645" lon="36.9994316101074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-KMA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kahraman Maras]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.937629699707" lon="28.4573593139648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-MUG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mugla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.011360168457" lon="41.9198532104492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-MUS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8760986328125" lon="34.6362457275391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-NVS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nevsehir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7366218566895" lon="37.4208221435547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ORD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ordu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.9248924255371" lon="40.8928489685059"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-RIZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rize]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7482528686523" lon="30.4405498504639"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-SKR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sakarya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.2899932861328" lon="36.0194511413574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-SMS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Samsun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6460990905762" lon="34.8209648132324"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-SIN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sinop]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5555458068848" lon="37.2907867431641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-SIV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sivas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.0484485626221" lon="27.454044342041"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-TKR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tekirdag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.415355682373" lon="36.5723457336426"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-TOK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tokat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.8098602294922" lon="39.8022308349609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-TRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trabzon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1640205383301" lon="39.6338996887207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-TNC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tunceli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3531875610352" lon="39.0506858825684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-URF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Urfa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5467262268066" lon="29.3632373809814"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-USA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Usak]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5702667236328" lon="43.5859642028809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-VAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Van]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.6175880432129" lon="35.1329116821289"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-YZG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yozgat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4188270568848" lon="32.1898517608643"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ZNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zonguldak]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.6767921447754" lon="32.4840202331543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-ANK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ankara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.328197479248" lon="39.8262481689453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-GMS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gumshane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4474868774414" lon="43.7815132141113"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-HKK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hakkari]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8291549682617" lon="32.87721824646"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-KON]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Konya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.351131439209" lon="41.3245735168457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-MRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mardin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1765747070313" lon="34.2486000061035"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-NIG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nigde]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.979850769043" lon="42.0392951965332"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUR-SII]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Siirt]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

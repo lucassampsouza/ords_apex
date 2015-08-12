@@ -1,0 +1,71 @@
+/*
+	Oracle Application Express Plugins
+	D3 Bar Chart (d3.oracle.barchart)
+
+	To be compiled alongside the Universal Theme LESS file.
+*/
+@a_D3BarChart_axisColor: 		#dddddd;
+@a_D3BarChart_axisTextColor: 	#707070;
+@a_D3BarChart_axisTitleColor: 	#404040;
+
+.a-D3BarChart {
+	& &-axis {
+		line, path {
+			fill: none;
+			stroke: @a_D3BarChart_axisColor;
+		}
+		.tick text {
+			fill: @a_D3BarChart_axisTextColor;
+		}
+		&-title {
+			fill: @a_D3BarChart_axisTitleColor;
+			font-size: 1.1em;
+		}
+	}
+	& &-grid {
+		line, path {
+			fill: none;
+			stroke: @a_D3BarChart_axisColor;
+			stroke-opacity: 0.65;
+		}
+		text {
+			opacity: 0;
+		}
+	}
+	& &-axis &-axis--staging {
+		opacity: 0;
+	}
+	& &-tooltip {
+		position: absolute;
+	}
+	& &-container {
+		position: relative;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	&-bar {
+		&--in {
+			transition: opacity 0.1s ease-in-out;
+			opacity: 1;
+			&.a-D3BarChart-bar--fade {
+				opacity: 0.35;
+			}
+		}
+		&--clickable {
+			cursor: pointer;
+		}
+	}
+	.u-Processing {
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+	.a-D3ChartLegend, .a-D3ChartLegend-item, .a-D3ChartLegend.a-D3ChartLegend--background .a-D3ChartLegend-layout {
+		border-top: none !important;
+		border-right: none !important;
+		border-left: none !important;
+		border-bottom: none !important;
+		background-color: transparent;
+	}
+}

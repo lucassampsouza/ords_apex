@@ -1,0 +1,159 @@
+<map_data>
+ <name>ecuador</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-91.6638946533203" top="1.43777775764465" right="-75.2171173095703" bottom="-5.00913238525391"/>
+ <regions>
+  <region>
+   <centroid lat="-0.378194570541382" lon="-90.4544525146484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-GLP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Galapagos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.06293106079102" lon="-79.1119232177734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-AZU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Azuay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.67707121372223" lon="-79.0780639648438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-BLV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bolivar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.49887681007385" lon="-78.9925079345703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-CAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Canar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.792648762464523" lon="-78.0701446533203"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-CRC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carchi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.90111136436462" lon="-78.7489700317383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-CHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chimborazo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.844027787446976" lon="-78.8743591308594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-CTP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cotopaxi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.46128058433533" lon="-79.8549346923828"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-EOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[El Oro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.766249984502792" lon="-79.2737503051758"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-ESM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Esmeraldas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.96791672706604" lon="-80.0549392700195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-GUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guayas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.512237459421158" lon="-78.5337677001953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-IMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Imbabura]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.04933619499207" lon="-79.794807434082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-LOJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loja]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.35372990369797" lon="-79.5119476318359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-LRI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Los Rios]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.681527853012085" lon="-80.1598663330078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-MAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manabi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.61182916164398" lon="-77.8125381469727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-MSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morona-Santiago]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.79465293884277" lon="-76.9449310302734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-PST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pastaza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.172167748212814" lon="-78.7291717529297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-PCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pichincha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.32289737462997" lon="-78.5369491577148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-TNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tungurahua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.16831636428833" lon="-78.9363327026367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-ZCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zamora-Chinchipe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.73382318392396" lon="-76.8181838989258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-NAP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Napo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.0179162919521332" lon="-76.5862579345703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ECU-SCM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sucumbios]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

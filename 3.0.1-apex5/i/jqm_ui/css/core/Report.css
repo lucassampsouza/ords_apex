@@ -1,0 +1,25 @@
+/** 
+ * Import Compass
+ */
+/* ==========================================================================
+   Report
+   ========================================================================== */
+/* Percent Chart (Base Styles)
+   ========================================================================== */
+/* line 12, ../../scss/core/Report.scss */
+.a-Report-percentChart {
+  display: block;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 2px;
+  overflow: hidden;
+  height: 16px;
+  vertical-align: inherit;
+}
+
+/* line 21, ../../scss/core/Report.scss */
+.a-Report-percentChart-fill {
+  height: 16px;
+  background-color: #A0A0A0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+}

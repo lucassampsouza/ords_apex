@@ -1,0 +1,349 @@
+/* ==========================================================================
+   Report
+   ---
+   Report Templates (Classic and Interactive)
+   ========================================================================== */
+/* line 12, ../../scss/core/Report.scss */
+.a-Report-pagination,
+.a-Report-pagination table, .a-Report-report {
+  border-collapse: collapse;
+  table-layout: auto;
+  border-spacing: 0;
+}
+
+/* ==========================================================================
+  Report Container
+   ========================================================================== */
+/* line 22, ../../scss/core/Report.scss */
+.a-Report {
+  display: block;
+  overflow: auto;
+}
+/* line 25, ../../scss/core/Report.scss */
+.sql-workshop-iframe-page .a-Report {
+  overflow: visible;
+}
+
+/* ==========================================================================
+   Report Pagination
+   ========================================================================== */
+/* line 34, ../../scss/core/Report.scss */
+.a-Report-pagination {
+  width: 100%;
+}
+/* line 36, ../../scss/core/Report.scss */
+.a-Report-pagination td.pagination {
+  padding: 4px;
+}
+/* line 39, ../../scss/core/Report.scss */
+.a-Report-pagination td:empty {
+  display: none;
+}
+
+/* line 48, ../../scss/core/Report.scss */
+.a-Report-paginationText {
+  color: #707070;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: 0px 8px;
+}
+
+/**
+ * Bottom Pagination
+ */
+/**
+ * Pagination Link
+ */
+/* line 63, ../../scss/core/Report.scss */
+.a-Report-paginationLink {
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+/* ==========================================================================
+   Report Links
+   ---
+   External link and CSV link
+   ========================================================================== */
+/* line 74, ../../scss/core/Report.scss */
+.a-Report-links {
+  clear: both;
+  display: block;
+  border: 1px solid #F0F0F0;
+  border-top-width: 0;
+  padding: 8px;
+  background: #FAFAFA;
+}
+/* line 81, ../../scss/core/Report.scss */
+.a-Report-links:empty {
+  display: none;
+}
+
+/* ==========================================================================
+   Report Wrapper
+   ========================================================================== */
+/* line 89, ../../scss/core/Report.scss */
+.a-Report-wrap {
+  float: left;
+}
+
+/* ==========================================================================
+   Report
+   ========================================================================== */
+/**
+ * Column Header
+ */
+/* line 105, ../../scss/core/Report.scss */
+.a-Report-colHead {
+  background-color: #F8F8F8;
+  vertical-align: bottom;
+  padding: 12px;
+  color: #404040;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 113, ../../scss/core/Report.scss */
+.a-Report-cell--header {
+  background-color: #F8F8F8 !important;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/**
+* Table Cell
+*/
+/* line 122, ../../scss/core/Report.scss */
+.a-Report-cell {
+  padding: 8px 12px;
+  color: #404040;
+  transition: background-color .1s;
+  background-color: #fff;
+}
+
+/* line 129, ../../scss/core/Report.scss */
+.a-Report-report tr:nth-child(even) .a-Report-cell {
+  background-color: #FAFAFA;
+}
+
+/* ==========================================================================
+  .a-Report
+  ---
+  Standard Report (Bordered)
+  ========================================================================== */
+/* line 140, ../../scss/core/Report.scss */
+.a-Report-cell,
+.a-Report-colHead {
+  border-left: 1px solid #F0F0F0;
+  border-top: 1px solid #F0F0F0;
+}
+
+/* line 145, ../../scss/core/Report.scss */
+.a-Report-report tr .a-Report-cell:last-child,
+.a-Report-report tr .a-Report-colHead:last-child {
+  border-right: 1px solid #F0F0F0;
+}
+
+/* line 149, ../../scss/core/Report.scss */
+.a-Report-report tr:last-child .a-Report-cell {
+  border-bottom: 1px solid #F0F0F0;
+}
+
+/* ==========================================================================
+  .a-Report--noBorders
+  ---
+  Borderless Report
+  ========================================================================== */
+/* line 159, ../../scss/core/Report.scss */
+.a-Report--noBorders .a-Report-links {
+  background-color: transparent;
+  border-width: 0;
+}
+/* line 163, ../../scss/core/Report.scss */
+.a-Report--noBorders .a-Report-cell,
+.a-Report--noBorders .a-Report-colHead {
+  border-left-width: 0;
+  border-top-width: 0;
+}
+/* line 168, ../../scss/core/Report.scss */
+.a-Report--noBorders .a-Report-report tr .a-Report-cell:last-child,
+.a-Report--noBorders .a-Report-report tr .a-Report-colHead:last-child {
+  border-right-width: 0;
+}
+/* line 172, ../../scss/core/Report.scss */
+.a-Report--noBorders .a-Report-report tr:last-child .a-Report-cell {
+  border-bottom-width: 0;
+}
+
+/* ==========================================================================
+   .a-Report--stretch
+   ---
+   Stertch report to 100% width of container
+   ========================================================================== */
+/* line 183, ../../scss/core/Report.scss */
+.a-Report--stretch .a-Report-wrap,
+.a-Report--stretch .a-Report-report {
+  width: 100%;
+}
+
+/* ==========================================================================
+   .a-Report--confirmReport
+   ---
+   Used for wizard confirmation reports
+   ========================================================================== */
+/* line 194, ../../scss/core/Report.scss */
+.a-Report--confirmReport {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 195, ../../scss/core/Report.scss */
+.a-Report--confirmReport .a-Report-cell,
+.a-Report--confirmReport .a-Report-colHead {
+  padding: 12px;
+}
+/* line 199, ../../scss/core/Report.scss */
+.a-Report--confirmReport .a-Report-cell--header {
+  width: 50%;
+}
+
+/* ==========================================================================
+   .a-Report--inline
+   ---
+   Remove outer borders and header background color
+   ========================================================================== */
+/* line 213, ../../scss/core/Report.scss */
+.a-Report--inline .a-Report-links {
+  border-left-width: 0;
+  border-right-width: 0;
+}
+/* line 217, ../../scss/core/Report.scss */
+.a-Report--inline .a-Report-colHead {
+  border-top-width: 0;
+  background-color: #FFF;
+  border-bottom: 1px solid #F0F0F0;
+}
+/* line 225, ../../scss/core/Report.scss */
+.a-Report--inline .a-Report-report tr .a-Report-cell:first-child,
+.a-Report--inline .a-Report-report tr .a-Report-colHead:first-child {
+  border-left-width: 0;
+}
+/* line 229, ../../scss/core/Report.scss */
+.a-Report--inline .a-Report-report tr .a-Report-cell:last-child,
+.a-Report--inline .a-Report-report tr .a-Report-colHead:last-child {
+  border-right-width: 0;
+}
+
+/* ==========================================================================
+   .a-Report--staticRowColors
+   ---
+   Stertch report to 100% width of container
+   ========================================================================== */
+/* line 242, ../../scss/core/Report.scss */
+.a-Report--staticRowColors .a-Report-report tr:nth-child(even) .a-Report-cell {
+  background-color: #FFF;
+}
+
+/* ==========================================================================
+   .a-Report--horizontalBorders
+   ---
+   Stertch report to 100% width of container
+   ========================================================================== */
+/* line 253, ../../scss/core/Report.scss */
+.a-Report--horizontalBorders .a-Report-cell,
+.a-Report--horizontalBorders .a-Report-colHead {
+  border-left-width: 0;
+}
+/* line 257, ../../scss/core/Report.scss */
+.a-Report--horizontalBorders .a-Report-report tr .a-Report-cell:first-child,
+.a-Report--horizontalBorders .a-Report-report tr .a-Report-colHead:first-child {
+  border-left-width: 1px;
+}
+/* line 261, ../../scss/core/Report.scss */
+.a-Report--horizontalBorders .a-Report-report tr .a-Report-cell:last-child,
+.a-Report--horizontalBorders .a-Report-report tr .a-Report-colHead:last-child {
+  border-right-width: 1px;
+}
+
+/* ==========================================================================
+   .a-Report--verticalBorders
+   ---
+   Stertch report to 100% width of container
+   ========================================================================== */
+/* line 273, ../../scss/core/Report.scss */
+.a-Report--verticalBorders .a-Report-cell {
+  border-top-width: 0;
+}
+/* line 276, ../../scss/core/Report.scss */
+.a-Report--verticalBorders .a-Report-report tr:first-child .a-Report-cell {
+  border-top-width: 1px;
+}
+
+/* ==========================================================================
+   .a-Report--rowHighlight
+   ---
+   Stertch report to 100% width of container
+   ========================================================================== */
+/* line 287, ../../scss/core/Report.scss */
+.a-Report--rowHighlight .a-Report-report tr:hover .a-Report-cell,
+.a-Report--rowHighlight .a-Report-report tr:nth-child(even):hover .a-Report-cell {
+  background-color: #F4F4F4;
+}
+
+/* ==========================================================================
+   .a-Report--condensed
+   ---
+   Condensed Report (Smaller fonts + smaller padding)
+   ========================================================================== */
+/* line 299, ../../scss/core/Report.scss */
+.a-Report--condensed .a-Report-colHead {
+  padding: 8px;
+}
+/* line 302, ../../scss/core/Report.scss */
+.a-Report--condensed .a-Report-cell {
+  padding: 4px 8px;
+}
+
+/* ==========================================================================
+  .a-Report--vertical
+  ---
+  Vertical Report for showing key / value pairs
+  ========================================================================== */
+/* line 316, ../../scss/core/Report.scss */
+.a-Report--vertical.a-Report--stretch .a-Report-cell--header {
+  width: 20%;
+}
+/* line 321, ../../scss/core/Report.scss */
+.a-Report--vertical.a-Report--inline tr:first-child td {
+  border-top-width: 0;
+}
+/* line 324, ../../scss/core/Report.scss */
+.a-Report--vertical.a-Report--inline tr:last-child td {
+  border-bottom-width: 0;
+}
+
+/* line 330, ../../scss/core/Report.scss */
+.t-fht-thead.is-stuck {
+  overflow: visible;
+}
+/* line 332, ../../scss/core/Report.scss */
+.t-fht-thead.is-stuck:after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8px;
+  margin-bottom: -8px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0));
+  z-index: 100;
+}
+
+/* ==========================================================================
+   Percent Chart (Format Mask)
+   ========================================================================== */
+/* line 350, ../../scss/core/Report.scss */
+.a-Report-percentChart-fill {
+  background-color: #399BEA;
+}

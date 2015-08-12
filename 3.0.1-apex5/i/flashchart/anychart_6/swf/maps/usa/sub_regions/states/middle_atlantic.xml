@@ -1,0 +1,41 @@
+<map_data>
+ <name>middle_atlantic</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="STATE_FIPS" key="true"/>
+  <column name="SUB_REGION" key="false"/>
+ </columns>
+ <bounds left="-80.5244674682617" top="45.0060997009277" right="-71.870475769043" bottom="38.9565696716309"/>
+ <regions>
+  <region>
+   <centroid lat="40.1535243988037" lon="-74.7335777282715"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Jersey]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[34]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mid Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.9932518005371" lon="-77.613353729248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pennsylvania]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[42]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mid Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.7559986114502" lon="-75.8169708251953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New York]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[36]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mid Atl]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

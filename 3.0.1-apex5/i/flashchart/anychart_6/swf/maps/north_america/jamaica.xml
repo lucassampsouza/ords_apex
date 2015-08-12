@@ -1,0 +1,110 @@
+<map_data>
+ <name>jamaica</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-78.3739013671875" top="18.5224990844727" right="-76.2211151123047" bottom="17.696662902832"/>
+ <regions>
+  <region>
+   <centroid lat="17.9463558197021" lon="-77.3088912963867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-CLR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clarendon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.3705539703369" lon="-78.1335144042969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-HNV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hanover]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.0373592376709" lon="-77.5000076293945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-MNC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manchester]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.1262969970703" lon="-76.504753112793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-PRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Portland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.9658632278442" lon="-76.7612113952637"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-KNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kingston]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.3255805969238" lon="-77.2438583374023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-SAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saint Ann]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.0381927490234" lon="-77.0292816162109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-SCT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saint Catherine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.0408325195313" lon="-77.7638549804688"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-SEL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saint Elizabeth]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.3590259552002" lon="-77.8679275512695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-SJA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saint James]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.2755794525146" lon="-76.8856658935547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-SMA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saint Mary]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.9647197723389" lon="-76.4394073486328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-STH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saint Thomas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.3505325317383" lon="-77.6152877807617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-TRL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trelawny]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.1966781616211" lon="-78.1287612915039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-WST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Westmoreland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.0493469238281" lon="-76.7451858520508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JAM-SND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saint Andrew]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

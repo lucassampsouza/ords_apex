@@ -1,0 +1,89 @@
+<map_data>
+ <name>north_korea</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="124.322769165039" top="43.0083236694336" right="130.697418212891" bottom="37.6713790893555"/>
+ <regions>
+  <region>
+   <centroid lat="40.8941612243652" lon="126.459815979004"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRK-CDO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chagang-do]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.191333770752" lon="127.920669555664"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRK-HNA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hamgyong-namdo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.185962677002" lon="125.551517486572"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRK-HNM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hwanghae-namdo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5962409973145" lon="126.297428131104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRK-HBK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hwanghae-bukto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9986572265625" lon="126.672653198242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRK-KSI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kaesong-si]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.783748626709" lon="127.521774291992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRK-KDO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kangwon-do]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0746726989746" lon="125.34693145752"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRK-PBU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[P'yongan-bukto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4972152709961" lon="126.158740997314"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRK-PNA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[P'yongan-namdo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.254035949707" lon="127.984558105469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRK-YDO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yanggang-do]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9940223693848" lon="125.954845428467"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRK-PSI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[P'yongyang-si]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7869720458984" lon="129.752029418945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRK-HBU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hamgyong-bukto]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

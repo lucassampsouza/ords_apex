@@ -1,0 +1,41 @@
+<map_data>
+ <name>ak</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+ </columns>
+ <bounds left="-178.873024" top="71.3525606439998" right="179.758993" bottom="51.357688"/>
+ <regions>
+  <region>
+   <centroid lat="58.985928" lon="-155.3096635"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[996]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.6267953219999" lon="-156.4260585"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[997]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.5898235" lon="0.315564999999992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[995]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.8141465" lon="-134.897078691393"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[998]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.7314625" lon="-131.962565"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[999]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,201 @@
+<map_data>
+ <name>indonesia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="95.0080261230469" top="5.9138879776001" right="141.007019042969" bottom="-10.9300003051758"/>
+ <regions>
+  <region>
+   <centroid lat="3.96249938011169" lon="96.6469116210938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-ACE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aceh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-8.4556941986084" lon="115.08012008667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-BAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bali]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.86852085590363" lon="102.385879516602"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-BNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bengkulu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.84472179412842" lon="106.949569702148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-JBA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jawa Barat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.72352927923203" lon="102.793491363525"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-JAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jambi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.20999097824097" lon="106.83544921875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-JRA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jakarta Raya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.8742356300354" lon="110.417499542236"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-YGY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yogyakarta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.25625085830688" lon="113.202217102051"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-JTI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jawa Timur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.86111116409302" lon="129.593456268311"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-MAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maluku]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.305832862854" lon="110.176708221436"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-JTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jawa Tengah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.504267930984497" lon="111.392200469971"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-KBA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kalimantan Barat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.15353775024414" lon="115.486103057861"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-KSL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kalimantan Selatan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.40655612945557" lon="113.25426864624"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-KTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kalimantan Tengah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.04902720451355" lon="116.363315582275"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-KTI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kalimantan Timur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.82555174827576" lon="104.758018493652"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-LMP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lampung]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.56856997124851" lon="135.361404418945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-IJA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Irian Jaya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-8.59680557250977" lon="117.51432800293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-NTB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nusa Tenggara Barat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-8.79973030090332" lon="125.677345275879"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-TTI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Timor Timur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.79173278808594" lon="104.556930541992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-RIA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Riau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.12943270802498" lon="120.234630584717"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-SSL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sulawesi Selatan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.946666717529297" lon="121.684906005859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-STN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sulawesi Tengah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.15012109279633" lon="122.490810394287"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-STG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sulawesi Tenggara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.51333251595497" lon="123.925594329834"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-SUT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sulawesi Utara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.20027050375938" lon="100.207618713379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-SBA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sumatera Barat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.22601103782654" lon="105.173210144043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-SST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sumatera Selatan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.83777660131454" lon="98.7394943237305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-SUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sumatera Utara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.5" lon="122.048496246338"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IDN-NTT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nusa Tenggara Timur]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

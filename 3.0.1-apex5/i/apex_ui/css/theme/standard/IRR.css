@@ -1,0 +1,157 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Interactive Report Styles
+   ========================================================================== */
+/* line 14, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-header.is-active .a-IRR-headerLink {
+  color: #FFF;
+}
+/* line 17, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-header.is-active .a-IRR-headerSort {
+  color: #FFF;
+}
+
+/* line 21, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget {
+  border-color: #286da6;
+}
+
+/* line 24, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-actions {
+  border-collapse: separate;
+  padding: 4px;
+  border-bottom-color: #236092;
+}
+
+/* line 29, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-actions-item {
+  border: none;
+}
+
+/* line 32, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button {
+  background-color: transparent;
+  color: #86b8e2;
+  border-radius: 2px;
+  padding: 10px 0;
+}
+/* line 37, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button.is-active, .a-IRR-button.a-IRR-sortWidget-button:focus {
+  background-color: transparent;
+  color: #FFF;
+}
+/* line 42, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button.is-active, .a-IRR-button.a-IRR-sortWidget-button.is-active:hover {
+  background-color: #25659a;
+  box-shadow: inherit;
+}
+/* line 47, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button:hover, .a-IRR-button.a-IRR-sortWidget-button:active:focus {
+  background-color: #286da6;
+  color: #FFF;
+  box-shadow: none;
+}
+
+/* line 55, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-header.is-active,
+.a-IRR-sortWidget-actions,
+.a-IRR-sortWidget-actions-item,
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"] {
+  background-color: #286da6;
+}
+
+/* line 61, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"]::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 64, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"]::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 67, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"]:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 70, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"] {
+  color: #FFF;
+  border-bottom: 1px solid #236092;
+}
+
+/* line 74, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-searchLabel:before {
+  color: #FFF;
+}
+
+/* line 77, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-rows {
+  background-color: #2D7BBB;
+  border-top-width: 0;
+  background: linear-gradient(#2d7bbb 30%, rgba(45, 123, 187, 0)), linear-gradient(rgba(45, 123, 187, 0), #2d7bbb 70%) 0 100%, linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: #2d7bbb;
+  background-size: 100% 12px, 100% 12px, 100% 6px, 100% 6px;
+  background-attachment: local, local, scroll, scroll;
+}
+
+/* line 90, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-row {
+  color: #FFF;
+  box-shadow: 0 -1px 0 #286da6 inset;
+}
+/* line 93, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-sortWidget-row:hover {
+  background-color: #3388ce;
+}
+
+/* line 98, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-table tr:nth-child(even) td {
+  background-color: #FAFAFA;
+}
+
+/* line 101, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-table tr:hover td,
+.a-IRR-table tr:nth-child(even):hover td {
+  background-color: #F4F4F4;
+}

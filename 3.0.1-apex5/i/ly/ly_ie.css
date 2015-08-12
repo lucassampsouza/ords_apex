@@ -1,0 +1,4 @@
+#item_options{background-color:#EEE;padding:2px 4px;border:1px solid #CCCCCC;height:32px !important;}
+#itempallet div{width:35px !important;}
+#spacer,.row div,#tempdrag div{margin:3px 3px !important;}
+#spacer{filter:alpha(opacity=50);}

@@ -1,0 +1,480 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Button for Theme
+******************************************************************************/
+/* line 35, ../../../scss/theme/standard/Button.scss */
+.a-Button,
+.fc-button {
+  border: none;
+  color: #505050;
+  background-clip: padding-box;
+  background-color: #F9F9F9;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.125) inset;
+  text-shadow: none;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color .1s, box-shadow .1s;
+}
+
+/* line 46, ../../../scss/theme/standard/Button.scss */
+.a-Button,
+.ui-button {
+  border-radius: 2px;
+}
+
+/* line 50, ../../../scss/theme/standard/Button.scss */
+.a-Button:hover,
+.fc-button.ui-state-hover {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset, 0 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+/* line 56, ../../../scss/theme/standard/Button.scss */
+.a-Button:focus,
+.ui-button.ui-state-focus,
+.fc-button.ui-state-focus {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 1px #399bea inset, 0 0 0 1px #399bea !important;
+  outline: none;
+  z-index: 110;
+}
+
+/* line 69, ../../../scss/theme/standard/Button.scss */
+.lte-ie9 .a-Button:focus,
+.lte-ie9 .ui-button.ui-state-focus,
+.lte-ie9 .fc-button.ui-state-focus,
+.ie9 .a-Button:focus,
+.ie9 .ui-button.ui-state-focus,
+.ie9 .fc-button.ui-state-focus {
+  outline: 1px dotted;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 76, ../../../scss/theme/standard/Button.scss */
+  .a-Button:focus,
+  .ui-button.ui-state-focus,
+  .fc-button.ui-state-focus {
+    outline: 1px dotted;
+  }
+}
+@media screen and (-ms-high-contrast: active) {
+  /* line 85, ../../../scss/theme/standard/Button.scss */
+  .a-Button,
+  .fc-button,
+  .ui-button {
+    border: 1px solid;
+  }
+}
+/* line 92, ../../../scss/theme/standard/Button.scss */
+.a-Button:active,
+.fc-button.ui-state-hover:active {
+  background-color: #E4E4E4;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.25) inset;
+  z-index: 100;
+}
+
+/* line 98, ../../../scss/theme/standard/Button.scss */
+.a-Button.is-active,
+.ui-buttonset .ui-button.ui-state-active,
+.fc-button.ui-state-active,
+.a-Button.is-active:active,
+.ui-buttonset .ui-button.ui-state-active.ui-state-hover:active,
+.a-MenuButton.is-active {
+  background-color: #CFE6FA;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 2px 1px rgba(0, 0, 0, 0.15) inset;
+  color: #505050;
+  font-weight: normal;
+  text-shadow: none;
+  z-index: 100;
+}
+
+/* line 112, ../../../scss/theme/standard/Button.scss */
+.a-Header .a-Button.is-active {
+  box-shadow: none;
+  background-color: #FFF;
+}
+
+/* line 117, ../../../scss/theme/standard/Button.scss */
+.a-Button.a-Button--activeTab {
+  background-color: #FFF;
+  box-shadow: none;
+  color: #505050;
+  font-weight: normal;
+  text-shadow: none;
+  z-index: 100;
+}
+
+/* line 125, ../../../scss/theme/standard/Button.scss */
+.a-Button#header-adminMenu {
+  transition: none;
+}
+
+/* line 128, ../../../scss/theme/standard/Button.scss */
+.a-Button#header-adminMenu:hover {
+  box-shadow: 0 3px 0 #BAC7C8 inset, 0 -1px 0 #E0E0E0 inset;
+}
+
+/* line 131, ../../../scss/theme/standard/Button.scss */
+.a-Button.a-Button--activeTab.tab-admin {
+  box-shadow: 0 3px 0 #BAC7C8 inset !important;
+}
+
+/* line 135, ../../../scss/theme/standard/Button.scss */
+.a-Button.is-disabled,
+.a-Button.is-disabled:active,
+.a-Button:disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
+/* line 141, ../../../scss/theme/standard/Button.scss */
+.a-Button.is-locked {
+  background-color: #DD0000;
+  color: #FFF;
+}
+
+/* line 146, ../../../scss/theme/standard/Button.scss */
+.a-Button.is-locked-by-self {
+  background-color: #58C14A;
+  color: #FFF;
+}
+
+/* line 151, ../../../scss/theme/standard/Button.scss */
+.a-Button--hot,
+body .ui-button.ui-button--hot,
+body .ui-button.a-Button--hot {
+  background-color: #2D7BBB;
+  color: #FFFFFF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset, 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 159, ../../../scss/theme/standard/Button.scss */
+.a-Button--hot:hover,
+body .ui-button.ui-button--hot:hover,
+body .ui-button.a-Button--hot:hover {
+  background-color: #398FDF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset, 0 1px 4px 1px rgba(0, 0, 0, 0.15);
+}
+/* line 164, ../../../scss/theme/standard/Button.scss */
+.a-Button--hot:hover, .a-Button--hot:focus,
+body .ui-button.ui-button--hot:hover,
+body .ui-button.ui-button--hot:focus,
+body .ui-button.a-Button--hot:hover,
+body .ui-button.a-Button--hot:focus {
+  background-color: #398FDF;
+}
+/* line 168, ../../../scss/theme/standard/Button.scss */
+.a-Button--hot:active, .a-Button--hot.is-active, .a-Button--hot.a-MenuButton.is-active,
+body .ui-button.ui-button--hot:active,
+body .ui-button.ui-button--hot.is-active,
+body .ui-button.ui-button--hot.a-MenuButton.is-active,
+body .ui-button.a-Button--hot:active,
+body .ui-button.a-Button--hot.is-active,
+body .ui-button.a-Button--hot.a-MenuButton.is-active {
+  background-color: #2875D1;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.25) inset;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* line 176, ../../../scss/theme/standard/Button.scss */
+.a-Button--primary {
+  background-color: #CFE6FA;
+  color: #404040;
+}
+/* line 179, ../../../scss/theme/standard/Button.scss */
+.a-Button--primary:hover, .a-Button--primary:focus {
+  background-color: #DEEFFB;
+}
+/* line 183, ../../../scss/theme/standard/Button.scss */
+.a-Button--primary:active, .a-Button--primary.is-active {
+  background-color: #7FBEF2;
+}
+
+/* line 188, ../../../scss/theme/standard/Button.scss */
+.a-Button--regionHeader,
+.a-Button--regionHeader:hover,
+.a-Button--regionHeader:active,
+.a-Button--noUI,
+.a-Button--noUI:hover,
+.a-Button--noUI:active {
+  background-color: transparent;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+/* line 200, ../../../scss/theme/standard/Button.scss */
+.a-Button,
+.ui-button {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 12px;
+}
+
+/* line 219, ../../../scss/theme/standard/Button.scss */
+.a-Button--popupLOV {
+  padding: 4px 8px;
+  color: #404040;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -1px;
+  border-left-width: 0;
+}
+
+/* line 227, ../../../scss/theme/standard/Button.scss */
+.a-Button--calendar {
+  padding: 4px 8px;
+  margin-left: -1px;
+}
+
+/* line 233, ../../../scss/theme/standard/Button.scss */
+.a-Button .a-Icon--pullRight {
+  float: right !important;
+  margin-left: 4px;
+  margin-right: 0 !important;
+}
+
+/* line 240, ../../../scss/theme/standard/Button.scss */
+.a-Button--withIcon {
+  padding: 8px 10px;
+  line-height: 16px;
+}
+/* line 243, ../../../scss/theme/standard/Button.scss */
+.a-Button--withIcon .a-Icon {
+  margin-right: 4px;
+}
+/* line 247, ../../../scss/theme/standard/Button.scss */
+.a-Button--withIcon.a-Button--slim {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+/* line 253, ../../../scss/theme/standard/Button.scss */
+.a-Button--noLabel .a-FAIcon,
+.a-Button--noLabel .a-Icon {
+  margin-right: 0;
+}
+
+/* line 259, ../../../scss/theme/standard/Button.scss */
+.a-Button--iconTextButton {
+  padding-right: 8px;
+}
+/* line 261, ../../../scss/theme/standard/Button.scss */
+.a-Button--iconTextButton.a-Button--large, .a-Wizard-buttons .a-Button--iconTextButton.a-Button {
+  padding-right: 12px;
+}
+/* line 265, ../../../scss/theme/standard/Button.scss */
+.a-Button--iconTextButton.a-Button--small {
+  padding-right: 6px !important;
+}
+
+/* line 271, ../../../scss/theme/standard/Button.scss */
+.a-Button--iconLeft {
+  position: relative;
+  padding-right: 12px;
+  padding-left: 24px;
+}
+/* line 273, ../../../scss/theme/standard/Button.scss */
+.a-Button--iconLeft .a-Icon {
+  position: absolute;
+  left: 8px;
+}
+/* line 281, ../../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button--iconLeft.a-Button--large, .a-Button--iconLeft.a-Button--large {
+  padding-right: 16px;
+  padding-left: 32px;
+}
+/* line 285, ../../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button--iconLeft.a-Button--large .a-Icon, .a-Button--iconLeft.a-Button--large .a-Icon {
+  left: 12px;
+}
+/* line 289, ../../../scss/theme/standard/Button.scss */
+.a-Button--iconLeft.a-Button--small {
+  padding-right: 8px !important;
+  padding-left: 24px !important;
+}
+/* line 292, ../../../scss/theme/standard/Button.scss */
+.a-Button--iconLeft.a-Button--small .a-Icon {
+  left: 6px;
+}
+
+/* line 299, ../../../scss/theme/standard/Button.scss */
+.a-Button--small,
+.a-Button--listManager {
+  font-size: 11px;
+  line-height: 16px;
+  padding: 4px 8px !important;
+}
+
+/* line 307, ../../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button,
+.a-Button--large {
+  padding: 14px 16px;
+  line-height: 16px;
+  font-size: 14px;
+}
+/* line 312, ../../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button.a-Button--withIcon,
+.a-Button--large.a-Button--withIcon {
+  line-height: 16px;
+}
+
+/* line 318, ../../../scss/theme/standard/Button.scss */
+.a-Button--largeIcon {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* line 322, ../../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button,
+.a-Button--largeIcon {
+  line-height: 20px;
+}
+/* line 324, ../../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button .a-Icon,
+.a-Button--largeIcon .a-Icon {
+  width: 20px;
+  height: 20px;
+}
+/* line 328, ../../../scss/theme/standard/Button.scss */
+.a-Wizard-buttons .a-Button .a-Icon:before,
+.a-Button--largeIcon .a-Icon:before {
+  font-size: 20px !important;
+}
+
+/* line 333, ../../../scss/theme/standard/Button.scss */
+.a-Button--largeIcon.a-Button--large
+.a-Wizard-buttons .a-Button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* line 338, ../../../scss/theme/standard/Button.scss */
+.a-Button--largeIcon.a-Button--small {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+/* line 344, ../../../scss/theme/standard/Button.scss */
+.a-Button--navLink {
+  padding: 12px;
+  color: #707070;
+}
+/* line 347, ../../../scss/theme/standard/Button.scss */
+.a-Button--navLink:before {
+  background-color: #E0E0E0;
+}
+/* line 352, ../../../scss/theme/standard/Button.scss */
+.a-Button--navLink:focus:before, .a-Button--navLink.is-focused:before {
+  display: none;
+}
+/* line 356, ../../../scss/theme/standard/Button.scss */
+.a-Button--navLink:active, .a-Button--navLink.is-active {
+  background-color: #D0D0D0;
+}
+
+/* line 361, ../../../scss/theme/standard/Button.scss */
+.a-Button--navLink:hover,
+.a-Button--navLink.a-MenuButton.is-active {
+  background-color: #fff;
+  box-shadow: 0 -1px 0 #E0E0E0 inset;
+  text-shadow: none;
+}
+
+/* line 367, ../../../scss/theme/standard/Button.scss */
+.a-Button--navLink.a-MenuButton.is-active {
+  box-shadow: none;
+}
+
+/* line 370, ../../../scss/theme/standard/Button.scss */
+.a-Button--accountMenu {
+  padding: 8px;
+}
+
+/* line 376, ../../../scss/theme/standard/Button.scss */
+.a-Button.a-Button--hot,
+.a-Button--strongLabel {
+  font-weight: bold;
+}
+
+/* line 383, ../../../scss/theme/standard/Button.scss */
+.a-Button--helpButton .a-Icon:before {
+  color: #D0D0D0;
+}
+/* line 386, ../../../scss/theme/standard/Button.scss */
+.a-Button--helpButton:hover .a-Icon:before {
+  color: #404040;
+}
+
+/******************************************************************************
+jQuery Button Set
+******************************************************************************/
+/* line 393, ../../../scss/theme/standard/Button.scss */
+.ui-buttonset {
+  font-size: 0;
+}
+
+/* line 397, ../../../scss/theme/standard/Button.scss */
+.ui-buttonset .ui-button.ui-corner-left {
+  border-radius: 2px 0 0 2px;
+}
+
+/* line 400, ../../../scss/theme/standard/Button.scss */
+.ui-buttonset .ui-button.ui-corner-right {
+  border-radius: 0 2px 2px 0;
+}
+
+/* line 403, ../../../scss/theme/standard/Button.scss */
+.ui-buttonset .ui-state-active {
+  font-weight: bold;
+}
+
+/* line 406, ../../../scss/theme/standard/Button.scss */
+.ui-button .ui-button-text {
+  line-height: 14px;
+}
+
+/* line 414, ../../../scss/theme/standard/Button.scss */
+.a-Button--listManager {
+  margin-left: 4px;
+}

@@ -1,0 +1,187 @@
+<map_data>
+ <name>ukraine</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="22.1514415740967" top="52.3797149658203" right="40.1738815307617" bottom="44.381103515625"/>
+ <regions>
+  <region>
+   <centroid lat="49.351936340332" lon="31.2102718353271"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-CHK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cherkassy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.3648147583008" lon="31.9974937438965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-CHH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chernigov]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1943359375" lon="26.2230930328369"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-CHV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chernovtsy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.3280410766602" lon="34.9540176391602"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-DNP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dnepropetrovsk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.053394317627" lon="37.8134651184082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-DNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Donetsk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.6181869506836" lon="24.5925979614258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-IVF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ivano-Frankovsk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.4990196228027" lon="36.4479064941406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-KKV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khar'kov]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.307487487793" lon="34.5588760375977"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-KRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Crimean]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.5049934387207" lon="27.0184688568115"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-KML]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khmel'nitskiy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.5047912597656" lon="31.839391708374"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-KVG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kirovograd]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6613616943359" lon="33.3905982971191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-KRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kherson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.3349952697754" lon="30.7030277252197"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-KYV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kiev]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.9461059570313" lon="39.013484954834"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-LHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lugansk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.6760787963867" lon="24.0447177886963"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-LVV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[L'viv]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.3477668762207" lon="31.6713886260986"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-MKL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nikolayev]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.7169380187988" lon="29.7626361846924"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-ODS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Odessa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.6440238952637" lon="33.7701454162598"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-PLT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Poltava]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.9760513305664" lon="26.3962345123291"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-RVN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rovno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.2416610717773" lon="34.3143196105957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-SUM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sumy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.3851318359375" lon="25.5466690063477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-TRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ternopl']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.9459648132324" lon="28.7227745056152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-VNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vinnitsa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.127513885498" lon="24.8509254455566"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-VLY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Volyn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.4980506896973" lon="23.3836355209351"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-ZKP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zakarpats'ka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1927299499512" lon="35.713680267334"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-ZPR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zaporozh'ye]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.6213836669922" lon="28.4671020507813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UKR-ZTM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zhitomir]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

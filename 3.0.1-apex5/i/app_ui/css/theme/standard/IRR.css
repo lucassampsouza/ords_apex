@@ -1,0 +1,91 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/******************************************************************************
+Sprite Mixin
+******************************************************************************/
+/******************************************************************************
+Extendible Sprite Class
+******************************************************************************/
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/******************************************************************************
+Interactive Report
+******************************************************************************/
+/* line 10, ../../../scss/theme/standard/IRR.scss */
+.a-IRR {
+  border-color: #E0E0E0;
+  background-color: #FFF;
+}
+
+/* line 14, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-toolbar {
+  border-color: #E0E0E0;
+  background-color: #F0F0F0;
+}
+
+/* ==========================================================================
+   Search Field + Button
+   ========================================================================== */
+/* line 22, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-search-field {
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+/* line 27, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-search-field:focus {
+  border-color: #4696fc;
+  -webkit-box-shadow: 0 0 0 1px #4696fc inset, -2px 0 0 #4696fc inset, 2px 0 0 #4696fc inset, 0 0 2px 0 rgba(70, 150, 252, 0.5);
+  -moz-box-shadow: 0 0 0 1px #4696fc inset, -2px 0 0 #4696fc inset, 2px 0 0 #4696fc inset, 0 0 2px 0 rgba(70, 150, 252, 0.5);
+  box-shadow: 0 0 0 1px #4696fc inset, -2px 0 0 #4696fc inset, 2px 0 0 #4696fc inset, 0 0 2px 0 rgba(70, 150, 252, 0.5);
+}
+
+/* line 32, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-button--search {
+  vertical-align: top;
+}
+
+/* ==========================================================================
+   Select Lists (Rows and Saved Reports)
+   ========================================================================== */
+/* line 39, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-selectList {
+  border-color: #E0E0E0;
+}
+/* line 41, ../../../scss/theme/standard/IRR.scss */
+.a-IRR-selectList:focus {
+  border-color: #4696fc;
+  -webkit-box-shadow: 0 0 0 1px #4696fc, 0 0 2px 0 rgba(70, 150, 252, 0.5);
+  -moz-box-shadow: 0 0 0 1px #4696fc, 0 0 2px 0 rgba(70, 150, 252, 0.5);
+  box-shadow: 0 0 0 1px #4696fc, 0 0 2px 0 rgba(70, 150, 252, 0.5);
+}

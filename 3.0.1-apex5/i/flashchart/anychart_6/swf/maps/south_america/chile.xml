@@ -1,0 +1,110 @@
+<map_data>
+ <name>chile</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-109.449172973633" top="-17.5052795410156" right="-66.4191741943359" bottom="-55.9197235107422"/>
+ <regions>
+  <region>
+   <centroid lat="-30.0154209136963" lon="-94.1038970947266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-PS1]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ocean Islands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.9981708526611" lon="-70.9286155700684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-VLP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Valparaiso]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-41.6168098449707" lon="-73.2479248046875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-LLA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Los Lagos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-23.4770851135254" lon="-68.8669509887695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-ANT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Antofagasta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-38.5973663330078" lon="-72.1832046508789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-ARC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Araucania]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-27.507640838623" lon="-69.9044494628906"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-ATC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Atacama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-37.1757850646973" lon="-72.3518524169922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-BIO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bio-Bio]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-30.6623649597168" lon="-70.765007019043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-CQM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coquimbo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-34.4309711456299" lon="-71.0556945800781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-LGB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Libertador General Bernardo O'Higgins]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-52.2770843505859" lon="-71.0380630493164"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-MYA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Magallanes y de la Antartica Chilena]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-46.4628505706787" lon="-73.4127883911133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-ADG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aisen del General Carlos Ibanez del Campo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-35.6129417419434" lon="-71.5595245361328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-MAU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maule]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-33.6056499481201" lon="-70.7490844726563"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-RMT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Region Metropolitana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.4840297698975" lon="-69.4214935302734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHL-TRP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tarapaca]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

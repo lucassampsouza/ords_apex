@@ -1,0 +1,110 @@
+<map_data>
+ <name>malaysia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="99.6408233642578" top="7.35277652740479" right="119.272491455078" bottom="0.85611093044281"/>
+ <regions>
+  <region>
+   <centroid lat="3.14348101615906" lon="101.6735496521"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-KLL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kuala Lumpur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.08226382732391" lon="103.390407562256"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-JOH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Johor]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.34513807296753" lon="100.369689941406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-PPN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pulau Pinang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.39709615707397" lon="102.013442993164"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-KLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kelantan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.29099893569946" lon="102.292663574219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-MEL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Melaka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.83765649795532" lon="102.212471008301"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-NSM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Negeri Sembilan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.60735988616943" lon="102.488773345947"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-PHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pahang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.79527711868286" lon="101.057193756104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-PER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Perak]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.43388795852661" lon="100.00993347168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-PRL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Perlis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.81038284301758" lon="100.658020019531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-KED]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kedah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.93777638673782" lon="112.604572296143"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-SRW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sarawak]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.22684931755066" lon="101.384414672852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-SLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Selangor]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.86241674423218" lon="102.940254211426"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-TRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Terengganu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.73110318183899" lon="117.2170753479"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MYS-SAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sabah]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

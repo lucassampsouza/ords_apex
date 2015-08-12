@@ -1,0 +1,110 @@
+<map_data>
+ <name>el_salvador</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-90.1083374023438" top="14.4319820404053" right="-87.6847229003906" bottom="13.1563873291016"/>
+ <regions>
+  <region>
+   <centroid lat="13.8657388687134" lon="-89.9013977050781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-AHC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ahuachapan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.8787217140198" lon="-88.7329254150391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-CBN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cabanas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.1721839904785" lon="-89.045051574707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-CHL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chalatenango]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.860276222229" lon="-89.0059051513672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-CSC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cuscatlan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7385034561157" lon="-89.3711471557617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-LLB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Libertad]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.4663100242615" lon="-88.9629211425781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-LPA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Paz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.5277376174927" lon="-87.888298034668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-LUN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Union]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.764720916748" lon="-88.0988922119141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-MRZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morazan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.5360069274902" lon="-88.2688522338867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-SMI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Miguel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7773470878601" lon="-89.1465950012207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-SSL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Salvador]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.1034917831421" lon="-89.4957046508789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-SAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Ana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.5323042869568" lon="-88.6923675537109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-SVC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Vicente]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7120261192322" lon="-89.6951446533203"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-SNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sonsonate]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.4269437789917" lon="-88.4612808227539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLV-USL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Usulutan]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

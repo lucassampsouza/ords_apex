@@ -1,0 +1,140 @@
+/**
+ * Import Compass
+ */
+/* ==========================================================================
+   Hero Region
+   ---
+   Hero Region is used for homepages to introduce / onboard the user.
+   ========================================================================== */
+.no-anim .t-HeroRegion {
+  display: none; }
+
+.t-HeroRegion {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden; }
+  .t-HeroRegion .col {
+    padding-right: 0;
+    padding-left: 0; }
+
+.t-HeroRegion-wrap {
+  display: table;
+  width: 100%;
+  border-collapse: collapse; }
+  @media only screen and (max-width: 640px) {
+    .t-HeroRegion-wrap {
+      display: block; } }
+
+.t-HeroRegion-title {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  font-weight: 400;
+  margin: 0; }
+
+.t-HeroRegion-title + p {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 300;
+  opacity: 0.75; }
+
+.t-HeroRegion-col {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 16px; }
+  @media only screen and (max-width: 640px) {
+    .t-HeroRegion-col {
+      display: block; } }
+
+.t-HeroRegion-buttons {
+  white-space: nowrap; }
+  .t-HeroRegion-buttons:empty {
+    display: none; }
+
+.t-HeroRegion-col--left {
+  width: 1%; }
+  @media only screen and (max-width: 640px) {
+    .t-HeroRegion-col--left {
+      float: left;
+      width: auto; } }
+
+.t-HeroRegion-col--content {
+  width: 90%;
+  padding-left: 0;
+  padding-right: 0; }
+  @media only screen and (max-width: 640px) {
+    .t-HeroRegion-col--content {
+      overflow: hidden;
+      width: auto; } }
+
+.t-HeroRegion-col--right {
+  text-align: right;
+  width: 9%; }
+  @media only screen and (max-width: 640px) {
+    .t-HeroRegion-col--right {
+      display: block;
+      width: auto;
+      padding: 0 16px 8px 16px;
+      clear: both; } }
+
+.t-HeroRegion-icon {
+  vertical-align: top;
+  width: 64px;
+  height: 64px;
+  display: block;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 42px;
+  line-height: 6.4rem; }
+  .t-HeroRegion-icon.fa {
+    font-size: 24px;
+    line-height: 6.4rem; }
+
+.t-HeroRegion-form input[type=text].t-Form-searchField {
+  width: 320px; }
+  @media only screen and (max-width: 768px) {
+    .t-HeroRegion-form input[type=text].t-Form-searchField {
+      width: 180px; } }
+  @media only screen and (max-width: 640px) {
+    .t-HeroRegion-form input[type=text].t-Form-searchField {
+      width: 100%; } }
+
+/**
+*
+* Hero Region - Featured
+*
+**/
+.t-HeroRegion--featured {
+  border-bottom-width: 0; }
+  .t-HeroRegion--featured .t-HeroRegion-wrap {
+    padding: 24px 0; }
+  .t-HeroRegion--featured .t-HeroRegion-wrap, .t-HeroRegion--featured .t-HeroRegion-col {
+    display: block; }
+  .t-HeroRegion--featured .t-HeroRegion-col {
+    padding: 0;
+    width: auto;
+    vertical-align: top; }
+  .t-HeroRegion--featured .t-HeroRegion-col--left, .t-HeroRegion--featured .t-HeroRegion-title, .t-HeroRegion--featured .t-HeroRegion-col--content > p {
+    text-align: center; }
+  .t-HeroRegion--featured .t-HeroRegion-title {
+    margin-top: 12px;
+    margin-bottom: 12px; }
+  .t-HeroRegion--featured .t-HeroRegion-icon {
+    width: 128px;
+    height: 128px; }
+  .t-HeroRegion--featured .t-HeroRegion-form .t-Form-inputContainer {
+    padding-bottom: 0; }
+  @media only screen and (max-width: 640px) {
+    .t-HeroRegion--featured .t-HeroRegion-col {
+      float: none; }
+
+    .t-HeroRegion--featured .t-HeroRegion-wrap {
+      padding: 12px; }
+
+    .t-HeroRegion--featured .t-HeroRegion-icon {
+      width: 64px;
+      height: 64px; }
+
+    .t-HeroRegion--featured .t-HeroRegion-title {
+      margin-top: 0; }
+ }

@@ -1,0 +1,75 @@
+<map_data>
+ <name>gabon</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="8.69833183288574" top="2.31789827346802" right="14.5205545425415" bottom="-3.92527723312378"/>
+ <regions>
+  <region>
+   <centroid lat="0.239999890327454" lon="10.1390266418457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GAB-EST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Estuaire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.22777792066336" lon="13.6316065788269"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GAB-HOG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haut-Ogooue]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.509861156344414" lon="10.5697212219238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GAB-MOG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moyen-Ogooue]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.69356173276901" lon="11.1830549240112"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GAB-NGO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ngounie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.08847212791443" lon="10.9839630126953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GAB-NYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nyanga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.343749940395355" lon="12.8824987411499"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GAB-OIV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ogooue-Ivindo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.819583356380463" lon="12.531943321228"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GAB-OLO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ogooue-Lolo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.50406903028488" lon="9.65263748168945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GAB-OMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ogooue-Maritime]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.27228246629238" lon="11.8302774429321"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GAB-WNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Woleu-Ntem]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

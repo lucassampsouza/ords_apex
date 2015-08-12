@@ -1,0 +1,75 @@
+<map_data>
+ <name>sudan</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="21.8277740478516" top="22.2322196960449" right="38.6074981689453" bottom="3.49339437484741"/>
+ <regions>
+  <region>
+   <centroid lat="8.99624061584473" lon="31.8437175750732"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SDN-AAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[A'ali an Nil]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.4698600769043" lon="33.6088733673096"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SDN-AWU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Wusta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.1548912525177" lon="31.1193027496338"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SDN-AIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Istiwa'iyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.9580545425415" lon="33.0004787445068"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SDN-AKH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Khartum]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.1130542755127" lon="29.8997459411621"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SDN-ASH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ash Shamaliyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.3336124420166" lon="35.9374961853027"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SDN-ASR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ash Sharqiyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.10597229003906" lon="27.9061088562012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SDN-BAG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bahr al Ghazal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.3434705734253" lon="24.8611755371094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SDN-DRF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Darfur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.0029144287109" lon="29.6795825958252"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SDN-KRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kurdufan]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

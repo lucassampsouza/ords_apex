@@ -1,0 +1,56 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+/* line 10, ../../../scss/theme/standard/Footer.scss */
+.a-Footer {
+  background-color: #FFF;
+  border-color: #E0E0E0;
+  font-size: 11px;
+  line-height: 16px;
+  color: #707070;
+}
+
+/* line 18, ../../../scss/theme/standard/Footer.scss */
+.a-Page--simpleWizard .a-Footer {
+  background-color: transparent;
+  border-color: transparent;
+}

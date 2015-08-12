@@ -1,0 +1,40 @@
+<map_data>
+ <name>ireland</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-10.474723815918" top="55.3802719116211" right="-6.0130558013916" bottom="51.4455490112305"/>
+ <regions>
+  <region>
+   <centroid lat="53.7191619873047" lon="-8.92111158370972"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRL-CNN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Connacht]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.1393051147461" lon="-7.0430269241333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRL-LEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leinster]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.3064804077148" lon="-8.72264003753662"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRL-MUN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Munster]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.5744400024414" lon="-7.67513990402222"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IRL-ULT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ulster]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,261 @@
+<map_data>
+ <name>nigeria</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="GMI_ADMIN" key="true"/>
+ </columns>
+ <bounds left="2.69249963760376" top="13.8914985656738" right="14.6580543518066" bottom="4.27277755737305"/>
+ <regions>
+  <region>
+   <centroid lat="6.52775239944458" lon="3.52258038520813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI05]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lagos]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-LAG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.9775629043579" lon="10.3226289749146"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI06]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bauchi]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-BAU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.11972141265869" lon="7.84805488586426"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI21]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Akwa Ibom]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-AKI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.91708183288574" lon="7.20606899261475"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI11]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Abuja Capital Territory (Abuja)]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-FCT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.12941217422485" lon="3.65993499755859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI16]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ogun]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-OGU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.96208119392395" lon="5.21019077301025"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI17]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ondo]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-OND]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.15307903289795" lon="8.82180452346802"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI19]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Plateau]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-PLA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.01596021652222" lon="6.4679160118103"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI10]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rivers]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-RVR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.81222152709961" lon="8.72166585922241"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI22]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cross River]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-CRI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.2738876342773" lon="7.44854259490967"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI23]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kaduna]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-KAD]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.2437491416931" lon="7.94160223007202"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI24]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Katsina]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-KAT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.18472528457642" lon="7.15986061096191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI25]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Anambra]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-ANM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.46816301345825" lon="8.75482630729675"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI26]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Benue]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-BEN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.8362493515015" lon="13.1008319854736"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI27]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Borno]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-BOR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.60263800621033" lon="7.0985095500946"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI28]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Imo]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-IMO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.6981935501099" lon="8.54011678695679"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI29]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kano]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-KAN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.82471942901611" lon="4.47411727905273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI30]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kwara]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-KWA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.77499866485596" lon="5.36696076393127"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI31]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niger]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-NIG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.09722185134888" lon="3.61656641960144"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI32]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oyo]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-OYO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.3722171783447" lon="5.67655944824219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI33]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sokoto]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-SOK]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.53445291519165" lon="7.60043144226074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI34]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Abia]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-ABI]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.09610891342163" lon="12.4906449317932"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI35]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Adamawa]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-ADM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.67692518234253" lon="5.88069272041321"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI36]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Delta]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-DEL]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.59490466117859" lon="5.87682199478149"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI37]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Edo]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-EDO]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.51070928573608" lon="7.59648942947388"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI38]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Enugu]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-ENU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.9847211837769" lon="9.6907377243042"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI39]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jigawa]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-JIG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.6884598731995" lon="4.73750901222229"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI40]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kebbi]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-KEB]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.64376544952393" lon="6.62188506126404"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI41]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kogi]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-KOG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.51222133636475" lon="4.60399842262268"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI42]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Osun]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-OSU]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.99972105026245" lon="10.5123434066772"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI43]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taraba]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-TAR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.929443359375" lon="11.0535707473755"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI44]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yobe]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NGA-YOB]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,68 @@
+<map_data>
+ <name>kenya</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="33.9072189331055" top="4.62249946594238" right="41.9051666259766" bottom="-4.66961765289307"/>
+ <regions>
+  <region>
+   <centroid lat="-0.588014949113131" lon="36.8486061096191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KEN-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.34397549368441" lon="39.578800201416"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KEN-COA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coast]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.29486119747162" lon="36.9037208557129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KEN-NAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nairobi Area]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.717499732971191" lon="36.0272178649902"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KEN-RVL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rift Valley]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.11196899414063" lon="40.2986907958984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KEN-NES]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North-Eastern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.545138984918594" lon="34.6224975585938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KEN-NYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nyanza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.701777219772339" lon="37.7497177124023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KEN-EST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eastern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.532877456396818" lon="34.5393028259277"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KEN-WST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

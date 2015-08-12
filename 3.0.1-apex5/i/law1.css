@@ -1,0 +1,54 @@
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+BODY {
+	FONT-SIZE: 10pt; FONT-FAMILY: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+FORM {
+	MARGIN: 0px
+}
+TD.action {
+	BACKGROUND: url(/i/bottom_middle2.gif) repeat-x; PADDING-TOP: 6px
+}
+TD.infoBarleft {
+	BORDER-RIGHT: #cc9 0px solid; PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BORDER-LEFT: #cc9 1px solid; BORDER-BOTTOM: #cc9 1px solid; BACKGROUND-COLOR: #f7f7e7
+}
+TD.infoBarright {
+	BORDER-RIGHT: #cc9 1px solid; PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BORDER-LEFT: #cc9 1px solid; BORDER-BOTTOM: #cc9 1px solid; BACKGROUND-COLOR: #f7f7e7
+}
+TD.infoBar {
+	BORDER-RIGHT: #cccc99 1px solid; PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 9pt; PADDING-TOP: 5px; BORDER-BOTTOM: #cccc99 1px solid; BACKGROUND-COLOR: #f7f7e7
+}
+.infobartext {
+	FONT-SIZE: 9pt; COLOR: #336699; PADDING-TOP: 9px; FONT-FAMILY: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+.navtext {
+	FONT-SIZE: 9pt; COLOR: brown; FONT-FAMILY: Arial, Helvetica, Geneva, Swiss, SunSans-Regular
+}
+TD.footer {
+	FONT-SIZE: 1px; HEIGHT: 10px; BACKGROUND-COLOR: #369
+}
+TD.bodycell {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.navbar {
+	FONT-SIZE: 8pt; COLOR: brown; FONT-FAMILY: arial
+}
+TD.action {
+	BACKGROUND: url(/i/bottom_middle2.gif) repeat-x; PADDING-TOP: 6px
+}
+TABLE.info3 {
+	BORDER-RIGHT: #cccc99 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #cccc99 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #cccc99 1px solid; WIDTH: auto; PADDING-TOP: 0px; BORDER-BOTTOM: #cccc99 1px solid; HEIGHT: 14px
+}
+TD.info3body {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-TOP: 1px
+}
+.info3text {
+	FONT-SIZE: 8pt; FLOAT: right; MARGIN: 0px 4px 2px; COLOR: #336699; FONT-FAMILY: arial
+}

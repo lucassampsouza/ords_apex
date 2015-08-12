@@ -1,0 +1,131 @@
+<map_data>
+ <name>laos</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="100.091369628906" top="22.5008316040039" right="107.695251464844" bottom="13.9299983978271"/>
+ <regions>
+  <region>
+   <centroid lat="20.4923076629639" lon="100.518733978271"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-BOK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bokeo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.5004825592041" lon="104.12219619751"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-BRK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Borikhamxai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.6184349060059" lon="102.409545898438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-VNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vientiane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.6495785713196" lon="107.018474578857"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-XKN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Xekong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.7179112434387" lon="106.920967102051"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-ATT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Attapeu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.6944422721863" lon="106.013813018799"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-CHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Champasak]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.2909679412842" lon="104.00220489502"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-HPH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Houaphan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.5536155700684" lon="105.345596313477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-KHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khammouan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.9540939331055" lon="101.122940063477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-LNM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Louang Namtha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.9424953460693" lon="102.589965820313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-LNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Louangphrabang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.5225448608398" lon="101.511421203613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-ODM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oudomxai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.7431907653809" lon="102.282619476318"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-PHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phongsali]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.8316850662231" lon="106.246379852295"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-SRV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saravan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.5052771568298" lon="105.864700317383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-SVN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Savannakhet]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.0962333679199" lon="102.580528259277"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-VNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Viangchan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.8087425231934" lon="101.135406494141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-XGN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Xaignabouri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.4360551834106" lon="103.340984344482"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LAO-XNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Xiangkhoang]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

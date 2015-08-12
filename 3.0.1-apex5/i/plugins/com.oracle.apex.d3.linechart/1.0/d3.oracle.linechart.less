@@ -1,0 +1,51 @@
+/*
+	Oracle Application Express Plugins
+	D3 Line Chart (d3.oracle.linechart)
+
+	To be compiled alongside the Universal Theme LESS file.
+*/
+@a_D3BarChart_axisColor: 		#dddddd;
+@a_D3BarChart_axisTextColor: 	#707070;
+@a_D3BarChart_axisTitleColor: 	#404040;
+@a_D3BarChart_lineAxisColor: 	#000000;
+
+.a-D3LineChart {
+	& &-axis {
+		line, path {
+			fill: none;
+			stroke: @a_D3BarChart_axisColor;
+		}
+		.tick text {
+			fill: @a_D3BarChart_axisTextColor;
+		}
+		&-title {
+			fill: @a_D3BarChart_axisTitleColor;
+			font-size: 1.1em;
+		}
+	}
+	& &-axisLineX, & &-axisLineY {
+		stroke-width: 2px;
+		stroke: @a_D3BarChart_lineAxisColor;
+	}
+	& &-tooltip {
+		position: absolute;
+	}
+	& &-container {
+		position: relative;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	.u-Processing {
+		display: block;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+	.a-D3ChartLegend, .a-D3ChartLegend-layout, .a-D3ChartLegend-item {
+		border-top: none !important;
+		border-right: none !important;
+		border-left: none !important;
+		border-bottom: none !important;
+		background-color: transparent;
+	}
+}

@@ -1,0 +1,52 @@
+/* {
+	"groups":[
+		{
+			"name": "Global Colors",
+			"common": true,
+			"sequence": 1
+		},
+		{
+			"name": "Regions",
+			"common": true,
+			"sequence": 2
+		},
+		{
+			"name": "Buttons",
+			"common": false,
+			"sequence": 3
+		},
+		{
+			"name": "Forms",
+			"common": false,
+			"sequence": 4
+		}
+	]
+} */
+/* {
+	"var": "@mycolor1",
+	"group": "Other",
+	"subgroup": "SG1",
+	"name": "V1",
+	"type": "color",
+	"value" : "#ff0000",
+	"last" : "#ff0000"
+} */
+/* {
+	"var": "@mycolor2",
+	"group": "Other",
+	"subgroup": "SG1",
+	"name": "V2",
+	"type": "color",
+	"value" : "#ff0000",
+	"last" : "#ff0000",
+	"checkContrast" : false
+} */
+/* {
+	"var": "@mycolor3",
+	"group": "Other",
+	"subgroup": "SG1",
+	"name": "V3",
+	"type": "color",
+	"value" : "#0000ff",
+	"last" : "#0000ff"
+} */

@@ -1,0 +1,173 @@
+<map_data>
+ <name>papua_new_guinea</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="GMI_ADMIN" key="true"/>
+ </columns>
+ <bounds left="140.858856201172" top="-1.35527777671814" right="155.967742919922" bottom="-11.6424999237061"/>
+ <regions>
+  <region>
+   <centroid lat="-3.9470841884613" lon="142.037826538086"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West Sepik]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-WSE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.424889087677" lon="147.187103271484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP20]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[National Capital]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-NCP]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.12013864517212" lon="142.408432006836"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP06]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-WST]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-10.03125" lon="151.635879516602"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP03]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Milne Bay]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-MBA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.03687739372253" lon="148.021583557129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP01]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-CNT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.43811392784119" lon="143.50830078125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP19]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Enga]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-ENG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.63071966171265" lon="144.848045349121"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP02]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gulf]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-GUL]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.15416669845581" lon="156.824829101563"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP07]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern Solomons]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-NSL]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.26719546318054" lon="144.891845703125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP08]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chimbu]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-CHM]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.4885950088501" lon="145.56615447998"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP09]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eastern Highlands]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-EHG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.14291715621948" lon="151.495964050293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP10]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[East New Britain]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-ENB]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.23099303245544" lon="142.986228942871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP11]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[East Sepik]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-ESE]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.00688791275024" lon="145.60082244873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP12]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madang]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-MDN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.72541666030884" lon="145.345657348633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP13]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manus]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-MAN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.64208221435547" lon="146.975120544434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP14]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morobe]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-MOR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.08930575847626" lon="151.599990844727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP15]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Ireland]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-NIR]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.766033411026" lon="144.405052185059"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP16]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Highlands]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-WHG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.48527812957764" lon="150.027435302734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP17]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West New Britain]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-WNB]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.84377837181091" lon="143.387046813965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP05]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southern Highlands]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-SHG]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-8.95560193061829" lon="148.237808227539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PP04]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[PNG-NRT]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

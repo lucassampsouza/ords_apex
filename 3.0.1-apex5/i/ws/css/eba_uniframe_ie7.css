@@ -1,0 +1,165 @@
+/* Set up Variable Colors */
+/* line 30, ../scss/eba_uniframe_ie7.scss */
+div.ebaFrameHeader {
+  filter: none;
+  background: url(../img/eba_gradients_ie.png) 0 0 repeat-x #cccccc; }
+
+/* line 35, ../scss/eba_uniframe_ie7.scss */
+div.ebaFrameHeader div.ebaButtons a {
+  color: #404040; }
+
+/* line 39, ../scss/eba_uniframe_ie7.scss */
+div.ebaContent {
+  width: 100%;
+  display: block;
+  background: url(../img/eba_frame_bg_ie.gif) 0 right repeat-y;
+  /* Adding Position Relative Breaks IE7 Interactive Reports*/
+  /*position: relative;*/ }
+
+/* line 46, ../scss/eba_uniframe_ie7.scss */
+div.ebaContent.ebaOneCol {
+  background: none #FFF; }
+
+/* line 49, ../scss/eba_uniframe_ie7.scss */
+div.ebaContent div.ebaMainCol {
+  margin: 0 201px 0 0;
+  padding: 5px 0; }
+
+/* line 53, ../scss/eba_uniframe_ie7.scss */
+div.ebaContent div.ebaSideCol {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  padding: 5px 0; }
+
+/* line 61, ../scss/eba_uniframe_ie7.scss */
+div.contentSection h3 a, div.ebaContent a.ebaEditLink {
+  color: #7f7f7f; }
+
+/* line 65, ../scss/eba_uniframe_ie7.scss */
+div.contentSection h3 a:hover, div.ebaContent a.ebaEditLink:hover {
+  color: #404040; }
+
+/* line 68, ../scss/eba_uniframe_ie7.scss */
+div.contentSection h2 {
+  height: 28px;
+  padding: 0 10px 0 30px; }
+
+/* line 72, ../scss/eba_uniframe_ie7.scss */
+div.contentSection h2.secondaryHeading {
+  background: none #FFF;
+  filter: none; }
+
+/* line 77, ../scss/eba_uniframe_ie7.scss */
+div.contentSection h2 a.ebaDSControl img, div.contentSection h2 a.ebaDSControlCollapsed img {
+  margin: 5px 6px;
+  float: left; }
+
+/* line 81, ../scss/eba_uniframe_ie7.scss */
+div.contentSection h2 > span a {
+  height: 28px; }
+
+/* line 84, ../scss/eba_uniframe_ie7.scss */
+div.contentSection div.sectionBody > h3 {
+  padding: 10px; }
+
+/* line 88, ../scss/eba_uniframe_ie7.scss */
+div.ebaContent div.ebaSideCol h3 {
+  border-top: 1px solid #BBB;
+  border-bottom: 1px solid #BBB; }
+
+/* line 93, ../scss/eba_uniframe_ie7.scss */
+div.ebaSideCol a.ebaButton {
+  filter: none;
+  background: url(../img/eba_gradients_ie.png) 0 1px repeat-x #aaaaaa;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 24px; }
+
+/* line 100, ../scss/eba_uniframe_ie7.scss */
+div.ebaSideCol a.ebaButton:active {
+  filter: none;
+  background: url(../img/eba_gradients_ie.png) 0 1px repeat-x #888888; }
+
+/* line 104, ../scss/eba_uniframe_ie7.scss */
+div.ebaSideCol a.ebaHotButton {
+  filter: none;
+  background: url(../img/eba_gradients_ie.png) 0 -49px repeat-x #c3000f;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 24px; }
+
+/* line 111, ../scss/eba_uniframe_ie7.scss */
+div.ebaSideCol a.ebaHotButton:active {
+  filter: none;
+  background: url(../img/eba_gradients_ie.png) 0 -49px repeat-x #a2000d; }
+
+/* line 118, ../scss/eba_uniframe_ie7.scss */
+div.textBox {
+  filter: none;
+  background: none #BBB;
+  zoom: 1; }
+
+/* line 123, ../scss/eba_uniframe_ie7.scss */
+div.sectionBody {
+  zoom: 1; }
+
+/* line 126, ../scss/eba_uniframe_ie7.scss */
+div.contentSection table.ebaVAPTable {
+  margin: 0 0 5px 0; }
+
+/* line 129, ../scss/eba_uniframe_ie7.scss */
+table.ebaReportView tbody tr td {
+  border-bottom: 1px solid #EEE; }
+
+/* ================= */
+/* = Small Wizard  = */
+/* ================= */
+/* ======================= */
+/* = Wizard Progress Bar = */
+/* ======================= */
+/* line 141, ../scss/eba_uniframe_ie7.scss */
+ul.ebaProgressWizard li span {
+  display: block;
+  min-width: 100px; }
+/* line 148, ../scss/eba_uniframe_ie7.scss */
+ul.ebaProgressWizard li:last-child span, ul.ebaProgressWizard li.last-current span, ul.ebaProgressWizard li.last-non-current span {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  border-right: 1px solid #666666; }
+
+/* Wizard Container in Header */
+/* line 158, ../scss/eba_uniframe_ie7.scss */
+div.ebaProgressBar ul.ebaProgressWizard li span {
+  min-width: 40px;
+  border-right: 1px solid #666 !important; }
+
+/* line 166, ../scss/eba_uniframe_ie7.scss */
+div.ebaWizardFrame div.ebaContent {
+  background: none #FFF;
+  width: auto; }
+/* line 170, ../scss/eba_uniframe_ie7.scss */
+div.ebaWizardFrame div.contentSection h2 {
+  height: 30px; }
+/* line 177, ../scss/eba_uniframe_ie7.scss */
+div.ebaWizardFrame div.ebaFrameFooter a.ebaNextButton img, div.ebaWizardFrame div.ebaFrameFooter a.ebaPrevButton img, div.ebaWizardFrame div.ebaFrameHeader a.ebaNextButton img, div.ebaWizardFrame div.ebaFrameHeader a.ebaPrevButton img {
+  vertical-align: middle; }
+
+/* line 184, ../scss/eba_uniframe_ie7.scss */
+div.ebaTwoColPane {
+  position: relative;
+  background: url(../img/ie/two_col_left_pane_bg.gif) 0 0 repeat-y white; }
+/* line 187, ../scss/eba_uniframe_ie7.scss */
+div.ebaTwoColPane div.ebaSideCol {
+  position: absolute;
+  left: 0;
+  top: 0; }
+/* line 192, ../scss/eba_uniframe_ie7.scss */
+div.ebaTwoColPane div.ebaMainCol {
+  margin-left: 321px; }
+
+/* line 197, ../scss/eba_uniframe_ie7.scss */
+ul.sectionList li a.active, ul.sectionList li a.active:hover {
+  background: url(../img/eba_gradients_ie.png) 0 0 repeat-x #cccccc !important; }

@@ -1,0 +1,96 @@
+<map_data>
+ <name>netherlands</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="3.37086582183838" top="53.5113830566406" right="7.21027755737305" bottom="50.7538833618164"/>
+ <regions>
+  <region>
+   <centroid lat="52.5527725219727" lon="5.55745935440063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-FLV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Flevoland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.9149971008301" lon="6.61029624938965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-DRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Drenthe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.1578712463379" lon="5.65902709960938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-FRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Friesland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.1282348632813" lon="5.92046546936035"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-GLD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gelderland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.1513671875" lon="6.68861055374146"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-GRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Groningen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.2662467956543" lon="5.89555549621582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-LMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Limburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.5253524780273" lon="5.11747455596924"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-NBR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Noord-Brabant]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.6820793151855" lon="4.99030256271362"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-NHL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Noord-Holland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.4839210510254" lon="6.42745685577393"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-OVR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Overijssel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.1103515625" lon="5.19444417953491"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-UTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Utrecht]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.4759712219238" lon="3.82526969909668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-ZLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zeeland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.9887466430664" lon="4.52374625205994"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NLD-ZHL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zuid-Holland]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

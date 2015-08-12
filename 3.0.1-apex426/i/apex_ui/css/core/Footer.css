@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+/* line 22, ../../scss/core/Footer.scss */
+.a-Footer {
+  border-top: 1px solid;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* line 32, ../../scss/core/Footer.scss */
+.a-Footer-info,
+.a-Footer-copyright,
+.a-Footer-version {
+  display: table-cell;
+  padding: 8px;
+}
+
+/* line 44, ../../scss/core/Footer.scss */
+.a-Footer-attribute {
+  margin-right: 16px;
+  text-transform: lowercase;
+}
+
+/* line 50, ../../scss/core/Footer.scss */
+.a-Footer-copyright {
+  text-align: center;
+}
+
+/* line 56, ../../scss/core/Footer.scss */
+.a-Footer-version {
+  text-align: right;
+}

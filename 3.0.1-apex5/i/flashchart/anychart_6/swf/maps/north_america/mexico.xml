@@ -1,0 +1,236 @@
+<map_data>
+ <name>mexico</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-118.404167175293" top="32.7184562683105" right="-86.7014007568359" bottom="14.5505466461182"/>
+ <regions>
+  <region>
+   <centroid lat="22.0584697723389" lon="-102.353797912598"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-AGS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aguascalientes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.3586711883545" lon="-115.563724517822"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-BCN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baja California]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.7648735046387" lon="-107.422706604004"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-SIN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sinaloa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.3414764404297" lon="-90.9498672485352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-CMP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Campeche]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.1623601913452" lon="-96.2109603881836"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-OAX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oaxaca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.6949863433838" lon="-106.218631744385"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-CHH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chihuahua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.2263221740723" lon="-101.880714416504"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-CDZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coahuila]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.103199005127" lon="-104.036727905273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-COL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colima]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.3302764892578" lon="-99.5837554931641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-MEX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mexico]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.5789089202881" lon="-104.814865112305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-DRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Durango]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.8818035125732" lon="-100.91529083252"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-GNJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guanajuato]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.5897674560547" lon="-100.092922210693"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-GRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guerrero]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.4929790496826" lon="-98.9292755126953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-HDL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hidalgo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.8598594665527" lon="-103.603404998779"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-JLS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jalisco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.2819423675537" lon="-99.1426467895508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-DTD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Distrito Federal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.1574974060059" lon="-101.901218414307"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-MDO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Michoacan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.7583122253418" lon="-99.0710525512695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-MRL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morelos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.8832492828369" lon="-105.318481445313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-NYR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nayarit]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.4943046569824" lon="-99.8312530517578"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-NLE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nuevo Leon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.2709665298462" lon="-92.2545852661133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-CHP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chiapas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.4016647338867" lon="-98.1629257202148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-TLX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tlaxcala]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.7912425994873" lon="-99.8207092285156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-QDA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Queretaro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.712776184082" lon="-88.06591796875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-QRO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quintana Roo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.8740997314453" lon="-100.312232971191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-SLP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Luis Potosi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.1599979400635" lon="-112.222373962402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-BCS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baja California Sur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.3850212097168" lon="-111.754512786865"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-SON]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sonora]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.95654296875" lon="-92.5600128173828"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-TBS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tabasco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.9414119720459" lon="-98.6130599975586"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-TML]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tamaulipas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.3412475585938" lon="-97.8884429931641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-PUE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Puebla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.798469543457" lon="-96.1158142089844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-VLL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Veracruz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.6309700012207" lon="-88.9724502563477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-YCT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yucatan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.1049976348877" lon="-102.576103210449"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MEX-ZCT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zacatecas]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

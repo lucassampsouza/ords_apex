@@ -1,0 +1,104 @@
+/**
+ * Import Compass
+ */
+/* ==========================================================================
+   Breadcrumb Region
+   ==========================================================================
+
+  <div id="#REGION_STATIC_ID#" #REGION_ATTRIBUTES# class="t-BreadcrumbRegion #REGION_CSS_CLASSES#">
+    <div class="t-BreadcrumbRegion-body">
+      <div class="t-BreadcrumbRegion-crumbs">#BODY#</div>
+      <div class="t-BreadcrumbRegion-crumbsButtons">#CREATE#</div>
+    </div>
+    <div class="t-BreadcrumbRegion-title">
+      <h1 class="t-BreadcrumbRegion-titleTextWrap">#TITLE#</h1>
+      <div class="t-BreadcrumbRegion-titleButtons">#CREATE2#</div>
+    </div>
+  </div>
+
+   ========================================================================== */
+.t-BreadcrumbRegion {
+  display: table;
+  width: 100%; }
+
+.t-BreadcrumbRegion-body, .t-BreadcrumbRegion-title {
+  overflow: hidden; }
+
+.t-BreadcrumbRegion-breadcrumb {
+  display: none; }
+
+.t-BreadcrumbRegion-body {
+  padding: 24px;
+  vertical-align: top; }
+
+.t-BreadcrumbRegion-buttons {
+  padding: 24px 24px 24px 0;
+  vertical-align: bottom; }
+
+.t-BreadcrumbRegion-buttons, .t-BreadcrumbRegion-body {
+  display: table-cell; }
+
+.t-BreadcrumbRegion-buttons {
+  text-align: right;
+  width: 1%;
+  white-space: nowrap; }
+
+.t-BreadcrumbRegion-titleText {
+  display: block;
+  font-size: 2.8rem;
+  height: 3.2rem;
+  margin: 0;
+  line-height: 3.2rem;
+  text-overflow: ellipsis;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  position: relative; }
+  .t-BreadcrumbRegion-titleText:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 96px;
+    top: 0px;
+    height: 3.6rem; }
+
+/* Responsive Layout
+========================================================================== */
+@media only screen and (max-width: 640px) {
+  .t-BreadcrumbRegion .t-BreadcrumbRegion-body, .t-BreadcrumbRegion .t-BreadcrumbRegion-buttons {
+    display: block;
+    overflow: hidden;
+    width: auto; }
+
+  .t-BreadcrumbRegion .t-BreadcrumbRegion-body {
+    padding: 12px 12px 6px 12px; }
+
+  .t-BreadcrumbRegion .t-BreadcrumbRegion-buttons {
+    text-align: left;
+    padding: 6px 12px 12px 12px; }
+    .t-BreadcrumbRegion .t-BreadcrumbRegion-buttons:empty {
+      padding: 6px 0 0 0; }
+ }
+
+/**
+ * Modifier: Show Breadcrumb
+ *
+ * Use's the breadcrumb region's title
+ */
+.t-BreadcrumbRegion--showBreadcrumb .t-BreadcrumbRegion-breadcrumb {
+  display: block; }
+
+/**
+ * Modifier: Use Region Title
+ *
+ * Use's the breadcrumb region's title
+ */
+.t-BreadcrumbRegion--useRegionTitle .t-BreadcrumbRegion-breadcrumb:empty, .t-BreadcrumbRegion--useRegionTitle .t-BreadcrumbRegion-buttons:empty {
+  display: none; }
+
+/**
+ * Modifier: Use Breadcrumb Title
+ *
+ * Uses the last item in the breadcrumb as the title
+ */
+.t-BreadcrumbRegion--useBreadcrumbTitle .t-BreadcrumbRegion-title {
+  display: none !important; }

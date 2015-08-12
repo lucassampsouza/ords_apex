@@ -1,0 +1,74 @@
+/* Theme 5 IE7 */
+
+button.button-default,
+button.button-alt1, 
+button.button-alt2, 
+button.button-alt3 {
+	vertical-align: top;
+	height: 22px;
+	}
+
+button.button-default span,
+button.button-alt1 span,
+button.button-alt2 span,
+button.button-alt3 span {
+	/* Fix IE7 Padding Issue */
+	padding-bottom: 4px;
+	padding-top: 3px;
+	height: 15px;
+}
+
+
+input#apexir_SEARCH {
+	display: block;
+	float: left;
+	}
+.rounded-corner-region-wizard .rc-buttons {
+	padding: 4px 0 0 0;
+	}
+.rounded-corner-region-wizard {
+	float: none;
+	width: 700px;
+	}
+	
+/* APEX IR Buttons */
+.apexir_BUTTONS table td {
+	text-align: left;
+	}
+
+.rounded-corner-region-blank .rc-content-main .rc-left {
+	line-height: 28px !important
+	}
+	
+/*.sSearchFieldBig {
+	height: 28px;
+	}*/
+	.sSearchFieldBig:focus {
+		background-color: #F0F0F0;
+		color: #222;
+		}
+		
+.vertical-unordered-list-with-bullets, .vertical-unordered-list-with-bullets li,
+.vertical-ordered-List, .vertical-ordered-List li {
+	float: none;
+	}
+
+/* Align RDS text appropriately*/
+ul.apex-rds li a span {
+	line-height: 18px;
+	padding-bottom: 2px;
+	}
+
+/* Reduce gaps in IE 7 actions menu for IR	*/
+.dhtmlMenuSep {
+	line-height: 0px;
+	font-size: 0px;
+}
+
+div.sHorizontalTabs div.sHorizontalTabsInner ul li a {
+	cursor: hand;
+	}
+	
+button.apexir-button span, button.apexir-go-button span, #apexir_TOOLBAR button.dhtmlMenu span, #apexir_TOOLBAR button.dhtmlMenuOn span {
+	height: 18px;
+	}

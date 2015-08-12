@@ -1,0 +1,29 @@
+<map_data>
+ <name>pr</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+ </columns>
+ <bounds left="-67.954119" top="18.515757" right="-65.22111" bottom="17.884813"/>
+ <regions>
+  <region>
+   <centroid lat="18.221316" lon="-67.0835949681116"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.3645882803549" lon="-66.1110645"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[009]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.172616" lon="-65.9601114481546"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[007]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

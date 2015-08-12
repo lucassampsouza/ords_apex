@@ -1,0 +1,199 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Calendars
+   ========================================================================== */
+/* line 11, ../../../scss/theme/standard/Calendar.scss */
+.fc .fc-toolbar {
+  margin: 0;
+}
+
+/* line 14, ../../../scss/theme/standard/Calendar.scss */
+.fc-toolbar .fc-left,
+.fc-toolbar .fc-right,
+.fc-toolbar .fc-center {
+  padding: 16px 12px;
+}
+
+/* line 31, ../../../scss/theme/standard/Calendar.scss */
+.fc .ui-button {
+  padding: 8px 12px;
+  line-height: 16px;
+  margin-bottom: 0;
+}
+
+/* line 36, ../../../scss/theme/standard/Calendar.scss */
+.fc button.ui-button {
+  height: auto;
+}
+
+/* line 40, ../../../scss/theme/standard/Calendar.scss */
+.fc .fc-button .fc-icon-wrap {
+  float: none;
+  display: block;
+  height: 32px;
+}
+
+/* line 45, ../../../scss/theme/standard/Calendar.scss */
+.fc .ui-button .ui-icon {
+  float: none;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Header Title */
+/* line 53, ../../../scss/theme/standard/Calendar.scss */
+.fc-toolbar h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 200;
+  color: #404040;
+}
+
+/* Calendar Container */
+/* line 62, ../../../scss/theme/standard/Calendar.scss */
+.fc-content {
+  /*border-top: 1px solid #F0F0F0;*/
+}
+
+/* line 66, ../../../scss/theme/standard/Calendar.scss */
+.fc td.fc-today {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #E0E0E0;
+}
+
+/* line 71, ../../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-day.fc-today {
+  background: #E6EEF7;
+  border-width: 1px 0 0 0;
+}
+
+/* Table Header */
+/* line 77, ../../../scss/theme/standard/Calendar.scss */
+.fc-grid .fc-day-header {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #707070;
+  text-align: right;
+  padding: 4px 8px;
+  border-color: #F0F0F0;
+  border-width: 0 0 1px 0;
+  background-color: transparent;
+}
+
+/* line 88, ../../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-day {
+  border-top: 1px solid #F0F0F0;
+  border-right: 1px solid #F8F8F8;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  padding: 0;
+}
+
+/* line 95, ../../../scss/theme/standard/Calendar.scss */
+.fc .fc-grid .fc-day-content {
+  padding: 8px;
+}
+
+/* line 98, ../../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-last.fc-day {
+  border-right: none;
+}
+
+/* line 101, ../../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-grid .fc-day-number {
+  color: #404040;
+  padding: 4px 12px;
+}
+
+/* line 105, ../../../scss/theme/standard/Calendar.scss */
+.fc-header span.fc-button.fc-button-next,
+.fc-header span.fc-button.fc-button-prev {
+  padding: 0 8px;
+}
+
+/* Calendar Cell Events*/
+/* line 111, ../../../scss/theme/standard/Calendar.scss */
+.fc-event-container .fc-event,
+.fc-event-container .fc-event.fc-apex-events-default {
+  white-space: nowrap;
+  font-size: 11px;
+  border: none;
+  border-radius: 2px !important;
+  padding: 4px;
+  margin-bottom: 2px;
+  background-color: #2D7BBB;
+}
+
+/* line 123, ../../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-event:hover {
+  background-color: #256FFB;
+}
+
+/* line 126, ../../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-event:hover .fc-event-title {
+  color: #FFF !important;
+}
+
+/* line 129, ../../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-event:hover .fc-event-title:before {
+  background-color: #fff;
+}
+
+/* line 132, ../../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-event a {
+  text-decoration: none;
+}
+
+/*.fc-content .fc-event a:hover {
+  text-decoration: underline;
+}*/
+/* line 138, ../../../scss/theme/standard/Calendar.scss */
+.fc-content .fc-event .fc-event-title {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: normal !important;
+  color: #404040 !important;
+}

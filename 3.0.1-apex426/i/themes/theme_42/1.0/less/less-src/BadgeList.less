@@ -1,0 +1,48 @@
+@import "../scss_replaced/modules/_variables";
+
+.badgelistDash (@index) when (@index > 0) {
+  .badgelistDash((@index - 1));
+  .t-BadgeList-item:nth-child(@{index}) {
+    @bg: extract(@_colors, @index);
+    background-color: @bg;
+    a {
+      color: extract(@_colors_FG, @index);
+      &.t-BadgeList-wrap:hover {
+        box-shadow: 0 -8px 0 0 subtle(@bg) inset;
+      }
+    }
+  }
+}
+
+.badgelistItem (@index) when (@index > 0) {
+  .badgelistItem((@index - 1));
+  .t-BadgeList-item:nth-child(@{index}) .t-BadgeList-value {
+    border-color: darken(extract(@_colors, @index),5%);
+    color: darken(extract(@_colors, @index),5%);
+  }
+  .t-BadgeList-item:nth-child(@{index}) .t-BadgeList-wrap .t-BadgeList-value,
+  .t-BadgeList-item:nth-child(@{index}) .t-BadgeList-value a {
+    // box-shadow: 0 0 0 1px darken(nth($g-Colors,$i),5%) inset;
+    @bg: extract(@_colors, @index);
+    color: extract(@_colors_FG, @index);
+    background-color: @bg;
+  }
+}
+
+
+
+body {
+  .t-BadgeList--dash.t-BadgeList--coloredBG {
+    .badgelistDash (length(@_colors));
+  }
+
+  .t-BadgeList--circular.t-BadgeList--coloredBG {
+    .badgelistItem (length(@_colors));
+  }
+}
+
+.t-Cards--colorize {
+  .badgelistDash (length(@_colors));
+}
+
+

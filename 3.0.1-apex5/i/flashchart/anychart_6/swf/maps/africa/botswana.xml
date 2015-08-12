@@ -1,0 +1,82 @@
+<map_data>
+ <name>botswana</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="19.9966659545898" top="-17.7813911437988" right="29.3736228942871" bottom="-26.8755569458008"/>
+ <regions>
+  <region>
+   <centroid lat="-21.0131950378418" lon="27.6098594665527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BWA-NEA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North-East]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.391529083252" lon="24.9351367950439"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BWA-CHO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chobe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.1543617248535" lon="22.7176342010498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BWA-GHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ghanzi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-25.0921268463135" lon="22.2501220703125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BWA-KGL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kgalagadi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.1152114868164" lon="26.4181842803955"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BWA-KGT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kgatleng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-23.8611221313477" lon="24.4874401092529"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BWA-KWN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kweneng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.4982528686523" lon="23.08154296875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BWA-NGM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ngamiland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-21.4733104705811" lon="26.6241722106934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BWA-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.9888973236084" lon="25.8514137268066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BWA-SEA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South-East]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.9156665802002" lon="24.3688869476318"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BWA-STH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southern]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

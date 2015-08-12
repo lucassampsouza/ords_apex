@@ -1,0 +1,390 @@
+.u-Color-1-BG--txt {
+  color: #0000ff;
+}
+.u-Color-1-BG--bg {
+  background-color: #0000ff;
+}
+.u-Color-1-BG--fill {
+  fill: #0000ff;
+}
+.u-Color-1-BG--br {
+  stroke: #0000ff;
+  border-color: #0000ff;
+}
+.u-Color-1-FG--txt {
+  color: #0000ff;
+}
+.u-Color-1-FG--bg {
+  background-color: #0000ff;
+}
+.u-Color-1-FG--fill {
+  fill: #0000ff;
+}
+.u-Color-1-FG--br {
+  stroke: #0000ff;
+  border-color: #0000ff;
+}
+.u-Color-2-BG--txt {
+  color: #ff0000;
+}
+.u-Color-2-BG--bg {
+  background-color: #ff0000;
+}
+.u-Color-2-BG--fill {
+  fill: #ff0000;
+}
+.u-Color-2-BG--br {
+  stroke: #ff0000;
+  border-color: #ff0000;
+}
+.u-Color-2-FG--txt {
+  color: #ff0000;
+}
+.u-Color-2-FG--bg {
+  background-color: #ff0000;
+}
+.u-Color-2-FG--fill {
+  fill: #ff0000;
+}
+.u-Color-2-FG--br {
+  stroke: #ff0000;
+  border-color: #ff0000;
+}
+.u-Color-3-BG--txt {
+  color: #008000;
+}
+.u-Color-3-BG--bg {
+  background-color: #008000;
+}
+.u-Color-3-BG--fill {
+  fill: #008000;
+}
+.u-Color-3-BG--br {
+  stroke: #008000;
+  border-color: #008000;
+}
+.u-Color-3-FG--txt {
+  color: #008000;
+}
+.u-Color-3-FG--bg {
+  background-color: #008000;
+}
+.u-Color-3-FG--fill {
+  fill: #008000;
+}
+.u-Color-3-FG--br {
+  stroke: #008000;
+  border-color: #008000;
+}
+.u-Color-4-BG--txt {
+  color: #ffff00;
+}
+.u-Color-4-BG--bg {
+  background-color: #ffff00;
+}
+.u-Color-4-BG--fill {
+  fill: #ffff00;
+}
+.u-Color-4-BG--br {
+  stroke: #ffff00;
+  border-color: #ffff00;
+}
+.u-Color-4-FG--txt {
+  color: #ffff00;
+}
+.u-Color-4-FG--bg {
+  background-color: #ffff00;
+}
+.u-Color-4-FG--fill {
+  fill: #ffff00;
+}
+.u-Color-4-FG--br {
+  stroke: #ffff00;
+  border-color: #ffff00;
+}
+.u-Color-5-BG--txt {
+  color: #808080;
+}
+.u-Color-5-BG--bg {
+  background-color: #808080;
+}
+.u-Color-5-BG--fill {
+  fill: #808080;
+}
+.u-Color-5-BG--br {
+  stroke: #808080;
+  border-color: #808080;
+}
+.u-Color-5-FG--txt {
+  color: #808080;
+}
+.u-Color-5-FG--bg {
+  background-color: #808080;
+}
+.u-Color-5-FG--fill {
+  fill: #808080;
+}
+.u-Color-5-FG--br {
+  stroke: #808080;
+  border-color: #808080;
+}
+.u-Color-6-BG--txt {
+  color: #0000cc;
+}
+.u-Color-6-BG--bg {
+  background-color: #0000cc;
+}
+.u-Color-6-BG--fill {
+  fill: #0000cc;
+}
+.u-Color-6-BG--br {
+  stroke: #0000cc;
+  border-color: #0000cc;
+}
+.u-Color-6-FG--txt {
+  color: #3333ff;
+}
+.u-Color-6-FG--bg {
+  background-color: #3333ff;
+}
+.u-Color-6-FG--fill {
+  fill: #3333ff;
+}
+.u-Color-6-FG--br {
+  stroke: #3333ff;
+  border-color: #3333ff;
+}
+.u-Color-7-BG--txt {
+  color: #cc0000;
+}
+.u-Color-7-BG--bg {
+  background-color: #cc0000;
+}
+.u-Color-7-BG--fill {
+  fill: #cc0000;
+}
+.u-Color-7-BG--br {
+  stroke: #cc0000;
+  border-color: #cc0000;
+}
+.u-Color-7-FG--txt {
+  color: #ff3333;
+}
+.u-Color-7-FG--bg {
+  background-color: #ff3333;
+}
+.u-Color-7-FG--fill {
+  fill: #ff3333;
+}
+.u-Color-7-FG--br {
+  stroke: #ff3333;
+  border-color: #ff3333;
+}
+.u-Color-8-BG--txt {
+  color: #004d00;
+}
+.u-Color-8-BG--bg {
+  background-color: #004d00;
+}
+.u-Color-8-BG--fill {
+  fill: #004d00;
+}
+.u-Color-8-BG--br {
+  stroke: #004d00;
+  border-color: #004d00;
+}
+.u-Color-8-FG--txt {
+  color: #00b300;
+}
+.u-Color-8-FG--bg {
+  background-color: #00b300;
+}
+.u-Color-8-FG--fill {
+  fill: #00b300;
+}
+.u-Color-8-FG--br {
+  stroke: #00b300;
+  border-color: #00b300;
+}
+.u-Color-9-BG--txt {
+  color: #cccc00;
+}
+.u-Color-9-BG--bg {
+  background-color: #cccc00;
+}
+.u-Color-9-BG--fill {
+  fill: #cccc00;
+}
+.u-Color-9-BG--br {
+  stroke: #cccc00;
+  border-color: #cccc00;
+}
+.u-Color-9-FG--txt {
+  color: #ffff33;
+}
+.u-Color-9-FG--bg {
+  background-color: #ffff33;
+}
+.u-Color-9-FG--fill {
+  fill: #ffff33;
+}
+.u-Color-9-FG--br {
+  stroke: #ffff33;
+  border-color: #ffff33;
+}
+.u-Color-10-BG--txt {
+  color: #676767;
+}
+.u-Color-10-BG--bg {
+  background-color: #676767;
+}
+.u-Color-10-BG--fill {
+  fill: #676767;
+}
+.u-Color-10-BG--br {
+  stroke: #676767;
+  border-color: #676767;
+}
+.u-Color-10-FG--txt {
+  color: #9a9a9a;
+}
+.u-Color-10-FG--bg {
+  background-color: #9a9a9a;
+}
+.u-Color-10-FG--fill {
+  fill: #9a9a9a;
+}
+.u-Color-10-FG--br {
+  stroke: #9a9a9a;
+  border-color: #9a9a9a;
+}
+.u-Color-11-BG--txt {
+  color: #6666ff;
+}
+.u-Color-11-BG--bg {
+  background-color: #6666ff;
+}
+.u-Color-11-BG--fill {
+  fill: #6666ff;
+}
+.u-Color-11-BG--br {
+  stroke: #6666ff;
+  border-color: #6666ff;
+}
+.u-Color-11-FG--txt {
+  color: #6666ff;
+}
+.u-Color-11-FG--bg {
+  background-color: #6666ff;
+}
+.u-Color-11-FG--fill {
+  fill: #6666ff;
+}
+.u-Color-11-FG--br {
+  stroke: #6666ff;
+  border-color: #6666ff;
+}
+.u-Color-12-BG--txt {
+  color: #ff6666;
+}
+.u-Color-12-BG--bg {
+  background-color: #ff6666;
+}
+.u-Color-12-BG--fill {
+  fill: #ff6666;
+}
+.u-Color-12-BG--br {
+  stroke: #ff6666;
+  border-color: #ff6666;
+}
+.u-Color-12-FG--txt {
+  color: #ff6666;
+}
+.u-Color-12-FG--bg {
+  background-color: #ff6666;
+}
+.u-Color-12-FG--fill {
+  fill: #ff6666;
+}
+.u-Color-12-FG--br {
+  stroke: #ff6666;
+  border-color: #ff6666;
+}
+.u-Color-13-BG--txt {
+  color: #00e600;
+}
+.u-Color-13-BG--bg {
+  background-color: #00e600;
+}
+.u-Color-13-BG--fill {
+  fill: #00e600;
+}
+.u-Color-13-BG--br {
+  stroke: #00e600;
+  border-color: #00e600;
+}
+.u-Color-13-FG--txt {
+  color: #00e600;
+}
+.u-Color-13-FG--bg {
+  background-color: #00e600;
+}
+.u-Color-13-FG--fill {
+  fill: #00e600;
+}
+.u-Color-13-FG--br {
+  stroke: #00e600;
+  border-color: #00e600;
+}
+.u-Color-14-BG--txt {
+  color: #ffff66;
+}
+.u-Color-14-BG--bg {
+  background-color: #ffff66;
+}
+.u-Color-14-BG--fill {
+  fill: #ffff66;
+}
+.u-Color-14-BG--br {
+  stroke: #ffff66;
+  border-color: #ffff66;
+}
+.u-Color-14-FG--txt {
+  color: #ffff66;
+}
+.u-Color-14-FG--bg {
+  background-color: #ffff66;
+}
+.u-Color-14-FG--fill {
+  fill: #ffff66;
+}
+.u-Color-14-FG--br {
+  stroke: #ffff66;
+  border-color: #ffff66;
+}
+.u-Color-15-BG--txt {
+  color: #b3b3b3;
+}
+.u-Color-15-BG--bg {
+  background-color: #b3b3b3;
+}
+.u-Color-15-BG--fill {
+  fill: #b3b3b3;
+}
+.u-Color-15-BG--br {
+  stroke: #b3b3b3;
+  border-color: #b3b3b3;
+}
+.u-Color-15-FG--txt {
+  color: #b3b3b3;
+}
+.u-Color-15-FG--bg {
+  background-color: #b3b3b3;
+}
+.u-Color-15-FG--fill {
+  fill: #b3b3b3;
+}
+.u-Color-15-FG--br {
+  stroke: #b3b3b3;
+  border-color: #b3b3b3;
+}

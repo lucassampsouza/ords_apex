@@ -1,0 +1,376 @@
+/* ==========================================================================
+   Property (Property Editor Properties)
+   ========================================================================== */
+/**
+ * Property Component
+ *
+ * This is a property that is used within the context of a property editor to
+ * provide a label and input field.
+ *
+ * Example HTML:
+ *
+ * <div class="a-Property">
+ *   <div class="a-Property-labelContainer">
+ *     <label class="a-Property-label">Label</label>
+ *   </div>
+ *   <div class="a-Property-fieldContainer">
+ *     <input type="text" class="a-Property-field">
+ *   </div>
+ * </div>
+ */
+/* line 28, ../../scss/core/Property.scss */
+.a-Property {
+  display: table;
+  padding: 0;
+  margin: 0;
+  table-layout: auto;
+  width: 100%;
+  position: relative;
+}
+
+/* line 36, ../../scss/core/Property.scss */
+.a-Property .a-Icon.icon-required {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 41, ../../scss/core/Property.scss */
+.a-Property-buttonContainer,
+.a-Property-labelContainer,
+.a-Property-unitContainer {
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* line 47, ../../scss/core/Property.scss */
+.a-Property-labelContainer {
+  min-width: 96px;
+  padding-right: 0;
+}
+
+/* line 52, ../../scss/core/Property.scss */
+#templateOptionsDlgPE .a-Property-labelContainer {
+  min-width: 144px;
+}
+
+/* line 57, ../../scss/core/Property.scss */
+.a-PropertyEditor--stacked .a-Property:not(.a-Property--stacked) .a-Property-labelContainer {
+  width: 100%;
+  display: table-row;
+}
+
+/* line 61, ../../scss/core/Property.scss */
+.a-Property-fieldContainer {
+  display: table-cell;
+  width: 100%;
+}
+
+/* line 65, ../../scss/core/Property.scss */
+.a-Property-fieldContainer--comboBox {
+  padding-right: 0 !important;
+}
+/* line 67, ../../scss/core/Property.scss */
+.a-Property-fieldContainer--comboBox .a-Property-field {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+/* line 73, ../../scss/core/Property.scss */
+.a-Property-buttonContainer--comboBox .a-Button {
+  margin-left: -1px;
+}
+
+/* line 78, ../../scss/core/Property.scss */
+.a-Property-colorPreview {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* line 87, ../../scss/core/Property.scss */
+.a-Property-fieldContainer--colorPicker {
+  padding-right: 0 !important;
+}
+/* line 89, ../../scss/core/Property.scss */
+.a-Property-fieldContainer--colorPicker .a-Property-field {
+  padding-left: 24px;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+/* line 94, ../../scss/core/Property.scss */
+.a-Property-fieldContainer--colorPicker .a-Property-colorPreview {
+  position: absolute;
+  margin: 6px;
+  pointer-events: none;
+}
+
+/* line 101, ../../scss/core/Property.scss */
+.a-Property-buttonContainer--colorPicker .a-Button {
+  margin-left: -1px;
+}
+
+/* line 107, ../../scss/core/Property.scss */
+.a-Property-unitContainer {
+  padding-left: 0 !important;
+  white-space: nowrap;
+}
+
+/******************************************************************************
+Radio
+******************************************************************************/
+/* line 116, ../../scss/core/Property.scss */
+.a-Property-radioGroup.ui-buttonset .a-Property-radio {
+  display: inline-block;
+}
+
+/* line 119, ../../scss/core/Property.scss */
+.a-Property-radioGroup:focus {
+  outline: none;
+}
+
+/* line 122, ../../scss/core/Property.scss */
+.a-Property-radio-input {
+  margin: 2px;
+  height: 16px;
+  width: 16px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+/* line 129, ../../scss/core/Property.scss */
+.a-Property-radio-label {
+  padding: 2px;
+  font-size: 12px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+/* line 135, ../../scss/core/Property.scss */
+.a-Property-fieldContainer--radioGroup {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+@media only screen and (max-width: 1024px) {
+  /* line 135, ../../scss/core/Property.scss */
+  .a-Property-fieldContainer--radioGroup {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  /* line 135, ../../scss/core/Property.scss */
+  .a-Property-fieldContainer--radioGroup {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1679px) {
+  /* line 135, ../../scss/core/Property.scss */
+  .a-Property-fieldContainer--radioGroup {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+
+/* line 152, ../../scss/core/Property.scss */
+.a-Property-fieldContainer--radioGroup .ui-buttonset .ui-button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+@media only screen and (max-width: 1280px) {
+  /* line 152, ../../scss/core/Property.scss */
+  .a-Property-fieldContainer--radioGroup .ui-buttonset .ui-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+/* line 162, ../../scss/core/Property.scss */
+.a-Property--stacked {
+  position: relative;
+}
+/* line 164, ../../scss/core/Property.scss */
+.a-Property--stacked .a-Property-labelContainer,
+.a-Property--stacked .a-Property-fieldContainer {
+  display: block;
+}
+/* line 169, ../../scss/core/Property.scss */
+.a-Property--stacked .a-Property-labelContainer {
+  padding-bottom: 0;
+  margin-right: 64px;
+}
+/* line 173, ../../scss/core/Property.scss */
+.a-Property--stacked .a-Property-fieldContainer {
+  padding-top: 0;
+}
+/* line 176, ../../scss/core/Property.scss */
+.a-Property--stacked .a-Property-buttonContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 180, ../../scss/core/Property.scss */
+.a-Property--stacked .a-Property-buttonContainer + .a-Property-fieldContainer {
+  padding-top: 8px;
+}
+/* line 183, ../../scss/core/Property.scss */
+.a-Property--stacked .a-Property-buttonContainer .a-Button--quickPick {
+  margin-left: 8px;
+}
+
+/* line 188, ../../scss/core/Property.scss */
+.a-Property--scrollable {
+  display: block;
+  overflow: auto;
+}
+
+/* line 193, ../../scss/core/Property.scss */
+.a-Property-labelContainer--withButtons {
+  table-layout: auto;
+  display: table-cell;
+  padding-bottom: 8px;
+}
+
+/* line 200, ../../scss/core/Property.scss */
+.a-Property-labelContainer--hiddenLabel {
+  padding: 0;
+}
+
+/* line 205, ../../scss/core/Property.scss */
+.a-Property-buttonContainer {
+  padding-left: 0 !important;
+}
+
+/* line 211, ../../scss/core/Property.scss */
+.a-Property-buttonContainer--pullRight {
+  float: right;
+}
+
+/* line 226, ../../scss/core/Property.scss */
+.a-Property-label,
+.a-Property-unit {
+  display: block;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+/* line 235, ../../scss/core/Property.scss */
+.a-Property-field {
+  display: block;
+  background-clip: border-box;
+  border: none;
+  width: 100%;
+}
+
+/* line 242, ../../scss/core/Property.scss */
+.a-Property-field--textarea {
+  min-height: 48px;
+  font-family: 'Menlo', 'Consolas', monospace, serif;
+  resize: vertical;
+}
+
+/******************************************************************************
+Hide/Show Classes
+******************************************************************************/
+/* line 252, ../../scss/core/Property.scss */
+.a-Property.js-showAll,
+.a-PropertyEditor-propertyGroup.js-showAll {
+  display: none;
+}
+
+/* line 257, ../../scss/core/Property.scss */
+.a-PropertyEditor.js-showAll .a-Property.js-showAll,
+.a-PropertyEditor.js-showAll .a-PropertyEditor-propertyGroup.js-showAll {
+  display: block;
+}
+
+/* line 261, ../../scss/core/Property.scss */
+.a-PropertyEditor--stacked.js-showAll .a-Property.js-showAll {
+  display: table;
+}
+
+/******************************************************************************
+Variable Field
+******************************************************************************/
+/* line 268, ../../scss/core/Property.scss */
+.a-Property-field.is-variable {
+  background-color: #D0D0D0;
+}
+
+/******************************************************************************
+Checkbox
+******************************************************************************/
+/* line 275, ../../scss/core/Property.scss */
+.a-Property-checkboxGroup:focus {
+  outline: none;
+}
+
+/* line 278, ../../scss/core/Property.scss */
+.a-Property-checkbox-input {
+  margin: 2px;
+  height: 16px;
+  width: 16px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+/* line 285, ../../scss/core/Property.scss */
+.a-Property-checkbox-label {
+  padding: 2px;
+  font-size: 12px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+/******************************************************************************
+Set Items Table
+******************************************************************************/
+/* line 295, ../../scss/core/Property.scss */
+.a-Property-setItemsTable {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+/* line 299, ../../scss/core/Property.scss */
+.a-Property-setItemsTable td {
+  padding-bottom: 4px;
+}
+/* line 302, ../../scss/core/Property.scss */
+.a-Property-setItemsTable tr:last-child td {
+  padding-bottom: 0;
+}
+
+/* line 307, ../../scss/core/Property.scss */
+.a-Property-setItemsHeader-header {
+  text-align: left;
+}
+
+/* line 311, ../../scss/core/Property.scss */
+.a-Property-setItemsTable-removeCol {
+  width: 40px;
+}
+
+/******************************************************************************
+Property Editor in Dialogs
+******************************************************************************/
+/* line 319, ../../scss/core/Property.scss */
+.ui-dialog .a-Property {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin-top: -1px;
+}
+
+/******************************************************************************
+Property Editor Buttons
+******************************************************************************/
+/* line 328, ../../scss/core/Property.scss */
+.a-Button.a-Property-button {
+  width: 100%;
+  white-space: normal;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}

@@ -1,0 +1,54 @@
+img.ebaFile {
+	background-image: url(../img/eba_file_types.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 16px;
+	height: 16px;
+	}
+img.ebaFile.generic	{background-position:0 0;}
+img.ebaFile.excel		{background-position:0 -16px;}
+img.ebaFile.pdf		{background-position:0 -32px;}
+img.ebaFile.powerpoint		{background-position:0 -48px;}
+img.ebaFile.word		{background-position:0 -64px;}
+img.ebaFile.image		{background-position:0 -80px;}
+/*img.ebaFile.eFileExcel		{background-position:0 -96px;}
+img.ebaFile.eFileExcel		{background-position:0 -112px;}
+img.ebaFile.eFileExcel		{background-position:0 -128px;}
+img.ebaFile.eFileExcel		{background-position:0 -144px;}
+img.ebaFile.eFileExcel		{background-position:0 -160px;}*/
+
+
+img.wsIcon {
+	background-image: url(../img/eba_icons_16.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 16px;
+	height: 16px;
+	}
+img.wsIcon.note {background-position:0 0;}
+img.wsIcon.tag {background-position:0 -16px;}
+img.wsIcon.page {background-position:0 -32px;}
+img.wsIcon.navSection {background-position:0 -48px; width: 10px;}
+img.wsIcon.newSection {background-position:0 -64px;}
+img.wsIcon.editSection {background-position:0 -80px;}
+img.wsIcon.newPage {background-position:0 -96px;}
+img.wsIcon.editPage {background-position:0 -112px;}
+img.wsIcon.copyPage {background-position:0 -128px;}
+img.wsIcon.pageDir {background-position:0 -144px;}
+
+img.wsIcon.newDataGrid {background-position:-16px 0;}
+img.wsIcon.newReport {background-position:-16px -16px;}
+img.wsIcon.delete {background-position:-16px -32px;}
+img.wsIcon.edit {background-position:-16px -48px;}
+img.wsIcon.addRow {background-position: -16px -64px;}
+img.wsIcon.addFile {background-position: -16px -80px;}
+img.wsIcon.addLink {background-position: -16px -96px;}
+img.wsIcon.addNote {background-position: -16px -112px;}
+img.wsIcon.addTag {background-position: -16px -128px;}
+img.wsIcon.viewHistory {background-position: -16px -144px;}
+
+img.wsIcon.columnProperties {background-position:-32px 0;}
+img.wsIcon.listOfValues {background-position:-32px -16px;}
+img.wsIcon.columnGroups {background-position:-32px -32px;}
+img.wsIcon.validation {background-position:-32px -48px;}
+img.wsIcon.removeColumn {background-position: -32px -64px;}

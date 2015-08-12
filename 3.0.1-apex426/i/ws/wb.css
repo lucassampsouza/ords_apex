@@ -1,0 +1,10 @@
+#webpage{font-size:12px !important;empty-cells:show;height:100%;}
+#webpage *{font-size:12px !important;}
+#webpage td.column{height:100%;border:1px solid #efefef;empty-cells:show;padding:15px 5px;}
+div.region{border:1px solid #999;width:300px;font-size:12px !important;margin:2px;}
+div.region .title{border-bottom:1px solid #999;background:#efefef;clear:both;cursor:move;padding:2px 5px;text-align:center;}
+div.region .title span{float:left;}
+div.region .title img{float:right;cursor:pointer;}
+div.region .body{clear:both;}
+
+

@@ -1,0 +1,61 @@
+<map_data>
+ <name>gambia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-16.8216667175293" top="13.8263874053955" right="-13.7986125946045" bottom="13.0599765777588"/>
+ <regions>
+  <region>
+   <centroid lat="13.4371948242188" lon="-16.6707029342651"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GMB-KSM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kombo Saint Mary]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.4519734382629" lon="-16.597056388855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GMB-BNJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Banjul]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.4061107635498" lon="-15.6998910903931"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GMB-LRI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lower River]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.5811634063721" lon="-14.9652376174927"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GMB-MIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[MacCarthy Island]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.406804561615" lon="-14.1731948852539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GMB-URI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Upper River]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.2548484802246" lon="-16.3155565261841"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GMB-WST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.4856729507446" lon="-15.9314231872559"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GMB-NBA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Bank]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

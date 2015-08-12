@@ -1,0 +1,145 @@
+<map_data>
+ <name>kazakhstan</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="46.4991607666016" top="55.444709777832" right="87.3482055664063" bottom="40.5944366455078"/>
+ <regions>
+  <region>
+   <centroid lat="48.2403678894043" lon="58.9490013122559"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-AKB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aktyubinsk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4556083679199" lon="77.3701248168945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-ALA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alma-Ata]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.2972183227539" lon="68.4999847412109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-CHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chimkent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.0056419372559" lon="70.1039886474609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-DZK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dzhezkazgan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.1616516113281" lon="72.4300994873047"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-DZM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dzhambul]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.8816604614258" lon="53.3645706176758"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-MGY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mangyshlak]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.3145713806152" lon="70.0302658081055"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-KKC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kokchetav]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.9033298492432" lon="74.009147644043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-KRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karaganda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.6101036071777" lon="63.208324432373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-KST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kustanay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1247177124023" lon="63.3241386413574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-KZO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kzyl-Orda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.6332778930664" lon="51.7918357849121"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-GRV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gur'yev]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.3527679443359" lon="68.6459655761719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-NKZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Kazakhstan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.2299919128418" lon="76.3718452453613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-PVL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pavlodar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.6062355041504" lon="80.1923446655273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-SMP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Semipalatinsk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.5194206237793" lon="79.4019317626953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-TKG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taldy Kurgan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.3049926757813" lon="65.1502647399902"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-TRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Turgay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.8115234375" lon="70.8215179443359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-TSL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tselinograd]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.8805389404297" lon="50.5370788574219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-URL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ural'sk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.9145812988281" lon="84.2318725585938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KAZ-VKZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[East Kazakhstan]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

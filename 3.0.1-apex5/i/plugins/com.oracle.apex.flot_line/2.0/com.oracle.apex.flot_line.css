@@ -1,0 +1,50 @@
+
+.a-FlotLine .legendColorBox>div {
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.a-FlotLine .legend table {
+	background-color: rgba(255,255,255,0.8);
+}
+
+.a-FlotLine .legend table tr {
+	vertical-align: middle
+}
+
+.a-FlotLine .legend table td {
+	padding: 1px 3px;
+}
+
+.a-FlotLine .legend {
+	position: absolute;
+	display: inline-block;
+	top: 15px;
+	right: 25px;
+}
+
+.a-FlotLine-tooltip-container {
+	display: none;
+	min-width: 100px;
+	position: absolute;
+	background-color: #333;
+	color: white;
+	padding: 5px;
+	border: 3px solid white;
+	border-radius: 3px;
+}
+
+.a-FlotLine-tooltip span {
+	clear: both;
+	float: left;
+}
+
+.a-FlotLine .axisLabels {
+	color: initial!important;
+}
+
+.a-FlotLine-chart {
+	position: relative;
+}

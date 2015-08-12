@@ -1,0 +1,150 @@
+/* Set up Variable Colors */
+/* Z-Index */
+/* line 38, ../scss/ws_ie7.scss */
+div.ebaFrameHeader {
+  z-index: 30;
+  position: relative;
+  filter: none;
+  background: url(../img/eba_gradients_ie.png) 0 0 repeat-x #cccccc; }
+
+/* line 44, ../scss/ws_ie7.scss */
+div.ebaContentContainer {
+  z-index: 20; }
+
+/* line 48, ../scss/ws_ie7.scss */
+div.ebaContent {
+  z-index: 10; }
+
+/* line 51, ../scss/ws_ie7.scss */
+div.wsBreadcrumb {
+  z-index: 20; }
+
+/* line 55, ../scss/ws_ie7.scss */
+ul.wsMenu > li > a {
+  color: #404040; }
+
+/* line 58, ../scss/ws_ie7.scss */
+ul.wsMenu > li > a > img {
+  vertical-align: middle; }
+
+/* line 61, ../scss/ws_ie7.scss */
+ul.wsMenu > li > ul {
+  background: #FFF;
+  color: #404040;
+  border-bottom: 1px solid #AAA; }
+
+/* line 66, ../scss/ws_ie7.scss */
+ul.wsMenu > li > ul li a:hover {
+  background: #C0C0C0;
+  color: #000;
+  text-shadow: none; }
+
+/* line 71, ../scss/ws_ie7.scss */
+ul.wsMenu > li > ul li a:hover span {
+  color: #000; }
+
+/* line 76, ../scss/ws_ie7.scss */
+ul.wsMenu > li > a:active, ul.wsMenu > li > a.wsMenuActive, ul.wsMenu > li > a.wsMenuActive:active {
+  filter: none; }
+
+/* line 79, ../scss/ws_ie7.scss */
+ul.wsMenu > li > ul li a {
+  height: 24px; }
+
+/* line 82, ../scss/ws_ie7.scss */
+ul.wsMenu > li > ul li a span {
+  height: 24px; }
+
+/* line 85, ../scss/ws_ie7.scss */
+ul.wsMenu > li > ul li.wsMenuSeparator {
+  margin: 3px 0 3px 0;
+  font: normal 2px/10px Arial, sans-serif;
+  border-top: 1px solid #404040;
+  padding: 0 0 0 0; }
+
+/* line 91, ../scss/ws_ie7.scss */
+div.wsSearch input {
+  border: 1px solid #7f7f7f; }
+
+/* line 95, ../scss/ws_ie7.scss */
+div.wsBreadcrumb > ul > li > a {
+  border-right: 1px solid #dfdfdf; }
+
+/* line 98, ../scss/ws_ie7.scss */
+div.wsBreadcrumb > ul {
+  border-bottom: 1px solid #AAA;
+  background: url(../img/eba_gradients_ie.png) 0 -10px repeat-x #dddddd; }
+
+/* Next Button */
+/* line 108, ../scss/ws_ie7.scss */
+a.ebaNextButton img, a.ebaPrevButton img, a.ebaDeleteButton img, a.ebaCloseButton img {
+  vertical-align: middle; }
+
+/* IE 7 Right + Left Col Fixes*/
+/* line 115, ../scss/ws_ie7.scss */
+div.ebaContent div.ebaMainCol, div.wsPopUpContent div.wsMainCol {
+  /*	margin: 0 201px 0 0;*/
+  margin: 0;
+  width: expression(document.body.clientWidth - 225);
+  padding: 10px;
+  float: left; }
+
+/* line 123, ../scss/ws_ie7.scss */
+div.ebaContent div.ebaSideCol, div.wsPopUpContent div.wsSideCol {
+  position: relative;
+  float: left;
+  width: 200px;
+  padding: 5px 0; }
+
+/* line 129, ../scss/ws_ie7.scss */
+div.wsSideSection h3 {
+  height: 24px; }
+
+/* line 132, ../scss/ws_ie7.scss */
+div.wsSideSection h3 span a {
+  border-left: 1px solid #BBB;
+  height: 24px; }
+
+/* line 136, ../scss/ws_ie7.scss */
+.wsControlPanel li.wsSeparator {
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #F8F8F8;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 0px;
+  font: normal 0px/0px Arial, sans-serif; }
+
+/* line 144, ../scss/ws_ie7.scss */
+div.wsSection h2 {
+  margin: 0;
+  padding: 0;
+  font: bold 14px/30px Arial, sans-serif;
+  color: #333;
+  border-bottom: 1px solid #DDD;
+  position: relative;
+  height: 30px; }
+/* line 152, ../scss/ws_ie7.scss */
+div.wsSection h2 span {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+/* line 158, ../scss/ws_ie7.scss */
+img.topIcon {
+  width: 9px;
+  height: 9px;
+  background: url(../img/ws_control_icons.png) -39px 0 no-repeat;
+  margin: 3px 0 2px 0; }
+
+/* Give min-width to actions bar for IE7 */
+/* line 166, ../scss/ws_ie7.scss */
+.wsActionBar {
+  min-width: 440px; }
+
+/* line 168, ../scss/ws_ie7.scss */
+div.wsSideSection h3 {
+  background: url(../img/eba_gradients_ie.png) 0 -10px repeat-x #cccccc; }
+
+/* line 176, ../scss/ws_ie7.scss */
+.apexir_ACTION_MENU button#apexir_ACTIONSMENUROOT span, .apexir_ACTION_MENU button#apexir_WEBSHEETSMANAGE span, .apexir_WEBSHEET_MENU button#apexir_ACTIONSMENUROOT span, .apexir_WEBSHEET_MENU button#apexir_WEBSHEETSMANAGE span {
+  height: auto; }

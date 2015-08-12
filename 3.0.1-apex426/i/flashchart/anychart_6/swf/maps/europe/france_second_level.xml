@@ -1,0 +1,684 @@
+<map_data>
+ <name>france_second_level</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-5.13472318649292" top="51.0911102294922" right="9.56222152709961" bottom="41.3641700744629"/>
+ <regions>
+  <region>
+   <centroid lat="50.5297203063965" lon="3.15381145477295"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-NPC-NOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nord]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.5126037597656" lon="2.35972207784653"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-NPC-PDC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pas-de-Calais]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.97194480896" lon="2.28440946340561"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PIC-SOM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Somme]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.7002754211426" lon="4.71556091308594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CHA-ARN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ardennes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.6788597106934" lon="0.925277519971132"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-HNR-SMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seine-Maritime]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.4541606903076" lon="3.60347211360931"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PIC-AIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aisne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.4149951934814" lon="2.40319454669952"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PIC-OIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oise]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.0927696228027" lon="-1.34958353638649"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BNR-MNC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manche]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.0164108276367" lon="5.37861061096191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LOR-MEU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Meuse]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.0765190124512" lon="1.04067599773407"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-HNR-EUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eure]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.0942001342773" lon="-0.36999998986721"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BNR-CLV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Calvados]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.9658050537109" lon="4.21597194671631"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CHA-MAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.0743103027344" lon="2.10486096143723"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-IDF-VDO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Val-d'Oise]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.6123600006104" lon="2.96864902973175"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-IDF-SEM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seine-et-Marne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.7619400024414" lon="1.8240305185318"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-IDF-YVL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yvelines]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.9080543518066" lon="2.43248105049133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-IDF-SSD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seine-Saint-Deni]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.5718002319336" lon="0.0619840025901794"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BNR-ORN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.8408203125" lon="2.22346389293671"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-IDF-HDS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hauts-de-Seine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.4473609924316" lon="1.38777795433998"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CEN-EEL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eure-et-Loir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.851900100708" lon="2.32277858257294"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-IDF-VDP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ville de Paris]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.7729091644287" lon="2.45430552959442"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-IDF-VDM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Valle-de-Marne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.5266609191895" lon="2.24041652679443"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-IDF-ESS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Essonne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.2609691619873" lon="-4.27652859687805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BRT-FNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Finistere]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1794052124023" lon="-1.66250002384186"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BRT-IEV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ille-et-Vilaine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.138744354248" lon="5.27333354949951"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CHA-HMA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haute-Marne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1508293151855" lon="-0.64625003002584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PDL-MYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mayenne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1711101531982" lon="6.31083297729492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LOR-VSG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vosges]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.024845123291" lon="0.237360998988152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PDL-SRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sarthe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.9111099243164" lon="2.30781948566437"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CEN-LOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loiret]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.8626346588135" lon="7.24555492401123"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-ALS-HRH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haut-Rhin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.6574954986572" lon="1.42138853669167"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CEN-LEC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loir-et-Cher]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4729099273682" lon="4.79583358764648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BOR-CDO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cote-d'Or]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.6294403076172" lon="6.10941529273987"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-FRC-HSA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haute-Saone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.6569404602051" lon="6.96583318710327"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-FRC-TDB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Territoire de Be]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.3980503082275" lon="-0.558042004704475"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PDL-MEL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maine-et-Loire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2269401550293" lon="0.706805486232042"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CEN-IEL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Indre-et-Loire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0217990875244" lon="2.4186110496521"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CEN-CHE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cher]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.7735710144043" lon="5.72819399833679"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-FRC-JUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jura]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8097190856934" lon="1.53319454193115"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CEN-IND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Indre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6055450439453" lon="0.542917005717754"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PCH-VIE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vienne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.5358200073242" lon="-0.368333511054516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PCH-DSV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Deux-Sevres]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.3449954986572" lon="-1.74888902902603"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PDL-LAT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loire-Atlantique]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.3779106140137" lon="3.12791657447815"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-AVR-ALL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Allier]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.8668155670166" lon="4.67291665077209"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-RHA-RHO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rhone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.7509708404541" lon="4.22190308570862"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-RHA-LOI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.7647151947021" lon="3.18416595458984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-AVR-PDD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Puy-de-Dome]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.6648006439209" lon="0.227221995592117"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PCH-CHR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Charente]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1477699279785" lon="0.712517006322742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-AQT-DRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dordogne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.0502643585205" lon="2.70991194248199"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-AVR-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cantal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.0859699249268" lon="3.78069400787354"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-AVR-HLO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haute-Loire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.8213844299316" lon="4.37905395030975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-RHA-ARD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ardeche]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0473556518555" lon="5.2092809677124"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PAC-VCL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaucluse]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.7334651947021" lon="-0.773184500867501"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PCH-CMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Charente-Maritim]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.6605548858643" lon="6.24625015258789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PAC-HAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hautes-Alpes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.6287498474121" lon="1.60052552819252"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-MPY-LOT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lot]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.5395793914795" lon="3.48694455623627"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LNR-LOZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lozere]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.3170757293701" lon="2.6419620513916"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-MPY-AVY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aveyron]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.3650703430176" lon="0.474310018122196"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-AQT-LEG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lot-et-Garonne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.1640453338623" lon="6.23444366455078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PAC-ADH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alpes-de-Haute-P]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.7319450378418" lon="5.24666547775269"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-RHA-DRO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Drome]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0716552734375" lon="1.35444849729538"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-MPY-TEG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tarn-et-Garonne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.955394744873" lon="7.17438340187073"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PAC-AMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alpes-Maritimes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.7890243530273" lon="2.23679149150848"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-MPY-TAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tarn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.3028507232666" lon="1.24749952554703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-MPY-HGR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haute-Garonne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.6199951171875" lon="2.45063298940659"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LNR-POR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pyrenees-Orienta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5554161071777" lon="5.02891063690186"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PAC-BDR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bouches-du-Rhone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.4012432098389" lon="6.31931591033936"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PAC-VAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Var]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8754005432129" lon="8.97499942779541"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-COR-CDS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Corse-du-Sud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.9499950408936" lon="6.27820897102356"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LOR-MEM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Meurthe-et-Mosel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.0175457000732" lon="6.78548860549927"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LOR-MSL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moselle]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.5911560058594" lon="7.60095548629761"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-ALS-BRH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bas-Rhin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.4530487060547" lon="-2.80472248792648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BRT-CDN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cotes-du-Nord]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.319019317627" lon="4.1254163980484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-CHA-AUB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aube]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.8620986938477" lon="3.58402752876282"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BOR-YON]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yonne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.7409648895264" lon="-2.90166699886322"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BRT-MRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morbihan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6779098510742" lon="-1.46819448471069"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-PDL-VEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vendee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1163845062256" lon="3.5352098941803"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BOR-NIE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nievre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0687408447266" lon="6.38791608810425"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-FRC-DOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Doubs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6634654998779" lon="4.5472594499588"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-BOR-SEL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saone-et-Loire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.0631904602051" lon="5.45263838768005"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-RHA-AIN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ain]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.0605506896973" lon="1.98444443941116"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LIM-CRE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Creuse]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.0522193908691" lon="6.42555499076843"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-RHA-HSV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haute-Savoie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.9224891662598" lon="1.26805549860001"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LIM-HVI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haute-Vienne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.8991603851318" lon="-0.477349013090134"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-AQT-GRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gironde]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.4891662597656" lon="6.40804934501648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-RHA-SAV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Savoie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.2891654968262" lon="5.5631308555603"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-RHA-ISE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Isere]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.3438854217529" lon="1.88097196817398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LIM-CRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Correze]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0033302307129" lon="-0.69115999341011"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-AQT-LND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Landes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9573554992676" lon="4.06458294391632"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LNR-GAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gard]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.6911106109619" lon="0.464582994580269"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-MPY-GER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gers]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5964756011963" lon="3.36222195625305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LNR-HRL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Herault]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1376285552979" lon="0.161944508552551"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-MPY-HPY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hautes-Pyrenees]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1865234375" lon="-0.878756497055292"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-AQT-PAT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pyrenees-Atlanti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9424896240234" lon="1.49972203373909"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-MPY-ARI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ariege]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.42458152771" lon="9.07898426055908"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-COR-HCO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haute-Corse]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.0440254211426" lon="2.46709245443344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FRA-LNR-AUD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aude]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,166 @@
+<map_data>
+ <name>guatemala</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-92.2467803955078" top="17.8211097717285" right="-88.2147369384766" bottom="13.7458324432373"/>
+ <regions>
+  <region>
+   <centroid lat="15.6179161071777" lon="-90.1065292358398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-AVR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alta Verapaz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.0836091041565" lon="-90.3933410644531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-BVR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baja Verapaz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.6669435501099" lon="-90.8871383666992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-CHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chimaltenango]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.6827764511108" lon="-89.4337310791016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-CHQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chiquimula]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.9169435501099" lon="-90.1016693115234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-EPR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[El Progreso]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.2010469436646" lon="-91.0278854370117"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-ESC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Escuintla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.5884714126587" lon="-90.4872283935547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-GTM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guatemala]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.6145820617676" lon="-91.5493927001953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-HHT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Huehuetenango]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.5071563720703" lon="-88.9409866333008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-IZB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Izabal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.6549987792969" lon="-89.9727783203125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-JAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jalapa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.1623601913452" lon="-89.8944549560547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-JUT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jutiapa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.8311100006104" lon="-90.2900085449219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-PET]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Peten]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.8608322143555" lon="-91.7837982177734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-QZL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quezaltenango]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.4427537918091" lon="-90.8798675537109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-QUI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quiche]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.4313335418701" lon="-91.8374481201172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-RTL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Retalhuleu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.5906934738159" lon="-90.7538986206055"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-SCT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sacatepequez]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.9607439041138" lon="-91.915901184082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-SMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Marcos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.160083770752" lon="-90.3390426635742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-SRO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Rosa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.7203950881958" lon="-91.2692947387695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-SOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Solola]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.3914365768433" lon="-91.3806991577148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-SCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suchitepequez]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.041202545166" lon="-91.3898696899414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-TTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Totonicapan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.0420827865601" lon="-89.5142211914063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GTM-ZAC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zacapa]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

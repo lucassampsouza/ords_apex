@@ -1,0 +1,243 @@
+<map_data>
+ <name>nm</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-109.050727844238" top="36.9997406005859" right="-102.996917724609" bottom="31.3433475494385"/>
+ <regions>
+  <region>
+   <centroid lat="36.3710136413574" lon="-103.499591827393"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Union]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.4980640411377" lon="-108.229019165039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Juan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.469913482666" lon="-106.564052581787"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rio Arriba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.5082874298096" lon="-105.614868164063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6067008972168" lon="-104.67529296875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colfax]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0216903686523" lon="-105.017818450928"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mora]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8106842041016" lon="-103.894828796387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Harding]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7211894989014" lon="-106.929161071777"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sandoval]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.5269222259521" lon="-105.972206115723"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Fe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4789218902588" lon="-108.170700073242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[McKinley]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8805599212646" lon="-106.284599304199"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35028]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Los Alamos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4680423736572" lon="-104.668190002441"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Miguel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.1725540161133" lon="-103.569713592529"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9702472686768" lon="-108.05086517334"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cibola]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.0489501953125" lon="-106.65843963623"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bernalillo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7839870452881" lon="-104.705627441406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guadalupe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6562976837158" lon="-105.869682312012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Torrance]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6353454589844" lon="-103.375324249268"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Curry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7042789459229" lon="-106.808658599854"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Valencia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3895702362061" lon="-104.408687591553"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[De Baca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.0835609436035" lon="-103.483665466309"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roosevelt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8984203338623" lon="-108.375267028809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Catron]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.0312843322754" lon="-106.816806793213"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Socorro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7435493469238" lon="-105.616539001465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lincoln]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.3089389801025" lon="-104.419185638428"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chaves]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.7844314575195" lon="-103.422313690186"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lea]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0438022613525" lon="-107.156837463379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sierra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6963634490967" lon="-105.608783721924"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Otero]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5377197265625" lon="-108.354518890381"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grant]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4222545623779" lon="-106.803241729736"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dona Ana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4866313934326" lon="-104.277927398682"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eddy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.0631875991821" lon="-108.626693725586"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hidalgo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.1960697174072" lon="-107.751419067383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[35029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Luna]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

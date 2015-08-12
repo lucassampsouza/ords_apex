@@ -1,0 +1,61 @@
+<map_data>
+ <name>byelarus</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="23.1653995513916" top="56.1677703857422" right="32.7411041259766" bottom="51.2518463134766"/>
+ <regions>
+  <region>
+   <centroid lat="52.3038368225098" lon="29.5294322967529"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLR-GML]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gomel']]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gomel']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.8576278686523" lon="25.1011085510254"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLR-GRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grodno]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grodno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.4574928283691" lon="25.384087562561"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLR-BRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brest]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brest]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.5704650878906" lon="30.4120769500732"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLR-MGL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mogilev]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mogilev]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.6795883178711" lon="27.7786064147949"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLR-MNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Minsk]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Minsk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.1954078674316" lon="28.6797142028809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLR-VTB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vitebsk]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vitebsk]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

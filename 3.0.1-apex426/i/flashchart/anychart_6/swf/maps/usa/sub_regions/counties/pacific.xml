@@ -1,0 +1,1277 @@
+<map_data>
+ <name>pacific</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="FIPS" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-178.215026855469" top="71.4066467285156" right="-114.124450683594" bottom="32.5357246398926"/>
+ <regions>
+  <region>
+   <centroid lat="69.7028121948242" lon="-153.914909362793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_North Slope]]></value></item>
+    <item column="FIPS"><value><![CDATA[02185]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Slope]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.8572463989258" lon="-159.714416503906"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Northwest Arctic]]></value></item>
+    <item column="FIPS"><value><![CDATA[02188]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northwest Arctic]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.2029495239258" lon="-151.022644042969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Yukon-Koyukuk]]></value></item>
+    <item column="FIPS"><value><![CDATA[02290]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yukon-Koyukuk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.288782119751" lon="-156.646392822266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Lake and Peninsula]]></value></item>
+    <item column="FIPS"><value><![CDATA[02164]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lake and Peninsula]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.8544464111328" lon="-146.274841308594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Fairbanks North Star]]></value></item>
+    <item column="FIPS"><value><![CDATA[02090]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fairbanks North Star]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.8672904968262" lon="-144.350234985352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Southeast Fairbanks]]></value></item>
+    <item column="FIPS"><value><![CDATA[02240]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southeast Fairbanks]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.7667465209961" lon="-165.61710357666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Nome]]></value></item>
+    <item column="FIPS"><value><![CDATA[02180]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nome]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.3296298980713" lon="-149.713401794434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Matanuska-Susitna]]></value></item>
+    <item column="FIPS"><value><![CDATA[02170]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Matanuska-Susitna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.0984973907471" lon="-163.199028015137"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Wade Hampton]]></value></item>
+    <item column="FIPS"><value><![CDATA[02270]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wade Hampton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.757884979248" lon="-156.788879394531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Bristol Bay]]></value></item>
+    <item column="FIPS"><value><![CDATA[02060]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bristol Bay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.1135749816895" lon="-149.26097869873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Anchorage]]></value></item>
+    <item column="FIPS"><value><![CDATA[02020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Anchorage]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0659027099609" lon="-151.653465270996"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Kenai Peninsula]]></value></item>
+    <item column="FIPS"><value><![CDATA[02122]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kenai Peninsula]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4419269561768" lon="-163.022674560547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Bethel]]></value></item>
+    <item column="FIPS"><value><![CDATA[02050]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bethel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.701244354248" lon="-158.662200927734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Dillingham]]></value></item>
+    <item column="FIPS"><value><![CDATA[02070]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dillingham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.4976692199707" lon="-144.869606018066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Valdez-Cordova]]></value></item>
+    <item column="FIPS"><value><![CDATA[02261]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Valdez-Cordova]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.9889469146729" lon="-135.409286499023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Haines]]></value></item>
+    <item column="FIPS"><value><![CDATA[02100]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haines]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6808280944824" lon="-136.680961608887"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Skagway-Yakutat-Angoon]]></value></item>
+    <item column="FIPS"><value><![CDATA[02231]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skagway-Yakutat-Angoon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.7974662780762" lon="-154.355438232422"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Kodiak Island]]></value></item>
+    <item column="FIPS"><value><![CDATA[02150]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kodiak Island]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3811702728271" lon="-134.164642333984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Juneau]]></value></item>
+    <item column="FIPS"><value><![CDATA[02110]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Juneau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.0755443572998" lon="-135.515426635742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Sitka]]></value></item>
+    <item column="FIPS"><value><![CDATA[02220]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sitka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.5347366333008" lon="-131.890274047852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Prince of Wales-Outer Ketchikan]]></value></item>
+    <item column="FIPS"><value><![CDATA[02201]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prince of Wales-Outer Ketchikan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.5443000793457" lon="-131.400268554688"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Ketchikan Gateway]]></value></item>
+    <item column="FIPS"><value><![CDATA[02130]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ketchikan Gateway]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.5329189300537" lon="-132.699836730957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Wrangell-Petersburg]]></value></item>
+    <item column="FIPS"><value><![CDATA[02280]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wrangell-Petersburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.6420783996582" lon="-161.874000549316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Aleutians East]]></value></item>
+    <item column="FIPS"><value><![CDATA[02013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aleutians East]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.7967987060547" lon="-172.152526855469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AK_Aleutians West]]></value></item>
+    <item column="FIPS"><value><![CDATA[02016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aleutians West]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.49489402771" lon="-122.574306488037"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Siskiyou]]></value></item>
+    <item column="FIPS"><value><![CDATA[06093]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Siskiyou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6862277984619" lon="-123.876968383789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Del Norte]]></value></item>
+    <item column="FIPS"><value><![CDATA[06015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Del Norte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5860633850098" lon="-120.722728729248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Modoc]]></value></item>
+    <item column="FIPS"><value><![CDATA[06049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Modoc]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7304954528809" lon="-123.895336151123"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Humboldt]]></value></item>
+    <item column="FIPS"><value><![CDATA[06023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Humboldt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6715335845947" lon="-123.02144241333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Trinity]]></value></item>
+    <item column="FIPS"><value><![CDATA[06105]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trinity]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7201805114746" lon="-122.181789398193"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Shasta]]></value></item>
+    <item column="FIPS"><value><![CDATA[06089]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shasta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.444465637207" lon="-120.660064697266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Lassen]]></value></item>
+    <item column="FIPS"><value><![CDATA[06035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lassen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.1231746673584" lon="-122.182052612305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Tehama]]></value></item>
+    <item column="FIPS"><value><![CDATA[06103]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tehama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0201015472412" lon="-120.797096252441"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Plumas]]></value></item>
+    <item column="FIPS"><value><![CDATA[06063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Plumas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.7283668518066" lon="-121.56729888916"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Butte]]></value></item>
+    <item column="FIPS"><value><![CDATA[06007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Butte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.378231048584" lon="-123.408027648926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Mendocino]]></value></item>
+    <item column="FIPS"><value><![CDATA[06045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mendocino]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5899791717529" lon="-122.380084991455"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Glenn]]></value></item>
+    <item column="FIPS"><value><![CDATA[06021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Glenn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5804710388184" lon="-120.5153465271"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Sierra]]></value></item>
+    <item column="FIPS"><value><![CDATA[06091]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sierra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2796363830566" lon="-121.308547973633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Yuba]]></value></item>
+    <item column="FIPS"><value><![CDATA[06115]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yuba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1261692047119" lon="-122.716091156006"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Lake]]></value></item>
+    <item column="FIPS"><value><![CDATA[06033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lake]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2629947662354" lon="-120.63676071167"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Nevada]]></value></item>
+    <item column="FIPS"><value><![CDATA[06057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nevada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1712055206299" lon="-122.282791137695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Colusa]]></value></item>
+    <item column="FIPS"><value><![CDATA[06011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colusa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.0112323760986" lon="-120.737712860107"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Placer]]></value></item>
+    <item column="FIPS"><value><![CDATA[06061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Placer]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.0197868347168" lon="-121.669967651367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Sutter]]></value></item>
+    <item column="FIPS"><value><![CDATA[06101]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sutter]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7835025787354" lon="-120.506160736084"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_El Dorado]]></value></item>
+    <item column="FIPS"><value><![CDATA[06017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[El Dorado]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.62375831604" lon="-121.954742431641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Yolo]]></value></item>
+    <item column="FIPS"><value><![CDATA[06113]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yolo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.6303081512451" lon="-119.808094024658"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Alpine]]></value></item>
+    <item column="FIPS"><value><![CDATA[06003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alpine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5057048797607" lon="-122.345306396484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Napa]]></value></item>
+    <item column="FIPS"><value><![CDATA[06055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Napa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4822387695313" lon="-122.931594848633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Sonoma]]></value></item>
+    <item column="FIPS"><value><![CDATA[06097]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sonoma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4170150756836" lon="-121.339630126953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Sacramento]]></value></item>
+    <item column="FIPS"><value><![CDATA[06067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sacramento]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0781307220459" lon="-118.739379882813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Mono]]></value></item>
+    <item column="FIPS"><value><![CDATA[06051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mono]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4585876464844" lon="-120.539936065674"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Amador]]></value></item>
+    <item column="FIPS"><value><![CDATA[06005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amador]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1666851043701" lon="-120.498474121094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Calaveras]]></value></item>
+    <item column="FIPS"><value><![CDATA[06009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Calaveras]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0338020324707" lon="-119.914482116699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Tuolumne]]></value></item>
+    <item column="FIPS"><value><![CDATA[06109]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tuolumne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.0680637359619" lon="-122.725158691406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Marin]]></value></item>
+    <item column="FIPS"><value><![CDATA[06041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.888599395752" lon="-121.245288848877"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_San Joaquin]]></value></item>
+    <item column="FIPS"><value><![CDATA[06077]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Joaquin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.3024139404297" lon="-121.990081787109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Solano]]></value></item>
+    <item column="FIPS"><value><![CDATA[06095]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Solano]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9041290283203" lon="-121.954029083252"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Contra Costa]]></value></item>
+    <item column="FIPS"><value><![CDATA[06013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Contra Costa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6060047149658" lon="-120.928916931152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Stanislaus]]></value></item>
+    <item column="FIPS"><value><![CDATA[06099]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stanislaus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6792640686035" lon="-121.891193389893"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Alameda]]></value></item>
+    <item column="FIPS"><value><![CDATA[06001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alameda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5389556884766" lon="-119.844329833984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Mariposa]]></value></item>
+    <item column="FIPS"><value><![CDATA[06043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mariposa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.754508972168" lon="-122.42126083374"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_San Francisco]]></value></item>
+    <item column="FIPS"><value><![CDATA[06075]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Francisco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2632884979248" lon="-119.77095413208"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Madera]]></value></item>
+    <item column="FIPS"><value><![CDATA[06039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madera]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4046764373779" lon="-122.296413421631"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_San Mateo]]></value></item>
+    <item column="FIPS"><value><![CDATA[06081]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Mateo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1808776855469" lon="-120.630367279053"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Merced]]></value></item>
+    <item column="FIPS"><value><![CDATA[06047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Merced]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7439002990723" lon="-119.625541687012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Fresno]]></value></item>
+    <item column="FIPS"><value><![CDATA[06019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fresno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1834602355957" lon="-121.691028594971"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Santa Clara]]></value></item>
+    <item column="FIPS"><value><![CDATA[06085]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Clara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6265449523926" lon="-117.204978942871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Inyo]]></value></item>
+    <item column="FIPS"><value><![CDATA[06027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Inyo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.0654411315918" lon="-121.933673858643"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Santa Cruz]]></value></item>
+    <item column="FIPS"><value><![CDATA[06087]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Cruz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.5931301116943" lon="-121.103050231934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_San Benito]]></value></item>
+    <item column="FIPS"><value><![CDATA[06069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Benito]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.352689743042" lon="-121.076236724854"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Monterey]]></value></item>
+    <item column="FIPS"><value><![CDATA[06053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Monterey]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.2663345336914" lon="-118.766563415527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Tulare]]></value></item>
+    <item column="FIPS"><value><![CDATA[06107]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tulare]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1410675048828" lon="-119.876167297363"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Kings]]></value></item>
+    <item column="FIPS"><value><![CDATA[06031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kings]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.307258605957" lon="-118.904808044434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Kern]]></value></item>
+    <item column="FIPS"><value><![CDATA[06029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8433456420898" lon="-115.959098815918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_San Bernardino]]></value></item>
+    <item column="FIPS"><value><![CDATA[06071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Bernardino]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3448390960693" lon="-120.39916229248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_San Luis Obispo]]></value></item>
+    <item column="FIPS"><value><![CDATA[06079]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Luis Obispo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4692211151123" lon="-119.055248260498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Ventura]]></value></item>
+    <item column="FIPS"><value><![CDATA[06111]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ventura]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7520809173584" lon="-116.051643371582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Riverside]]></value></item>
+    <item column="FIPS"><value><![CDATA[06065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Riverside]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5042362213135" lon="-120.050037384033"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Santa Barbara]]></value></item>
+    <item column="FIPS"><value><![CDATA[06083]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Barbara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6726264953613" lon="-117.758106231689"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Orange]]></value></item>
+    <item column="FIPS"><value><![CDATA[06059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orange]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0230484008789" lon="-116.838581085205"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_San Diego]]></value></item>
+    <item column="FIPS"><value><![CDATA[06073]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Diego]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8149719238281" lon="-118.288669586182"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Los Angeles]]></value></item>
+    <item column="FIPS"><value><![CDATA[06037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Los Angeles]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0294017791748" lon="-115.283390045166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA_Imperial]]></value></item>
+    <item column="FIPS"><value><![CDATA[06025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Imperial]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.0023231506348" lon="-123.67748260498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Clatsop]]></value></item>
+    <item column="FIPS"><value><![CDATA[41007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clatsop]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.948974609375" lon="-123.062698364258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Columbia]]></value></item>
+    <item column="FIPS"><value><![CDATA[41009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Columbia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.494213104248" lon="-118.706352233887"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Umatilla]]></value></item>
+    <item column="FIPS"><value><![CDATA[41059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Umatilla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.536958694458" lon="-117.225536346436"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Wallowa]]></value></item>
+    <item column="FIPS"><value><![CDATA[41063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wallowa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.4506015777588" lon="-119.569480895996"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Morrow]]></value></item>
+    <item column="FIPS"><value><![CDATA[41049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morrow]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.4019298553467" lon="-117.974388122559"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Union]]></value></item>
+    <item column="FIPS"><value><![CDATA[41061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Union]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.4349250793457" lon="-120.206035614014"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Gilliam]]></value></item>
+    <item column="FIPS"><value><![CDATA[41021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gilliam]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.4059638977051" lon="-123.651744842529"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Tillamook]]></value></item>
+    <item column="FIPS"><value><![CDATA[41057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tillamook]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.5416927337646" lon="-123.112640380859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Washington]]></value></item>
+    <item column="FIPS"><value><![CDATA[41067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.4059219360352" lon="-120.700233459473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Sherman]]></value></item>
+    <item column="FIPS"><value><![CDATA[41055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sherman]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.5762233734131" lon="-122.37060546875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Multnomah]]></value></item>
+    <item column="FIPS"><value><![CDATA[41051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Multnomah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.4857978820801" lon="-121.682308197021"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Hood River]]></value></item>
+    <item column="FIPS"><value><![CDATA[41027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hood River]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.2588939666748" lon="-121.094230651855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Wasco]]></value></item>
+    <item column="FIPS"><value><![CDATA[41065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wasco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1654205322266" lon="-122.263320922852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Clackamas]]></value></item>
+    <item column="FIPS"><value><![CDATA[41005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clackamas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.2488384246826" lon="-123.324974060059"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Yamhill]]></value></item>
+    <item column="FIPS"><value><![CDATA[41071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yamhill]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.9794883728027" lon="-122.464851379395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Marion]]></value></item>
+    <item column="FIPS"><value><![CDATA[41047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marion]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.6611938476563" lon="-117.651298522949"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Baker]]></value></item>
+    <item column="FIPS"><value><![CDATA[41001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baker]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.8898296356201" lon="-123.378929138184"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Polk]]></value></item>
+    <item column="FIPS"><value><![CDATA[41053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Polk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.6799755096436" lon="-120.07124710083"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Wheeler]]></value></item>
+    <item column="FIPS"><value><![CDATA[41069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wheeler]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.652063369751" lon="-123.855285644531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Lincoln]]></value></item>
+    <item column="FIPS"><value><![CDATA[41041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lincoln]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4716453552246" lon="-118.947757720947"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Grant]]></value></item>
+    <item column="FIPS"><value><![CDATA[41023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grant]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.6016025543213" lon="-121.112838745117"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Jefferson]]></value></item>
+    <item column="FIPS"><value><![CDATA[41031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jefferson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4904518127441" lon="-122.524421691895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Linn]]></value></item>
+    <item column="FIPS"><value><![CDATA[41043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Linn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.491340637207" lon="-123.445755004883"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Benton]]></value></item>
+    <item column="FIPS"><value><![CDATA[41003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Benton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.1240081787109" lon="-120.379825592041"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Crook]]></value></item>
+    <item column="FIPS"><value><![CDATA[41013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Crook]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.2174854278564" lon="-117.565006256104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Malheur]]></value></item>
+    <item column="FIPS"><value><![CDATA[41045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malheur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9961719512939" lon="-120.945987701416"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Deschutes]]></value></item>
+    <item column="FIPS"><value><![CDATA[41017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Deschutes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.8577041625977" lon="-122.960525512695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Lane]]></value></item>
+    <item column="FIPS"><value><![CDATA[41039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.0152454376221" lon="-119.059482574463"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Harney]]></value></item>
+    <item column="FIPS"><value><![CDATA[41025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Harney]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.3182563781738" lon="-123.104301452637"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Douglas]]></value></item>
+    <item column="FIPS"><value><![CDATA[41019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Douglas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.7991256713867" lon="-121.577201843262"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Klamath]]></value></item>
+    <item column="FIPS"><value><![CDATA[41035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Klamath]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.7991256713867" lon="-120.348468780518"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Lake]]></value></item>
+    <item column="FIPS"><value><![CDATA[41037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lake]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1389541625977" lon="-124.095523834229"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Coos]]></value></item>
+    <item column="FIPS"><value><![CDATA[41011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.4972076416016" lon="-122.753726959229"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Jackson]]></value></item>
+    <item column="FIPS"><value><![CDATA[41029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jackson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.4743690490723" lon="-124.143398284912"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Curry]]></value></item>
+    <item column="FIPS"><value><![CDATA[41015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Curry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3827781677246" lon="-123.639812469482"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR_Josephine]]></value></item>
+    <item column="FIPS"><value><![CDATA[41033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Josephine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.4179973602295" lon="-118.479438781738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Ferry]]></value></item>
+    <item column="FIPS"><value><![CDATA[53019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ferry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.3950634002686" lon="-117.909004211426"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Stevens]]></value></item>
+    <item column="FIPS"><value><![CDATA[53065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stevens]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.468729019165" lon="-119.856597900391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Okanogan]]></value></item>
+    <item column="FIPS"><value><![CDATA[53047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Okanogan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.5221099853516" lon="-117.331474304199"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Pend Oreille]]></value></item>
+    <item column="FIPS"><value><![CDATA[53051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pend Oreille]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.8192348480225" lon="-121.739284515381"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Whatcom]]></value></item>
+    <item column="FIPS"><value><![CDATA[53073]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Whatcom]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.472583770752" lon="-121.691741943359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Skagit]]></value></item>
+    <item column="FIPS"><value><![CDATA[53057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skagit]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.533899307251" lon="-123.067646026611"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_San Juan]]></value></item>
+    <item column="FIPS"><value><![CDATA[53055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Juan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.8993644714355" lon="-120.518272399902"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Chelan]]></value></item>
+    <item column="FIPS"><value><![CDATA[53007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chelan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1218509674072" lon="-123.825866699219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Clallam]]></value></item>
+    <item column="FIPS"><value><![CDATA[53009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clallam]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.0322170257568" lon="-121.660507202148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Snohomish]]></value></item>
+    <item column="FIPS"><value><![CDATA[53061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Snohomish]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1548480987549" lon="-122.560821533203"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Island]]></value></item>
+    <item column="FIPS"><value><![CDATA[53029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Island]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.6856365203857" lon="-119.628231048584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Douglas]]></value></item>
+    <item column="FIPS"><value><![CDATA[53017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Douglas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.8285598754883" lon="-123.628841400146"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Jefferson]]></value></item>
+    <item column="FIPS"><value><![CDATA[53031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jefferson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.6518974304199" lon="-117.431713104248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Spokane]]></value></item>
+    <item column="FIPS"><value><![CDATA[53063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Spokane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2925720214844" lon="-119.506534576416"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Grant]]></value></item>
+    <item column="FIPS"><value><![CDATA[53025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grant]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.6031742095947" lon="-118.399932861328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Lincoln]]></value></item>
+    <item column="FIPS"><value><![CDATA[53043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lincoln]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.667459487915" lon="-122.748706817627"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Kitsap]]></value></item>
+    <item column="FIPS"><value><![CDATA[53035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kitsap]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4301280975342" lon="-121.742137908936"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_King]]></value></item>
+    <item column="FIPS"><value><![CDATA[53033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[King]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.3415489196777" lon="-123.14977645874"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Mason]]></value></item>
+    <item column="FIPS"><value><![CDATA[53045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mason]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.164966583252" lon="-120.693065643311"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Kittitas]]></value></item>
+    <item column="FIPS"><value><![CDATA[53037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kittitas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1585922241211" lon="-123.754127502441"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Grays Harbor]]></value></item>
+    <item column="FIPS"><value><![CDATA[53027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grays Harbor]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0648059844971" lon="-122.102149963379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Pierce]]></value></item>
+    <item column="FIPS"><value><![CDATA[53053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pierce]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9970588684082" lon="-118.664615631104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Adams]]></value></item>
+    <item column="FIPS"><value><![CDATA[53001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Adams]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8384609222412" lon="-117.639778137207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Whitman]]></value></item>
+    <item column="FIPS"><value><![CDATA[53075]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Whitman]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9427909851074" lon="-122.718715667725"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Thurston]]></value></item>
+    <item column="FIPS"><value><![CDATA[53067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thurston]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.5614604949951" lon="-120.694263458252"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Yakima]]></value></item>
+    <item column="FIPS"><value><![CDATA[53077]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yakima]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.5167999267578" lon="-123.729675292969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Pacific]]></value></item>
+    <item column="FIPS"><value><![CDATA[53049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pacific]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.5835475921631" lon="-122.367275238037"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Lewis]]></value></item>
+    <item column="FIPS"><value><![CDATA[53041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lewis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.4653263092041" lon="-118.82621383667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Franklin]]></value></item>
+    <item column="FIPS"><value><![CDATA[53021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.276647567749" lon="-119.408851623535"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Benton]]></value></item>
+    <item column="FIPS"><value><![CDATA[53005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Benton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.3492469787598" lon="-117.545341491699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Garfield]]></value></item>
+    <item column="FIPS"><value><![CDATA[53023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Garfield]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.308765411377" lon="-117.919868469238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Columbia]]></value></item>
+    <item column="FIPS"><value><![CDATA[53013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Columbia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.300760269165" lon="-118.510391235352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Walla Walla]]></value></item>
+    <item column="FIPS"><value><![CDATA[53071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Walla Walla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.2264995574951" lon="-117.199508666992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Asotin]]></value></item>
+    <item column="FIPS"><value><![CDATA[53003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Asotin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.9660873413086" lon="-121.881267547607"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Skamania]]></value></item>
+    <item column="FIPS"><value><![CDATA[53059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skamania]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.1158828735352" lon="-122.730247497559"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Cowlitz]]></value></item>
+    <item column="FIPS"><value><![CDATA[53015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cowlitz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.2618846893311" lon="-123.467704772949"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Wahkiakum]]></value></item>
+    <item column="FIPS"><value><![CDATA[53069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wahkiakum]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.8002033233643" lon="-122.515258789063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Clark]]></value></item>
+    <item column="FIPS"><value><![CDATA[53011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.8227806091309" lon="-120.738315582275"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA_Klickitat]]></value></item>
+    <item column="FIPS"><value><![CDATA[53039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Klickitat]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

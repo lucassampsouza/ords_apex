@@ -1,0 +1,82 @@
+<map_data>
+ <name>panama</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-83.0302886962891" top="9.62027740478516" right="-77.1983337402344" bottom="7.20611095428467"/>
+ <regions>
+  <region>
+   <centroid lat="9.06416511535645" lon="-82.0500030517578"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAN-BDT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bocas del Toro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.44041156768799" lon="-82.253547668457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAN-CHR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chiriqui]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.53583240509033" lon="-80.4276962280273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAN-COC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cocle]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.1208324432373" lon="-79.9711151123047"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAN-COL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.1579155921936" lon="-77.8454208374023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAN-DAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Darien]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.83116722106934" lon="-80.6599426269531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAN-HRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Herrera]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.61694717407227" lon="-80.3505020141602"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAN-LSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Los Santos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.83999919891357" lon="-79.1034851074219"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAN-PAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Panama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.04874897003174" lon="-78.3134765625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAN-SBL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Blas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.04263830184937" lon="-81.2555541992188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PAN-VRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Veraguas]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

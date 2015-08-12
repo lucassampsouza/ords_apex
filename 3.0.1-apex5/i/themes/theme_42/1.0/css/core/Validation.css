@@ -1,0 +1,56 @@
+/**
+ * Import Compass
+ */
+/* ==========================================================================
+   Validation Plugin
+   ========================================================================== */
+/* ==========================================================================
+   Chart
+   ========================================================================== */
+.t-Validation {
+  -webkit-font-smoothing: antialiased; }
+  .t-Validation.is-invalid .t-Validation-icon .a-Icon {
+    background-color: #ff3b30; }
+  .t-Validation.is-warning .t-Validation-icon .a-Icon {
+    background-color: #ffcc00; }
+    .t-Validation.is-warning .t-Validation-icon .a-Icon:before {
+      margin-top: -1px; }
+  .t-Validation.is-valid .t-Validation-icon .a-Icon {
+    background-color: #4cd964; }
+
+.t-Validation-icon {
+  display: block;
+  float: left;
+  margin: 0; }
+  .t-Validation-icon .a-Icon {
+    color: #FFF;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 4px; }
+
+.t-Validation-body {
+  overflow: hidden;
+  padding: 0 0 0 12px; }
+
+.t-Validation-date, .t-Validation-user {
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.t-Validation-date {
+  font-size: 16px;
+  line-height: 24px;
+  color: #404040;
+  font-weight: 300; }
+
+.t-Validation-user {
+  font-size: 12px;
+  line-height: 16px;
+  color: #707070; }
+
+.t-Validation-actions {
+  display: block;
+  padding-top: 4px; }

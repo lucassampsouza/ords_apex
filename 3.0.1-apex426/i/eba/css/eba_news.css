@@ -1,0 +1,50 @@
+/*<div class="ebaNews">
+<ul>
+<li>
+<a href="#">
+<h3>News Title</h3>
+<span>Description</span>
+*/
+#NEWS .rc-content-main {
+	padding: 0;
+	}
+div.ebaNews ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: table;
+	width: 100%;
+	}
+div.ebaNews ul li {
+	display: block;
+	}
+div.ebaNews ul li a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+	border-top: 1px solid #DADADA;
+	padding: 6px 9px;
+	-webkit-transition: background-color .1s linear;
+	}
+	div.ebaNews ul li a:hover {
+		background-color: #F0F0F0;
+		text-decoration: none;
+		}
+		div.ebaNews ul li a:hover h3 {
+			background: url(../img/aRightArrow.png) 100% 50% no-repeat;
+			}
+			
+div.ebaNews ul li a h3 {
+	margin: 0;
+	padding: 0;
+	font: normal 13px/20px Arial, sans-serif;
+	color: #444;
+	}
+div.ebaNews ul li a span {
+	display: inline;
+	padding: 0 0 0 10px;
+	font: normal 11px/12px Arial, sans-serif;
+	color: #AAA;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	}

@@ -1,0 +1,455 @@
+<map_data>
+ <name>states_48</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="STATE_FIPS" key="true"/>
+  <column name="SUB_REGION" key="false"/>
+ </columns>
+ <bounds left="-124.731422424316" top="49.3717346191406" right="-66.9698486328125" bottom="24.9559669494629"/>
+ <regions>
+  <region>
+   <centroid lat="47.2853223593964" lon="-120.058984910837"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[53]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6768646240234" lon="-110.052539825439"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montana]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[30]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1783264746228" lon="-69.3593964334705"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maine]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[23]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4654293060303" lon="-100.307041168213"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Dakota]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[38]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.2160129547119" lon="-100.249816894531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Dakota]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[46]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9985790252686" lon="-107.55192565918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wyoming]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[56]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.9588477366255" lon="-90.2537722908094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wisconsin]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[55]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9272976680384" lon="-114.593964334705"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ID]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Idaho]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[16]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.3923182441701" lon="-72.6721536351166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vermont]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[50]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.2318244170096" lon="-94.5116598079561"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Minnesota]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[27]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.6639231824417" lon="-120.739368998628"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oregon]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[41]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.2030178326475" lon="-71.7297668038409"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Hampshire]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[33]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.9366989135742" lon="-93.3915328979492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iowa]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[19]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3292181069959" lon="-71.9259259259259"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Massachusetts]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[25]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4978446960449" lon="-99.6820831298828"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nebraska]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[31]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.6515775034294" lon="-74.6474622770919"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Jersey]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[34]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mid Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.9932518005371" lon="-77.613353729248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pennsylvania]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[42]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mid Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6707818930041" lon="-72.6721536351166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Connecticut]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[09]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7146776406036" lon="-71.4869684499314"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rhode Island]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[44]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[N Eng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.7559986114502" lon="-75.8169708251953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New York]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[36]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mid Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.7708377838135" lon="-86.4444770812988"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Indiana]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[18]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.8230452674897" lon="-116.854595336077"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nevada]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[32]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4970626831055" lon="-111.544502258301"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Utah]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[49]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4334705075446" lon="-118.127572016461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[California]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[06]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Pacific]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.1936225891113" lon="-82.6661605834961"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ohio]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[39]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.3497942386831" lon="-89.244170096022"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Illinois]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[17]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.3004115226337" lon="-76.6227709190672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maryland]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[24]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8175582990398" lon="-75.2620027434842"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Delaware]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[10]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5939643347051" lon="-80.9039780521262"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West Virginia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[54]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2331961591221" lon="-78.7091906721537"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Virginia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[51]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9961910247803" lon="-105.545978546143"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colorado]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[08]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.834156036377" lon="-85.9788932800293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tennessee]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[47]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4959163665771" lon="-98.3260307312012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kansas]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[20]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9029111415943" lon="-77.0007620789514"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[District of Columbia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[11]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4526748971193" lon="-85.2496570644719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kentucky]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[21]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.169732093811" lon="-111.932987213135"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arizona]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[04]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.5651577503429" lon="-97.1893004115227"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oklahoma]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[40]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6529492455418" lon="-79.1920438957476"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Carolina]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[37]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2996673583984" lon="-92.4360847473145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Missouri]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[29]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W N Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2853223593964" lon="-99.0109739368999"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Texas]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[48]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1715440750122" lon="-106.023822784424"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Mexico]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[35]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[Mtn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.979471206665" lon="-83.838436126709"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Florida]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[12]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5998468399048" lon="-89.8669967651367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mississippi]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[28]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6246747970581" lon="-86.6835060119629"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alabama]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[01]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6381015777588" lon="-80.965259552002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Carolina]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[45]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7513885498047" lon="-92.131217956543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arkansas]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[05]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.4293552812071" lon="-92.0096021947874"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Louisiana]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[22]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6806678771973" lon="-83.2519569396973"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Georgia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[13]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9396433470508" lon="-84.5473251028807"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Michigan]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[26]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E N Cen]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

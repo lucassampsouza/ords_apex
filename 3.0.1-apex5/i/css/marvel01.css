@@ -1,0 +1,54 @@
+<style type="text/css">
+<!--
+body{font-family: Arial, Helvetica, Geneva, sans-serif;
+     font-size:x-small;
+     voice-family: "\"}\"";   
+     voice-family: inherit;   
+     font-size:small;}
+     
+a img {border: none;}
+img {border: none;}
+
+table{border:0px;padding:0px; border-collapse: collapse;}
+td,th {padding:0px;margin:0px;border-width:0px;}
+
+
+/* Marvel Alternating Rows */
+table.marv01altrows{border-collapse:separate;}
+
+table.marv01altrows th {
+    background-color:#cccc99;
+    color:#336699;
+    font-weight: bold;
+    font-size:125%; 
+}
+table.marv01altrows td{
+    padding:1px;
+}
+tr.marv01altrowsodd td{
+    background-color:#f7f7e7;
+}
+
+
+
+
+.marvel01tableheader
+          {font-weight: bold;
+           font-size:125%;
+           background: #cccc99;
+           color: #336699;}
+
+.marvel01tabledata
+          {background: #f7f7e7;
+           color: #000000;}
+           
+.marvel01tabledatabold
+          {font-weight: bold;
+           background: #f7f7e7;
+           color: #000000;}
+
+
+
+
+-->
+</style>           

@@ -1,0 +1,527 @@
+/* Created using Style Master from Western Civilisation CSS1 { -23 -4 957 1288 } */
+
+<style type="text/css"><!--
+{}
+
+$Header: /export/home/cvs/cvs_htmldb/htmldb/images/css/calendar.css,v 1.1.1.1 2005/01/03 16:02:57 cvs Exp $ -->
+{}
+
+<!--
+
+body
+{background-color: #ffffff;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-right: 0px;
+padding-top: 0px}
+
+.infobox
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+padding-left: 12px;
+padding-right: 8px;
+padding-top: 4px}
+
+.atab
+{background-image: url(/i/asybaseb2.gif);
+height: 5px;
+vertical-align: bottom;
+whitespace: nowrap}
+
+.atab0
+{background-color: #CCCC99;
+height: 22px;
+text-align: right;
+vertical-align: top}
+
+.atab1
+{height: 22px;
+text-align: right;
+vertical-align: bottom;
+whitespace: nowrap}
+
+.atab2
+{background-color: #CCCC99;
+vertical-align: bottom}
+
+height:17px;}[NONE%+NONE]
+{}
+
+.ptableft
+{background-color: #CCCC99;
+text-align: left;
+vertical-align: top;
+width: 1%}
+
+.ptabmid
+{background-color: #CCCC99;
+border: none;
+text-align: left;
+width: 1%}
+
+.ptabright
+{background-color: #CCCC99;
+text-align: right;
+vertical-align: top;
+width: 1%}
+
+.stableft
+{background-color: #CCCC99;
+whitespace: nowrap;
+width: 1%}
+
+.apptabtextoff
+{background-color: #CCCC99;
+color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-style: normal;
+font-weight: normal;
+text-decoration: none}
+
+.apptabtexton
+{background-color: #336699;
+color: #FFFFFF;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold;
+text-decoration: none}
+
+.parenttabtextoff
+{background-color: #336699;
+color: #CCCC99;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: normal;
+text-decoration: none}
+
+.parenttabtexton
+{background-color: #336699;
+color: #FFFFFF;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold;
+text-decoration: none}
+
+.tabtextoff
+{background-color: #CCCC99;
+color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif; 
+font-style: normal;
+font-size: 10pt;
+text-decoration: none;}
+
+.tabtexton
+{background-color: #336699;
+color: #FFFFFF;
+font-family: Arial, Helvetica, Geneva, sans-serif; 
+font-size: 10pt;
+font-weight: bold;
+text-decoration: none;}
+
+.listitemoff
+{background-color: #CCCC99;
+color: #336699;
+font-family: serif;
+font-style: normal;
+text-decoration: none}
+
+.listitemon
+{background-color: #336699;
+color: #FFFFFF;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.listtexton
+{background-color: #CCCC99;
+color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif; 
+font-style: normal;
+font-size: 10pt;
+text-decoration: none;
+font-weight: bold}
+
+.listtextoff
+{background-color: #CCCC99;
+color: #6699CC;
+font-family: Arial, Helvetica, Geneva, sans-serif; 
+font-style: normal;
+font-size: 10pt;
+text-decoration: none}
+
+.smwhite
+{color: #FFFFFF;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.smbrown
+{color: transparent;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 8pt}
+
+.xswhite
+{color: #FFFFFF;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 9pt}
+
+.stan
+{color: #CCCC99;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.xstan
+{color: #CCCC99;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 9pt}
+
+.regionheader
+{color: #FFFFFF;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 12pt;
+font-weight: bold}
+
+.dkblueregionleft
+{background-color: #336699;
+text-align: left;
+vertical-align: top;
+width: 5px}
+
+.dkblueregionrt
+{background-color: #336699;
+text-align: right;
+vertical-align: top;
+width: 5px}
+
+.blueregionleft
+{background-color: #6699CC;
+text-align: left;
+vertical-align: top;
+width: 5px}
+
+.blueregionright
+{background-color: #6699CC;
+text-align: right;
+vertical-align: top;
+width: 5px}
+
+.tanregionleft
+{background-color: #CCCC99;
+text-align: left;
+vertical-align: top;
+width: 5px}
+
+.tanregionright
+{background-color: #CCCC99;
+text-align: right;
+vertical-align: top;
+width: 5px}
+
+.header
+{color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 16pt;
+font-weight: bold}
+
+.stepheader
+{color: #ffffff;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 12pt;
+font-weight: bold}
+
+.subheader1
+{color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 13pt;
+font-weight: bold}
+
+.subheader2
+{color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 11pt;
+font-weight: bold}
+
+.tab3archiveslink
+{color: #663300;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 9pt}
+
+.tab3heading
+{color: #003366;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 14pt;
+font-weight: bold}
+
+.headerondark
+{color: #003366;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 16pt;
+font-weight: bold}
+
+.subheaderondark1
+{color: #003366;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 14pt;
+font-weight: bold}
+
+.subheaderondark2
+{color: #003366;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 11pt;
+font-weight: bold}
+
+.headeronlight
+{color: #6699cc;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 16pt;
+font-weight: bold}
+
+.subheaderonlight1
+{color: #6699cc;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 14pt;
+font-weight: bold}
+
+.subheaderonlight2
+{color: #6699cc;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 11pt;
+font-weight: bold}
+
+.contenttext
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.contenttextheader
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.subheader1black
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 13pt;
+font-weight: bold}
+
+.fieldtitle
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+text-align: right}
+
+.fieldtitlebold
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold;
+text-align: right}
+
+.fieldtitleleft
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.fielddata
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.fielddatabold
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.instructiontext
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.buttontext
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.confirmationtext
+{color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.tiptext
+{color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 9pt}
+
+.errortext
+{color: #cc0000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.urgenttext
+{color: #cc0000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.errorheader
+{color: #cc0000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 13pt;
+font-weight: bold}
+
+.disabledtext
+{color: #CCCC99;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.footerlinks
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.tableheader
+{background-color: #cccc99;
+color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.tableheaderinverse
+{background-color: #336699;
+color: #cccc99;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.tableheaderhighlight
+{background-color: #336699;
+color: #ffffff;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.tabledata
+{background-color: #f7f7e7;
+color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.tabledatabold
+{background-color: #f7f7e7;
+color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.tabactivelevel2
+{background-color: #336699;
+color: #cccc99;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.tabinactivelevel2
+{background-color: #336699;
+color: #ffffff;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.controlbar
+{background-color: #cccc99;
+color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.approvalhistdata
+{background-color: #f7f7e7;
+color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.approvalhistpending
+{background-color: #f7f7e7;
+color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.approvalhistpastaction
+{background-color: #f7f7e7;
+color: #009966;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.approvalhistreject
+{background-color: #f7f7e7;
+color: #cc0000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.linkheader
+{color: #666666;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 9pt}
+
+.helptextbold
+{color: #003366;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.helptextwhitebold
+{background-color: #336699;
+color: #FFFFFF;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.helptextwhite
+{background-color: #336699;
+color: #FFFFFF;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 9pt}
+
+.helpmainsubheader2
+{color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 12pt;
+font-weight: bold}
+
+.sidebarlink
+{color: #003366;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.sidebartext
+{color: #ffffff;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+.chiclettitle
+{font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 11pt}
+
+.nomatchtext
+{color: #336699;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt}
+
+.searchtext
+{color: #000000;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+font-size: 10pt;
+font-weight: bold}
+
+-->
+
+</style>
+{}

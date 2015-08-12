@@ -1,0 +1,313 @@
+<map_data>
+ <name>belgium_second_level</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="2.54166698455811" top="51.5030517578125" right="6.3997220993042" bottom="49.5060997009277"/>
+ <regions>
+  <region>
+   <centroid lat="51.2568016052246" lon="4.96853804588318"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-ANT-TRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Turnhout]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.2811050415039" lon="4.51465606689453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-ANT-ANT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Antwerpen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.1963691711426" lon="3.22652757167816"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-WVL-BRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brugge]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.2134094238281" lon="4.11874949932098"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-OVL-SNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sint-Niklaas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.1888847351074" lon="2.9334055185318"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-WVL-OST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oostende]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.2273559570313" lon="3.60906851291656"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-OVL-EKL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eeklo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.1440200805664" lon="5.53686094284058"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LMB-MSK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maaseik]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0629959106445" lon="3.66787445545197"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-OVL-GNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0873603820801" lon="4.49583315849304"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-ANT-MCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mechelen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0411109924316" lon="2.68347203731537"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-WVL-VRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Veurne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.9234600067139" lon="5.31180500984192"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LMB-HSL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hasselt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0495796203613" lon="4.03750395774841"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-OVL-DND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dendermonde]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0209712982178" lon="2.88958299160004"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-WVL-DKS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Diksmuide]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.992639541626" lon="3.31236052513123"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-WVL-TLT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tielt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.9530487060547" lon="3.13013851642609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-WVL-RSL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roeselare]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.8755550384521" lon="4.82083249092102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-BRB-LVN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leuven]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.8411045074463" lon="4.36472153663635"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-BRS-BRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bruxelles-Brusse]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.8591594696045" lon="5.57583236694336"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LMB-TNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tongeren]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.8638896942139" lon="3.95749950408936"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-OVL-ALS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aalst]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.8389091491699" lon="2.85666644573212"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-WVL-IPR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ieper]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.836389541626" lon="3.67222201824188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-OVL-ODN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oudenaarde]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.8677749633789" lon="4.25652742385864"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-BRB-HVL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Halle-Vilvoorde]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.814769744873" lon="3.30250000953674"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-WVL-KRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kortrijk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.7534999847412" lon="3.08805549144745"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-HAI-MSC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mouscron]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.6028785705566" lon="5.58805513381958"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LIE-LIE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Liege]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.6687450408936" lon="4.55819344520569"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-BRB-NVL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nivelles]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.6124954223633" lon="3.70277750492096"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-HAI-ATH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ath]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.628490447998" lon="3.47976553440094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-HAI-TRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tournai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.4451751708984" lon="6.03565001487732"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LIE-VRV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Verviers]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.5927753448486" lon="4.00315546989441"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-HAI-SGN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soignies]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.6559658050537" lon="5.21402764320374"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LIE-WRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Waremme]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.4561042785645" lon="4.89888858795166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-NAM-NAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Namur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.5021648406982" lon="5.37342214584351"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LIE-HUY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Huy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.4606895446777" lon="3.86872446537018"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-HAI-MNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mons]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.4596462249756" lon="4.40333247184753"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-HAI-CHR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Charleroi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.2093105316162" lon="4.25686645507813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-HAI-THN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thuin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.2393035888672" lon="5.48055505752563"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LXM-MNF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marche-en-Famenn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.1036052703857" lon="5.0626380443573"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-NAM-DNN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dinant]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.0829105377197" lon="5.72916603088379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LXM-BST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bastogne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.1340255737305" lon="4.54472208023071"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-NAM-PHL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Philippeville]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.9155540466309" lon="5.33041644096375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LXM-NFC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Neufchateau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.6940650939941" lon="5.79013800621033"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LXM-ARL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arlon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.6459808349609" lon="5.44486093521118"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEL-LXM-VRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Virton]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

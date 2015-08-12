@@ -1,0 +1,570 @@
+/*tag defaults*/
+*{font-size:9pt;font-family: arial, helvetica, sans-serif;}
+body{background-color:#EFF2F3;font-family: arial, helvetica, sans-serif;margin:0;padding:0;}
+td,body,p,div,span{font-family: arial, helvetica, sans-serif;font-size:1em;color:#000;}
+a:link,a:visited{color:#808080;}
+a:active,a:hover{color:red;}
+ul{list-style-type:circle;}
+
+/* used to preserve 3.1 and 3.2 block display behavior */
+fieldset.checkbox_group, fieldset.datepicker, fieldset.lov, fieldset.radio_group, fieldset.textarea, fieldset.shuttle, fieldset.colorpicker, fieldset.html_editor, fieldset.listmanager {
+  display:block;
+}
+
+#t18PageBody{background-color:#FFF}
+td{empty-cells:show;border-collapse:collapse;}
+/*Page Level*/
+.pb , .pseudoButtonInactive,.pseudoButtonActive{cursor:pointer;}
+#t18NavBar{text-align:right;white-space:nowrap;padding:5px;}
+.t18Breadcrumbs{font-weight:bold;vertical-align:middle;}
+.t18Breadcrumbs a,.t18Breadcrumbs b{vertical-align:middle;}
+.t18Breadcrumbs b{padding:0 5px;}
+#t18ContentLeftTop{width:200px;}
+#t18ContentLeft{width:200px;}
+#t18Messages{text-align:center;}
+#t18Success{margin:5px auto;font-size:12px;color:#333;background:#DAEED2;width:600px;background-repeat:no-repeat;padding:5px;border:1px #95C682 solid;border-right:none;border-left:none;}
+#t18Notification{margin:5px auto;padding:5px;font-size:12px;color:#333;text-align:center;vertical-align:top;border:1px #ffd700 solid;border-right:none;border-left:none;background-color:#ffffcc;width:600px;}
+#t18PageFooter{height:20px;padding:2px 5px;}
+#t18PageFooter #t18Left{text-align:left;}
+#t18PageFooter #t18Right{text-align:right;}
+#t18Customize *{font-size:9pt;}
+.t18Login{text-align:center;width:300px;margin:40px auto;padding:25px;}
+#t18NavBar a.t18NavBar,#t18NavBar a.t18NavBar:visited{color:#666;text-decoration:none;margin:0 3px;}
+#t18NavBar a.t18NavBar:hover{text-decoration:underline;}
+#t18Tabs{text-align:center;white-space:nowrap;padding:5px 0;margin:5px 0;}
+#t18Tabs2{background:#CDDFE5;border-top:1px solid #AAA;border-bottom:1px solid #AAA;font-size:10px;text-align:center;white-space:nowrap;padding:5px 0;margin:5px 0;}
+
+#t18ContentBody{}
+#t18Logo{padding:2px 5px;}
+#t18ContentMiddle{padding:0 5px;}
+
+/*Tabs*/
+span.t18CurrentTab,a.t18CurrentTab,a.t18Tab{color:#999999;font-size:1.2em;font-weight:bold;text-decoration:none;margin:0 10px;padding:0 4px;}
+span.t18CurrentTab,a.t18Tab:hover,a.t18CurrentTab{color:#0E8AB2 !important;font-weight:bold;text-decoration:none;}
+/*hacks for table buttons*/
+.t18CurrentTab,.t18Tab{display:-moz-inline-box;}
+/*hacks for table buttons*/
+
+/*Buttons*/
+table.t18Button td.t18R{}
+table.t18Button td.t18L{}
+table.t18Button td.t18R img{display:block}
+table.t18Button td.t18L img{display:block}
+table.t18Button{color:#FFF;display:inline;}
+table.t18Button td.t18C{white-space:nowrap;background-color:#1c97d1;}
+table.t18Button td.t18C a:visited,table.t18Button td.t18C a{vertical-align:middle;font-size:11px;color:#FFF;padding:0;white-space:nowrap;text-decoration:none;display:block;}
+
+table.t18ButtonAlternative1 td.t18R{}
+table.t18ButtonAlternative1 td.t18L{}
+table.t18ButtonAlternative1 td.t18R img{display:block}
+table.t18ButtonAlternative1 td.t18L img{display:block}
+table.t18ButtonAlternative1{color:#FFF;display:inline;}
+table.t18ButtonAlternative1 td.t18C{white-space:nowrap;background-color:#8b8b8b;}
+table.t18ButtonAlternative1 td.t18C a:visited,table.t18ButtonAlternative1 td.t18C a{vertical-align:middle;font-size:11px;color:#FFF;padding:0;white-space:nowrap;text-decoration:none;display:block;}
+
+table.t18ButtonAlternative2 td.t18R{}
+table.t18ButtonAlternative2 td.t18L{}
+table.t18ButtonAlternative2 td.t18R img{display:block}
+table.t18ButtonAlternative2 td.t18L img{display:block}
+table.t18ButtonAlternative2{color:#FFF;display:inline;}
+table.t18ButtonAlternative2 td.t18C{white-space:nowrap;background-color:#FA9862;}
+table.t18ButtonAlternative2 td.t18C a:visited,table.t18ButtonAlternative2 td.t18C a{vertical-align:middle;font-size:11px;color:#FFF;padding:0;white-space:nowrap;text-decoration:none;display:block;}
+
+table.t18ButtonAlternative3 td.t18R{}
+table.t18ButtonAlternative3 td.t18L{}
+table.t18ButtonAlternative3 td.t18R img{display:block}
+table.t18ButtonAlternative3 td.t18L img{display:block}
+table.t18ButtonAlternative3{color:#FFF;display:inline;}
+table.t18ButtonAlternative3 td.t18C{white-space:nowrap;background-color:#69D03F;}
+table.t18ButtonAlternative3 td.t18C a:visited,table.t18ButtonAlternative3 td.t18C a{vertical-align:middle;font-size:11px;color:#FFF;padding:0;white-space:nowrap;text-decoration:none;display:block;}
+
+/*Labels*/
+.t18NoLabel{font-weight:700;white-space:nowrap;}
+.t18OptionalLabel{color:#808080;font-weight:700;white-space:nowrap;}
+a.t18OptionalLabelwithHelp{cursor:help;font-weight:700;white-space:nowrap;}
+.t18RequiredLabel{color:red;font-weight:700;white-space:nowrap;}
+a.t18RequiredLabelwithHelp{cursor:help;color:red;font-weight:700;white-space:nowrap;}
+.t18InlineError *{text-decoration:underline;color:red;}
+/*Lists*/
+.t18ButtonList .t18current{}
+.t18HorizontalImageswithLabelList td{font-weight:700;text-decoration:none;color:#808080;text-align:center;padding:5px;}
+.t18HorizontalLinksList{text-align:left;}
+.t18HorizontalLinksList a{margin:0 10px;}
+.t18HorizontalLinksList a.t18current{font-weight:700;text-decoration:none;color:#808080;}
+
+table.t18TabbedNavigationList{border-top:1px solid #AAA;margin:0 0 15px;}
+table.t18TabbedNavigationList td{background-color:#F6F6F6;white-space:nowrap;border-bottom:1px solid #AAA;padding:2px 8px;}
+table.t18TabbedNavigationList td.t18LeftTabList{width:30px;background-color:#F6F6F6;border-bottom:1px solid #AAA;font-size:18px;}
+table.t18TabbedNavigationList td.t18CurrentListTab{color:#000;background-color:#FFF;white-space:nowrap;border-bottom:1px solid #FFF;}
+table.t18TabbedNavigationList a.t18CurrentListTab{color:#000;text-decoration:none;}
+table.t18TabbedNavigationList a{font-size:12px;font-weight:bold;}
+table.t18TabbedNavigationList td.t18SepL{border:none;background-image:url(tab_list_left_cap.gif);padding:0;}
+table.t18TabbedNavigationList td.t18SepR{border:none;background-image:url(tab_list_right_cap.gif);padding:0;}
+table.t18TabbedNavigationList td.t18EndCap{background-color:#F6F6F6;border-bottom:1px solid #AAA;font-size:18px;}
+
+.t18VerticalImagesList img{display:block;margin:auto;}
+.t18VerticalImagesList td{text-align:center;padding:2px;}
+.t18VerticalImagesList .t18current{border-left:2px solid #CCC;border-right:2px solid #CCC;}
+.t18VerticalOrderedList .t18current a{text-decoration:none;}
+
+.t18VerticalSidebarList{}
+.t18VerticalSidebarList a{height:15px;font-weight:bold;white-space:nowrap;display:block;padding:4px 4px 4px 9px;}
+.t18VerticalSidebarList a:hover,.t18VerticalSidebarList a.current{color:#000;}
+
+.t18VerticalUnorderedListwithBullets{list-style-type:circle;}
+.t18VerticalUnorderedListwithBullets .t18current a{text-decoration:none;}
+.t18VerticalUnorderedLinkswithoutBullets{list-style:none;}
+.t18VerticalUnorderedLinkswithoutBullets .t18current a{text-decoration:none;}
+.t18WizardProgressList{text-align:center;}
+.t18WizardProgressList div{margin:2px;border:2px solid #CCC;padding:2px;}
+.t18WizardProgressList .t18current{border:2px solid #808080;padding:2px;background:#EEEEEE;}
+.t18BreadcrumbMenu{font-weight:700;font-size:10pt;}
+th.t18ReportHeader{white-space:nowrap;padding:2px 8px;}
+td.t18data{padding:2px 8px;}
+td.t18dataalt{padding:2px 8px;}
+.t18Borderless{}
+.t18Borderless th.t18ReportHeader{border:none;border-right:2px solid #FFF;}
+.t18Borderless td.t18data{border:none;}
+.t18HorizontalBorder{}
+.t18HorizontalBorder th.t18ReportHeader{border-bottom:1px solid #D4D8D9;}
+.t18HorizontalBorder td.t18data{border-bottom:1px solid #D4D8D9;}
+.t18Standard{border-left:1px solid #D4D8D9;}
+.t18Standard th.t18ReportHeader{border:1px solid #D4D8D9;border-left:none;background:#EFEFEF;}
+.t18Standard td.t18data{border:1px solid #D4D8D9;border-left:none;border-top:none;}
+.t18StandardAlternatingRowColors{border-left:1px solid #DDDDDD;}
+.t18StandardAlternatingRowColors th.t18ReportHeader{border:1px solid #DDDDDD;border-left:none;color:#808080;background:#DDDDDD;}
+.t18StandardAlternatingRowColors td.t18data{border:1px solid #DDDDDD;border-left:none;border-top:none;}
+.t18StandardAlternatingRowColors td.t18dataalt{background-color:#EFF2F3;border:1px solid #DDDDDD;border-left:none;border-top:none;}
+.t18ValueAttributePairs{}
+.t18ValueAttributePairs th.t18ReportHeader{text-align:left;border:1px solid #D4D8D9;border-right:none;border-bottom:none;}
+.t18ValueAttributePairs td.t18data{border:1px solid #D4D8D9;border-bottom:none;}
+.t18ValueAttributePairs td.t18seperate{border-top:1px solid #D4D8D9;}
+.t18ValueAttributePairs td.t18seperate hr{height:2px;color:#D4D8D9;background-color:#D4D8D9;}
+
+.t18CalendarAlternative1Holder{width:100%;}
+.t18CalendarAlternative1Holder .t18MonthTitle{font-weight:700;text-align:center;font-size:15px;background-color:#1c97d1;color:#FFFFFF;border:1px solid #808080;padding:4px;}
+.t18CalendarAlternative1Holder .t18MonthBody{border-left:1px solid #808080;}
+.t18CalendarAlternative1{width:100%;background-color:#FFFFFF;}
+.t18CalendarAlternative1 .t18DayOfWeek{background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t18CalendarAlternative1 td{width:100px;height:80px;border-right:1px solid #808080;border-bottom:1px solid #808080;}
+.t18CalendarAlternative1 .t18DayTitle{text-align:right;float:right;border:#808080 1px solid;border-right:none;border-top:none;background-color:#FFFFFF;padding:2px;}
+.t18CalendarAlternative1 .t18Day{vertical-align:top;}
+.t18CalendarAlternative1 .t18NonDayTitle{text-align:right;color:#FFFFFF;background-color:#FFFFFF;}
+.t18CalendarAlternative1 .t18NonDay{background-color:#FFFFFF;}
+.t18CalendarAlternative1 .t18WeekendDayTitle{float:right;border:1px solid #808080;border-right:none;border-top:none;text-align:right;color:#000000;background-color:#F9F9F9;padding:2px;}
+.t18CalendarAlternative1 .t18WeekendDay{background-color:#F9F9F9;}
+.t18CalendarAlternative1 .t18Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;}
+.t18CalendarAlternative1 .t18Today .t18DayTitle{background-color:#CCCCCC;}
+
+.t18WeekCalendarAlternative1Holder{width:100%;}
+.t18WeekCalendarAlternative1Holder .t18MonthTitle{font-weight:700;text-align:center;font-size:15px;background-color:#1c97d1;color:#FFFFFF;border:1px solid #808080;padding:4px;}
+.t18WeekCalendarAlternative1Holder .t18MonthBody{border-left:1px solid #808080;}
+.t18WeekCalendarAlternative1{width:100%;background-color:#FFFFFF;}
+.t18WeekCalendarAlternative1 .t18DayOfWeek{background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t18WeekCalendarAlternative1 td{width:100px;height:40px;border-right:1px solid #808080;border-bottom:1px solid #808080;}
+.t18WeekCalendarAlternative1 .t18DayTitle{text-align:right;float:right;border:#808080 1px solid;border-right:none;border-top:none;background-color:#FFFFFF;padding:2px;}
+.t18WeekCalendarAlternative1 .t18Day{vertical-align:top;}
+.t18WeekCalendarAlternative1 .t18NonDayTitle{text-align:right;color:#FFFFFF;background-color:#F6F6F6;}
+.t18WeekCalendarAlternative1 .t18NonDay{background-color:#F6F6F6;}
+.t18WeekCalendarAlternative1 .t18WeekendDayTitle{float:right;border:1px solid #808080;border-right:none;border-top:none;text-align:right;color:#000000;background-color:#F9F9F9;padding:2px;}
+.t18WeekCalendarAlternative1 .t18WeekendDay{background-color:#F9F9F9;}
+.t18WeekCalendarAlternative1 .t18Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;}
+.t18WeekCalendarAlternative1 .t18Today .t18DayTitle{background-color:#CCCCCC;}
+.t18WeekCalendarAlternative1 .t18Hour{width:50px;height:40px;background-color:#EFEFEF;white-space:nowrap;text-align:right;border-right:1px solid #808080;border-bottom:1px solid #808080;border-left:1px solid #808080;padding:2px;text-align:center;}
+.t18WeekCalendarAlternative1 .t18HourTitle{width:40px;height:40px;border:1px solid #808080;background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;border-left:1px solid #808080;padding:2px;text-align:center;}
+
+.t18DayCalendarAlternative1Holder{width:100%;}
+.t18DayCalendarAlternative1Holder .t18MonthTitle{font-weight:700;text-align:center;font-size:15px;background-color:#1c97d1;color:#FFFFFF;border:1px solid #808080;padding:4px;}
+.t18DayCalendarAlternative1Holder .t18MonthBody{border-left:1px solid #808080;}
+.t18DayCalendarAlternative1{width:100%;background-color:#FFFFFF;}
+.t18DayCalendarAlternative1 .t18DayOfWeek{background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t18DayCalendarAlternative1 td{width:700px;height:40px;border-right:1px solid #808080;border-bottom:1px solid #808080;}
+.t18DayCalendarAlternative1 .t18DayTitle{text-align:right;float:right;border:#808080 1px solid;border-right:none;border-top:none;background-color:#FFFFFF;padding:2px;}
+.t18DayCalendarAlternative1 .t18Day{vertical-align:top;}
+.t18DayCalendarAlternative1 .t18NonDayTitle{text-align:right;color:#FFFFFF;background-color:#F6F6F6;}
+.t18DayCalendarAlternative1 .t18NonDay{background-color:#F6F6F6;}
+.t18DayCalendarAlternative1 .t18WeekendDayTitle{float:right;border:1px solid #808080;border-right:none;border-top:none;text-align:right;color:#000000;background-color:#F9F9F9;padding:2px;}
+.t18DayCalendarAlternative1 .t18WeekendDay{background-color:#F9F9F9;}
+.t18DayCalendarAlternative1 .t18Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;}
+.t18DayCalendarAlternative1 .t18Today .t18DayTitle{background-color:#CCCCCC;}
+.t18DayCalendarAlternative1 .t18Hour{width:50px;height:40px;background-color:#EFEFEF;white-space:nowrap;text-align:right;border-right:1px solid #808080;border-bottom:1px solid #808080;border-left:1px solid #808080;padding:2px;text-align:center;}
+.t18DayCalendarAlternative1 .t18HourTitle{width:50px;height:40px;border:1px solid #808080;background-color:#EFEFEF;border-right:1px solid #808080;border-bottom:1px solid #808080;border-left:1px solid #808080;padding:2px;text-align:center;}
+
+
+.t18CalendarHolder .t18MonthTitle{text-align:center;font-size:20px;color:#999;font-weight:700;}
+.t18CalendarHolder .t18MonthBody{border-top:1px solid #808080;border-left:1px solid #808080;}
+.t18Calendar .t18DayOfWeek{color:#FFFFFF;background-color:#1c97d1;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;}
+.t18Calendar td{width:100px;height:80px;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t18Calendar .t18DayTitle{font-weight:700;text-align:right;float:left;}
+.t18Calendar .t18Day{vertical-align:top;}
+.t18Calendar .t18NonDayTitle{font-weight:700;text-align:right;float:left;margin-right:5px;color:#FFFFFF;}
+.t18Calendar .t18NonDay{border-right:1px solid #808080;border-bottom:1px solid #808080;}
+.t18Calendar .t18WeekendDayTitle{font-weight:700;text-align:right;float:left;color:#CCCCCC;}
+.t18Calendar .t18Today{vertical-align:top;background-color:#FDF9CE;}
+
+
+.t18WeekCalendarHolder .t18MonthTitle{text-align:center;font-size:20px;color:#999;font-weight:700;}
+.t18WeekCalendarHolder .t18MonthBody{border-top:1px solid #808080;border-left:1px solid #808080;}
+.t18WeekCalendar{border-top:1px solid #808080;border-left:1px solid #808080;}
+.t18WeekCalendar .t18DayOfWeek{color:#FFFFFF;background-color:#1c97d1;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;}
+.t18WeekCalendar td,.t18WeekCalendar th{width:100px;height:40px;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t18WeekCalendar .t18DayTitle{font-weight:700;text-align:right;float:left;}
+.t18WeekCalendar .t18Day{vertical-align:top;}
+.t18WeekCalendar .t18NonDayTitle{font-weight:700;text-align:right;float:left;margin-right:5px;color:#FFFFFF;background-color:#F6F6F6;}
+.t18WeekCalendar .t18NonDay{border-right:1px solid #808080;border-bottom:1px solid #808080;background-color:#F6F6F6;}
+.t18WeekCalendar .t18WeekendDayTitle{font-weight:700;text-align:right;float:left;color:#CCCCCC;}
+.t18WeekCalendar .t18Today{vertical-align:top;background-color:#FDF9CE;}
+.t18WeekCalendar .t18Hour{width:40px;height:40px;background-color:#1c97d1;color:#FFFFFF;white-space:nowrap;text-align:right;border-right:1px solid #808080;border-left:1px solid #808080;padding:2px;text-align:center;}
+.t18WeekCalendar .t18HourTitle{width:40px;height:40px;border:1px solid #666666;background-color:#1c97d1;color:#FFFFFF;border-right:1px solid #808080;border-left:1px solid #808080;padding:2px;text-align:center;}
+
+
+.t18DayCalendarHolder{width:600px;}
+.t18DayCalendarHolder .t18MonthTitle{text-align:center;font-size:20px;color:#999;font-weight:700;}
+.t18DayCalendar {border-top:1px solid #808080;border-left:1px solid #808080;width:100%;empty-cells:show;}
+.t18DayCalendar .t18DayOfWeek{color:#FFFFFF;background-color:#1c97d1;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:3px;}
+.t18DayCalendar td,.t18DayCalendar th{width:40px;height:40px;border-right:1px solid #808080;border-bottom:1px solid #808080;padding:4px;}
+.t18DayCalendar .t18DayTitle{font-weight:700;text-align:right;float:left;margin-right:5px;color:#FFFFFF;}
+.t18DayCalendar .t18Day{vertical-align:top;}
+.t18DayCalendar .t18Today{vertical-align:top;background-color:#FDF9CE;}
+.t18DayCalendar .t18Hour{width:40px;height:40px;background-color:#1c97d1;color:#FFFFFF;}
+.t18DayCalendar .t18HourTitle{width:40px;height:40px;border:1px solid #808080;background-color:#1c97d1;color:#FFFFFF;}
+
+
+
+.t18SmallCalenderHolder .t18MonthTitle{background-color:#1c97d1;text-align:center;font-weight:700;color:#FFFFFF;border:1px solid #808080;padding:2px;}
+.t18SmallCalenderHolder .t18MonthBody{border-left:1px solid #808080;}
+.t18SmallCalender .t18DayTitle{border-bottom:1px solid #FFFFFF;background-color:#FFFFFF;}
+.t18SmallCalender td{border-right:1px solid #808080;border-bottom:1px solid #808080;width:50px;height:50px;}
+.t18SmallCalender .t18Day{vertical-align:top;background-color:#FFFFFF;}
+.t18SmallCalender .t18DayOfWeek{background-color:#EFEFEF;}
+.t18SmallCalender .t18NonDayTitle{color:#808080;border-bottom:1px solid #EFEFEF;background-color:#EFEFEF;}
+.t18SmallCalender .t18NonDay{color:#808080;background-color:#EFEFEF;}
+.t18SmallCalender .t18WeekendDayTitle{color:#000000;border-bottom:1px solid #CCCCCC;background-color:#CCCCCC;}
+.t18SmallCalender .t18WeekendDay{color:#000000;background-color:#CCCCCC;}
+.t18SmallCalender .t18Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;}
+.t18SmallCalender .t18Today .t18DayTitle{border-bottom:1px solid #FDF9CE;background-color:#FDF9CE;}
+
+.t18SmallWeekCalendarHolder .t18MonthTitle{background-color:#1c97d1;text-align:center;font-weight:700;color:#FFFFFF;border:1px solid #808080;padding:2px;}
+.t18SmallWeekCalendarHolder .t18MonthBody{border-left:1px solid #808080;}
+.t18SmallWeekCalendar .t18DayTitle{border-bottom:1px solid #FFFFFF;background-color:#FFFFFF;}
+.t18SmallWeekCalendar td,.t18SmallWeekCalendar th{border-right:1px solid #808080;border-bottom:1px solid #808080;width:50px;height:25px;}
+.t18SmallWeekCalendar .t18Day{vertical-align:top;background-color:#FFFFFF;}
+.t18SmallWeekCalendar .t18DayOfWeek{background-color:#EFEFEF;font-size:10px;font-weight:bold;}
+.t18SmallWeekCalendar .t18NonDayTitle{color:#808080;border-bottom:1px solid #EFEFEF;background-color:#F6F6F6;}
+.t18SmallWeekCalendar .t18NonDay{color:#808080;background-color:#F6F6F6;}
+.t18SmallWeekCalendar .t18WeekendDayTitle{color:#000000;border-bottom:1px solid #CCCCCC;background-color:#CCCCCC;}
+.t18SmallWeekCalendar .t18WeekendDay{color:#000000;background-color:#CCCCCC;}
+.t18SmallWeekCalendar .t18Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;}
+.t18SmallWeekCalendar .t18Today .t18DayTitle{border-bottom:1px solid #FDF9CE;background-color:#FDF9CE;}
+.t18SmallWeekCalendar .t18Hour{width:40px;height:20px;background-color:#EFEFEF;white-space:nowrap;text-align:right;border-right:1px solid #808080;border-left:1px solid #808080;border-bottom:1px solid #808080;padding:2px;text-align:center;font-size:10px;font-weight:bold;}
+.t18SmallWeekCalendar .t18HourTitle{width:40px;height:20px;border:1px solid #808080;background-color:#EFEFEF;border-right:1px solid #808080;border-left:1px solid #808080;padding:2px;text-align:center;font-size:10px;font-weight:bold;}
+
+.t18SmallDayCalendarHolder{width:400px;}
+.t18SmallDayCalendarHolder .t18MonthTitle{background-color:#1c97d1;text-align:center;font-weight:700;color:#FFFFFF;border:1px solid #808080;padding:2px;}
+.t18SmallDayCalendar {border-top:1px solid #808080;border-left:1px solid #808080;}
+.t18SmallDayCalendar .t18DayTitle{border-bottom:1px solid #FFFFFF;background-color:#FFFFFF;}
+.t18SmallDayCalendar td,.t18SmallDayCalendar th{border-right:1px solid #808080;border-bottom:1px solid #808080;width:400px;height:25px;}
+.t18SmallDayCalendar .t18Day{vertical-align:top;background-color:#FFFFFF;}
+.t18SmallDayCalendar .t18DayOfWeek{background-color:#EFEFEF;font-size:10px;font-weight:bold;}
+.t18SmallDayCalendar .t18NonDayTitle{color:#808080;border-bottom:1px solid #EFEFEF;background-color:#F6F6F6;}
+.t18SmallDayCalendar .t18NonDay{color:#808080;background-color:#F6F6F6;}
+.t18SmallDayCalendar .t18WeekendDayTitle{color:#000000;border-bottom:1px solid #CCCCCC;background-color:#CCCCCC;}
+.t18SmallDayCalendar .t18WeekendDay{color:#000000;background-color:#CCCCCC;}
+.t18SmallDayCalendar .t18Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;}
+.t18SmallDayCalendar .t18Today .t18DayTitle{border-bottom:1px solid #FDF9CE;background-color:#FDF9CE;}
+.t18SmallDayCalendar .t18Hour{width:40px;height:20px;background-color:#EFEFEF;white-space:nowrap;text-align:right;padding:2px;text-align:center;font-size:10px;font-weight:bold;}
+.t18SmallDayCalendar .t18HourTitle{width:40px;height:20px;border:1px solid #808080;background-color:#EFEFEF;padding:2px;text-align:center;font-size:10px;font-weight:bold;}
+.apex_cal_data_grid_src {width:100%;margin-top:2px;border-width: 1px 1px 1px 1px;-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px;}
+
+div.t18contentcollapse{display:table;}
+.t18PopupHead{border-bottom:2px solid #000;padding:6px;}
+.t18PopupBody{padding:6px;}
+div.dhtmlMenuLG{white-space:nowrap;clear:both;}
+
+/* DHTML */
+div.dhtmlMenuLG{white-space:nowrap;clear:both;}
+div.dhtmlMenuLG div.dhtmlMenuItem{text-align:center;float:left;margin:0px 15px 0px 0px;}
+div.dhtmlMenuLG a.dhtmlBottom{text-decoration:none;display:block;font-size:12px;margin:0px 5px;font-weight:bold;}
+div.dhtmlMenuLG img.dhtmlMenu{}
+div.dhtmlMenuLG div.htmldbBKHolder{float:left;}
+div.dhtmlMenuLG img.dhtmlMenuOn{}
+
+ul.dhtmlTree {list-style:none;}
+ul.dhtmlTree li{padding:2px 0;vertical-align:middle;}
+ul.dhtmlTree li img{margin:0 4px;vertical-align:middle;}
+
+.dhtmlSubMenu {background-color: #FFFFFF;font-size: 11px;width: 200px;border:1px solid #b7b7b7;list-style-type : none;margin:0em;padding-left:0em;}
+.dhtmlSubMenu li{margin:0em;padding-left:0em;}
+.dhtmlMenuSep{text-align:center;}
+img.dhtmlMenuSep{display:block; margin:auto; width:80%;border:1px solid #efefef; height:1px; background-color:#CCCCCC; }
+.dhtmlSubMenu img.dhtmlSep {width:180px;height:1px;}
+.dhtmlSubMenu .htmldbMIMG {vertical-align:middle;float:right}
+.dhtmlSubMenu .dhtmlSubMenuP {text-align:center;color: #808080;padding: 3px;border-bottom:#CCCCCC 1px solid;padding:0px 8px;text-decoration: none;white-space: nowrap;font-weight:bold;margin:1px;}
+.dhtmlSubMenu a.dhtmlSubMenuN {border:1px solid #efefef;color:#808080;display:block;font-weight:normal;padding:3px 8px;text-decoration: none;       white-space: nowrap;        margin:1px;     height:1%;      overflow:hidden;    }
+.dhtmlSubMenu a.dhtmlSubMenuN:hover {background-color:#DDDDDD;border:1px solid black;color:#000000;padding:3px 8px;margin:1px;}
+.dhtmlSubMenu a.dhtmlSubMenuS {border:1px solid #efefef;color:#808080;display:block;font-weight:normal;padding:3px 8px; text-decoration: none;      white-space: nowrap;        margin:1px;     height:1%;      overflow:hidden;    }
+.dhtmlSubMenu a.dhtmlSubMenuS:hover {background-color:#DDDDDD;border:1px solid #000000;     color: #000000;     display: block;     font-weight: normal;        padding:3px 8px;        margin:1px; }
+
+.dhtmlMenuLG2 li a{float:left;}
+
+.dhtmlMenuLG2{list-style-type:none;padding:0;margin:0;vertical-align:middle;white-space:nowrap;}
+.dhtmlMenuLG2 *{float:left;text-decoration:none;display:block;line-height:25px;height:25px;vertical-align:middle;white-space:nowrap;}
+.dhtmlMenuLG2 li{background-image:url(../menu_small_m.gif);border:1px solid #999;}
+.dhtmlMenuLG2 li.dhtmlMenuItem{margin:0 4px 0 0;}
+.dhtmlMenuLG2 li.dhtmlMenuItem a{padding:0 4px;}
+
+.dhtmlMenuLG2 li.dhtmlMenuItem1{margin:0 4px 0 0;}
+.dhtmlMenuLG2 li.dhtmlMenuItem1 a{padding:0 4px;margin:0 4px 0 0;}
+.dhtmlMenuLG2 li.dhtmlMenuItem1 img{margin:0 2px 0 0;}
+
+.dhtmlSubMenu2 {background-color: #eee;font-size: 11px;width: 200px;border:1px solid #b7b7b7;list-style-type : none;margin:0em;padding-left:0em;}
+.dhtmlSubMenu2 li{margin:0em;padding-left:0em;}
+.dhtmlMenuSep2{text-align:center;}
+img.dhtmlMenuSep2{display:block; margin:auto; width:80%;border:1px solid #efefef; height:1px; background-color:#ccc; }
+.dhtmlSubMenu2 img.dhtmlSep {width:180px;height:1px;}
+.dhtmlSubMenu2 .t13MIMG {vertical-align:middle;float:right}
+.dhtmlSubMenu2 .dhtmlSubMenuP {background-color:#ddd;text-align:center;color: #808080;border-bottom:#ccc 1px solid;padding:3px 8px;text-decoration: none;white-space: nowrap;font-weight:bold;}
+.dhtmlSubMenu2 a.dhtmlSubMenuN:link,.dhtmlSubMenu2 a.dhtmlSubMenuN:visited {color:#808080;display:block;font-weight:normal;padding:3px 8px;text-decoration:none;white-space:nowrap;height:1%;overflow:hidden;}
+.dhtmlSubMenu2 a.dhtmlSubMenuN:hover {background-color:#ddd;color:#000;}
+.dhtmlSubMenu2 a.dhtmlSubMenuS:link,.dhtmlSubMenu2 a.dhtmlSubMenuS:visited {color:#808080;display:block;font-weight:normal;padding:3px 8px;text-decoration:none;white-space:nowrap;height:1%;overflow:hidden;}
+.dhtmlSubMenu2 a.dhtmlSubMenuS:hover {background-color:#ddd;color:#000;}
+
+
+.t18Region{margin:5px;}
+.t18RegionHeader{color:#7D7B7B;text-align:left;border-bottom:1px solid #D4D8D9;padding:2px 8px;white-space:nowrap;}
+.t18RegionHeader2{text-align:left;border-bottom:1px solid #D4D8D9;}
+.t18RegionBody{padding:5px;}
+.t18ButtonHolderHeader{text-align:right;border-bottom:1px solid #D4D8D9;padding:2px 8px;white-space:nowrap}
+.t18ButtonHolder{padding:2px 0;white-space:nowrap;}
+
+/*tbody classes for regions*/
+.borderless{/* has inline style */}
+.wizard .t18RegionBody{width:600px;}
+.wizardwithicon .t18RegionBody{width:600px;}
+.buttonregionwithtitle{}
+.buttonregionwithouttitle{}
+.listregionwithicon{}
+.form{}
+.regionwithoutbuttonsandtitle{}
+.regionwithouttitle{}
+.ReportsRegionAlternative1 .t18RegionHeader{border:none;}
+.ReportsRegion100Width{/*has inline style*/}
+.ReportsRegion{/*has inline style*/}
+.SidebarRegionAlternative1{height:100%;background:#eee;float:left;width:200px;padding:0 5px;border-right:1px solid #D4D8D9;margin:5px 10px;}
+.SidebarRegion{height:100%;float:left;width:200px;padding:0 5px;border-right:1px solid #D4D8D9;margin:5px 10px;}
+.NavigationRegion{/*has inline style*/width:200px;margin:0 0 10px 0;}
+.NavigationRegionAlternative1{/*has inline style*/width:200px;border-right:1px solid #D4D8D9;margin:0 0 10px 0;}
+.NavigationRegionAlternative1 .t18RegionHeader,.NavigationRegion .t18RegionHeader{white-space:normal !important;}
+
+
+.bracket{/*has inline style*/}
+.bracket .t18Bracket,.bracket .t18ButtonHolder{border-left:1px solid #D4D8D9;border-right:1px solid #D4D8D9;}
+.bracket .t18Bracket{border-bottom:1px solid #CCC;}
+.bracket .t18RegionHeader{border:1px solid #CCC;}
+
+.ReportIcon{}
+.ChartIcon{}
+
+
+
+.t18TopMiddleFill{background:url(page_tm.gif) repeat-x;width:100%}
+.t18BottomMiddleFill{background:url(page_bm.gif) repeat-x;width:100%}
+.t18PageLeft{background:url(page_l.gif) repeat-y;}
+.t18PageRight{background:url(page_r.gif) repeat-y;}
+
+/* -------------------- Region Display Selector -------------------- */
+
+.apex-rds-container {
+  height: 21px;
+  margin: 0 0 9px 0;
+}
+
+ul.apex-rds {
+  background-color: #EFF2F3;
+  list-style-type: none;
+  float: left;
+  margin: 0;
+  border: 1px solid #aaaaaa;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+ul.apex-rds li {
+  float: left;
+  list-style: none;
+}
+
+ul.apex-rds li span {
+  font-size: 11px;
+  color: #000000;
+}
+
+ul.apex-rds li.apex-rds-selected span {
+  color: #000000;
+}
+
+ul.apex-rds a:hover span {
+  color: #000000;
+}
+
+ul.apex-rds li.apex-rds-last a {
+  display: block;
+  height: 16px;
+  text-decoration: none;
+  padding: 1px 10px 0 10px;
+  border-left: 1px solid #ffffff;
+  border-right: 0px solid #aaaaaa;
+}
+
+ul.apex-rds li.apex-rds-first a {
+  display: block;
+  height: 16px;
+  text-decoration: none;
+  padding: 1px 10px 0 10px;
+  border-left: 0px solid #ffffff;
+  border-right: 1px solid #aaaaaa;
+}
+
+ul.apex-rds li.apex-rds-last a:hover, ul.apex-rds li.apex-rds-last.apex-rds-selected a {
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+}
+
+ul.apex-rds li.apex-rds-first a:hover, ul.apex-rds li.apex-rds-first.apex-rds-selected a {
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+}
+
+ul.apex-rds li a {
+  display: block;
+    float: left;
+  height: 16px;
+  text-decoration: none;
+  padding: 1px 10px 0 10px;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #aaaaaa;
+}
+
+ul.apex-rds li a:hover, ul.apex-rds li.apex-rds-selected a {
+  background-color: #1C97D1;
+}
+
+ul.apex-rds li a:hover span, ul.apex-rds li.apex-rds-selected a span {
+  color: #ffffff;
+}
+
+body .a-DevToolbar button span {
+    color: inherit;
+}
+/*==========  APEX 5.0 Core Overrides  ==========*/
+body .a-IRR-container button.a-Button span,
+body .a-DevToolbar button span,
+body .a-IRR-dialogTable button span {
+    padding: 0;
+}
+body .a-IRR-dialogTable th,
+body .a-IRR-dialogTable td {
+    white-space: nowrap;
+}
+body .a-IRR-container button.a-Button span {
+    display: inline-block;
+}
+.a-DevToolbar button span {
+    display: inline-block;
+}
+body .a-IRR-container {
+    margin-right: 8px;
+}
+
+/*==========  APEX 5.0 IRR Core Overrides  ==========*/
+body .a-IRR-fullView,
+body .a-IRR-reportView {
+    float: left;
+}
+body .a-IRR-toolbar--singleRow + .a-IRR-content {
+    background-color: #FFF;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+body .a-IRR-buttons,
+body .a-IRR-controls {
+    display: block;
+    float: left;
+}
+body .a-IRR-buttons {
+    margin-left: 8px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+body .a-IRR {
+    border-width: 0;
+}
+body .a-IRR-table {
+    width: auto;
+    border: 1px solid #D0D0D0;
+}
+body .a-IRR-toolbar {
+    display: block;
+    float: left;
+    width: auto;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    border-collapse: separate;
+
+    border: 1px solid #B0B0B0;
+    background-color: #F8F8F8;
+}
+body .a-IRR {
+ border: none;
+}
+body .a-IRR-paginationWrap--bottom {
+    border-top-width: 0;
+}
+body .a-IRR-table td,
+body .a-IRR-singleRow-name,
+body .a-IRR-singleRow-value {
+    padding: 4px 8px;
+}
+body .a-IRR-headerLink, .a-IRR-headerLabel {
+    padding: 8px;
+    white-space: nowrap;
+}
+
+span.lov img {
+vertical-align: top;
+}
+.a-Button.a-Button--calendar {
+    margin-left: 0;
+    padding: 2px 4px;
+}
+
+
+/*
+Style Overrides to handle Quirks -> Standards Mode Migration in APEX 5.0
+*/
+.ie10 td[height="3"],
+.ie8 td[height="3"],
+.ie10 .t18TopMiddleFill,
+.ie8 .t18TopMiddleFill,
+.ie10 .t18BottomMiddleFill,
+.ie8 .t18BottomMiddleFill,
+.ie9 td[height="3"],
+.ie9 .t18TopMiddleFill,
+.ie9 .t18BottomMiddleFill{font-size:0!important;vertical-align:top;}
+.ie10 td[height="3"] img,
+.ie8 td[height="3"] img,
+.ie9 td[height="3"] img{vertical-align:top;}
+.ie10 body .a-IRR-buttons,
+.ie8 body .a-IRR-buttons,
+.ie9 body .a-IRR-buttons{line-height:18px;}
+.ie10 .apex-rds-container,
+.ie8 .apex-rds-container,
+.ie9 .apex-rds-container{overflow:hidden;}
+.ie10 .apex-rds-slider,
+.ie8 .apex-rds-slider,
+.ie9 .apex-rds-slider{display:none;}

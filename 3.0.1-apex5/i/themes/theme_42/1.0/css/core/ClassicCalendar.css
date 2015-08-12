@@ -1,0 +1,145 @@
+/**
+ * Import Compass
+ */
+/******************************************************************************
+Month Calendar
+******************************************************************************/
+.t-ClassicCalendar-title {
+  margin: 0;
+  padding: 16px 12px;
+  font-size: 2.4rem;
+  line-height: 3.32rem;
+  font-weight: 200;
+  text-align: center; }
+
+.t-ClassicCalendar-calendar {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; }
+
+.t-ClassicCalendar-dayColumn {
+  text-align: center;
+  padding: 4px 8px;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  border-width: 1px;
+  border-style: solid; }
+
+.t-ClassicCalendar-day {
+  height: 72px;
+  vertical-align: top;
+  border-width: 1px;
+  border-style: solid; }
+  .t-ClassicCalendar-day.is-today .t-ClassicCalendar-date {
+    margin: 4px;
+    padding: 0;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    overflow: hidden; }
+
+.t-ClassicCalendar-date {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  float: right;
+  padding: 4px 8px; }
+
+.t-ClassicCalendar-dayEvents {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  line-height: 1.6rem; }
+  .t-ClassicCalendar-day .t-ClassicCalendar-dayEvents {
+    margin-top: 28px; }
+
+.t-ClassicCalendar-event {
+  display: block;
+  margin: 2px;
+  padding: 2px 8px;
+  border-radius: 2px; }
+  .t-ClassicCalendar-event a {
+    display: block;
+    margin: -2px -8px;
+    padding: 2px 8px;
+    border-radius: 2px; }
+
+@media only screen and (max-width: 640px) {
+  .t-ClassicCalendar-day {
+    height: 48px; }
+    .t-ClassicCalendar-day.is-today .t-ClassicCalendar-date {
+      margin: 2px;
+      width: 16px;
+      height: 16px;
+      line-height: 16px; }
+
+  .t-ClassicCalendar-date {
+    font-size: 1.1rem;
+    padding: 2px; }
+
+  .t-ClassicCalendar-dayEvents {
+    margin-top: 16px;
+    font-size: 1.1rem; }
+    .t-ClassicCalendar-day .t-ClassicCalendar-dayEvents {
+      margin-top: 20px; }
+
+  .t-ClassicCalendar-event {
+    padding: 2px 4px; }
+    .t-ClassicCalendar-event a {
+      margin: -2px -4px;
+      padding: 2px 4px; }
+ }
+
+/******************************************************************************
+Weekly and Daily
+******************************************************************************/
+.t-ClassicCalendar--weekly .t-ClassicCalendar-calendar, .t-ClassicCalendar--daily .t-ClassicCalendar-calendar {
+  table-layout: auto; }
+.t-ClassicCalendar--weekly .t-ClassicCalendar-day, .t-ClassicCalendar--daily .t-ClassicCalendar-day {
+  height: 12px;
+  width: 14%; }
+.t-ClassicCalendar--weekly .t-ClassicCalendar-dayEvents, .t-ClassicCalendar--daily .t-ClassicCalendar-dayEvents {
+  margin-top: 0; }
+  .t-ClassicCalendar--weekly .t-ClassicCalendar-dayEvents a, .t-ClassicCalendar--daily .t-ClassicCalendar-dayEvents a {
+    display: block;
+    padding: 2px 8px;
+    border-radius: 2px;
+    margin: 2px; }
+.t-ClassicCalendar--weekly .t-ClassicCalendar-timeCol, .t-ClassicCalendar--daily .t-ClassicCalendar-timeCol {
+  width: 4%; }
+
+.t-ClassicCalendar--daily .t-ClassicCalendar-timeCol {
+  width: 1%; }
+
+/******************************************************************************
+List Calendar
+******************************************************************************/
+.t-ClassicCalendar-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid; }
+
+.t-ClassicCalendar-listTitle, .t-ClassicCalendar-listEvent {
+  display: block;
+  padding: 4px 8px;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  overflow: hidden; }
+
+.t-ClassicCalendar-listTitle {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 300; }
+  .t-ClassicCalendar-listTitle:first-child {
+    border-top-width: 0; }
+
+.t-ClassicCalendar-listEvent {
+  font-size: 1.4rem;
+  line-height: 2rem; }
+
+.t-ClassicCalendar-listDayDate {
+  float: right;
+  font-size: 1.2rem; }

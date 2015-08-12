@@ -1,0 +1,194 @@
+<map_data>
+ <name>switzerland</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="5.96611022949219" top="47.8063888549805" right="10.4889125823975" bottom="45.8294372558594"/>
+ <regions>
+  <region>
+   <centroid lat="47.3777732849121" lon="8.06652784347534"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-AAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aargau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.3379802703857" lon="9.44957208633423"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-AIR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Appenzell Inner-Rhoden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4479808807373" lon="7.71489691734314"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-BLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Basel-Landschaft]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.5622463226318" lon="7.61180448532104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-BST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Basel-Stadt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2854347229004" lon="7.67323637008667"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-SLT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Solothurn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.5983505249023" lon="6.65876841545105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-VAU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8981342315674" lon="7.64508104324341"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-BER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9859657287598" lon="9.05834102630615"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-GLR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Glarus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6190242767334" lon="9.5714898109436"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-GRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Graubunden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.3508758544922" lon="9.40218877792358"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-ASR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Appenzell Ausser-Rhoden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0505218505859" lon="8.68734550476074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-SCW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Schwyz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0008449554443" lon="6.76555466651917"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-NCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Neuchatel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.893440246582" lon="8.38851881027222"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-NDW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nidwalden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8609142303467" lon="8.26431751251221"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-OBW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Obwalden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.5379638671875" lon="9.07845830917358"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-THR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thurgau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4263591766357" lon="8.66058206558228"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-ZRC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zurich]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0287494659424" lon="8.16353559494019"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-LZR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Luzern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.3337440490723" lon="7.17942023277283"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-JUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jura]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2319660186768" lon="9.21930599212646"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-SGL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sankt Gallen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.2282390594482" lon="8.75485754013062"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-TIC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ticino]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.7543411254883" lon="8.6767749786377"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-URI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.2655735015869" lon="7.6173677444458"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-VAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Valais]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.2666568756104" lon="6.11902713775635"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-GEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Geneve]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1544284820557" lon="8.53069877624512"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-ZUG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.6829090118408" lon="8.64498233795166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-SCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Schaffhausen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.708122253418" lon="7.05912446975708"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHE-FRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fribourg]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

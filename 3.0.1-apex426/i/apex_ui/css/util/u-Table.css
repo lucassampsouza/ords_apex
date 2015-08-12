@@ -1,0 +1,56 @@
+/* ==========================================================================
+   Table Layout for Divs
+   ========================================================================== */
+/* line 5, ../../scss/util/u-Table.scss */
+.u-Table {
+  display: table;
+  margin: 0;
+  padding: 0;
+  table-layout: auto;
+  width: 100%;
+}
+
+/* line 13, ../../scss/util/u-Table.scss */
+.u-Table-fill,
+.u-Table-fit {
+  display: table-cell;
+  padding: 0;
+  vertical-align: top;
+}
+
+/* line 20, ../../scss/util/u-Table.scss */
+.u-Table-fill {
+  width: 100%;
+}
+
+/* line 24, ../../scss/util/u-Table.scss */
+.u-Table--middle .u-Table-fill,
+.u-Table--middle .u-Table-fit {
+  vertical-align: middle;
+}
+
+/* line 29, ../../scss/util/u-Table.scss */
+.u-Table--bottom .u-Table-fill,
+.u-Table--bottom .u-Table-fit {
+  vertical-align: bottom;
+}
+
+/* line 34, ../../scss/util/u-Table.scss */
+.u-Table--equal {
+  table-layout: fixed;
+}
+
+/* line 38, ../../scss/util/u-Table.scss */
+.u-Table--equal > .u-Table-fill,
+.u-Table--equal > .u-Table-fit {
+  width: auto;
+}
+
+/* line 44, ../../scss/util/u-Table.scss */
+.u-Table--withBorder > .u-Table-fit, .u-Table--withBorder > .u-Table-fill {
+  border-left: 1px solid #F0F0F0;
+}
+/* line 48, ../../scss/util/u-Table.scss */
+.u-Table--withBorder > .u-Table-fit:first-child, .u-Table--withBorder > .u-Table-fill:first-child {
+  border-left: none;
+}

@@ -1,0 +1,75 @@
+<map_data>
+ <name>bulgaria</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="22.3652763366699" top="44.2247161865234" right="28.6063842773438" bottom="41.243049621582"/>
+ <regions>
+  <region>
+   <centroid lat="42.4537391662598" lon="26.9169425964355"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGR-BRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Burgas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.2566604614258" lon="23.4331932067871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGR-SOF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sofiya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.0204086303711" lon="25.7795906066895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGR-KHS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khaskovo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.2497177124023" lon="25.0570812225342"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGR-LVC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lovech]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.6151351928711" lon="23.3434638977051"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGR-MKH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mikhaylovgrad]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.0539207458496" lon="24.5580501556396"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGR-PLD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Plovdiv]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5515823364258" lon="26.5759792327881"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGR-RZG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Razgrad]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.6509857177734" lon="23.3559703826904"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGR-GSO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grad Sofiya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.4233245849609" lon="27.568883895874"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGR-VAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Varna]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

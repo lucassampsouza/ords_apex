@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Table Layout for Divs
+   ========================================================================== */
+.u-Table {
+  display: table;
+  margin: 0;
+  padding: 0;
+  table-layout: auto;
+  width: 100%; }
+
+.u-Table-fill, .u-Table-fit {
+  display: table-cell;
+  padding: 0;
+  vertical-align: top; }
+
+.u-Table-fill {
+  width: 100%; }
+
+.u-Table--middle .u-Table-fill, .u-Table--middle .u-Table-fit {
+  vertical-align: middle; }
+
+.u-Table--bottom .u-Table-fill, .u-Table--bottom .u-Table-fit {
+  vertical-align: bottom; }
+
+.u-Table--equal {
+  table-layout: fixed; }
+
+.u-Table--equal > .u-Table-fill, .u-Table--equal > .u-Table-fit {
+  width: auto; }
+
+.u-Table--withBorder > .u-Table-fit, .u-Table--withBorder > .u-Table-fill {
+  border-left: 1px solid #F0F0F0; }
+.u-Table--withBorder > .u-Table-fit:first-child, .u-Table--withBorder > .u-Table-fill:first-child {
+  border-left: none; }

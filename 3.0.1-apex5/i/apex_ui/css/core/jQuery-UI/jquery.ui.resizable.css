@@ -1,0 +1,97 @@
+/*!
+ * jQuery UI Resizable 1.10.4
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ */
+/* line 9, ../../../scss/core/jQuery-UI/jquery.ui.resizable.scss */
+body .ui-resizable {
+  position: relative;
+}
+
+/* line 12, ../../../scss/core/jQuery-UI/jquery.ui.resizable.scss */
+body .ui-resizable-handle {
+  position: absolute;
+  font-size: 0.1px;
+  display: block;
+}
+
+/* line 17, ../../../scss/core/jQuery-UI/jquery.ui.resizable.scss */
+body .ui-resizable-disabled .ui-resizable-handle,
+body .ui-resizable-autohide .ui-resizable-handle {
+  display: none;
+}
+
+/* line 21, ../../../scss/core/jQuery-UI/jquery.ui.resizable.scss */
+body .ui-resizable-n {
+  cursor: n-resize;
+  height: 7px;
+  width: 100%;
+  top: -5px;
+  left: 0;
+}
+
+/* line 28, ../../../scss/core/jQuery-UI/jquery.ui.resizable.scss */
+body .ui-resizable-s {
+  cursor: s-resize;
+  height: 7px;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+}
+
+/* line 35, ../../../scss/core/jQuery-UI/jquery.ui.resizable.scss */
+body .ui-resizable-e {
+  cursor: e-resize;
+  width: 7px;
+  right: -5px;
+  top: 0;
+  height: 100%;
+}
+
+/* line 42, ../../../scss/core/jQuery-UI/jquery.ui.resizable.scss */
+body .ui-resizable-w {
+  cursor: w-resize;
+  width: 7px;
+  left: -5px;
+  top: 0;
+  height: 100%;
+}
+
+/* line 49, ../../../scss/core/jQuery-UI/jquery.ui.resizable.scss */
+body .ui-resizable-se {
+  cursor: se-resize;
+  width: 12px;
+  height: 12px;
+  right: 1px;
+  bottom: 1px;
+}
+
+/* line 56, ../../../scss/core/jQuery-UI/jquery.ui.resizable.scss */
+body .ui-resizable-sw {
+  cursor: sw-resize;
+  width: 9px;
+  height: 9px;
+  left: -5px;
+  bottom: -5px;
+}
+
+/* line 63, ../../../scss/core/jQuery-UI/jquery.ui.resizable.scss */
+body .ui-resizable-nw {
+  cursor: nw-resize;
+  width: 9px;
+  height: 9px;
+  left: -5px;
+  top: -5px;
+}
+
+/* line 70, ../../../scss/core/jQuery-UI/jquery.ui.resizable.scss */
+body .ui-resizable-ne {
+  cursor: ne-resize;
+  width: 9px;
+  height: 9px;
+  right: -5px;
+  top: -5px;
+}

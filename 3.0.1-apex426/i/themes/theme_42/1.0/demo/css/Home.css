@@ -1,0 +1,31 @@
+.dm-Home .t-Header {
+  display: none; }
+.dm-Home .t-Body-content {
+  margin-top: 0 !important; }
+.dm-Home {
+  background-color: #2578cf; }
+.dm-Home.ut-bg {
+  background-repeat: repeat;
+  background-size: 512px; }
+.dm-Home .t-Body {
+  background-color: transparent; }
+.dm-Home .dm-Hero {
+  color: #FFF; }
+  .dm-Home .dm-Hero > h1 {
+    font-size: 7.2rem;
+    line-height: 1.25; }
+    .dm-Home .dm-Hero > h1 span {
+      font-size: 2.4rem; }
+  .dm-Home .dm-Hero > h2 {
+    font-size: 4rem; }
+  .dm-Home .dm-Hero > h1, .dm-Home .dm-Hero > h2, .dm-Home .dm-Hero > p {
+    text-shadow: 0 4px 0 rgba(0, 0, 0, 0.1); }
+.dm-Home .dm-Components .t-Cards--featured .t-Card:hover {
+  background-color: rgba(255, 255, 255, 0.1); }
+.dm-Home .dm-Components .t-Cards--featured .t-Card-titleWrap {
+  margin: 12px 16px 24px 16px; }
+.dm-Home .dm-Components .t-Cards--featured .t-Card-title {
+  color: #FFF; }
+.dm-Home .dm-Components .t-Cards--featured .t-Card .t-Card-icon, .dm-Home .dm-Components .t-Cards--featured .t-Card .t-Card-icon .dm-Icon {
+  width: 128px;
+  height: 128px; }

@@ -1,0 +1,50 @@
+/* CLASSES USED BY THE REPORTING ENGINE, MAY BE COLOR SPECIFIC */
+.tableheader{font-size: 10pt;font-weight: bold;background: #cccc99;color: #336699;}
+.tabledata{font-size: 10pt;background: #f7f7e7;color: #000000;}
+.tabledata-alt{font-size:10pt;background:#ffffff; color:#000000;}
+.tabledatabold{font-size:10pt; font-weight:bold; background:#f7f7e7; color:#000000;}
+
+table.standardLook th{font-size:10pt;font-weight:bold; color:#000000;padding:2px 3px 2px 3px; 
+                      white-space:nowrap;vertical-align:bottom;}
+table.standardLook td{font-size:10pt;color: #000000;padding:2px 3px 2px 3px;}
+
+table.default1 th{font-size:10pt; font-weight: bold;background: #6699CC; color: #eeeeee;padding:2px;
+                  white-space:nowrap;vertical-align:bottom;}
+table.default1 td{font-size:10pt;background: #dddddd;color: #000000;padding:2px;}
+table.default1 td.alt{font-size:10pt;background:#ffffff; color:#000000;}
+
+table.default2 {border:1px #336699 solid;border-top:1px #336699 solid;
+                background:#eeeeee;font-size:10pt; margin-top:1px;border-collapse:collapse;}
+table.default2 th{font-weight: bold;background: #336699;color: #ffffff;padding:2px;border-bottom:1px #336699 solid;
+                  border-right:1px #cccccc solid;font-size:10pt;white-space:nowrap;vertical-align:bottom;}
+table.default2 td{padding:2px;border-bottom:1px #336699 solid;border-right:1px #336699 solid;font-size:10pt;}
+
+table.default3 td{font-size:10pt;color:black;}
+
+table.default1 th a:link{color:#dddddd;text-decoration:underline;}
+table.default1 th a:visited{color:#dddddd;text-decoration:underline;}
+table.default1 th a:hover{color:#ffffff;text-decoration:underline;}
+
+table.default2 th a:link{color:#dddddd;text-decoration:underline;}
+table.default2 th a:visited{color:#dddddd;text-decoration:underline;}
+table.default2 th a:hover{color:#ffffff;text-decoration:underline;}
+
+table.default3 th a:link{color:#336699;text-decoration:underline;}
+table.default3 th a:visited{color:#336699;text-decoration:underline;}
+table.default3 th a:hover{color:#ff0000;text-decoration:underline;}
+
+table.standardLook th a:link{color:#336699;text-decoration:underline;}
+table.standardLook th a:visited{color:#336699;text-decoration:underline;}
+table.standardLook th a:hover{color:#ff0000;text-decoration:underline;}
+
+table.default4 { margin:5px auto 0.5em auto; border-left:1px solid #cccccc; border-top:1px solid #cccccc; border-right:1px solid #999999; border-bottom:1px solid #999999; background-color:#efefef; }
+table.default4 td { border-left:1px solid #ffffff; border-top:1px solid #ffffff; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; }
+table.default4 th { font-weight:bold;font-size:10pt;color:#ffffff;background-color:#336699; 
+                    border-left:1px solid #e0e7f7; border-top:1px solid #e0e7f7; border-right:1px solid #999999; 
+                    border-bottom:1px solid #999999; white-space:nowrap;vertical-align:bottom;}
+table.default4 td.even { background-color:#fefefe;font-size:10pt;white-space:nowrap;}
+table.default4 td.odd { background-color:#efefef; font-size:10pt;white-space:nowrap;}
+
+table.default4 th a:link{color:#eeeeee;}
+table.default4 th a:visited{color:#eeeeee;}
+table.default4 th a:hover{color:#ffffff;}

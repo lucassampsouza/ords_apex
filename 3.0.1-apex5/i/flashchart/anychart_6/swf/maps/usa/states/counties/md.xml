@@ -1,0 +1,180 @@
+<map_data>
+ <name>md</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-79.4900894165039" top="39.7253684997559" right="-75.0930938720703" bottom="37.9701309204102"/>
+ <regions>
+  <region>
+   <centroid lat="39.5215320587158" lon="-77.914909362793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5812187194824" lon="-78.6878318786621"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Allegany]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5514469146729" lon="-76.0030708312988"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cecil]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4597702026367" lon="-79.2102584838867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Garrett]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.548318862915" lon="-76.3249893188477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Harford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.526460647583" lon="-77.0504379272461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carroll]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4645366668701" lon="-76.6309700012207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baltimore]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4696063995361" lon="-77.396369934082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Frederick]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2392616271973" lon="-76.0002746582031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2835254669189" lon="-76.6219787597656"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24510]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baltimore City]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2305774688721" lon="-76.9425086975098"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Howard]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1397285461426" lon="-77.2031593322754"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montgomery]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.061559677124" lon="-76.0642433166504"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Queen Annes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9683837890625" lon="-76.6338233947754"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Anne Arundel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8955497741699" lon="-75.864372253418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caroline]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8303413391113" lon="-76.8824119567871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prince Georges]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.7600269317627" lon="-76.1259384155273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Talbot]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.543025970459" lon="-76.5436935424805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Calvert]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.501916885376" lon="-76.9762077331543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Charles]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4798355102539" lon="-76.000846862793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dorchester]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4081745147705" lon="-75.6058616638184"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wicomico]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2794895172119" lon="-76.5971755981445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Marys]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2258129119873" lon="-75.3543815612793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Worcester]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.1318130493164" lon="-75.7214546203613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[24039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Somerset]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

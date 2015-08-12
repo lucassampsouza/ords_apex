@@ -1,0 +1,27 @@
+@import "../scss_replaced/modules/_variables";
+
+.loopingClass (@index) when (@index > 0) {
+  .badgelistDash((@index - 1));
+  //  @for $ i from 1 through length($ _colors) {
+
+  .t-Cards-item:nth-child(@{index}) .t-Card-wrap {
+    &:before {
+//        background-color: nth($ _colors, $ i);
+      background-color: extract(@_colors, @index);
+    }
+  }
+  @selector: ~".t-Cards-item:nth-child(@{index}) .t-Card-icon .t-Icon";
+  @{selector} {
+    background-color: extract(@_colors, @index);
+  };
+
+
+
+  //  }
+//  //  @for $ i from 1 through length($ _colors) {
+//  .t-Cards-item:nth-child(#{$i}) .t-Card-icon .t-Icon {
+//    background-color: extract(@_colors, @index);
+////    background-color: nth($ _colors, $ i);
+//  }
+  //  }
+}

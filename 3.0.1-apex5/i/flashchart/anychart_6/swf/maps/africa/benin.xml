@@ -1,0 +1,54 @@
+<map_data>
+ <name>benin</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="0.776666641235352" top="12.3966579437256" right="3.85499954223633" bottom="6.21872138977051"/>
+ <regions>
+  <region>
+   <centroid lat="9.96763801574707" lon="1.52638864517212"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEN-ATK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Atakora]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.60633039474487" lon="2.22347187995911"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEN-ATL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Atlantique]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.5837106704712" lon="2.91236078739166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEN-BOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Borgou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.87424564361572" lon="1.8224561214447"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEN-MON]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mono]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.00006055831909" lon="2.57830309867859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEN-OUE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oueme]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.84293508529663" lon="2.18991684913635"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BEN-ZOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zou]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

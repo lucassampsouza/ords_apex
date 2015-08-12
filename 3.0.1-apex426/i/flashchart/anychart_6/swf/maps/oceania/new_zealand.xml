@@ -1,0 +1,61 @@
+<map_data>
+ <name>new_zealand</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="GMI_ADMIN" key="true"/>
+ </columns>
+ <bounds left="-178.613067626953" top="-29.2230567932129" right="179.082733154297" bottom="-49.7261047363281"/>
+ <regions>
+  <region>
+   <centroid lat="-39.4745807647705" lon="0.234832763671875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Canterbury]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NZL-CNT]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-39.4534187316895" lon="177.046745300293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NZ31]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hawke's Bay]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NZL-HBA]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-48.4147300720215" lon="167.563034057617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NZ72]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southland]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NZL-STH]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-39.2722206115723" lon="174.386375427246"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NZ76]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taranaki]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NZL-TRN]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-37.8598155975342" lon="175.516960144043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NZ85]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Waikato]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NZL-WAK]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-42.6150550842285" lon="170.46549987793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NZB3]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Westland]]></value></item>
+    <item column="GMI_ADMIN"><value><![CDATA[NZL-WST]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

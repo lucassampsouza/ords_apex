@@ -1,0 +1,106 @@
+/* ==========================================================================
+   Grid Layout Editor
+   ========================================================================== */
+/* line 13, ../../scss/core/GridLayout.scss */
+.a-GridLayout {
+  padding: 12px;
+}
+@media only screen and (max-width: 1280px) {
+  /* line 13, ../../scss/core/GridLayout.scss */
+  .a-GridLayout {
+    padding: 4px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1679px) {
+  /* line 13, ../../scss/core/GridLayout.scss */
+  .a-GridLayout {
+    padding: 8px;
+  }
+}
+
+/* line 26, ../../scss/core/GridLayout.scss */
+.a-GridLayout-page > h3,
+.a-GridLayout-region > h3,
+.a-GridLayout-pageItem > h3,
+.a-GridLayout-button > h3 {
+  margin: 0;
+}
+
+/* line 34, ../../scss/core/GridLayout.scss */
+.a-GridLayout-region > h3.is-draggable,
+.a-GridLayout-pageItem > h3.is-draggable,
+.a-GridLayout-button > h3.is-draggable {
+  cursor: move;
+}
+
+/* line 58, ../../scss/core/GridLayout.scss */
+.a-GridLayout-flow .a-GridLayout-button,
+.a-GridLayout-flow .a-GridLayout-pageItem,
+.a-GridLayout-flow .a-GridLayout-placeholder,
+.a-GridLayout-buttonGroup > .a-GridLayout-buttonContainer {
+  float: left;
+}
+
+/* line 65, ../../scss/core/GridLayout.scss */
+.a-GridLayout-flow .a-GridLayout-placeholder,
+.a-GridLayout-buttonGroup > .a-GridLayout-buttonContainer {
+  width: 30px;
+}
+
+/* line 72, ../../scss/core/GridLayout.scss */
+.a-GridLayout-regions.is-active,
+.a-GridLayout-items.is-active, .a-GridLayout-buttons.is-active {
+  overflow: hidden;
+}
+
+/* line 77, ../../scss/core/GridLayout.scss */
+.a-GridLayout-regions.is-active,
+.a-GridLayout-items.is-active,
+.a-GridLayout-buttons.is-active {
+  padding: 4px;
+  min-height: 8px;
+}
+
+/* line 97, ../../scss/core/GridLayout.scss */
+.a-GridLayout-grid, .a-GridLayout-templateGrid, .a-GridLayout-buttonRow {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+/* line 103, ../../scss/core/GridLayout.scss */
+.a-GridLayout-grid td, .a-GridLayout-templateGrid td {
+  vertical-align: top;
+}
+
+/* line 106, ../../scss/core/GridLayout.scss */
+.a-GridLayout-grid.is-active {
+  border-collapse: separate;
+  padding: 0;
+}
+
+/* line 110, ../../scss/core/GridLayout.scss */
+.a-GridLayout-grid.is-active td {
+  border: 1px solid;
+  padding: 2px !important;
+}
+
+/* line 115, ../../scss/core/GridLayout.scss */
+.a-GridLayout-grid.is-active .a-GridLayout-pageItem,
+.a-GridLayout-grid.is-active .a-GridLayout-region,
+.a-GridLayout-grid.is-active .a-GridLayout-button {
+  margin: 0 !important;
+}
+
+/* line 122, ../../scss/core/GridLayout.scss */
+.a-GridLayout-buttonGroup {
+  overflow: hidden;
+}
+
+/* line 125, ../../scss/core/GridLayout.scss */
+.a-GridLayout-flow .a-GridLayout-placeholder,
+.a-GridLayout-buttonGroup > .a-GridLayout-buttonContainer {
+  min-width: 60px;
+  width: auto;
+}

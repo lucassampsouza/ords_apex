@@ -1,0 +1,61 @@
+<map_data>
+ <name>united_arab_emirates</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="51.5833282470703" top="26.0841598510742" right="56.3816604614258" bottom="22.6333293914795"/>
+ <regions>
+  <region>
+   <centroid lat="23.8046865463257" lon="53.8040237426758"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARE-AZA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Abu Zaby]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.2836103439331" lon="56.1730499267578"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARE-AFJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Fujayrah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.9496021270752" lon="55.5975685119629"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARE-DBY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dubayy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.0991268157959" lon="55.8541870117188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARE-ASH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ash Shariqah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.0987453460693" lon="55.7652015686035"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARE-AJM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA['Ajman]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.4522171020508" lon="56.013786315918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARE-RAK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ra's al Khaymah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.468334197998" lon="55.7230644226074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARE-UAQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Umm al Qaywayn]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

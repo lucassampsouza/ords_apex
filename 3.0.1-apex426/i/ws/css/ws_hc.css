@@ -1,0 +1,261 @@
+/* ====================== */
+/* = High Contrast Mode = */
+/* ====================== */
+/*Menus*/
+/* line 11, ../scss/ws_hc.scss */
+ul.wsMenu > li > ul {
+  border: 1px solid #AAA; }
+
+/* line 14, ../scss/ws_hc.scss */
+ul.wsMenu > li > ul li a:hover {
+  text-decoration: underline; }
+
+/* Interactive Report */
+/* line 20, ../scss/ws_hc.scss */
+#apexir_SEARCHDROPROOT.apexir_SEARCHICON {
+  width: 150px;
+  background: none #FFF;
+  margin: 0 !important; }
+
+/* line 32, ../scss/ws_hc.scss */
+a.wsCloseMessage {
+  white-space: nowrap;
+  width: auto !important; }
+
+/* The following styles are from the generic apex 4_1 high contrast mode*/
+/* line 39, ../scss/ws_hc.scss */
+.apexir_TOOLBAR_OPEN {
+  float: left;
+  height: 48px;
+  display: inline;
+  overflow: visible;
+  background: none;
+  border: 1px solid #808080;
+  background-color: #efefef; }
+
+/* line 49, ../scss/ws_hc.scss */
+.apexir_TOOLBAR_CLOSE {
+  color: #000000;
+  float: left;
+  overflow: visible;
+  background: none;
+  padding: 4px 8px 8px 0; }
+
+/* line 57, ../scss/ws_hc.scss */
+.apexir_COLUMN_SELECTOR {
+  padding: 0; }
+
+/* line 61, ../scss/ws_hc.scss */
+#apexir_SEARCHDROP {
+  padding: 24px 0 0 0; }
+
+/* line 65, ../scss/ws_hc.scss */
+.apexir_SEARCHICON {
+  background-image: none;
+  border: 1px solid #808080;
+  background-color: #dddddd;
+  float: left;
+  display: block;
+  height: 26px;
+  width: 120px;
+  text-align: center; }
+
+/* line 76, ../scss/ws_hc.scss */
+.apexir_SEARCHICON span {
+  display: inline !important;
+  position: relative !important;
+  top: 0px; }
+
+/* line 82, ../scss/ws_hc.scss */
+.apexir_COLUMN_SELECTOR a {
+  text-decoration: none;
+  color: #000000;
+  padding: 2px 2px 4px 2px; }
+
+/* line 88, ../scss/ws_hc.scss */
+button.apexir-button {
+  background: none;
+  border: 1px solid #808080;
+  background-color: #dddddd;
+  margin: 0 2px 0 2px;
+  padding: 4px 0 0 0; }
+
+/* line 96, ../scss/ws_hc.scss */
+button.apexir-button span {
+  height: 20px;
+  line-height: 20px;
+  background: none;
+  color: #000000; }
+
+/* line 103, ../scss/ws_hc.scss */
+button.apexir-go-button {
+  background: none;
+  border: 1px solid #808080;
+  background-color: #dddddd;
+  margin: 0 2px 0 2px; }
+
+/* line 110, ../scss/ws_hc.scss */
+button.apexir-go-button span {
+  height: 18px;
+  line-height: 18px;
+  background: none;
+  color: #000000; }
+
+/* line 117, ../scss/ws_hc.scss */
+.apexir_ACTION_MENU {
+  padding: 2px; }
+
+/* line 122, ../scss/ws_hc.scss */
+#apexir_TOOLBAR button.dhtmlMenu {
+  background: none;
+  padding: 0 0 0 0;
+  background-color: #dddddd;
+  margin: 0 2px 0 2px;
+  border: 1px solid #808080;
+  padding: 1px; }
+
+/* line 131, ../scss/ws_hc.scss */
+#apexir_TOOLBAR button.dhtmlMenu span {
+  padding: 0 0 0 0;
+  height: 28px;
+  line-height: 28px;
+  background: none;
+  color: #000000;
+  margin: 0px 12px; }
+
+/* line 140, ../scss/ws_hc.scss */
+#apexir_TOOLBAR button.dhtmlMenuOn {
+  background: none;
+  padding: 0 0 0 0;
+  background-color: #dddddd;
+  margin: 0 2px 0 2px;
+  border: 1px solid #808080;
+  padding: 1px; }
+
+/* line 149, ../scss/ws_hc.scss */
+#apexir_TOOLBAR button.dhtmlMenuOn span {
+  padding: 0 0 0 0;
+  height: 28px;
+  line-height: 28px;
+  background: none;
+  color: #000000;
+  margin: 0px 12px; }
+
+/* line 158, ../scss/ws_hc.scss */
+#apexir_SEARCH_BAR_OPTIONS {
+  padding: 1px 2px 0px 2px; }
+
+/* line 162, ../scss/ws_hc.scss */
+.irr-pill {
+  float: left;
+  display: block;
+  margin: 0 2px 0 2px;
+  padding: 0 0 0 0;
+  text-align: center;
+  height: 30px;
+  width: 80px !important;
+  border: 1px solid #808080;
+  background-color: #dddddd; }
+
+/* line 174, ../scss/ws_hc.scss */
+.irr-pill span {
+  display: inline !important;
+  padding: 2px;
+  position: relative !important;
+  top: 0px !important;
+  text-indent: 0 !important; }
+
+/* line 183, ../scss/ws_hc.scss */
+.ie7 #apexir_SEARCH_BAR_OPTIONS .irr-pill span, .ie8 #apexir_SEARCH_BAR_OPTIONS .irr-pill span, .ie9 #apexir_SEARCH_BAR_OPTIONS .irr-pill span {
+  background-image: none !important; }
+
+/* line 188, ../scss/ws_hc.scss */
+a.irr-pill {
+  text-decoration: none;
+  color: #000000; }
+
+/* line 193, ../scss/ws_hc.scss */
+.irr-pill-group {
+  background-image: none;
+  width: 60px;
+  margin: 0 0 0 4px; }
+
+/* line 199, ../scss/ws_hc.scss */
+.irr-pill-group-active {
+  background-image: none;
+  width: 60px;
+  margin: 0 0 0 4px; }
+
+/* line 205, ../scss/ws_hc.scss */
+.irr-pill-chart {
+  background-image: none;
+  width: 60px;
+  margin: 0 0 0 4px; }
+
+/* line 211, ../scss/ws_hc.scss */
+.irr-pill-chart-active {
+  background-image: none;
+  width: 60px;
+  margin: 0 0 0 4px; }
+
+/* line 217, ../scss/ws_hc.scss */
+.irr-pill-icons-left {
+  background-image: none;
+  width: 60px; }
+
+/* line 222, ../scss/ws_hc.scss */
+.irr-pill-icons-left-active {
+  background-image: none;
+  width: 60px; }
+
+/* line 227, ../scss/ws_hc.scss */
+.irr-pill-report-center {
+  background-image: none;
+  width: 60px; }
+
+/* line 232, ../scss/ws_hc.scss */
+.irr-pill-report-center-active {
+  background-image: none;
+  width: 60px; }
+
+/* line 237, ../scss/ws_hc.scss */
+.irr-pill-report {
+  background-image: none;
+  width: 60px;
+  margin: 0 0 0 4px; }
+
+/* line 243, ../scss/ws_hc.scss */
+.irr-pill-report-active {
+  background-image: none;
+  width: 60px;
+  margin: 0 0 0 4px; }
+
+/* line 249, ../scss/ws_hc.scss */
+.irr-pill-report-left {
+  background-image: none;
+  width: 60px; }
+
+/* line 254, ../scss/ws_hc.scss */
+.irr-pill-report-left-active {
+  background-image: none;
+  width: 60px; }
+
+/* line 259, ../scss/ws_hc.scss */
+.irr-pill-report-right {
+  background-image: none;
+  width: 60px; }
+
+/* line 264, ../scss/ws_hc.scss */
+.irr-pill-report-right-active {
+  background-image: none;
+  width: 60px; }
+
+/* line 269, ../scss/ws_hc.scss */
+.irr-pill-details-right {
+  background-image: none;
+  width: 60px; }
+
+/* line 274, ../scss/ws_hc.scss */
+.irr-pill-details-right-active {
+  background-image: none;
+  width: 60px; }

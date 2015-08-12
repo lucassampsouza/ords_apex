@@ -1,0 +1,110 @@
+<map_data>
+ <name>south_korea</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="124.609710693359" top="38.625244140625" right="130.922058105469" bottom="33.1902694702148"/>
+ <regions>
+  <region>
+   <centroid lat="33.3711013793945" lon="126.548175811768"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-CDO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cheju-do]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7273559570313" lon="127.177062988281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-CBU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cholla-bukto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6358871459961" lon="127.965560913086"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-CBK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ch'ungch'ong-bukto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8272018432617" lon="128.964965820313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-KDO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kangwon-do]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.1829071044922" lon="129.102340698242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-PSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pusan-jikhalsi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3034515380859" lon="128.52653503418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-KNA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kyongsang-namdo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.568962097168" lon="126.998321533203"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-SJK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seoul-jikhalsi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5587158203125" lon="126.230819702148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-KGD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kyonggi-do]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.4781913757324" lon="126.699005126953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-ICH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Inch'on-jikhalsi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8916168212891" lon="128.62678527832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-TGN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Taegu-jikhalsi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3577842712402" lon="128.717041015625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-KBU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kyongsang-bukto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.1246700286865" lon="126.859752655029"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-KWN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kwangju-jikhalsi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.5144348144531" lon="126.895244598389"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-CNM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ch'ungch'ong-namdo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8765182495117" lon="126.850540161133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KOR-CNA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cholla-namdo]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,194 @@
+<map_data>
+ <name>albania</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="19.2824974060059" top="42.6619415283203" right="21.0541648864746" bottom="39.6452713012695"/>
+ <regions>
+  <region>
+   <centroid lat="40.6855506896973" lon="19.9663867950439"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-BER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5942993164063" lon="20.331974029541"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-DIB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dibre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.3030319213867" lon="19.5917167663574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-DRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Durres]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.0798568725586" lon="20.0143032073975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-ELB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Elbasan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6549644470215" lon="19.6067981719971"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-FIE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fier]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0276336669922" lon="20.1722202301025"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-GJR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gjirokaster]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.8405532836914" lon="20.2434692382813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-GRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gramsh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.2918014526367" lon="20.6222114562988"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-KLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kolonje]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6835479736328" lon="20.6688861846924"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-KOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Korce]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5620803833008" lon="19.7402763366699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-KRU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kruje]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.0886993408203" lon="20.3890247344971"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-KUK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kukes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8155727386475" lon="19.6890449523926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-LEZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lezhe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.1593017578125" lon="20.3610000610352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-LBR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Librazhd]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.942497253418" lon="19.6568565368652"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-LSH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lushnje]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5676345825195" lon="20.0458316802979"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-MAT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8712463378906" lon="19.9808311462402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-MRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mirdite]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.2854118347168" lon="20.3455543518066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-PRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Permet]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.9513130187988" lon="20.6129150390625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-PGR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pogradec]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.0815086364746" lon="19.9624862670898"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-PUK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Puke]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.906665802002" lon="20.079719543457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-SRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sarande]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.248592376709" lon="19.5876121520996"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-SHK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shkoder]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.5615234375" lon="20.2668037414551"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-SKR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skrapar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.3584671020508" lon="19.9540576934814"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-TPL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tepelene]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.382080078125" lon="20.0720024108887"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-TRP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tropoje]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.3569450378418" lon="19.5851364135742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-VLO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vlore]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.3312454223633" lon="19.9215259552002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ALB-TIR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tirane]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

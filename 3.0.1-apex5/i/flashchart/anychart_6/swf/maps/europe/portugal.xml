@@ -1,0 +1,145 @@
+<map_data>
+ <name>portugal</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-31.2900009155273" top="42.1527404785156" right="-6.18722248077393" bottom="36.9291610717773"/>
+ <regions>
+  <region>
+   <centroid lat="40.694580078125" lon="-8.44404411315918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-AVE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aveiro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8305511474609" lon="-7.86979007720947"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-BEJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Beja]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5694808959961" lon="-8.31309986114502"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-BRA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Braga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5118026733398" lon="-6.80805587768555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-BRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Braganca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.9777717590332" lon="-7.57486152648926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-CBR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Castelo Branco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.2209053039551" lon="-8.31552791595459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-CMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coimbra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5993003845215" lon="-7.8815279006958"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-EVO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Evora]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.268440246582" lon="-8.20291757583618"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-FAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Faro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6856918334961" lon="-7.32069492340088"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-GUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guarda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.6898193359375" lon="-8.74180698394775"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-LEI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leiria]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9981918334961" lon="-9.15472316741943"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-LIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lisboa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.209342956543" lon="-7.64836931228638"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-PRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Portalegre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.2416648864746" lon="-8.33263921737671"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-POR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Porto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2851333618164" lon="-8.40875053405762"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-SNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santarem]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2902717590332" lon="-8.70361232757568"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-STB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Setubal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8817863464355" lon="-8.4806957244873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-VDC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Viana do Castelo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5137481689453" lon="-7.63763999938965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-VRE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vila Real]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.775691986084" lon="-7.82986164093018"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-VIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Viseu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.2255516052246" lon="-28.1511116027832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRT-AZR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Azores]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

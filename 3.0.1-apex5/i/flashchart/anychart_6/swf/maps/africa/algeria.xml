@@ -1,0 +1,348 @@
+<map_data>
+ <name>algeria</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-8.66722297668457" top="37.0863876342773" right="11.9864749908447" bottom="18.9763870239258"/>
+ <regions>
+  <region>
+   <centroid lat="36.7707176208496" lon="3.02638792991638"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-ALG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alger]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4644947052002" lon="5.74919152259827"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-BAT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Batna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3408050537109" lon="6.66516304016113"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-CNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Constantine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.9583034515381" lon="2.91188013553619"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-MED]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Medea]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.9592170715332" lon="0.307843200862408"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-MST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mostaganem]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6170406341553" lon="-0.566387355327606"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-ORA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oran]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.605354309082" lon="0.249444395303726"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-SAI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saida]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1110420227051" lon="5.40244841575623"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-SET]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Setif]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.905834197998" lon="1.52419686317444"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-TIA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tiaret]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6685962677002" lon="4.18478202819824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-TOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tizi Ouzou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7088928222656" lon="-1.48263627290726"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-TLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tlemcen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.5575160980225" lon="4.93695497512817"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-BEJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bejaia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3430099487305" lon="5.39415407180786"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-BSK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Biskra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.5332851409912" lon="3.01770377159119"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-BLI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Blida]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.272439956665" lon="3.83458137512207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-BOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bouira]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3101043701172" lon="3.64698660373688"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-DJL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Djelfa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3749046325684" lon="7.44608998298645"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-GUE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guelma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7359867095947" lon="5.93356037139893"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-JIJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jijel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6251544952393" lon="2.71588939428329"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-LGH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Laghouat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3751373291016" lon="0.168814837932587"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-MSC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mascara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.274772644043" lon="4.21488177776337"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-MSL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[M'Sila]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8155784606934" lon="6.98499894142151"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-OEB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oum el Bouaghi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8218460083008" lon="-0.5722761657089"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-SBA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sidi bel Abbes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7833728790283" lon="6.77729082107544"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-SKK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skikda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.0298538208008" lon="7.69809150695801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-TBS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tebessa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.2780389785767" lon="-0.866284966468811"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-ADR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Adrar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1502742767334" lon="2.13920199871063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-ADF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ain Defla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3606376647949" lon="-0.99148091673851"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-ATM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ain Temouchent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.8531246185303" lon="7.52152347564697"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-ANN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Annaba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.2385597229004" lon="-2.69815728068352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-BCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bechar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0866718292236" lon="4.68342971801758"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-BBA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bourdj Bou Arrer]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7275009155273" lon="3.59099102020264"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-BMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boumerdes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.199577331543" lon="1.2236670255661"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-CHL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chlef]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4250297546387" lon="0.968424096703529"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-EBY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[El Bayadh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2496204376221" lon="7.06661534309387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-EOD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[El Oued]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6773986816406" lon="8.11402487754822"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-ETR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[El Tarf]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.0033950805664" lon="3.37607640028"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-GHD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ghardaia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.0019445419312" lon="8.79995059967041"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-ILL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Illizi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9091644287109" lon="6.9155375957489"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-KHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khenchela]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.2668704986572" lon="6.04451584815979"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-MIL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mila]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2790260314941" lon="-0.851527886465192"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-NAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Naama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.9353446960449" lon="6.27699363231659"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-ORG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ouargla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.8213844299316" lon="0.874077305197716"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-RLZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Relizane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1740283966064" lon="7.85041570663452"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-SAH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Souk Ahras]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.1792917251587" lon="6.20198699831963"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-TMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tamanghasset]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.6857280731201" lon="-5.9232759475708"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-TND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tindouf]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.5976848602295" lon="2.44094705581665"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-TPZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tipaza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.7905502319336" lon="1.75993371009827"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DZA-TSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tissemsilt]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

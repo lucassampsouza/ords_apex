@@ -1,0 +1,516 @@
+<map_data>
+ <name>thailand</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="97.3452606201172" top="20.4552726745605" right="105.63916015625" bottom="5.63194274902344"/>
+ <regions>
+  <region>
+   <centroid lat="18.6894817352295" lon="98.0002593994141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-MHS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mae Hong Son]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.0947170257568" lon="98.9948425292969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-LMP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lamphun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.7268085479736" lon="99.9282760620117"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-CRA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chiang Rai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.8161067962646" lon="100.850273132324"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-NAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.6969738006592" lon="98.8372116088867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-CMA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chiang Mai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.3554134368896" lon="99.5661010742188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-LMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lampang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.254301071167" lon="99.9262351989746"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PHR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phrae]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.4884252548218" lon="98.6348495483398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-TAK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tak]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.2526340484619" lon="99.6995697021484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SKH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sukhothai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.7766036987305" lon="100.536521911621"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-UTT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uttaradit]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.3356924057007" lon="99.5079040527344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-KPH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kamphaeng Phet]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.0486068725586" lon="100.492767333984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PHT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phitsanulok]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.2522192001343" lon="100.374565124512"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PHC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phichit]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.1995944976807" lon="101.210361480713"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PHH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phetchabun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.3559093475342" lon="99.5262870788574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-UTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uthai Thani]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.6991634368896" lon="99.9567947387695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-NSA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nakhon Sawan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.0129127502441" lon="103.126941680908"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-NKH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nong Khai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.4863786697388" lon="101.517761230469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-LOE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Loei]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.4239597320557" lon="102.801788330078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-UTA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Udon Thani]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.4276371002197" lon="103.838871002197"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sakon Nakhon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.1023597717285" lon="104.482608795166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-NPH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nakhon Phanom]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.3484687805176" lon="102.473022460938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-KKA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khon Kaen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.6438846588135" lon="103.679538726807"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-KLS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kalasin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.0214338302612" lon="103.179733276367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-MSR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maha Sarakham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.93625831604" lon="103.825592041016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-RET]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roi Et]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.9591627120972" lon="101.880786895752"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-CHY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chaiyaphum]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.9692897796631" lon="102.102272033691"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-NRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nakhon Ratchasima]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.9604144096375" lon="102.96826171875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-BRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Buriram]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.9087810516357" lon="103.590660095215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Surin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.9594831466675" lon="104.416641235352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SSK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sisaket]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.1852765083313" lon="101.738983154297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-NRH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Narathiwat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.1637487411499" lon="100.012619018555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-CNA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chai Nat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.9461393356323" lon="100.344421386719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SBU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sing Buri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.0766649246216" lon="100.949005126953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-LBU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lop Buri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.6183309555054" lon="100.355262756348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-ATH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ang Thong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.3976364135742" lon="100.521892547607"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phra Nakhon Si Ayutthaya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.534836769104" lon="100.906955718994"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saraburi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.9663877487183" lon="100.411796569824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-NNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nonthaburi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.0894002914429" lon="100.626789093018"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pathum Thani]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7187347412109" lon="100.615550994873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-KTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Krung Thep]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.2750968933105" lon="100.160678863525"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phayao]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.5942535400391" lon="100.702629089355"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SPR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Samut Prakan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.2306923866272" lon="101.210403442383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-NNA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nakhon Nayok]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.5736989974976" lon="101.41711807251"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-CHC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chachoengsao]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7980537414551" lon="102.036327362061"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PBU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prachin Buri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.0941648483276" lon="101.19359588623"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-CBU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chon Buri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.8801364898682" lon="101.401794433594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-RYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rayong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.8097658157349" lon="102.109985351563"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-CHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chanthaburi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.1569242477417" lon="102.587760925293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-TRA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.6948304176331" lon="99.0466537475586"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-KNC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kanchanaburi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.567081451416" lon="99.7815093994141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SBR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suphan Buri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.5615086555481" lon="99.6239166259766"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-RTC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ratchaburi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.9168043136597" lon="100.071235656738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-NPT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nakhon Pathom]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.3705539703369" lon="99.9716720581055"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Samut Songkhram]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.5775098800659" lon="100.223320007324"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SSH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Samut Sakhon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.9520816802979" lon="99.6081809997559"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PHB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phetchaburi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.7948150634766" lon="99.5831756591797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PKK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prachuap Khiri Khan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.3156900405884" lon="99.0690383911133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-CHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chumphon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.0414371490479" lon="98.4056854248047"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-RNN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ranong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.04993057250977" lon="99.1229019165039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-STH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Surat Thani]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.62777614593506" lon="98.4533157348633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phangnga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.97138786315918" lon="98.3565063476563"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PHK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phuket]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.06902694702148" lon="98.9833221435547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-KRA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Krabi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.79924011230469" lon="99.7887344360352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-NST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nakhon Si Thammarat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.52833223342896" lon="99.6530838012695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-TRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.49859809875488" lon="100.060440063477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PHL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phatthalung]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.77761459350586" lon="99.6901206970215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SAT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Satun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.11355495452881" lon="100.569839477539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-SNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Songkhla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.73986005783081" lon="101.378330230713"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-PTT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pattani]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.13444375991821" lon="101.231922149658"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-YAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yala]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.2525453567505" lon="105.011669158936"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-URT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ubon Ratchathani]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.81498670578" lon="104.406421661377"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[THA-YST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yasothon]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

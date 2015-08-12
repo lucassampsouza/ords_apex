@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 164" enable-background="new 0 0 256 164" xml:space="preserve">
+<g id="source" display="none">
+	<rect x="41" y="112" display="inline" fill="#F5F5F5" width="175" height="52"/>
+	<path display="inline" fill="#E6E6E6" d="M257,13H1V2c0-1.105,0.895-2,2-2h252c1.105,0,2,0.895,2,2V13z"/>
+	<path display="inline" fill="#E6E6E6" d="M1,13h40v151H3c-1.105,0-2-0.895-2-2V13z"/>
+	<path display="inline" fill="#FAFAFA" d="M217,13h40v149c0,1.105-0.895,2-2,2h-38V13z"/>
+	<rect x="40" y="13" display="inline" fill="#FFFFFF" width="177" height="99"/>
+	<rect x="206" y="14" display="inline" fill="#FAFAFA" width="11" height="11"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="216.5" y1="13" x2="216.5" y2="164"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="1" y1="13.5" x2="257" y2="13.5"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="41" y1="40.5" x2="216" y2="40.5"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="41" y1="112.5" x2="216" y2="112.5"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="40.5" y1="13" x2="40.5" y2="164"/>
+	<g display="inline">
+		<path fill="#C2C2C2" d="M255,1c0.551,0,1,0.449,1,1v160c0,0.551-0.449,1-1,1H3c-0.551,0-1-0.449-1-1V2c0-0.551,0.449-1,1-1H255
+			 M255,0H3C1.9,0,1,0.9,1,2v160c0,1.1,0.9,2,2,2h252c1.1,0,2-0.9,2-2V2C257,0.9,256.1,0,255,0L255,0z"/>
+	</g>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="6" y1="5.5" x2="10" y2="5.5"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="6" y1="8.5" x2="10" y2="8.5"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="14.5" y1="0" x2="14.5" y2="14"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="1" y1="25.5" x2="41" y2="25.5"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="1" y1="37.5" x2="41" y2="37.5"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="1" y1="49.5" x2="41" y2="49.5"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="1" y1="61.5" x2="41" y2="61.5"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="1" y1="73.5" x2="41" y2="73.5"/>
+	<polyline display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" points="205.5,14 205.5,24.5 216,24.5 	"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="209" y1="17.5" x2="213" y2="17.5"/>
+	<line display="inline" fill="none" stroke="#C2C2C2" stroke-miterlimit="10" x1="209" y1="20.5" x2="213" y2="20.5"/>
+	<rect x="46.5" y="118.5" display="inline" fill="#FFFFFF" stroke="#C8CACC" stroke-miterlimit="10" width="164" height="39"/>
+</g>
+<g id="outline">
+	<path fill="#C2C2C2" d="M0,2c0-1.1,0.9-2,2-2h252c1.1,0,2,0.9,2,2v160c0,1.105-0.895,2-2,2H2c-1.1,0-2-0.9-2-2V2z"/>
+	<g>
+		<path fill="#EBEBEB" d="M13,1H2C1.448,1,1,1.448,1,2v11h12V1z"/>
+		<path fill="#EBEBEB" d="M254,1H14v12h241V2C255,1.448,254.552,1,254,1z"/>
+	</g>
+	<path fill="#EBEBEB" d="M1,74h38v89H2c-0.552,0-1-0.448-1-1V74z"/>
+	<rect x="5" y="5" fill="#C2C2C2" width="4" height="1"/>
+	<rect x="5" y="8" fill="#C2C2C2" width="4" height="1"/>
+	<rect x="1" y="14" fill="#EBEBEB" width="38" height="11"/>
+	<rect x="1" y="26" fill="#EBEBEB" width="38" height="11"/>
+	<rect x="1" y="38" fill="#EBEBEB" width="38" height="11"/>
+	<rect x="1" y="50" fill="#EBEBEB" width="38" height="11"/>
+	<rect x="1" y="62" fill="#EBEBEB" width="38" height="11"/>
+	<g>
+		<rect x="40" y="113" fill="#FAFAFA" width="175" height="50"/>
+	</g>
+	<g>
+		<rect x="40" y="41" fill="#FFFFFF" width="175" height="71"/>
+	</g>
+	<polygon fill="#FFFFFF" points="40,14 204,14 204,25 215,25 215,40 40,40 	"/>
+	<rect x="205" y="14" fill="#FAFAFA" width="10" height="10"/>
+	<path fill="#FAFAFA" d="M216,14v149h38c0.552,0,1-0.448,1-1V14H216z"/>
+	<g>
+		<rect x="208" y="17" fill="#C2C2C2" width="4" height="1"/>
+	</g>
+	<g>
+		<rect x="208" y="20" fill="#C2C2C2" width="4" height="1"/>
+	</g>
+	<rect x="46" y="119" fill="#C8CACC" width="163" height="38"/>
+	<rect x="47" y="120" fill="#FFFFFF" width="161" height="36"/>
+</g>
+<g id="templates">
+</g>
+</svg>

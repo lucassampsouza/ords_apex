@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 164" enable-background="new 0 0 256 164" xml:space="preserve">
+<g id="source" display="none">
+</g>
+<g id="outline">
+	<path fill="#C2C2C2" d="M0,2c0-1.1,0.9-2,2-2h252c1.1,0,2,0.9,2,2v160c0,1.105-0.895,2-2,2H2c-1.1,0-2-0.9-2-2V2z"/>
+	<path fill="#EBEBEB" d="M254,1H2C1.448,1,1,1.448,1,2v11h254V2C255,1.448,254.552,1,254,1z"/>
+	<g>
+		<path fill="#FAFAFA" d="M1,41v121c0,0.552,0.448,1,1,1h252c0.552,0,1-0.448,1-1V41H1z"/>
+	</g>
+	<rect x="1" y="14" fill="#FFFFFF" width="254" height="26"/>
+	<path fill="#C8CACC" d="M248,79c0,0.55-0.45,1-1,1H9c-0.55,0-1-0.45-1-1V48c0-0.55,0.45-1,1-1h238c0.55,0,1,0.45,1,1V79z"/>
+	<g>
+		<path fill="#F8F8F8" d="M247,48v31H9V48H247"/>
+	</g>
+	<path fill="#C8CACC" d="M248,118c0,0.55-0.45,1-1,1H9c-0.55,0-1-0.45-1-1V87c0-0.55,0.45-1,1-1h238c0.55,0,1,0.45,1,1V118z"/>
+	<g>
+		<path fill="#F8F8F8" d="M247,87v31H9V87H247"/>
+	</g>
+	<path fill="#C8CACC" d="M248,156c0,0.55-0.45,1-1,1H9c-0.55,0-1-0.45-1-1v-30c0-0.55,0.45-1,1-1h238c0.55,0,1,0.45,1,1V156z"/>
+	<g>
+		<path fill="#F8F8F8" d="M247,126v30H9v-30H247"/>
+	</g>
+</g>
+<g id="templates">
+</g>
+</svg>

@@ -1,0 +1,277 @@
+<map_data>
+ <name>germany_second_level</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="ADM1_CODE" key="true"/>
+ </columns>
+ <bounds left="5.86562728881836" top="55.0537986755371" right="15.0398788452148" bottom="47.2757873535156"/>
+ <regions>
+  <region>
+   <centroid lat="53.5618228912354" lon="10.011751312271"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU006XXX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Area without administration at 2nd level]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU006]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.3011360168457" lon="8.73865604400635"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU005XXX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Area without administration at 2nd level]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.9852294921875" lon="8.75986814498901"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU010002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Detmold]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU010]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.211669921875" lon="8.02438831329346"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU010001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arnsberg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU010]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.949878692627" lon="8.75333571434021"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU007001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Darmstadt]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.6277351379395" lon="8.80293107032776"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU007002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Giessen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0041923522949" lon="9.35069131851196"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU007003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kassel]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.1445217132568" lon="9.61362552642822"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU001003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stuttgart]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1328904813528" lon="8.36378073692322"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU001001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Freiburg]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.324333190918" lon="10.8272643089294"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU002001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mittelfranken]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.0248413085938" lon="9.91844701766968"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU002007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Unterfranken]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.5102367401123" lon="13.4094104766846"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU003XXX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Area without administration at 2nd level]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.3052425384521" lon="12.6768560409546"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU013003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leipzig]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU013]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.9382419586182" lon="11.2654895782471"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU016XXX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Area without administration at 2nd level]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU016]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.0571060180664" lon="11.3549160957336"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU002004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oberfranken]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.7840442657471" lon="6.82462286949158"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU010004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Koeln]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU010]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.9831924438477" lon="8.77510216757773"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU001002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karlsruhe]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.1578273773193" lon="14.0967674255371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU013002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dresden]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU013]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.3764705657959" lon="6.88109421730042"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU012XXX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Area without administration at 2nd level]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU012]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.4552192687988" lon="6.63076829910278"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU010003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Duesseldorf]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU010]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.9682102203369" lon="7.35251188278198"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU010005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Muenster]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU010]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.8581523895264" lon="12.5024876594543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU008XXX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Area without administration at 2nd level]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU008]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.5102367401123" lon="13.4094104766846"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU004XXX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Area without administration at 2nd level]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU004]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.660961151123" lon="12.7529711723328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU013001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chemnitz]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU013]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.4147815704346" lon="12.1662921905518"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU002005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oberpfalz]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.690242767334" lon="12.7175302505493"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU002002]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niederbayern]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.2487945556641" lon="11.9083333015442"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU002003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oberbayern]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1575565338135" lon="10.4300546646118"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU002006]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Schwaben]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU002]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.0925636291504" lon="9.44029331207275"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU001004]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tuebingen]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.9544086456299" lon="7.30684447288513"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU011XXX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Area without administration at 2nd level]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU011]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.9969711303711" lon="11.8712697029114"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU014XXX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Area without administration at 2nd level]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU014]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.6308746337891" lon="9.12597060203552"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU009XXX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Area without administration at 2nd level]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU009]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.2105083465576" lon="9.59366941452026"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DEU015XXX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Area without administration at 2nd level]]></value></item>
+    <item column="ADM1_CODE"><value><![CDATA[DEU015]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

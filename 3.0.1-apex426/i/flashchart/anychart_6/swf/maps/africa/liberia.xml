@@ -1,0 +1,103 @@
+<map_data>
+ <name>liberia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-11.4923305511475" top="8.51277732849121" right="-7.36750030517578" bottom="4.34333324432373"/>
+ <regions>
+  <region>
+   <centroid lat="6.69983291625977" lon="-10.7755250930786"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-BOM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bomi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.81138801574707" lon="-8.25902891159058"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-GKR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grand Kru]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.47243976593018" lon="-10.178729057312"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-MRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Margibi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.81434535980225" lon="-9.39597320556641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-RVR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rivercess]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.93041610717773" lon="-9.80183124542236"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-BON]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.65824317932129" lon="-8.13250064849854"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-GJI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grand Jide]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.11291646957397" lon="-9.74402904510498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-GBA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grand Bassa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.06457948684692" lon="-11.0017366409302"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-GCM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grand Cape Mount]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.66208267211914" lon="-10.1508188247681"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-LOF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lofa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.7281174659729" lon="-7.81311798095703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-MRY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maryland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.52526617050171" lon="-10.5843067169189"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-MNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montserrado]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.76208305358887" lon="-8.73493576049805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-NIM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nimba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.34411668777466" lon="-8.86353778839111"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LBR-SIN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sino]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

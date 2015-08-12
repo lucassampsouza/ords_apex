@@ -1,0 +1,63 @@
+/*
+ * Flot Pie Chart Plug-in v2.0 - http://apex.oracle.com/plugins
+ *
+ * Based on Flot http://www.flotcharts.org/
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+.flotPieLabelBackground {
+    background-color: #FFF;
+    background-color: rgba(255,255,255,.9);
+    color: #404040;
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.flotPieHoverContainer {
+    position: absolute;
+}
+.flotPieContainer .legendColorBox>div {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.flotPieContainer .legend table {
+    background-color: rgba(255,255,255,0.8);
+}
+
+.flotPieContainer .legend table tr {
+    vertical-align: middle
+}
+
+.flotPieContainer .legend table td {
+    padding: 1px 3px;
+}
+
+.flotPieContainer .legend {
+    position: absolute;
+    display: inline-block;
+    top: 15px;
+    right: 25px;
+}
+
+.flotPieContainerInner {
+    position: relative;
+}
+
+.flotPieLabelColor {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 4px;
+    vertical-align: top;
+}
+
+.flotPieLabelContainer {
+    font-size: 12px;
+    line-height: 16px;
+    vertical-align: top;
+    white-space: nowrap;
+}

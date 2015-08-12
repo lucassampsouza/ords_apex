@@ -1,0 +1,207 @@
+<?xml version = "1.0" encoding="utf-8" standalone = "yes"?>
+<anygantt>
+ <settings>
+  <title enabled="False" />
+  <outer_margin left="0" top="0" right="0" bottom="0" />
+  <background>
+   <fill type="Solid" color="0xffffff" opacity="0" />
+   <border enabled="false"/>
+   <corners type="Square"/>
+  </background>
+  <navigation enabled="true" />
+  <locale>
+   <date_time_format week_starts_from_monday="True">
+    <months>
+     <names>January,February,March,April,May,June,July,August,September,October,November,December</names>
+     <short_names>Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec</short_names>
+    </months>
+    <week_days>
+     <names>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</names>
+      <short_names>Sun,Mon,Tue,Wed,Thu,Fri,Sat</short_names>
+    </week_days>
+    <format>
+     <full>%yyyy.%MM.%dd.%HH.%mm.%ss</full>
+     <date>%yyyy.%MM.%dd</date>
+     <time>%HH.%mm.%ss</time>
+    </format>
+   </date_time_format>
+  </locale>
+ </settings>
+    <datagrid enabled="true">
+      <columns>
+      </columns>
+</datagrid>
+  <timeline>
+    <plot line_height="30" item_height="15" item_padding="5" />
+  </timeline>
+  <styles>
+        <period_styles>
+          <period_style name="defaultStyle">
+            <tooltip enabled="true">
+              <text>
+Task: {%Name}
+Start Date: {%PeriodStart}{dateTimeFormat:%dd-%MMM-%yyyy %hh:%mm%tt}
+End Date: {%PeriodEnd}{dateTimeFormat:%dd-%MMM-%yyyy %hh:%mm%tt}
+Complete: {%Complete}%
+              </text>
+              <font color="Black"/>
+            </tooltip>
+            <bar_style>
+              <middle shape="HalfTop">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0x1D8BD1" />
+                <border enabled="true" type="Solid" color="Black"/>
+              </middle>
+              <states>
+                <hover>
+                  <middle>
+                    <border enabled="true" type="Solid" color="Red"/>
+                  </middle>
+            </hover>
+              </states>
+              <start>
+                <marker type="Arrow">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0x1D8BD1" />
+                  <border enabled="true" type="Solid" color="Black"/>
+                </marker>
+              </start>
+              <end>
+                <marker type="Arrow">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0x1D8BD1" />
+                  <border enabled="true" type="Solid" color="Black"/>
+                </marker>
+              </end>
+            </bar_style>
+        </period_style>
+      </period_styles>
+      <task_styles>
+        <task_style name="defaultStyle">
+          <tooltip enabled="true">
+            <text>
+Task: {%Name}
+Start Date: {%ActualStart}{dateTimeFormat:%dd-%MMM-%yyyy %hh:%mm%tt}
+End Date: {%ActualEnd}{dateTimeFormat:%dd-%MMM-%yyyy %hh:%mm%tt}
+Complete: {%Complete}%
+            </text>
+            <font color="Black"/>
+          </tooltip>
+          <row_datagrid>
+            <tooltip enabled="true">
+              <text>
+Task: {%Name}
+Start Date: {%ActualStart}{dateTimeFormat:%dd-%MMM-%yyyy %hh:%mm%tt}
+End Date: {%ActualEnd}{dateTimeFormat:%dd-%MMM-%yyyy %hh:%mm%tt}
+Complete: {%Complete}%
+              </text>
+              <font color="Black"/>
+            </tooltip>
+          </row_datagrid>
+          <actual>
+            <bar_style>
+              <middle shape="HalfTop">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0x1D8BD1" />
+                <border enabled="true" type="Solid" color="Black"/>
+              </middle>
+              <states>
+                <hover>
+                  <middle>
+                    <border enabled="true" type="Solid" color="Red"/>
+                  </middle>
+            </hover>
+              </states>
+              <start>
+                <marker type="Arrow">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0x1D8BD1" />
+                  <border enabled="true" type="Solid" color="Black"/>
+                </marker>
+              </start>
+              <end>
+                <marker type="Arrow">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0x1D8BD1" />
+                  <border enabled="true" type="Solid" color="Black"/>
+                </marker>
+              </end>
+            </bar_style>
+          </actual>
+          <progress>
+            <bar_style>
+              <middle shape="HalfTop">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0xF1683C" />
+                <border enabled="true" type="Solid" color="Black"/>
+              </middle>
+              <start>
+                <marker type="Rhomb">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0xF1683C" />
+                  <border enabled="true" type="Solid" color="Black"/>
+                </marker>
+              </start>
+              <end>
+                <marker type="Rhomb">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0xF1683C" />
+                  <border enabled="true" type="Solid" color="Black"/>
+                </marker>
+              </end>
+            </bar_style>
+          </progress>
+          <baseline>
+            <bar_style>
+              <middle shape="HalfTop">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0x2AD62A" />
+                <border enabled="true" type="Solid" color="Black"/>
+              </middle>
+              <start>
+                <marker type="Rhomb">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0x2AD62A" />
+                  <border enabled="true" type="Solid" color="Black"/>
+                </marker>
+              </start>
+              <end>
+                <marker type="Rhomb">
+                <fill enabled="true" type="Solid" opacity="0.8" color="0x2AD62A" />
+                  <border enabled="true" type="Solid" color="Black"/>
+                </marker>
+              </end>
+            </bar_style>
+          </baseline>
+        </task_style>
+      </task_styles>
+      <resource_styles>
+        <resource_style>
+          <row_datagrid>
+            <tooltip enabled="true">
+              <text>
+Task: {%Name}
+Start Date: {%ActualStart}{dateTimeFormat:%dd-%MMM-%yyyy %hh:%mm%tt}
+End Date: {%ActualEnd}{dateTimeFormat:%dd-%MMM-%yyyy %hh:%mm%tt}
+Complete: {%Complete}%
+              </text>
+              <font color="Black"/>
+            </tooltip>
+          </row_datagrid>
+        </resource_style>
+      </resource_styles>    <defaults>
+      <task>
+        <task_style>
+          <row_datagrid>
+            <tooltip enabled="true">
+              <text>
+Task: {%Name}
+Start Date: {%ActualStart}{dateTimeFormat:%dd-%MMM-%yyyy %hh:%mm%tt}
+End Date: {%ActualEnd}{dateTimeFormat:%dd-%MMM-%yyyy %hh:%mm%tt}
+Complete: {%Complete}%
+              </text>
+              <font color="Black"/>
+            </tooltip>
+          </row_datagrid>
+        </task_style>
+      </task>
+    </defaults>
+  </styles>
+    <project_chart>
+      <tasks>
+    <task id="7782" parent="" name="Charts Integration" actual_start="2009.03.21 00.00.00" actual_end="2009.09.21 00.00.00" baseline_start="2009.03.18 00.00.00" baseline_end="2009.09.26 00.00.00"  progress="60"  style="defaultStyle" />
+    <task id="7876" parent="77821" name="Update Application Wizard" actual_start="2009.08.01 00.00.00" actual_end="2009.09.21 00.00.00" baseline_start="2009.07.29 00.00.00" baseline_end="2009.09.26 00.00.00" style="defaultStyle" />
+    <task id="7788" parent="" name="New Calendar Feature" actual_start="2009.03.01 00.00.00" actual_end="2009.09.21 00.00.00" baseline_start="2009.02.26 00.00.00" baseline_end="2009.09.26 00.00.00"  progress="50"  style="defaultStyle" />
+    <task id="7934" parent="" name="Plugins" actual_start="2009.01.01 00.00.00" actual_end="2009.07.30 00.00.00" baseline_start="2008.12.29 00.00.00" baseline_end="2009.08.04 00.00.00"  progress="40"  style="defaultStyle" />
+    </tasks>
+  </project_chart>
+</anygantt>

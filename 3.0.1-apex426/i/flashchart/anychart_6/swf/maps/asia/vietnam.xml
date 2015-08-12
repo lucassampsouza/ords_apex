@@ -1,0 +1,383 @@
+<map_data>
+ <name>vietnam</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="102.140747070313" top="23.3347206115723" right="109.463317871094" bottom="8.55888748168945"/>
+ <regions>
+  <region>
+   <centroid lat="21.9040575027466" lon="105.853458404541"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-BTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bac Thai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.77600622177124" lon="106.267826080322"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-TVN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tra Vinh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.7037477493286" lon="106.04443359375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-CBA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cao Bang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.3051357269287" lon="106.439376831055"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-HBA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ha Bac]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.9226341247559" lon="106.233722686768"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-HHU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hai Hung]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.2322177886963" lon="107.256233215332"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-QNI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quang Ninh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.8194408416748" lon="102.950927734375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-LCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lai Chau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.8924989700317" lon="108.009986877441"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-LDO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lam Dong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.7099981307983" lon="106.147552490234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-LAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Long An]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.6490597724915" lon="107.966945648193"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-QND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quang Nam-Da Nang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.5722122192383" lon="107.078590393066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-HPH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hai Phong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.3392953872681" lon="104.094398498535"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-SLA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Son La]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.3730545043945" lon="106.154022216797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-TNI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tay Ninh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.9521160125732" lon="105.229156494141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-THO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thanh Hoa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.5026226043701" lon="106.371479034424"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-TBI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thai Binh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.3862476348877" lon="106.308746337891"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-TGI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tien Giang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.8672180175781" lon="106.747047424316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-LSO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lang Son]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.524169921875" lon="105.138969421387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-AGI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[An Giang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.5842576026917" lon="108.243034362793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-DLA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dac Lac]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.041109085083" lon="107.166091918945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-DNA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dong Nai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.5533313751221" lon="105.555992126465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-DTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dong Thap]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.90791511535645" lon="104.520866394043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-KGI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kien Giang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.04819297790527" lon="105.293060302734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-MHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Minh Hai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.6036081314087" lon="106.902484893799"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-SBE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Song Be]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.3405494689941" lon="105.277153015137"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-VPH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vinh Phu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.1810913085938" lon="105.835308074951"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-HNO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ha Noi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.7557153701782" lon="106.68176651001"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-HCM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ho Chi Minh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.71885538101196" lon="107.070945739746"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-BRV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ba Ria-Vung Tau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.0738615989685" lon="108.992210388184"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-BDN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Binh Dinh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.0347661972046" lon="108.194000244141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-BTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Binh Thuan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.92639303207397" lon="105.62813949585"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-CTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Can Tho]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.8126330375671" lon="108.191352844238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-GLA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gia Lai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.7519416809082" lon="104.962341308594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-HGN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ha Giang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.9654150009155" lon="105.643039703369"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-HTY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ha Tay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.2874965667725" lon="105.806617736816"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-HTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ha Tinh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.7123584747314" lon="105.339588165283"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-HBN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hoa Binh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.3552951812744" lon="109.051097869873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-KHO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khanh Hoa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.5790934562683" lon="107.968879699707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-KTM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kon Tum]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.2681903839111" lon="104.065910339355"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-LCA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lao Cai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.3302726745605" lon="106.182865142822"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-NHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nam Ha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.2779531478882" lon="104.840702056885"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-NAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nghe An]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.2137441635132" lon="105.883434295654"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-NBN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ninh Binh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.7345819473267" lon="108.89457321167"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-NTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ninh Thuan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.2279682159424" lon="109.076236724854"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-PYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phu Yen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.5110006332397" lon="106.353103637695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-QBN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quang Binh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.9940328598022" lon="108.698589324951"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-QNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quang Ngai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.70387840271" lon="107.012481689453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-QTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quang Tri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.58250570297241" lon="105.905391693115"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-STR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soc Trang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.339165687561" lon="107.641235351563"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-TTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thua Thien Hue]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.0686092376709" lon="106.371395111084"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-BTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ben Tre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.0844612121582" lon="105.211715698242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-TQN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tuyen Quang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.109375" lon="105.974300384521"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-VLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vinh Long]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.8152751922607" lon="104.507034301758"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VNM-YBA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yen Bai]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

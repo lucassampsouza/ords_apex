@@ -1,0 +1,187 @@
+<map_data>
+ <name>ak</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-178.215026855469" top="71.4066467285156" right="-129.990539550781" bottom="51.5844345092773"/>
+ <regions>
+  <region>
+   <centroid lat="69.7028121948242" lon="-153.914909362793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02185]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Slope]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="66.8572463989258" lon="-159.714416503906"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02188]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northwest Arctic]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="65.2029495239258" lon="-151.022644042969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02290]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yukon-Koyukuk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.288782119751" lon="-156.646392822266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02164]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lake and Peninsula]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.8544464111328" lon="-146.274841308594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02090]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fairbanks North Star]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.8672904968262" lon="-144.350234985352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02240]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southeast Fairbanks]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.7667465209961" lon="-165.61710357666"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02180]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nome]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.3296298980713" lon="-149.713401794434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02170]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Matanuska-Susitna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.0984973907471" lon="-163.199028015137"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02270]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wade Hampton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.757884979248" lon="-156.788879394531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02060]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bristol Bay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.1135749816895" lon="-149.26097869873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02020]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Anchorage]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.0659027099609" lon="-151.653465270996"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02122]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kenai Peninsula]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.4419269561768" lon="-163.022674560547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02050]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bethel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.701244354248" lon="-158.662200927734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02070]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dillingham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.4976692199707" lon="-144.869606018066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02261]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Valdez-Cordova]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.9889469146729" lon="-135.409286499023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02100]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haines]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.6808280944824" lon="-136.680961608887"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02231]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skagway-Yakutat-Angoon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.7974662780762" lon="-154.355438232422"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02150]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kodiak Island]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.3811702728271" lon="-134.164642333984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02110]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Juneau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.0755443572998" lon="-135.515426635742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02220]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sitka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.5347366333008" lon="-131.890274047852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02201]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prince of Wales-Outer Ketchikan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.5443000793457" lon="-131.400268554688"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02130]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ketchikan Gateway]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.5329189300537" lon="-132.699836730957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02280]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wrangell-Petersburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.6420783996582" lon="-161.874000549316"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aleutians East]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.7967987060547" lon="-172.152526855469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[02016]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aleutians West]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

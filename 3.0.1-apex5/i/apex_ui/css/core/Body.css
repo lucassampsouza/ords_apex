@@ -1,0 +1,220 @@
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* line 6, ../../scss/core/Body.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 10, ../../scss/core/Body.scss */
+body {
+  font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  min-width: 768px;
+  min-height: 100vh;
+}
+/* line 22, ../../scss/core/Body.scss */
+body.a-Page--secondary {
+  background-color: #F8F8F8;
+}
+/* line 25, ../../scss/core/Body.scss */
+body.a-Page--simpleWizard {
+  background-color: #F8F8F8;
+}
+/* line 28, ../../scss/core/Body.scss */
+body.a-Page--wizard {
+  background-color: #F8F8F8;
+}
+
+/* line 35, ../../scss/core/Body.scss */
+p {
+  margin: 0 0 8px 0;
+}
+/* line 37, ../../scss/core/Body.scss */
+p:only-child {
+  margin-bottom: 0;
+}
+
+/* line 42, ../../scss/core/Body.scss */
+#wwvFlowForm {
+  min-height: 100vh;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: -ms-flexbox;
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+/* line 63, ../../scss/core/Body.scss */
+.ie10 html, .ie10 body, .ie10 #wwvFlowForm {
+  height: 100%;
+}
+/* line 66, ../../scss/core/Body.scss */
+.ie10 #wwvFlowForm {
+  -ms-flex-direction: column;
+  -ms-flex: 1 0 auto;
+}
+
+/* line 85, ../../scss/core/Body.scss */
+.a-Body {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  clear: both;
+  -ms-flex: 0 1 auto;
+}
+/* line 101, ../../scss/core/Body.scss */
+.lt-ie11 .a-Body, .ie10 .a-Body, .ie9 .a-Body, .ie8 .a-Body, .ie7 .a-Body, .ie6 .a-Body {
+  display: table;
+  width: 100%;
+}
+/* line 104, ../../scss/core/Body.scss */
+.lt-ie11 .a-Body > *, .ie10 .a-Body > *, .ie9 .a-Body > *, .ie8 .a-Body > *, .ie7 .a-Body > *, .ie6 .a-Body > * {
+  display: table-cell !important;
+  vertical-align: top !important;
+}
+
+/* line 121, ../../scss/core/Body.scss */
+body.apex-resize-block .resize {
+  display: block !important;
+}
+
+/* line 135, ../../scss/core/Body.scss */
+.a-SystemMessage {
+  background-color: #FDF5D9;
+  border-bottom: 1px solid #EBDFB1;
+  border-top: 1px solid #EBDFB1;
+  overflow: hidden;
+  padding: 8px 12px;
+  color: #333024;
+  font-size: 14px;
+  line-height: 22px;
+  min-height: 41px;
+}
+
+/* line 146, ../../scss/core/Body.scss */
+.a-SystemMessage--info {
+  background-color: #e7f3ff;
+  border-color: #d2e6ff;
+}
+
+/* line 152, ../../scss/core/Body.scss */
+.ebaLaunchPadRegion * {
+  box-sizing: content-box;
+}
+
+/* line 157, ../../scss/core/Body.scss */
+.a-LinkBlockList {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 163, ../../scss/core/Body.scss */
+.a-LinkBlockList-item {
+  padding: 0;
+}
+
+/* line 166, ../../scss/core/Body.scss */
+.a-LinkBlockList-link {
+  display: block;
+  padding: 12px;
+  margin: 12px;
+  text-decoration: none;
+  border-radius: 2px;
+  background-color: #FFF;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  transition: background-color .2s, border-color .2s, box-shadow .1s;
+}
+/* line 177, ../../scss/core/Body.scss */
+.a-LinkBlockList-link:hover {
+  text-decoration: none;
+  border-color: #D0D0D0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.075), 0 0 0 1px #399BEA inset;
+}
+
+/* line 186, ../../scss/core/Body.scss */
+.a-LinkBlockList-label {
+  font-size: 16px;
+  line-height: 1;
+  padding-bottom: 4px;
+  display: block;
+}
+
+/* line 192, ../../scss/core/Body.scss */
+.a-LinkBlockList-info {
+  overflow: hidden;
+  display: block;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+/* line 198, ../../scss/core/Body.scss */
+.a-LinkBlockList-text {
+  color: #707070;
+}
+
+/* line 201, ../../scss/core/Body.scss */
+.a-LinkBlockList-text--right {
+  float: right;
+  margin-left: 8px;
+}
+
+/* line 206, ../../scss/core/Body.scss */
+.justGageContainer {
+  margin: 0 auto;
+}

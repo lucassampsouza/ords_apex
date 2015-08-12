@@ -1,0 +1,152 @@
+<map_data>
+ <name>hungary</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="16.1118049621582" top="48.57666015625" right="22.8948040008545" bottom="45.7483291625977"/>
+ <regions>
+  <region>
+   <centroid lat="46.5255546569824" lon="19.4698581695557"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-BKS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bacs-Kiskun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.0736083984375" lon="18.2441654205322"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-BRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baranya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.730411529541" lon="21.053747177124"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-BEK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bekes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1208305358887" lon="21.1155223846436"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-BAZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Borsod-Abauj-Zemplen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4993438720703" lon="19.4143028259277"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-PES]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pest]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.4622840881348" lon="20.2258644104004"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-CSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Csongrad]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1559677124023" lon="18.4984798431396"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-FEJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fejer]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.7188873291016" lon="17.1844425201416"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-GSP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gyor-Moson-Sopron]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4387283325195" lon="21.4687252044678"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-HBI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hajdu-Bihar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.7849006652832" lon="20.17138671875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-HEV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Heves]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.5756912231445" lon="18.4124965667725"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-KMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Komarom-Esztergom]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.9787483215332" lon="19.5221424102783"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-NGR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nograd]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.4763870239258" lon="19.1334705352783"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-BDP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Budapest]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.4164276123047" lon="17.5428447723389"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-SMG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Somogy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.9983558654785" lon="21.9885129928589"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-SSZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Szabolcs-Szatmar-Bereg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2119407653809" lon="20.3323593139648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-SZL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jasz-Nagykun-Szolnok]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.4782066345215" lon="18.533748626709"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-TOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tolna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.0885200500488" lon="16.6674289703369"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-VAS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1252746582031" lon="17.6586093902588"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-VSZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Veszprem]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.67041015625" lon="16.9059963226318"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HUN-ZAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zala]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

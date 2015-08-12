@@ -1,0 +1,47 @@
+<map_data>
+ <name>bangladesh</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="88.0433197021484" top="26.6291618347168" right="92.6693420410156" bottom="20.7391624450684"/>
+ <regions>
+  <region>
+   <centroid lat="22.4291715621948" lon="90.4633178710938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGD-BRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Barisal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.0997333526611" lon="90.3287086486816"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGD-DAK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dhaka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.9729099273682" lon="91.5646667480469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGD-CHT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chittagong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.903395652771" lon="89.2919235229492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGD-KHL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Khulna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.2270240783691" lon="88.9538726806641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BGD-RJS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rajshahi]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

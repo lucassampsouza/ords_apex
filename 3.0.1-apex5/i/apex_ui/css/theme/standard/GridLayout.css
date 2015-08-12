@@ -1,0 +1,621 @@
+/**
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/* ==========================================================================
+	 Grid Layout Theme
+	 ========================================================================== */
+/* line 23, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-wrapper {
+  background-color: #DADADA;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15) inset;
+}
+
+/* ==========================================================================
+	 Containers
+	 ========================================================================== */
+/* ==========================================================================
+	 Page
+	 ========================================================================== */
+/* line 41, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  height: 32px;
+  background-color: #EFF1F2;
+  border: 1px solid #BDC3C7;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  margin: 4px 4px 12px 4px;
+  color: #404040;
+}
+/* line 53, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 .a-GridLayout-label {
+  line-height: 32px;
+}
+/* line 55, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 .a-GridLayout-label .a-Icon {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  margin-right: 0;
+  padding: 0;
+}
+/* line 61, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 .a-GridLayout-label .a-Icon:before {
+  line-height: 32px;
+}
+/* line 66, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 > .a-Icon {
+  width: 16px;
+  height: 16px;
+  color: #707070;
+  padding: 0;
+  text-align: center;
+  margin: 8px;
+}
+
+/* ==========================================================================
+	 Containers
+	 ========================================================================== */
+/* line 81, ../../../scss/theme/standard/GridLayout.scss */
+td > .a-GridLayout-regionContainer, .a-GridLayout-page > .a-GridLayout-regionContainer, .a-GridLayout-regionContainer.a-GridLayout--legacy {
+  background-color: #FFF;
+  margin: 4px 4px 12px 4px;
+  padding: 4px;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+/* line 89, ../../../scss/theme/standard/GridLayout.scss */
+td > .a-GridLayout-regionContainer > h3, .a-GridLayout-page > .a-GridLayout-regionContainer > h3, .a-GridLayout-regionContainer.a-GridLayout--legacy > h3 {
+  color: #707070;
+}
+
+/* ==========================================================================
+	 Button, Item and Region Container
+	 ========================================================================== */
+/* line 104, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region .a-GridLayout-regionContainer, .a-GridLayout-region
+.a-GridLayout-buttonContainer, .a-GridLayout-region
+.a-GridLayout-itemContainer, .a-GridLayout-region
+.a-GridLayout-regionContent {
+  border: 1px dashed #CFE6FA;
+  padding: 4px;
+  color: #606060;
+  margin: 8px;
+  border-radius: 2px;
+}
+/* line 113, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regionContainer > h3,
+.a-GridLayout-buttonContainer > h3,
+.a-GridLayout-itemContainer > h3,
+.a-GridLayout-regionContent > h3 {
+  padding: 0 4px;
+  margin: 0;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* line 122, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-buttonGroup {
+  margin: 4px;
+}
+/* line 126, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-buttonGroup .a-GridLayout-buttonContainer {
+  margin: 4px;
+}
+/* line 129, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-buttonGroup + .a-GridLayout-itemContainer, .a-GridLayout-buttonGroup + .a-GridLayout-itemContainer + .a-GridLayout-regionContent, .a-GridLayout-buttonGroup + .a-GridLayout-regionContainer {
+  margin-top: 4px;
+}
+
+/* line 137, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regionContainer + .a-GridLayout-buttonGroup .a-GridLayout-buttonContainer {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+/* line 143, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-buttonRow td:first-child {
+  border-right: 1px dashed #CFE6FA;
+}
+
+/* line 147, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-grid {
+  border-top: 1px dashed #CFE6FA;
+}
+
+/* ==========================================================================
+	 Region Content
+	 ========================================================================== */
+/* line 154, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regionContent {
+  overflow: hidden;
+}
+
+/* line 157, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regionContent > h3 {
+  float: left;
+}
+
+/* line 160, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regionContent > .a-GridLayout-buttonContainer {
+  float: right;
+  margin: 4px;
+}
+
+/* ==========================================================================
+	 Regions
+	 ========================================================================== */
+/* line 169, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region {
+  background-color: #F7FBFE;
+  border-radius: 2px;
+  border: 1px solid #B6DAF6;
+}
+/* line 174, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region + .a-GridLayout-region {
+  margin-top: 8px !important;
+}
+/* line 177, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regions > .a-GridLayout-region {
+  margin: 4px;
+}
+
+/* line 181, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region > h3 {
+  background-color: #DEEFFB;
+  border-bottom: 1px solid rgba(182, 218, 246, 0.75);
+  font-size: 12px;
+  line-height: 32px;
+  height: 32px;
+  color: #404040;
+}
+/* line 189, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region > h3 .a-Icon {
+  display: block;
+  float: left;
+  color: #8E99A0;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 8px;
+}
+/* line 198, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region > h3 .a-Icon:before {
+  font-size: 16px;
+  line-height: 16px;
+}
+/* line 204, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region > h3 .a-GridLayout-label {
+  line-height: 20px;
+  overflow: hidden;
+  display: block;
+  padding: 6px 0;
+}
+
+/* ==========================================================================
+	 Icons + Label
+	 ========================================================================== */
+/* line 215, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-pageItem .a-Icon {
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: top;
+  height: 22px;
+  width: 22px;
+  padding: 3px;
+}
+
+/* line 223, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-label {
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 22px;
+}
+/* line 229, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-label .a-Icon {
+  display: none !important;
+}
+
+/* ==========================================================================
+	 Items + Buttons
+	 ========================================================================== */
+/* line 239, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-pageItem {
+  border: 1px solid #CACFD2;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  margin: 4px;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 246, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-pageItem .a-Icon {
+  color: #979C9F;
+}
+
+/* line 251, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button {
+  border: 1px solid #7FDFB3;
+  background-color: #DDF7EB;
+  border-radius: 24px;
+  margin: 4px;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 258, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button .a-Icon {
+  display: none;
+}
+/* line 261, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button .a-GridLayout-label {
+  padding: 0 8px;
+}
+/* line 263, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button .a-GridLayout-label .a-Icon {
+  display: none;
+}
+/* line 271, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button.is-error h3 > .a-Icon, .a-GridLayout-button.is-warning h3 > .a-Icon {
+  display: inline-block;
+  margin: 4px 0 4px 8px;
+}
+/* line 275, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-button.is-error .a-GridLayout-label, .a-GridLayout-button.is-warning .a-GridLayout-label {
+  padding-left: 0;
+}
+
+/* line 281, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-pageItem > h3,
+.a-GridLayout-button > h3 {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px;
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+	 Buttons
+	 ========================================================================== */
+/* ==========================================================================
+	 Stateful Selectors
+	 ========================================================================== */
+/* line 298, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-regions.is-active,
+.a-GridLayout-items.is-active,
+.a-GridLayout-buttons.is-active {
+  background-color: #ffffa3;
+}
+
+/* line 304, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-placeholder {
+  background-color: rgba(0, 0, 0, 0.15);
+  border: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+/* line 315, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region.is-focused,
+.a-GridLayout-pageItem.is-focused,
+.a-GridLayout-button.is-focused {
+  border-color: #81AAD6;
+  box-shadow: 0 0 0 1px #81aad6, 0 0 2px 2px rgba(129, 170, 214, 0.25);
+  outline: none;
+}
+
+/* line 324, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-grid.is-active td {
+  border-color: #999;
+}
+
+/* line 335, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-focused,
+.a-GridLayout-region.is-focused,
+.a-GridLayout-pageItem.is-focused,
+.a-GridLayout-button.is-focused {
+  border-color: #399BEA;
+  box-shadow: 0 0 0 1px #399bea, 0 0 2px 2px rgba(57, 155, 234, 0.25);
+}
+/* line 344, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected > h3,
+.a-GridLayout-region.is-selected > h3,
+.a-GridLayout-pageItem.is-selected > h3,
+.a-GridLayout-button.is-selected > h3 {
+  background-color: #2D7BBB;
+  border-color: #2D7BBB;
+  color: #FFF;
+}
+/* line 348, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected > h3 .a-Icon,
+.a-GridLayout-region.is-selected > h3 .a-Icon,
+.a-GridLayout-pageItem.is-selected > h3 .a-Icon,
+.a-GridLayout-button.is-selected > h3 .a-Icon {
+  color: #FFF;
+}
+/* line 353, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected.is-focused,
+.a-GridLayout-region.is-selected.is-focused,
+.a-GridLayout-pageItem.is-selected.is-focused,
+.a-GridLayout-button.is-selected.is-focused {
+  border-color: #399BEA;
+}
+/* line 355, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected.is-focused > h3,
+.a-GridLayout-region.is-selected.is-focused > h3,
+.a-GridLayout-pageItem.is-selected.is-focused > h3,
+.a-GridLayout-button.is-selected.is-focused > h3 {
+  background-color: #2D7BBB;
+  border-color: #399BEA;
+}
+
+/* line 364, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-pageItem.is-selected,
+.a-GridLayout-button.is-selected {
+  border-color: #246396;
+  background-color: #246396;
+}
+
+/* line 371, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected > h3 {
+  border-color: #246396;
+  background-color: #246396;
+}
+
+/* line 378, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-region.is-selected {
+  border-color: #399BEA;
+}
+
+/* line 388, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-focused {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* line 399, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning,
+.a-GridLayout-region.is-warning,
+.a-GridLayout-pageItem.is-warning,
+.a-GridLayout-button.is-warning {
+  border-color: #c9c7b9;
+  background-color: #fffcf4;
+}
+/* line 402, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning > h3,
+.a-GridLayout-region.is-warning > h3,
+.a-GridLayout-pageItem.is-warning > h3,
+.a-GridLayout-button.is-warning > h3 {
+  border-color: #c9c7b9;
+  background-color: #fff2c3;
+}
+/* line 406, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning > h3 .a-Icon:before,
+.a-GridLayout-region.is-warning > h3 .a-Icon:before,
+.a-GridLayout-pageItem.is-warning > h3 .a-Icon:before,
+.a-GridLayout-button.is-warning > h3 .a-Icon:before {
+  content: "\e017";
+}
+/* line 410, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-focused,
+.a-GridLayout-region.is-warning.is-focused,
+.a-GridLayout-pageItem.is-warning.is-focused,
+.a-GridLayout-button.is-warning.is-focused {
+  border-color: #399BEA;
+  box-shadow: 0 0 0 1px #399bea, 0 0 2px 2px rgba(57, 155, 234, 0.25);
+}
+/* line 416, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-selected,
+.a-GridLayout-region.is-warning.is-selected,
+.a-GridLayout-pageItem.is-warning.is-selected,
+.a-GridLayout-button.is-warning.is-selected {
+  border-color: #c7a62e;
+  background-color: #fffdf6;
+}
+/* line 419, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-selected > h3,
+.a-GridLayout-region.is-warning.is-selected > h3,
+.a-GridLayout-pageItem.is-warning.is-selected > h3,
+.a-GridLayout-button.is-warning.is-selected > h3 {
+  background-color: #FFD746;
+  border-color: #c7a62e;
+  color: #404040;
+}
+/* line 423, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-selected > h3 .a-Icon,
+.a-GridLayout-region.is-warning.is-selected > h3 .a-Icon,
+.a-GridLayout-pageItem.is-warning.is-selected > h3 .a-Icon,
+.a-GridLayout-button.is-warning.is-selected > h3 .a-Icon {
+  color: #404040;
+}
+/* line 430, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-selected.is-focused,
+.a-GridLayout-region.is-warning.is-selected.is-focused,
+.a-GridLayout-pageItem.is-warning.is-selected.is-focused,
+.a-GridLayout-button.is-warning.is-selected.is-focused {
+  border-color: #399BEA;
+}
+/* line 432, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-warning.is-selected.is-focused > h3,
+.a-GridLayout-region.is-warning.is-selected.is-focused > h3,
+.a-GridLayout-pageItem.is-warning.is-selected.is-focused > h3,
+.a-GridLayout-button.is-warning.is-selected.is-focused > h3 {
+  background-color: #FFD746;
+  border-color: #c7a62e;
+}
+
+/* line 445, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error,
+.a-GridLayout-region.is-error,
+.a-GridLayout-pageItem.is-error,
+.a-GridLayout-button.is-error {
+  border-color: #bda9a9;
+  background-color: #fff4f4;
+}
+/* line 448, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error > h3,
+.a-GridLayout-region.is-error > h3,
+.a-GridLayout-pageItem.is-error > h3,
+.a-GridLayout-button.is-error > h3 {
+  border-color: #bda9a9;
+  background-color: #ffc3c3;
+}
+/* line 451, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error > h3 .a-Icon,
+.a-GridLayout-region.is-error > h3 .a-Icon,
+.a-GridLayout-pageItem.is-error > h3 .a-Icon,
+.a-GridLayout-button.is-error > h3 .a-Icon {
+  color: #606060;
+}
+/* line 453, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error > h3 .a-Icon:before,
+.a-GridLayout-region.is-error > h3 .a-Icon:before,
+.a-GridLayout-pageItem.is-error > h3 .a-Icon:before,
+.a-GridLayout-button.is-error > h3 .a-Icon:before {
+  content: "\e0a2";
+}
+/* line 456, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-focused,
+.a-GridLayout-region.is-error.is-focused,
+.a-GridLayout-pageItem.is-error.is-focused,
+.a-GridLayout-button.is-error.is-focused {
+  border-color: #399BEA;
+  box-shadow: 0 0 0 1px #399bea, 0 0 2px 2px rgba(57, 155, 234, 0.25);
+}
+/* line 462, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected,
+.a-GridLayout-region.is-error.is-selected,
+.a-GridLayout-pageItem.is-error.is-selected,
+.a-GridLayout-button.is-error.is-selected {
+  border-color: #b93b3c;
+  background-color: #fef4f4;
+}
+/* line 465, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected > h3,
+.a-GridLayout-region.is-error.is-selected > h3,
+.a-GridLayout-pageItem.is-error.is-selected > h3,
+.a-GridLayout-button.is-error.is-selected > h3 {
+  background-color: #f22f2f;
+  border-color: #b93b3c;
+  color: #FFF;
+}
+/* line 469, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected > h3 .a-Icon,
+.a-GridLayout-region.is-error.is-selected > h3 .a-Icon,
+.a-GridLayout-pageItem.is-error.is-selected > h3 .a-Icon,
+.a-GridLayout-button.is-error.is-selected > h3 .a-Icon {
+  color: #FFF;
+}
+/* line 475, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected.is-focused,
+.a-GridLayout-region.is-error.is-selected.is-focused,
+.a-GridLayout-pageItem.is-error.is-selected.is-focused,
+.a-GridLayout-button.is-error.is-selected.is-focused {
+  border-color: #399BEA;
+}
+/* line 477, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected.is-focused > h3,
+.a-GridLayout-region.is-error.is-selected.is-focused > h3,
+.a-GridLayout-pageItem.is-error.is-selected.is-focused > h3,
+.a-GridLayout-button.is-error.is-selected.is-focused > h3 {
+  background-color: #f22f2f;
+  border-color: #b93b3c;
+}
+
+/* line 487, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error {
+  background-color: transparent;
+}
+/* line 489, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-error.is-selected {
+  background-color: transparent;
+}
+
+/* line 503, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-page.is-selected > h3 .a-Icon.icon-warning, .a-GridLayout-page > h3 .a-Icon.icon-error,
+.a-GridLayout-page > h3 .a-Icon.icon-warning,
+.a-GridLayout-region.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-region.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-region > h3 .a-Icon.icon-error,
+.a-GridLayout-region > h3 .a-Icon.icon-warning,
+.a-GridLayout-pageItem.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-pageItem.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-pageItem > h3 .a-Icon.icon-error,
+.a-GridLayout-pageItem > h3 .a-Icon.icon-warning,
+.a-GridLayout-button.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-button.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-button > h3 .a-Icon.icon-error,
+.a-GridLayout-button > h3 .a-Icon.icon-warning {
+  box-shadow: none;
+  background: transparent;
+  text-shadow: none;
+}
+/* line 511, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 .a-Icon.icon-error,
+.a-GridLayout-region > h3 .a-Icon.icon-error,
+.a-GridLayout-pageItem > h3 .a-Icon.icon-error,
+.a-GridLayout-button > h3 .a-Icon.icon-error {
+  color: #f22f2f;
+}
+/* line 514, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page > h3 .a-Icon.icon-warning,
+.a-GridLayout-region > h3 .a-Icon.icon-warning,
+.a-GridLayout-pageItem > h3 .a-Icon.icon-warning,
+.a-GridLayout-button > h3 .a-Icon.icon-warning {
+  color: #c7a62e;
+}
+/* line 519, ../../../scss/theme/standard/GridLayout.scss */
+.a-GridLayout-page.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-page.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-region.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-region.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-pageItem.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-pageItem.is-selected > h3 .a-Icon.icon-warning,
+.a-GridLayout-button.is-selected > h3 .a-Icon.icon-error,
+.a-GridLayout-button.is-selected > h3 .a-Icon.icon-warning {
+  color: #FFF;
+}

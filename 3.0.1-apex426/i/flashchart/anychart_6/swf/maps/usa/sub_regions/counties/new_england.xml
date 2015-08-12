@@ -1,0 +1,549 @@
+<map_data>
+ <name>new_england</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="false"/>
+  <column name="FIPS" key="true"/>
+ </columns>
+ <bounds left="-73.7256622314453" top="47.453296661377" right="-66.9698486328125" bottom="40.9982948303223"/>
+ <regions>
+  <region>
+   <centroid lat="41.7625217437744" lon="-73.2019958496094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT_Litchfield]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Litchfield]]></value></item>
+    <item column="FIPS"><value><![CDATA[09005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7927875518799" lon="-72.7202224731445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT_Hartford]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hartford]]></value></item>
+    <item column="FIPS"><value><![CDATA[09003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8108043670654" lon="-72.3072929382324"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT_Tolland]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tolland]]></value></item>
+    <item column="FIPS"><value><![CDATA[09013]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8290939331055" lon="-72.0230369567871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT_Windham]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Windham]]></value></item>
+    <item column="FIPS"><value><![CDATA[09015]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.495885848999" lon="-72.1285743713379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT_New London]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New London]]></value></item>
+    <item column="FIPS"><value><![CDATA[09011]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.3321418762207" lon="-73.4011726379395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT_Fairfield]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fairfield]]></value></item>
+    <item column="FIPS"><value><![CDATA[09001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4543533325195" lon="-72.5300483703613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT_Middlesex]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Middlesex]]></value></item>
+    <item column="FIPS"><value><![CDATA[09007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4019985198975" lon="-72.931827545166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT_New Haven]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Haven]]></value></item>
+    <item column="FIPS"><value><![CDATA[09009]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.5126514434814" lon="-68.8853912353516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Aroostook]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aroostook]]></value></item>
+    <item column="FIPS"><value><![CDATA[23003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.5739040374756" lon="-69.909496307373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Somerset]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Somerset]]></value></item>
+    <item column="FIPS"><value><![CDATA[23025]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.792366027832" lon="-69.2940139770508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Piscataquis]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Piscataquis]]></value></item>
+    <item column="FIPS"><value><![CDATA[23021]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.5208683013916" lon="-68.6453628540039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Penobscot]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Penobscot]]></value></item>
+    <item column="FIPS"><value><![CDATA[23019]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.0667781829834" lon="-67.5325965881348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Washington]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+    <item column="FIPS"><value><![CDATA[23029]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.0634422302246" lon="-70.3827362060547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Franklin]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+    <item column="FIPS"><value><![CDATA[23007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.5626373291016" lon="-70.6598777770996"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Oxford]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oxford]]></value></item>
+    <item column="FIPS"><value><![CDATA[23017]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4989051818848" lon="-69.1568336486816"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Waldo]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Waldo]]></value></item>
+    <item column="FIPS"><value><![CDATA[23027]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4152889251709" lon="-69.7470970153809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Kennebec]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kennebec]]></value></item>
+    <item column="FIPS"><value><![CDATA[23011]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.2021255493164" lon="-70.2372283935547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Androscoggin]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Androscoggin]]></value></item>
+    <item column="FIPS"><value><![CDATA[23001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.7404518127441" lon="-68.4024543762207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Hancock]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hancock]]></value></item>
+    <item column="FIPS"><value><![CDATA[23009]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.1536064147949" lon="-69.2334251403809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Knox]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Knox]]></value></item>
+    <item column="FIPS"><value><![CDATA[23013]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0931453704834" lon="-69.5417671203613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Lincoln]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lincoln]]></value></item>
+    <item column="FIPS"><value><![CDATA[23015]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.8516178131104" lon="-70.365348815918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Cumberland]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cumberland]]></value></item>
+    <item column="FIPS"><value><![CDATA[23005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9505004882813" lon="-69.8717880249023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_Sagadahoc]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sagadahoc]]></value></item>
+    <item column="FIPS"><value><![CDATA[23023]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.4539279937744" lon="-70.6635246276855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ME_York]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[York]]></value></item>
+    <item column="FIPS"><value><![CDATA[23031]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.6572704315186" lon="-70.9272232055664"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Essex]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Essex]]></value></item>
+    <item column="FIPS"><value><![CDATA[25009]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3910980224609" lon="-73.221981048584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Berkshire]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berkshire]]></value></item>
+    <item column="FIPS"><value><![CDATA[25003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.5249214172363" lon="-72.6199798583984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Franklin]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+    <item column="FIPS"><value><![CDATA[25011]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.1654739379883" lon="-71.1435737609863"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Norfolk]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norfolk]]></value></item>
+    <item column="FIPS"><value><![CDATA[25021]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3622798919678" lon="-71.8914680480957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Worcester]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Worcester]]></value></item>
+    <item column="FIPS"><value><![CDATA[25027]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3705348968506" lon="-72.6385765075684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Hampshire]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hampshire]]></value></item>
+    <item column="FIPS"><value><![CDATA[25015]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.4400539398193" lon="-71.4643173217773"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Middlesex]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Middlesex]]></value></item>
+    <item column="FIPS"><value><![CDATA[25017]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.169605255127" lon="-72.6037445068359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Hampden]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hampden]]></value></item>
+    <item column="FIPS"><value><![CDATA[25013]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.3365440368652" lon="-71.075798034668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Suffolk]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suffolk]]></value></item>
+    <item column="FIPS"><value><![CDATA[25025]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.9461269378662" lon="-70.8084564208984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Plymouth]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Plymouth]]></value></item>
+    <item column="FIPS"><value><![CDATA[25023]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7257709503174" lon="-71.2986869812012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RI_Bristol]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bristol]]></value></item>
+    <item column="FIPS"><value><![CDATA[44001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8060436248779" lon="-70.2918663024902"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Barnstable]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Barnstable]]></value></item>
+    <item column="FIPS"><value><![CDATA[25001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.3863010406494" lon="-70.6655578613281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Dukes]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dukes]]></value></item>
+    <item column="FIPS"><value><![CDATA[25007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.314998626709" lon="-70.0901641845703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Nantucket]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nantucket]]></value></item>
+    <item column="FIPS"><value><![CDATA[25019]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.6918106079102" lon="-71.3880577087402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH_Coos]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coos]]></value></item>
+    <item column="FIPS"><value><![CDATA[33007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9624290466309" lon="-71.8455543518066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH_Grafton]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grafton]]></value></item>
+    <item column="FIPS"><value><![CDATA[33009]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.878870010376" lon="-71.2576522827148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH_Carroll]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carroll]]></value></item>
+    <item column="FIPS"><value><![CDATA[33003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5174369812012" lon="-71.4475288391113"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH_Belknap]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Belknap]]></value></item>
+    <item column="FIPS"><value><![CDATA[33001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.3070316314697" lon="-71.6671676635742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH_Merrimack]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Merrimack]]></value></item>
+    <item column="FIPS"><value><![CDATA[33013]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.3619976043701" lon="-72.1977043151855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH_Sullivan]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sullivan]]></value></item>
+    <item column="FIPS"><value><![CDATA[33019]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.3263626098633" lon="-71.0299224853516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH_Strafford]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Strafford]]></value></item>
+    <item column="FIPS"><value><![CDATA[33017]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.0056762695313" lon="-71.0920791625977"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH_Rockingham]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rockingham]]></value></item>
+    <item column="FIPS"><value><![CDATA[33015]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9512329101563" lon="-71.6510581970215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH_Hillsborough]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hillsborough]]></value></item>
+    <item column="FIPS"><value><![CDATA[33011]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9435501098633" lon="-72.2422943115234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NH_Cheshire]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cheshire]]></value></item>
+    <item column="FIPS"><value><![CDATA[33005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.6787223815918" lon="-71.7403221130371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Essex]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Essex]]></value></item>
+    <item column="FIPS"><value><![CDATA[50009]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.7811851501465" lon="-73.2858505249023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Grand Isle]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grand Isle]]></value></item>
+    <item column="FIPS"><value><![CDATA[50013]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.8197441101074" lon="-72.8839378356934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Franklin]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+    <item column="FIPS"><value><![CDATA[50011]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.7735195159912" lon="-72.2291603088379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Orleans]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orleans]]></value></item>
+    <item column="FIPS"><value><![CDATA[50019]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.5966567993164" lon="-72.6492881774902"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Lamoille]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lamoille]]></value></item>
+    <item column="FIPS"><value><![CDATA[50015]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4627685546875" lon="-72.133846282959"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Caledonia]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caledonia]]></value></item>
+    <item column="FIPS"><value><![CDATA[50005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4418106079102" lon="-73.07421875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Chittenden]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chittenden]]></value></item>
+    <item column="FIPS"><value><![CDATA[50007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.2552604675293" lon="-72.5839042663574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Washington]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+    <item column="FIPS"><value><![CDATA[50023]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0279159545898" lon="-73.0861282348633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Addison]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Addison]]></value></item>
+    <item column="FIPS"><value><![CDATA[50001]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9913902282715" lon="-72.4149131774902"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Orange]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orange]]></value></item>
+    <item column="FIPS"><value><![CDATA[50017]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5857582092285" lon="-72.5887908935547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Windsor]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Windsor]]></value></item>
+    <item column="FIPS"><value><![CDATA[50027]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5668983459473" lon="-73.0631942749023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Rutland]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rutland]]></value></item>
+    <item column="FIPS"><value><![CDATA[50021]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.0240306854248" lon="-73.0562896728516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Bennington]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bennington]]></value></item>
+    <item column="FIPS"><value><![CDATA[50003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.994499206543" lon="-72.7220687866211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VT_Windham]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Windham]]></value></item>
+    <item column="FIPS"><value><![CDATA[50025]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8675594329834" lon="-71.5590744018555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RI_Providence]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Providence]]></value></item>
+    <item column="FIPS"><value><![CDATA[44007]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7923221588135" lon="-71.1122016906738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA_Bristol]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bristol]]></value></item>
+    <item column="FIPS"><value><![CDATA[25005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.681131362915" lon="-71.5813026428223"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RI_Kent]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kent]]></value></item>
+    <item column="FIPS"><value><![CDATA[44003]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5620765686035" lon="-71.2338371276855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RI_Newport]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Newport]]></value></item>
+    <item column="FIPS"><value><![CDATA[44005]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4873905181885" lon="-71.6434555053711"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RI_Washington]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+    <item column="FIPS"><value><![CDATA[44009]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

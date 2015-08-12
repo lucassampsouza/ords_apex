@@ -1,0 +1,90 @@
+/*!
+ * jQuery UI Dialog 1.10.4
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/dialog/#theming
+ */
+body .ui-dialog {
+  border-radius: 2px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  outline: 0;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 16px 48px 0 rgba(0, 0, 0, 0.15);
+  box-sizing: content-box; }
+
+body .ui-widget.ui-dialog {
+  border-width: 0; }
+
+body .ui-dialog .ui-dialog-titlebar {
+  padding: 12px;
+  position: relative;
+  border: 0;
+  background-color: #F8F8F8;
+  border-bottom: 1px solid #F0F0F0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+body .ui-dialog .ui-dialog-title {
+  float: left;
+  margin: 0;
+  line-height: 24px;
+  font-size: 1.6rem;
+  font-weight: normal;
+  font-weight: 400;
+  white-space: nowrap;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+body .ui-dialog .ui-dialog-titlebar-close {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  width: 24px;
+  margin: 0;
+  padding: 0;
+  height: 24px;
+  border-radius: 100%; }
+
+body .ui-dialog .ui-dialog-content {
+  position: relative;
+  border: 0;
+  padding: 0;
+  background: none;
+  overflow: auto; }
+
+body .ui-dialog .ui-dialog-content iframe {
+  border: 0;
+  width: 100%; }
+
+body .ui-dialog .ui-dialog-buttonpane {
+  text-align: left;
+  border-width: 1px 0 0 0;
+  border-top-color: #F0F0F0;
+  background-image: none;
+  margin-top: 0;
+  padding: 12px 12px; }
+
+body .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: right; }
+
+body .ui-dialog .ui-dialog-buttonpane button {
+  margin: 0 0 0 8px;
+  cursor: pointer; }
+
+body .ui-dialog .ui-resizable-se {
+  width: 12px;
+  height: 12px;
+  right: -5px;
+  bottom: -5px;
+  background-position: 16px 16px; }
+
+body .ui-draggable .ui-dialog-titlebar {
+  cursor: move; }

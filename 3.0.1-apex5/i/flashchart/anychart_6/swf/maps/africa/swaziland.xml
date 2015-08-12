@@ -1,0 +1,40 @@
+<map_data>
+ <name>swaziland</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="30.7983322143555" top="-25.7283363342285" right="32.1333999633789" bottom="-27.3166694641113"/>
+ <regions>
+  <region>
+   <centroid lat="-26.0948934555054" lon="31.3359994888306"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWZ-HHH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hhohho]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.5379810333252" lon="31.816650390625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWZ-LBM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lubombo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.5000057220459" lon="31.2488708496094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWZ-MNZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manzini]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-27.0282297134399" lon="31.443470954895"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SWZ-SHS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shiselweni]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

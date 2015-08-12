@@ -1,0 +1,481 @@
+<map_data>
+ <name>al</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-88.4729232788086" top="35.0159492492676" right="-84.8940887451172" bottom="30.2334003448486"/>
+ <regions>
+  <region>
+   <centroid lat="34.8779373168945" lon="-87.7012481689453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01077]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lauderdale]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7837371826172" lon="-87.023796081543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01083]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Limestone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7359580993652" lon="-86.5151557922363"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01089]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madison]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7371978759766" lon="-85.966968536377"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01071]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jackson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7378044128418" lon="-87.7768287658691"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colbert]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5339202880859" lon="-85.8215789794922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01049]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[De Kalb]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.5560665130615" lon="-87.3160820007324"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01079]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lawrence]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4977264404297" lon="-86.828197479248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01103]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morgan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.3559265136719" lon="-86.3205909729004"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01095]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marshall]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4465103149414" lon="-87.8490028381348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01059]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.2307968139648" lon="-85.6196212768555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cherokee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1192626953125" lon="-87.918155670166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01093]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marion]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.0880565643311" lon="-86.7795944213867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cullman]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.1538009643555" lon="-87.374080657959"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01133]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Winston]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.0146331787109" lon="-86.6357269287109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Blount]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.0301914215088" lon="-86.0529708862305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01055]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Etowah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7950668334961" lon="-88.108283996582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01075]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lamar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7638072967529" lon="-87.2972221374512"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01127]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Walker]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6934642791748" lon="-86.3133735656738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01115]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Clair]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7661247253418" lon="-85.8333320617676"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Calhoun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7152442932129" lon="-85.5969123840332"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cleburne]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7257766723633" lon="-87.6840400695801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01057]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fayette]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.5466651916504" lon="-86.9297904968262"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01073]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jefferson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.4037590026855" lon="-86.14599609375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01121]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Talladega]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.3152122497559" lon="-87.4477272033691"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01125]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tuscaloosa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.290168762207" lon="-86.6841278076172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01117]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shelby]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2630271911621" lon="-88.0867729187012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01107]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pickens]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.310791015625" lon="-85.4420852661133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01111]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Randolph]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.2972393035889" lon="-85.908634185791"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0423278808594" lon="-87.1513137817383"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bibb]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.8415603637695" lon="-87.9584159851074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01063]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greene]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.9256172180176" lon="-85.3598861694336"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chambers]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.8090419769287" lon="-85.7976989746094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01123]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tallapoosa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.9327220916748" lon="-86.2652053833008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coosa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.8723735809326" lon="-86.6953048706055"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chilton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.7511653900146" lon="-87.6444282531738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01065]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hale]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6488876342773" lon="-88.1312675476074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01119]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sumter]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5932235717773" lon="-87.2702255249023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01105]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Perry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5926818847656" lon="-86.1411323547363"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01051]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Elmore]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.581428527832" lon="-85.3463745117188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01081]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5164737701416" lon="-86.6592254638672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Autauga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.3786907196045" lon="-87.1388893127441"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01047]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dallas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4197006225586" lon="-85.724723815918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01087]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Macon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.2723636627197" lon="-87.7920532226563"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01091]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Marengo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.2941379547119" lon="-85.1636276245117"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01113]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Russell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.2412910461426" lon="-86.2148933410645"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01101]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montgomery]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.1895475387573" lon="-86.6559257507324"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01085]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lowndes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.008641242981" lon="-88.1996040344238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Choctaw]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.0955209732056" lon="-85.7058525085449"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bullock]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.0537586212158" lon="-87.2630233764648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01131]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wilcox]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.890251159668" lon="-85.4000778198242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Barbour]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.8467884063721" lon="-85.9319648742676"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01109]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pike]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7542934417725" lon="-86.3210945129395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Crenshaw]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.5959739685059" lon="-87.8378028869629"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Clarke]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7498512268066" lon="-86.6789245605469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Butler]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.5388355255127" lon="-87.34765625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01099]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Monroe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.5579051971436" lon="-85.2298011779785"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01067]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Henry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.4736099243164" lon="-87.0431175231934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Conecuh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.4113922119141" lon="-88.175651550293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01129]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.4145946502686" lon="-85.992244720459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coffee]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.4148855209351" lon="-85.6060676574707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dale]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2645931243896" lon="-86.4431037902832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Covington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.1670789718628" lon="-85.3547744750977"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01069]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Houston]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.7802438735962" lon="-87.7068748474121"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baldwin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.1346197128296" lon="-87.1586036682129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01053]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Escambia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.0994720458984" lon="-85.8342132568359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01061]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Geneva]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.7543659210205" lon="-88.1821250915527"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[01097]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mobile]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

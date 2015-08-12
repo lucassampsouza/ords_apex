@@ -1,0 +1,55 @@
+/** 
+ * Import Compass
+ */
+/* ==========================================================================
+   Bar Chart (Universal Theme Specific Styles)
+   ========================================================================== */
+@-webkit-keyframes animateFill {
+  from {
+    -webkit-transform: translateX(-10%); }
+
+  to {
+    -webkit-transform: translateX(0); } }
+
+@keyframes animateFill {
+  from {
+    -webkit-transform: translateX(-10%);
+            transform: translateX(-10%); }
+
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
+
+.a-BarChart .a-BarChart-item {
+  padding: 12px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05) inset; }
+.a-BarChart .a-BarChart-item img {
+  border-radius: 2px; }
+.a-BarChart .a-BarChart-filled {
+  -webkit-animation: animateFill linear 1;
+  animation: animateFill linear 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.2s;
+  animation-duration: 0.2s; }
+
+.a-BarChart--classic .a-BarChart-label, .a-BarChart--classic .a-BarChart-barLink, .a-BarChart--classic .a-BarChart-value {
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05) inset; }
+.a-BarChart--classic .a-BarChart-bar, .a-BarChart--classic .a-BarChart-filled {
+  border-radius: 1px; }
+.a-BarChart--classic .a-BarChart-item .a-BarChart-bar {
+  height: 12px;
+  margin: 4px 0; }
+.a-BarChart--classic .a-BarChart-filled {
+  height: 12px;
+  opacity: 0.75; }
+
+.a-BarChart--modern .a-BarChart-bar, .a-BarChart--modern .a-BarChart-filled {
+  border-radius: 1px; }
+.a-BarChart--modern .a-BarChart-item .a-BarChart-bar {
+  height: 8px;
+  margin: 2px 0; }
+.a-BarChart--modern .a-BarChart-filled {
+  height: 8px;
+  opacity: 0.75; }

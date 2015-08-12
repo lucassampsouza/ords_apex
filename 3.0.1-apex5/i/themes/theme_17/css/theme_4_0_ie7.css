@@ -1,0 +1,142 @@
+/* =========================== */
+/* = Theme 17 IE7 Stylesheet = */
+/* =========================== */
+button.button-default span,
+button.button-alt1 span,
+button.button-alt2 span,
+button.button-alt3 span {
+	/* Fix IE7 Padding Issue */
+	padding-bottom: 1px;
+}
+
+input#apexir_SEARCH {
+	display: block;
+	float: left;
+	}
+.rounded-corner-region-wizard .rc-buttons {
+	margin-top: -2px;
+	padding: 0;
+	}
+	.rounded-corner-region-wizard .rc-buttons button.button-alt2,
+	.rounded-corner-region-wizard .rc-buttons button.button-alt3 {
+		margin-top: 3px;
+		}
+	.rounded-corner-region-wizard .rc-buttons button.button-alt1,
+	.rounded-corner-region-wizard .rc-buttons button.button-alt4,
+	.rounded-corner-region-wizard .rc-buttons button.button-default {
+		margin-top: 1px;
+		}
+.rounded-corner-region-wizard {
+	float: none;
+	width: 700px;
+	}
+
+/* Fixed Header Styles */
+.fixed-header-report {
+	border: 1px solid #999;
+	}
+
+.fixed-header-report table {
+	empty-cells:show;
+}
+.fixed-header-report table tbody {
+	display:block;
+}
+.fixed-header-report table thead tr {
+	display:block;
+}
+.fixed-header-report table thead tr th {
+	padding: 6px 10px;
+	background: url(../images/sReportBG-Aqua.png) 0 0 #FFF repeat-x;
+	border-bottom: 1px solid #999;
+	}
+.fixed-header-report table th.header {
+	white-space: nowrap;
+	vertical-align: center;
+	color:#333;
+	font: bold 12px/12px Arial, sans-serif;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+	padding: 4px 10px;
+}
+.fixed-header-report table th.header a {
+	color:#000;
+	text-decoration:underline;
+}
+.fixed-header-report table td.data {
+background-color:#F2F2F2;
+/*border-top:1px solid #999;*/
+padding:4px 10px;
+}
+.fixed-header-report table td.data-alt {
+background-color:#FFF;
+/*border-top:1px solid #999;*/
+padding:4px 10px;
+}
+.fixed-header-report table tr:first-child td.data,
+.fixed-header-report table tr:first-child td.data-alt {
+	border-top: none !important;
+	}
+
+.fixed-header-report table tr:first-child td.data {
+	padding-top: 24px;
+	}
+
+.fixed-header-report table p {
+	margin:0;
+	overflow:hidden;
+}
+
+/* New Buttons Region */
+	.rc-content-buttons button, .rc-content-buttons input {
+		margin: 5px 1px 4px 1px;
+		}
+
+ul.apex-rds li a, ul.apex-rds li.apex-rds-selected a,
+ul.apex-rds li.apex-rds-first a, ul.apex-rds li.apex-rds-first.apex-rds-selected a,
+ul.apex-rds li.apex-rds-last a, ul.apex-rds li.apex-rds-last.apex-rds-selected a {
+	font: normal 12px/19px Arial, sans-serif;
+	}
+
+.rounded-corner-region-blank-alt .rc-body,
+.rounded-corner-region-blank-white .rc-body {
+	overflow: hidden;
+	}
+
+/* Add padding to report headers */
+.report-standard-alternatingrowcolors th.header,
+.report-standard th.header {
+	padding-top: 6px;
+	}
+
+/* APEX IR Buttons */
+.apexir_BUTTONS table td {
+	text-align: left;
+	}
+
+.rounded-corner-region-blank .rc-content-main .rc-left {
+	line-height: 28px !important
+	}
+	
+	.sSearchFieldBig:focus {
+		background-color: #F0F0F0;
+		color: #222;
+		}
+		
+.ui-datepicker-trigger {
+	vertical-align: top;
+	}
+	
+div.sHorizontalTabs div.sHorizontalTabsInner ul li a {
+	cursor: hand;
+	}
+	
+.navigation-region ul li {
+	line-height: normal;
+	}
+	
+table.CalendarHolder table tr td div {
+	padding: 5px 0;
+	}
+table.CalendarHolder .WeekendDayTitle, table.CalendarHolder .DayTitle {
+	padding: 0 5px !important;
+	}

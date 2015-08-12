@@ -1,0 +1,323 @@
+a:link {
+    color:black;
+    text-decoration:none;}
+a:visited {
+    color:black;
+    text-decoration:none;}
+
+a:hover {
+    color:#6699cc;
+    text-decoration:underline;}
+
+
+body {
+    font-family:arial;
+    font-size:10pt;}
+    
+table.page{
+    width: 100%}
+    
+.pagetitle {
+    font-size: 14pt;}
+    
+td.pagetitletop {
+    border-left:   2px #336699 solid;
+    border-top: 2px #336699 solid;
+    border-right: 2px #336699 solid;
+    border-bottom: 1px #336699 solid;
+    padding: 3px;
+    color: #ffffff;
+    background-color: #6699cc;
+    font-size: 14pt;
+    font-weight: bold;
+    }
+    
+td.pagetitlebottom {
+    border-left:   2px #336699 solid;
+    border-right: 2px #336699 solid;
+    border-bottom: 2px #336699 solid;
+    padding: 3px;
+    color: #ffffff;
+    background-color: #6699cc;
+    }
+    
+td.pagetitlebox2 {
+    border-right:  2px #336699 solid;
+    padding: 3px;
+    }
+    
+td.pagesubtitle1 {
+    font-size: 8pt;
+    font-weight:bold;
+    text-align:right;
+    color:#ffffff;
+    width:10%;}
+    
+td.subtitle1 {
+    font-size: 8pt;
+    font-weight:bold;
+    color:#ffffff;
+    width:10%;}
+    
+
+td.pagesubtitle2 {
+    font-size: 7pt;
+    text-align:left;
+    color:#ffffff;}
+
+    
+td.subtitle2{    
+    font-size:7pt;
+    white-space:normal;
+    padding-left: 3px;
+    color:#ffffff;
+    text-align:left}
+    
+
+td.sectionhead1 {
+    text-align: center;
+    font-size: 12pt;
+    font-weight:bold;
+    color:  #cccc99;}
+
+td.sectionhead2 {
+    border-left:    2px #cccc99 solid;
+    border-top:     2px #cccc99 solid;
+    border-right:   2px #cccc99 solid;
+    width: 100%;
+    height: 10px;
+    font-size:1pt;
+    }
+
+td.sectionfoot {
+    border-left:    2px #cccc99 solid;
+    border-bottom:     2px #cccc99 solid;
+    border-right:   2px #cccc99 solid;
+    width: 100%;
+    height: 10px;
+    font-size:1pt;
+    }
+
+table.region {
+    border: 1px #cccc99 solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:4px;
+    page-break-inside: avoid;}
+    
+td.regiontitle {
+    background-color: #f7f7e7;
+    border-bottom: 1px #cccc99 solid;
+    padding: 2px;}
+
+table.itemouter {
+    margin:10px;
+    padding-left: 8px;
+    font-size:1pt;
+    border-left: 1px #6699cc solid;
+    page-break-inside: avoid;}
+    
+td.itmeoutertop {
+    width: 10px;
+    height:2px;
+    border-top: 1px #6699cc solid;}
+    
+td.itmeouterbottom {
+    width: 10px;
+    height:2px;
+    border-bottom: 1px #6699cc solid;}
+    
+td.itemtitle {
+    font-size: 8pt;
+    padding-left:5px;
+    font-weight:bold;
+    color:#336699;}
+     
+td.item {
+    font-size: 8pt;
+    padding-left: 5px;
+    width:90%;}
+    
+td.itemlabel {
+    font-size: 8pt;
+    color:#336699;
+    font-weight:bold;
+    text-align:right;
+    width:10%;
+    nowrap:nowrap;}
+    
+td.itemtype {
+    {font-size: 8pt;
+     color: #6699cc;
+     align: right;
+     text-transform: lowercase;
+     font-family: "courier new";}
+     
+td.itemtypehidden {
+    {font-size: 8pt;
+     color: #bbbbbb;
+     align: right;
+     text-transform: lowercase;
+     font-family: "courier new";}
+     
+
+.subtitletext {
+    color: black;
+    font-weight: bold;
+    font-size: 10pt;}
+   
+.regiontitletext {
+    color: #336699;
+    font-weight: bold;
+    font-size: 10pt;}
+    
+.regionsubtitletext {
+    color: #336699;
+    font-weight: bold;
+    font-size: 9pt;}
+
+    
+.regiontype {
+    color : #6699cc;
+    font-size: 9pt;
+    font-family: "courier new";}
+    
+td.buttontext {
+    font-size: 9pt;
+    color: #336699;}
+    
+table.process {
+    border: 1px #cccc99 dotted;
+    margin: 10px;
+    padding: 3px;}
+    
+.code {
+    font-family: "courier new";
+    font-size:8pt;
+    white-space:normal;
+    padding-left: 3px;}
+      
+.popupheader {
+    width: 100%;
+    height: 30px;
+    background-color: #cccc99;
+    color: #336699;
+    padding:5px;
+    font-weight:bold;
+    font-size:12pt;}
+    
+.popuphtml  {
+    margin: 10px;}
+
+.popupcode  {
+    margin: 10px;
+    color: black;}
+    
+table.processshow {
+    border: 1px #336699 dashed;
+    padding:4px;
+    page-break-inside: avoid;}
+    
+td.processtitle {
+    background-color: #dddddd;
+    border-bottom: 1px #6699cc solid;
+    padding: 2px;}
+
+
+table.processaccept {
+    border: 1px #336699 dashed;
+    padding:4px;
+    page-break-inside: avoid;}
+    
+    
+td.itemhelpeven {
+    font-size: 7pt;
+    color:#336699;
+    text-align:right;
+    vertical-align: text-top;
+    width:10%;
+    nowrap:nowrap;
+    background-color:#f7f7e7;}
+    
+td.itemhelptexteven {
+    font-size: 8pt;
+    padding-left: 5px;
+    background-color:#f7f7e7;}
+    
+td.itemhelpodd {
+    font-size: 7pt;
+    color:#336699;
+    text-align:right;
+    vertical-align: text-top;
+    width:10%;
+    nowrap:nowrap;
+    background-color:#ffffff;}
+    
+td.itemhelptextodd{
+    font-size: 8pt;
+    padding-left: 5px;
+    background-color:#ffffff;}
+    
+table.summary {
+    border: 1px #aaaaaa solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%;
+    padding:4px;
+    page-break-inside: avoid;
+    background-color: #eeeeee;}
+    
+td.summaryvalue {
+    font-size: 9pt;
+    color:#666666;
+    text-align:center;
+    width:10%px;}
+    
+td.summarytitle {
+    font-size: 9pt;
+    color:#666666;
+    font-weight:bold;
+    text-align:center;
+    width:10%;
+    nowrap:nowrap;}
+    
+td.summarytitle2 {
+    font-size: 9pt;
+    color:#666666;
+    font-weight:bold;
+    text-align:left;
+    width:10%;
+    nowrap:nowrap;}    
+    
+td.summaryvalue2 {
+    font-size: 9pt;
+    color:#666666;
+    text-align:left;
+    width:10%px;}
+
+    
+.fielddata
+          {font-family: Arial, Helvetica, Geneva, sans-serif;
+           font-size: 10pt;
+           color: #000000;}    
+    
+td.lovhead{
+	font-size:8pt;
+	font-weight:bold;
+	padding-left:4px;
+	padding-right:4px;}
+    
+td.procline {
+    width:50%;
+    height:10px;
+    font-size:1pt;
+    border-right: 1px #336699 solid;}
+    
+td.navlinks {
+    font-size: 9pt;
+    color:#666666;
+    font-weight:bold;
+    text-align:center;
+    width:10%;
+    nowrap:nowrap;
+    padding-left:5px;}   

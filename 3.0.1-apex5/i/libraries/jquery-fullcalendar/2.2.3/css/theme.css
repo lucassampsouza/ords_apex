@@ -1,0 +1,218 @@
+.fc .fc-event a {
+    color: inherit;
+}
+.fc-event-title  {}
+
+/*
+ * Calendar Event Colors
+ */
+.fc-event.css-cal-red {
+    background-color: #FF0000;
+    border-color: #FF0000;
+    color: #FFF;
+}
+.fc-event.css-cal-cyan {
+    background-color: #00FFFF;
+    border-color: #00FFFF;
+    color: #FFF;
+}
+.fc-event.css-cal-blue{
+    background-color: #0000FF;
+    border-color: #0000FF;
+    color: #FFF;
+}
+.fc-event.fc-apex-events-default {
+    background-color: #3498DB;
+    border-color: #3498DB;
+    color: #FFF;
+}
+.fc-event.css-cal-darkblue {
+    background-color: #0000A0;
+    border-color: #0000A0;
+    color: #FFF;
+}
+.fc-event.css-cal-bluesky {
+    background-color: #ADD8E6;
+    border-color: #ADD8E6;
+    color: #FFF;
+}
+.fc-event.css-cal-yellow {
+    background-color: #FFFF00;
+    border-color: #FFFF00;
+    color: #FFF;
+}
+.fc-event.css-cal-lime {
+    background-color: #00FF00;
+    border-color: #00FF00;
+    color: #FFF;
+}  
+.fc-event.css-cal-yellow {
+    background-color: #FFFF00;
+    border-color: #FFFF00;
+    color: #FFF;
+}  
+.fc-event.css-cal-magenta {
+    background-color: ##FF00FF;
+    border-color: ##FF00FF;
+    color: #FFF;
+}
+.fc-event.css-cal-white {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #FFF;
+} 
+.fc-event.css-cal-silver {
+    background-color: ##C0C0C0;
+    border-color: ##C0C0C0;
+    color: #FFF;
+} 
+.fc-event.css-cal-gray {
+    background-color: #808080;
+    border-color: #808080;
+    color: #FFF;
+} 
+.fc-event.css-cal-black {
+    background-color: #000000;
+    border-color: #000000;
+    color: #FFF;
+} 
+.fc-event.css-cal-oracnge {
+    background-color: #FFA500;
+    border-color: #FFA500;
+    color: #FFF;
+} 
+.fc-event.css-cal-brown {
+    background-color: #800000;
+    border-color: #800000;
+    color: #FFF;
+}
+.fc-event.css-cal-green {
+    background-color: #008000;
+    border-color: #008000;
+    color: #FFF;
+} 
+.fc-event.css-cal-olive {
+    background-color: #808000;
+    border-color: #808000;
+    color: #FFF;
+}    
+.fc-event.fc-apex-events-gcal {
+    background-color: #01DF01;
+    border-color: #01DF01;
+    color: #FFF;
+} 
+.fc-event.fc-apex-events-webservice {
+    background-color: #9B59B6;
+    border-color: #9B59B6;
+    color: #FFF;
+}
+/*
+* fullcalendar dialog - sending event invitation
+*/
+
+.fc-apex-dialog-invitation {
+    width: 650px;
+    margin:  20px 0;
+}
+
+.fc-apex-dialog-invitation input,
+ .fc-apex-dialog-invitation label {
+    display : block;
+}
+.fc-apex-dialog-details { 
+/* add necessary style for the description div element*/
+}
+.fc-apex-dialog-title,
+.fc-apex-dialog-desc,
+.fc-apex-dialog-date {
+    display: block;
+}
+.fc-apex-dialog-title {
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #808080;
+}
+.fc-apex-dialog-desc {
+    color: #808080;
+}
+.fc-apex-dialog-date {
+    font-size: 11px;
+    margin-top: 4px;
+    color: #808080;
+}
+
+.fc-apex-dialog-date label { 
+           display:inline-block;
+           width:30px;
+           padding:0 0 0 4px;
+           font:bold 11px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+           color:#666;
+           vertical-align:top
+           }
+
+/*
+* fullcalendar tooltip
+*/
+.fc-apex-tooltip { 
+    display:none;
+    position:fixed;
+    z-index:10001;
+    width: 240px;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.9);
+}
+.fc-apex-tooltip-title,
+.fc-apex-tooltip-desc,
+.fc-apex-tooltip-date {
+    display: block;
+}
+.fc-apex-tooltip-title {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #E0E0E0;
+}
+.fc-apex-tooltip-desc {
+    color: #C0C0C0;
+}
+.fc-apex-tooltip-date {
+    font-size: 11px;
+    margin-top: 4px;
+    color: #808080;
+}
+
+.fc-apex-tooltip-date label { 
+           display:inline-block;
+           width:30px;
+           padding:0 0 0 4px;
+           font:bold 11px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+           color:#666;
+           vertical-align:top
+           }
+
+/*
+ * Agenda View Colors
+ */
+.fc-eventlist.apex-css-cal-01 {
+    border-color: #E74C3C;
+}
+.fc-eventlist.apex-css-cal-02 {
+    border-color: #FF9500;
+}
+.fc-eventlist.apex-css-cal-03,
+.fc-eventlist.fc-apex-events-default {
+    border-color: #3498DB;
+}
+.fc-eventlist.apex-css-cal-04 {
+    border-color: #2ECC71;
+}    
+.fc-eventlist.fc-apex-events-gcal {
+    border-color: #019655;
+} 
+.fc-eventlist.fc-apex-events-webservice {
+    border-color: #9B59B6;
+}

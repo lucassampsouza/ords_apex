@@ -1,0 +1,40 @@
+<map_data>
+ <name>sierra_leone</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-13.2956104278564" top="9.99749946594238" right="-10.2641677856445" bottom="6.92361068725586"/>
+ <regions>
+  <region>
+   <centroid lat="8.20705842971802" lon="-10.9222230911255"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLE-EST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eastern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.13592433929443" lon="-11.9335680007935"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLE-NRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.71583271026611" lon="-12.0623617172241"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLE-STH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.34708309173584" lon="-13.0943183898926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SLE-WAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Area]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

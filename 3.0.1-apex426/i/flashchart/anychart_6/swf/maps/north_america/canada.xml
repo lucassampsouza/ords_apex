@@ -1,0 +1,96 @@
+<map_data>
+ <name>canada</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-141.002990722656" top="83.1119232177734" right="-52.6144485473633" bottom="41.6755523681641"/>
+ <regions>
+  <region>
+   <centroid lat="54.4997177124023" lon="-115.00053024292"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-ALB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alberta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.1524848937988" lon="-126.54097366333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-BCL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[British Columbia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.4995307922363" lon="-95.567325592041"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-MNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Manitoba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.3433265686035" lon="-66.4123497009277"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-NBR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Brunswick]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.7769393920898" lon="-68.4323654174805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-QUE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quebec]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.8223533630371" lon="-132.409938812256"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-YTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yukon Territory]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.2256927490234" lon="-63.0245819091797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-NSC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nova Scotia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.5141563415527" lon="-98.7612495422363"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-NTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northwest Territories]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.4928512573242" lon="-60.1988868713379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-NWF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Newfoundland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.4963836669922" lon="-63.1908302307129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-PEI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prince Edward Island]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.4993934631348" lon="-105.684310913086"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-SSK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Saskatchewan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.2702026367188" lon="-84.7397232055664"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAN-ONT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ontario]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

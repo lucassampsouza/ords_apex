@@ -1,0 +1,124 @@
+<map_data>
+ <name>me</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-71.0879898071289" top="47.453296661377" right="-66.9698486328125" bottom="43.0909614562988"/>
+ <regions>
+  <region>
+   <centroid lat="46.5126514434814" lon="-68.8853912353516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aroostook]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.5739040374756" lon="-69.909496307373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Somerset]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.792366027832" lon="-69.2940139770508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Piscataquis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.5208683013916" lon="-68.6453628540039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Penobscot]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.0667781829834" lon="-67.5325965881348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.0634422302246" lon="-70.3827362060547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.5626373291016" lon="-70.6598777770996"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oxford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4989051818848" lon="-69.1568336486816"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Waldo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4152889251709" lon="-69.7470970153809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kennebec]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.2021255493164" lon="-70.2372283935547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Androscoggin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.7404518127441" lon="-68.4024543762207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hancock]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.1536064147949" lon="-69.2334251403809"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Knox]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0931453704834" lon="-69.5417671203613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lincoln]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.8516178131104" lon="-70.365348815918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cumberland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9505004882813" lon="-69.8717880249023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sagadahoc]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.4539279937744" lon="-70.6635246276855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[23031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[York]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

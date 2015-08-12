@@ -1,0 +1,243 @@
+<map_data>
+ <name>guinea</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-15.0786113739014" top="12.6772212982178" right="-7.64653587341309" bottom="7.19392681121826"/>
+ <regions>
+  <region>
+   <centroid lat="9.98934268951416" lon="-13.5097227096558"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-COY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.7169857025146" lon="-11.8363904953003"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-KOB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Koubia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.4260382652283" lon="-12.749885559082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-LLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lelouma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.89041662216187" lon="-8.32458400726318"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-LOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lola]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.7061676979065" lon="-8.64361143112183"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-MND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mandiana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.71865749359131" lon="-8.31792068481445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-BEY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Beyla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.3006935119629" lon="-14.0805583000183"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-BOF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boffa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.0741662979126" lon="-14.4193067550659"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-BOK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boke]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.61680364608765" lon="-13.5826787948608"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-CNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Conakry]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.5729160308838" lon="-11.1047534942627"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-DAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dabola]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.9099206924438" lon="-12.231255531311"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-DAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dalaba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.5947198867798" lon="-10.6378965377808"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-DNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dinguiraye]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.8651819229126" lon="-10.7996244430542"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-FRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Faranah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.38120937347412" lon="-13.0544061660767"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-FRC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Forecariah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.4825382232666" lon="-13.5295844078064"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-FRI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fria]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.7201910018921" lon="-13.3877239227295"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-GAO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaoual]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.70305442810059" lon="-10.1764011383057"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-GCK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gueckedou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.0299243927002" lon="-9.00989627838135"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-KNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kankan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.30805397033691" lon="-8.91486740112305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-KER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kerouane]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.1016664505005" lon="-12.6998443603516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-KIN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kindia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.2822208404541" lon="-9.85737323760986"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-KSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kissidougou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.3554153442383" lon="-13.1518077850342"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-KND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Koundara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.5340270996094" lon="-10.0934190750122"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-KRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kouroussa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.4483966827393" lon="-12.3147230148315"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-LAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Labe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.37521076202393" lon="-9.39375114440918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-MCN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Macenta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.0551376342773" lon="-12.1054191589355"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-MLI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mali]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.5985250473022" lon="-11.8365287780762"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-MAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mamou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.96456956863403" lon="-8.77123165130615"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-NZR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nzerekore]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.9042730331421" lon="-12.5593385696411"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-PIT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pita]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.677903175354" lon="-9.42901515960693"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-SIG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Siguiri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.9029159545898" lon="-13.4764032363892"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-TLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Telimele]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.5177974700928" lon="-11.5998468399048"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-TOU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tougue]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.61228799819946" lon="-9.09777927398682"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GIN-YOM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yomou]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

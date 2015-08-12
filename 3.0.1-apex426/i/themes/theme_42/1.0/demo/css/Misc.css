@@ -1,0 +1,28 @@
+/* ==========================================================================
+   IRR Icons
+   ========================================================================== */
+.dm-IRR-icon {
+  text-align: center;
+  padding: 12px; }
+
+.dm-IRR-icon .fa {
+  font-size: 28px;
+  display: block; }
+
+.dm-IRR-iconLabel {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.is-open {
+  color: #ff2d55; }
+
+.is-holding {
+  color: #ffcc00; }
+
+.is-pending {
+  color: #ff9500; }
+
+.is-closed {
+  color: #4cd964; }

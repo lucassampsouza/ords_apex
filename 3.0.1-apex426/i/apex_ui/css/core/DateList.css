@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Date List
+   ========================================================================== */
+/* line 11, ../../scss/core/DateList.scss */
+.a-DateList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 16, ../../scss/core/DateList.scss */
+.a-DateList-item {
+  min-height: 64px;
+  padding: 16px 12px;
+}
+/* line 23, ../../scss/core/DateList.scss */
+.a-DateList-item:first-child {
+  border-top: none;
+}
+/* line 26, ../../scss/core/DateList.scss */
+.a-DateList-item .a-MediaBlock-content {
+  line-height: 0;
+}
+
+/* line 30, ../../scss/core/DateList.scss */
+.a-DateList-date,
+.a-DateList-icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+}
+
+/* line 45, ../../scss/core/DateList.scss */
+.a-DateList-icon {
+  padding: 8px;
+}
+
+/* line 59, ../../scss/core/DateList.scss */
+.a-DateList-day {
+  font-size: 14px;
+  display: block;
+  line-height: 1;
+  padding-top: 4px;
+}
+
+/* line 71, ../../scss/core/DateList.scss */
+.a-DateList-month {
+  font-size: 8px;
+  display: block;
+  line-height: 10px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+}
+
+/* line 83, ../../scss/core/DateList.scss */
+.a-DateList-desc {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* line 93, ../../scss/core/DateList.scss */
+.a-DateList-attribute {
+  display: inline-block;
+  font-size: 11px;
+  line-height: 16px;
+  margin-right: 16px;
+  vertical-align: top;
+}
+
+/* line 104, ../../scss/core/DateList.scss */
+.a-DateList-attribute--tag {
+  background-color: #F8F8F8;
+  padding: 0 8px;
+  border-radius: 2px;
+}

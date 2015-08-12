@@ -1,0 +1,23 @@
+<map_data>
+ <name>ri</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+ </columns>
+ <bounds left="-71.862772" top="42.018798" right="-71.12057" bottom="41.146339"/>
+ <regions>
+  <region>
+   <centroid lat="41.836699" lon="-71.4539515"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[029]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5825685" lon="-71.491671"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[028]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

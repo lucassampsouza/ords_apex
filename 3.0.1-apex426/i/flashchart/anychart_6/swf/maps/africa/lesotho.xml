@@ -1,0 +1,82 @@
+<map_data>
+ <name>lesotho</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="27.0111083984375" top="-28.5694465637207" right="29.4561080932617" bottom="-30.6505279541016"/>
+ <regions>
+  <region>
+   <centroid lat="-29.1729001998901" lon="27.8861541748047"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LSO-BER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berea]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-28.8172779083252" lon="28.5064449310303"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LSO-BBU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Butha-Buthe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-29.0167684555054" lon="28.2237615585327"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LSO-LER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leribe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-29.747709274292" lon="27.4369440078735"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LSO-MFT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mafeteng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-29.5938377380371" lon="27.7770156860352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LSO-MAS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maseru]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-30.0987701416016" lon="27.8573532104492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LSO-MHO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mohale's Hoek]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-29.183650970459" lon="29.0546789169312"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LSO-MKH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mokhotlong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-29.965950012207" lon="28.7091131210327"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LSO-QNE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Qacha's Nek]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-30.3222093582153" lon="27.9704132080078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LSO-QTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quthing]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-29.527774810791" lon="28.6854104995728"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LSO-THT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thaba Tseka]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

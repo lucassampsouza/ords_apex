@@ -1,0 +1,75 @@
+<map_data>
+ <name>guinea_bissau</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-16.7177696228027" top="12.684720993042" right="-13.6430568695068" bottom="10.9227771759033"/>
+ <regions>
+  <region>
+   <centroid lat="12.1366662979126" lon="-14.7078590393066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNB-BAF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bafata]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.3587493896484" lon="-15.8807678222656"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNB-BOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bolama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.2908000946045" lon="-15.3015623092651"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNB-OIO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oio]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.6104154586792" lon="-15.1932153701782"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNB-QNR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quinara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.1525087356567" lon="-16.0573577880859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNB-CAC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cacheu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.3105325698853" lon="-14.9292697906494"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNB-TMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tombali]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.1190032958984" lon="-14.0889868736267"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNB-GAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gabu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.8785176277161" lon="-15.6103587150574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNB-BIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bissau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.8822259902954" lon="-15.7943072319031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNB-BMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Biombo]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

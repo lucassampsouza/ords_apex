@@ -1,0 +1,89 @@
+/* ==========================================================================
+   Button Group
+   ========================================================================== */
+/**
+ * Core Button Group Component
+ *
+ * This component contains multiple buttons and allows you to create groups of
+ * buttons that appear together.  It allows you to group buttons together for
+ * any given context.
+ *
+ * Example HTML:
+ *
+ * <div class="a-ButtonGroup">
+ *   <div class="a-ButtonGroup-item">
+ *     <button class="a-Button [modifiers]" type="submit">Button 1</button>
+ *   </div>
+ *   <div class="a-ButtonGroup-item">
+ *     <button class="a-Button [modifiers]" type="submit">Button 2</button>
+ *   </div>
+  *   <div class="a-ButtonGroup-item">
+ *     <button class="a-Button [modifiers]" type="submit">Button 3</button>
+ *   </div>
+ * </div>
+ */
+/**
+ * Button Group
+ *
+ * 1. Use negative letter spacing to remove white space between inline blocks
+ * 2. Webkit bug with optimizelegibility
+ */
+/* line 39, ../../scss/core/ButtonGroup.scss */
+.a-ButtonGroup {
+  display: inline-block;
+  letter-spacing: -0.31em;
+  /* 1 */
+  text-rendering: optimizespeed;
+  /* 2 */
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/**
+ * Button Group item
+ */
+/* line 51, ../../scss/core/ButtonGroup.scss */
+.a-ButtonGroup-item {
+  display: inline-block;
+  letter-spacing: normal;
+  margin-left: -1px;
+  text-rendering: auto;
+  vertical-align: top;
+  word-spacing: normal;
+}
+
+/* line 60, ../../scss/core/ButtonGroup.scss */
+.a-ButtonGroup-item:first-child {
+  margin-left: 0;
+}
+
+/**
+ * Make active / current button always on top of other buttons
+ */
+/* line 68, ../../scss/core/ButtonGroup.scss */
+.a-ButtonGroup-item .a-Button:hover,
+.a-ButtonGroup-item .a-Button:focus,
+.a-ButtonGroup-item .a-Button:active,
+.a-ButtonGroup-item .a-Button.is-active {
+  z-index: 1;
+}
+
+/**
+ * Set border-radius appropriately.
+ */
+/* line 79, ../../scss/core/ButtonGroup.scss */
+.a-ButtonGroup-item:not(:first-child):not(:last-child) .a-Button {
+  border-radius: 0;
+}
+
+/* line 83, ../../scss/core/ButtonGroup.scss */
+.a-ButtonGroup-item:first-child:not(:only-child) .a-Button {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* line 88, ../../scss/core/ButtonGroup.scss */
+.a-ButtonGroup-item:last-child:not(:only-child) .a-Button {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}

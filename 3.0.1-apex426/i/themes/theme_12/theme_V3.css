@@ -1,0 +1,1525 @@
+/******************** D E F A U L T S ********************/
+*{font-size:12px;font-family:Arial, Helvetica, Geneva, sans-serif;}
+body    {
+background-color:#FFFFFF;
+margin:0px; padding:0px 0px 0px 0px;
+font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+div	{
+border:none;
+}
+a	{
+color:#000000;
+}
+a:hover {
+color: #FFB300;
+}
+li	{
+list-style-image: url(Bullet.gif);
+}
+
+/***** C O L O R   K E Y
+
+Main Color: 		#0066B2
+Highlight Color:	#6CAAD9
+Border Color:		#285577
+Sidebar Color:	#5A7B94
+Heading Color:	#142A3B
+Light Grey:		#CCCCCC
+Dark Grey:        	#AAAAAA
+Contrast Color:	#FFB300
+
+*****/
+
+/******************** B U T T O N S ********************/
+
+/***** Button *****/
+.t12Button {
+height: 18px;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size:10px;
+font-weight: bold;
+font-size: 12px;
+white-space: nowrap;
+border-left: #AAAAAA 2px solid;
+border-top: #AAAAAA 2px solid;
+border-right: #333333 2px solid;
+border-bottom: #333333 2px solid;
+background-color: #0066B2;
+color: #FFFFFF;
+text-decoration: none;
+padding-left: 8px;
+padding-right: 8px;
+padding-top: 2px;
+padding-bottom: 2px;
+margin: 2px;
+}
+.t12Button:hover {
+border-left: #AAAAAA 2px solid; border-top:#AAAAAA 2px solid;
+border-right:#333333 2px solid; border-bottom:#333333 2px solid;
+background-color:#0066B2;
+color:#FFB300; }
+
+.t12Button:active {
+border:#285577 1px solid;
+background-color:#0066B2;
+color:#FFFFFF;}
+
+/***** Button, Alternative 1 *****/
+.t12ButtonAlternative1 {
+height: 18px;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size:10px; font-weight: bold;
+font-size: 12px;
+white-space:nowrap;
+padding-left: 6px; padding-right: 6px; padding-top: 2px; padding-bottom: 2px;
+border-left: #AAAAAA 2px solid; border-top: #AAAAAA 2px solid;
+border-right: #333333 2px solid; border-bottom: #333333 2px solid;
+background-color:#AAAAAA; color:#FFFFFF;
+text-decoration: none;
+margin: 2px;
+}
+.t12ButtonAlternative1:hover {
+color:#FFB300; }
+
+/***** Button, Alternative 2 *****/
+.t12ButtonAlternative2 {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size:12px; font-weight: bold;height:18px;white-space:nowrap;padding-left: 6px; padding-right: 6px; padding-top:2px; padding-bottom: 2px;margin: 2px;border-left: #AAAAAA 2px solid;border-top: #AAAAAA 2px solid;border-right: #333333 2px solid;border-bottom: #333333 2px solid;
+background-color:#6CAAD9;
+color:#FFFFFF;
+text-decoration: none;
+}
+.t12ButtonAlternative2:hover {
+color:#FFB300;
+}
+.t12ButtonAlternative2:active {
+border:#285577 1px solid;
+}
+
+/***** Button, Alternative 3 *****/
+
+.t12ButtonAlternative3 {
+white-space: nowrap;
+font-size: 12px;
+height:20px;
+background-image: url(ButtonImageCenter.gif);
+}
+.t12ButtonAlternative3 a {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:12px;
+color: #285577;
+}
+.t12ButtonAlternative3 a:hover  {
+color:#FFB300;
+}
+
+.t12ButtonAlternative3Left	{
+background-image: url(ButtonImageLeft.gif);
+}
+.t12ButtonAlternative3Right	{
+background-image: url(ButtonImageRight.gif);
+}
+
+/******************** C A L E N D A R S ********************/
+
+.t12StandardCalendar {
+margin-top:10px; margin-bottom:10px;
+padding:0px 0px 0px 0px;
+border:0px solid #CCCCCC;
+}
+.t12StandardCalendar .t12Header {}
+.t12StandardCalendar .t12ButtonHolder {}
+.t12StandardCalendar .t12Body {}
+.t12StandardCalendar .formRegionHeader {
+padding:2px;
+font-size:16px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-left:1px solid #FFFFFF; border-top:1px solid #FFFFFF;
+border-right:1px solid #BFBFBF;border-bottom:1px solid #BFBFBF;
+}
+.t12StandardCalendar .formRegionBody {
+font-size:12px;
+font-weight:normal;
+color:#285577;
+background-color:#D7DFE6;
+border-left:1px solid #BFBFBF; border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+.t12StandardCalendar td.formRegionBody a {
+font-size:12px; font-weight:bold;
+color:#285577;
+}
+.t12StandardCalendar td.formRegionBody a:hover {
+font-size:12px; font-weight:bold;
+color:#FFB300;
+}
+.t12StandardCalendar .formRegionBodyWE {
+font-size:12px; font-weight:normal;
+color:#285577;
+background-color:#B3C1CC;
+border-left:1px solid #BFBFBF;border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+.t12StandardCalendar td.formRegionBodyWE a {
+font-size:12px; font-weight:bold;
+color:#285577;
+}
+.t12StandardCalendar td.formRegionBodyWE a:hover {
+font-size:12px; font-weight:bold;
+color:#FFB300;
+}
+.t12StandardCalendar .formRegionBodyCurrent {
+font-size:12px;font-weight:bold;
+color:#FFFFFF;
+background-color:#6CAAD9;
+border-left:1px solid #BFBFBF;border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+.t12StandardCalendar .condensedTable {
+padding:0px 0px 0px 0px;
+background-color:#EEEEEE;
+}
+.t12StandardCalendar .condensedHeader{
+font-size:16px; font-weight:bold;
+color:#000000;
+background-color:#EEEEEE;
+}
+.t12StandardCalendar .condensedBody {
+padding:4px 4px 4px 4px;
+font-size:12px;
+font-weight:normal;
+color:#808080;
+background-color:#FFFFFF;
+}
+.t12StandardCalendar .condensedBodyCurrent {
+padding:4px 4px 4px 4px;
+font-size:12px; font-weight:bold;
+color:#FFFFFF;
+background-color:#C0C0FF;
+border-right:1px solid #000000; border-bottom:1px solid #000000;
+}
+
+
+/* Weekly calendar */
+
+.t12WeekCalendar {
+margin-top:10px; margin-bottom:10px;
+padding:0px 0px 0px 0px;
+border:0px solid #CCCCCC;
+}
+.t12WeekCalendar .t12Header {}
+.t12WeekCalendar .t12ButtonHolder {}
+.t12WeekCalendar .t12Body {}
+.t12WeekCalendar .formRegionHeader {
+padding:2px;
+font-size:16px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-left:1px solid #FFFFFF; border-top:1px solid #FFFFFF;
+border-right:1px solid #BFBFBF;border-bottom:1px solid #BFBFBF;
+}
+
+.t12WeekCalendar .t12DayOfWeek {
+width:100px;
+}
+.t12WeekCalendar .t12MonthTitle {
+padding:2px;
+font-size:16px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-left:1px solid #FFFFFF; border-top:1px solid #FFFFFF;
+border-right:1px solid #BFBFBF;border-bottom:1px solid #BFBFBF;
+}
+
+
+.t12WeekCalendar .t12Day {
+width:100px;
+font-size:12px;
+font-weight:normal;
+color:#285577;
+background-color:#D7DFE6;
+border-left:1px solid #BFBFBF; border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+.t12WeekCalendar td.t12Day a {
+font-size:12px; font-weight:bold;
+color:#285577;
+}
+.t12WeekCalendar td.t12Day a:hover {
+font-size:12px; font-weight:bold;
+color:#FFB300;
+}
+
+.t12WeekCalendar .t12NonDay {
+width:100px;
+font-size:12px; font-weight:normal;
+color:#285577;
+background-color:#B3C1CC;
+border-left:1px solid #BFBFBF;border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+.t12WeekCalendar td.t12NonDay a {
+font-size:12px; font-weight:bold;
+color:#285577;
+}
+.t12WeekCalendar td.t12NonDay a:hover {
+font-size:12px; font-weight:bold;
+color:#FFB300;
+}
+
+.t12WeekCalendar .t12ToDay {
+font-size:12px;font-weight:bold;
+color:#FFFFFF;
+background-color:#6CAAD9;
+border-left:1px solid #BFBFBF;border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+
+.t12WeekCalendar .t12Hour {
+width:50px;
+}
+
+.t12WeekCalendar .t12HourTitle {
+width:50px;
+}
+
+
+/* Daily calendar */
+
+.t12DayCalendar {
+margin-top:10px; margin-bottom:10px;
+padding:0px 0px 0px 0px;
+border:0px solid #CCCCCC;
+}
+.t12DayCalendar .t12Header {}
+.t12DayCalendar .t12ButtonHolder {}
+.t12DayCalendar .t12Body {}
+.t12DayCalendar .formRegionHeader {
+padding:2px;
+font-size:16px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-left:1px solid #FFFFFF; border-top:1px solid #FFFFFF;
+border-right:1px solid #BFBFBF;border-bottom:1px solid #BFBFBF;
+}
+
+.t12DayCalendar .t12DayOfWeek {
+width:100px;
+}
+.t12DayCalendar .t12MonthTitle {
+padding:2px;
+font-size:16px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-left:1px solid #FFFFFF; border-top:1px solid #FFFFFF;
+border-right:1px solid #BFBFBF;border-bottom:1px solid #BFBFBF;
+}
+
+
+.t12DayCalendar .t12Day {
+width:650px;
+font-size:12px;
+font-weight:normal;
+color:#285577;
+background-color:#D7DFE6;
+border-left:1px solid #BFBFBF; border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+.t12DayCalendar td.t12Day a {
+font-size:12px; font-weight:bold;
+color:#285577;
+}
+.t12DayCalendar td.t12Day a:hover {
+font-size:12px; font-weight:bold;
+color:#FFB300;
+}
+
+.t12DayCalendar .t12NonDay {
+width:650px;
+font-size:12px; font-weight:normal;
+color:#285577;
+background-color:#B3C1CC;
+border-left:1px solid #BFBFBF;border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+.t12DayCalendar td.t12NonDay a {
+font-size:12px; font-weight:bold;
+color:#285577;
+}
+.t12DayCalendar td.t12NonDay a:hover {
+font-size:12px; font-weight:bold;
+color:#FFB300;
+}
+
+.t12DayCalendar .t12ToDay {
+width:650px;
+font-size:12px;font-weight:bold;
+color:#FFFFFF;
+background-color:#6CAAD9;
+border-left:1px solid #BFBFBF;border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+
+.t12DayCalendar .t12Hour {
+width:50px;
+}
+
+.t12DayCalendar .t12HourTitle {
+width:50px;
+}
+
+
+/* Alternate Weekly calendar */
+
+.t12WeekCalendarAlternative1 {
+margin-top:10px; margin-bottom:10px;
+padding:0px 0px 0px 0px;
+border:0px solid #CCCCCC;
+}
+.t12WeekCalendarAlternative1 .t12Header {}
+.t12WeekCalendarAlternative1 .t12ButtonHolder {}
+.t12WeekCalendarAlternative1 .t12Body {}
+.t12WeekCalendarAlternative1 .formRegionHeader {
+padding:2px;
+font-size:16px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-left:1px solid #FFFFFF; border-top:1px solid #FFFFFF;
+border-right:1px solid #BFBFBF;border-bottom:1px solid #BFBFBF;
+}
+
+.t12WeekCalendarAlternative1 .t12DayOfWeek {
+width:60px;
+background-color:#5A7B94;
+font-size:12px;font-weight:bold;
+color:#FFFFFF;
+}
+.t12WeekCalendarAlternative1 .t12MonthTitle {
+padding:2px;
+font-size:16px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-left:1px solid #FFFFFF; border-top:1px solid #FFFFFF;
+border-right:1px solid #BFBFBF;border-bottom:1px solid #BFBFBF;
+}
+
+
+.t12WeekCalendarAlternative1 .t12Day {
+width:60px;
+font-size:12px;
+font-weight:normal;
+color:#285577;
+background-color:#D7DFE6;
+border-left:1px solid #BFBFBF; border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+.t12WeekCalendarAlternative1 td.t12Day a {
+font-size:12px; font-weight:bold;
+color:#285577;
+}
+.t12WeekCalendarAlternative1 td.t12Day a:hover {
+font-size:12px; font-weight:bold;
+color:#FFB300;
+}
+
+.t12WeekCalendarAlternative1 .t12NonDay {
+width:60px;
+font-size:12px; font-weight:normal;
+color:#285577;
+background-color:#B3C1CC;
+border-left:1px solid #BFBFBF;border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+.t12WeekCalendarAlternative1 td.t12NonDay a {
+font-size:12px; font-weight:bold;
+color:#285577;
+}
+.t12WeekCalendarAlternative1 td.t12NonDay a:hover {
+font-size:12px; font-weight:bold;
+color:#FFB300;
+}
+
+.t12WeekCalendarAlternative1 .t12ToDay {
+font-size:12px;font-weight:bold;
+color:#FFFFFF;
+background-color:#6CAAD9;
+border-left:1px solid #BFBFBF;border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+
+.t12WeekCalendarAlternative1 .t12Hour {
+width:40px;
+background-color:#5A7B94;
+font-size:12px;font-weight:bold;
+color:#FFFFFF;
+
+}
+
+.t12WeekCalendarAlternative1 .t12HourTitle {
+width:40px;
+background-color:#5A7B94;
+}
+
+.t12WeekCalendarAlternative1 .condensedTable {
+background-color:#5A7B94;
+padding:0px 0px 0px 0px;
+background-color:#EEEEEE;
+}
+
+
+/* Alternate Daily calendar */
+
+.t12DayCalendarAlternative1 {
+margin-top:10px; margin-bottom:10px;
+padding:0px 0px 0px 0px;
+border:0px solid #CCCCCC;
+}
+.t12DayCalendarAlternative1 .t12Header {}
+.t12DayCalendarAlternative1 .t12ButtonHolder {}
+.t12DayCalendarAlternative1 .t12Body {}
+.t12DayCalendarAlternative1 .formRegionHeader {
+padding:2px;
+font-size:16px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-left:1px solid #FFFFFF; border-top:1px solid #FFFFFF;
+border-right:1px solid #BFBFBF;border-bottom:1px solid #BFBFBF;
+}
+
+.t12DayCalendarAlternative1 .t12DayOfWeek {
+width:380px;
+background-color:#5A7B94;
+font-size:12px;font-weight:bold;
+color:#FFFFFF;
+}
+.t12DayCalendarAlternative1 .t12MonthTitle {
+padding:2px;
+font-size:16px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-left:1px solid #FFFFFF; border-top:1px solid #FFFFFF;
+border-right:1px solid #BFBFBF;border-bottom:1px solid #BFBFBF;
+}
+
+
+.t12DayCalendarAlternative1 .t12Day {
+width:380px;
+font-size:12px;
+font-weight:normal;
+color:#285577;
+background-color:#D7DFE6;
+border-left:1px solid #BFBFBF; border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+.t12DayCalendarAlternative1 td.t12Day a {
+font-size:12px; font-weight:bold;
+color:#285577;
+}
+.t12DayCalendarAlternative1 td.t12Day a:hover {
+font-size:12px; font-weight:bold;
+color:#FFB300;
+}
+
+.t12DayCalendarAlternative1 .t12NonDay {
+width:380px;
+font-size:12px; font-weight:normal;
+color:#285577;
+background-color:#B3C1CC;
+border-left:1px solid #BFBFBF;border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+.t12DayCalendarAlternative1 td.t12NonDay a {
+font-size:12px; font-weight:bold;
+color:#285577;
+}
+.t12DayCalendarAlternative1 td.t12NonDay a:hover {
+font-size:12px; font-weight:bold;
+color:#FFB300;
+}
+
+.t12DayCalendarAlternative1 .t12ToDay {
+font-size:12px;font-weight:bold;
+color:#FFFFFF;
+background-color:#6CAAD9;
+border-left:1px solid #BFBFBF;border-top:1px solid #BFBFBF;
+border-right:1px solid #FFFFFF;border-bottom:1px solid #FFFFFF;
+}
+
+.t12DayCalendarAlternative1 .t12Hour {
+width:40px;
+background-color:#5A7B94;
+font-size:12px;font-weight:bold;
+color:#FFFFFF;
+
+}
+
+.t12DayCalendarAlternative1 .t12HourTitle {
+width:40px;
+background-color:#5A7B94;
+}
+
+.t12DayCalendarAlternative1 .condensedTable {
+background-color:#5A7B94;
+padding:0px 0px 0px 0px;
+background-color:#EEEEEE;
+}
+
+
+
+/***** Simple Calendar *****/
+.t12SimpleCalendar {
+margin-top:10px; margin-bottom:10px;
+padding:0px 0px 0px 0px;
+border:0px solid #CCCCCC;
+}
+.t12SimpleCalendar .simpleTable {
+padding:5px 0px 5px 0px;
+border-top:1px solid #CCCCCC;
+}
+.t12SimpleCalendar .simpleHeader {
+font-size:16px; font-weight:bold;
+color:#285577;
+}
+.t12SimpleCalendar .simpleHeader a {
+color:#285577;
+}
+.t12SimpleCalendar .simpleHeader a:hover {
+color:#FFB300;
+}
+.t12SimpleCalendar .simpleHeadings {
+padding:4px 4px 4px 4px;
+font-size:12px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+.t12SimpleCalendar .simpleBody {
+padding:4px 4px 4px 4px;
+font-size:11px; font-weight:normal;
+color:#285577;
+background-color:#D7DFE6;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+.t12SimpleCalendar .simpleBodyWE {
+padding:4px 4px 4px 4px;
+font-size:11px; font-weight:normal;
+color:#285577;
+background-color:#B3C1CC;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+.t12SimpleCalendar .simpleBodyCurrent {
+padding:4px 4px 4px 4px;
+font-size:11px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#6CAAD9;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+
+/* Small weekly calendar */
+.t12SmallWeekCalendar {
+margin-top:10px; margin-bottom:10px;
+padding:0px 0px 0px 0px;
+border:0px solid #CCCCCC;
+}
+.t12SmallWeekCalendar .simpleTable {
+padding:5px 0px 5px 0px;
+border-top:1px solid #CCCCCC;
+}
+.t12SmallWeekCalendar .t12MonthTitle {
+font-size:16px; font-weight:bold;
+color:#285577;
+}
+.t12SmallWeekCalendar .t12MonthTitle a {
+color:#285577;
+}
+.t12SmallWeekCalendar .t12MonthTitle a:hover {
+color:#FFB300;
+}
+.t12SmallWeekCalendar .t12DayOfWeek {
+width:40px;
+padding:4px 4px 4px 4px;
+font-size:12px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+.t12SmallWeekCalendar .t12Day {
+padding:4px 4px 4px 4px;
+font-size:11px; font-weight:normal;
+color:#285577;
+background-color:#D7DFE6;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+.t12SmallWeekCalendar .t12NonDay {
+padding:4px 4px 4px 4px;
+font-size:11px; font-weight:normal;
+color:#285577;
+background-color:#B3C1CC;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+.t12SmallWeekCalendar .t12Today {
+padding:4px 4px 4px 4px;
+font-size:11px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#6CAAD9;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+
+.t12SmallWeekCalendar .t12Hour {
+width:20px;
+padding:4px 4px 4px 4px;
+font-size:12px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+
+/* Small daily calendar */
+.t12SmallDayCalendar {
+margin-top:10px; margin-bottom:10px;
+padding:0px 0px 0px 0px;
+border:0px solid #CCCCCC;
+}
+.t12SmallDayCalendar .simpleTable {
+padding:5px 0px 5px 0px;
+border-top:1px solid #CCCCCC;
+}
+.t12SmallDayCalendar .t12MonthTitle {
+font-size:16px; font-weight:bold;
+color:#285577;
+}
+.t12SmallDayCalendar .t12MonthTitle a {
+color:#285577;
+}
+.t12SmallDayCalendar .t12MonthTitle a:hover {
+color:#FFB300;
+}
+.t12SmallDayCalendar .t12DayOfWeek {
+width:260px;
+padding:4px 4px 4px 4px;
+font-size:12px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+.t12SmallDayCalendar .t12Day {
+padding:4px 4px 4px 4px;
+font-size:11px; font-weight:normal;
+color:#285577;
+background-color:#D7DFE6;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+.t12SmallDayCalendar .t12NonDay {
+padding:4px 4px 4px 4px;
+font-size:11px; font-weight:normal;
+color:#285577;
+background-color:#B3C1CC;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+.t12SmallDayCalendar .t12Today {
+width:260px;
+padding:4px 4px 4px 4px;
+font-size:11px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#6CAAD9;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+
+.t12SmallDayCalendar .t12Hour {
+width:20px;
+padding:4px 4px 4px 4px;
+font-size:12px; font-weight:bold;
+color:#FFFFFF;
+background-color:#5A7B94;
+border-right:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;
+}
+
+
+/******************** L A B E L S ********************/
+
+/***** No Label *****/
+.t12NoLabel {
+display:none;
+}
+
+/***** Optional Label *****/
+.t12OptionalLabel {white-space:nowrap;}
+
+/***** Optional Label with Help *****/
+.t12OptionalLabelWithHelp {cursor:help;white-space:nowrap;}
+
+/***** Required Label *****/
+.t12RequiredLabel {white-space:nowrap;}
+
+/***** Required Label with Help *****/
+.t12RequiredLabelWithHelp {cursor:help;white-space:nowrap;}
+
+/******************** L I S T S ********************/
+
+.t12current {
+font-weight: bold;
+}
+.t12noncurrent { color: #000000; }
+
+/***** Button List *****/
+.t12ButtonList {}
+.t12ButtonList a {}
+.t12ButtonList .t12current {}
+.t12ButtonList .t12noncurrent {}
+
+/***** Horizontal Images with Label List *****/
+.t12HorozontalImagesWithLabelList {}
+.t12HorozontalImagesWithLabelList div {
+}
+.t12HorozontalImagesWithLabelList .t12current {
+text-align: center;
+}
+.t12HorozontalImagesWithLabelList .t12noncurrent {
+text-align: center;
+}
+
+/***** Vertical Images List *****/
+.t12VerticalImagesList {}
+.t12VerticalImagesList .t12current {
+background-color: #0066B2;
+}
+
+/***** Horizontal Links List *****/
+.t12HorizontalLinksList {}
+.t12HorizontalLinksList a {}
+.t12HorizontalLinksList .t12current {}
+.t12HorizontalLinksList .t12noncurrent {}
+
+/***** Tabbed Navigation List *****/
+.t12TabbedNavigationList {
+border-collapse:collapse;
+}
+.t12TabbedNavigationList a {}
+.t12TabbedNavigationList .t12noncurrent {
+color: #FFFFFF;
+white-space:nowrap;
+}
+.t12TabbedNavigationList .t12current {
+background-color: #0066B2;
+color:#FFFFFF;
+white-space:nowrap;
+}
+.t12TabbedNavigationList .t12noncurrent:hover {
+color: #FFB300;
+}
+.t12TabbedNavigationList .t12current:hover {
+color: #FFB300;
+}
+
+/***** Vertical Sidebar List *****/
+.t12VerticalSidebarList {}
+.t12VerticalSidebarList .t12current {}
+.t12VerticalSidebarList .t12noncurrent {}
+
+.t12VerticalSidebarList a {
+color:#FFFFFF;
+}
+.t12VerticalSidebarList a:hover {
+color: #FFB300;
+}
+
+/***** Vertical Unordered Links with Bullet *****/
+ul.t12VerticalUnorderedListWithBullets {
+margin: 0px;
+padding-left: 1.2em;
+}
+ul.t12VerticalUnorderedListWithBullets li{}
+ul.t12VerticalUnorderedListWithBullets li.t12current{}
+ul.t12VerticalUnorderedListWithBullets li a{}
+
+/***** Vertical Unordered Links without Bullet *****/
+ul.t12VerticalUnorderedListWithoutBullets {
+margin: 0px;
+}
+ul.t12VerticalUnorderedListWithoutBullets li{}
+ul.t12VerticalUnorderedListWithoutBullets li.t12current{}
+ul.t12VerticalUnorderedListWithoutBullets li a{}
+
+/***** Vertical Ordered List *****/
+ol.t12VerticalOrderedList {
+margin: 0px;
+padding-left: 20px;
+}
+ol.t12VerticalOrderedList li {
+margin: 0px;
+list-style-image: none;
+}
+ol.t12VerticalOrderedList li.t12current {}
+ol.t12VerticalOrderedList li.t12noncurrent {}
+
+/***** Vertical Unordered List without Bullets *****/
+.t12VerticalUnorderedListWithoutBullets {
+margin-left:0px;
+}
+.t12VerticalUnorderedListWithoutBulletsCurrent  {
+font-weight: bold;
+list-style:none;
+}
+.t12VerticalUnorderedListWithoutBulletsNoncurrent {
+list-style:none;
+}
+
+/***** Wizard Progress List *****/
+.t12WizardProgressList {
+display:table;
+width:200px;
+text-align:center;
+border-collapse: collapse;
+}
+.t12WizardProgressList div.noncurrent {
+white-space:nowrap;
+text-align:center;
+background-color:#EEEEEE;
+border: #333333 1px solid;
+border-collapse: collapse;
+}
+.t12WizardProgressList div.current {
+white-space:nowrap;
+text-align:center;
+background-color:#CCCCCC;
+border: #333333 1px solid;
+border-collapse: collapse;
+}
+
+/******************** M E N U S ********************/
+
+/***** Hierachical Menu *****/
+
+t12HierarchicalMenu {
+color: #000000;
+font-weight: bold;
+}
+
+/***** Breadcrumb Menu *****/
+.t12BreadcrumbMenu {
+font-size:11px;
+color: #000000;
+background-color: #E1E1E1;
+border-bottom: 1px solid #AAAAAA;
+padding-left: 5px;
+}
+.t12BreadcrumbMenu a {
+text-decoration:none;
+font-size:11px;
+color: #000000;
+}
+.t12BreadcrumbMenu a:hover {
+text-decoration:none;
+color: #FFB300;
+}
+
+/******************** P A G E S ********************/
+
+.t12PageBody {}
+
+.t12NavBar {
+font-size:10px;
+white-space: nowrap;
+}
+.t12NavBar a{font-size:10px;}
+
+.t12UserName {
+font-size: 10px;
+padding:5px;white-space:nowrap;
+}
+
+.t12ApplicationLogo {
+padding-left: 10px; padding-top: 5px;
+}
+
+.t12ContentBody {
+padding-left:10px; padding-right:10px; padding-top:5px; padding-bottom:10px;
+background-color: #FFFFFF;
+}
+.t12SidebarLayout {
+background-color: #FFFFFF;
+}
+
+.t12SidebarColor {
+color: #FFFFFF;
+background-color: #5A7B94;
+}
+
+.t12Login {
+width:375px;
+border-collapse: collapse;
+margin:auto; margin-top: 40px;
+border: 1px solid #285577;
+}
+
+.t12Login .t12Header {
+background-color: #0066B2;
+font-size: 14px;
+color: #FFFFFF;
+}
+
+/***** Page Sub Templates *****/
+.t12success {
+padding:5px;
+background-color:#EEEEEE;
+border:1px solid #285577;
+text-align:center;
+width:600px;
+margin:auto; margin-top:5px; margin-bottom:5px;
+color:#00AA00; font-weight:bold;
+}
+
+.t12notification {
+padding:5px;
+background-color:#EEEEEE;
+border:1px solid #285577;
+text-align:center;
+width:600px;
+margin:auto; margin-top:5px; margin-bottom:5px;
+}
+
+.t12PageFooter {
+width: 100%;
+}
+
+.t12PageFooter .t12FooterTop {
+background-color: #6CAAD9;
+font-size: 2px;
+}
+
+.t12PageFooter .t12FooterBottom {
+background-color: #0066B2;
+font-size: 3px;
+}
+
+.t12Pagination {
+font-size:10px;
+}
+.t12CSVLink a {
+font-size: 10px;
+}
+
+/******************** T A B S ********************/
+.t12Tabs {
+text-align:left;
+border-collapse:collapse;
+background-repeat: repeat-x;
+padding-top:2px; padding-bottom: 2px;
+background-image: url(StandardTabBackground.gif);
+}
+
+.t12tabtable {
+border-collapse: collapse; border-spacing:0; border: 0;
+padding:0;
+background-color: #0066B2;
+}
+
+/***** Parent Tab Current *****/
+.t12parenttabcurrent {
+padding-left:1px; padding-right:5px;
+text-decoration:none;
+font-weight: bold;
+color: #FFFFFF;
+}
+
+/***** Parent Tab Noncurrent *****/
+.t12parenttabnoncurrent {
+padding-left:1px; padding-right:5px;
+text-decoration:none;
+color: #DDDDDD;
+}
+
+/***** Standard Tab Current *****/
+.t12standardtabcurrent {
+padding-left:7px; padding-right:7px;
+text-decoration:none;
+color: #FFFFFF;
+font-weight: bold;
+white-space: nowrap;
+}
+
+/***** Standard Tab Noncurrent *****/
+.t12standardtabnoncurrent {
+padding-left:7px; padding-right:7px;
+text-decoration:none;
+color: #FFFFFF;
+white-space: nowrap;
+}
+
+.t12standardtabnoncurrent {
+color: #FFFFFF;
+}
+.t12standardtab {
+color:#FFFFFF;
+padding:2px;
+display:block;
+text-decoration:none;
+white-space:nowrap;
+}
+
+/******************** R E P O R T S ********************/
+
+th.t12header {
+padding:2px; padding-left:5px; padding-right:5px;
+border-collapse: collapse;
+border:1px solid #285577;
+color: #FFFFFF;
+font-size:10px;
+white-space: nowrap;
+}
+th.t12header a {
+color: #FFFFFF;
+font-size: 10px;
+}
+
+th.t12header a:hover {
+color: #FFB300;
+}
+
+td.t12data {
+padding-top: 2px; padding-bottom: 2px; padding-left: 5px; padding-right: 5px;
+border-collapse: collapse;
+white-space: nowrap;
+}
+td.t12dataalt {
+padding-top: 2px; padding-bottom: 2px; padding-left: 5px; padding-right: 5px;
+}
+
+.t12bottom {
+font-size:10px;
+}
+.t12bottom a {
+font-size: 10px;
+}
+.t12bottom a:hover {
+color: #FFB300;
+}
+
+/***** Borderless Report *****/
+
+.t12borderless {}
+.t12borderless th.t12header {
+padding:2px;
+color: #333333;
+border: none;
+}
+.t12borderless th.t12header {
+padding:2px;
+}
+.t12borderless th.t12header a {
+padding:2px;
+color: #333333;
+}
+.t12borderless th.t12header a:hover {
+padding:2px;
+color: #FFB300;
+}
+
+/***** Bottom Border Only Report *****/
+
+.t12bottomborderonly {
+border:1px solid #285577; border-left: none; border-right:none; border-bottom:none;
+}
+.t12bottomborderonly th.t12header {
+padding:2px;
+background-color:#6CAAD9;
+border-left: none; border-right:none; border-top: none;
+
+border-bottom:1px solid #285577;
+}
+.t12bottomborderonly td.t12data {
+border-bottom:1px solid #285577;
+padding-top:2px; padding-bottom: 2px; padding-right: 5px; padding-left: 5px;
+}
+
+/***** Standard Report *****/
+
+.t12standard {
+border:1px solid #285577; border-right:none; border-bottom:none;
+}
+.t12standard th.t12header {
+border:1px solid #285577; border-left:none; border-top:none;
+background-color:#6CAAD9;
+}
+.t12standard td.t12data {
+border:1px solid #285577; border-left:none; border-top:none;
+}
+
+/***** Alternating Row Colors Report *****/
+
+.t12standardalternatingrowcolors {
+border:1px solid #285577; border-right:none; border-bottom:none;
+}
+.t12standardalternatingrowcolors th.t12header {
+border:1px solid #285577; border-left:none; border-top:none;
+background-color:#6CAAD9;
+}
+.t12standardalternatingrowcolors td.t12data {
+border:1px solid #285577; border-left:none; border-top:none;
+}
+.t12standardalternatingrowcolors td.t12dataalt {
+background-color:#BEE2FD;
+border:1px solid #285577; border-left:none; border-top:none;
+}
+
+/*** Value Attribute Pair Report ***/
+
+.t12valueattributepairs {
+border-collapse: collapse;
+}
+.t12valueattributepairs th.t12header {
+text-align:right;
+background-color:#6CAAD9;
+border: #285577 1px solid;
+}
+.t12valueattributepairs td.t12data {
+padding-left: 4px;
+border: #285577 1px solid;
+}
+.t12valueattributepairs td.t12separate {
+height:10px;
+}
+.t12valueattributepairs td.t12seperate hr {
+height:2px;
+color:#FFFFFF; background-color:#AAAAAA;
+}
+
+.t12OneColumnUnorderedList { font-size: 20px; }
+
+/******************** R E G I O N S ********************/
+
+/***** Region Defaults *****/
+
+.t12Header {font-weight:bold; font-size:16px; color:#142A3B;padding:2px;border-bottom:1px solid #5A7B94; height:21px;}
+.t12ButtonHolder {padding:6px;}
+.t12Body {padding:5px; }
+
+/***** Breadcrumb Region *****/
+.t12BreadcrumbRegion {
+height:15px;
+background-color: #E1E1E1;
+}
+
+/***** Button Region with Title  *****/
+.t12ButtonRegionWithTitle {
+border: #285577 1px solid;
+margin-top:10px; margin-bottom:10px;
+border-collapse: collapse;
+width:100%;
+}
+.t12ButtonRegionWithTitle .t12Header {
+border-bottom:none;
+}
+.t12ButtonRegionWithTitle .t12ButtonHolder {
+}
+.t12ButtonRegionWithTitle .t12Body {
+border: #285577 1px solid;
+border-top: none;
+}
+
+/***** Button Region without Title *****/
+.t12ButtonRegionWithoutTitle {
+margin-top:10px; margin-bottom:10px;
+border:1px solid #285577;
+border-collapse: collapse;
+width:100%;
+}
+.t12ButtonRegionWithoutTitle .t12ButtonHolder {
+}
+
+/***** Borderless Region *****/
+.t12BorderlessRegion {
+margin-top:10px; margin-bottom:10px;
+border-collapse: collapse;
+width:100%;
+}
+.t12BorderlessRegion .t12Header {}
+.t12BorderlessRegion .t12ButtonHolder {}
+.t12BorderlessRegion .t12Body {}
+
+/***** Bracketed Region *****/
+.t12BracketedRegion {
+margin-top:10px; margin-bottom:10px;
+width: 100%;
+}
+.t12BracketedRegion .t12Header {
+text-align: center;
+background-color:#FFFFFF;
+border-bottom:none;
+}
+.t12BracketedRegion .t12ButtonHolder {
+border: #333333 2px solid; border-bottom: none;
+font-size: 4px;
+}
+.t12BracketedRegion .t12Body {
+border: #285577 1px solid;
+}
+
+/***** Form Region *****/
+.t12FormRegion {
+margin-top:10px;margin-bottom:10px;padding:0px 0px 0px 0px;border:0px solid #285577;
+border-collapse:collapse;
+border: #285577 1px solid;
+}
+.t12FormRegion .t12Header {
+color: #FFFFFF;
+border-bottom:none;
+font-size: 14px;
+background-color: #0066B2;
+}
+.t12FormRegion .t12ButtonHolder {
+border-collapse:collapse;
+}
+.t12FormRegion .t12Body {
+}
+.t12FormRegion a {
+}
+.t12FormRegion a:hover {
+}
+
+/***** List Region with Icon *****/
+.t12ListRegionWithIcon {
+margin-top:10px; margin-bottom:10px;
+border-collapse: collapse;
+white-space: nowrap;
+
+}
+.t12ListRegionWithIcon .t12Header {}
+.t12ListRegionWithIcon .t12ButtonHolder {}
+.t12ListRegionWithIcon .t12Body {}
+
+/***** Reports Region *****/
+.t12ReportsRegion {
+margin-top:10px; margin-bottom:10px;
+}
+.t12ReportsRegion .t12Header {
+background-color:#FFFFFF;
+}
+.t12ReportsRegion .t12ButtonHolder {}
+.t12ReportsRegion .t12Body {
+}
+
+/***** Reports Region, Alternative 1 *****/
+.t12ReportsRegionAlternative1 {
+margin-top:10px; margin-bottom:10px;
+}
+.t12ReportsRegionAlternative1 .t12Header {
+background-color:#FFFFFF;
+border-bottom:#285577 3px double; border-top:#285577 3px double;
+}
+.t12ReportsRegionAlternative1 .t12ButtonHolder {}
+.t12ReportsRegionAlternative1 .t12Body {
+border-bottom:#285577 3px double;
+}
+
+/***** Reports Region 100% Width *****/
+.t12ReportsRegion100PercentWidth {
+margin-top:10px; margin-bottom:10px;
+width:100%;
+}
+.t12ReportsRegion100PercentWidth .t12Header {}
+.t12ReportsRegion100PercentWidth .t12ButtonHolder {}
+.t12ReportsRegion100PercentWidth .t12Body {}
+
+/***** Region without Title *****/
+.t12RegionWithoutTitle {
+margin-top:10px; margin-bottom:10px;
+border:1px solid #285577;
+width: 100%;
+}
+.t12RegionWithoutTitle .t12ButtonHolder {}
+.t12RegionWithoutTitle .t12Body {}
+
+/***** Region without Buttons and Title *****/
+.t12RegionWithoutButtonsAndTitle {
+margin-top:10px; margin-bottom:10px;
+border:1px solid #285577;
+width:100%;
+}
+.t12RegionWithoutButtonsAndTitle .t12Body {}
+
+/***** Hide and Show Region *****/
+.t12HideAndShowRegion {
+margin-top:10px;margin-bottom:10px
+}
+.t12HideAndShowRegion .t12Header {
+border-bottom: none;
+}
+.t12HideAndShowRegion .t12ButtonHolder {}
+.t12HideAndShowRegion .t12Body {
+border:#285577 1px solid;
+}
+.t12HideAndShowRegion .t12Hide {
+display:none;
+}
+
+/***** Sidebar Region *****/
+.t12SidebarRegion {
+margin-top:10px;margin-bottom:10px;
+width:200px;
+border-collapse:collapse;
+border:#285577 1px solid;
+}
+.t12SidebarRegion .t12Header {
+background-color: #0066B2;
+color: #FFFFFF;
+font-size: 14px;
+}
+.t12SidebarRegion .t12ButtonHolder {
+text-align: right;
+}
+.t12SidebarRegion .t12Body {
+}
+.t12SidebarRegion a {
+}
+.t12SidebarRegion a:hover {
+color: #FFB300;
+}
+
+/***** Sidebar Region, Alternative 1 *****/
+.t12SidebarRegionAlternative1 {
+margin-top:10px;margin-bottom:10px;
+width:200px;
+border-collapse:collapse;
+border:#285577 1px solid;
+background-color: #EEEEEE;
+}
+.t12SidebarRegionAlternative1 .t12Header {
+background-color: #0066B2;
+color: #FFFFFF;
+font-size: 14px;
+}
+.t12SidebarRegionAlternative1 .t12ButtonHolder {
+text-align: right;
+}
+.t12SidebarRegionAlternative1 .t12Body {
+}
+.t12SidebarRegionAlternative1 .t12Body a {
+color: #FFFFFF;
+}
+.t12SidebarRegionAlternative1 .t12Body a:hover {
+color: #FFB300;
+}
+
+/***** Navigation Region, Alternative 1 *****/
+.t12NavigationRegionAlternative1 {
+margin: 5px;
+width: 140px;
+}
+.t12NavigationRegionAlternative1 .t12Header {
+font-size: 14px;
+color: #FFFFFF;
+border-bottom: 1px #FFFFFF solid;
+}
+.t12NavigationRegionAlternative1 .t12Body {
+}
+.t12NavigationRegionAlternative1 a {
+}
+
+/***** Navigation Region  *****/
+.t12NavigationRegion {
+width: 150px;
+margin-top:10px; margin-bottom:10px; margin-left: 5px;
+border-collapse: collapse;
+}
+.t12NavigationRegion .t12Header {}
+.t12NavigationRegion .t12ButtonHolder {}
+.t12NavigationRegion .t12Body {
+color: #FFFFFF;
+}
+
+/***** Wizard Region *****/
+.t12WizardRegion {
+margin-top:10px; margin-bottom:10px; margin-right: 5px; margin-left: 5px;
+border:1px solid #285577 ;
+background-color:#EEEEEE;
+border-collapse: collapse;
+}
+.t12WizardRegion .t12Header {
+background-color: #0066B2;
+color: #FFFFFF;
+font-size: 14px;
+text-align:left;
+}
+.t12WizardRegion .t12ButtonHolder {border-bottom: 1px solid #285577; background-color: #0066B2;text-align:right; }
+.t12WizardRegion .t12Body {}
+
+/***** Wizard Region with Icon *****/
+.t12WizardRegionWithIcon {
+margin-top: 10px; margin-bottom: 10px; margin-right: 5px; margin-left: 5px;
+border:1px solid #285577;
+background-color:#EEEEEE;
+border-collapse: collapse;
+}
+.t12WizardRegionWithIcon .t12Header {
+color: #FFFFFF;
+font-size: 14px;
+background-color: #0066B2;
+border: 1px solid #0066B2;
+}
+.t12WizardRegionWithIcon .t12ButtonHolder {border-bottom: 1px solid #285577; text-align:right;background-color: #0066B2;}
+.t12WizardRegionWithIcon .t12Body {}
+
+/******************** R A N D O M   O V E R R I D E S ********************/
+
+/***** Collapses Content *****/
+
+.t12VerticalBar {
+background-color:#0066B2;
+height:6px;
+padding-left: 10px;
+background-image: url(ParentTabBase.gif);
+}
+
+div.t12contentcollapse {
+display:table;
+}
+
+.t12PopupHead{
+background-color:#0066B2;
+padding:6px;
+border-bottom:2px #8C8C59 solid;
+}
+.t12PopupBody{padding:6px;}
+
+/* DHTML */
+/* DHTML */
+div.dhtmlMenuLG{white-space:nowrap;clear:both;}
+div.dhtmlMenuLG div.dhtmlMenuItem{text-align:center;float:left;margin:0px 15px 0px 0px;}
+div.dhtmlMenuLG a.dhtmlBottom{text-decoration:none;display:block;font-size:12px;margin:0px 5px;font-weight:bold;}
+div.dhtmlMenuLG img.dhtmlMenu{}
+div.dhtmlMenuLG div.htmldbBKHolder{float:left;}
+div.dhtmlMenuLG img.dhtmlMenuOn{}
+
+ul.dhtmlTree {list-style:none !important;}
+ul.dhtmlTree li{padding:2px 0;vertical-align:middle;list-style:none !important;}
+ul.dhtmlTree li img{margin:0 4px;vertical-align:middle;}
+
+.dhtmlMenuLG2 li a{float:left;}
+
+.dhtmlMenuLG2{list-style-type:none;padding:0;margin:0;vertical-align:middle;white-space:nowrap;}
+.dhtmlMenuLG2 *{float:left;text-decoration:none;display:block;line-height:25px;height:25px;vertical-align:middle;white-space:nowrap;}
+.dhtmlMenuLG2 li{border:1px solid #999;list-style:none !important;}
+.dhtmlMenuLG2 li.dhtmlMenuItem{margin:0 4px 0 0;} 
+.dhtmlMenuLG2 li.dhtmlMenuItem a{padding:0 4px;}
+
+.dhtmlMenuLG2 li.dhtmlMenuItem1{margin:0 4px 0 0;list-style:none !important;}} 
+.dhtmlMenuLG2 li.dhtmlMenuItem1 a{padding:0 4px;margin:0 4px 0 0;}
+.dhtmlMenuLG2 li.dhtmlMenuItem1 img{margin:0 2px 0 0;}
+
+.dhtmlSubMenu2 {background-color: #eee;font-size: 11px;width: 200px;border:1px solid #b7b7b7;list-style-type : none;margin:0em;padding-left:0em;}
+.dhtmlSubMenu2 li{margin:0em;padding-left:0em;list-style:none !important;}
+.dhtmlMenuSep2{text-align:center;}
+img.dhtmlMenuSep2{display:block; margin:auto; width:80%;border:1px solid #efefef; height:1px; background-color:#ccc; }
+.dhtmlSubMenu2 img.dhtmlSep {width:180px;height:1px;}
+.dhtmlSubMenu2 .t13MIMG {vertical-align:middle;float:right}
+.dhtmlSubMenu2 .dhtmlSubMenuP {background-color:#ddd;text-align:center;color: #808080;border-bottom:#ccc 1px solid;padding:3px 8px;text-decoration: none;white-space: nowrap;font-weight:bold;}
+.dhtmlSubMenu2 a.dhtmlSubMenuN:link,.dhtmlSubMenu2 a.dhtmlSubMenuN:visited {color:#808080;display:block;font-weight:normal;padding:3px 8px;text-decoration:none;white-space:nowrap;height:1%;overflow:hidden;}
+.dhtmlSubMenu2 a.dhtmlSubMenuN:hover {background-color:#ddd;color:#000;}
+.dhtmlSubMenu2 a.dhtmlSubMenuS:link,.dhtmlSubMenu2 a.dhtmlSubMenuS:visited {color:#808080;display:block;font-weight:normal;padding:3px 8px;text-decoration:none;white-space:nowrap;height:1%;overflow:hidden;}
+.dhtmlSubMenu2 a.dhtmlSubMenuS:hover {background-color:#ddd;color: #000;}

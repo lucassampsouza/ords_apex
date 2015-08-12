@@ -1,0 +1,180 @@
+<map_data>
+ <name>venezuela</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-73.3780670166016" top="12.1988887786865" right="-59.8013916015625" bottom="0.648611068725586"/>
+ <regions>
+  <region>
+   <centroid lat="3.42083311080933" lon="-65.6030578613281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-AMZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amazonas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.96291589736938" lon="-64.1945114135742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-ANZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Anzoategui]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.07833290100098" lon="-69.3593063354492"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-APU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Apure]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.96499824523926" lon="-67.2091751098633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-ARA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aragua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.15513753890991" lon="-69.6930618286133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-BRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Barinas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.00468754768372" lon="-63.8559989929199"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-BLV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bolivar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.2037487030029" lon="-67.9740371704102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-CRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carabobo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.33194255828857" lon="-68.3690414428711"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-CJD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cojedes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.34885692596436" lon="-63.0293121337891"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-MNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Monagas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.5108327865601" lon="-66.8522262573242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-DFD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Distrito Federal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.2534346580505" lon="-69.7609786987305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-FLC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Falcon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.82583236694336" lon="-66.4072265625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-GUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guarico]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.0812492370605" lon="-69.7747268676758"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-LAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.44667148590088" lon="-71.2398300170898"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-MER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Merida]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.2879152297974" lon="-66.3240356445313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-MRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Miranda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.88194417953491" lon="-61.2013359069824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-DAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Delta Amacuro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.9529151916504" lon="-64.105281829834"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-NES]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Neuva Esparta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.97930431365967" lon="-69.3775100708008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-PRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Portuguesa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.4006929397583" lon="-63.2055015563965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-SUC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sucre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.98728036880493" lon="-71.9288940429688"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-TCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tachira]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.49657249450684" lon="-70.5498733520508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-TRJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trujillo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.2926378250122" lon="-68.7458419799805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-YRC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yaracuy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.1194887161255" lon="-71.9773712158203"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-ZUL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zulia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.3888883590698" lon="-65.6086196899414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VEN-DFR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dependencias Federales]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

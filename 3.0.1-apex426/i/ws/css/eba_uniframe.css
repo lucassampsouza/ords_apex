@@ -1,0 +1,1646 @@
+/*@import "settings/box-shadow";*/
+/* Set up Variable Colors */
+/* ===================== */
+/* = Main Window Frame = */
+/* ===================== */
+/* line 33, ../scss/eba_uniframe.scss */
+.clear {
+  clear: both; }
+
+/* line 37, ../scss/eba_uniframe.scss */
+div.ebaFrame {
+  margin: 0 auto 10px auto;
+  min-width: 760px;
+  background: #FFF; }
+
+/* Main Container with Left / Right Borders*/
+/* line 44, ../scss/eba_uniframe.scss */
+div.ebaContentContainer {
+  /*	border-left: 1px solid $windowBorder;
+  	border-right: 1px solid $windowBorder;
+  	border-bottom: 1px solid $windowBorder;
+  	@include border-radius(0 0 6px 6px);*/
+  overflow: hidden; }
+
+/* ==================================== */
+/* = Window Frame Heading and Buttons = */
+/* ==================================== */
+/* line 55, ../scss/eba_uniframe.scss */
+div.ebaFrameHeader {
+  /*	@include border-radius($frameBorderRadius $frameBorderRadius 0 0);*/
+  /*	border: 1px solid $windowBorder;
+  	border-bottom: 1px solid $dividerBorder;*/
+  background-color: #FFF;
+  position: relative;
+  border-top: none; }
+
+/* line 65, ../scss/eba_uniframe.scss */
+div.ebaFrameHeader h1 {
+  margin: 0;
+  font: bold 14px/40px Arial, sans-serif;
+  padding: 0 10px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  color: rgba(0, 0, 0, 0.75);
+  color: #404040; }
+
+/* Right side of Heading */
+/* line 75, ../scss/eba_uniframe.scss */
+div.ebaFrameHeader div.ebaButtons {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+/* Heading Buttons */
+/* line 82, ../scss/eba_uniframe.scss */
+div.ebaFrameHeader div.ebaButtons a {
+  display: block;
+  float: left;
+  font: bold 11px/12px Arial, sans-serif;
+  padding: 6px 10px;
+  background-color: #d8d8d8;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f8f8f8', endColorstr='#d8d8d8');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#d8d8d8')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #d8d8d8));
+  background-image: -webkit-linear-gradient(#f8f8f8, #d8d8d8);
+  background-image: -moz-linear-gradient(#f8f8f8, #d8d8d8);
+  background-image: linear-gradient(#f8f8f8, #d8d8d8);
+  margin: 7px 7px 7px 3px;
+  border: 1px solid #666666;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.75);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 white inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 white inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 white inset; }
+
+/* line 96, ../scss/eba_uniframe.scss */
+div.ebaFrameHeader div.ebaButtons a.ebaHotButton {
+  border: 1px solid #822024;
+  background-color: #c3000f;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#eb0014', endColorstr='#c3000f');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb0014', endColorstr='#c3000f')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eb0014), color-stop(100%, #c3000f));
+  background-image: -webkit-linear-gradient(#eb0014, #c3000f);
+  background-image: -moz-linear-gradient(#eb0014, #c3000f);
+  background-image: linear-gradient(#eb0014, #c3000f);
+  color: #FFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+
+/* line 103, ../scss/eba_uniframe.scss */
+div.ebaFrameHeader div.ebaButtons a.ebaHotButton:active {
+  background-color: #a2000d;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#ce0014', endColorstr='#a2000d');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0014', endColorstr='#a2000d')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ce0014), color-stop(100%, #a2000d));
+  background-image: -webkit-linear-gradient(#ce0014, #a2000d);
+  background-image: -moz-linear-gradient(#ce0014, #a2000d);
+  background-image: linear-gradient(#ce0014, #a2000d);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset; }
+
+/* line 107, ../scss/eba_uniframe.scss */
+div.ebaFrameHeader div.ebaButtons a.ebaBlackButton {
+  border: 1px solid #222;
+  background-color: #222222;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#555555', endColorstr='#222222');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#555555', endColorstr='#222222')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #555555), color-stop(100%, #222222));
+  background-image: -webkit-linear-gradient(#555555, #222222);
+  background-image: -moz-linear-gradient(#555555, #222222);
+  background-image: linear-gradient(#555555, #222222);
+  color: #FFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.25) inset; }
+
+/* line 114, ../scss/eba_uniframe.scss */
+div.ebaFrameHeader div.ebaButtons a.ebaBlackButton:active {
+  background-color: #111111;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#444444', endColorstr='#111111');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#111111')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #444444), color-stop(100%, #111111));
+  background-image: -webkit-linear-gradient(#444444, #111111);
+  background-image: -moz-linear-gradient(#444444, #111111);
+  background-image: linear-gradient(#444444, #111111);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset; }
+
+/* line 118, ../scss/eba_uniframe.scss */
+div.ebaFrameHeader div.ebaButtons a:active {
+  background-color: #aaaaaa;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#d0d0d0', endColorstr='#aaaaaa');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0d0d0', endColorstr='#aaaaaa')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d0d0d0), color-stop(100%, #aaaaaa));
+  background-image: -webkit-linear-gradient(#d0d0d0, #aaaaaa);
+  background-image: -moz-linear-gradient(#d0d0d0, #aaaaaa);
+  background-image: linear-gradient(#d0d0d0, #aaaaaa);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset; }
+
+/* ============================= */
+/* = Window Frame Content Body = */
+/* ============================= */
+/* line 126, ../scss/eba_uniframe.scss */
+div.ebaContent {
+  display: table;
+  width: 100%;
+  min-height: 600px; }
+
+/* line 132, ../scss/eba_uniframe.scss */
+div.ebaContent div.ebaMainCol, div.ebaContent div.ebaSideCol {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 0 5px 0; }
+
+/* line 137, ../scss/eba_uniframe.scss */
+div.ebaContent div.ebaMainCol {
+  -webkit-border-radius: 0 0 0 5px;
+  -moz-border-radius: 0 0 0 5px;
+  border-radius: 0 0 0 5px; }
+
+/* line 141, ../scss/eba_uniframe.scss */
+div.ebaContent div.ebaSideCol {
+  width: 200px;
+  border-left: 1px solid #AAA;
+  background: #F0F0F0;
+  -webkit-border-radius: 0 0 5px 0;
+  -moz-border-radius: 0 0 5px 0;
+  border-radius: 0 0 5px 0; }
+
+/* ================================= */
+/* = Window Frame Content Sections = */
+/* ================================= */
+/* Main Section */
+/* line 153, ../scss/eba_uniframe.scss */
+div.contentSectionMain {
+  position: relative; }
+
+/* Edit Link */
+/* line 159, ../scss/eba_uniframe.scss */
+div.contentSection h3 span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block; }
+/* line 164, ../scss/eba_uniframe.scss */
+div.contentSection h3 span a {
+  position: relative;
+  float: left; }
+
+/* line 171, ../scss/eba_uniframe.scss */
+div.contentSection h3 a, a.ebaEditLink {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  margin: 7px 7px 0 0;
+  font: normal 11px/14px Arial, sans-serif;
+  text-decoration: none;
+  color: #666;
+  padding: 2px 8px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #EEE;
+  -moz-transition: "background 0.2s linear, border 0.2s linear, color 0.2s linear";
+  -webkit-transition: "background 0.2s linear, border 0.2s linear, color 0.2s linear";
+  transition: "background 0.2s linear, border 0.2s linear, color 0.2s linear"; }
+/* line 184, ../scss/eba_uniframe.scss */
+div.contentSection h3 a:hover, a.ebaEditLink:hover {
+  border: 1px solid #BBB;
+  color: #333;
+  background-color: #F0F0F0; }
+/* line 189, ../scss/eba_uniframe.scss */
+div.contentSection h3 a img, a.ebaEditLink img {
+  border: none;
+  vertical-align: baseline; }
+/* line 193, ../scss/eba_uniframe.scss */
+div.contentSection h3 a img.editIcon, a.ebaEditLink img.editIcon {
+  width: 9px;
+  height: 9px;
+  background: url(../img/ws_control_icons.png) -30px -9px no-repeat;
+  margin-right: 4px; }
+/* line 199, ../scss/eba_uniframe.scss */
+div.contentSection h3 a:hover img.editIcon, a.ebaEditLink:hover img.editIcon {
+  background: url(../img/ws_control_icons.png) -30px 0 no-repeat; }
+/* line 202, ../scss/eba_uniframe.scss */
+div.contentSection h3 a img.addIcon, a.ebaEditLink img.addIcon {
+  width: 9px;
+  height: 9px;
+  background: url(../img/ws_control_icons.png) -39px -9px no-repeat;
+  margin-right: 4px; }
+/* line 208, ../scss/eba_uniframe.scss */
+div.contentSection h3 a:hover img.addIcon, a.ebaEditLink:hover img.addIcon {
+  background: url(../img/ws_control_icons.png) -48px -9px no-repeat; }
+
+/* Value Attribute Pair Table */
+/* VAP Table */
+/* line 218, ../scss/eba_uniframe.scss */
+div.ebaContent table.ebaVAPTable {
+  width: 100%;
+  padding: 10px 0 5px 0; }
+
+/* line 223, ../scss/eba_uniframe.scss */
+div.ebaContent table.ebaVAPTable th, div.ebaContent table.ebaVAPTable td {
+  padding: 0 10px 5px 10px;
+  font: normal 12px/16px Arial, sans-serif;
+  color: #404040;
+  vertical-align: top; }
+
+/* line 229, ../scss/eba_uniframe.scss */
+div.ebaContent table.ebaVAPTable th {
+  font-weight: bold;
+  text-align: left;
+  width: 120px; }
+
+/* ============================ */
+/* = Content Section Headings = */
+/* ============================ */
+/* Section Headings */
+/* line 239, ../scss/eba_uniframe.scss */
+div.contentSection > h2 {
+  background-color: #e8e8e8;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f8f8f8', endColorstr='#e8e8e8');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#e8e8e8')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #e8e8e8));
+  background-image: -webkit-linear-gradient(#f8f8f8, #e8e8e8);
+  background-image: -moz-linear-gradient(#f8f8f8, #e8e8e8);
+  background-image: linear-gradient(#f8f8f8, #e8e8e8);
+  margin: 0;
+  padding: 0 0 0 30px;
+  font: bold 12px/30px Arial, sans-serif;
+  color: #404040;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  border-top: 1px solid #D8D8D8;
+  border-bottom: 1px solid #CCC;
+  position: relative; }
+
+/* Smaller Heading */
+/* line 252, ../scss/eba_uniframe.scss */
+div.contentSection h2.secondaryHeading {
+  background: none #FFF;
+  margin: 0;
+  padding: 0 10px 0 30px;
+  font: bold 11px/30px Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.75);
+  color: #404040;
+  text-shadow: none;
+  border-top: none;
+  border-bottom: none;
+  position: relative; }
+
+/* Collapsing Icons */
+/* line 267, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.contentSectionControl, div.contentSection h2 a.contentSectionControl.collapsed {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/* line 273, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.contentSectionControl img, div.contentSection h2 a.contentSectionControl.collapsed img {
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin: 6px;
+  border: none; }
+
+/* line 280, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.contentSectionControl img {
+  background: url(../img/eba_details_page_icons.png) 0 -46px no-repeat; }
+
+/* line 283, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.contentSectionControl.collapsed img {
+  background: url(../img/eba_details_page_icons.png) 0 -28px no-repeat; }
+
+/* Heading Right Buttons */
+/* line 288, ../scss/eba_uniframe.scss */
+div.contentSection h2 > span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block; }
+/* line 293, ../scss/eba_uniframe.scss */
+div.contentSection h2 > span.leftButtons {
+  position: relative;
+  float: left;
+  margin-right: 10px; }
+/* line 297, ../scss/eba_uniframe.scss */
+div.contentSection h2 > span.leftButtons a.ebaTitleButton {
+  border-left: none;
+  border-right: 1px solid #c3c3c3;
+  border-right: 1px solid rgba(0, 0, 0, 0.1); }
+
+/* line 304, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton {
+  display: block;
+  float: left;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 0 0 5px;
+  border-left: 1px solid #c3c3c3;
+  border-left: 1px solid rgba(0, 0, 0, 0.1); }
+
+/* line 313, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton span {
+  display: block;
+  float: left;
+  font: normal 11px/30px Arial, sans-serif;
+  padding-left: 5px;
+  padding-right: 2px;
+  color: #666;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75); }
+
+/* line 322, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton img.addIcon {
+  width: 13px;
+  height: 14px;
+  display: block;
+  float: left;
+  margin: 8px 10px 8px 5px;
+  background: url(../img/eba_details_page_icons.png) 0 0 no-repeat;
+  border: none; }
+
+/* line 331, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton:hover img.addIcon {
+  background: url(../img/eba_details_page_icons.png) 0 -14px no-repeat; }
+
+/* line 334, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton img.viewAllButton {
+  width: 7px;
+  height: 14px;
+  display: block;
+  float: left;
+  margin: 8px 13px 8px 8px;
+  background: url(../img/eba_details_page_icons.png) 0 -64px no-repeat;
+  border: none; }
+
+/* line 343, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton:hover img.viewAllButton {
+  background: url(../img/eba_details_page_icons.png) 0 -78px no-repeat; }
+
+/* line 346, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton img.backIcon {
+  width: 7px;
+  height: 14px;
+  display: block;
+  float: left;
+  margin: 8px 13px 8px 8px;
+  background: url(../img/eba_details_page_icons.png) -7px -64px no-repeat;
+  border: none; }
+
+/* line 355, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton:hover img.backIcon {
+  background: url(../img/eba_details_page_icons.png) -7px -78px no-repeat; }
+
+/* line 358, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton img.showIcon {
+  width: 11px;
+  height: 18px;
+  display: block;
+  float: left;
+  margin: 6px 12px 6px 7px;
+  background: url(../img/eba_details_page_icons.png) -18px -28px no-repeat;
+  border: none; }
+
+/* line 367, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton:hover img.showIcon {
+  background: url(../img/eba_details_page_icons.png) -18px -46px no-repeat; }
+
+/* line 370, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton img.hideIcon {
+  width: 11px;
+  height: 18px;
+  display: block;
+  float: left;
+  margin: 6px 12px 6px 7px;
+  background: url(../img/eba_details_page_icons.png) -29px -28px no-repeat;
+  border: none; }
+
+/* line 379, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton:hover img.hideIcon {
+  background: url(../img/eba_details_page_icons.png) -29px -46px no-repeat; }
+
+/* line 382, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton img.optionsIcon {
+  width: 14px;
+  height: 14px;
+  display: block;
+  float: left;
+  margin: 8px 10px 8px 4px;
+  background: url(../img/eba_details_page_icons.png) -27px 0 no-repeat;
+  border: none; }
+
+/* line 391, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton:hover img.optionsIcon {
+  background: url(../img/eba_details_page_icons.png) -27px -14px no-repeat; }
+
+/* line 394, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton img.commentButton {
+  width: 13px;
+  height: 14px;
+  display: block;
+  float: left;
+  margin: 8px 10px 8px 5px;
+  background: url(../img/eba_details_page_icons.png) -14px 0 no-repeat;
+  border: none; }
+
+/* line 404, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton:hover img.commentButton, div.contentSection h2 a.activeButton img.commentButton {
+  background: url(../img/eba_details_page_icons.png) -14px -14px no-repeat;
+  border: none; }
+
+/* line 408, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton:hover {
+  background-color: #d8d8d8;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#e8e8e8', endColorstr='#d8d8d8');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#d8d8d8')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e8e8e8), color-stop(100%, #d8d8d8));
+  background-image: -webkit-linear-gradient(#e8e8e8, #d8d8d8);
+  background-image: -moz-linear-gradient(#e8e8e8, #d8d8d8);
+  background-image: linear-gradient(#e8e8e8, #d8d8d8); }
+
+/* line 411, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.ebaTitleButton:hover span {
+  color: #404040; }
+
+/* line 415, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.activeButton, div.contentSection h2 a.activeButton:hover {
+  background-color: #bbbbbb;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#999999', endColorstr='#bbbbbb');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#bbbbbb')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #999999), color-stop(100%, #bbbbbb));
+  background-image: -webkit-linear-gradient(#999999, #bbbbbb);
+  background-image: -moz-linear-gradient(#999999, #bbbbbb);
+  background-image: linear-gradient(#999999, #bbbbbb);
+  border-left: 1px solid #c3c3c3; }
+
+/* line 420, ../scss/eba_uniframe.scss */
+div.contentSection h2 a.activeButton span, div.contentSection h2 a.activeButton:hover span {
+  color: rgba(0, 0, 0, 0.75) !important; }
+
+/* ============================= */
+/* = Section Sub Headings (h3) = */
+/* ============================= */
+/* Stylized H3 for DSBody Only */
+/* line 428, ../scss/eba_uniframe.scss */
+div.contentSection div.sectionBody > h3 {
+  background-color: white;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f0f0f0', endColorstr='white');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='white')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(#f0f0f0, #ffffff);
+  background-image: -moz-linear-gradient(#f0f0f0, #ffffff);
+  background-image: linear-gradient(#f0f0f0, #ffffff);
+  margin: 0;
+  padding: 10px 10px 5px 10px;
+  font: bold 12px/12px Arial, sans-serif;
+  color: #666;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  border-top: 1px solid #CCC;
+  position: relative; }
+
+/* line 438, ../scss/eba_uniframe.scss */
+div.contentSection div.sectionBody > h3.ebaBordered {
+  padding: 10px;
+  border-bottom: 1px solid #EEE; }
+
+/* Hide Top Border if it is the first heading */
+/* line 443, ../scss/eba_uniframe.scss */
+div.contentSection div.sectionBody > h3:first-child {
+  border-top: none !important; }
+
+/* line 446, ../scss/eba_uniframe.scss */
+div.contentSection div.sectionBody {
+  position: relative;
+  padding: 0 0 5px 0; }
+
+/* line 450, ../scss/eba_uniframe.scss */
+div.contentSection div.sectionBody div.ebaNoData {
+  padding: 10px;
+  font: normal 11px/12px Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.5); }
+
+/* line 455, ../scss/eba_uniframe.scss */
+div.contentSection div.sectionBodyPadded {
+  padding: 10px; }
+
+/* line 458, ../scss/eba_uniframe.scss */
+div.contentSection table.ebaVAPTable {
+  width: 100%;
+  padding: 0 0 10px 0; }
+
+/* line 463, ../scss/eba_uniframe.scss */
+div.contentSection table.ebaVAPTable th, div.contentSection table.ebaVAPTable td {
+  padding: 5px 10px 0 10px;
+  font: normal 11px/16px Arial, sans-serif;
+  color: #333; }
+
+/* line 468, ../scss/eba_uniframe.scss */
+div.contentSection table.ebaVAPTable th {
+  font-weight: bold;
+  text-align: left;
+  width: 120px; }
+
+/* ======================================= */
+/* = Table List View (Files, Links, etc) = */
+/* ======================================= */
+/* line 477, ../scss/eba_uniframe.scss */
+table.ebaReportView {
+  width: 100%;
+  padding: 0; }
+
+/* line 481, ../scss/eba_uniframe.scss */
+table.ebaReportView thead tr th {
+  background-color: white;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f0f0f0', endColorstr='white');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='white')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(#f0f0f0, #ffffff);
+  background-image: -moz-linear-gradient(#f0f0f0, #ffffff);
+  background-image: linear-gradient(#f0f0f0, #ffffff);
+  margin: 0;
+  padding: 0 10px;
+  font: normal 11px/24px Arial, sans-serif;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid #CCC;
+  border-right: 1px solid #DDD;
+  /* Removing text-align because APEX uses align="" attribute applied to cell*/
+  /*text-align: left;*/ }
+
+/* line 495, ../scss/eba_uniframe.scss */
+table.ebaReportView thead tr th.firstCol, table.ebaReportView thead tr th.editCol, table.ebaReportView thead tr th.deleteCol {
+  border-right: none;
+  padding: 0;
+  width: 24px; }
+
+/* line 500, ../scss/eba_uniframe.scss */
+table.ebaReportView thead tr th:last-child {
+  border-right: none; }
+
+/* line 503, ../scss/eba_uniframe.scss */
+table.ebaReportView .ebaRightAligned {
+  text-align: right; }
+
+/* line 506, ../scss/eba_uniframe.scss */
+table.ebaReportView tbody tr td {
+  font: normal 12px/16px Arial, sans-serif;
+  padding: 5px 10px;
+  color: #333; }
+
+/* line 511, ../scss/eba_uniframe.scss */
+table.ebaReportView tbody tr td a {
+  color: #333;
+  text-decoration: underline; }
+
+/* line 515, ../scss/eba_uniframe.scss */
+table.ebaReportView tbody tr td.editCol {
+  padding: 0 0 0 8px;
+  vertical-align: middle;
+  text-align: middle; }
+
+/* line 520, ../scss/eba_uniframe.scss */
+table.ebaFiles tbody tr td img {
+  display: block; }
+
+/* line 523, ../scss/eba_uniframe.scss */
+table.ebaReportView tbody tr:nth-child(2n) td {
+  background-color: #F8F8F8; }
+
+/* ================== */
+/* = Right Side Bar = */
+/* ================== */
+/* line 530, ../scss/eba_uniframe.scss */
+div.ebaContent div.ebaSideCol div.uniqueKey {
+  padding: 3px 10px;
+  margin: 10px auto;
+  width: 100px;
+  text-align: center;
+  font: normal 11px/12px Arial, sans-serif;
+  border: 1px solid #CCC;
+  background: #FFF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #444; }
+
+/* line 541, ../scss/eba_uniframe.scss */
+div.ebaContent div.ebaSideCol div.uniqueKey span {
+  font-weight: bold; }
+
+/* line 544, ../scss/eba_uniframe.scss */
+div.ebaContent div.ebaSideCol div.buttonPadding {
+  margin: 10px; }
+/* line 546, ../scss/eba_uniframe.scss */
+div.ebaContent div.ebaSideCol div.buttonPadding a {
+  margin: 10px 0; }
+
+/* line 550, ../scss/eba_uniframe.scss */
+div.ebaContent div.ebaSideCol h3 {
+  background-color: #d0d0d0;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f0f0f0', endColorstr='#d0d0d0');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#d0d0d0')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f0f0), color-stop(100%, #d0d0d0));
+  background-image: -webkit-linear-gradient(#f0f0f0, #d0d0d0);
+  background-image: -moz-linear-gradient(#f0f0f0, #d0d0d0);
+  background-image: linear-gradient(#f0f0f0, #d0d0d0);
+  margin: 0;
+  padding: 5px 10px;
+  font: bold 12px/12px Arial, sans-serif;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  border-top: 1px solid #D8D8D8;
+  border-bottom: 1px solid #BBB; }
+
+/* Any div after a H3 in the side will have a slightly lighter bg and bottom border */
+/* line 561, ../scss/eba_uniframe.scss */
+div.ebaContent div.ebaSideCol h3 + div {
+  background: #F8F8F8;
+  border-bottom: 1px solid #CCC; }
+
+/* line 566, ../scss/eba_uniframe.scss */
+div.ebaContent div.ebaSideCol h3 + div + h3 {
+  border-top: none; }
+
+/* line 571, ../scss/eba_uniframe.scss */
+div.ebaSideCol a.ebaButton, div.ebaSideCol a.ebaHotButton {
+  display: block;
+  font: normal 12px/12px Arial, sans-serif;
+  padding: 6px 10px;
+  text-align: center;
+  background-color: #d8d8d8;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f8f8f8', endColorstr='#d8d8d8');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#d8d8d8')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #d8d8d8));
+  background-image: -webkit-linear-gradient(#f8f8f8, #d8d8d8);
+  background-image: -moz-linear-gradient(#f8f8f8, #d8d8d8);
+  background-image: linear-gradient(#f8f8f8, #d8d8d8);
+  margin: 0 0 10px 0;
+  border: 1px solid #666666;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 white inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 white inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 white inset; }
+
+/* line 585, ../scss/eba_uniframe.scss */
+div.ebaSideCol a.ebaButton:active {
+  background-color: #aaaaaa;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#d0d0d0', endColorstr='#aaaaaa');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0d0d0', endColorstr='#aaaaaa')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d0d0d0), color-stop(100%, #aaaaaa));
+  background-image: -webkit-linear-gradient(#d0d0d0, #aaaaaa);
+  background-image: -moz-linear-gradient(#d0d0d0, #aaaaaa);
+  background-image: linear-gradient(#d0d0d0, #aaaaaa);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset; }
+
+/* line 590, ../scss/eba_uniframe.scss */
+div.ebaSideCol a.ebaHotButton {
+  border: 1px solid #822024;
+  background-color: #c3000f;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#eb0014', endColorstr='#c3000f');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb0014', endColorstr='#c3000f')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eb0014), color-stop(100%, #c3000f));
+  background-image: -webkit-linear-gradient(#eb0014, #c3000f);
+  background-image: -moz-linear-gradient(#eb0014, #c3000f);
+  background-image: linear-gradient(#eb0014, #c3000f);
+  color: #FFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  font-weight: bold; }
+
+/* line 598, ../scss/eba_uniframe.scss */
+div.ebaSideCol a.ebaHotButton:active {
+  background-color: #a2000d;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#ce0014', endColorstr='#a2000d');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0014', endColorstr='#a2000d')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ce0014), color-stop(100%, #a2000d));
+  background-image: -webkit-linear-gradient(#ce0014, #a2000d);
+  background-image: -moz-linear-gradient(#ce0014, #a2000d);
+  background-image: linear-gradient(#ce0014, #a2000d);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 2px rgba(0, 0, 0, 0.5) inset; }
+
+/* Badge */
+/* line 605, ../scss/eba_uniframe.scss */
+div.sideBadge {
+  position: relative;
+  padding: 10px 10px 0 10px; }
+
+/* line 609, ../scss/eba_uniframe.scss */
+div.sidebadge + h3 {
+  border-top: none !important; }
+
+/* line 614, ../scss/eba_uniframe.scss */
+div.sideBadge div.badgeTotal, div.sideBadge div.badgeStats {
+  float: left;
+  overflow: hidden;
+  padding-bottom: 10px; }
+
+/* line 619, ../scss/eba_uniframe.scss */
+div.sideBadge div.badgeTotal {
+  width: 60px; }
+/* line 621, ../scss/eba_uniframe.scss */
+div.sideBadge div.badgeTotal a {
+  padding: 0;
+  margin-left: 0;
+  display: block;
+  font: normal 36px/36px Arial, sans-serif;
+  color: #333;
+  text-decoration: none;
+  letter-spacing: -2px; }
+/* line 629, ../scss/eba_uniframe.scss */
+div.sideBadge div.badgeTotal a span {
+  display: block;
+  font: normal 11px/12px Arial,sans-serif;
+  color: #888;
+  letter-spacing: 0px;
+  padding: 0;
+  text-decoration: none; }
+
+/* line 640, ../scss/eba_uniframe.scss */
+div.sideBadge div.badgeTotal a:hover {
+  color: #EA0000; }
+
+/* line 643, ../scss/eba_uniframe.scss */
+div.sideBadge div.badgeStats {
+  width: 120px; }
+/* line 645, ../scss/eba_uniframe.scss */
+div.sideBadge div.badgeStats ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+/* line 649, ../scss/eba_uniframe.scss */
+div.sideBadge div.badgeStats ul li {
+  padding: 0;
+  margin: 0 0 5px 0;
+  clear: both;
+  position: relative;
+  height: 12px; }
+/* line 655, ../scss/eba_uniframe.scss */
+div.sideBadge div.badgeStats ul li span, div.sideBadge div.badgeStats ul li strong {
+  font: normal 11px/12px Arial,sans-serif;
+  display: block;
+  color: #666;
+  float: left; }
+/* line 661, ../scss/eba_uniframe.scss */
+div.sideBadge div.badgeStats ul li span {
+  width: 95px;
+  text-align: right; }
+/* line 665, ../scss/eba_uniframe.scss */
+div.sideBadge div.badgeStats ul li strong {
+  text-align: right;
+  font-weight: bold;
+  color: #333;
+  width: 25px; }
+
+/* ===================== */
+/* = Text Comment Box  = */
+/* ===================== */
+/* line 678, ../scss/eba_uniframe.scss */
+div.textBox {
+  background-color: #dddddd;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#bbbbbb', endColorstr='#dddddd');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#bbbbbb', endColorstr='#dddddd')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bbbbbb), color-stop(100%, #dddddd));
+  background-image: -webkit-linear-gradient(#bbbbbb, #dddddd);
+  background-image: -moz-linear-gradient(#bbbbbb, #dddddd);
+  background-image: linear-gradient(#bbbbbb, #dddddd);
+  padding: 5px !important;
+  border-bottom: 1px solid #BBB;
+  display: none; }
+
+/* line 684, ../scss/eba_uniframe.scss */
+div.textBoxContainer {
+  display: block;
+  border: 1px solid #AAA;
+  padding: 5px;
+  background: #FFF; }
+
+/* line 690, ../scss/eba_uniframe.scss */
+div.textBox textarea {
+  display: block;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  font: normal 12px/16px Arial, sans-serif;
+  color: #333;
+  background: #FFF; }
+
+/* ======================= */
+/* = Wizard Progress Bar = */
+/* ======================= */
+/* line 705, ../scss/eba_uniframe.scss */
+ul.ebaProgressWizard {
+  zoom: 1;
+  position: absolute;
+  /* 	top: 0; */
+  left: 0;
+  margin: 16px 8px;
+  list-style: none;
+  padding: 0; }
+/* line 9, ../scss/settings/_vars.scss */
+ul.ebaProgressWizard:before, ul.ebaProgressWizard:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden; }
+/* line 15, ../scss/settings/_vars.scss */
+ul.ebaProgressWizard:after {
+  clear: both; }
+/* line 713, ../scss/eba_uniframe.scss */
+ul.ebaProgressWizard li {
+  padding: 0;
+  float: left;
+  min-width: 60px; }
+/* line 717, ../scss/eba_uniframe.scss */
+ul.ebaProgressWizard li span {
+  min-width: 60px;
+  display: block;
+  height: 24px;
+  background-color: #e4eefb;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#d3e0f0', endColorstr='#e4eefb');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#d3e0f0', endColorstr='#e4eefb')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d3e0f0), color-stop(100%, #e4eefb));
+  background-image: -webkit-linear-gradient(#d3e0f0, #e4eefb);
+  background-image: -moz-linear-gradient(#d3e0f0, #e4eefb);
+  background-image: linear-gradient(#d3e0f0, #e4eefb);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.65), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.65), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.65), 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+  border-top: 1px solid #7188A8;
+  border-bottom: 1px solid #385282;
+  border-right: 1px solid #7188A8; }
+/* line 727, ../scss/eba_uniframe.scss */
+ul.ebaProgressWizard li:last-child span {
+  border-right: 1px solid #666666; }
+/* line 730, ../scss/eba_uniframe.scss */
+ul.ebaProgressWizard li em {
+  display: block;
+  padding: 1px 20px 0 0;
+  font: normal 11px/11px Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.75);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  white-space: nowrap; }
+/* line 739, ../scss/eba_uniframe.scss */
+ul.ebaProgressWizard li:first-child span {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+  border-left: 1px solid #7188A8; }
+/* line 743, ../scss/eba_uniframe.scss */
+ul.ebaProgressWizard li:last-child span {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  border-right: 1px solid #7188A8; }
+/* line 748, ../scss/eba_uniframe.scss */
+ul.ebaProgressWizard li.currentStep span, ul.ebaProgressWizard li.completedStep span {
+  /*		background: url(../img/eba_wizard_progress.gif) 0 0 repeat-x;*/
+  background-color: #4c70b4;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#6b95d8', endColorstr='#4c70b4');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b95d8', endColorstr='#4c70b4')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6b95d8), color-stop(100%, #4c70b4));
+  background-image: -webkit-linear-gradient(#6b95d8, #4c70b4);
+  background-image: -moz-linear-gradient(#6b95d8, #4c70b4);
+  background-image: linear-gradient(#6b95d8, #4c70b4);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  border-bottom-color: #385282; }
+/* line 754, ../scss/eba_uniframe.scss */
+ul.ebaProgressWizard li.currentStep em {
+  font-weight: bold; }
+
+/* Wizard Container in Header */
+/* line 760, ../scss/eba_uniframe.scss */
+div.ebaProgressBar {
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+/* Make progress bar gray / black so that it does not steal focus from submit / next buttons */
+/* line 768, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame {
+  width: 960px;
+  margin: 20px auto;
+  background-color: #FFF;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  border-radius: 2px; }
+/* line 769, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame.ebaSmallWizard {
+  width: 760px; }
+/* line 772, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame.ebaLoginWizard {
+  width: 760px; }
+/* line 774, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame.ebaLoginWizard div.ebaContentContainer div.ebaContent {
+  min-height: 200px; }
+/* line 785, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame ul.ebaProgressWizard li {
+  min-width: 40px; }
+/* line 787, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame ul.ebaProgressWizard li span {
+  height: 18px;
+  min-width: 40px; }
+/* line 793, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaFrameHeader h1.oracleLogo {
+  font: normal 14px/20px Arial, sans-serif;
+  padding: 0;
+  text-shadow: none;
+  margin: 20px 0 20px 14px;
+  background: url(../img/eba_header.png) -29px 1px no-repeat;
+  text-indent: 150px; }
+/* line 800, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaFrameHeader h1.oracleLogo span {
+  font: normal 14px/20px Arial, sans-serif; }
+/* line 804, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaFrameHeader div.ebaProgressBar {
+  padding: 20px 14px; }
+/* line 807, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaFrameHeader span.ebaButtons {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  padding: 14px 4px 14px 0; }
+/* line 815, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border-bottom: none; }
+/* line 818, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer div.ebaContent {
+  display: block;
+  width: auto;
+  padding: 10px; }
+/* line 822, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer div.ebaContent div.loadingRegion {
+  margin: 40px auto;
+  padding: 20px;
+  width: 480px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #F0F0F0;
+  border: 1px solid #AAA;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5) inset;
+  text-align: center; }
+/* line 831, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer div.ebaContent div.loadingRegion h2 {
+  margin: 0 0 10px 0;
+  font: bold 16px/20px Arial, sans-serif;
+  color: #333; }
+/* line 837, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer div.ebaContent div.successRegion {
+  background: url(../img/icons/checkmark_success_96.png) 20px 50% no-repeat;
+  padding: 20px 20px 20px 120px; }
+/* line 840, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer div.ebaContent div.successRegion h1 {
+  font: normal 18px/24px Arial, sans-serif;
+  margin: 0 10px 10px 10px;
+  color: #333; }
+/* line 845, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer div.ebaContent div.successRegion h1 strong {
+  font-weight: bold 18px/24px Arial, sans-serif; }
+/* line 848, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer div.ebaContent div.successRegion table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 0; }
+/* line 852, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer div.ebaContent div.successRegion table br {
+  display: none; }
+/* line 856, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer div.ebaContent div.successRegion p {
+  font: normal 13px/18px Arial, sans-serif;
+  color: #333;
+  margin: 0 10px 10px 10px; }
+/* line 860, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer div.ebaContent div.successRegion p a {
+  text-decoration: underline;
+  color: #333; }
+/* line 863, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaContentContainer div.ebaContent div.successRegion p a:hover {
+  color: #888; }
+/* line 871, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardFrameContainer {
+  border: 1px solid #AAA;
+  border-top: none;
+  border-bottom: none; }
+/* line 875, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardFrameContainer div.ebaTwoColPane {
+  border-bottom: 1px solid #EEE; }
+/* line 877, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardFrameContainer div.ebaTwoColPane div.ebaSideCol {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+/* line 882, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaFrameFooter {
+  zoom: 1;
+  background-color: #F8F8F8;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  padding: 8px 16px; }
+/* line 9, ../scss/settings/_vars.scss */
+div.ebaWizardFrame div.ebaFrameFooter:before, div.ebaWizardFrame div.ebaFrameFooter:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden; }
+/* line 15, ../scss/settings/_vars.scss */
+div.ebaWizardFrame div.ebaFrameFooter:after {
+  clear: both; }
+/* line 891, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaFrameFooter span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  padding: 8px 8px 16px 16px; }
+/* line 900, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame a.ebaNextButton {
+  padding-right: 0; }
+/* line 902, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame a.ebaNextButton img {
+  width: 22px;
+  height: 26px;
+  background: url(../img/ws_control_icons.png) -24px -57px no-repeat;
+  vertical-align: middle;
+  border: 0;
+  margin: 0 5px 0 0; }
+/* line 911, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame a.ebaPrevButton {
+  padding-left: 0; }
+/* line 913, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame a.ebaPrevButton img {
+  width: 22px;
+  height: 26px;
+  background: url(../img/ws_control_icons.png) -24px -33px no-repeat;
+  vertical-align: middle;
+  border: 0;
+  margin: 0 0 0 5px; }
+/* line 922, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame a.ebaDisabledButton {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  cursor: default; }
+/* line 926, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardText {
+  margin: 10px 0; }
+/* line 928, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardText h1 {
+  font: normal 18px/24px Arial, sans-serif;
+  margin: 0 10px 10px 10px;
+  color: #333; }
+/* line 933, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardText ul {
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding: 0; }
+/* line 937, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardText ul li {
+  margin: 0 0 10px 0;
+  text-indent: 30px; }
+/* line 940, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardText ul li strong {
+  font: bold 13px/14px Arial, sans-serif;
+  color: #333; }
+/* line 944, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardText ul li span {
+  display: block;
+  font: normal 12px/12px Arial, sans-serif;
+  color: #999; }
+/* line 949, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardText ul li a {
+  color: #333; }
+/* line 954, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardText p {
+  font: normal 13px/18px Arial, sans-serif;
+  color: #333;
+  margin: 0 10px 10px 10px; }
+/* line 958, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardText p a {
+  text-decoration: underline;
+  color: #333; }
+/* line 961, ../scss/eba_uniframe.scss */
+div.ebaWizardFrame div.ebaWizardText p a:hover {
+  color: #888; }
+
+/* ====================== */
+/* = APEX Forms Styling = */
+/* ====================== */
+/* Override FCK Editor's Padding */
+/* line 974, ../scss/eba_uniframe.scss */
+span.cke_skin_kama {
+  padding: 0 !important; }
+
+/* line 977, ../scss/eba_uniframe.scss */
+div.formNoHighlight tr:hover td {
+  background: none !important; }
+
+/* line 980, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout {
+  border-spacing: 0 0;
+  border-collapse: collapse; }
+/* line 984, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #FFF;
+  -moz-transition: background-color 0.1s linear;
+  -webkit-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear; }
+/* line 989, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td:first-child {
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px; }
+/* line 992, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td:last-child {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0; }
+/* line 995, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr:hover > td {
+  background-color: #F8F8F8; }
+/* line 998, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr.rowHighlight > td {
+  background-color: #F0F0F0; }
+/* line 1002, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout td.lov input.popup_lov {
+  border: 1px solid #888888;
+  padding: 6px;
+  font: normal 14px/16px Arial, sans-serif;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background-color: #F8F8F8;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+  opacity: 0.75;
+  color: #333;
+  -moz-transition: "background-color 0.1s linear, border 0.1s linear";
+  -webkit-transition: "background-color 0.1s linear, border 0.1s linear";
+  transition: "background-color 0.1s linear, border 0.1s linear"; }
+/* line 1013, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td {
+  padding: 5px 10px; }
+/* line 1015, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td.ebaLabelTop {
+  padding: 10px; }
+/* line 1020, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td input.text_field, .ebaFormTable table.formlayout > tbody > tr > td select.selectlist, .ebaFormTable table.formlayout > tbody > tr > td textarea {
+  border: 1px solid #888888;
+  padding: 6px;
+  font: normal 14px/16px Arial, sans-serif;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background-color: #F8F8F8;
+  color: #333;
+  -moz-transition: "background-color 0.1s linear, border 0.1s linear";
+  -webkit-transition: "background-color 0.1s linear, border 0.1s linear";
+  transition: "background-color 0.1s linear, border 0.1s linear"; }
+/* line 1029, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td input.text_field:focus, .ebaFormTable table.formlayout > tbody > tr > td select.selectlist:focus, .ebaFormTable table.formlayout > tbody > tr > td textarea:focus {
+  background-color: #FFF;
+  border: 1px solid #666; }
+/* line 1034, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td textarea.codeTextarea {
+  font: normal 11px/14px monospace; }
+/* line 1037, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td select.selectlist {
+  /* Add extra margin to get cell height same as single text field*/
+  margin: 6px 0 7px 0; }
+/* line 1042, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td span.display_only, .ebaFormTable table.formlayout > tbody > tr > td span.display_only a {
+  font: normal 14px/16px Arial, sans-serif;
+  color: #333; }
+/* line 1046, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td fieldset label {
+  display: inline; }
+/* line 1049, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td label {
+  display: block;
+  min-width: 120px;
+  padding: 3px 40px 3px 0;
+  font: normal 14px/16px Arial, sans-serif;
+  color: #666; }
+/* line 1055, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td label a {
+  font: normal 14px/16px Arial, sans-serif;
+  color: #666;
+  text-decoration: none; }
+/* line 1061, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td label.ebaRequired, .ebaFormTable table.formlayout > tbody > tr > td label.ebaRequired a {
+  color: #EA0000;
+  font-weight: bold; }
+/* line 1065, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td label.ebaNoLabel {
+  display: none; }
+/* line 1067, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td label.ebaNoLabel + br {
+  display: none; }
+/* line 1072, ../scss/eba_uniframe.scss */
+.ebaFormTable table.formlayout > tbody > tr > td span.ebaLabelError {
+  font: normal 11px/12px Arial, sans-serif;
+  color: #666; }
+
+/* ========================== */
+/* =  Two Column Pane View  = */
+/* ========================== */
+/* line 1082, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-bottom: 1px solid #AAA; }
+/* line 1088, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane > div {
+  display: table-cell;
+  vertical-align: top; }
+/* line 1091, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane > div h2 {
+  border-top: none;
+  padding-left: 10px;
+  border-bottom: 1px solid #aaaaaa;
+  color: #404040; }
+/* line 1096, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane > div h2.leftButtons {
+  padding-left: 0; }
+/* line 1101, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol {
+  width: 320px;
+  border-right: 1px solid #AAA;
+  -webkit-border-radius: 0 0 0 5px;
+  -moz-border-radius: 0 0 0 5px;
+  border-radius: 0 0 0 5px;
+  background: #F8F8F8; }
+/* line 1106, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol.ebaSideColCollapsed {
+  width: 35px !important; }
+/* line 1108, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol.ebaSideColCollapsed h2 {
+  width: 35px !important;
+  overflow: hidden;
+  height: 30px; }
+/* line 1112, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol.ebaSideColCollapsed h2 span {
+  display: none; }
+/* line 1115, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol.ebaSideColCollapsed h2 span.leftButtons {
+  display: block; }
+/* line 1118, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol.ebaSideColCollapsed h2 a.ebaTitleButton {
+  border-right: none; }
+/* line 1121, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol.ebaSideColCollapsed h2 a.ebaTitleButton img.showIcon {
+  /*					margin-left: 11px;
+  					margin-right: 16px;*/ }
+/* line 1126, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol.ebaSideColCollapsed ul {
+  width: 35px !important;
+  overflow: hidden; }
+/* line 1129, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol.ebaSideColCollapsed ul li h3 {
+  display: none; }
+/* line 1132, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol.ebaSideColCollapsed ul li a span img {
+  margin-left: 5px !important; }
+/* line 1137, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol ul.sectionList {
+  /* Give this a width so the table cell does not collapse */
+  width: 320px;
+  margin: 0;
+  padding: 0 0 10px 0;
+  list-style: none; }
+/* line 1143, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol ul.sectionList li {
+  margin: 0;
+  padding: 0;
+  clear: left; }
+/* line 1147, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol ul.sectionList li a {
+  border-bottom: 1px solid #DDD;
+  background-color: #FFF;
+  text-decoration: none;
+  color: #333;
+  text-shadow: 0 1px 0 #FFF;
+  padding: 0;
+  height: 40px;
+  display: block;
+  /*					@include multi-transition(background-color .1s linear);
+  */ }
+/* line 1157, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol ul.sectionList li a.active {
+  background-color: #c9dffc;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e5effb), color-stop(100%, #c9dffc));
+  background-image: -webkit-linear-gradient(#e5effb, #c9dffc);
+  background-image: -moz-linear-gradient(#e5effb, #c9dffc);
+  background-image: linear-gradient(#e5effb, #c9dffc);
+  border-bottom: 1px solid #7190BA;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  color: #222; }
+/* line 1163, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol ul.sectionList li a h3 {
+  float: left;
+  width: 270px;
+  margin: 0;
+  padding: 8px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font: bold 12px/12px Arial, sans-serif; }
+/* line 1172, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol ul.sectionList li a h3 em {
+  display: block;
+  font: normal 11px/12px Arial, sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+/* line 1183, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol ul.sectionList.noSubLine a {
+  height: 30px; }
+/* line 1185, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaSideCol ul.sectionList.noSubLine a h3 {
+  padding: 3px 10px;
+  font: bold 12px/24px Arial, sans-serif; }
+/* line 1192, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaMainCol div.ebaMainColContentContainer {
+  padding: 10px; }
+/* line 1195, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaMainCol div.apex-rds-container {
+  background-color: #dbdbdb;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f4f4f4', endColorstr='#dbdbdb');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#dbdbdb')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4f4f4), color-stop(100%, #dbdbdb));
+  background-image: -webkit-linear-gradient(#f4f4f4, #dbdbdb);
+  background-image: -moz-linear-gradient(#f4f4f4, #dbdbdb);
+  background-image: linear-gradient(#f4f4f4, #dbdbdb);
+  margin: 0;
+  font: bold 12px/30px Arial, sans-serif;
+  color: #444;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid #BBB;
+  position: relative;
+  padding-left: 5px;
+  border-bottom: 1px solid #aaaaaa;
+  height: 30px;
+  float: none; }
+/* line 1207, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaMainCol div.apex-rds-container ul.apex-rds {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+/* line 1211, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaMainCol div.apex-rds-container ul.apex-rds li {
+  float: left;
+  display: block;
+  padding: 5px 0; }
+/* line 1215, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaMainCol div.apex-rds-container ul.apex-rds li a {
+  background: none;
+  height: auto;
+  border: none;
+  display: block;
+  font: bold 11px/12px Arial, sans-serif;
+  float: left;
+  padding: 4px 8px;
+  text-decoration: none; }
+/* line 1224, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaMainCol div.apex-rds-container ul.apex-rds li a span {
+  font: bold 11px/12px Arial, sans-serif;
+  color: #666; }
+/* line 1228, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaMainCol div.apex-rds-container ul.apex-rds li a:hover {
+  background: none;
+  border: none; }
+/* line 1231, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaMainCol div.apex-rds-container ul.apex-rds li a:hover span {
+  color: #333 !important; }
+/* line 1237, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaMainCol div.apex-rds-container ul.apex-rds li.apex-rds-selected a, div.ebaTwoColPane div.ebaMainCol div.apex-rds-container ul.apex-rds li.apex-rds-selected a:hover {
+  color: #333;
+  background-color: #888888;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#777777', endColorstr='#888888');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#777777', endColorstr='#888888')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(100%, #888888));
+  background-image: -webkit-linear-gradient(#777777, #888888);
+  background-image: -moz-linear-gradient(#777777, #888888);
+  background-image: linear-gradient(#777777, #888888);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset; }
+/* line 1242, ../scss/eba_uniframe.scss */
+div.ebaTwoColPane div.ebaMainCol div.apex-rds-container ul.apex-rds li.apex-rds-selected a span, div.ebaTwoColPane div.ebaMainCol div.apex-rds-container ul.apex-rds li.apex-rds-selected a:hover span {
+  color: #FFF !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+
+/* =================== */
+/* = Content Regions = */
+/* =================== */
+/* Section Container */
+/* line 1257, ../scss/eba_uniframe.scss */
+div.ebaRegion {
+  margin: 0 0 10px 0; }
+/* line 1259, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 {
+  margin: 0;
+  padding: 0;
+  font: bold 14px/30px Arial, sans-serif;
+  color: #333;
+  border-bottom: 1px solid #DDD;
+  position: relative;
+  /* Collapse / Expand Control */
+  /* Buttons Container */ }
+/* line 1267, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 a.ebaRegionControl {
+  display: block;
+  float: left; }
+/* line 1270, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 a.ebaRegionControl img {
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin: 6px 6px 6px 0;
+  background: url(../img/eba_details_page_icons.png) 0 -46px no-repeat;
+  border: none; }
+/* line 1278, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 a.ebaRegionControl.ebaRegionControl img {
+  background: url(../img/eba_details_page_icons.png) 0 -28px no-repeat; }
+/* line 1283, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 span {
+  position: absolute;
+  right: 0;
+  top: 0; }
+/* line 1287, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 span a.ebaRegionLink {
+  display: block;
+  float: left;
+  margin: 6px 0 0 4px;
+  font: normal 11px/14px Arial, sans-serif;
+  text-decoration: none;
+  color: #666;
+  padding: 2px 8px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #EEE;
+  -moz-transition: "background 0.2s linear, border 0.2s linear, color 0.2s linear";
+  -webkit-transition: "background 0.2s linear, border 0.2s linear, color 0.2s linear";
+  transition: "background 0.2s linear, border 0.2s linear, color 0.2s linear"; }
+/* line 1298, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 span a.ebaRegionLink:hover {
+  border: 1px solid #BBB;
+  color: #333;
+  background-color: #F0F0F0; }
+/* line 1303, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 span a.ebaRegionLink img {
+  border: none;
+  vertical-align: baseline; }
+/* line 1307, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 span a.ebaRegionLink img.editIcon {
+  width: 9px;
+  height: 9px;
+  background: url(../img/ws_control_icons.png) -30px -9px no-repeat;
+  margin-right: 4px; }
+/* line 1313, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 span a.ebaRegionLink:hover img.editIcon {
+  background: url(../img/ws_control_icons.png) -30px 0 no-repeat; }
+/* line 1316, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 span a.ebaRegionLink.ebaTopLink {
+  padding: 3px 6px 1px 6px; }
+/* line 1319, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 span a.ebaRegionLink img.topIcon {
+  width: 9px;
+  height: 9px;
+  background: url(../img/ws_control_icons.png) -39px 0 no-repeat; }
+/* line 1324, ../scss/eba_uniframe.scss */
+div.ebaRegion h1 span a.ebaRegionLink:hover img.topIcon {
+  background: url(../img/ws_control_icons.png) -48px 0 no-repeat; }
+/* line 1330, ../scss/eba_uniframe.scss */
+div.ebaRegion div.ebaRegionContent {
+  margin: 10px 0 0 0; }
+/* line 1332, ../scss/eba_uniframe.scss */
+div.ebaRegion div.ebaRegionContent > a {
+  color: #000;
+  font: normal 12px/16px Arial, sans-serif; }
+/* line 1336, ../scss/eba_uniframe.scss */
+div.ebaRegion div.ebaRegionContent pre {
+  font: normal 11px/14px 'Menlo', 'Consolas', monospace;
+  color: #666; }
+/* line 1341, ../scss/eba_uniframe.scss */
+div.ebaRegion div.ebaTextRegion {
+  font: normal 12px/16px Arial, sans-serif; }
+/* line 1343, ../scss/eba_uniframe.scss */
+div.ebaRegion div.ebaTextRegion p {
+  margin: 0 0 10px 0;
+  font: normal 12px/16px Arial, sans-serif; }
+/* line 1347, ../scss/eba_uniframe.scss */
+div.ebaRegion div.ebaTextRegion h3, div.ebaRegion div.ebaTextRegion b {
+  margin: 0;
+  font: bold 13px/18px Arial, sans-serif;
+  color: #333; }
+/* line 1352, ../scss/eba_uniframe.scss */
+div.ebaRegion div.ebaTextRegion a {
+  color: #888; }
+/* line 1356, ../scss/eba_uniframe.scss */
+div.ebaRegion div.ebaTextRegion > ul, div.ebaRegion div.ebaTextRegion > ol {
+  margin: 10px 0 10px 25px;
+  padding: 0; }
+/* line 1360, ../scss/eba_uniframe.scss */
+div.ebaRegion div.ebaTextRegion > ul {
+  list-style: square outside; }
+/* line 1362, ../scss/eba_uniframe.scss */
+div.ebaRegion div.ebaTextRegion > ul li {
+  font: normal 12px/16px; }
+/* line 1365, ../scss/eba_uniframe.scss */
+div.ebaRegion div.ebaTextRegion > ul ul {
+  list-style: square outside;
+  margin: 2px 0 2px 20px;
+  padding: 0; }
+
+/* ==================== */
+/* = Large Icons List = */
+/* ==================== */
+/* line 1377, ../scss/eba_uniframe.scss */
+table.ebaLargeIcons {
+  padding-bottom: 4px;
+  width: 100%; }
+/* line 1380, ../scss/eba_uniframe.scss */
+table.ebaLargeIcons td {
+  vertical-align: middle;
+  text-align: center; }
+/* line 1383, ../scss/eba_uniframe.scss */
+table.ebaLargeIcons td a {
+  display: block;
+  -webkit-transition: background-color border, 0.2s;
+  -moz-transition: background-color border, 0.2s;
+  transition: background-color border, 0.2s;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0;
+  text-decoration: none;
+  border: 1px solid transparent; }
+/* line 1390, ../scss/eba_uniframe.scss */
+table.ebaLargeIcons td a:hover {
+  background-color: #F0F0F0;
+  border: 1px solid #DDD;
+  color: #333; }
+/* line 1394, ../scss/eba_uniframe.scss */
+table.ebaLargeIcons td a:hover span.iconLabel {
+  color: #333; }
+/* line 1398, ../scss/eba_uniframe.scss */
+table.ebaLargeIcons td a span.largeIcon {
+  display: block;
+  margin: 0 auto; }
+/* line 1401, ../scss/eba_uniframe.scss */
+table.ebaLargeIcons td a span.largeIcon img {
+  border: none; }
+/* line 1405, ../scss/eba_uniframe.scss */
+table.ebaLargeIcons td a span.iconLabel {
+  display: block;
+  margin: 0 auto 10px auto;
+  font: normal 13px/18px Arial, sans-sreif;
+  text-decoration: none;
+  color: #666;
+  color: rgba(0, 0, 0, 0.75); }

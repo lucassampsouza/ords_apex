@@ -1,0 +1,82 @@
+<map_data>
+ <name>nh</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-72.5538940429688" top="45.3014221191406" right="-70.7346420288086" bottom="42.6985130310059"/>
+ <regions>
+  <region>
+   <centroid lat="44.6918106079102" lon="-71.3880577087402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[33007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Coos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9624290466309" lon="-71.8455543518066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[33009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grafton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.878870010376" lon="-71.2576522827148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[33003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carroll]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5174369812012" lon="-71.4475288391113"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[33001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Belknap]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.3070316314697" lon="-71.6671676635742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[33013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Merrimack]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.3619976043701" lon="-72.1977043151855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[33019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sullivan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.3263626098633" lon="-71.0299224853516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[33017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Strafford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.0056762695313" lon="-71.0920791625977"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[33015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rockingham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9512329101563" lon="-71.6510581970215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[33011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hillsborough]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9435501098633" lon="-72.2422943115234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[33005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cheshire]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

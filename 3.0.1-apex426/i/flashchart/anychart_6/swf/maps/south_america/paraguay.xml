@@ -1,0 +1,145 @@
+<map_data>
+ <name>paraguay</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-62.6437683105469" top="-19.2994270324707" right="-54.243896484375" bottom="-27.5883369445801"/>
+ <regions>
+  <region>
+   <centroid lat="-25.3618059158325" lon="-54.8905029296875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-APA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alto Parana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.9440288543701" lon="-56.1359786987305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-AMM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amambay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.7340269088745" lon="-61.0184097290039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-BQR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boqueron]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-25.1860799789429" lon="-55.8568077087402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-CAA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caaguazu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-25.8751335144043" lon="-56.3469047546387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-GUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guaira]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-25.5465908050537" lon="-57.4829940795898"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.7985534667969" lon="-57.0591697692871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-CNC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Concepcion]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-25.273473739624" lon="-56.9787750244141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-CRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cordillera]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.1435928344727" lon="-56.0470848083496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-CAZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caazapa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.8461303710938" lon="-55.6821670532227"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-ITA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Itapua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.9258346557617" lon="-57.1055603027344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-MSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Misiones]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.5925045013428" lon="-57.8355598449707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-NMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Neembucu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.0182361602783" lon="-57.1796607971191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-PRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paraguari]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-23.7092704772949" lon="-59.0459747314453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-PHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Presidente Hayes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.1543064117432" lon="-56.6323738098145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-SPE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Pedro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-20.8994388580322" lon="-58.8786067962646"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-APR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alto Paraguay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.0574998855591" lon="-55.1465339660645"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-CNN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Canindeyu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-20.1502094268799" lon="-60.5044555664063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-CHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chaco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-21.0779094696045" lon="-61.0772914886475"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PRY-NAS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nueva Asuncion]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

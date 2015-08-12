@@ -1,0 +1,68 @@
+<map_data>
+ <name>jordan</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="34.9599990844727" top="33.3775939941406" right="39.3011093139648" bottom="29.1888885498047"/>
+ <regions>
+  <region>
+   <centroid lat="31.9561061859131" lon="35.7087478637695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JOR-ABA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Balqa']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.8141860961914" lon="35.6738014221191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JOR-ATF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[At Tafilah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.137809753418" lon="35.7852210998535"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JOR-AKA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Karak]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5629634857178" lon="37.6227760314941"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JOR-AMF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Mafraq]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.6736335754395" lon="36.7174415588379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JOR-AMM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA['Amman]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.2081279754639" lon="36.4806938171387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JOR-MAA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ma'an]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.0959777832031" lon="36.2219390869141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JOR-AZR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Az Zarqa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.4302597045898" lon="35.856273651123"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JOR-IRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Irbid]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,77 @@
+<map_data>
+ <name>nd</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+ </columns>
+ <bounds left="-104.048736" top="49.000687" right="-96.554507" bottom="45.935238"/>
+ <regions>
+  <region>
+   <centroid lat="48.176776" lon="-97.8710878857723"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[582]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.245627" lon="-101.7246105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[587]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.899732" lon="-103.999374"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[592]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8655745" lon="-100.850297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[585]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.238718" lon="-103.3939405"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[588]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.2793222643228" lon="-99.423335"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[583]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.84812" lon="-99.316025"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[584]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.809607" lon="-102.830672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[586]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8807496293984" lon="-96.874610136009"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[581]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.7165495" lon="-97.391238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[580]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.0607555" lon="-102.040775"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[576]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

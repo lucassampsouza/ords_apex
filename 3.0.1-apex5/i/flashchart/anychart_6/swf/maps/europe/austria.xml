@@ -1,0 +1,75 @@
+<map_data>
+ <name>austria</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="9.5335693359375" top="49.0188827514648" right="17.1663856506348" bottom="46.4074935913086"/>
+ <regions>
+  <region>
+   <centroid lat="47.4853763580322" lon="16.5878467559814"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT-BRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Burgenland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.762601852417" lon="13.8723087310791"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT-KRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karnten]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.2337093353271" lon="16.3909950256348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT-WIE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wien]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.1201820373535" lon="13.8731861114502"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT-OBR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oberosterreich]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.487190246582" lon="13.0157299041748"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT-SLZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salzburg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2413005828857" lon="14.8765997886658"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT-STR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Steiermark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1633262634277" lon="11.5516200065613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT-TIR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tirol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2222175598145" lon="9.8831729888916"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT-VRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vorarlberg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.2224559783936" lon="15.7590174674988"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AUT-NDR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niederosterreich]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

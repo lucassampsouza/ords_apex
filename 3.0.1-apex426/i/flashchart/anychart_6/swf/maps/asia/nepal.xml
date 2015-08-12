@@ -1,0 +1,110 @@
+<map_data>
+ <name>nepal</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="80.0552520751953" top="30.4244384765625" right="88.1949768066406" bottom="26.3672180175781"/>
+ <regions>
+  <region>
+   <centroid lat="27.7999496459961" lon="85.3541946411133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-BGM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bagmati]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.4869832992554" lon="81.7612571716309"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-BHE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bheri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.6396045684814" lon="83.5424690246582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-DHW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dhawalagiri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.3276319503784" lon="84.3785934448242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-GND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gandaki]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.3670787811279" lon="85.9476928710938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-JNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Janakpur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.5759172439575" lon="82.4417915344238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-KRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Karnali]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.170690536499" lon="87.327262878418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-KOS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kosi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.7859964370728" lon="83.5616493225098"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-LMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lumbini]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.3971748352051" lon="80.5858154296875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-MHK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mahakali]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.1418018341064" lon="87.817813873291"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-MEC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mechi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.2785482406616" lon="84.711009979248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-NRY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Narayani]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.3329610824585" lon="82.5337562561035"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-RAP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rapti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.2663841247559" lon="86.6672821044922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-SGR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sagarmatha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.2115240097046" lon="81.1519432067871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NPL-SET]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seti]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

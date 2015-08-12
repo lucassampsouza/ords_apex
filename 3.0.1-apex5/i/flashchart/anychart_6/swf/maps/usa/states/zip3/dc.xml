@@ -1,0 +1,23 @@
+<map_data>
+ <name>dc</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+ </columns>
+ <bounds left="-77.1199" top="38.99511" right="-76.909395" bottom="38.791513"/>
+ <regions>
+  <region>
+   <centroid lat="38.8462865" lon="-77.0221135"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[203]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.8933115" lon="-77.0146475"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[200]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

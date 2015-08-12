@@ -1,0 +1,138 @@
+<map_data>
+ <name>bhutan</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="88.7519378662109" top="28.3252754211426" right="92.1152648925781" bottom="26.7030487060547"/>
+ <regions>
+  <region>
+   <centroid lat="27.7246551513672" lon="90.7874946594238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-BMT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bumthang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.013689994812" lon="89.5700874328613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-CHH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chhukha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.9882249832153" lon="90.060977935791"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-CHR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chirang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.1068897247314" lon="89.8672256469727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-DAG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Daga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.9254493713379" lon="90.2924728393555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-GYL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Geylegphug]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.3223743438721" lon="89.1755447387695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-HA_]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.7304592132568" lon="91.1427993774414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-LHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lhuntshi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.2203855514526" lon="91.2297134399414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-MNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mongar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.5195207595825" lon="89.3552436828613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-PAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.0254755020142" lon="91.3511428833008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-PMG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pemagatsel]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.9279775619507" lon="89.9584045410156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-PNK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Punakha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.0995788574219" lon="89.0667572021484"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-SMC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Samchi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.9730529785156" lon="91.5354614257813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-SDJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Samdrup Jongkhar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.0928201675415" lon="90.8508834838867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-SHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shemgang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.4614362716675" lon="91.6984481811523"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-TSH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tashigang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.5787525177002" lon="89.6286964416504"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-THM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thimphu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.419189453125" lon="90.5186004638672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-TNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tongsa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.5952253341675" lon="90.0981674194336"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BTN-WNP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wangdi Phodrang]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

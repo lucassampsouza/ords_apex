@@ -1,0 +1,108 @@
+text{font-family:Arial, sans-serif;fill:#000000;}
+tspan{font-family:Arial, sans-serif;fill:#000000;}
+text.moredatafound{font-size:12px;}
+rect.legend{fill:#eeeeee;stroke:#cccccc;stroke-width:1;}
+text.legend{font-size:10px;}
+#background{fill:#ffffff;stroke:none;}
+rect.chartholderbackground{fill:#eeeeee;stroke:#cccccc;stroke-width:1;}
+
+/*dial*/
+text.tic{stroke:none;fill:#000000;font-size:10px;}
+line.tic{stroke:#000000;stroke-width:1px;fill:none;}
+#dial{stroke:#000000;stroke-width:3px;fill:#bbbbbb;fill-opacity:.5;}
+#dial.alert{fill:#FF0000;fill-opacity:.5;}
+#dialbackground{stroke:#333333;stroke-width:2px;fill:none;}
+#dialcenter{stroke:none;fill:#DDDDFF;filter:url(#MyFilter);}
+#dialbackground-border{display:none;}
+#low{stroke-width:3;stroke:#336699;}
+#high{stroke-width:3;stroke:#FF0000;}
+/*dial*/
+
+
+/*most charts*/
+#XAxisTitle{letter-spacing:2;kerning:auto;font-size:14px;fill:#000000;text-anchor:middle;}
+#YAxisTitle{letter-spacing:2;kerning:auto;font-size:14px;fill:#000000;text-anchor:middle;writing-mode:tb;}
+.XAxisValue{font-size:8px;fill:#000000;}
+.YAxisValue{font-size:8px;fill:#000000;text-anchor:end;}
+.AxisLabel{font-size:8px;fill:#000000;}
+.nodatafound{stroke:#000000;stroke-width:1;font-size:12px;}
+.AxisLine{stroke:#000000;stroke-width:2;fill:#FFFFFF;}
+.GridLine{stroke:#000000;stroke-width:0.3;stroke-dasharray:2,4;fill:none;}
+g.dataholder rect{stroke:#000000;stroke-width:0.5;}
+.legenditem rect{stroke:#000000;stroke-width:0.5;}
+/**/
+
+
+#timestamp{text-anchor:start;font-size:9px;}
+
+rect.data1 {stroke:#285577;stroke-width:0.5;fill:#FF0000;} 
+path.data1 {stroke:#FFFFFF;stroke-width:0.5;fill:#FF0000;} 
+
+rect.data13 {stroke:#285577;stroke-width:0.5;fill:#FF3300;} 
+path.data13 {stroke:#FFFFFF;stroke-width:0.5;fill:#FF3300;} 
+
+rect.data2 {stroke:#285577;stroke-width:0.5;fill:#FF6600;} 
+path.data2 {stroke:#FFFFFF;stroke-width:0.5;fill:#FF6600;} 
+
+rect.data14 {stroke:#285577;stroke-width:0.5;fill:#FF8000;} 
+path.data14 {stroke:#FFFFFF;stroke-width:0.5;fill:#FF8000;} 
+
+rect.data3 {stroke:#285577;stroke-width:0.5;fill:#FF9900;} 
+path.data3 {stroke:#FFFFFF;stroke-width:0.5;fill:#FF9900;} 
+
+rect.data15 {stroke:#285577;stroke-width:0.5;fill:#FFB200;} 
+path.data15 {stroke:#FFFFFF;stroke-width:0.5;fill:#FFB200;} 
+
+rect.data4 {stroke:#285577;stroke-width:0.5;fill:#FFCC00;} 
+path.data4 {stroke:#FFFFFF;stroke-width:0.5;fill:#FFCC00;} 
+
+rect.data16 {stroke:#285577;stroke-width:0.5;fill:#FFE500;} 
+path.data16 {stroke:#FFFFFF;stroke-width:0.5;fill:#FFE500;} 
+
+rect.data5 {stroke:#285577;stroke-width:0.5;fill:#FFFF00;} 
+path.data5 {stroke:#FFFFFF;stroke-width:0.5;fill:#FFFF00;} 
+
+rect.data17 {stroke:#285577;stroke-width:0.5;fill:#CCFF00;} 
+path.data17 {stroke:#FFFFFF;stroke-width:0.5;fill:#CCFF00;} 
+
+rect.data6 {stroke:#285577;stroke-width:0.5;fill:#99FF00;} 
+path.data6 {stroke:#FFFFFF;stroke-width:0.5;fill:#99FF00;} 
+
+rect.data18 {stroke:#285577;stroke-width:0.5;fill:#33FF00;} 
+path.data18 {stroke:#FFFFFF;stroke-width:0.5;fill:#33FF00;} 
+
+rect.data7 {stroke:#285577;stroke-width:0.5;fill:#00CC00;} 
+path.data7 {stroke:#FFFFFF;stroke-width:0.5;fill:#00CC00;} 
+
+rect.data19 {stroke:#285577;stroke-width:0.5;fill:#00B266;} 
+path.data19 {stroke:#FFFFFF;stroke-width:0.5;fill:#00B266;} 
+
+rect.data8 {stroke:#285577;stroke-width:0.5;fill:#009999;} 
+path.data8 {stroke:#FFFFFF;stroke-width:0.5;fill:#009999;} 
+
+rect.data20 {stroke:#285577;stroke-width:0.5;fill:#0066B2;} 
+path.data20 {stroke:#FFFFFF;stroke-width:0.5;fill:#0066B2;} 
+
+rect.data9 {stroke:#285577;stroke-width:0.5;fill:#0033CC;} 
+path.data9 {stroke:#FFFFFF;stroke-width:0.5;fill:#0033CC;} 
+
+rect.data21 {stroke:#285577;stroke-width:0.5;fill:#2E2EB2;} 
+path.data21 {stroke:#FFFFFF;stroke-width:0.5;fill:#2E2EB2;} 
+
+rect.data10 {stroke:#285577;stroke-width:0.5;fill:#330099;} 
+path.data10 {stroke:#FFFFFF;stroke-width:0.5;fill:#330099;} 
+
+rect.data22 {stroke:#285577;stroke-width:0.5;fill:#400099;} 
+path.data22 {stroke:#FFFFFF;stroke-width:0.5;fill:#400099;} 
+
+rect.data11 {stroke:#285577;stroke-width:0.5;fill:#660099;} 
+path.data11 {stroke:#FFFFFF;stroke-width:0.5;fill:#660099;} 
+
+rect.data23 {stroke:#285577;stroke-width:0.5;fill:#990099;} 
+path.data23 {stroke:#FFFFFF;stroke-width:0.5;fill:#990099;} 
+
+rect.data12 {stroke:#285577;stroke-width:0.5;fill:#CC0099;} 
+path.data12 {stroke:#FFFFFF;stroke-width:0.5;fill:#CC0099;} 
+
+rect.data24 {stroke:#285577;stroke-width:0.5;fill:#E50066;} 
+path.data24 {stroke:#FFFFFF;stroke-width:0.5;fill:#E50066;} 

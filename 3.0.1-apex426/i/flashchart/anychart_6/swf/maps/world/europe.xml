@@ -1,0 +1,362 @@
+<map_data>
+ <name>europe</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-27.3672256469727" top="81.8441467285156" right="68.9313659667969" bottom="34.8088836669922"/>
+ <regions>
+  <region>
+   <centroid lat="38.2786026000977" lon="23.8070793151855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greece]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.5462455749512" lon="1.60155427455902"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Andorra]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.7131881713867" lon="13.3499774932861"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Austria]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.1326332092285" lon="5.29126596450806"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Netherlands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4662437438965" lon="16.46124792099"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Croatia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.7338829040527" lon="25.4858303070068"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bulgaria]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.7098083496094" lon="27.9533891677856"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Byelarus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.915885925293" lon="17.6790761947632"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bosnia and Herzegovina]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.8174915313721" lon="15.4729614257813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Czech Republic]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.1541633605957" lon="11.6186103820801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Denmark]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="58.595272064209" lon="25.0136070251465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Estonia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.892635345459" lon="-6.91180610656738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Faroe Islands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.0740740740741" lon="16.7283950617284"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sweden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.5555555555556" lon="-3.22222222222222"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[United Kingdom]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.5038871765137" lon="4.46993517875671"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Belgium]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.7407407407407" lon="-10.1358024691358"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Portugal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.1533317565918" lon="20.1683311462402"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Albania]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.465690612793" lon="-2.58527803421021"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guernsey]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1624946594238" lon="19.5033044815063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hungary]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.9630508422852" lon="-19.0208349227905"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iceland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.2276382446289" lon="2.21374940872192"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[France]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.1512413024902" lon="14.9954633712769"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Slovenia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="70.9923400878906" lon="-8.52353048324585"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jan Mayen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.2144393920898" lon="-2.13125038146973"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jersey]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.8796348571777" lon="24.6031894683838"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Latvia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.818187713623" lon="8.22751140594482"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Switzerland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.1694374084473" lon="23.881275177002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lithuania]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.8152732849121" lon="6.12958288192749"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Luxembourg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6086349487305" lon="21.7452754974365"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Macedonia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.9374961853027" lon="14.375415802002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.1728395061728" lon="-8.16049382716049"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ireland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.9194374084473" lon="19.1451363563538"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Poland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.7502975463867" lon="7.41284084320068"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Monaco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.7025527954102" lon="19.4180526733398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montenegro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.1656913757324" lon="10.4515266418457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Germany]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.5308641975309" lon="9.32098765432099"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norway]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.9135802469136" lon="44.5802469135802"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Russia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.2345679012346" lon="-3.02469135802469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Spain]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.9431610107422" lon="24.966760635376"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Romania]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.7160493827161" lon="30.8518518518519"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ukraine]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9423599243164" lon="12.4577770233154"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Marino]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0186080932617" lon="20.9110088348389"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Serbia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.6690254211426" lon="19.6990242004395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Slovakia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.871940612793" lon="12.5673794746399"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Italy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.1377410888672" lon="-5.34537434577942"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gibraltar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="77.5536041259766" lon="23.6702718734741"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Svalbard]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.6543209876543" lon="26.4074074074074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Finland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1660003662109" lon="9.55537366867065"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Liechtenstein]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9584846496582" lon="28.3841114044189"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moldova]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.2361068725586" lon="-4.54805612564087"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Man, Isle of]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

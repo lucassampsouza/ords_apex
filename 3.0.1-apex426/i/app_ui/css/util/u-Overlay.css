@@ -1,0 +1,29 @@
+/* line 1, ../../scss/util/u-Overlay.scss */
+.u-Overlay {
+  background-color: #000000;
+  opacity: 0.15;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 9, ../../scss/util/u-Overlay.scss */
+.u-Overlay--quickEdit {
+  position: fixed;
+  z-index: 8000;
+}
+
+/* line 13, ../../scss/util/u-Overlay.scss */
+.u-Overlay--processing {
+  position: absolute;
+  z-index: 1000;
+}
+
+/* line 17, ../../scss/util/u-Overlay.scss */
+.u-Overlay--glass {
+  position: fixed;
+  background-color: transparent;
+  opacity: 1;
+  z-index: 1000;
+}

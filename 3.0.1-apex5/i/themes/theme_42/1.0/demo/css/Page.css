@@ -1,0 +1,22 @@
+.dm-Page .t-Body-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 0; }
+.dm-Page .t-Body-title .apex-rds {
+  text-align: center; }
+.dm-Page .t-Footer {
+  display: none; }
+
+.dm-Page--center form#wwvFlowForm {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }

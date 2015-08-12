@@ -1,0 +1,25 @@
+/* line 1, ../../scss/5.0/Menu.scss */
+.a-Menu-item .a-Menu-subMenuCol {
+  padding: 4px 4px 4px 0;
+  height: 24px;
+}
+
+/* line 6, ../../scss/5.0/Menu.scss */
+.a-Menu button.a-Menu-label {
+  line-height: 24px;
+}
+
+/* line 10, ../../scss/5.0/Menu.scss */
+.a-Menu-content .a-Menu-statusCol {
+  padding: 4px 8px;
+}
+
+/* line 14, ../../scss/5.0/Menu.scss */
+.a-Menu .a-Menu-item {
+  line-height: 24px;
+}
+
+/* line 18, ../../scss/5.0/Menu.scss */
+.a-Menu-content {
+  padding: 4px 0;
+}

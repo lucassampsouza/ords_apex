@@ -1,0 +1,106 @@
+/**
+ * Import Compass
+ */
+/* ==========================================================================
+   Breadcrumb
+   ========================================================================== */
+.t-Breadcrumb {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: all 0.2s;
+  vertical-align: top; }
+  .t-Breadcrumb:empty {
+    display: none; }
+
+.t-Breadcrumb-item {
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  vertical-align: top; }
+  .t-Breadcrumb-item:after {
+    content: '/';
+    margin-left: 8px;
+    margin-right: 6px; }
+  .t-Breadcrumb-item:last-child:after {
+    display: none; }
+
+.t-Breadcrumb-item .t-Icon {
+  font-size: 1.4rem;
+  line-height: 16px; }
+
+.t-Breadcrumb--hideLast .t-Breadcrumb-item:last-child {
+  display: none; }
+
+.t-BreadcrumbRegion--useBreadcrumbTitle .t-Breadcrumb-item:last-child {
+  display: block;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  text-overflow: ellipsis;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  position: relative; }
+  .t-BreadcrumbRegion--useBreadcrumbTitle .t-Breadcrumb-item:last-child .t-Breadcrumb-label {
+    overflow: hidden;
+    display: block; }
+
+.t-BreadcrumbRegion-body, .t-BreadcrumbRegion-buttons, .t-Breadcrumb-item, .apex-rds-container {
+  transition: all 0.2s; }
+
+@media only screen and (min-width: 641px) {
+  .t-Body-title-shrink .t-BreadcrumbRegion-body {
+    padding-bottom: 12px;
+    padding-top: 12px; }
+  .t-Body-title-shrink .t-BreadcrumbRegion-buttons {
+    padding: 0px;
+    padding-bottom: 8px;
+    padding-right: 12px; }
+    .js-rightCollapsed .t-Body-title-shrink .t-BreadcrumbRegion-buttons, .js-rightExpanded .t-Body-title-shrink .t-BreadcrumbRegion-buttons {
+      padding-right: 50px; }
+  .t-Body-title-shrink .t-Breadcrumb-item {
+    display: inline; }
+  .t-Body-title-shrink .t-BreadcrumbRegion--useBreadcrumbTitle .t-Breadcrumb-item:last-child {
+    height: auto;
+    display: inline;
+    position: relative;
+    overflow: visible;
+    font-size: 1.4rem;
+    line-height: 2.4rem; }
+    .t-Body-title-shrink .t-BreadcrumbRegion--useBreadcrumbTitle .t-Breadcrumb-item:last-child .t-Breadcrumb-label {
+      font-weight: bold;
+      height: auto;
+      display: inline; }
+ }
+
+@media only screen and (max-width: 640px) {
+  .t-BreadcrumbRegion-body {
+    padding-bottom: 12px;
+    padding-top: 12px; }
+
+  .t-BreadcrumbRegion-buttons {
+    padding: 0px;
+    padding-bottom: 8px;
+    padding-right: 12px; }
+    .js-rightCollapsed .t-BreadcrumbRegion-buttons, .js-rightExpanded .t-BreadcrumbRegion-buttons {
+      padding-right: 50px; }
+
+  .t-Breadcrumb-item {
+    display: inline; }
+
+  .t-BreadcrumbRegion--useBreadcrumbTitle .t-Breadcrumb-item:last-child {
+    height: auto;
+    display: inline;
+    position: relative;
+    overflow: visible;
+    font-size: 1.4rem;
+    line-height: 2.4rem; }
+    .t-BreadcrumbRegion--useBreadcrumbTitle .t-Breadcrumb-item:last-child .t-Breadcrumb-label {
+      font-weight: bold;
+      height: auto;
+      display: inline; }
+ }
+
+.no-anim .t-MenuBar {
+  height: 40px !important; }
+  .no-anim .t-MenuBar ul {
+    display: none; }

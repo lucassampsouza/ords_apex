@@ -1,0 +1,35 @@
+/** 
+ * Import Compass
+ */
+/* ==========================================================================
+   Search Results
+   ========================================================================== */
+.t-SearchResults-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.t-SearchResults-item {
+  display: block;
+  margin-bottom: 24px; }
+  .t-SearchResults-item:last-child {
+    margin-bottom: 12px; }
+
+.t-SearchResults-title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin: 0; }
+
+.t-SearchResults-info {
+  margin-top: 4px;
+  font-size: 1.4rem;
+  line-height: 2rem; }
+
+.t-SearchResults-desc {
+  margin: 0 0 4px 0; }
+
+.t-SearchResults-misc {
+  display: block;
+  font-size: 1.2rem;
+  line-height: 1.6rem; }

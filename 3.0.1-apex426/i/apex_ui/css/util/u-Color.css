@@ -1,0 +1,338 @@
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+ Layout utilities
+ ========================================================================== */
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--1 {
+  background-color: #5856D6;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--1 {
+  color: #5856D6;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--2 {
+  background-color: #007aff;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--2 {
+  color: #007aff;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--3 {
+  background-color: #34aadc;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--3 {
+  color: #34aadc;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--4 {
+  background-color: #5ac8fa;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--4 {
+  color: #5ac8fa;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--5 {
+  background-color: #4cd964;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--5 {
+  color: #4cd964;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--6 {
+  background-color: #ff2d55;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--6 {
+  color: #ff2d55;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--7 {
+  background-color: #ff3b30;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--7 {
+  color: #ff3b30;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--8 {
+  background-color: #ff9500;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--8 {
+  color: #ff9500;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--9 {
+  background-color: #ffcc00;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--9 {
+  color: #ffcc00;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--10 {
+  background-color: #8e8e93;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--10 {
+  color: #8e8e93;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--11 {
+  background-color: #7977de;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--11 {
+  color: #7977de;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--12 {
+  background-color: #3394ff;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--12 {
+  color: #3394ff;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--13 {
+  background-color: #5cbbe3;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--13 {
+  color: #5cbbe3;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--14 {
+  background-color: #7bd3fb;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--14 {
+  color: #7bd3fb;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--15 {
+  background-color: #6fe083;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--15 {
+  color: #6fe083;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--16 {
+  background-color: #ff5777;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--16 {
+  color: #ff5777;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--17 {
+  background-color: #ff6259;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--17 {
+  color: #ff6259;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--18 {
+  background-color: #ffaa33;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--18 {
+  color: #ffaa33;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--19 {
+  background-color: #ffd633;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--19 {
+  color: #ffd633;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--20 {
+  background-color: #a4a4a8;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--20 {
+  color: #a4a4a8;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--21 {
+  background-color: #4f4dc0;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--21 {
+  color: #4f4dc0;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--22 {
+  background-color: #006de5;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--22 {
+  color: #006de5;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--23 {
+  background-color: #2e99c6;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--23 {
+  color: #2e99c6;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--24 {
+  background-color: #51b4e1;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--24 {
+  color: #51b4e1;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--25 {
+  background-color: #44c35a;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--25 {
+  color: #44c35a;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--26 {
+  background-color: #e5284c;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--26 {
+  color: #e5284c;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--27 {
+  background-color: #e5352b;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--27 {
+  color: #e5352b;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--28 {
+  background-color: #e58600;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--28 {
+  color: #e58600;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--29 {
+  background-color: #e5b700;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--29 {
+  color: #e5b700;
+}
+
+/* line 12, ../../scss/util/u-Color.scss */
+.u-ColorBG--30 {
+  background-color: #7f7f84;
+}
+
+/* line 16, ../../scss/util/u-Color.scss */
+.u-ColorFG--30 {
+  color: #7f7f84;
+}

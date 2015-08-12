@@ -1,0 +1,229 @@
+<map_data>
+ <name>brazil</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-74.0077819824219" top="5.27361106872559" right="-34.7925033569336" bottom="-33.70361328125"/>
+ <regions>
+  <region>
+   <centroid lat="-2.37541699409485" lon="-56.706672668457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-LT1]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Litigated Zone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.85194492340088" lon="-41.0590324401855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-LT2]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Litigated Zone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.32694482803345" lon="-39.3252372741699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-CEA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ceara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.4115526676178" lon="-41.3736152648926"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-LT4]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Litigated Zone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.13158988952637" lon="-70.3252868652344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-ACR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Acre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.66342449188232" lon="-36.6923637390137"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-ALG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alagoas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.69620513916016" lon="-45.2799987792969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-MRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maranhao]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.80458426475525" lon="-65.0857009887695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-AMZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amazonas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.4282188415527" lon="-41.9977836608887"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-BAH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bahia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.87763905525208" lon="-41.2463912963867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-LT3]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Litigated Zone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.9785947799683" lon="-49.5700035095215"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-GOI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Goias]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.5856456756592" lon="-35.8620853424072"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-ESA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Espirito Santo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-20.6194438934326" lon="-54.5411491394043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-MGD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mato Grosso do Sul]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.8295841217041" lon="-43.1962509155273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-PIA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Piaui]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-12.6886134147644" lon="-55.9238929748535"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-MGR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mato Grosso]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.7659740447998" lon="-47.7935256958008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-DFD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Distrito Federal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.6447229385376" lon="-52.5299377441406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-PAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Para]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.1511116027832" lon="-36.7705574035645"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-PAA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paraiba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-27.6672248840332" lon="-51.1049346923828"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-SCT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Catarina]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.60722172260284" lon="-52.3269996643066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-AMA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amapa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.0675582885742" lon="-42.9129219055176"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-RDJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rio de Janeiro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.41041684150696" lon="-35.498893737793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-RGN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rio Grande do Norte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-30.4109764099121" lon="-53.6533088684082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-RGS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rio Grande do Sul]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-10.8419284820557" lon="-63.3413963317871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-RND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rondonia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.9235577583313" lon="-61.8368339538574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-ROR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roraima]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.6159725189209" lon="-51.3498268127441"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-PAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Parana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.5474586486816" lon="-48.6589813232422"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-SPA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sao Paulo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-10.5529184341431" lon="-37.3251914978027"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-SRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sergipe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.5715293884277" lon="-45.4418067932129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-MGE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Minas Gerais]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-8.37861204147339" lon="-38.0858345031738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-PRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pernambuco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.2382435798645" lon="-48.2504196166992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BRA-TCN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tocantins]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

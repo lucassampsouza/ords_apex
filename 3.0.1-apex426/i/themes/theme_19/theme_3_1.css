@@ -1,0 +1,137 @@
+/*tag defaults*/
+*{font-size:9pt;font-family: arial, helvetica, sans-serif;}
+body{background-color:#efefef;font-family: arial, helvetica, sans-serif;margin:0;padding:0;}
+td,body,p,div,span{font-family: arial, helvetica, sans-serif;color:#000;}
+a:link,a:visited{color:#00f;}
+a:active,a:hover{color:#f00;}
+ul{list-style-type:circle;}
+img{border:none;}
+
+/* used to preserve 3.1 and 3.2 block display behavior */
+fieldset.checkbox_group, fieldset.datepicker, fieldset.lov, fieldset.radio_group, fieldset.textarea, fieldset.shuttle, fieldset.colorpicker, fieldset.html_editor, fieldset.listmanager {
+  display:block;
+}
+
+#t19Content{background-color:#fff;padding:2px;border-top:2px solid #000;border-bottom:2px solid #000;}
+#t19PageHeader{background-color:#ccc;font-size:1.1em;font-weight:bold;padding:2px;border-bottom:2px solid #000;}
+#t19ParentTabs{border-top:2px solid #fff;border-bottom:2px solid #fff;}
+#t19ParentTabs,#t19Tabs{text-align:left;white-space:nowrap;}
+#t19ParentTabs a,#t19Tabs a{margin:3px 6px;}
+.t19Breadcrumbs{padding:2px;}
+#t19NavBar{background-color:#ccc;padding:5px 0;}
+#t19NavBar a{margin:2px;}
+/* Regions */
+.t19Region{margin:2px;}
+.t19H{border-bottom:1px solid #000;font-weight:bold;}
+.t19B{padding:2px;}
+.RH td{border-bottom:1px solid #000;}
+.RA td.alt{background:#ccc;}
+/* calendar */
+.t19CalenderHolder .t19MonthTitle{background-color:#CCCCCC;text-align:center;font-weight:700;color:#FFFFFF;border:1px solid #808080;padding:2px;}
+.t19CalenderHolder .t19MonthBody{border-left:1px solid #808080;}
+.t19Calender .t19DayTitle{border-bottom:1px solid #FFFFFF;background-color:#FFFFFF;}
+.t19Calender td{border-right:1px solid #808080;border-bottom:1px solid #808080;width:30px;height:30px;}
+.t19Calender .t19Day{vertical-align:top;background-color:#FFFFFF;}
+.t19Calender .t19DayOfWeek{background-color:#EFEFEF;}
+.t19Calender .t19NonDayTitle{color:#808080;border-bottom:1px solid #EFEFEF;background-color:#EFEFEF;}
+.t19Calender .t19NonDay{color:#808080;background-color:#EFEFEF;}
+.t19Calender .t19WeekendDayTitle{color:#000000;border-bottom:1px solid #CCCCCC;background-color:#CCCCCC;}
+.t19Calender .t19WeekendDay{color:#000000;background-color:#CCCCCC;}
+.t19Calender .t19Today{font-weight:bold;vertical-align:top;background-color:#FDF9CE;;}
+.t19Calender .t19Today .t19DayTitle{border-bottom:1px solid #FDF9CE;background-color:#FDF9CE;}
+.t19nobullets{list-style-type:none;}
+/* Lists */
+.t19VList{}
+.t19HList{}
+.t19HList a , .t19HList span{margin:2px 5px;}
+td.t19current a,div.t19current a,li.t19current a,.t19current,a.t19current{font-weight:bold;color:#000;text-decoration:none;}
+.t19VList div{text-align:center;}
+.t19HList td{text-align:center;}
+.t19Report{border:1px solid #000;}
+.t19Report td{padding:2px;}
+.t19Report th{padding:2px;border-bottom:1px solid #000;background-color:#ccc;}
+table.RHB{border:none;}
+table.RHB td{border-bottom:1px solid #000;}
+table.RBL{border:none;}
+table.RBL th{border:none;background-color:none;}
+table.RAR td.alt{background-color:#efefef;}
+
+
+body .a-DevToolbar button span {
+    color: inherit;
+}
+/*==========  APEX 5.0 Core Overrides  ==========*/
+body .a-IRR-container button.a-Button span,
+body .a-DevToolbar button span,
+body .a-IRR-dialogTable button span {
+    padding: 0;
+}
+body .a-IRR-dialogTable th,
+body .a-IRR-dialogTable td {
+    white-space: nowrap;
+}
+body .a-IRR-container button.a-Button span {
+    display: inline-block;
+}
+.a-DevToolbar button span {
+    display: inline-block;
+}
+body .a-IRR-container {
+    margin-right: 8px;
+    overflow: hidden;
+}
+
+/*==========  APEX 5.0 IRR Core Overrides  ==========*/
+body .a-IRR-fullView,
+body .a-IRR-reportView {
+    float: left;
+}
+body .a-IRR-toolbar--singleRow + .a-IRR-content {
+    background-color: #FFF;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    margin-bottom: 8px;
+}
+body .a-IRR-buttons,
+body .a-IRR-controls {
+    display: block;
+    float: left;
+}
+body .a-IRR-buttons {
+    margin-left: 8px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+body .a-IRR {
+    border-width: 0;
+}
+body .a-IRR-table {
+    width: auto;
+    border: 1px solid #D0D0D0;
+}
+body .a-IRR-toolbar {
+    display: block;
+    float: left;
+    width: auto;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    border-collapse: separate;
+
+    border: 1px solid #B0B0B0;
+    background-color: #F8F8F8;
+}
+body .a-IRR {
+ border: none;
+}
+body .a-IRR-paginationWrap--bottom {
+    border-top-width: 0;
+}
+body .a-IRR-table td,
+body .a-IRR-singleRow-name,
+body .a-IRR-singleRow-value {
+    padding: 4px 8px;
+}
+body .a-IRR-headerLink, .a-IRR-headerLabel {
+    padding: 8px;
+    white-space: nowrap;
+}

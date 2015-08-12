@@ -1,0 +1,61 @@
+<map_data>
+ <name>costa_rica</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-85.9113922119141" top="11.2136096954346" right="-82.5614013671875" bottom="8.02566909790039"/>
+ <regions>
+  <region>
+   <centroid lat="9.17894554138184" lon="-83.9688186645508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CRI-PNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Puntarenas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.80178213119507" lon="-83.6777191162109"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CRI-CRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cartago]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.4512519836426" lon="-84.8001403808594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CRI-ALJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alajuela]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.3705787658691" lon="-83.9550399780273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CRI-HER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Heredia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.99398517608643" lon="-83.2521362304688"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CRI-LIM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Limon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.63235950469971" lon="-84.0107040405273"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CRI-SJO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Jose]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.4704790115356" lon="-85.3375091552734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CRI-GNC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guanacaste]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

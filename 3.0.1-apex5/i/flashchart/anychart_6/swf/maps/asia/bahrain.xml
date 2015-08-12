@@ -1,0 +1,89 @@
+<map_data>
+ <name>bahrain</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="50.4530487060547" top="26.2888870239258" right="50.8224945068359" bottom="25.5719413757324"/>
+ <regions>
+  <region>
+   <centroid lat="25.663330078125" lon="50.7820777893066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BHR-JHW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Juzur Hawar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.2149963378906" lon="50.5786380767822"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BHR-AMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Manamah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.2668037414551" lon="50.629581451416"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BHR-AMH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Muharraq]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.2179975509644" lon="50.5203628540039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BHR-JHF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jidd Hafs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.9831161499023" lon="50.5650100708008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BHR-ARM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ar Rifa wa al Mintaqah al Janubiyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.1052598953247" lon="50.5130405426025"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BHR-MHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madinat Hamad]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.2043924331665" lon="50.4781684875488"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BHR-AMS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Mintaqah ash Shamaliyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.1656055450439" lon="50.558614730835"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BHR-MIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madinat Isa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.1676149368286" lon="50.5400638580322"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BHR-AMW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Mintaqah al Wusta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.1207237243652" lon="50.6004867553711"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BHR-STR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sitrah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.003927230835" lon="50.513988494873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BHR-AMG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Mintaqah al Gharbiyah]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

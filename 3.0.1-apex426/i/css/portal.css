@@ -1,0 +1,118 @@
+<STYLE TYPE="text/css">
+<!--//
+
+.betastuff { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; text-decoration: none }
+.bodylink {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 12pt; color: #666633; text-decoration: underline }
+.bodylinkitali {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-style: italic; line-height: 12pt; color: #666633; text-decoration: underline }
+.bodycopy { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 12pt; color: #000000 ; text-decoration: none }
+.boldbodycopy { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-style: bold; line-height: 12pt; font-weight: 700; color: #000000 ; text-decoration: none }
+.italicbodycopy { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-style: italic; line-height: 12pt; color: #000000 ; text-decoration: none }
+.ITALICiBodycopy { font-family: Times New Roman,Times, serif; font-size: 10pt; font-style: italic; line-height: 12pt; color: #000000 ; text-decoration: none }
+.bulletbodycopy { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 12pt; color: #000000 ; text-decoration: none }
+.bullets { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 12pt%; font-weight: bold; color: #336699; text-decoration: none }
+.gsrnavlinkb { font-family: arial, helvetica, sans-serif; font-size: 12pt; line-height: 15pt; font-weight: bold; color: #336699; text-decoration: underline } 
+.gsrnavlinky { font-family: arial, helvetica, sans-serif; font-size: 12pt; line-height: 15pt; font-weight: bold; color: #CCCC99; text-decoration: underline } 
+.otherfeatnews { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #000000; text-decoration: none }
+.icontext {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; text-decoration: none}
+.countries {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; text-align: center}
+.legalese {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000}
+.navhead {  font-family: Arial, Helvetica, sans-serif; font-size: 13pt; font-weight: bold; color: #000000; text-decoration: none }
+.navlink { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; color: #000000; line-height: 12pt; text-decoration: none }
+.fullstory {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #336699; text-decoration: underline; line-height: 120% }
+.parahead1 { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; line-height: 15pt; font-weight: 700; color: #000000 ; text-decoration: none }
+.parahead1Itali { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; font-style: italic; line-height: 15pt; font-weight: 700; color: #000000 ; text-decoration: none }
+.parahead2 { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; line-height: 15pt; font-weight: 700; color: #336699; text-decoration: none }
+.parahead2Itali { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; font-style: italic; line-height: 15pt; font-weight: 700; color: #336699; text-decoration: none }
+.tablink { font-family: Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000; text-decoration: none }
+.topstoryItali { font-family: Arial, Helvetica, sans-serif; font-size: 15pt; font-style: italic; line-height: 17pt; color: #000000 ; text-decoration: none }
+.topstoryhead { font-family: Arial, Helvetica, sans-serif; font-size: 15pt; line-height: 17pt; color: #000000; font-weight: 700; text-decoration: none }
+UL {list-style: square outside; font-size: 50%}
+
+
+
+.BODY {font-family : Arial, Helvetica, Sans-Serif;}
+.TD {font-family : Arial, Helvetica, Sans-Serif;}
+.TITLES {  font-family: Arial, Helvetica, sans-serif; font-size: 180%; font-style: normal; font-weight: bolder; color: #000000;}
+.SUBTITLES {  font-family: Arial, Helvetica, sans-serif; font-size: 110%; font-style: normal; font-weight: bolder; color: #336699;}
+.REDTITLES {  font-family: Arial, Helvetica, sans-serif; font-size: 180%; font-style: normal; font-weight: bolder; color: #000000;}
+.GREYTITLES {  font-family: Arial, Helvetica, sans-serif; font-size: 180%; font-style: normal; font-weight: bolder; color: #336699;}
+.REDSUBTITLES {  font-family: Arial, Helvetica, sans-serif; font-size: 110%; font-style: normal; font-weight: bolder; color: #000000;}
+.GREYSUBTITLES {  font-family: Arial, Helvetica, sans-serif; font-size: 110%; font-style: normal; font-weight: bolder; color: #336699;}
+.topNavItem {font-family : Arial, Helvetica, Sans-serif; font-size : 12px; font-weight : bold; color : black; text-decoration : none; visited : black;}
+.portletTitle {font-family : Arial, Helvetica, Sans-serif; font-size : 10pt; font-weight : 700; color : white; text-decoration : none;}
+
+
+.SearchRowItem { COLOR: black;font-weight: normal;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 60%;TEXT-DECORATION: none }
+.OffTab { COLOR: black;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 9pt;TEXT-DECORATION: none }
+.OnTab { COLOR: white;font-weight: bold;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 9pt;TEXT-DECORATION: none }
+.Crumb { COLOR: white;font-weight: lighter;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 8pt;TEXT-DECORATION: none }
+.Welcome  { COLOR: white;font-weight: bold;FONT-FAMILY: Arial, Helvetica, sans-serif;FONT-SIZE: 9pt;TEXT-DECORATION: none }
+.WelcomeOption { font-family: Arial, Helvetica;font-size: 8pt;color: #336699;font-weight: bold; }
+
+
+
+.PortletHeaderColor { background-color: #336699; } 
+.RegionNoBorder{} .RegionBorder { border: #336699 1px solid } 
+.PageColor { background-color: #FFFFFF; }
+.PageBgImage { } 
+.PageBg { background-color: #FFFFFF; } 
+.LeftCurve { background-image: url(http://www.my.oracle.com/images/FFFFFFl.gif); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; } 
+.RightCurve{ background-image: url(http://www.my.oracle.com/images/FFFFFFr.gif); background-repeat: no-repeat; background-position: right top; background-attachment: scroll; } 
+.PortletBodyColor { background-color: #FFFFFF; }
+.RegionHeaderColor { background-color: #FFFFFF; border: #336699 0px solid }
+.PortletSubheaderColor { background-color: #EEEEDD; } 
+.PortletHeaderText { font-family: Arial, Helvetica; font-size: 10pt; color: #FFFFFF; font-weight: bold ; }
+.PortletHeaderLink { font-family: Arial, Helvetica; font-size: 8pt; color: #336699; } .PortletSubHeaderText { font-family: Arial, Helvetica; font-size: 9pt; color: #000000; }
+.PortletSubHeaderLink { font-family: Arial, Helvetica; font-size: 9pt; color: #000000; } 
+.PortletHeading1 { font-family: Arial, Helvetica; font-size: 9pt; color: #336699; font-weight: bold ; } 
+.PortletText1 { font-family: Arial, Helvetica; font-size: 9pt; color: #000000; }
+.PortletHeading2 { font-family: Arial, Helvetica; font-size: 8pt; color: #336699; font-weight: bold ; } 
+.PortletText2 { font-family: Arial, Helvetica; font-size: 8pt; color: #000000; } 
+.PortletHeading3 { font-family: Arial, Helvetica; font-size: 7pt; color: #336699; font-weight: bold ; } 
+.PortletText3 { font-family: Arial, Helvetica; font-size: 7pt; color: #000000; } 
+.PortletHeading4 { font-family: Arial, Helvetica; font-size: 6pt; color: #336699; font-weight: bold ; } 
+.PortletText4 { font-family: Arial, Helvetica; font-size: 6pt; color: #000000; } 
+.BannerColor { background-color: #FFFFFF; }
+.BannerGreeting { font-family: Arial, Helvetica; font-size: 16pt; color: #336699; font-weight: bold ; } 
+.BannerTitle { font-family: Arial, Helvetica; font-size: 16pt; color: #336699; font-weight: bold ; }
+.BannerLink { font-family: Arial, Helvetica; font-size: 8pt; color: #000000; } 
+.BannerSecondaryLink { font-family: Arial, Helvetica; font-size: 8pt; color: #000000; }
+.BannerSecondaryText { font-family: Arial, Helvetica; font-size: 8pt; color: #000000; }
+.TabForegroundColor { background-color: #336699; } .TabForegroundText { font-family: Arial, Helvetica; font-size: 10pt; color: #FFFFFF; font-weight: bold ; } .TabBackgroundColor { background-color: #CCCC99; } 
+.TabBackgroundText { font-family: Arial, Helvetica; font-size: 9pt; color: #003366; text-decoration: none; } 
+.SubTabBgText{ font-family: Arial, Helvetica; font-size: 9pt; color: #CCCC99; font-weight: bold ;text-decoration: none; }
+.LeftTabBgSlant { background-image: url(http://www.my.oracle.com/images/FFFFFFtl.gif); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-color: #CCCC99; }
+.LeftTabForeSlant { background-image: url(http://www.my.oracle.com/images/FFFFFFtl.gif); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-color: #336699; }
+.LeftSubTab { background-image: url(http://www.my.oracle.com/images/FFFFFFsl.gif); background-repeat: no-repeat; background-position: left top; background-attachment: scroll; background-color: #336699; } 
+.RightTabBgCurve{ background-image: url(http://www.my.oracle.com/images/FFFFFFtr.gif); background-repeat: no-repeat; background-position: right top; background-attachment: scroll; background-color: #CCCC99; }
+.RightTabForeCurve{ background-image: url(http://www.my.oracle.com/images/FFFFFFtr.gif); background-repeat: no-repeat; background-position: right top; background-attachment: scroll; background-color: #336699; } 
+.RightSubTab{ background-image: url(http://www.my.oracle.com/images/FFFFFFsr.gif); background-repeat: no-repeat; background-position: right top; background-attachment: scroll; background-color: #336699; } 
+
+
+div.regioninfo1{z-index:3;
+      background-color:#ffffff;
+      padding:2px;
+      width:1%;
+      position:relative;
+      clear:right;
+      font-size:12pt;
+      font-weight:bold;
+      color:#336699;
+      margin-top:4px;}
+      
+div.regioninfo2{width:98%;
+      padding:4px;
+      padding-top: 12px;
+      font-size:9pt;
+      position:relative;
+      top:-10px;
+      left:-8px;
+      z-index:2;
+      border:1px #cccc99 dashed;
+      color:#336699;
+      }
+
+//-->
+</STYLE>
+
+

@@ -1,0 +1,322 @@
+/******************************************************************************
+
+File Name:    aPageDesigner.scss
+Purpose:      APEX 5.0 Page Designer CSS
+
+
+Outline:
+  1. General Structure
+  2. Common Elements
+  3. Property Editor Module
+
+******************************************************************************/
+/******************************************************************************
+Import Relevant SCSS Config
+******************************************************************************/
+/******************************************************************************
+2.0  Page Designer Skeleton
+******************************************************************************/
+/* line 29, ../../scss/core/PageDesigner.scss */
+.a-PageDesigner #sp_main_content {
+  transition: opacity .4s;
+}
+/* line 32, ../../scss/core/PageDesigner.scss */
+.a-PageDesigner.is-processing #sp_main_content {
+  opacity: .25;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 68, ../../scss/core/PageDesigner.scss */
+#a-PageDesignerSplitter {
+  width: 100%;
+}
+
+/* line 72, ../../scss/core/PageDesigner.scss */
+#a-PageDesignerSplitter,
+#a-PageDesigner-EditorsSplitter,
+#a-PageDesigner-MainColSplitter {
+  height: 900px;
+  overflow: hidden;
+}
+
+/* line 78, ../../scss/core/PageDesigner.scss */
+#a-PageDesigner-GridLayoutSplitter {
+  height: 900px;
+  overflow: hidden;
+}
+
+/******************************************************************************
+2.2  Column Header and Heading
+******************************************************************************/
+/* line 90, ../../scss/core/PageDesigner.scss */
+.a-PageColumn-heading {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-clip: padding-box;
+}
+
+/******************************************************************************
+Inline Styles from P4500 -- TODO: Refactor into proper CSS
+******************************************************************************/
+/* xxx begin placeholder text editor styles */
+/* line 104, ../../scss/core/PageDesigner.scss */
+#codeEditorTitle {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 4px 0 4px;
+  color: #404040;
+}
+/* line 109, ../../scss/core/PageDesigner.scss */
+#codeEditorTitle .CodeMirror {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* xxx end placeholder text editor styles */
+/* xxx begin pe styles to move */
+/* line 119, ../../scss/core/PageDesigner.scss */
+.a-Property.js-showAll, .a-PropertyEditor-propertyGroup.js-showAll {
+  display: none;
+}
+
+/* line 123, ../../scss/core/PageDesigner.scss */
+.a-PropertyEditor.js-showAll .a-Property.js-showAll, .a-PropertyEditor.js-showAll .a-PropertyEditor-propertyGroup.js-showAll {
+  display: block;
+}
+
+/* xxx end pe styles to move */
+/* line 128, ../../scss/core/PageDesigner.scss */
+.a-GridLayout-grid.first {
+  border-top: 0;
+}
+
+/* line 132, ../../scss/core/PageDesigner.scss */
+.a-GridLayout-grid thead td, .a-GridLayout-grid.is-active thead td {
+  height: 0;
+  border: 0;
+  padding: 0 !important;
+}
+
+/* line 138, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--conditional > h3 .a-GridLayout-label {
+  font-style: italic;
+}
+
+/* line 142, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z75 {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* line 146, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z75 .a-GridLayout-page > h3 {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+/* line 150, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z75 .a-GridLayout-region > h3 .a-GridLayout-label {
+  font-size: 8px;
+}
+
+/* line 153, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z75 .a-GridLayout-label {
+  font-size: 8px;
+}
+
+/* line 157, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z100 {
+  width: 100%;
+}
+
+/* xxx todo 125 */
+/* line 163, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z150 {
+  width: 200%;
+}
+
+/* line 166, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z150 .a-GridLayout-page > h3 {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* line 170, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z150 .a-GridLayout-region > h3 .a-GridLayout-label {
+  font-size: 14px;
+}
+
+/* line 173, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z150 .a-GridLayout-label {
+  font-size: 12px;
+}
+
+/* xxx todo 175 */
+/* line 179, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z200 {
+  width: 200%;
+}
+
+/* line 182, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z200 .a-GridLayout-page > h3 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* line 186, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z200 .a-GridLayout-region > h3 .a-GridLayout-label {
+  font-size: 16px;
+}
+
+/* line 189, ../../scss/core/PageDesigner.scss */
+.a-GridLayout--z200 .a-GridLayout-label {
+  font-size: 14px;
+}
+
+/* xxx end gridlayout styles to move */
+/* xxx end tree styles */
+/* line 343, ../../scss/core/PageDesigner.scss */
+#editorDlg-codeEditor {
+  height: 400px;
+}
+
+/* xxx todo move this utility class to a proper place, rename if needed */
+/* line 348, ../../scss/core/PageDesigner.scss */
+.u-ScrollingViewport {
+  overflow: auto;
+}
+
+/* line 352, ../../scss/core/PageDesigner.scss */
+#sp_main {
+  overflow: hidden;
+}
+
+/* line 355, ../../scss/core/PageDesigner.scss */
+#sp_main, #sp_right, #sp_middle, #sp_right_middle {
+  width: 100%;
+  height: 100px;
+}
+
+/* line 360, ../../scss/core/PageDesigner.scss */
+#sp_middle_content,
+#sp_right_content {
+  width: 100%;
+  height: 600px;
+}
+
+/* line 365, ../../scss/core/PageDesigner.scss */
+#cg-regions,
+#grid_layout,
+#renderTree_container,
+#procTree_container,
+#dynActTree_container,
+#sharedComp_container,
+#peComponentProperties {
+  overflow: hidden !important;
+}
+
+/* Styles for jsTree */
+/* line 377, ../../scss/core/PageDesigner.scss */
+body .tree-classic li a.clicked,
+body .tree-classic li a.clicked:hover,
+body .tree-classic li span.clicked {
+  background: #2D7BBB;
+  border: none !important;
+  padding: 4px !important;
+  height: 24px;
+  border-radius: 2px;
+}
+
+/* line 386, ../../scss/core/PageDesigner.scss */
+body .tree li a,
+body .tree li span {
+  height: 24px;
+  padding: 4px !important;
+  color: #202020;
+}
+
+/* End styles for jsTree */
+/* line 401, ../../scss/core/PageDesigner.scss */
+body .ui-dialog.ui-dialog--pageDesignerAlert .ui-dialog-content,
+body .ui-dialog.ui-dialog--pageDesignerLock .ui-dialog-content {
+  padding: 8px;
+}
+
+/******************************************************************************
+2.0  Page Designer Skeleton
+******************************************************************************/
+/* line 411, ../../scss/core/PageDesigner.scss */
+.a-Tabs--pageDesignerTabs > .a-Tabs-toolbar .a-Toolbar-items--right {
+  display: none;
+}
+/* line 414, ../../scss/core/PageDesigner.scss */
+.a-Tabs--pageDesignerTabs .ui-helper-clearfix:before,
+.a-Tabs--pageDesignerTabs .ui-helper-clearfix:after {
+  display: none !important;
+}
+/* line 418, ../../scss/core/PageDesigner.scss */
+.a-Tabs--pageDesignerTabs > .a-Tabs-toolbar > .ui-tabs-nav {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+/* line 423, ../../scss/core/PageDesigner.scss */
+.a-Tabs--pageDesignerTabs > .a-Tabs-toolbar > .ui-tabs-nav .ui-state-default {
+  display: table-cell;
+  float: none;
+}
+/* line 427, ../../scss/core/PageDesigner.scss */
+.a-Tabs--pageDesignerTabs > .a-Tabs-toolbar > .ui-tabs-nav li:last-child a.ui-tabs-anchor {
+  border-right-width: 0;
+}
+/* line 430, ../../scss/core/PageDesigner.scss */
+.a-Tabs--pageDesignerTabs > .a-Tabs-toolbar > .ui-tabs-nav a.ui-tabs-anchor {
+  display: block;
+  text-align: center;
+  float: none;
+}
+/* line 438, ../../scss/core/PageDesigner.scss */
+.a-Tabs--pageDesignerTabs .ui-tabs-anchor .a-Icon {
+  color: #505050;
+  height: 24px;
+}
+/* line 441, ../../scss/core/PageDesigner.scss */
+.a-Tabs--pageDesignerTabs .ui-tabs-anchor .a-Icon:before {
+  line-height: 24px;
+}
+
+/* line 447, ../../scss/core/PageDesigner.scss */
+.a-Tabs--pageDesignerPrimaryTabs > .a-Tabs-toolbar > .ui-tabs-nav {
+  table-layout: auto;
+}
+/* line 450, ../../scss/core/PageDesigner.scss */
+.a-Tabs--pageDesignerPrimaryTabs > .a-Tabs-toolbar > .ui-tabs-nav .ui-state-default {
+  display: table-cell;
+  width: 25%;
+}
+
+/* line 455, ../../scss/core/PageDesigner.scss */
+.a-PageDesigner-treeWrap {
+  padding: 8px 0;
+}
+
+/* line 458, ../../scss/core/PageDesigner.scss */
+.a-PageDesigner-treeTitle {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 32px;
+  color: #707070;
+}
+
+/* line 466, ../../scss/core/PageDesigner.scss */
+.a-Toolbar--treeRegion .a-Toolbar-items--left {
+  vertical-align: middle;
+}

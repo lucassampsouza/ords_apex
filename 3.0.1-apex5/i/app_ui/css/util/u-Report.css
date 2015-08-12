@@ -1,0 +1,110 @@
+/* ==========================================================================
+ Report Utility Class
+ ========================================================================== */
+/* line 4, ../../scss/util/u-Report.scss */
+.u-resetTable {
+  border-collapse: collapse;
+  table-layout: auto;
+  border-spacing: 0;
+}
+
+/* line 9, ../../scss/util/u-Report.scss */
+.u-Report {
+  border-collapse: collapse;
+  table-layout: auto;
+  border-spacing: 0;
+}
+/* line 13, ../../scss/util/u-Report.scss */
+.u-Report td.pagination {
+  border-width: 0 !important;
+}
+/* line 17, ../../scss/util/u-Report.scss */
+.u-Report .u-Report-header,
+.u-Report th {
+  background-color: #F4F4F4;
+  vertical-align: bottom;
+  padding: 8px;
+  color: #404040;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 25, ../../scss/util/u-Report.scss */
+.u-Report th[scope="rowgroup"] {
+  background-color: #FAFAFA;
+}
+/* line 28, ../../scss/util/u-Report.scss */
+.u-Report th[scope="row"] {
+  background-color: #fff;
+}
+/* line 31, ../../scss/util/u-Report.scss */
+.u-Report td {
+  padding: 4px 8px;
+  color: #404040;
+  transition: background-color .1s;
+  background-color: #FFF;
+}
+/* line 38, ../../scss/util/u-Report.scss */
+.u-Report tr:nth-child(even) td,
+.u-Report tr:nth-child(even) th[scope="row"] {
+  background-color: #FAFAFA;
+}
+/* line 43, ../../scss/util/u-Report.scss */
+.u-Report td,
+.u-Report th {
+  border-left: 1px solid #E8E8E8;
+  border-top: 1px solid #E8E8E8;
+}
+/* line 48, ../../scss/util/u-Report.scss */
+.u-Report tr td:last-child,
+.u-Report tr th:last-child {
+  border-right: 1px solid #E8E8E8;
+}
+/* line 51, ../../scss/util/u-Report.scss */
+.u-Report tr:last-child td {
+  border-bottom: 1px solid #E8E8E8;
+}
+
+/* line 55, ../../scss/util/u-Report.scss */
+.u-Report--stretch {
+  width: 100%;
+}
+
+/* line 60, ../../scss/util/u-Report.scss */
+.u-Report--inline tr:first-child td,
+.u-Report--inline tr:first-child th {
+  border-top-width: 0;
+}
+/* line 64, ../../scss/util/u-Report.scss */
+.u-Report--inline tr:last-child td,
+.u-Report--inline tr:last-child th {
+  border-bottom-width: 0;
+}
+/* line 68, ../../scss/util/u-Report.scss */
+.u-Report--inline tr td:last-child,
+.u-Report--inline tr th:last-child {
+  border-right-width: 0;
+}
+
+/* line 75, ../../scss/util/u-Report.scss */
+.u-Report--staticBG tr:nth-child(even) td,
+.u-Report--staticBG tr:nth-child(even) th[scope="row"] {
+  background-color: #FFF;
+}
+
+/* line 81, ../../scss/util/u-Report.scss */
+.u-Report--firstColLabel tr td:first-child {
+  width: 40%;
+}
+
+/* line 88, ../../scss/util/u-Report.scss */
+.u-Report-sort,
+.u-Report-sortHeading,
+.u-Report-sortIcon {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 92, ../../scss/util/u-Report.scss */
+.u-Report-sortIcon {
+  margin-left: 4px;
+}

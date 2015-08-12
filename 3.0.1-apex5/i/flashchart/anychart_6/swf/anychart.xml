@@ -1,0 +1,33 @@
+<anychart>
+  <charts>
+    <chart plot_type="CategorizedHorizontal">
+      <data>
+        <series name="Year 2003" type="Bar">
+          <point name="Department Stores" y="637166" />
+          <point name="Discount Stores" y="721630" />
+          <point name="Men's/Women's Specialty Stores" y="148662" />
+          <point name="Juvenile Specialty Stores" y="78662" />
+          <point name="All other outlets" y="90000" />
+        </series>
+      </data>
+      <chart_settings>
+        <title>
+          <text>Sales of ACME Corp.</text>
+        </title>
+        <axes>
+          <y_axis>
+            <title>
+              <text>Sales</text>
+            </title>
+          </y_axis>
+          <x_axis>
+            <labels align="Outside" />
+            <title>
+              <text>Retail Channel</text>
+            </title>
+          </x_axis>
+        </axes>
+      </chart_settings>
+    </chart>
+  </charts>
+</anychart>

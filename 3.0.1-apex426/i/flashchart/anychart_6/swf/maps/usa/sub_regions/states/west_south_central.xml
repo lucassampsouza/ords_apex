@@ -1,0 +1,50 @@
+<map_data>
+ <name>west_south_central</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="STATE_FIPS" key="true"/>
+  <column name="SUB_REGION" key="false"/>
+ </columns>
+ <bounds left="-106.649513244629" top="37.001407623291" right="-89.0217590332031" bottom="25.8451976776123"/>
+ <regions>
+  <region>
+   <centroid lat="35.3112144470215" lon="-98.7127799987793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[OK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oklahoma]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[40]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.1695375442505" lon="-100.078365325928"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Texas]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[48]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7513885498047" lon="-92.131217956543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arkansas]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[05]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.9813537597656" lon="-91.531681060791"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Louisiana]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[22]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[W S Cen]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

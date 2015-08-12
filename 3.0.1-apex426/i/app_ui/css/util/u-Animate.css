@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Animation Utilities
+   ========================================================================== */
+/* line 6, ../../scss/util/u-Animate.scss */
+.u-Animate-spin {
+  -webkit-animation: u-animate-spin 2s infinite linear;
+  -moz-animation: u-animate-spin 2s infinite linear;
+  -o-animation: u-animate-spin 2s infinite linear;
+  animation: u-animate-spin 2s infinite linear;
+}
+
+@-moz-keyframes u-animate-spin {
+  /* line 13, ../../scss/util/u-Animate.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 16, ../../scss/util/u-Animate.scss */
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes u-animate-spin {
+  /* line 21, ../../scss/util/u-Animate.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 24, ../../scss/util/u-Animate.scss */
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@-o-keyframes u-animate-spin {
+  /* line 29, ../../scss/util/u-Animate.scss */
+  0% {
+    -o-transform: rotate(0deg);
+  }
+
+  /* line 32, ../../scss/util/u-Animate.scss */
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+
+@-ms-keyframes u-animate-spin {
+  /* line 37, ../../scss/util/u-Animate.scss */
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+
+  /* line 40, ../../scss/util/u-Animate.scss */
+  100% {
+    -ms-transform: rotate(359deg);
+  }
+}
+
+@keyframes u-animate-spin {
+  /* line 45, ../../scss/util/u-Animate.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 48, ../../scss/util/u-Animate.scss */
+  100% {
+    transform: rotate(359deg);
+  }
+}

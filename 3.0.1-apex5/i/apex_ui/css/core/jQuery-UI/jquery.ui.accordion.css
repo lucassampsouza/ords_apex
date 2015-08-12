@@ -1,0 +1,50 @@
+/*!
+ * jQuery UI Accordion 1.10.4
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/accordion/#theming
+ */
+/* line 11, ../../../scss/core/jQuery-UI/jquery.ui.accordion.scss */
+body .ui-accordion .ui-accordion-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin-top: 0;
+  padding: 0;
+  min-height: 0;
+  /* support: IE7 */
+}
+
+/* line 19, ../../../scss/core/jQuery-UI/jquery.ui.accordion.scss */
+body .ui-accordion .ui-accordion-icons {
+  padding-left: 0;
+}
+
+/* line 22, ../../../scss/core/jQuery-UI/jquery.ui.accordion.scss */
+body .ui-accordion .ui-accordion-noicons {
+  padding-left: 0;
+}
+
+/* line 25, ../../../scss/core/jQuery-UI/jquery.ui.accordion.scss */
+body .ui-accordion .ui-accordion-icons .ui-accordion-icons {
+  padding-left: 0;
+}
+
+/* line 28, ../../../scss/core/jQuery-UI/jquery.ui.accordion.scss */
+body .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  position: absolute;
+  left: .5em;
+  top: 50%;
+  margin-top: -8px;
+}
+
+/* line 34, ../../../scss/core/jQuery-UI/jquery.ui.accordion.scss */
+body .ui-accordion .ui-accordion-content {
+  padding: 0;
+  border-top: 0;
+  overflow: auto;
+}

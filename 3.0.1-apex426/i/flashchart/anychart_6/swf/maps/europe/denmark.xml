@@ -1,0 +1,117 @@
+<map_data>
+ <name>denmark</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="8.08722114562988" top="57.7466659545898" right="15.1499996185303" bottom="54.5616607666016"/>
+ <regions>
+  <region>
+   <centroid lat="56.2404136657715" lon="10.4710168838501"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-ARH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arhus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.1501350402832" lon="14.9138879776001"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-BRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bornholm]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.9179496765137" lon="12.2259016036987"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-FRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Frederiksborg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.1720809936523" lon="10.3176374435425"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-FYN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fyn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.6673698425293" lon="12.545196056366"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-SKB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Staden Kobenhavn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.7083377838135" lon="12.3953747749329"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-KBN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kobenhavn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.1392383575439" lon="10.1070823669434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-NRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nordjylland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.533935546875" lon="8.68682289123535"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-RIB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ribe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.221923828125" lon="8.75794315338135"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-RNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ringkobing]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.5320854187012" lon="12.066948890686"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-RSK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Roskilde]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.1175098419189" lon="9.26499938964844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-SND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sonderjylland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.9823570251465" lon="11.7736949920654"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-STR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Storstrom]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.7071399688721" lon="9.55886554718018"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-VEJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vejle]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.590274810791" lon="11.4612445831299"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-VST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vestsjalland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.6578197479248" lon="9.06804513931274"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DNK-VBR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Viborg]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

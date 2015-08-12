@@ -1,0 +1,560 @@
+/* Set up Variable Colors */
+/* line 35, ../scss/ws_presentation.scss */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 40, ../scss/ws_presentation.scss */
+div.clear {
+  clear: both; }
+
+/* ======================================== */
+/* = Websheets Presentation mode tool bar = */
+/* ======================================== */
+/* line 46, ../scss/ws_presentation.scss */
+#wspToolbar {
+  height: 36px;
+  background-color: #2580D4;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; }
+/* line 58, ../scss/ws_presentation.scss */
+#wspToolbar ul.wspBreadcrumb {
+  list-style: none;
+  margin: 0;
+  padding: 0 4px; }
+/* line 62, ../scss/ws_presentation.scss */
+#wspToolbar ul.wspBreadcrumb li {
+  display: block;
+  float: left;
+  margin: 6px;
+  height: 24px; }
+/* line 67, ../scss/ws_presentation.scss */
+#wspToolbar ul.wspBreadcrumb li a {
+  display: block;
+  float: left;
+  font: normal 11px/14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 4px 0;
+  color: #FFF;
+  text-decoration: none; }
+/* line 75, ../scss/ws_presentation.scss */
+#wspToolbar ul.wspBreadcrumb li a:hover {
+  text-decoration: underline; }
+/* line 79, ../scss/ws_presentation.scss */
+#wspToolbar ul.wspBreadcrumb li.separator img {
+  margin: 6px 0 5px 0;
+  width: 6px;
+  height: 11px;
+  background: url(../img/ws_control_icons.png) 0 -11px no-repeat;
+  display: block; }
+/* line 86, ../scss/ws_presentation.scss */
+#wspToolbar ul.wspBreadcrumb li.active a {
+  font-weight: bold; }
+/* line 91, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions {
+  position: absolute;
+  right: 6px;
+  top: 0;
+  /*		width: 140px;
+  		> div {
+  			float: right;
+  		}*/ }
+/* line 99, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions div.wspSlideNavigation {
+  float: left; }
+/* line 101, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions div.wspSlideNavigation a {
+  margin: 6px 0; }
+/* line 105, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions a {
+  display: block;
+  float: left;
+  font: normal 11px/14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 4px 10px;
+  margin: 6px 6px 6px 0;
+  background: none #FFF;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #1E68AC;
+  color: #444;
+  font-weight: bold;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  text-decoration: none; }
+/* line 120, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions a img {
+  width: 5px;
+  height: 10px;
+  margin: 2px 0;
+  vertical-align: bottom; }
+/* line 126, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions a#prevSectionButton {
+  margin-right: 0;
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px; }
+/* line 129, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions a#prevSectionButton img {
+  background: url(../img/ws_control_icons.png) -30px -18px no-repeat; }
+/* line 133, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions a#nextSectionButton {
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0; }
+/* line 135, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions a#nextSectionButton img {
+  background: url(../img/ws_control_icons.png) -35px -18px no-repeat; }
+/* line 139, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions a.closeButton {
+  padding: 4px 8px;
+  margin-right: 0; }
+/* line 142, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions a.closeButton img {
+  background: url(../img/ws_control_icons.png) -58px -40px no-repeat;
+  width: 10px;
+  height: 11px;
+  margin: 1px 0; }
+/* line 152, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions a.disabledButton {
+  filter: none;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: default; }
+/* line 156, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions a.disabledButton:hover {
+  filter: none;
+  background: #F0F0F0; }
+/* line 160, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions a.disabledButton img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+  opacity: 0.25; }
+/* line 165, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions span.totalSlides {
+  display: block;
+  float: left;
+  font: normal 11px/14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 4px 14px 4px 0;
+  margin: 6px 0;
+  border-top: 1px solid #1E68AC;
+  border-bottom: 1px solid #1E68AC;
+  background: #FFF;
+  width: 20px;
+  text-align: left; }
+/* line 177, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions span.totalSlides em {
+  font-style: normal;
+  color: #666;
+  padding-right: 4px; }
+/* line 183, ../scss/ws_presentation.scss */
+#wspToolbar div.wspSlideOptions input {
+  /*			display: none;*/
+  float: left;
+  font: bold 11px/14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 4px 4px 4px 10px;
+  margin: 6px 0;
+  border: none;
+  border-top: 1px solid #1E68AC;
+  border-bottom: 1px solid #1E68AC;
+  background: #FFF;
+  color: #333;
+  width: 20px;
+  text-align: right; }
+
+/* ===================== */
+/* = Section Container = */
+/* ===================== */
+/* line 205, ../scss/ws_presentation.scss */
+div.wspSectionContainer ul#wspSectionList {
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+  min-height: 600px;
+  max-height: 760px;
+  min-width: 600px;
+  max-width: 1160px; }
+/* line 213, ../scss/ws_presentation.scss */
+div.wspSectionContainer ul#wspSectionList > li {
+  display: none;
+  margin: 40px 40px 60px 40px; }
+/* line 216, ../scss/ws_presentation.scss */
+div.wspSectionContainer ul#wspSectionList > li > h2.wspSectionHeading {
+  /* Section Headings */
+  margin: 0 0 10px 0;
+  padding: 10px;
+  font: bold 24px/36px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  border-bottom: 1px solid #EEE; }
+
+/* line 227, ../scss/ws_presentation.scss */
+div.wsSectionContent {
+  /* Section Content Container */ }
+/* line 228, ../scss/ws_presentation.scss */
+div.wsSectionContent > a {
+  color: #000;
+  font: normal 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+/* line 233, ../scss/ws_presentation.scss */
+div.wsSectionContent ul.wsSectionNavigation {
+  list-style: none;
+  margin: 0;
+  padding: 10px; }
+/* line 237, ../scss/ws_presentation.scss */
+div.wsSectionContent ul.wsSectionNavigation li {
+  display: block;
+  margin-bottom: 5px; }
+/* line 240, ../scss/ws_presentation.scss */
+div.wsSectionContent ul.wsSectionNavigation li a {
+  display: block;
+  font: normal 20px/24px Arial, sans-serif;
+  color: #666;
+  text-decoration: none;
+  padding: 5px;
+  -webkit-transition: background, 0.2s;
+  -moz-transition: background, 0.2s;
+  transition: background, 0.2s; }
+/* line 247, ../scss/ws_presentation.scss */
+div.wsSectionContent ul.wsSectionNavigation li a:hover {
+  background-color: #EEE; }
+/* line 250, ../scss/ws_presentation.scss */
+div.wsSectionContent ul.wsSectionNavigation li a img {
+  border: none;
+  margin: 0 10px 0 0;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/ws_control_icons.png);
+  background-repeat: none;
+  background-color: transparent;
+  vertical-align: middle; }
+/* line 259, ../scss/ws_presentation.scss */
+div.wsSectionContent ul.wsSectionNavigation li a img.textIcon {
+  background-position: 0 -81px; }
+/* line 262, ../scss/ws_presentation.scss */
+div.wsSectionContent ul.wsSectionNavigation li a img.plsqlIcon {
+  background-position: -24px -81px; }
+/* line 265, ../scss/ws_presentation.scss */
+div.wsSectionContent ul.wsSectionNavigation li a img.chartIcon {
+  background-position: -48px -81px; }
+/* line 268, ../scss/ws_presentation.scss */
+div.wsSectionContent ul.wsSectionNavigation li a img.dataIcon {
+  background-position: 0 -105px; }
+/* line 272, ../scss/ws_presentation.scss */
+div.wsSectionContent ul.wsSectionNavigation li a img.nav_pageIcon, div.wsSectionContent ul.wsSectionNavigation li a img.nav_sectionIcon {
+  background-position: -24px -105px; }
+/* line 275, ../scss/ws_presentation.scss */
+div.wsSectionContent ul.wsSectionNavigation li a img.pageIcon {
+  background-position: -48px -105px; }
+
+/* line 283, ../scss/ws_presentation.scss */
+div.wspTextSection {
+  font: normal 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  padding: 0 10px; }
+/* line 287, ../scss/ws_presentation.scss */
+div.wspTextSection h3 {
+  font: bold 18px/30px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #666;
+  margin: 10px 0;
+  padding: 0; }
+/* line 293, ../scss/ws_presentation.scss */
+div.wspTextSection p {
+  margin: 0 0 10px 0;
+  font: normal 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+/* line 297, ../scss/ws_presentation.scss */
+div.wspTextSection a {
+  color: #888;
+  font: normal 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+/* line 302, ../scss/ws_presentation.scss */
+div.wspTextSection > ul, div.wspTextSection > ol {
+  margin: 10px 0 10px 30px;
+  padding: 0; }
+/* line 306, ../scss/ws_presentation.scss */
+div.wspTextSection > ul {
+  list-style: square outside; }
+/* line 308, ../scss/ws_presentation.scss */
+div.wspTextSection > ul li {
+  font: normal 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+/* line 311, ../scss/ws_presentation.scss */
+div.wspTextSection > ul ul {
+  list-style: square outside;
+  margin: 2px 0 2px 50px;
+  padding: 0; }
+/* line 317, ../scss/ws_presentation.scss */
+div.wspTextSection table {
+  border-bottom: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  border-spacing: 0;
+  border-collapse: collapse; }
+/* line 322, ../scss/ws_presentation.scss */
+div.wspTextSection table td, div.wspTextSection table th {
+  border-left: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+  padding: 10px;
+  font: normal 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333; }
+/* line 329, ../scss/ws_presentation.scss */
+div.wspTextSection table th {
+  text-align: left;
+  background: #EEE;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  font-weight: bold; }
+/* line 335, ../scss/ws_presentation.scss */
+div.wspTextSection table th strong {
+  font: bold 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+/* line 338, ../scss/ws_presentation.scss */
+div.wspTextSection table th > p {
+  margin: 0;
+  font: bold 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+/* line 341, ../scss/ws_presentation.scss */
+div.wspTextSection table th > p strong {
+  font: bold 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* ======================== */
+/* = Page Navigation Tree = */
+/* ======================== */
+/* line 351, ../scss/ws_presentation.scss */
+.a-TreeView {
+  margin: 12px 0; }
+/* line 353, ../scss/ws_presentation.scss */
+.a-TreeView a.a-TreeView-label {
+  text-decoration: none; }
+/* line 356, ../scss/ws_presentation.scss */
+.a-TreeView .a-TreeView-content {
+  font-size: 16px;
+  padding: 8px; }
+/* line 360, ../scss/ws_presentation.scss */
+.a-TreeView .a-TreeView-row {
+  height: 32px; }
+/* line 363, ../scss/ws_presentation.scss */
+.a-TreeView .a-TreeView-toggle {
+  margin-top: 8px; }
+
+/* ===================================================== */
+/* = Report Formatting for Reports inside of a Section = */
+/* ===================================================== */
+/* line 371, ../scss/ws_presentation.scss */
+div.wsSectionReport {
+  /* Float Left so that top action bar only stretches to the table width */
+  float: left; }
+/* line 374, ../scss/ws_presentation.scss */
+div.wsSectionReport table {
+  border-collapse: collapse;
+  border-spacing: 0 0; }
+/* line 377, ../scss/ws_presentation.scss */
+div.wsSectionReport table th {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #DDD;
+  padding: 12px 16px 12px 0;
+  font: bold 16px/20px Arial, sans-serif;
+  color: #333; }
+/* line 385, ../scss/ws_presentation.scss */
+div.wsSectionReport table td {
+  border: none;
+  border-bottom: 1px solid #EEE;
+  padding: 12px 16px 12px 0;
+  font: normal 16px/20px Arial, sans-serif;
+  white-space: pre-wrap; }
+/* line 392, ../scss/ws_presentation.scss */
+div.wsSectionReport table tr:hover td {
+  background-color: #F8F8F8; }
+/* line 396, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle1 {
+  border: 1px solid #E0E0E0; }
+/* line 398, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle1 th {
+  border-bottom: 1px solid #E0E0E0;
+  padding: 12px 16px;
+  background-color: #F0F0F0; }
+/* line 405, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle1 td {
+  padding: 8px 16px;
+  border-top: 1px solid #DDD;
+  border-bottom: none; }
+/* line 411, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle2 {
+  border: none; }
+/* line 413, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle2 th {
+  border-bottom: 1px solid #E0E0E0;
+  padding: 8px 16px; }
+/* line 417, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle2 td {
+  padding: 8px 16px;
+  border-bottom: 1px solid #DDD; }
+/* line 421, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle2 tr:last-child td {
+  border-bottom: none; }
+/* line 425, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle3 {
+  border: none; }
+/* line 427, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle3 th {
+  border-bottom: 2px solid #CCC;
+  padding: 8px 16px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  vertical-align: bottom; }
+/* line 433, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle3 td {
+  padding: 8px 16px;
+  border-left: 1px solid #DDD;
+  border-bottom: 1px solid #EEE; }
+/* line 438, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle3 tr td:last-child {
+  border-right: 1px solid #CCC; }
+/* line 441, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle3 tr td:first-child {
+  border-left: 1px solid #CCC; }
+/* line 444, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle3 tr:last-child td {
+  border-bottom: 1px solid #CCC; }
+/* line 447, ../scss/ws_presentation.scss */
+div.wsSectionReport table.wsReportStyle3 tr:hover td {
+  background-color: #F2F2F2; }
+
+/* ========================== */
+/* = Action Bar for Reports = */
+/* ========================== */
+/* line 456, ../scss/ws_presentation.scss */
+div.wsActionBar {
+  background-color: #F8F8F8;
+  border: 1px solid #e0e0e0;
+  border-bottom: none;
+  height: 54px;
+  position: relative;
+  -webkit-border-radius: 2px 2px 0 0;
+  -moz-border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0; }
+/* line 457, ../scss/ws_presentation.scss */
+div.wsActionBar.wsActionBarOnly {
+  border-bottom: 1px solid #e0e0e0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin-bottom: 10px; }
+/* line 462, ../scss/ws_presentation.scss */
+div.wsActionBar.wsActionBarBottom {
+  border-top: none;
+  border-bottom: 1px solid #e0e0e0;
+  -webkit-border-radius: 0 0 2px 2px;
+  -moz-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px; }
+/* line 466, ../scss/ws_presentation.scss */
+div.wsActionBar.wsActionBarBottom div.wsActionBarInside {
+  border-top: 1px solid #F0F0F0; }
+/* line 476, ../scss/ws_presentation.scss */
+div.wsActionBar span.wsActionBarRight {
+  position: absolute;
+  right: 0;
+  top: 0; }
+/* line 480, ../scss/ws_presentation.scss */
+div.wsActionBar span.wsActionBarRight a.wsSmallButton {
+  margin: 8px 8px 8px 0; }
+
+/* line 485, ../scss/ws_presentation.scss */
+span.wsActionBarRight {
+  position: absolute;
+  right: 0;
+  top: 0; }
+/* line 489, ../scss/ws_presentation.scss */
+span.wsActionBarRight a.wsSmallButton {
+  margin: 8px 8px 8px; }
+
+/* ================================= */
+/* = Search Field (for Action Bar) = */
+/* ================================= */
+/* line 496, ../scss/ws_presentation.scss */
+div.searchField {
+  display: block;
+  float: left;
+  margin: 8px;
+  background: #FFF;
+  height: 36px;
+  border: 1px solid #E0E0E0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px; }
+/* line 505, ../scss/ws_presentation.scss */
+div.searchField span.searchIcon {
+  display: block;
+  float: left;
+  padding: 11px 0 11px 12px; }
+/* line 509, ../scss/ws_presentation.scss */
+div.searchField span.searchIcon img {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url(../img/ws_control_icons.png) -40px -18px no-repeat; }
+/* line 516, ../scss/ws_presentation.scss */
+div.searchField input {
+  display: block;
+  float: left;
+  height: 24px;
+  font: normal 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: none;
+  padding: 6px;
+  color: #333; }
+/* line 525, ../scss/ws_presentation.scss */
+div.searchField a.wsSmallButton {
+  border: none;
+  border-left: 1px solid #E0E0E0;
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  margin: 0; }
+
+/* line 537, ../scss/ws_presentation.scss */
+div.wsSection div.wsTextSection div.wsSectionReport {
+  /*	table {
+  		border-bottom: inheri;
+  		th, td {
+  			border: none;
+  		}
+  		th {
+  			background-color: transparent;
+  		}
+  	}*/ }
+/* line 538, ../scss/ws_presentation.scss */
+div.wsSection div.wsTextSection div.wsSectionReport a.wsSmallButton {
+  color: #444; }
+/* line 541, ../scss/ws_presentation.scss */
+div.wsSection div.wsTextSection div.wsSectionReport a.wsHotButton {
+  color: #FFF; }
+
+/* line 554, ../scss/ws_presentation.scss */
+a.wsSmallButton {
+  display: block;
+  float: left;
+  font: normal 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 6px 16px;
+  margin: 12px 0 12px 12px;
+  background-color: #F8F8F8;
+  -webkit-box-shadow: 0 1px 0 white inset;
+  -moz-box-shadow: 0 1px 0 white inset;
+  box-shadow: 0 1px 0 white inset;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #E0E0E0;
+  color: #404040;
+  font-weight: bold;
+  text-decoration: none; }
+/* line 569, ../scss/ws_presentation.scss */
+a.wsSmallButton:active {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+  background: none #E0E0E0; }
+
+/* line 574, ../scss/ws_presentation.scss */
+a.wsSmallButton.wsHotButton {
+  border: 1px solid #2580D4;
+  background: none #2580D4;
+  color: #FFF;
+  font-weight: bold; }
+/* line 581, ../scss/ws_presentation.scss */
+a.wsSmallButton.wsHotButton:active {
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+  background: none #1d66a9; }

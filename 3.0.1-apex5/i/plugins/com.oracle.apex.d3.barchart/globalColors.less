@@ -1,0 +1,68 @@
+/*@g_Accent-1-BG : blue;
+@g_Accent-2-BG : red;
+@g_Accent-3-BG : green;
+@g_Accent-4-BG : yellow;
+@g_Accent-5-BG : gray;
+
+@g_Accent-1-FG : blue;
+@g_Accent-2-FG : red;
+@g_Accent-3-FG : green;
+@g_Accent-4-FG : yellow;
+@g_Accent-5-FG : gray;
+*/
+
+.a_GlobalColorRules(15, 5);
+
+.a_GlobalColorRules(@counter, @varNumber) when (@counter > @varNumber) {
+	.a_GlobalColorRules(@counter - 1, @varNumber);
+
+	// Must keep in sync with UT's LESS!
+	@accentNumber : mod(@counter - 1, @varNumber) + 1;
+	@varName : 		%("g_Accent-%s-BG", @accentNumber);
+	@varName2 :		%("g_Accent-%s-FG", @accentNumber);
+	@darkenPct : 	(floor((@counter - 1) / @varNumber / 2) + 1) * 10%;
+
+	// 1 or -1
+	@darkenFactor : 2 * ( sin( 1rad * floor((@counter - 1) / @varNumber) * pi() / 2 ) - 0.5 );
+
+	.u-Color-@{counter}-BG {
+		&--txt 			{ color : darken(@@varName, @darkenPct * @darkenFactor); }
+		&--bg 			{ background-color : darken(@@varName, @darkenPct * @darkenFactor); }
+		&--fill 		{ fill : darken(@@varName, @darkenPct * @darkenFactor); }
+		&--br 			{ stroke : darken(@@varName, @darkenPct * @darkenFactor); border-color : darken(@@varName, @darkenPct * @darkenFactor); }
+	}
+	.u-Color-@{counter}-FG {
+		&--txt 			{ color : lighten(@@varName2, @darkenPct); }
+		&--bg 			{ background-color : lighten(@@varName2, @darkenPct); }
+		&--fill 		{ fill : lighten(@@varName2, @darkenPct); }
+		&--br 			{ stroke : lighten(@@varName2, @darkenPct); border-color : lighten(@@varName2, @darkenPct); }
+	}
+}
+
+.a_GlobalColorRules(@counter, @varNumber) when (@counter <= @varNumber) and (@counter > 0) {
+	.a_GlobalColorRules(@counter - 1, @varNumber);
+
+	// Must keep in sync with UT's LESS!
+	@accentNumber : mod(@counter - 1, @varNumber) + 1;
+	@varName : 		%("g_Accent-%s-BG", @accentNumber);
+	@varName2 :		%("g_Accent-%s-FG", @accentNumber);
+
+	.u-Color-@{counter}-BG {
+		&--txt 			{ color : @@varName; }
+		&--bg 			{ background-color : @@varName; }
+		&--fill 		{ fill : @@varName; }
+		&--br 			{ stroke : @@varName; border-color : @@varName; }
+	}
+	.u-Color-@{counter}-FG {
+		&--txt 			{ color : @@varName2; }
+		&--bg 			{ background-color : @@varName2; }
+		&--fill 		{ fill : @@varName2; }
+		&--br 			{ stroke : @@varName2; border-color : @@varName2; }
+	}
+}
+.u-focused {
+	box-shadow: 
+		0 0 0 1px @g_Accent-1-BG,
+		0 0 2px 2px fadeout(@g_Accent-1-BG, 50%) !important;
+	outline: none;
+}

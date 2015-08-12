@@ -1,0 +1,96 @@
+<map_data>
+ <name>finland</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="19.510555267334" top="70.087158203125" right="31.5889282226563" bottom="59.8063888549805"/>
+ <regions>
+  <region>
+   <centroid lat="60.1902770996094" lon="20.181526184082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-AHR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ahvenanmaa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.4759674072266" lon="24.6531925201416"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-HAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hame]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.5261154174805" lon="25.3587989807129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-KSU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Keski-Suomi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.1504135131836" lon="27.5708312988281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-KUO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kuopio]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.1406936645508" lon="28.0923366546631"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-KYM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kymi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="64.9491653442383" lon="27.1630516052246"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-OUL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oulu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.8569374084473" lon="27.5663928985596"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-MKK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mikkeli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="67.8403778076172" lon="25.3047695159912"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-LAP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lappi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.7955513000488" lon="29.9711303710938"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-PKR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pohjois-Karjala]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="61.15673828125" lon="22.4998588562012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-TJP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Turku Ja Pori]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="60.3665237426758" lon="24.6741542816162"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-UUS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uusimaa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="63.0523643493652" lon="23.0434703826904"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FIN-VAA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaasa]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

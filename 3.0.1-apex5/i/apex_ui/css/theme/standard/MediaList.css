@@ -1,0 +1,78 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/* line 11, ../../../scss/theme/standard/MediaList.scss */
+.a-MediaList-item {
+  border-color: #F0F0F0;
+}
+
+/* ==========================================================================
+   Link
+   ========================================================================== */
+/* line 19, ../../../scss/theme/standard/MediaList.scss */
+.a-MediaList-link .a-MediaList-badge {
+  color: #404040;
+}
+/* line 22, ../../../scss/theme/standard/MediaList.scss */
+.a-MediaList-link:hover {
+  background-color: #2580D4;
+  color: #FFF;
+}
+/* line 25, ../../../scss/theme/standard/MediaList.scss */
+.a-MediaList-link:hover .a-MediaList-desc {
+  color: inherit;
+}
+/* line 28, ../../../scss/theme/standard/MediaList.scss */
+.a-MediaList-link:hover .a-MediaList-badge {
+  background-color: #368ddc;
+  border-color: #4c99e0;
+  color: #FFF;
+}
+/* line 33, ../../../scss/theme/standard/MediaList.scss */
+.a-MediaList-link:hover .a-MediaList-icon {
+  color: #cee3f7;
+}
+/* line 38, ../../../scss/theme/standard/MediaList.scss */
+.a-MediaList--circularIcons .a-MediaList-link:hover .a-MediaList-icon {
+  color: #2580D4;
+  background-color: #8dbeeb;
+}

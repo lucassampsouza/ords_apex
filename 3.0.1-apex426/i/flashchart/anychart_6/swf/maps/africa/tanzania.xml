@@ -1,0 +1,187 @@
+<map_data>
+ <name>tanzania</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="29.3413887023926" top="-0.997777819633484" right="40.4338836669922" bottom="-11.7402782440186"/>
+ <regions>
+  <region>
+   <centroid lat="-3.83938992023468" lon="36.3837966918945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-ARS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arusha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.17175960540771" lon="39.2408294677734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-ZUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zanzibar Urban/West]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.81295347213745" lon="36.0408744812012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-DOD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dodoma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-8.71041774749756" lon="35.3900375366211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-IRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iringa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.8363893032074" lon="30.4148597717285"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-KIG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kigoma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.69542145729065" lon="37.7137451171875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-KLM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kilimanjaro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.37696075439453" lon="38.4148559570313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-LIN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lindi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.74970453977585" lon="34.0051345825195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-MAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-8.30563497543335" lon="33.4961090087891"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-MBE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mbeya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.90680599212646" lon="36.9249954223633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-MRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morogoro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-10.7701559066772" lon="39.2623748779297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-MTW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mtwara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.43305575847626" lon="32.8990230560303"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-MWN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mwanza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.03025889396667" lon="39.773609161377"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-PNR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pemba North]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-10.4787511825562" lon="36.3676109313965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-RUV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ruvuma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.3158757686615" lon="33.1837520599365"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-SHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shinyanga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.66616821289063" lon="34.4089317321777"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-SNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Singida]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.44986128807068" lon="32.6241645812988"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-TAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tabora]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.0938892364502" lon="38.1089553833008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-TAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tanga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-2.15864700078964" lon="31.5785675048828"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-ZMG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ziwa Magharibi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.3116672039032" lon="39.7483329772949"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-PSO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pemba South]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.24506664276123" lon="39.4204139709473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-ZCN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zanzibar Central/South]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.87347269058228" lon="39.2907829284668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-ZNR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zanzibar North]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.79023218154907" lon="39.2721328735352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-DES]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dar es Salaam]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.11500072479248" lon="31.3448600769043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-RUK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rukwa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.15513944625854" lon="38.8481903076172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZA-PWA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pwani]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

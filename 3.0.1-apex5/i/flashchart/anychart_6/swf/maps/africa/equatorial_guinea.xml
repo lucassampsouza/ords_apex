@@ -1,0 +1,54 @@
+<map_data>
+ <name>equatorial_guinea</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="5.61527729034424" top="3.76333332061768" right="11.3538875579834" bottom="-1.47944450378418"/>
+ <regions>
+  <region>
+   <centroid lat="3.64027619361877" lon="8.79363203048706"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNQ-BKN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bioko Norte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.42319488525391" lon="8.64513683319092"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNQ-BKS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bioko Sur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.58487075567245" lon="10.4815945625305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNQ-CNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Centro Sur]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.94785553216934" lon="10.8758726119995"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNQ-KNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kie-Ntem]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.432126760482788" lon="7.93960857391357"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNQ-LTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Litoral]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.50138461589813" lon="10.938973903656"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GNQ-WLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wele-Nzas]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

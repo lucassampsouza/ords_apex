@@ -1,0 +1,54 @@
+<map_data>
+ <name>belize</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-89.2164001464844" top="18.4899024963379" right="-87.7789001464844" bottom="15.8898506164551"/>
+ <regions>
+  <region>
+   <centroid lat="17.5334701538086" lon="-88.2130661010742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLZ-BLZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Belize]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.9581928253174" lon="-88.8713989257813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLZ-CAY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cayo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.1932830810547" lon="-88.22265625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLZ-CRZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Corozal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.7888164520264" lon="-88.7154312133789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLZ-OWA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orange Walk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.8109703063965" lon="-88.4957046508789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLZ-SCR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stann Creek]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.2940902709961" lon="-88.800422668457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BLZ-TOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Toledo]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

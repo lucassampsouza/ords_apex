@@ -1,0 +1,43 @@
+/* line 4, ../../scss/util/u-Text.scss */
+.u-textRight,
+.u-tR {
+  text-align: right;
+}
+
+/* line 8, ../../scss/util/u-Text.scss */
+.u-textLeft,
+.u-tL {
+  text-align: left;
+}
+
+/* line 12, ../../scss/util/u-Text.scss */
+.u-textCenter,
+.u-tC {
+  text-align: center;
+}
+
+/* line 15, ../../scss/util/u-Text.scss */
+.u-textUpper {
+  text-transform: uppercase;
+}
+
+/* line 18, ../../scss/util/u-Text.scss */
+.u-textLower {
+  text-transform: lowercase;
+}
+
+/* line 21, ../../scss/util/u-Text.scss */
+.u-textInitCap {
+  text-transform: capitalize;
+}
+
+/* line 25, ../../scss/util/u-Text.scss */
+.u-fontWeightNormal,
+.u-fwNormal {
+  font-weight: normal;
+}
+
+/* line 28, ../../scss/util/u-Text.scss */
+.u-fixedFont {
+  font-family: 'Menlo','Consolas',sans-serif;
+}

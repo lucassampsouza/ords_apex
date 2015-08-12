@@ -1,0 +1,128 @@
+/**
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Region
+   ========================================================================== */
+/* line 42, ../../../scss/theme/standard/Region.scss */
+.a-Region-header {
+  background-color: #F4F4F4;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  padding: 0 12px;
+}
+
+/* line 47, ../../../scss/theme/standard/Region.scss */
+.a-Side .a-Region-header {
+  background-color: #F4F4F4;
+}
+
+/* line 58, ../../../scss/theme/standard/Region.scss */
+.a-Region-title {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 0;
+  font-weight: bold;
+  line-height: 16px;
+  color: #444444;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 68, ../../../scss/theme/standard/Region.scss */
+.a-Accordion-item .a-Region-title {
+  font-weight: normal;
+  font-size: inherit;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* line 74, ../../../scss/theme/standard/Region.scss */
+.a-PageDesigner .a-Region-title {
+  font-size: 12px;
+}
+@media only screen and (max-width: 1024px) {
+  /* line 74, ../../../scss/theme/standard/Region.scss */
+  .a-PageDesigner .a-Region-title {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  /* line 74, ../../../scss/theme/standard/Region.scss */
+  .a-PageDesigner .a-Region-title {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1679px) {
+  /* line 74, ../../../scss/theme/standard/Region.scss */
+  .a-PageDesigner .a-Region-title {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+/* line 92, ../../../scss/theme/standard/Region.scss */
+.a-Region-title--withBadge {
+  padding: 10px 0;
+  line-height: 20px;
+}
+
+/* line 100, ../../../scss/theme/standard/Region.scss */
+.a-Region--sideRegion .a-Region-header {
+  padding-right: 4px;
+}
+
+/* ==========================================================================
+   Region Caption
+   ========================================================================== */
+/* line 141, ../../../scss/theme/standard/Region.scss */
+.a-Region-caption {
+  padding: 8px;
+  font-size: 11px;
+}
+
+/* line 145, ../../../scss/theme/standard/Region.scss */
+.a-Region-caption--borderTop {
+  border-top: 1px solid #F8F8F8;
+}
+
+/* line 148, ../../../scss/theme/standard/Region.scss */
+.a-Region-caption--borderBottom {
+  border-bottom: 1px solid #F8F8F8;
+}

@@ -1,0 +1,695 @@
+/*<div class="ebaDetails">
+	<div class="ebaDHeading">
+		<h1>Ace Hardware</h1>
+		<div class="ebaDRight">
+			<a href="#">Edit Account</a>
+		</div>
+	</div>
+*/
+div.ebaDetails {
+	margin: 0 auto;
+	min-width: 760px;
+/*	max-width: 980px;*/
+	border-bottom: 1px solid #AAA;
+	}
+	div.ebaDetails div.ebaDMainContainer {
+		border-left: 1px solid #AAA;
+		border-right: 1px solid #AAA;
+		}
+
+div.ebaDHeading {
+	background: #DDD;
+	background: -webkit-gradient(linear,0 0,0 100%, from(#E8E8E8), to(#B8B8B8));
+	background: -moz-linear-gradient(top,#E8E8E8,#B8B8B8);
+	border: 1px solid #AAA;
+	border-bottom: 1px solid #888;
+	border-radius: 6px 6px 0 0 ;
+	-moz-border-radius: 6px 6px 0 0;
+	position: relative;
+	}
+	div.ebaDHeading h1 {
+		margin: 0;
+		font: bold 14px/40px Arial, sans-serif;
+		padding: 0 10px;
+		text-shadow: 0 1px 0 rgba(255,255,255,.75);
+		}
+div.ebaDHeading div.ebaDRight {
+	position: absolute;
+	right: 0;
+	top: 0;
+	}
+	div.ebaDHeading div.ebaDRight ul.pillButton {
+		margin: 0;
+		list-style: none;
+		float: left;
+		margin: 0 10px 0 0;
+	}
+	div.ebaDHeading div.ebaDRight ul.pillButton li {
+		float: left;
+	}
+	div.ebaDHeading div.ebaDRight ul.pillButton li a {
+		border-left: none;
+		margin-right: 0;
+		margin-left: 0;
+		border-radius: 0;
+		-moz-border-radius: 0;
+	}
+	div.ebaDHeading div.ebaDRight ul.pillButton li:first-child a {
+		border-left: 1px solid #666;
+		-webkit-border-top-left-radius: 4px;
+		-webkit-border-bottom-left-radius: 4px;
+		-moz-border-radius-topleft: 4px;
+		-moz-border-radius-bottomleft: 4px;
+		border-top-left-radius: 4px;
+		border-bottom-left-radius: 4px;
+	}
+	div.ebaDHeading div.ebaDRight ul.pillButton li:last-child a {
+		-webkit-border-top-right-radius: 4px;
+		-webkit-border-bottom-right-radius: 4px;
+		-moz-border-radius-topright: 4px;
+		-moz-border-radius-bottomright: 4px;
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+	}
+	
+	
+	
+	div.ebaDHeading div.ebaDRight a {
+		display: block;
+		float: left;
+		font: bold 11px/12px Arial, sans-serif;
+		padding: 4px 8px;
+		background: -webkit-gradient(linear,0 0,0 100%, from(#F0F0F0), to(#CCC));
+		background: -moz-linear-gradient(top,#F0F0F0),#CCC);
+		margin: 8px 10px 8px 0;
+		border: 1px solid #666;
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		color: rgba(0,0,0,.75);
+		text-shadow: 0 1px 0 rgba(255,255,255,.75);
+		text-decoration: none;
+		-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 0 rgba(255,255,255,.75) inset;
+		-moz-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 0 rgba(255,255,255,.75) inset;
+		}
+		div.ebaDHeading div.ebaDRight img.emailIcon {
+			background: url(../img/eba_details_page_icons.png) -41px 0 no-repeat;
+			width: 11px;
+			height: 8px;
+			vertical-align: baseline;
+			margin-right: 4px;
+		}
+		
+		div.ebaDHeading div.ebaDRight a.ebaHotButton {
+			border: 1px solid #822024;
+			background: -webkit-gradient(linear,0 0,0 100%, from(#EB0014), to(#C3000F));
+			color: #FFF;
+			text-shadow: 0 -1px 0 rgba(0,0,0,.35);
+			-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 0 rgba(255,255,255,.50) inset;
+			}
+			div.ebaDHeading div.ebaDRight a.ebaHotButton:active {
+			background: -webkit-gradient(linear,0 0,0 100%, from(#CE0014), to(#A2000D));
+				-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 2px rgba(0,0,0,.5) inset;
+				}
+		div.ebaDHeading div.ebaDRight a.ebaBlackButton {
+			border: 1px solid #222;
+			background: -webkit-gradient(linear,0 0,0 100%, from(#555), to(#222));
+			color: #FFF;
+			text-shadow: 0 -1px 0 rgba(0,0,0,.75);
+			-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 0 rgba(255,255,255,.25) inset;
+			}
+			div.ebaDHeading div.ebaDRight a.ebaBlackButton:active {
+				background: -webkit-gradient(linear,0 0,0 100%, from(#333), to(#111));
+				-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 2px rgba(0,0,0,.5) inset;
+				}
+	div.ebaDHeading div.ebaDRight a:active,
+	div.ebaDHeading div.ebaDRight a.active {
+		background: -webkit-gradient(linear,0 0,0 100%, from(#D0D0D0), to(#AAA));
+		background: -moz-linear-gradient(top,#D0D0D0,#AAA);
+		-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 2px rgba(0,0,0,.5) inset;
+		-moz-box-shadow: 0 1px 0 rgba(255,255,255,.75), 0 1px 2px rgba(0,0,0,.5) inset;
+		}
+				
+/*<div class="ebaDMain">
+	<div class="ebaDLeft">
+		VAP Table Goes Here
+	</div>
+	<div class="ebaDRight">
+		Links + Buttons Go Here
+	</div>
+</div>
+*/
+div.ebaDMain {
+	display: table;
+	width: 100%;
+	}
+	div.ebaDMain div.ebaDLeft,
+	div.ebaDMain div.ebaDRight {
+		display: table-cell;
+		vertical-align: top;
+		padding-bottom: 5px;
+		}
+div.ebaDMain div.ebaDRight {
+	width: 200px;
+	border-left: 1px solid #AAA;
+	background: #F0F0F0;
+	padding: 5px 0;
+	}
+div.ebaDMain div.ebaDRight div.ebaDRKey {
+	padding: 3px 10px;
+	margin: 5px auto 0 auto;
+	width: 100px;
+	text-align: center;
+	font: normal 11px/12px Arial, sans-serif;
+	border: 1px solid #CCC;
+	background: #FFF;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	color: #444;
+	}
+	div.ebaDMain div.ebaDRight div.ebaDRKey span {
+		font-weight: bold;
+		}
+div.ebaDMain div.ebaDRight div.sebaDRPad {
+	padding: 10px;
+	}
+div.ebaDMain div.ebaDRight h3 {
+	background: -webkit-gradient(linear,0 0,0 100%, from(#F0F0F0), to(#D0D0D0));
+	background: -moz-linear-gradient(top,#F0F0F0,#D0D0D0);
+	margin: 0;
+	padding: 5px 10px;
+	font: bold 12px/12px Arial, sans-serif;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	border-top: 1px solid #D8D8D8;
+	border-bottom: 1px solid #BBB;
+	width: 180px;
+	}
+div.ebaDMain div.ebaDRight h3 + div {
+	background: #F8F8F8;
+	border-bottom: 1px solid #CCC;
+	padding: 5px 10px;
+	}
+	
+div.ebaDetails a.ebaDButton {
+	display: block;
+	font: normal 12px/12px Arial, sans-serif;
+	padding: 6px 10px;
+	text-align: center;
+	background: -webkit-gradient(linear,0 0,0 100%, from(#F0F0F0), to(#CCC));
+	background: -moz-linear-gradient(top,#F0F0F0,#CCC);
+	margin: 10px;
+	border: 1px solid #999;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	color: #222;
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	text-decoration: none;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.25), 0 1px 0 rgba(255,255,255,.75) inset;
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.25), 0 1px 0 rgba(255,255,255,.75) inset;
+	}
+	div.ebaDetails a.ebaDButton:hover {
+		background: -webkit-gradient(linear,0 0,0 100%, from(#DDD), to(#BBB));
+		background: -moz-linear-gradient(top,#DDD,#BBB);
+		}
+	div.ebaDetails a.ebaDButton:active {
+		background: -webkit-gradient(linear,0 0,0 100%, from(#BBB), to(#DDD));
+		background: -moz-linear-gradient(top,#BBB,#DDD);
+		-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.25), 0 1px 0 rgba(255,255,255,.25) inset;
+		-moz-box-shadow: 0 1px 2px rgba(0,0,0,.25), 0 1px 0 rgba(255,255,255,.75) inset;
+		}
+
+
+/* Badge */
+div.ebaDBadge {
+	display: table;
+	}
+	div.ebaDBadge + h3 {
+		/* Remove Double Border if two badges on top of each other*/
+		border-top: none !important;
+		}
+
+div.ebaDBadge div.ebaDBadgeTotal,
+div.ebaDBadge div.ebaDBadgeInfo {
+	display: table-cell;
+	vertical-align: top;
+}
+div.ebaDBadge div.ebaDBadgeTotal {
+	width: 60px;
+	padding: 0;
+}
+div.ebaDBadge div.ebaDBadgeTotal a {
+	padding: 5px 0;
+	margin-left: 0;
+	display: block;
+	font: normal 36px/36px Arial,sans-serif;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	letter-spacing: -2px;
+}
+div.ebaDBadge div.ebaDBadgeTotal a span {
+	display: block;
+	font: normal 11px/12px Arial,sans-serif;
+	color: #888;
+	text-align: left;
+	letter-spacing: 0px;
+	padding: 0 0 0 5px;
+	text-decoration: none;
+}
+div.ebaDBadge div.ebaDBadgeTotal a:hover {
+	color: #EA0000;
+}
+div.ebaDBadge div.ebaDBadgeInfo {
+	width: 120px;
+	padding: 5px 0 0 0;
+}
+div.ebaDBadge div.ebaDBadgeInfo span {
+	font: normal 11px/12px Arial,sans-serif;
+	display: block;
+	text-align: right;
+	padding: 0 0 5px 0;
+	color: #666;
+}
+div.ebaDBadge div.ebaDBadgeInfo span strong {
+	color: #333;
+	display: block;
+	float: right;
+	max-width: 20px;
+	padding-left: 5px;
+}
+
+
+	
+/* VAP Table */
+div.ebaDMain table.ebaVAPTable {
+	width: 100%;
+	padding: 10px 0 5px 0;
+	}
+	div.ebaDMain table.ebaVAPTable th,
+	div.ebaDMain table.ebaVAPTable td {
+		padding: 0 10px 5px 10px;
+		font: normal 12px/16px Arial, sans-serif;
+		color: #333;
+		vertical-align: top;
+		}
+	div.ebaDMain table.ebaVAPTable th {
+		font-weight: bold;
+		text-align: left;
+		width: 120px;
+		}
+		
+/*<div class="ebaDSection">
+	<h2>Sub Heading</h2>
+	<div class="ebaDSBody">
+		Body Here
+	</div>
+</div>
+*/
+
+div.ebaDSectionMain {
+	position: relative;
+	}
+
+div.ebaDSection h2 {
+	background: -webkit-gradient(linear,0 0,0 100%, from(#F0F0F0), to(#E0E0E0));
+	background: -moz-linear-gradient(top,#F0F0F0,#E0E0E0);
+	margin: 0;
+	padding: 0 0 0 30px;
+	font: bold 12px/30px Arial, sans-serif;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	border-top: 1px solid #D8D8D8;
+	border-bottom: 1px solid #BBB;
+	position: relative;
+	}
+	
+div.ebaDSection h2.ebaSmall {
+	background: -webkit-gradient(linear,0 0,0 100%, from(#FFF), to(#FFF));
+	background: -moz-linear-gradient(top,#FFF,#FFF);
+	margin: 0;
+	padding: 0 10px 0 30px;
+	font: bold 11px/30px Arial, sans-serif;
+	color: #666;
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	border-top: none;
+	border-bottom: none;
+	position: relative;
+	}
+
+div.ebaDSection h2 a.ebaDSControl,
+div.ebaDSection h2 a.ebaDSControlCollapsed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+	div.ebaDSection h2 a.ebaDSControl img,
+	div.ebaDSection h2 a.ebaDSControlCollapsed img {
+		width: 18px;
+		height: 18px;
+		display: block;
+		margin: 6px;
+		background: url(../img/eba_details_page_icons.png) 0 -46px no-repeat;
+		border: none;
+		}
+	div.ebaDSection h2 a.ebaDSControlCollapsed img {
+		background: url(../img/eba_details_page_icons.png) 0 -28px no-repeat;
+		}
+
+div.ebaDSection h2 > span {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	}
+div.ebaDSection h2 a.ebaDSButton {
+	display: block;
+	float: left;
+	text-decoration: none;
+	margin: 0;
+	padding: 0 0 0 5px;
+	border-left: 1px solid #D8D8D8;
+	border-left: 1px solid rgba(0,0,0,.10);
+	}
+	div.ebaDSection h2 a.ebaDSButton span {
+		display: block;
+		float: left;
+		font: normal 11px/30px Arial, sans-serif;
+		padding-left: 5px;
+		color: #666;
+		text-shadow: 0 1px 0 rgba(255,255,255,.75);
+		}
+	div.ebaDSection h2 a.ebaDSButton img.addButton {
+		width: 13px;
+		height: 14px;
+		display: block;
+		float: left;
+		margin: 8px 10px 8px 5px;
+		background: url(../img/eba_details_page_icons.png) 0 0 no-repeat;
+		border: none;
+		}
+	div.ebaDSection h2 a.ebaDSButton:hover img.addButton {
+		background: url(../img/eba_details_page_icons.png) 0 -14px no-repeat;
+		}
+	div.ebaDSection h2 a.ebaDSButton img.viewAllButton {
+		width: 7px;
+		height: 14px;
+		display: block;
+		float: left;
+		margin: 8px 13px 8px 8px;
+		background: url(../img/eba_details_page_icons.png) 0 -64px no-repeat;
+		border: none;
+		}
+	div.ebaDSection h2 a.ebaDSButton:hover img.viewAllButton {
+		background: url(../img/eba_details_page_icons.png) 0 -78px no-repeat;
+		}
+	div.ebaDSection h2 a.ebaDSButton img.addComment {
+		width: 13px;
+		height: 14px;
+		display: block;
+		float: left;
+		margin: 8px 10px 8px 5px;
+		background: url(../img/eba_details_page_icons.png) -14px 0 no-repeat;
+		border: none;
+		}
+	div.ebaDSection h2 a.ebaDSButton:hover img.addComment,
+	div.ebaDSection h2 a.activeButton img.addComment {
+		background: url(../img/eba_details_page_icons.png) -14px -14px no-repeat;
+		border: none;
+		}
+	div.ebaDSection h2 a.ebaDSButton:hover {
+		background: -webkit-gradient(linear,0 0,0 100%, from(#E8E8E8), to(#D8D8D8));
+		background: -moz-linear-gradient(top,#E8E8E8,#D8D8D8);
+		}
+	div.ebaDSection h2 a.ebaDSButton:hover span {
+		color: #333;
+		}
+	div.ebaDSection h2 a.activeButton,
+	div.ebaDSection h2 a.activeButton:hover {
+		background: #BBB;
+		background: -webkit-gradient(linear, 0 0 , 0 100%, from(#999), to(#BBB));
+		background: -moz-linear-gradient(top,#999, #BBB);
+		border-left: 1px solid #AAA;
+		}
+
+
+/* Stylized H3 for DSBody Only */
+div.ebaDSection div.ebaDSBody > h3 {
+	background: -webkit-gradient(linear,0 0,0 100%, from(#F0F0F0), to(#FFF));
+	background: -moz-linear-gradient(top,#F0F0F0,#FFF);
+	margin: 0;
+	padding: 10px 10px 5px 10px;
+	font: bold 12px/12px Arial, sans-serif;
+	color: #666;
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	border-top: 1px solid #CCC;
+	position: relative;
+	}
+div.ebaDSection div.ebaDSBody > h3.ebaBordered {
+	padding: 10px;
+	border-bottom: 1px solid #EEE;
+	}
+	
+div.ebaDSection h3 span {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	}
+	div.ebaDSection h3 span a {
+		position: relative;
+		float: left;
+		}
+		
+	
+	
+div.ebaDSection h3 a,
+div.ebaDetails a.ebaEditLink {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	margin: 7px 7px 0 0;
+	font: normal 11px/12px Arial, sans-serif;
+	text-decoration: none;
+	color: #666;
+	padding: 2px 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: 1px solid #EEE;
+	-webkit-transition: background .2s linear, border .2s linear, color .2s linear;
+	}
+	div.ebaDSection h3 a:hover,
+	div.ebaDetails a.ebaEditLink:hover {
+		border: 1px solid #BBB;
+		background: #FFF;
+		color: #333;
+		}
+
+div.ebaDSection div.ebaDSBody > h3:first-child {
+	border-top: none !important;
+	}
+
+
+div.ebaDSection div.ebaDSBody {
+	position: relative;
+	padding: 0 0 5px 0;
+	}
+
+div.ebaDSection div.ebaDSBody div.ebaNoData {
+	padding: 10px;
+	font: normal 12px/12px Arial, sans-serif;
+	color: #AAA;
+	}
+
+div.ebaDSection div.ebaDSBodyPadded {
+	padding: 10px;
+	}
+	
+div.ebaDSection table.ebaVAPTable {
+	width: 100%;
+	padding: 0 0 10px 0;
+	}
+	div.ebaDSection table.ebaVAPTable th,
+	div.ebaDSection table.ebaVAPTable td {
+		padding: 5px 10px 0 10px;
+		font: normal 11px/16px Arial, sans-serif;
+		color: #333;
+		}
+	div.ebaDSection table.ebaVAPTable th {
+		font-weight: bold;
+		text-align: left;
+		width: 120px;
+		}
+		
+ul.ebaDSList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+/*	background: #FFF;*/
+	border-bottom: 1px solid #CCC;
+	}
+	ul.ebaDSList li {
+		}
+		ul.ebaDSList li:first-child a {
+			}
+		ul.ebaDSList li:nth-child(2n) a {
+			background-color: #F8F8F8;
+			}
+		ul.ebaDSList li a {
+			display: block;
+			font: normal 11px/16px Arial, sans-serif;
+			padding: 4px 10px;
+			color: #333;
+			text-decoration: none;
+			}
+			ul.ebaDSList li a:hover {
+				background-color: #F0F0F0;
+				text-decoration: underline;
+				}
+				
+table.ebaFiles,
+table.ebaLinks {
+	width: 100%;
+	padding: 0;
+	}
+table.ebaFiles thead tr th,
+table.ebaLinks thead tr th {
+	background: -webkit-gradient(linear,0 0,0 100%, from(#F0F0F0), to(#FFF));
+	background: -moz-linear-gradient(top,#F0F0F0,#FFF);
+	margin: 0;
+	padding: 0 10px;
+	font: normal 11px/24px Arial, sans-serif;
+	color: #666;
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #DDD;
+	text-align: left;
+	}
+	table.ebaFiles thead tr th:first-child,
+	table.ebaLinks thead tr th.editCol,
+	table.ebaLinks thead tr th.deleteCol {
+		border-right: none;
+		padding: 0;
+		width: 24px;
+		}
+	table.ebaLinks thead tr th:last-child,
+	table.ebaFiles thead tr th:last-child {
+		border-right: none;
+		}
+	table.ebaLinks .ebaRightAligned,
+	table.ebaFiles .ebaRightAligned {
+		text-align: right;
+		}
+table.ebaFiles tbody tr td,
+table.ebaLinks tbody tr td {
+	font: normal 12px/16px Arial, sans-serif;
+	padding: 6px 10px;
+	color: #333;
+	}
+	table.ebaFiles tbody tr td a,
+	table.ebaLinks tbody tr td a {
+		color: #333;
+		text-decoration: underline;
+		}
+	table.ebaFiles tbody tr td:first-child,
+	table.ebaLinks tbody tr td.editCol {
+		padding: 0 0 0 8px;
+		vertical-align: middle;
+		text-align: middle;
+		}
+		table.ebaFiles tbody tr td:first-child img {
+			display: block;
+			}
+table.ebaFiles tbody tr:nth-child(2n) td,
+table.ebaLinks tbody tr:nth-child(2n) td {
+	background-color: #F8F8F8;
+	}
+
+/* Child Projects Display */
+ul.ebaDChildProjects {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+/*<li>
+	<span class="eS"></span>
+	<span class="eL"><a href="#">Child Project Name</a></span>
+</li>*/
+ul.ebaDChildProjects li {
+	clear: left;
+	margin: 0 0 5px 0;
+	}
+
+ul.ebaDChildProjects li em {
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, .75), 0 0 2px rgba(0, 0, 0, .5) inset;
+	-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, .75), 0 0 2px rgba(0, 0, 0, .5) inset;
+	box-shadow: 0 1px 1px rgba(255, 255, 255, .75), 0 0 2px rgba(0, 0, 0, .5) inset;
+	background: -webkit-gradient(linear,0 0,0 100%,from(transparent),to(rgba(0, 0, 0, .25)));
+	background: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, .25));
+	margin: 4px 8px 4px 0;
+	float: left;
+	}
+	ul.ebaDChildProjects li em.ebaRed {background-color: #F00;}
+	ul.ebaDChildProjects li em.ebaYellow {background-color: #FCE709;}
+	ul.ebaDChildProjects li em.ebaGreen {background-color: #22C615;}
+	ul.ebaDChildProjects li em.ebaBlack,
+	ul.ebaDChildProjects li em.ebaComplete {background-color: #444;}
+	ul.ebaDChildProjects li em.ebaNull,
+	ul.ebaDChildProjects li em.ebaUnknown {background-color: #CCC; opacity: .6;}
+
+ul.ebaDChildProjects li span {
+	font: normal 12px/16px Arial, sans-serif;
+	}
+	ul.ebaDChildProjects li span a {
+		color: #333;
+		text-decoration: none;
+		}
+	ul.ebaDChildProjects li span a:hover {
+		text-decoration: underline;
+		}
+		
+		
+div.ebaSubNavBar {
+  border-bottom: 1px solid #DDD;
+  background-color: #F0F0F0;
+}
+div.ebaSubNavBar ul {
+  margin: 0;
+  list-style: none;
+  height: 32px;
+}
+
+div.ebaSubNavBar ul {
+  margin: 0;
+  list-style: none
+}
+div.ebaSubNavBar ul li {
+  display: block;
+  float: left
+}
+div.ebaSubNavBar ul li a {
+  display: block;
+  margin: 5px 0 5px 8px;
+  padding: 4px;
+  text-align: center;
+  min-width: 80px;
+  font: normal 11px/14px Arial,sans-serif;
+  color: #555;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.45);
+  text-decoration: none
+}
+div.ebaSubNavBar ul li a:hover {
+  background-color: #F0F0F0;
+  background-color: rgba(0,0,0,0.05);
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px
+}
+div.ebaSubNavBar ul li a.active {
+  font-weight: bold
+}

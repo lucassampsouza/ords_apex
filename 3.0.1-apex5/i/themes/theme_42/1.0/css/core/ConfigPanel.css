@@ -1,0 +1,132 @@
+/*
+ * Import Compass
+ */
+/* ==========================================================================
+   Cards Container
+   ========================================================================== */
+.t-ConfigPanel {
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) inset; }
+
+/* About Panel
+   ========================================================================== */
+.t-ConfigPanel-about {
+  padding: 12px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) inset; }
+  .t-ConfigPanel-about p:first-child {
+    margin-top: 0; }
+  .t-ConfigPanel-about p:last-child {
+    margin-bottom: 0; }
+
+/* Body
+   ========================================================================== */
+.t-ConfigPanel-body {
+  display: block;
+  overflow: hidden; }
+
+/* Two Columns
+   ========================================================================== */
+.t-ConfigPanel-main, .t-ConfigPanel-list {
+  display: block;
+  float: left;
+  padding: 12px; }
+
+.t-ConfigPanel-main {
+  width: 40%;
+  box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1) inset; }
+
+.t-ConfigPanel-list {
+  width: 60%; }
+
+/* Status Columns
+   ========================================================================== */
+.t-ConfigPanel-icon {
+  display: block;
+  text-align: center;
+  margin: 12px auto;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 100%; }
+  .t-ConfigPanel-icon:before {
+    font-size: 32px;
+    line-height: 48px; }
+  .t-ConfigPanel-icon.auth-scheme:before {
+    content: "\e08f"; }
+  .t-ConfigPanel-icon.is-enabled:before {
+    content: "\e007"; }
+  .t-ConfigPanel-icon.is-disabled:before {
+    content: "\e0a2"; }
+
+.t-ConfigPanel-setting, .t-ConfigPanel-status {
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 2.4rem; }
+
+.t-ConfigPanel-status {
+  font-weight: bold; }
+
+.t-ConfigPanel-actions {
+  display: block;
+  margin: 12px;
+  text-align: center; }
+  .t-ConfigPanel-actions .t-Button {
+    padding-right: 16px;
+    padding-left: 16px;
+    white-space: normal; }
+
+/* List Column
+   ========================================================================== */
+.t-ConfigPanel-list {
+  padding: 0; }
+
+.t-ConfigPanel-attrs {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.t-ConfigPanel-attr {
+  font-size: 1.4rem;
+  line-height: 2rem; }
+
+.t-ConfigPanel-attr:last-child .t-ConfigPanel-attrLink {
+  box-shadow: none; }
+
+.t-ConfigPanel-attrLink {
+  display: block;
+  padding: 14px 12px;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+  text-decoration: none;
+  overflow: hidden;
+  transition: background-color 0.2s; }
+  .t-ConfigPanel-attrLink:hover {
+    text-decoration: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05); }
+
+.t-ConfigPanel-attrLabel {
+  padding-right: 12px; }
+
+.t-ConfigPanel-attrValue {
+  float: right; }
+
+/* ==========================================================================
+   Responsive For Small Screens
+   ========================================================================== */
+@media only screen and (max-width: 640px) {
+  .t-ConfigPanel-main, .t-ConfigPanel-list {
+    display: block;
+    width: auto;
+    padding: 12px;
+    float: none; }
+
+  .t-ConfigPanel-main {
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+    padding-bottom: 16px; }
+
+  .t-ConfigPanel-attrValue {
+    float: none;
+    display: block; }
+
+  .t-ConfigPanel-attrLink {
+    padding: 8px 12px; }
+ }

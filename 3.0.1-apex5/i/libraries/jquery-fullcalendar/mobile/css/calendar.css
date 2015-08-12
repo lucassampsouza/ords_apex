@@ -1,0 +1,650 @@
+/******************************************************************************
+File Name:    mcsscalendar.scss
+Purpose:      for fixed UI Mobile Calendar
+
+Change History:
+
+Rem   sathikum       06/24/2013    Created file
+******************************************************************************/
+/* -------------------- Mobile Calendar ------------------- */
+/* line 13, ../scss/calendar.scss */
+.offscreen {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* line 22, ../scss/calendar.scss */
+.m-Calendar {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* line 27, ../scss/calendar.scss */
+.m-CalendarHolder .m-MonthTitle {
+  font: bold 16px/20px Arial, sans-serif;
+  text-align: center;
+  color: #545454;
+}
+
+/* line 33, ../scss/calendar.scss */
+.m-Calendar .m-DayOfWeek {
+  font: bold 11px/14px Arial, sans-serif;
+  text-align: center;
+  color: #545454;
+}
+
+/* line 39, ../scss/calendar.scss */
+.m-Calendar td {
+  text-align: center;
+  color: #465769;
+  font-weight: bold;
+  margin: 0;
+  padding: 4px;
+}
+
+/* line 47, ../scss/calendar.scss */
+.m-Calendar .m-DayTitle {
+  padding: 2px;
+  margin: 2px;
+  font-weight: bold;
+  text-align: right;
+  float: right;
+  background-color: #dddddd;
+}
+
+/* line 56, ../scss/calendar.scss */
+.m-Calendar .m-Day {
+  text-align: center;
+  width: 13%;
+  padding: 0;
+  color: #465769;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0;
+  background-color: #e2e2e2;
+  border: 1px solid #aaaaaa;
+}
+
+/* line 69, ../scss/calendar.scss */
+.m-Calendar .m-Day .content-primary {
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  padding: 4px 0 0 0;
+  height: 30px;
+}
+
+/* line 79, ../scss/calendar.scss */
+.m-Calendar .m-NonDayTitle {
+  text-align: right;
+  color: #AAAAAA;
+}
+
+/* line 84, ../scss/calendar.scss */
+.m-Calendar .m-NonDay {
+  text-align: center;
+  width: 10%;
+  padding: 0;
+  color: #aaa;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0;
+  background-color: #f4f4f4;
+  border: 1px solid #aaaaaa;
+}
+
+/* line 96, ../scss/calendar.scss */
+.m-Calendar .m-NonDay .content-primary {
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  padding: 4px 0 0 0;
+  height: 30px;
+}
+
+/* line 103, ../scss/calendar.scss */
+.m-Calendar .m-WeekendDayTitle {
+  padding: 2px;
+  margin: 2px;
+  font-weight: bold;
+  text-align: right;
+  float: right;
+  text-align: right;
+  color: #404040;
+  background-color: #dddddd;
+}
+
+/* line 114, ../scss/calendar.scss */
+.m-Calendar .m-WeekendDay {
+  text-align: center;
+  width: 13%;
+  padding: 0;
+  color: #465769;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0;
+  background-color: #d2d2d2;
+  border: 1px solid #aaaaaa;
+}
+
+/* line 126, ../scss/calendar.scss */
+.m-Calendar .m-WeekendDay .content-primary {
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  padding: 4px 0 0 0;
+  height: 30px;
+}
+
+/* line 133, ../scss/calendar.scss */
+.m-Calendar .m-Today {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  background-color: #aaaaaa;
+}
+
+/* line 142, ../scss/calendar.scss */
+.m-Calendar .m-Today .m-DayTitle {
+  background-color: #FFFFFF;
+}
+
+/* line 146, ../scss/calendar.scss */
+.m-Calendar .apex-calendar-has-data {
+  background-image: url(../images/active_event.png);
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+}
+
+/* line 152, ../scss/calendar.scss */
+.m-Calendar .apex-calendar-today-has-data {
+  background-image: url(../images/active_event_today.png);
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+}
+
+/*----------------------Mobile Year Caleandar ---------------------------*/
+/* line 161, ../scss/calendar.scss */
+.m-year-holder {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* line 166, ../scss/calendar.scss */
+.m-year-holder .m-yearTitle {
+  width: 100%;
+  font: bold 20px/35px Arial, sans-serif;
+  text-align: left;
+  color: #FF0000;
+}
+
+/* line 174, ../scss/calendar.scss */
+.m-year-holder .m-Year {
+  position: relative;
+  top: 0;
+  left: 0;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+/* line 182, ../scss/calendar.scss */
+.m-year-holder .m-MonthTitle {
+  font: bold 15px/29px Arial, sans-serif;
+  text-align: left;
+  color: #FF0000;
+}
+
+/* line 188, ../scss/calendar.scss */
+.m-year-holder .month_float_left {
+  height: 200px;
+  width: 30%;
+  display: inline-block;
+  padding: 0px;
+}
+
+/* line 196, ../scss/calendar.scss */
+.m-year-holder .m-DayOfWeek {
+  font: bold 14px/26px Arial, sans-serif;
+  text-align: center;
+  color: #000000;
+}
+
+/* line 202, ../scss/calendar.scss */
+.m-year-holder .m-NonDay {
+  font: 13px/24px Arial, sans-serif;
+  text-align: center;
+  color: #545454;
+}
+
+/* line 208, ../scss/calendar.scss */
+.m-year-holder .m-Day {
+  font: bold 13px/24px Arial, sans-serif;
+  text-align: center;
+  color: #545454;
+}
+
+/* line 214, ../scss/calendar.scss */
+.m-year-holder .m-WeekendDay {
+  font: bold 13px/24px Arial, sans-serif;
+  text-align: center;
+  color: #545454;
+}
+
+/* line 220, ../scss/calendar.scss */
+.m-year-holder .m-Today {
+  font: bold 13px/24px Arial, sans-serif;
+  text-align: center;
+  color: #FF0000;
+}
+
+/* line 226, ../scss/calendar.scss */
+.m-year-holder .apex-calendar-has-data {
+  font: bold 13px/24px Arial, sans-serif;
+  text-align: center;
+  color: #11057C;
+}
+
+/* ---------------------Mobile CSS Week Calendar ----------------------- */
+/* line 238, ../scss/calendar.scss */
+.m-Calendar-Week-Header .m-filler {
+  width: 50px;
+  min-height: 40px;
+  font: 12px/16px Arial, sans-serif;
+  padding: 0px 5px 40px 5px;
+  border-width: 0px 0px 0 0;
+  white-space: nowrap;
+}
+
+/* line 247, ../scss/calendar.scss */
+.m-Calendar-Week-Header .m-Calendar-DayOfWeek {
+  text-align: center;
+  font: 12px/16px Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* line 253, ../scss/calendar.scss */
+.m-Calendar-Week-Holder {
+  position: absolute;
+  z-index: 2;
+  left: 0px;
+  width: 100%;
+  top: 50px;
+}
+
+/* line 261, ../scss/calendar.scss */
+.m-Calendar-Week-Holder .m-Calendar-HourTitle {
+  width: 50px;
+  min-height: 40px;
+  font: 12px/16px Arial, sans-serif;
+  padding: 0px 5px 40px 5px;
+  border-width: 0px 0px 0 0;
+  white-space: nowrap;
+}
+
+/* line 270, ../scss/calendar.scss */
+.m-Calendar-Week-Holder .m-Calendar-AlldayTitle {
+  width: 50px;
+  min-height: 40px;
+  font: 12px/16px Arial, sans-serif;
+  padding: 0px 5px 40px 5px;
+  border-width: 0px 0px 0 0;
+  white-space: nowrap;
+}
+
+/* line 279, ../scss/calendar.scss */
+.m-Calendar-Week-Holder .m-Calendar-Day {
+  border-right: 0.1em solid #cdcdcd;
+  margin: 0px;
+  vertical-align: top;
+  min-height: 40px;
+  border-top: 1px solid #a7abb3;
+}
+
+/* line 287, ../scss/calendar.scss */
+.m-Calendar-Week-Holder .m-Calendar-Today {
+  border-right: 0.1em solid #cdcdcd;
+  margin: 0px;
+  vertical-align: top;
+  min-height: 40px;
+  border-top: 1px solid #a7abb3;
+}
+
+/* line 295, ../scss/calendar.scss */
+.m-Week-Calendar-Holder .m-Calendar-AllDay {
+  border-right: 0.1em solid #cdcdcd;
+  margin: 0px;
+  vertical-align: top;
+  min-height: 40px;
+  border-top: 1px solid #a7abb3;
+}
+
+/* line 303, ../scss/calendar.scss */
+.m-Calendar-Week-Holder .m-Calendar-DivFiller {
+  background: #eee;
+  width: 13px;
+}
+
+/* line 308, ../scss/calendar.scss */
+.m-Calendar-Week-Holder .m-Calendar-DivFiller2 {
+  background-color: #d4d4d4;
+}
+
+/* line 312, ../scss/calendar.scss */
+.m-Calendar-Week-Holder .m-Calendar-DivSeperator {
+  *border-top-style: solid;
+  background-color: #d4d4d4;
+  height: 4px;
+}
+
+/* line 318, ../scss/calendar.scss */
+.m-Calendar-Week-Holder .m-Calendar-Scroll {
+  position: absolute;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* line 326, ../scss/calendar.scss */
+.m-Calendar-Week-Holder .m-Calendar-Data {
+  font: 11px/14px Arial, sans-serif;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: #3a87ad;
+  border: 1px solid #151B54;
+  position: absolute;
+}
+.m-Calendar-Week-Holder .m-Calendar-Data a:link a:visited  a:hover{
+  color: white;
+}
+/*------------------------- Responsive for Calendar -----------------------*/
+/* line 340, ../scss/calendar.scss */
+.ui-btn-small-screen {
+  display: none;
+}
+
+@media all and (max-width: 40em) {
+  /* line 343, ../scss/calendar.scss */
+  .priority7 {
+    display: none;
+  }
+
+  /* line 344, ../scss/calendar.scss */
+  .priority6 {
+    display: none;
+  }
+
+  /* line 345, ../scss/calendar.scss */
+  .priority5 {
+    display: none;
+  }
+
+  /* line 346, ../scss/calendar.scss */
+  .priority4 {
+    display: none;
+  }
+
+  /* line 347, ../scss/calendar.scss */
+  .ui-btn-small-screen {
+    display: inline-block;
+  }
+
+  /* line 348, ../scss/calendar.scss */
+  .ui-btn-big-screen {
+    display: none;
+  }
+}
+@media all and (max-width: 20em) {
+  /* line 352, ../scss/calendar.scss */
+  .priority7 {
+    display: none;
+  }
+
+  /* line 353, ../scss/calendar.scss */
+  .priority6 {
+    display: none;
+  }
+
+  /* line 354, ../scss/calendar.scss */
+  .priority5 {
+    display: none;
+  }
+
+  /* line 355, ../scss/calendar.scss */
+  .priority4 {
+    display: none;
+  }
+
+  /* line 356, ../scss/calendar.scss */
+  .ui-btn-small-screen {
+    display: none;
+  }
+
+  /* line 357, ../scss/calendar.scss */
+  .ui-btn-big-screen {
+    display: none;
+  }
+}
+/*------------------ Mobile CSS Day Calendar ---------------------------*/
+/* line 365, ../scss/calendar.scss */
+.m-Calendar-Day-Header .m-Calendar-DayOfWeek {
+  font: 14px/18px Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* line 370, ../scss/calendar.scss */
+.m-Calendar-Day-Holder {
+  position: absolute;
+  z-index: 2;
+  left: 0px;
+  width: 100%;
+  top: 18px;
+}
+
+/* line 379, ../scss/calendar.scss */
+.m-Calendar-Day-Holder .m-Calendar-HourTitle {
+  width: 50px;
+  min-height: 40px;
+  font: 12px/16px Arial, sans-serif;
+  padding: 0px 5px 40px 5px;
+  border-width: 0px 0px 0 0;
+  white-space: nowrap;
+}
+
+/* line 388, ../scss/calendar.scss */
+.m-Calendar-Day-Holder .m-Calendar-AlldayTitle {
+  width: 50px;
+  min-height: 40px;
+  font: 12px/16px Arial, sans-serif;
+  padding: 0px 5px 40px 5px;
+  border-width: 0px 0px 0 0;
+  white-space: nowrap;
+}
+
+/* line 397, ../scss/calendar.scss */
+.m-Calendar-Day-Holder .m-Calendar-Day {
+  vertical-align: top;
+  margin: 0px;
+  min-height: 40px;
+  border-top: 1px solid #a7abb3;
+}
+
+/* line 404, ../scss/calendar.scss */
+.m-Calendar-Day-Holder .m-Calendar-Today {
+  vertical-align: top;
+  margin: 0px;
+  min-height: 40px;
+  border-top: 1px solid #a7abb3;
+}
+
+/* line 411, ../scss/calendar.scss */
+.m-Calendar-Day-Holder .m-Calendar-AllDay {
+  margin: 0px;
+  vertical-align: top;
+  min-height: 40px;
+  border-top: 1px solid #a7abb3;
+}
+
+/* line 417, ../scss/calendar.scss */
+.m-Calendar-Day-Holder .m-Calendar-DivFiller {
+  background: #eee;
+  width: 15px;
+}
+
+/* line 422, ../scss/calendar.scss */
+.m-Calendar-Day-Holder .m-Calendar-DivFiller2 {
+  background-color: #d4d4d4;
+}
+
+/* line 426, ../scss/calendar.scss */
+.m-Calendar-Day-Holder .m-Calendar-DivSeperator {
+  *border-top-style: solid;
+  background-color: #d4d4d4;
+  height: 4px;
+}
+
+/* line 432, ../scss/calendar.scss */
+.m-Calendar-Day-Holder .m-Calendar-Scroll {
+  position: absolute;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* line 439, ../scss/calendar.scss */
+.m-Calendar-Day-Holder .m-Calendar-Data {
+  font: 11px/14px Arial, sans-serif;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: #3a87ad;
+  border: 1px solid #151B54;
+  position: absolute;
+}
+
+.m-Calendar-Day-Holder .m-Calendar-Data a:link a:visited  a:hover {
+  color: white;
+}
+
+/*.m-Day-Holder .m-Data a:link,  a:visited, a:hover { 
+    color: #f85;; 
+    text-decoration: none; 
+}*/
+/* Changes from **PM , remember to check with shakeeb to style this */
+.m-Calendar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #E0E0E0;
+  border-bottom: none;
+}
+.m-Calendar-list-dayHeader {
+  background-image: none;
+  background-color: #F0F0F0;
+  border-color: #E0E0E0;
+  border-width: 0 0 1px 0;
+  padding: 8px 12px;
+  overflow: hidden;
+}
+.m-Calendar-list-day,
+.m-Calendar-list-date {
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+}
+.m-Calendar-list-day {
+  font-weight: bold;
+  color: #404040;
+  float: left;
+}
+.m-Calendar-list-date {
+  color: #606060;
+  float: right;
+  font-weight: normal;
+}
+.m-Calendar-list-item {
+  border-bottom: 1px solid #E0E0E0;
+}
+.m-Calendar-list-event {
+  display: block;
+  padding: 6px;
+  margin: 1px;
+  border-left: 4px solid #FFF;
+}
+/* Event Link */
+a.m-Calendar-list-event {
+  text-decoration: none;
+}
+a.m-Calendar-list-event:hover {
+  background-color: #F8F8F8;
+}
+a.fc-m-Calendar-list .fc-event-title {
+  color: #4B66A7;
+  text-decoration: underline;
+}
+.m-Calendar-list .fc-apex-events-gcal {
+  border-color: #5284C1;
+}
+.m-Calendar-list .fc-apex-events {
+  border-color: #C11E21;
+}
+.m-Calendar-list .m-Calendar-list-eventtime {
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+  margin-right: 8px;
+}
+.m-Calendar-list .m-Calendar-list-starttime,
+.fc-agendaList .m-Calendar-list-endtime {
+  display: block;
+}
+.m-Calendar-list .m-Calendar-list-starttime,
+.m-Calendar-list .m-Calendar-list-endtime,
+.m-Calendar-list .m-Calendar-list-allday {
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+  text-align : left;
+}
+.m-Calendar-list .m-Calendar-list-endtime {
+  font-size: 12px;
+  line-height: 16px;
+  color: #A0A0A0;
+  text-align : left;
+}
+.m-Calendar-list-eventdetails {
+  display: inline-block;
+  vertical-align: top;
+}
+.m-Calendar-list .m-Calendar-list-eventtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+}
+.m-Calendar-list .m-Calendar-list-eventdesc {
+  font-size: 12px;
+  line-height: 16px;
+  color: #707070;
+}
+.m-Calendar-list .m-Calendar-list-noevents {
+
+}
+
+
+.m-header-control {
+   width : 100%;
+}
+
+.m-header-control-left {
+   text-align : left;
+}
+
+.m-header-control-right {
+   text-align : right;
+}

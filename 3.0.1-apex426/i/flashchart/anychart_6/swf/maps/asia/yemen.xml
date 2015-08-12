@@ -1,0 +1,131 @@
+<map_data>
+ <name>yemen</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="42.5558319091797" top="18.9993438720703" right="54.4769439697266" bottom="12.1061096191406"/>
+ <regions>
+  <region>
+   <centroid lat="15.5373873710632" lon="47.0426387786865"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-ATQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA['Ataq]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.6580533981323" lon="46.1384716033936"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-ABY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Abyan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.2447214126587" lon="44.4061107635498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-LHJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lahij]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.0325880050659" lon="51.6277503967285"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-AMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Mahrah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.4295315742493" lon="49.4347171783447"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-HDH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hadhramaut]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.5464148521423" lon="49.57763671875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-ADN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.356433391571" lon="45.3126945495605"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-ABD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Bayda']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.717499256134" lon="43.1344413757324"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-AHD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Hudaydah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.4107451438904" lon="45.2564239501953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-AJW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Jawf]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.2588047981262" lon="43.6079597473145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-AMW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Mahwit]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.5522499084473" lon="44.1398143768311"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-DHM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dhamar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.0806965827942" lon="43.2844829559326"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-HJJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hajjah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.0478901863098" lon="44.1850891113281"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-IBB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ibb]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.1331100463867" lon="45.4104232788086"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-MRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ma'rib]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.0277976989746" lon="44.2994918823242"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-SDH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sa'dah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.7474846839905" lon="44.1634559631348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-SAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San'a']]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.2452735900879" lon="43.8834686279297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[YEM-TAZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ta'izz]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

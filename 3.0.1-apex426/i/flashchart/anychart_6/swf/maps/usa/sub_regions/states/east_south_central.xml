@@ -1,0 +1,50 @@
+<map_data>
+ <name>east_south_central</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="STATE_FIPS" key="true"/>
+  <column name="SUB_REGION" key="false"/>
+ </columns>
+ <bounds left="-91.6435623168945" top="39.1420059204102" right="-81.6524353027344" bottom="30.1947383880615"/>
+ <regions>
+  <region>
+   <centroid lat="35.834156036377" lon="-85.9788932800293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tennessee]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[47]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.8192615509033" lon="-85.7639427185059"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kentucky]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[21]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.5998468399048" lon="-89.8669967651367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mississippi]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[28]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6246747970581" lon="-86.6835060119629"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alabama]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[01]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[E S Cen]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,82 @@
+<map_data>
+ <name>south_africa</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="14.408332824707" top="-22.1363906860352" right="32.8904266357422" bottom="-34.8220024108887"/>
+ <regions>
+  <region>
+   <centroid lat="-32.0823640823364" lon="26.4599199295044"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAF-ECP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eastern Cape]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.0064277648926" lon="28.2126350402832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAF-GAT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gauteng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-28.9395065307617" lon="30.8203506469727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAF-KNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[KwaZulu/Natal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-25.7311573028564" lon="30.1535720825195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAF-MPM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mpumalanga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-28.8511791229248" lon="21.0040245056152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAF-NCP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern Cape]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-23.7331953048706" lon="29.1375951766968"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAF-NRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.3593416213989" lon="25.4592094421387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAF-NWS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North West]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-28.7026424407959" lon="27.0558490753174"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAF-OFS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Free State]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.9209728240967" lon="14.5605545043945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAF-PS1]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Walvis Bay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.6254463195801" lon="20.9858541488647"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZAF-WCP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Cape]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

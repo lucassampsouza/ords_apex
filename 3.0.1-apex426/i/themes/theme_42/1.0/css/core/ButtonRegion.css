@@ -1,0 +1,177 @@
+/**
+ * Import Compass
+ */
+/* ==========================================================================
+   Button Region
+   ========================================================================== */
+.t-ButtonRegion {
+  margin-bottom: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05); }
+  .col .t-ButtonRegion:only-child {
+    margin-bottom: 8px; }
+  .t-Dialog .col .t-ButtonRegion:only-child {
+    margin-bottom: 0; }
+
+.t-Region + .t-ButtonRegion {
+  margin-top: 16px; }
+
+.t-ButtonRegion-wrap {
+  display: table;
+  width: 100%;
+  border-collapse: collapse; }
+
+.t-ButtonRegion-title {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.t-ButtonRegion-col {
+  display: table-cell;
+  width: 33%;
+  vertical-align: middle; }
+
+.t-ButtonRegion-buttons {
+  white-space: nowrap; }
+  .t-ButtonRegion-buttons:empty {
+    display: none; }
+
+.t-ButtonRegion-col--left .t-ButtonRegion-buttons {
+  text-align: left; }
+
+.t-ButtonRegion-col--content .t-ButtonRegion-buttons {
+  text-align: center; }
+
+.t-ButtonRegion-col--right .t-ButtonRegion-buttons {
+  text-align: right; }
+
+.t-ButtonRegion-col--left .t-ButtonRegion-buttons, .t-ButtonRegion-col--right .t-ButtonRegion-buttons, .t-ButtonRegion-col--content {
+  padding: 16px; }
+
+/* ==========================================================================
+   Styles to Handle Items
+   ========================================================================== */
+.t-ButtonRegion-col--left, .t-ButtonRegion-col--right {
+  width: 0; }
+  .t-ButtonRegion-col--left:empty, .t-ButtonRegion-col--right:empty {
+    padding: 0; }
+
+.t-ButtonRegion-col--left .t-ButtonRegion-buttons {
+  padding-right: 0; }
+
+.t-ButtonRegion-col--right .t-ButtonRegion-buttons {
+  padding-left: 0; }
+
+.t-ButtonRegion-col--content {
+  width: 100%; }
+
+.t-ButtonRegion .t-Form-labelContainer, .t-ButtonRegion .t-Form-inputContainer {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.t-ButtonRegion .t-Form-inputContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .t-ButtonRegion .t-Form-inputContainer .t-Form-error {
+    width: 100%; }
+
+/* ==========================================================================
+   Modifier: No UI (used for Wizard Dialogs)
+   ========================================================================== */
+.t-ButtonRegion--noUI {
+  border-width: 0;
+  box-shadow: none;
+  margin: 0; }
+
+/* ==========================================================================
+   Modifier: Borderless
+   ========================================================================== */
+.t-ButtonRegion--noBorder {
+  border-width: 0; }
+
+/* ==========================================================================
+   Modifier: Slim Padding
+   ========================================================================== */
+.t-ButtonRegion--slimPadding .t-ButtonRegion-col--left .t-ButtonRegion-buttons, .t-ButtonRegion--slimPadding .t-ButtonRegion-col--right .t-ButtonRegion-buttons, .t-ButtonRegion--slimPadding .t-ButtonRegion-col--content {
+  padding: 8px; }
+
+/* ==========================================================================
+   Modifier: No Padding
+   ========================================================================== */
+.t-ButtonRegion--noPadding .t-ButtonRegion-col--left .t-ButtonRegion-buttons, .t-ButtonRegion--noPadding .t-ButtonRegion-col--right .t-ButtonRegion-buttons, .t-ButtonRegion--noPadding .t-ButtonRegion-col--content {
+  padding: 0; }
+
+/* ==========================================================================
+   Modifier: Wizard Dialog and Dialog Region
+   ========================================================================== */
+.t-DialogRegion-buttons .t-ButtonRegion, .t-Wizard-footer .t-ButtonRegion, .t-Dialog-footer .t-ButtonRegion, .t-ButtonRegion--dialogRegion {
+  border-width: 0;
+  margin: 0;
+  box-shadow: none; }
+
+.t-Dialog-footer .t-ButtonRegion {
+  border-top-width: 1px;
+  border-top-color: rgba(0, 0, 0, 0.05); }
+
+/* ==========================================================================
+   Modifier: Dialog Region
+   ========================================================================== */
+.t-ButtonRegion--dialogRegion {
+  border-top-width: 0; }
+
+/* ==========================================================================
+   Modifier: Side Bar Buttons
+   ========================================================================== */
+.t-Body-actions .t-ButtonRegion .t-ButtonRegion-col--left, .t-Body-actions .t-ButtonRegion .t-ButtonRegion-col--content, .t-ButtonRegion--sideBar .t-ButtonRegion-col--left, .t-ButtonRegion--sideBar .t-ButtonRegion-col--content {
+  display: none; }
+.t-Body-actions .t-ButtonRegion .t-ButtonRegion-buttons, .t-ButtonRegion--sideBar .t-ButtonRegion-buttons {
+  padding: 16px; }
+  .t-Body-actions .t-ButtonRegion .t-ButtonRegion-buttons .t-Button, .t-ButtonRegion--sideBar .t-ButtonRegion-buttons .t-Button {
+    width: 100%;
+    display: block;
+    margin: 0 0 0.8rem 0; }
+    .t-Body-actions .t-ButtonRegion .t-ButtonRegion-buttons .t-Button:last-child, .t-ButtonRegion--sideBar .t-ButtonRegion-buttons .t-Button:last-child {
+      margin-bottom: 0; }
+
+/* ==========================================================================
+   Modifier: Wizard Dialog
+   ========================================================================== */
+.t-ButtonRegion--showTitle .t-ButtonRegion-title {
+  border: inherit;
+  clip: none;
+  height: auto;
+  margin: 0;
+  width: auto;
+  position: inherit;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: normal; }
+
+/* ==========================================================================
+   Positional Modifier: In Actions Column
+   ========================================================================== */
+.t-Body-actions .t-ButtonRegion {
+  border-width: 0;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0; }
+  .t-Body-actions .t-ButtonRegion .t-ButtonRegion-wrap, .t-Body-actions .t-ButtonRegion .t-ButtonRegion-col {
+    display: block;
+    width: auto;
+    vertical-align: top; }
+  .t-Body-actions .t-ButtonRegion .t-ButtonRegion-wrap {
+    padding: 6px; }
+  .t-Body-actions .t-ButtonRegion .t-ButtonRegion-col {
+    margin: 6px; }
+  .t-Body-actions .t-ButtonRegion .t-ButtonRegion-buttons, .t-Body-actions .t-ButtonRegion .t-ButtonRegion-col--content {
+    text-align: left;
+    padding: 0; }

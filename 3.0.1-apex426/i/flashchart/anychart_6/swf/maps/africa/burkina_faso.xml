@@ -1,0 +1,222 @@
+<map_data>
+ <name>burkina_faso</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-5.52111148834229" top="15.0827770233154" right="2.39792537689209" bottom="9.39388847351074"/>
+ <regions>
+  <region>
+   <centroid lat="13.4390201568604" lon="-1.60375010967255"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-BAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bam]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.9709148406982" lon="-1.44968694448471"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-BZG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bazega]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.0599994659424" lon="-3.26417875289917"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-BGR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bougouriba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.4644403457642" lon="-0.330833375453949"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-BLG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boulgou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.3253679275513" lon="-2.13771486282349"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-BLK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boulkiemde]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.2730550765991" lon="-0.768103152513504"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-GNZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ganzourgou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.8995809555054" lon="0.102405667304993"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-GNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gnagna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.0137548446655" lon="0.643328756093979"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-GRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gourma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.3870820999146" lon="-4.08319497108459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-HUT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Houet]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.3034734725952" lon="-1.53692424297333"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-KDG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kadiogo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.3887958526611" lon="-5.02486133575439"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-KND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kenedougou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.2610969543457" lon="-4.60652804374695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-COM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Comoe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.5964975357056" lon="-4.02790403366089"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-KSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kossi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.0706930160522" lon="-0.279693447053432"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-KRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kouritenga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.1106939315796" lon="-3.35041785240173"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-MHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mouhoun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.1206903457642" lon="-0.51421757042408"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-NMT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Namentenga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.2622318267822" lon="-1.16611117124557"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-NHR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nahouri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.5598182678223" lon="-1.41375011205673"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-OBR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oubritenga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.6212491989136" lon="-0.380817249417305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-ODL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oudalan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.8852767944336" lon="-2.12055563926697"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-PSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Passore]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.0781936645508" lon="-3.3163914680481"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-PON]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Poni]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.1993045806885" lon="-2.57846260070801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-SNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sanguie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.2406930923462" lon="-1.1080556511879"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-SNM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sanmatenga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.6939649581909" lon="0.33112508058548"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-SEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.51194190979" lon="-2.0622650384903"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-SSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sissili]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.2924098968506" lon="-1.3243579864502"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-SOM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soum]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.0347199440002" lon="-2.96430563926697"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-SOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sourou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.1154260635376" lon="1.78368484973907"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-TAP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tapoa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.6223602294922" lon="-2.34860408306122"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-YTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yatenga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.5787000656128" lon="-1.08594900369644"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BFA-ZND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zoundweogo]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

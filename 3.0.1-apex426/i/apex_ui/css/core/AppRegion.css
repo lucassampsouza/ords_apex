@@ -1,0 +1,396 @@
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   App Region
+   ---
+   Used in 4750 to showcase Featured Applications and Details Page
+   ========================================================================== */
+/* line 13, ../../scss/core/AppRegion.scss */
+.a-AppRegion {
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+/* line 19, ../../scss/core/AppRegion.scss */
+.a-AppRegion-hero {
+  display: inline-block;
+}
+
+/* line 22, ../../scss/core/AppRegion.scss */
+.a-AppRegion-icon {
+  display: block;
+  float: left;
+}
+
+/* line 26, ../../scss/core/AppRegion.scss */
+.a-AppRegion-about {
+  display: inline-block;
+  overflow: hidden;
+  text-align: left;
+}
+
+/* line 31, ../../scss/core/AppRegion.scss */
+.a-AppRegion-title,
+.a-AppRegion-subTitle {
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 38, ../../scss/core/AppRegion.scss */
+.a-AppRegion-title {
+  color: #404040;
+}
+
+/* line 41, ../../scss/core/AppRegion.scss */
+.a-AppRegion-subTitle {
+  color: #707070;
+}
+
+/* ==========================================================================
+   Modifier: Featured Applications (Carousel)
+   ---
+   Used in 4750 to showcase Featured Applications and Details Page
+   ========================================================================== */
+/* line 51, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-item {
+  text-align: center;
+  padding: 12px;
+  visibility: hidden;
+}
+/* line 56, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-Region-carouselItem .a-AppRegion-item {
+  visibility: visible;
+}
+/* line 59, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-link {
+  display: block;
+}
+/* line 61, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #399BEA;
+  border-radius: 2px;
+}
+/* line 66, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-link:hover {
+  text-decoration: none;
+}
+/* line 70, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-hero {
+  display: block;
+  position: relative;
+  padding: 24px 32px 32px 32px;
+}
+/* line 75, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 2px;
+  margin-right: 12px;
+}
+/* line 81, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-about {
+  display: block;
+}
+/* line 84, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-title {
+  font-size: 32px;
+  line-height: 36px;
+  margin: 5px 0 0 0;
+}
+/* line 89, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-subTitle {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 5px 0;
+}
+/* line 94, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-body {
+  text-align: left;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  background-image: none !important;
+  border-radius: 2px;
+}
+/* line 102, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-screenshot,
+.a-AppRegion--featuredApps .a-AppRegion-info {
+  display: table-cell;
+  vertical-align: top;
+}
+/* line 107, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-info {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  border-left: 1px solid #FFF;
+  padding: 24px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  height: 292px;
+  border-radius: 2px 2px 0 0;
+}
+/* line 117, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-info .a-Icon {
+  line-height: 24px;
+}
+/* line 121, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-screenshot {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 2px 2px;
+}
+/* line 126, ../../scss/core/AppRegion.scss */
+.a-AppRegion--featuredApps .a-AppRegion-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  display: block;
+  background-size: cover;
+  background-color: #EDECED;
+  box-shadow: 0 0 36px 8px rgba(0, 0, 0, 0.15) inset;
+  border-radius: 0 0 2px 2px;
+}
+
+/* ==========================================================================
+   Modifier: App Info Page
+   ---
+   Used in 4750 to showcase Featured Applications and Details Page
+   ========================================================================== */
+/* line 147, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-heroWrap {
+  text-align: center;
+  background-color: #FAFAFA;
+}
+/* line 151, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-hero {
+  padding: 48px;
+}
+/* line 154, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-icon {
+  width: 128px;
+  height: 128px;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+/* line 160, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-title {
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 16px;
+}
+/* line 165, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-subTitle {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+/* line 170, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-actions {
+  margin-bottom: 16px;
+}
+/* line 173, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-appStatus {
+  display: inline-block;
+  margin: 6px 0;
+  line-height: 20px;
+  margin-right: 4px;
+  vertical-align: top;
+  color: #404040;
+}
+/* line 180, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-appStatus .a-Icon {
+  margin-right: 4px;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 100%;
+}
+/* line 189, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-appStatus--installed .a-Icon {
+  background-color: #3ADD69;
+  color: #FFF;
+}
+/* line 195, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-appStatus--comingSoon .a-Icon {
+  background-color: #F3B816;
+  color: #FFF;
+}
+/* line 203, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-body {
+  display: table;
+  width: 100%;
+  border-top: 1px solid #F0F0F0;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 209, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-info,
+.a-AppRegion--appInfo .a-AppRegion-screenshots {
+  display: table-cell;
+  vertical-align: top;
+}
+/* line 214, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-details {
+  margin-top: 48px;
+  padding: 0;
+}
+/* line 218, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-info {
+  width: 50%;
+  padding: 48px;
+}
+/* line 222, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-screenshots {
+  width: 30%;
+  padding: 48px 24px;
+}
+/* line 231, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-infoText {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #404040;
+}
+/* line 236, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-infoText p {
+  margin-bottom: 16px;
+}
+/* line 239, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-infoText p:first-child {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 24px;
+  color: #404040;
+}
+/* line 246, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-colTitle {
+  font-size: 20px;
+  line-height: 24px;
+  color: #404040;
+  font-weight: 300;
+  margin: 12px 0 24px 0;
+  display: none;
+}
+/* line 259, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-screenshot {
+  display: block;
+  margin-bottom: 36px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 265, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-img {
+  width: 100%;
+  display: block;
+  transition: -webkit-transform .4s;
+  transition: transform .4s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* line 275, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-imgCaption {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 40px;
+  transition: -webkit-transform .4s, bottom .4s, opacity .1s;
+  transition: transform .4s, bottom .4s, opacity .1s;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+  opacity: .9;
+}
+/* line 293, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-imgTitle,
+.a-AppRegion--appInfo .a-AppRegion-imgDesc {
+  display: block;
+  color: #FFF;
+}
+/* line 298, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-imgTitle {
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  line-height: 16px;
+  transition: background-color .1s;
+}
+/* line 306, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-imgDesc {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 12px 12px 12px;
+}
+/* line 311, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-screenshot:hover .a-AppRegion-imgCaption {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  bottom: 0;
+  opacity: 1;
+  transition: -webkit-transform .4s, bottom .4s, opacity .4s;
+  transition: transform .4s, bottom .4s, opacity .4s;
+}
+/* line 317, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-screenshot:hover .a-AppRegion-imgCaption .a-AppRegion-imgTitle {
+  background-color: transparent;
+  transition: background-color .4s;
+}
+/* line 322, ../../scss/core/AppRegion.scss */
+.a-AppRegion--appInfo .a-AppRegion-screenshot:hover .a-AppRegion-img {
+  -webkit-transform: translate3d(0, -48px, 0);
+  transform: translate3d(0, -48px, 0);
+}
+
+/* ==========================================================================
+   Darker App Icons for Light Gray
+   ---
+   These colors need to be slightly darker for contrast purposes
+   ========================================================================== */
+/* line 335, ../../scss/core/AppRegion.scss */
+.a-AppRegion-body .app-application-standards-tracker,
+.a-AppRegion-body .app-sample-database-application,
+.a-AppRegion-body .app-sample-geolocation {
+  background-color: #aeb4ba !important;
+}

@@ -1,0 +1,145 @@
+<map_data>
+ <name>maldives</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="72.6877593994141" top="7.09638786315918" right="73.7536010742188" bottom="-0.690833330154419"/>
+ <regions>
+  <region>
+   <centroid lat="-0.633472204208374" lon="73.1690139770508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-SEE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seenu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.88888812065125" lon="72.8331756591797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-ALF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aliff]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.34638833999634" lon="73.4767913818359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-LVY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Laviyani]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.40944385528564" lon="73.6674880981445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-WAA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Waavu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.94694423675537" lon="73.4160995483398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-LAA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Laamu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.05333280563354" lon="72.9448471069336"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-HAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haa Aliff]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.34749960899353" lon="73.1444244384766"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-THA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Thaa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.86805486679077" lon="73.4672088623047"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-MEE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Meemu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.86569356918335" lon="72.9577560424805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-RAA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Raa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.10624980926514" lon="72.978874206543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-FAA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Faafu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.81805515289307" lon="72.9499893188477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-DAA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Daalu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.88833236694336" lon="72.973876953125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-BAA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Baa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.81735992431641" lon="73.1374893188477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-HDA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haa Daalu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.3102765083313" lon="73.1552658081055"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-SHV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shaviyani]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.83999919891357" lon="73.4145660400391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-NOO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Noonu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.06374907493591" lon="73.4923477172852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-KAA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kaafu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.442916572093964" lon="73.5002670288086"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-GAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaafu Aliff]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.355416610836983" lon="73.1583099365234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-GDA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gaafu Daalu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.295694440603256" lon="73.4380340576172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDV-NVY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Naviyani]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

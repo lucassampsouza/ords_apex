@@ -1,0 +1,71 @@
+div.ebaHelp {
+	}
+div.ebaHelp div.eHMain {
+	position: relative;
+	padding: 5px 0;
+	border-top: 1px solid #DDD;
+	}
+div.ebaHelp div.eHMain:first-child {
+	border-top: none;
+	}
+div.ebaHelp div.eHL {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 190px;
+	padding-right: 10px;
+	}
+	div.ebaHelp div.eHL h1 {
+		margin: 0;
+		padding: 0;
+		font: bold 14px/20px Arial, sans-serif;
+		color: #666;
+		}
+	div.ebaHelp div.eHL p {
+		margin: 0;
+		padding: 0;
+		font: normal 11px/12px Arial, sans-serif;
+		color: #AAA;
+		}
+		
+div.ebaHelp div.eHR {
+	margin: 0 0 0 200px;
+	}
+	div.ebaHelp div.eHR h2 {
+		margin: 0;
+		padding: 0;
+		font: bold 14px/20px Arial, sans-serif;
+		color: #333;
+		}
+	div.ebaHelp div.eHR > p {
+		margin: 0;
+		padding: 0;
+		font: normal 12px/12px Arial, sans-serif;
+		color: #666;
+		}
+
+/* Third Level */
+div.ebaHelp div.eHR div.eHB:first-child,
+div.ebaHelp div.eHR div.eHB:only-child {
+	padding-top: 10px;
+	}
+div.ebaHelp div.eHR div.eHB {
+	margin: 10px 0 10px 10px;
+	padding: 0 0 0 8px;
+	border-left: 2px solid #EEE;
+	}
+div.ebaHelp div.eHR div.eHB h3:first-child {
+	padding-top: 0;
+	}
+div.ebaHelp div.eHR div.eHB h3 {
+	margin: 0;
+	padding: 10px 0 0 0;
+	font: bold 12px/16px Arial, sans-serif;
+	color: #333;
+	}
+div.ebaHelp div.eHR div.eHB p {
+	margin: 0;
+	padding: 0;
+	font: normal 12px/16px Arial, sans-serif;
+	color: #333;
+	}

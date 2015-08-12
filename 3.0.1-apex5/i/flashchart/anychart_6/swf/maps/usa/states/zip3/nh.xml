@@ -1,0 +1,65 @@
+<map_data>
+ <name>nh</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+ </columns>
+ <bounds left="-72.557247" top="45.305476" right="-70.703799" bottom="42.69699"/>
+ <regions>
+  <region>
+   <centroid lat="44.688458" lon="-71.5111351197552"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[035]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.792635" lon="-72.104739"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[037]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5455213589139" lon="-71.0646405"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[038]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.2392905" lon="-71.5720805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[033]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.6059735" lon="-71.6025725"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[032]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1762592697999" lon="-72.295392"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[036]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.006018" lon="-71.4866485"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[031]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.947098" lon="-72.2156415"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[034]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9595695" lon="-71.4938425"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[030]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,54 @@
+<map_data>
+ <name>cyprus</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="32.2691650390625" top="35.6902770996094" right="34.5905532836914" bottom="34.5625495910645"/>
+ <regions>
+  <region>
+   <centroid lat="35.3248596191406" lon="34.0693092346191"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CYP-FMG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Farmagusta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3144969940186" lon="33.286958694458"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CYP-KYR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kyrenia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.9092178344727" lon="33.5124969482422"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CYP-LRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Larnaca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.0847549438477" lon="33.0783309936523"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CYP-NIC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nicosia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.7616901397705" lon="32.9569396972656"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CYP-LMS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Limassol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.915412902832" lon="32.5206909179688"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CYP-PPH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paphos]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

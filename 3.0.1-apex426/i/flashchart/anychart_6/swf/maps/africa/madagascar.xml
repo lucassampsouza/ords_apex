@@ -1,0 +1,54 @@
+<map_data>
+ <name>madagascar</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="43.2368240356445" top="-11.945556640625" right="50.5013885498047" bottom="-25.5883369445801"/>
+ <regions>
+  <region>
+   <centroid lat="-13.9626398086548" lon="49.1869430541992"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDG-ANT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Antsiranana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.0868148803711" lon="46.8061141967773"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDG-FNR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fianarantsoa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-16.5865297317505" lon="46.7538833618164"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDG-MHJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mahajanga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-17.6961131095886" lon="48.9078521728516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDG-TMS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Toamasina]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.9998626708984" lon="46.7661056518555"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDG-ANN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Antananarivo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-21.8847255706787" lon="45.3315010070801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MDG-TOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Toliara]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

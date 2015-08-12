@@ -1,0 +1,26 @@
+button span{margin-top:1px;}
+#R154773620917091162{width:100%;}
+#R8550713561097270{width:100%;}
+
+.apex-rds-container {
+	height: 16px;
+	margin: 0 0 10px 0;
+	float: none !important; 
+	display: block;
+	/* Give RDS a width so that the list items do not wrap*/
+	width: expression(document.body.clientWidth-200+"px");
+}
+
+ul.apex-rds {
+	list-style-type: none;
+	float: none !important; 
+	display: block;
+	margin: 0;
+	white-space: nowrap;
+	height: 16px;
+}
+
+ul.apex-rds li {
+	display: block;
+	float: left;
+}

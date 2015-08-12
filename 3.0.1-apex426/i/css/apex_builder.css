@@ -1,0 +1,5491 @@
+body {
+	/*background: #F9F9F9;*/
+	/*min-width: 980px;*/
+/*	max-width: 1920px;*/
+	/*margin: 0 0 24px 0;*/
+	/*padding: 0;*/
+	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+}
+
+body.apex-iframe {
+	min-width: 800px;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	margin: 0;
+	font-size: 14px;
+}
+
+h3 {
+	margin: 0;
+}
+
+th {
+	padding: 0;
+}
+
+td {
+	padding: 0;
+}
+
+img {
+	border: 0;
+	margin: 0;
+}
+
+hr {
+	color: #bbb;
+	height: 1px;
+}
+
+br {
+	clear: both;
+}
+
+/*p {
+	font-size: 12px;
+}*/
+
+textarea {
+	font-family:monospace;
+}
+
+a,a:link,a:visited {
+	/*text-decoration: underline;*/
+/*	color: #666666;*/
+	/*color: #4D6485;*/
+}
+
+/*a:hover {
+	color: #ff6600;
+}*/
+
+.qbTabHolder {
+	padding: 0 15px;
+}
+
+div.htmldbBodyMargin {
+	margin: 4px 10px 10px 10px;
+}
+
+a.htmldbNavLink {
+	font-size: 11px;
+	color: #000;
+	float: left;
+	display: block;
+	margin: 2px 0 2px 8px;
+	text-decoration: none;
+}
+
+a.htmldbNavLink:visited {
+	font-size: 11px;
+	color: #000;
+	float: left;
+	display: block;
+	margin: 2px 0 2px 8px;
+	text-decoration: none;
+}
+
+a.htmldbNavLink:hover {
+	text-decoration: underline;
+}
+
+a.htmldbNavLink span {
+	font-size: 11px;
+	color: #000;
+}
+
+img.htmldbNavLink {
+	display: block;
+}
+
+#page-header {
+	height: 96px;
+	overflow: hidden;
+	margin: 10px 10px 0 10px;
+}
+
+#page-header-printer {
+	height: 46px;
+	overflow: hidden;
+	margin: 10px 10px 0 10px;
+}
+
+#websheet-logo {
+	scroll 0 0;
+	display: block;
+	top: 4px;
+	left: 10px;
+	overflow: hidden;
+	position: absolute;
+	text-decoration: none;
+	text-shadow: #cccccc 2px 2px 2px;
+}
+
+#websheet-logo span {
+	background: url(../apex/builder/gradient-glossy.png) repeat-x;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 24px;
+}
+
+#apex-logo {
+	scroll 0 0;
+	display: block;
+	top: 2px;
+	left: 8px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.lang {
+	display: block;
+	color: #000;
+	margin: 4px 50px 0 0;
+	cursor: help;
+	font-size: 11px;
+	overflow: hidden;
+	top: 4px;
+	right: 4px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.lang a {
+	color: #000;
+	padding: 0 0 0 4px;
+}
+
+.progress-indicator {
+	width: 174px;
+	float
+	padding: 0 0 0 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-bar {
+	display: block;
+	top: 8px;
+	right: 15px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#subtabs {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#subtabs .current, #subtabs .non-current {
+	float: left;
+	padding: 0 1px 0 0;
+}
+
+#subtabs .current .tbl {
+	float: left;
+	height: 17px;
+	padding: 0 10px 3px 14px;
+	background: url(../apex/builder/bg-subtab-l-active.gif) no-repeat 0 0;
+}
+
+#subtabs .current a {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	font: bold 12px/14px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#subtabs .current a:hover {
+	text-decoration: none;
+}
+
+#subtabs .non-current .tbl {
+	float: left;
+	height: 17px;
+	padding: 0 10px 3px 14px;
+	background: url(../apex/builder/bg-subtab-l.gif) no-repeat 0 0;
+}
+
+#subtabs .non-current a {
+	color: #666666;
+	font-weight: standard;
+	text-decoration: none;
+	font: bold 12px/14px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+#subtabs .non-current a:hover {
+	text-decoration: none;
+}
+
+#subtabs .current .tbr {
+	float: left;
+	height: 20px;
+	padding: 0 0 0 3px;
+	background: url(../apex/builder/bg-subtab-r-active.gif) no-repeat 100% 0;
+}
+
+#subtabs .non-current .tbr {
+	float: left;
+	height: 20px;
+	padding: 0 0 0 3px;
+	background: url(../apex/builder/bg-subtab-r.gif) no-repeat 100% 0;
+}
+
+
+#apex-ws-controls {
+	height: 28px;
+	float: right;
+	margin: 0px 0 2px 1px;
+}
+
+#apex-search {
+	width: 165px;
+	margin: 9px 0 0 0;
+	float: right;
+	position: relative;
+}
+
+
+#apex-ws-icons {
+	margin: 3px 10px 1px 10px;
+	padding: 0 0 0 12px;
+	float: right;
+	position: relative;
+	background: transparent url(../apex/builder/apex-search-sep.gif) no-repeat scroll 0 0;
+}
+
+#apex-sqlws-icons {
+	margin: 1px 6px 0 0;
+	float: right;
+	position: relative;
+}
+
+#apex-search .left {
+	display: block;
+	height: 19px;
+	left: 6px;
+	position: absolute;
+	top: 0;
+	width: 10px;
+	background: transparent url(../apex/builder/apex-search-left.gif) no-repeat scroll 0 0;
+}
+
+#apex-search input {
+	background: transparent url(../apex/builder/apex-search-center.gif) repeat-x scroll center top;
+	border: 0 none;
+	font-size: 12px;
+	color: #404040;
+	margin: 0;
+	padding: 2px;
+	position: absolute;
+	right: 18px;
+	top: 0;
+	width: 127px;
+	outline: none;
+}
+
+#apex-search .right {
+	display: block;
+	height: 19px;
+	right: 0;
+	position: absolute;
+	top: 0;
+	width: 19px;
+	cursor: pointer;
+	background: transparent url(../apex/builder/apex-search-right.gif) no-repeat scroll 0 0;
+}
+
+
+#apex-page-body {
+	width: 100%;
+}
+
+#htmldbLogo2 {
+	float: left;
+	padding: 2px;
+}
+
+#htmldbNavBar2 {
+	float: right;
+	padding: 2px;
+}
+
+div.htmldbSep {
+	height: 5px;
+	font-size: 5px;
+	clear: both;
+}
+
+
+
+.logout {
+	text-decoration: none;
+	margin: 2px 0;
+}
+
+.debug {
+	display: none;
+	padding: 2px;
+	border: 1px solid #000;
+	background: #ddd;
+	font-size: 9px;
+}
+
+#htmldbNotify {
+	padding: 10px 0 0 0;
+}
+
+#apex-main {
+	height: 1%;
+	overflow: hidden;
+	padding: 0 0 0 210px;
+}
+
+#apex-left-sidebar {
+	display: inline;
+	float: left;
+	margin: 0 0 0 -210px;
+	width: 200px;
+}
+
+#ContentBody {
+	/*float: right;
+	width: 100%;
+	min-height: 400px;*/
+	position: relative;
+}
+
+#apex-page-body {
+
+}
+
+.apex-page-content {
+	vertical-align: top;
+}
+
+.apex-page-sidebar {
+	padding-left: 12px;
+	vertical-align: top;
+}
+
+#apex-two-col {
+	padding: 0 212px 0 0;
+	overflow: hidden;
+}
+
+#apex-content {
+	float: left;
+	width: 100%;
+/*  Removing overflow property as it caused
+    bugs with reports being not scrollable  */
+/*	overflow: hidden;*/
+}
+
+#apex-splash {
+/*	float: left;
+	width: 100%;*/
+}
+
+#BB {
+/*	float: left;
+	width: 100%;*/
+}
+
+#apex-sidebar {
+	display: inline;
+	float: right;
+	margin: 0 -212px 0 0;
+	overflow: hidden;
+	width: 200px;
+}
+
+
+
+table.pageHeader {
+	background-image: url(../htmldb/header_bg_blue.jpg);
+	background-repeat: repeat-x;
+}
+
+table.htmldbPageEdit {
+	border: 1px #aaa solid;
+	margin: 0 0 5px 0;
+	width: 100%;
+	height: 50px;
+}
+
+td.htmldbPageEditHeader {
+	border-bottom: 1px #aaa solid;
+	background: #cfdccf;
+	color: #666;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 2px;
+	text-align: center
+}
+
+td.htmldbPageEditHeader2 {
+	vertical-align: top;
+	white-space: nowrap;
+	text-align: right;
+}
+
+td.htmldbPageEditBody {
+	background: #fff;
+	padding: 4px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+.htmldbTDLeft {
+	width: 100%;
+	vertical-align: top;
+	white-space: nowrap;
+	text-align: left;
+}
+
+.htmldbTDRight {
+	vertical-align: top;
+	white-space: nowrap;
+	text-align: right;
+}
+
+.htmldbTDRight a {
+	text-decoration: none;
+}
+
+.debug {
+	display: none;
+	padding: 2px;
+	border: 1px solid #000;
+	background: #ddd;
+	font-size: 9px;
+}
+
+.htmldbRunEditRegion {
+	padding: 2px 0 0 5px;
+	border-bottom: 1px #000 solid;
+	background-repeat: repeat-x;
+	background: #e6e7e7;
+}
+
+#htmldbRunEdit {
+	white-space: nowrap;
+	padding: 0 0 2px 5px;
+}
+
+.htmldbRunEdit {
+	vertical-align: middle;
+	white-space: nowrap;
+	font-size: 10px;
+}
+
+.runediticons {
+	margin: 0 1px 0 1px;
+}
+
+.htmldbError {
+	color: #f00;
+	font-size: 10px;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+a.noVisit,a.noVisit:link,a.noVisit:visited {
+	text-decoration: none;
+	color: #811919;
+}
+
+a.noVisit:hover {
+	text-decoration: underline;
+	color: #f00;
+}
+
+a.htmldbHelp:visited,a.htmldbHelp:link {
+	margin: 0 0 0 10px;
+	white-space: nowrap;
+	color: #000;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+a.htmldbHelp:hover {
+	text-decoration: underline;
+}
+
+table.std {
+	width: 100%;
+}
+
+table.std th {
+	padding: 0;
+}
+
+table.std td {
+	padding: 0;
+}
+
+td.htmldbLayout {
+	padding: 0 10px;
+}
+
+#htmldbCustomize {
+	vertical-align: bottom;
+	float: right;
+	margin-right: 5px;
+}
+
+#htmldbUser {
+	margin: 0 0 0 10px;
+	float: left;
+	font-size: 10px;
+}
+
+#htmldbWorkspace {
+	margin: 0 0 0 10px;
+	font-size: 10px;
+}
+
+#htmldbPageTabs {
+	float: right
+}
+
+#htmldbBreadcrumbTop {
+	clear: both;
+	height: 8px;
+	font-size: 1px;
+	background: #fff;
+	border-bottom: 1px solid #999;
+	background-image: url(../htmldb/builder/topnav2.gif);
+	background-repeat: repeat-x;
+}
+
+#htmldbRunEditZag {
+	border-right: 1px #000 solid;
+	font-size: 4px;
+}
+
+.htmldbColumnSep {
+	width: 10px;
+}
+
+table.htmldbTabbedRegion {
+	margin-left: 15px;
+}
+
+table.htmldbTabbedRegion td {
+	white-space: nowrap;
+	font-size: 12px;
+}
+
+table.htmldbTabbedRegion td.OffL {
+	width: 19px;
+	text-align: left;
+	vertical-align: top;
+	background: #B8B8B8;
+}
+
+table.htmldbTabbedRegion td.OffM {
+	background: #B8B8B8;
+	background-image: url(../htmldb/misc/tabOffM_Flat.png);
+	background-repeat: repeat-x;
+}
+
+table.htmldbTabbedRegion td.OffR {
+	width: 12px;
+	text-align: right;
+	vertical-align: top;
+	background: #B8B8B8;
+}
+
+table.htmldbTabbedRegion a.OffM {
+	color: #000;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+table.htmldbTabbedRegion a.OffM:link {
+	color: #000;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+table.htmldbTabbedRegion a.OffM:visited {
+	color: #000;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+table.htmldbTabbedRegion a.OffM:hover {
+	color: #811919;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+table.htmldbTabbedRegion a.On {
+	text-decoration: none;
+}
+
+table.htmldbTabbedRegion td.OnL {
+	width: 15px;
+	text-align: left;
+	vertical-align: top;
+	background: #6C936C;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+table.htmldbTabbedRegion td.OnM {
+	background: #6C936C;
+	background-image: url(../htmldb/misc/tabOnM_Flat.png);
+	background-repeat: repeat-x;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+table.htmldbTabbedRegion td.OnR {
+	width: 12px;
+	text-align: right;
+	vertical-align: top;
+	background: #6C936C;
+	text-decoration: none;
+}
+
+table.htmldbTabbedRegion span.On {
+	white-space: nowrap;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.htmldbWarning {
+	font-size: 14px;
+	font-weight: bold;
+	color: #f00;
+}
+
+.htmldbSuccessMessage {
+	margin: 10px auto;
+	font-size: 11px;
+	color: #333;
+	font-weight: bold;
+	background: #e0eafb;
+	width: 560px;
+	background-repeat: no-repeat;
+	padding: 5px 5px 5px 20px;
+	border: 1px #aaaaaa solid;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 1px 1px 1px #aaaaaa;
+	-webkit-box-shadow: 1px 1px 1px #aaaaaa;
+	box-shadow: 1px 1px 1px #aaaaaa;
+}
+
+.htmldbNotification {
+	margin: 10px auto;
+	padding: 5px;
+	font-size: 12px;
+	color: #333;
+	font-weight: bold;
+	text-align: left;
+	vertical-align: top;
+	border: 1px #ffd700 solid;
+	background: #ffffcc;
+	width: 560px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 1px 1px 1px #aaaaaa;
+	-webkit-box-shadow: 1px 1px 1px #aaaaaa;
+	box-shadow: 1px 1px 1px #aaaaaa;
+}
+
+
+#col-rendering-body {
+	height: 400px;
+}
+
+#col-processing-body {
+	height: 400px;
+}
+
+#col-shared-body {
+	height: 400px;
+}
+
+.tree-frame {
+	overflow: auto;
+	height: 400px;
+	background-color: #f8f8f8;
+	border: 1px #aaaaaa solid;
+}
+
+.apex-page-edit h3 {
+	margin: 0;
+}
+
+.htmldbCalendarHolder {
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+
+.htmldbCalendarHolder td {
+	padding: 3px;
+}
+
+.htmldbCalendarHolder .htmldbMonthTitle {
+	text-align: center;
+	padding: 5px;
+	color: #666;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.htmldbCalendar {
+	width: 100%;
+	border: 1px solid #999;
+	background: #ddd;
+}
+
+.htmldbCalendar .htmldbDayOfWeek {
+	padding: 3px;
+	font-size: 12px;
+}
+
+.htmldbCalendar td {
+	height: 75px;
+	width: 14%;
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	vertical-align: top;
+	background: #fff;
+	padding: 2px;
+}
+
+.htmldbCalendar .htmldbDayTitle {
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.htmldbCalendar .htmldbDay {
+	vertical-align: top;
+}
+
+.htmldbCalendar .htmldbNonDayTitle {
+	color: #eee;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.htmldbCalendar .htmldbNonDay {
+	background: #ccc;
+}
+
+.htmldbCalendar .htmldbWeekendDayTitle {
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.htmldbCalendar .htmldbToday {
+	background: #cfdccf;
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.htmldbCalendar .htmldbToday .htmldbDayTitle {
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* used in 4150*/
+
+.htmldbthemeshots {
+	margin: 0 10px;
+	padding: 4px;
+	border: 1px solid #AAAAAA;
+	-moz-box-shadow: 1px 1px 4px #aaaaaa;
+	-webkit-box-shadow: 1px 1px 4px #aaaaaa;
+	box-shadow: 1px 1px 4px #aaaaaa;
+}
+
+#dhtmltooltip {
+	position: absolute;
+	border: 1px solid #000;
+	padding: 2px;
+	background: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+}
+
+#dhtmlpointer {
+	position: absolute;
+	z-index: 101;
+	visibility: hidden;
+}
+
+table.htmldbVerticalReport {
+	border: 1px #aaa solid;
+	padding: 0;
+	margin: 5px 0 0 0;
+}
+
+table.htmldbVerticalReport th {
+	background: #e7efe7;
+	font-weight: bold;
+	color: #3F8640;
+	border-top: 1px #fff solid;
+	border-bottom: 1px #aaa solid;
+	font-size: 8pt;
+	white-space: nowrap;
+	vertical-align: bottom;
+	padding: 3px 4px 0 0;
+}
+
+table.htmldbVerticalReport td {
+	background: #f4f4f4;
+	border-top: 1px #fff solid;
+	border-bottom: 1px #ccc solid;
+	font-size: 8pt;
+	padding: 3px 4px 0 0;
+}
+
+/*SQL Workshop */
+
+/*#SqlAndResults,#obTable {
+	border: solid 1px #aaa;
+}*/
+
+#SqlAndResults {
+	border: none;
+}
+
+#obLeftColumn {
+	width: 200px;
+}
+
+#ob_ObjectsSlider {
+	width: 225px;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	vertical-align: text-top;
+	border-right: solid 1px #E8E8E8;
+	border-top: solid 1px #E8E8E8;
+}
+
+#ob_ObjectsDetail {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 1px 0;
+	text-align: center;
+}
+
+#qbLeftHeader,#obLeftHeader {
+	background: #F8F8F8;
+	padding: 0 0 8px 0;
+	overflow: hidden;
+}
+#qbLeftHeader {
+	padding: 0;
+}
+#qbLeftHeader .a-Form-inputContainer input.text_field {
+	background-color: #FFF;
+}
+
+.o_I,.o_V,.ob_Object_V, .ob_Object_I {
+	background: #F8F8F8;
+	border-top: 1px solid #E8E8E8;
+	cursor: pointer;
+	display: block;
+	font-size: 11px;
+	line-height: 16px;
+	overflow: hidden;
+	padding: 4px 8px;
+	white-space: nowrap;
+	color: #404040;
+}
+.o_V:hover,
+.ob_Object_V:hover {
+	background-color: #FFF;
+}
+
+.o_V:active,
+.ob_Object_V:active {
+	background-color: #E8E8E8;
+	box-shadow: 0 1px 2px rgba(0,0,0,.05) inset;
+}
+
+
+.o_I,.ob_Object_I {
+	background-image: url(../ob/i/invalid_object_highlight.gif);
+	background-repeat: repeat-y;
+}
+
+.o_C_V , .o_C_I,.ob_Object_C_V , .ob_Object_C_I {
+	border-top: 1px solid #E8E8E8;
+	background: #167ACB;
+	color: #FFF;
+	cursor: pointer;
+	display: block;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: bold;
+	overflow: hidden;
+	padding: 4px 8px;
+	white-space: nowrap;
+}
+
+.o_C_I,.ob_Object_C_I {
+	/*background-image: url(../ob/i/invalid_object_highlight.gif);*/
+	background-color: #167ACB;
+	color: #FFF;
+	/*background-repeat: repeat-y;*/
+}
+
+.dbaseGroup {
+	cursor: pointer;
+	font-weight: bold;
+	margin: 0 3px;
+}
+
+#dbaseGroupHolder {
+	background: #a5bda5;
+	background-repeat: repeat-x;
+	height: 30px;
+	overflow: hidden;
+}
+
+td.obTypeList {
+	white-space: nowrap;
+	padding: 0 5px;
+	font-size: 8px;
+	text-align: center;
+}
+
+.dbaseGroupHolder {
+	background: #a5bda5;
+	background-repeat: repeat-x;
+	height: 30px;
+	overflow: hidden;
+}
+
+#dbaseObjectsHolder {
+	white-space: nowrap;
+	width: 200px;
+}
+
+#dbaseObjectsTitle {
+	background: #a5bda5;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 2px 0;
+	text-align: center;
+	width: 200px;
+}
+
+#dbaseObjectsSlider {
+	width: 200px;
+	/*border-left: solid 1px #aaa;*/
+	border-top: solid 1px #E8E8E8;
+	height: s;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	overflow: -moz-scrollbars-vertical;
+	width: 200px;
+}
+
+.dbaseFullHolder {
+	background: #777;
+	border: solid 1px #ccc;
+}
+
+.dbaseFrameHolder {
+	background: #fff;
+}
+
+.dbaseFrameHolder iframe {
+
+}
+
+.dbaseHeader {
+	background: #cfdccf;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 2px 8px;
+	white-space: nowrap;
+}
+
+.dbaseHeader a {
+	color: #000;
+}
+
+#dbaseLoading {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 50px 0 0 0;
+	text-align: center;
+}
+
+#qbTable {
+	/*margin: 5px;*/
+	/*border: solid 1px #aaa;*/
+}
+
+.qbFrameHolder {
+	background: #fff;
+}
+
+.qbDataTableHolder {
+	float: left;
+}
+
+.qbDataTable {
+	border: 1px solid #a8a8a8;
+}
+
+.qbDataTable th {
+	white-space: nowrap;
+	/*background: #F4F4F4 url(../apex/reg_top_bg.png) repeat-x scroll 0 0;*/
+	background-color: #707070;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 4px 0 4px 4px;
+	vertical-align: middle;
+	color: #ffffff;
+	cursor: move;
+}
+
+.qbth1 {
+	text-align: left;
+}
+
+.qbDataTable th img {
+	cursor: pointer;
+}
+
+.qbTableBody td {
+	background: #efefef;
+	font-size: 10px;
+	padding: 2px;
+	vertical-align: middle;
+}
+
+.qbTableBody table .qbtd1 {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #a8a8a8;
+	width: 16px;
+}
+
+.qbTableBody table .qbtd2 {
+	border-bottom: 1px solid #a7a7a7;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.qbTableBody table .qbtd3 {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #a8a8a8;
+	border-right: 1px solid #a8a8a8;
+	width: 16px;
+}
+
+.qbTableBody table .qbtd4 {
+	border-top: 1px solid #fff;
+	padding: 0;
+	border-bottom: 1px solid #a8a8a8;
+	width: 25px;
+}
+
+.qbTableBody table .qbtd4 div {
+	width: 25px;
+	height: 25px;
+}
+
+.qbTableBody table .qbth2 {
+	padding: 0 5px;
+}
+
+.qbTableBody table {
+	width: 100%
+}
+
+.qbTableMenu div {
+	border: 1px solid #aaa;
+	background: #c3d3ec;
+	white-space: nowrap;
+}
+
+.qbTableMenu div td {
+	white-space: nowrap;
+}
+
+/*SQL Workshop */
+
+/*used for model*/
+
+span.boxspan {
+	background: #e8e8e8;
+	border: 2px #aaa solid;
+	float: left;
+	font-size: 10px;
+	height: 25px;
+	margin: 5px;
+	overflow: hidden;
+	padding: 2px;
+	width: 190px;
+}
+
+div.updiv {
+	border-bottom: 1px #000 solid;
+	border-left: 1px #000 solid;
+	border-right: 1px #000 solid;
+	height: 10px;
+	width: 100%;
+}
+
+div.downdiv {
+	border-left: 1px #000 solid;
+	border-right: 1px #000 solid;
+	border-top: 1px #000 solid;
+	height: 10px;
+	width: 100%;
+}
+
+span.ctrbarspan {
+	border-right: 1px #000 solid;
+	height: 20px;
+	width: 1px;
+}
+
+table.main {
+	width: 100%;
+}
+
+table.child {
+	text-align: center;
+}
+
+table.main td {
+	text-align: center;
+	width: 100%;
+}
+
+#dbaseFloater {
+	border: 1px solid #000;
+	display: none;
+	font-size: 12px;
+	position: absolute;
+	white-space: nowrap;
+}
+
+#dbaseFloaterTitle {
+	background: #cfcfcf;
+	background-image: url(../htmldb/builder/grad_back.gif);
+	background-repeat: repeat;
+	border-bottom: 1px solid #000;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 2px;
+	white-space: nowrap;
+}
+
+#dbaseFloaterBody {
+	background: #cfcfcf;
+	height: 250px;
+	overflow: -moz-scrollbars-vertical;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 200px;
+}
+
+table.dbBrowseDown1 {
+	margin: 0 0 20px 0;
+}
+
+table.dbBrowseDown1 td {
+	border: 1px #A8A8A8 solid;
+	font-size: 12px;
+	padding: 2px 8px 2px 8px;
+}
+
+table.dbBrowseDown1 td.label {
+	background: #cfdccf;
+	font-weight: bold;
+}
+
+.dbaseClickableIcon {
+	cursor: pointer;
+	margin: 0 4px;
+}
+
+/* Removing #OB_FIND */
+#P1002_FIND {
+/*	width: 140px;
+	background: #fff;
+	background-image: url(../htmldb/builder/input.gif);
+	background-repeat: no-repeat;
+	border: 1px solid #aaaaaa;
+	height: 20px;
+	padding: 2px 0 0 23px;*/
+}
+
+#obObjectSelect {
+	margin: 8px 8px 0 8px;
+	/*height: 20px;
+	width: 165px;*/
+}
+
+.htmldbPseudoButton {
+	cursor: pointer;
+}
+
+.dbaseFloat {
+
+}
+
+.dbaseFloat input {
+	background: #cfcfcf;
+	border: 1px solid #999;
+	clear: both;
+	cursor: pointer;
+}
+
+.dbaseFloat a.dbaseLink {
+	background: #cfcfcf;
+	border: 1px solid #999;
+	color: #000;
+	display: block;
+	font-size: 12px;
+	padding: 2px;
+	text-decoration: none;
+	width: 150px;
+}
+
+.dbaseFloat a.dbaseLink:hover {
+	background: #979797;
+	color: #000;
+}
+
+#dbaseSubObjects div {
+	padding: 1px 0 5px 5px;
+}
+
+a.appListLinks {
+	color: #808080;
+	display: block;
+	font-weight: bold;
+	height: 48px;
+	line-height: 48px;
+	text-decoration: none;
+	vertical-align: bottom;
+	white-space: nowrap;
+}
+
+.appMenu .appHolder {
+	background: #D8D8D8;
+	background-image: url(../htmldb/builder/menu_out_one.gif);
+	background-position: top;
+	background-repeat: repeat-x;
+	border: #949494 1px solid;
+	border-top: none;
+}
+
+#defaultLinkMenu {
+	display: inline;
+}
+
+.htmldbTopSchema {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+select.htmldbTopSchema {
+	border: 1px solid rgb(128, 128, 128);
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.htmldbCSV a {
+	font-size: 11px;
+	letter-spacing: 2px;
+	color: #7f7f7f;
+}
+
+div.dhtmlMenuLG {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.dhtmlMenuLG * {
+	display: block;
+	float: left;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+div.dhtmlMenuLG div.dhtmlMenuItem {
+	text-align: center;
+	float: left;
+	margin: 0 8px 0 0;
+}
+
+div.dhtmlMenuLG a.dhtmlBottom {
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+	margin: 0 5px;
+	font-weight: bold;
+}
+
+div.dhtmlMenuLGButton {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 4px;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+/* .dhtmlMenuLGButton * {
+	display: block;
+	float: left;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+} */
+
+div.dhtmlMenuLGButton div.dhtmlMenuItem {
+	text-align: center;
+	float: left;
+	margin: 0 8px 0 0;
+}
+
+div.dhtmlMenuLGButton a.dhtmlBottom {
+	text-decoration: none;
+	display: block;
+	font-size: 12px;
+	margin: 0 5px;
+	font-weight: bold;
+}
+
+/* @group My Group */
+
+/* @end */
+
+.dhtmlSubMenu {
+	background: #ffffff;
+	font-size: 11px;
+	width: 200px;
+	border-left: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+	border-right: 1px solid #aaaaaa;
+	border-bottom: 1px solid #aaaaaa;
+	-moz-box-shadow: 2px 2px 10px #888888;
+	-webkit-box-shadow: 2px 2px 10px #888888;
+	box-shadow: 2px 2px 10px #888888;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.dhtmlSubMenu li {
+	margin: 0;
+	padding: 0;
+}
+
+.dhtmlMenuSep {
+	text-align: center;
+}
+
+img.dhtmlMenuSep {
+	display: block;
+	margin: auto;
+	width: 80%;
+	background: none repeat scroll 0 0;
+	border-top: 1px solid #aaaaaa;
+	height: 1px;
+}
+
+.dhtmlSubMenu img.dhtmlSep {
+	width: 180px;
+	height: 1px;
+}
+
+.dhtmlSubMenu .htmldbMIMG,.dhtmlSubMenuS .htmldbMIMG {
+	vertical-align: middle;
+	float: right;
+	width: 5px;
+	height: 9px;
+
+
+/* Aligning arrow to middle */
+	padding-top: 6px;
+}
+
+.dhtmlSubMenu .dhtmlSubMenuP {
+	text-align: center;
+	color: #404040;
+	padding: 3px 8px;
+	border-bottom: 0px solid;
+	text-decoration: none;
+	white-space: nowrap;
+	font-weight: bold;
+	margin: 1px;
+}
+
+.dhtmlSubMenu a.dhtmlSubMenuS,.dhtmlSubMenu a.dhtmlSubMenuN {
+	border: 1px solid transparent;
+	color: #404040;
+	display: block;
+	font-weight: normal;
+	padding: 3px 8px;
+	text-decoration: none;
+	white-space: nowrap;
+	height: 1%;
+	overflow: hidden;
+}
+
+.dhtmlSubMenu a.dhtmlSubMenuS:hover,
+.dhtmlSubMenu a.dhtmlSubMenuN:hover,
+.dhtmlSubMenu a.dhtmlSubMenuS:focus,
+.dhtmlSubMenu a.dhtmlSubMenuN:focus,
+.dhtmlSubMenu a.dhtmlSubMenuS:active,
+.dhtmlSubMenu a.dhtmlSubMenuN:active {
+	background: #8fb1e4;
+	border: 1px solid transparent;
+	color: #ffffff;
+}
+
+table.xpbutton {
+	position: relative;
+	color: #333;
+	display: inline;
+	margin: 0 5px;
+}
+
+table.xpbutton td.L {
+	position: relative;
+	width: 4px;
+	height: 24px;
+}
+
+table.xpbutton td.R {
+	position: relative;
+	width: 4px;
+	height: 24px;
+}
+
+table.xpbutton tbody td.C {
+	background-image: url(../htmldb/buttons/button_xp_center.gif);
+	white-space: nowrap;
+}
+
+table.xpbutton tbody td.C a:visited,table.xpbutton tbody td.C a {
+	font-weight: bold;
+	font-size: 12px;
+	color: #000;
+	padding: 0 3px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	white-space: nowrap;
+	text-decoration: none;
+	display: block;
+}
+
+table.xpbutton tbody.FFFFFF td.L {
+	width: 4px;
+	background-image: url(../htmldb/buttons/button_xp_left.gif);
+	background-repeat: no-repeat;
+}
+
+table.xpbutton tbody.FFFFFF td.R {
+	width: 4px;
+	background-image: url(../htmldb/buttons/button_xp_right.gif);
+	background-repeat: no-repeat;
+}
+
+table.xpbutton tbody.FFFFFF td.C {
+	background-image: url(../htmldb/buttons/button_xp_center.gif);
+}
+
+table.xpbutton tbody.EEEEEE td.L {
+	width: 24px;
+	background-image: url(../htmldb/buttons/button_xp_left.gif);
+	background-repeat: no-repeat;
+}
+
+table.xpbutton tbody.EEEEEE td.R {
+	width: 4px;
+	background-image: url(../htmldb/buttons/button_xp_right.gif);
+	background-repeat: no-repeat;
+}
+
+table.xpbutton tbody.EEEEEE td.C {
+	background-image: url(../htmldb/buttons/button_xp_center.gif);
+}
+
+table.htmldbBSW {
+	border: 0;
+	display: inline;
+	margin: 0 0 0 5px;
+	white-space: nowrap;
+	width: auto;
+}
+
+table.htmldbBSW td.L {
+	width: 6px;
+	height: 24px;
+	background-image: url(../small_button_left2.gif);
+}
+
+table.htmldbBSW td.C {
+	height: 24px;
+	background-image: url(../small_button_middle2.gif);
+	background-repeat: repeat-x;
+	white-space: nowrap;
+}
+
+table.htmldbBSW td.R {
+	width: 6px;
+	height: 24px;
+	background-image: url(../small_button_right2.gif);
+}
+
+table.htmldbBSW td.C a:visited,table.htmldbBSW td.C a {
+	text-decoration: none;
+	font-size: 11px;
+	color: #000;
+}
+
+table.htmldbBracketTop {
+	width: 100%;
+}
+
+td.htmldbBracketTop2 {
+	text-align: center;
+	font-size: 12pt;
+	font-weight: bold;
+	color: #666;
+	font-family: arial;
+}
+
+td.htmldbBracketTop3 {
+	border-left: 2px #aaa solid;
+	border-top: 2px #aaa solid;
+	border-right: 2px #aaa solid;
+	width: 100%;
+	height: 10px;
+	font-size: 1pt;
+	margin: 0 0 -10px 0;
+}
+
+td.htmldbBracketTop4 {
+	padding: 0 5px;
+}
+
+table.htmldbInformation {
+	border: 1px #aaa solid;
+	margin: 0;
+	width: 100%;
+}
+
+td.htmldbInformation2 {
+	padding: 2px;
+	background: #cfdccf;
+	color: #666;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+td.htmldbInformation3 {
+	text-align: right;
+	padding: 2px;
+	background: #cfdccf;
+	color: #666;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+td.htmldbInformation4 {
+	padding: 2px;
+}
+
+.htmldbInstruct600 {
+	width: 560px;
+	color: #000;
+	font-size: 12px;
+	padding: 5px;
+}
+
+table.htmldbLoginR,table.htmldbRR600 {
+	color: #000;
+	width: 600px;
+}
+
+table.htmldbLoginR thead tr th.T,table.htmldbRR600 thead tr th.T {
+	color: #777;
+	text-align: left;
+	border-bottom: 1px solid #b9b9b9;
+}
+
+table.htmldbLoginR tbody tr td.B,table.htmldbRR600 tbody tr td.B {
+	font-size: 12px;
+	padding: 5px;
+	text-align: right;
+}
+
+table.htmldbInfo {
+	width: 200px;
+	margin: 0 0 10px 0;
+	table-layout: fixed;
+}
+
+table.htmldbInfo {
+	width: 200px;
+	margin: 0 0 10px 0;
+	table-layout: fixed;
+}
+
+table.htmldbInfo thead tr th {
+	background: #ddd;
+	font-size: 12px;
+}
+
+table.htmldbInfo thead tr th.C {
+	border: 1px #aaaaaa solid;
+	text-align: center;
+	padding: 2px;
+	background-image: url(../apex/infobar_bg.png);
+	background-repeat: repeat-x;
+}
+
+table.htmldbInfo tbody tr td.B {
+	background: #fff;
+	border: 1px #aaaaaa solid;
+	border-top: none;
+	font-size: 12px;
+	padding: 6px;
+}
+
+table.htmldbInfo ul {
+	margin: 0;
+	padding: 0 0 0 1.1em;
+	list-style-type: circle;
+}
+
+table.htmldbInfo li {
+	padding: 0;
+}
+
+table.htmldbTasks {
+	width: 200px;
+	margin: 0 0 10px 0;
+	table-layout: fixed;
+}
+
+table.htmldbTasks th {
+	background: #aaa;
+}
+
+table.htmldbTasks th.C {
+	border: 1px #aaa solid;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 2px;
+	color: #fff;
+	background-image: url(../apex/reg_top_bg.png);
+	background-repeat: repeat-x;
+}
+
+table.htmldbTasks td.B {
+	background: #f4f4f4;
+	border: 1px #aaa solid;
+	border-top: none;
+	font-size: 12px;
+	padding: 6px;
+}
+
+ul.htmldbUlErr {
+	font-size: 11px;
+	margin: 0 10px 4px 10px;
+	padding: 2px 0 0 10px;
+}
+
+ul.htmldbUlErr li {
+
+}
+
+/*ul.htmldbUl {
+	background: none;
+	border: 0px solid #ffffff;
+	padding: 2px 0 0 2px;
+	list-style: circle;
+}
+
+ul.htmldbUl li,ul.htmldbUl li.htmldbUl {
+	padding: 0 0 0 0;
+	color: #000;
+	font-size: 11px;
+	list-style: circle;
+}
+
+ul.htmldbUl a:link, ul.htmldbUl a:visited {
+	text-decoration: none;
+	color: #666666;
+}
+
+ul.htmldbUl a:hover {
+	text-decoration: underline;
+	color: #666666;
+}*/
+
+/* -------------------- Navigation -------------------- */
+
+.navigation-region {
+	background: url(../apex/builder/bg-navigation.gif);
+	margin: 0 0 8px 0;
+	overflow: hidden;
+	width: 200px;
+}
+
+.navigation-region > div {
+	overflow: hidden;
+	width: 200px;
+	padding: 0 0 4px;
+	background: url(../apex/builder/bg-navigation-b.gif) no-repeat 0 100%;
+}
+
+.navigation-region h3 {
+	margin: 0;
+	width: 200px;
+	height: 22px;
+	background: url(../apex/builder/bg-title-blue.gif);
+	overflow: hidden;
+	line-height: 22px;
+	text-indent: 9px;
+	color: #ffffff;
+	font-size:12px;
+}
+
+.navigation-region ul {
+	margin: 1px 0 0 3px;
+	padding: 0;
+	list-style: none;
+	width: 194px;
+	overflow: hidden;
+	border-top: 1px solid #ccc;
+	background: url(../apex/builder/bg-ul.gif);
+}
+
+.navigation-region ul li {
+	width: 200px;
+	line-height: 22px;
+	padding: 0 0 1px;
+}
+
+.navigation-region a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: 180px;
+	border-bottom: 1px solid #ccc;
+	border-left: 4px solid #ccc;
+	padding: 0 0 0 10px;
+}
+
+.navigation-region p {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: 180px;
+	border-bottom: 1px solid #ccc;
+	border-left: 4px solid #ccc;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+
+.navigation-region .active a, .navigation-region a:hover {
+	border-left: 4px solid #7b8baa;
+	background: url(../apex/builder/bg-nav.gif) repeat-x 0 0;
+}
+
+.navigation-region ul .active ul {
+	margin: 0;
+	padding: 1px 0 0;
+	list-style: none;
+	border: none;
+}
+
+.navigation-region ul .active ul li {
+	padding: 0;
+}
+
+.navigation-region ul .active ul a {
+	background: none;
+	border-left: 4px solid #7b8baa;
+	background: #f2f2f2;
+}
+
+.navigation-region ul .active ul .active a, .navigation-region ul .active ul a:hover {
+	background: #f2f2f2;
+	color: #f00;
+}
+
+.sidebar-tasks {
+	float: right;
+	width: 200px;
+	display: inline;
+	overflow: hidden;
+}
+
+.sidebar-tasks h3 {
+	width: 192px;
+	line-height: 22px;
+	height: 22px;
+	margin: 0;
+	padding: 0 0 0 9px;
+	background: url(../apex/builder/bg-title-blue.gif);
+	color: #fff;
+}
+
+.sidebar-tasks .box {
+	background: url(../apex/builder/bg-box.gif);
+	margin: 0 0 8px;
+}
+
+.sidebar-tasks .box .frame {
+	background: url(../apex/builder/bg-box-frame.gif) no-repeat 0 100%;
+	width: 200px;
+	overflow: hidden;
+	padding: 4px 4px 6px 4px;
+}
+
+.sidebar-tasks .content {
+	margin: 0 10px 0 2px;
+	font-size: 11px;
+	color: 666666;
+}
+
+.sidebar-info {
+	float: right;
+	width: 200px;
+	display: inline;
+	overflow: hidden;
+}
+
+.sidebar-info h3 {
+	width: 192px;
+	line-height: 22px;
+	height: 22px;
+	margin: 0;
+	padding: 0 0 0 9px;
+	background: url(../apex/builder/bg-title.gif);
+	color: #fff;
+	font-size:12px;
+}
+
+.sidebar-info h3 {
+	width: 192px;
+	line-height: 22px;
+	height: 22px;
+	margin: 0;
+	padding: 0 0 0 9px;
+	background: url(../apex/builder/bg-title.gif);
+	color: #fff;
+}
+
+.sidebar-info .box {
+	background: url(../apex/builder/bg-box.gif);
+	margin: 0 0 8px;
+}
+
+.sidebar-info .box .frame {
+	background: url(../apex/builder/bg-box-frame.gif) no-repeat 0 100%;
+	width: 200px;
+	overflow: hidden;
+	padding: 4px 4px 6px 6px;
+}
+
+.sidebar-info .content {
+	margin: 0 10px 0 2px;
+}
+
+/* sub region */
+
+.sub-region {
+	margin: 10px;
+	border: 1px #aaaaaa solid;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 1px 1px 1px #aaaaaa;
+	-webkit-box-shadow: 1px 1px 1px #aaaaaa;
+}
+
+.sr-header {
+	background: #dddddd;
+	padding: 4px;
+	font-size: 14px !important;
+	font-weight: bold;
+	color: #404040;
+}
+
+.sr-body {
+	background: #ffffff;
+	padding: 4px;
+	height: 1%;
+	overflow: auto;
+}
+
+/* rounded corner wizard region */
+
+
+.rounded-corner-wiz-region {
+	width: 760px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  border: 1px solid #AAA;
+  margin-bottom: 10px;
+	background-color: #F4F4F4;
+}
+
+.rounded-corner-wiz-region .rc-blue-top {
+	width: 100%;
+	display: block;
+	height: 42px;
+  background-color: #D0D0D0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #F8F8F8), color-stop(100%, #D0D0D0));
+  background-image: -webkit-linear-gradient(#F8F8F8,#D0D0D0);
+  background-image: -moz-linear-gradient(#F8F8F8,#D0D0D0);
+  background-image: linear-gradient(#F8F8F8,#D0D0D0));
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  -webkit-box-shadow: 0 -1px 0 rgba(0,0,0,0.1) inset,0 1px 0 rgba(255,255,255,0.75) inset;
+  -moz-box-shadow: 0 -1px 0 rgba(0,0,0,0.1) inset,0 1px 0 rgba(255,255,255,0.75) inset;
+  box-shadow: 0 -1px 0 rgba(0,0,0,0.1) inset,0 1px 0 rgba(255,255,255,0.75) inset;
+  position: relative;
+}
+
+.rounded-corner-wiz-region .rc-body {
+	width: 100%;
+	margin: 6px;
+	font-size: 12px;
+}
+
+.rounded-corner-wiz-region .rc-title {
+	float: left;
+	font-size: 14px;
+	padding: 2px 0 0 0;
+	margin: 6px 12px;
+}
+
+.rounded-corner-wiz-region .rc-title h2 {
+  font: bold 16px/24px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+.rounded-corner-wiz-region .rc-buttons {
+	float: right;
+	margin: 6px;
+}
+
+.rounded-corner-wiz-region .icon-confirm {
+	padding: 5px 5px 5px 45px;
+	background-image: url(../htmldb/builder/confirmicon_pagetitle.gif);
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+}
+
+.rounded-corner-wiz-region .icon-warn {
+	padding: 5px 5px 5px 45px;
+	background-image: url(../htmldb/builder/warningicon_pagetitle.gif);
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+}
+
+.rounded-corner-wiz-region .icon-fail {
+	padding: 5px 5px 5px 45px;
+	background-image: url(../htmldb/builder/fail.gif);
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+}
+
+/* rounded corner region */
+
+.rounded-corner-region {
+	padding: 0 0 4px 0;
+	display: inline;
+	float: left;
+}
+
+.rounded-corner-region a {
+	text-decoration: none;
+}
+
+.rounded-corner-region a:hover {
+	text-decoration: none;
+}
+
+.rounded-corner-region .rc-top {
+	width: 100%;
+	float: left;
+	background: url(../apex/builder/bg-topbox.gif) no-repeat 0 0;
+}
+
+.rounded-corner-region .rc-top .rc-top-r {
+	height: 3px;
+	color: #ffffff;
+	font-size: 1px;
+	font-weight: bold;
+	background: url(../apex/builder/bg-topbox-r.gif) no-repeat 100% 0;
+}
+
+/*.rounded-corner-region .rc-msg-top {
+	width: 100%;
+	float: left;
+	height: 3px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-msg-topbox.gif) no-repeat 0 0;
+}
+
+.rounded-corner-region .rc-msg-top .rc-msg-top-r {
+	height: 3px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	background: url(../apex/builder/bg-msg-topbox-r.gif) no-repeat 100% 0;
+}*/
+
+.rounded-corner-region .rc-gray-top {
+	width: 100%;
+	float: left;
+	background: url(../apex/builder/bg-region-gray-l.gif) no-repeat 0 0;
+}
+
+.rounded-corner-region .rc-gray-top .rc-gray-top-r {
+	height: 23px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px 16px 2px 10px;
+	background: url(../apex/builder/bg-region-gray-r.gif) no-repeat 100% 0;
+}
+
+.rounded-corner-region .rc-blue-top {
+	width: 100%;
+	float: left;
+	background: url(../apex/builder/bg-region-blue-l.gif) no-repeat 0 0;
+}
+
+.rounded-corner-region .rc-blue-top .rc-blue-top-r {
+	height: 23px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px 16px 2px 10px;
+	background: url(../apex/builder/bg-region-blue-r.gif) no-repeat 100% 0;
+}
+
+.rounded-corner-region .rc-darkblue-top {
+	width: 100%;
+	float: left;
+	background: url(../apex/builder/bg-region-darkblue-l.gif) no-repeat 0 0;
+}
+
+.rounded-corner-region .rc-darkblue-top .rc-darkblue-top-r {
+	height: 36px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 4px 16px 0 10px;
+	background: url(../apex/builder/bg-region-darkblue-r.gif) no-repeat 100% 0;
+}
+
+.rounded-corner-region .rc-body {
+	width: 100%;
+	float: left;
+	background: url(../apex/builder/bg-region-frame-l.gif) repeat-y scroll 0 0;
+}
+
+.rounded-corner-region .rc-body .rc-body-r {
+	color: #000000;
+	font-size: 14px;
+	padding: 0 12px 0 2px;
+	background: url(../apex/builder/bg-region-frame-r.gif) repeat-y scroll 100% 0;
+}
+
+/*.rounded-corner-region .rc-msg-body {
+	width: 100%;
+	float: left;
+	background: url(../apex/builder/bg-msg-region-frame-l.gif) repeat-y scroll 0 0;
+}
+
+.rounded-corner-region .rc-msg-body .rc-msg-body-r {
+	color: #000000;
+	font-size: 14px;
+	padding: 0 12px 0 2px;
+	background: url(../apex/builder/bg-msg-region-frame-r.gif) repeat-y scroll 100% 0;
+}
+
+.rounded-corner-region .rc-msg-body .rc-msg-content {
+	padding: 4px 10px 4px 10px;
+	background-color: #fffccc;
+}
+*/
+.rounded-corner-region .rc-body .rc-content {
+	padding: 0 10px 0 10px;
+	background: #f8f8f8 url(../apex/builder/bg-main.gif) repeat-x scroll 0 100%;
+	overflow: hidden;
+}
+
+.rounded-corner-region .rc-body .rc-content-main {
+	padding: 4px 10px 4px 10px;
+	background: #f8f8f8 url(../apex/builder/bg-main.gif) repeat-x scroll 0 100%;
+	overflow: hidden;
+}
+
+.rounded-corner-region .rc-body .rc-content-main h3 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 4px 0 4px 0;
+}
+
+.rounded-corner-region .rc-body .rc-content-announcement {
+	background: #f8f8f8 url(../apex/builder/bg-announcements.gif) repeat-x scroll 0 100%;
+	overflow: hidden;
+	height: 28px;
+	padding: 8px 4px 4px 8px;
+}
+
+.rounded-corner-region .rc-body .rc-content-bin {
+	height: 180px;
+	padding: 8px 4px 0 4px;
+	background: #f8f8f8 url(../apex/builder/bg-main.gif) repeat-x scroll 0 100%;
+	overflow: hidden;
+}
+
+/* Mike */
+
+.rounded-corner-region .rc-body-tall .rc-content-bin {
+	height: 230px;
+	padding: 8px 4px 0 4px;
+	background: #f8f8f8 url(../apex/builder/bg-main.gif) repeat-x scroll 0 100%;
+	overflow: hidden;
+}
+
+.rounded-corner-region .rc-body .rc-content-page-edit {
+	padding: 4px 0 0 10px;
+	background-color: #f8f8f8;
+	overflow: auto;
+}
+
+.rounded-corner-region .rc-body .rc-content-search-bar {
+	overflow: hidden;
+	padding: 2px 12px 0 12px;
+	height: 1%;
+	background: #f8f8f8 url(../apex/builder/bg-announcements.gif) repeat-x scroll 0 100%;
+}
+
+.rounded-corner-region .rc-body .rc-content-search-bar a {
+	text-decoration: none;
+}
+
+.rounded-corner-region .rc-body .rc-content-search-bar .buttons {
+	float: right;
+	padding: 6px;
+}
+
+.rounded-corner-region .rc-body .rc-content-search-bar .text {
+	float: left;
+	padding: 8px;
+}
+
+.rounded-corner-region .rc-body .rc-content-search-bar .elements {
+	float: left;
+}
+
+.rounded-corner-region .rc-body .rc-content-bin td {
+	padding: 1px 0 1px 0;
+}
+
+.rounded-corner-region .rc-body .rc-content-small-bin {
+	height: 120px;
+	padding: 8px 4px 0 4px;
+	background: #f8f8f8 url(../apex/builder/bg-main.gif) repeat-x scroll 0 100%;
+	overflow: hidden;
+}
+
+.rounded-corner-region .rc-body .rc-content-login {
+	height: 1%;
+	min-height: 340px;
+	padding: 6px 10px 6px 10px;
+	background: #f8f8f8 url(../apex/builder/bg-main.gif) repeat-x scroll 0 100%;
+}
+
+.rounded-corner-region .rc-body .rc-content-login input.login {
+	width: 300px;
+	margin: 4px 0 6px 0;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.rounded-corner-region .rc-bottom-sep {
+	width: 100%;
+	float: left;
+	height: 2px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-bottom-sep-l.gif) no-repeat scroll 0 0;
+}
+
+.rounded-corner-region .rc-bottom-sep .rc-bottom-sep-r {
+	color: #000000;
+	height: 2px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-bottom-sep-r.gif) no-repeat scroll 100% 0;
+}
+
+.rounded-corner-region .rc-bottom {
+	width: 100%;
+	float: left;
+	height: 10px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-region-bottom-l.gif) no-repeat scroll 0 0;
+}
+
+.rounded-corner-region .rc-bottom .rc-bottom-r {
+	color: #000000;
+	height: 5px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-region-bottom-r.gif) no-repeat scroll 100% 0;
+}
+
+.rounded-corner-region .rc-bottom-main {
+	width: 100%;
+	float: left;
+	height: 36px;
+	margin: 0 0 4px 0;
+	overflow: hidden;
+	background: url(../apex/builder/bg-bottombox-l.gif) no-repeat scroll 0 0;
+}
+
+.rounded-corner-region .rc-bottom-main .rc-bottom-r {
+	color: #000000;
+	height: 36px;
+	padding: 10px 0 0 10px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-bottombox-r.gif) no-repeat scroll 100% 0;
+}
+
+/*.rounded-corner-region .rc-msg-bottom {
+	width: 100%;
+	float: left;
+	height: 10px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-msg-region-bottom-l.gif) no-repeat scroll 0 0;
+}
+
+.rounded-corner-region .rc-msg-bottom .rc-msg-bottom-r {
+	color: #000000;
+	height: 5px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-msg-region-bottom-r.gif) no-repeat scroll 100% 0;
+}
+*/
+.rounded-corner-region .rc-title {
+	float: left;
+	font-size: 14px;
+	margin: 3px 0 0 0;
+}
+
+.rounded-corner-region .rc-buttons {
+	float: right;
+}
+
+.rounded-corner-region .rc-darkblue-top .button-small {
+	float: right;
+	margin: 3px 2px 0 2px;
+}
+
+.rounded-corner-region .rc-darkblue-top .button-small .bt-left {
+	color: #ffffff;
+	float: left;
+	height: 22px;
+	padding: 0px 12px 3px 21px;
+	background: url(../apex/builder/bt-shiny-blue-bg-l.gif) no-repeat scroll 0 0;
+}
+
+.rounded-corner-region .rc-darkblue-top .button-small .bt-right {
+	color: #ffffff;
+	float: left;
+	height: 22px;
+	padding: 3px 0 0 6px;
+	background: url(../apex/builder/bt-shiny-blue-bg-r.gif) no-repeat scroll 100% 0;
+}
+
+.rounded-corner-region .rc-darkblue-top .button-small a {
+	color: #4f4f4f;
+	font-weight: normal;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.apex-bin-body {
+	display: block;
+	height: 165px;
+}
+
+.apex-bin-footer {
+	display: block;
+	font-size: 11px;
+}
+
+/* hide show region */
+
+.hide-show-region {
+	padding: 0 0 4px 0;
+	display: block;
+}
+
+.hide-show-region a {
+	text-decoration: none;
+}
+
+.hide-show-region a:hover {
+	text-decoration: none;
+}
+
+.hide-show-region .hide-show-top {
+	width: 100%;
+	float: left;
+}
+
+.hide-show-region .hide-show-body {
+	width: 100%;
+	float: left;
+}
+
+/* report portlet */
+
+.report-portlet {
+	width: 100%;
+	display: inline;
+	float: left;
+}
+
+.report-portlet .report-record {
+	background: url(../apex/builder/bg-portlet.gif) repeat scroll 0 0;
+	padding: 0 4px 0 4px;
+}
+
+.report-portlet .report-row {
+	height: 24px;
+	padding: 0;
+}
+
+.report-portlet .report-col-hdr {
+	float: left;
+	clear: left;
+	font-size: 12px;
+	padding: 4px;
+}
+
+.report-portlet .report-col-val {
+	float: right;
+	clear: right;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+/* vertical list report */
+
+.vertical-list-report {
+	width: 100%;
+	display: inline;
+	float: left;
+}
+
+.vertical-list-report .report-record {
+	padding: 0 4px 0 4px;
+}
+
+.vertical-list-report .report-row {
+	height: 24px;
+	padding: 0;
+}
+
+.vertical-list-report .report-col-hdr {
+	float: left;
+	clear: left;
+	font-size: 12px;
+	padding: 4px;
+}
+
+.vertical-list-report .report-col-val {
+	float: right;
+	clear: right;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+/* topbar */
+
+.topbar {
+	padding: 0 0 4px 0;
+	float: left;
+	clear: right;
+	overflow: hidden;
+}
+
+.topbar .topbar-items {
+	float: left;
+}
+
+.topbar .topbar-buttons {
+	float: left;
+	padding: 16px 0;
+}
+
+.topbar .topbar-top {
+	width: 100%;
+	float: left;
+	background: url(../apex/builder/bg-topbox.gif) no-repeat 0 0;
+}
+
+.topbar .topbar-top .topbar-top-r {
+	height: 3px;
+	color: #ffffff;
+	font-size: 1px;
+	font-weight: bold;
+	background: url(../apex/builder/bg-topbox-r.gif) no-repeat 100% 0;
+}
+
+.topbar .topbar-body {
+	float: left;
+	width: 100%;
+	background: url(../apex/builder/bg-region-frame-l.gif) repeat-y scroll 0 0;
+}
+
+.topbar .topbar-body .topbar-body-r {
+	color: #000000;
+	font-size: 14px;
+	padding: 0 12px 0 2px;
+	background: url(../apex/builder/bg-region-frame-r.gif) repeat-y scroll 100% 0;
+}
+
+.topbar .topbar-body .topbar-content {
+	padding: 6px;
+	clear: right;
+	background: #f8f8f8 url(../apex/builder/bg-announcements.gif) repeat-x scroll 0 100%;
+	height: 1%;
+	overflow: hidden;
+}
+
+.topbar .topbar-body .topbar-content .formlayout .body {
+	padding: 2px 0 0 0;
+}
+
+.topbar .topbar-bottom {
+	width: 100%;
+	float: left;
+	height: 10px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-region-bottom-l.gif) no-repeat scroll 0 0;
+}
+
+.topbar .topbar-bottom .topbar-bottom-r {
+	color: #000000;
+	height: 5px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-region-bottom-r.gif) no-repeat scroll 100% 0;
+}
+
+/* topbar one row */
+
+.topbar-onerow {
+	padding: 0 0 4px 0;
+	float: left;
+	clear: right;
+	height: 1%;
+	overflow: hidden;
+}
+
+.topbar-onerow .items {
+	float: left;
+}
+
+.topbar-onerow .buttons {
+	float: left;
+	padding: 16px 0;
+}
+
+.topbar-onerow .body {
+	float: left;
+	height: 53px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-topbar-onerow-l.gif) repeat-y scroll 0 0;
+}
+
+.topbar-onerow .body .body-r {
+	color: #000000;
+	height: 53px;
+	overflow: hidden;
+	background: url(../apex/builder/bg-topbar-onerow-r.gif) repeat-y scroll 100% 0;
+}
+
+.topbar-onerow .content {
+	padding: 9px 15px 9px 10px;
+}
+
+.topbar-onerow {
+	padding: 2px 0 0 0;
+}
+
+/* buttons */
+
+button {
+/*	border: 0px;
+	cursor: pointer;
+	font-weight: normal;
+	padding: 0 10px 0 0;
+	text-align: center;
+	margin: 0 2px 0 0;*/
+}
+
+button span {
+	position: relative;
+/*	display: block;*/
+/*	white-space: nowrap;
+	font-size: 13px;
+	padding: 0 4px 0 15px;*/
+}
+
+
+
+button.button-go-gray-gray-bg {
+	background: url(../apex/builder/bt-go.gif) right no-repeat;
+	border: 0px solid #ffffff;
+	height: 20px;
+	line-height: 20px;
+	width: 25px;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-button {
+	margin: 3px 0 0 2px;
+}
+
+.list-button-nc button {
+	background: url(../apex/builder/bt-gray-gray-bg-r.gif) right no-repeat;
+}
+
+.list-button-nc button span {
+	height: 20px;
+	line-height: 20px;
+	background: url(../apex/builder/bt-gray-gray-bg-l.gif) left no-repeat;
+	color: #4f4f4f;
+}
+
+.list-button-nc-sub button {
+	background: url(../apex/builder/bt-pulldown-gray-bg-r.gif) right no-repeat;
+	padding: 0 25px 0 0;
+}
+
+.list-button-nc-sub button span {
+	height: 20px;
+	line-height: 20px;
+	background: url(../apex/builder/bt-gray-gray-bg-l.gif) left no-repeat;
+	color: #4f4f4f;
+}
+
+.list-button-c button {
+	background: url(../apex/builder/bt-orange-gray-bg-r.gif) right no-repeat;
+}
+
+.list-button-c button span {
+	height: 20px;
+	line-height: 20px;
+	background: url(../apex/builder/bt-orange-gray-bg-l.gif) left no-repeat;
+	color: #4f4f4f;
+}
+
+.list-button-c-sub button {
+	background: url(../apex/builder/bt-pulldown-gray-bg-r.gif) right no-repeat;
+	padding: 0 25px 0 0;
+}
+
+.list-button-c-sub button span {
+	height: 20px;
+	line-height: 20px;
+	background: url(../apex/builder/bt-gray-gray-bg-l.gif) left no-repeat;
+	color: #4f4f4f;
+}
+
+div.htmldbInfoBodyP {
+	margin: 0 0 6px 0;
+}
+
+table.htmldbRR {
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+table.htmldbRR thead {
+	font-size: 14px;
+	color: #777;
+	vertical-align: bottom;
+}
+
+table.htmldbRR thead th {
+	border-bottom: solid 1px #bbb;
+}
+
+table.htmldbRR thead tr th.T {
+	text-align: left;
+}
+
+table.htmldbRR thead tr th.BT {
+	text-align: right;
+}
+
+table.htmldbRR tbody tr td.B {
+	font-size: 12px;
+	color: #000;
+	padding: 2px;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+table.htmldbBWR {
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+table.htmldbBWR thead {
+	font-size: 14px;
+	color: #777;
+	vertical-align: bottom;
+}
+
+table.htmldbBWR thead tr th.T {
+	text-align: left;
+}
+
+table.htmldbBWR thead tr th.BT {
+	text-align: right;
+}
+
+table.htmldbBWR tbody tr td.B {
+	font-size: 12px;
+	color: #000;
+	padding: 2px;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+table.htmldbWizard {
+	border: 1px #aaa solid;
+	width: 560px;
+	margin: 0 0 20px 0;
+}
+
+table.htmldbWizard thead th {
+	font-size: 12px;
+	padding: 3px;
+	color: #ffffff;
+	background-image: url(../apex/topbar_blue_bg.png);
+	background-repeat: repeat-x;
+}
+
+table.htmldbWizard thead th.H1 {
+	padding: 0 0 0 10px;
+	text-align: left;
+}
+
+table.htmldbWizard thead th.H2 {
+	text-align: right;
+}
+
+table.htmldbWizard td.B {
+	padding: 8px;
+	border-top: 1px #aaa solid;
+	background: #f4f4f4;
+	font-size: 12px;
+}
+
+table.htmldbWizard table {
+	font-size: 12px;
+}
+
+table.htmldbWizard p {
+	font-size: 12px;
+}
+
+table.htmldbWizard tbody.Success td.B {
+	padding: 10px 0 10px 45px;
+	background-repeat: no-repeat;
+	background-image: url(../htmldb/icons/success_w.gif);
+	background-position: 5px 5px;
+}
+
+table.htmldbWizard tbody.Fail td.B {
+	padding: 10px 0 10px 45px;
+	background-repeat: no-repeat;
+	background-image: url(../htmldb/builder/fail.gif);
+	background-position: 5px 5px;
+}
+
+table.htmldbWizard tbody.Confirm td.B {
+	padding: 10px 0 10px 45px;
+	background-repeat: no-repeat;
+	background-image: url(../htmldb/builder/confirmicon_pagetitle.gif);
+	background-position: 5px 5px;
+}
+
+table.htmldbWizard tbody.Warning td.B {
+	padding: 10px 0 10px 45px;
+	background-repeat: no-repeat;
+	background-image: url(../warningicon_pagetitle.gif);
+	background-position: 5px 5px;
+}
+
+table.htmldbGBR {
+	border: 1px #aaa solid;
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+table.htmldbGBR thead {
+	background: #f4f4f4;
+	color: #fff;
+	font-size: 14px;
+	background-image: url(../apex/reg_top_bg.png);
+	background-repeat: repeat-x;
+}
+
+table.htmldbGBR thead tr th {
+	padding: 2px;
+}
+
+table.htmldbGBR thead tr th.T {
+	padding: 4px 4px 4px 8px;
+	text-align: left;
+}
+
+table.htmldbGBR thead tr th.BT {
+	padding: 4px 4px 4px 8px;
+	text-align: right;
+}
+
+table.htmldbGBR tbody tr td.B {
+	background: #f4f4f4;
+	padding: 5px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+table.htmldbTopBar {
+	height: 35px;
+	border: 1px #777 solid;
+	width: 100%;
+	color: #444;
+}
+
+tbody.htmldbTopBar {
+	white-space: nowrap;
+	color: #444;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+	white-space: nowrap;
+	background: #cfdccf;
+	vertical-align: middle;
+	line-height: 20px;
+}
+
+.htmldbTopBar img,.htmldbTopBar input {
+	vertical-align: middle;
+}
+
+table.htmldbTopBarW {
+	height: 35px;
+	width: 100%;
+	color: #444;
+}
+
+tbody.htmldbTopBarW {
+	white-space: nowrap;
+	color: #444;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+	white-space: nowrap;
+	background: #fff;
+	vertical-align: middle;
+	line-height: 20px;
+}
+
+div.htmldbTopBarLeft {
+	float: left;
+	white-space: nowrap;
+}
+
+div.htmldbTopBarRight {
+	float: right;
+	white-space: nowrap;
+}
+
+.htmldbTopBarSpace {
+	width: 5px;
+}
+
+table.htmldbShowHide {
+	margin: 0 0 10px 0
+}
+
+th.htmldbShowHide {
+	font-weight: bold;
+	font-size: 12px;
+	text-align: left;
+	cursor: pointer;
+	cursor: pointer;
+}
+
+th.htmldbShowHide img {
+	vertical-align: middle;
+	margin: 0 5px 0 0;
+}
+
+th.htmldbShowHide span {
+	vertical-align: middle;
+}
+
+td.htmldbShowHide {
+	padding: 4px;
+	font-size: 12px;
+}
+
+.htmldbInstruct {
+	font-size: 12px;
+	color: #000;
+}
+
+.htmldbPPRSort {
+	text-decoration: underline;
+	color: #3f863f;
+	cursor: pointer;
+	height: 16px;
+	line-height: 16px;
+	display: inline;
+	vertical-align: middle;
+}
+
+.htmldbPPRPage {
+	line-height: 16px;
+	vertical-align: middle;
+	height: 16px;
+	margin: 0 5px 0 0;
+}
+
+.htmldbPPRPage span {
+	text-decoration: underline;
+	color: #7f1717;
+	line-height: 16px;
+	vertical-align: top;
+	height: 16px;
+}
+
+.htmldbPPRPage img {
+	margin: 0 0 5px 0;
+}
+
+table.htmldbMinReport, table.htmldbStandard3 {
+	border: 1px #e0e0e0 solid;
+}
+
+table.htmldbMinReport tfoot tr td ,table.htmldbStandard3 tfoot tr td,table.htmldbMinReport tfoot , table.htmldbStandard3 tfoot,table.htmldbMinReport tfoot , table.htmldbStandard3 tfoot table.htmldbMinReport tfoot tr, table.htmldbStandard3 tfoot tr {
+	background: #f4f4f4;
+	border: 0;
+}
+
+table.htmldbMinReport th, table.htmldbStandard3 th, table.htmldbStandard3 td.header {
+	background: #F0F0F0;
+	font-weight: bold;
+	border-bottom: 1px #E0E0E0 solid;
+	white-space: nowrap;
+	vertical-align: bottom;
+	padding: 8px;
+	color: #404040;
+	font-size: 12px;
+	letter-spacing: 1;
+	background-repeat: repeat-x;
+}
+
+table.htmldbMinReport td, table.htmldbStandard3 td {
+	background: #FFF;
+	border-bottom: 1px #E0E0E0 solid;
+	font-size: 12px;
+	padding: 4px 8px;
+	empty-cells: show;
+}
+
+table.htmldbMinReport th a, table.htmldbStandard3 th a {
+	color: #404040;
+	font-size: 12px;
+	letter-spacing: 1;
+}
+
+table.apex-standard-report {
+	border: 1px #aaa solid;
+	margin: 10px 0;
+}
+
+table.apex-standard-report tfoot tr td, table.apex-standard-report tfoot, table.apex-standard-report tfoot tr {
+	background: #f4f4f4;
+	border: 0;
+}
+
+table.apex-standard-report > tbody > tr > th {
+	background: #879cbd;
+	font-weight: bold;
+	border-bottom: 1px #aaa solid;
+	font-size: 11px;
+	white-space: nowrap;
+	vertical-align: bottom;
+	padding: 4px 9px;
+	color: #ffffff;
+	font-size: 12px;
+	letter-spacing: 1;
+	background-image: url(../apex/reg_top_bg.png);
+	background-repeat: repeat-x;
+}
+
+table.apex-standard-report > tbody > tr > td {
+	background: #f4f4f4;
+	border-top: 1px #fff solid;
+	border-bottom: 1px #ccc solid;
+	font-size: 12px;
+	padding: 2px 9px;
+	empty-cells: show;
+}
+
+table.apex-standard-report > tbody > tr > th a {
+	color: #ffffff;
+	font-size: 12px;
+	letter-spacing: 1;
+}
+
+table.apex-borderless-report {
+
+}
+
+table.apex-borderless-report tfoot tr td, table.apex-borderless-report tfoot, table.apex-borderless-report tfoot tr {
+	border: 0;
+}
+
+table.apex-borderless-report > tbody > tr > th {
+	font-weight: bold;
+	font-size: 11px;
+	white-space: nowrap;
+	vertical-align: bottom;
+	padding: 4px 9px;
+	color: #000000;
+	font-size: 12px;
+	letter-spacing: 1;
+}
+
+table.apex-borderless-report > tbody > tr > td {
+	font-size: 12px;
+	padding: 2px 9px;
+	empty-cells: show;
+}
+
+table.apex-borderless-report > tbody > tr > th a {
+	color: #ffffff;
+	font-size: 12px;
+	letter-spacing: 1;
+}
+
+table.apex-vertical-region {
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	margin: 5px 0;
+}
+
+table.apex-vertical-region th {
+	background: #aaaaaa;
+	border-bottom: 1px solid #cccccc;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 12px;
+	white-space: nowrap;
+	vertical-align: bottom;
+	padding: 3px 4px;
+	text-align: left;
+}
+
+table.apex-vertical-region td {
+	background: #f4f4f4;
+	border-bottom: 1px solid #cccccc;
+	font-size: 12px;
+	padding: 3px 4px;
+}
+
+table.htmldbGBR table.htmldbStandard3 th , div.rc-content table.htmldbStandard3 th {
+	border-top: none;
+	background: transparent;
+	color: #000;
+}
+
+table.htmldbGBR table.htmldbStandard3 th , div.rc-content table.htmldbStandard3 td {
+	border-top: 1px #fff solid;
+	border-bottom: 1px #ccc solid;
+	background: transparent;
+	color: #000;
+}
+
+table.htmldbGBR table.htmldbStandard3 , div.rc-content table.htmldbStandard3 {
+	border: none;
+}
+
+table.htmlPlain {
+	font-size: 12px;
+	color: #000;
+}
+
+table.htmldbVerticalRptPlain th {
+	color: #3F8640;
+	font-weight: bold;
+	padding-right: 5px;
+	font-size: 8pt;
+}
+
+table.htmldbVerticalRptPlain td {
+	font-size: 8pt;
+	padding-left: 5px;
+	border-left: 1px #f4f4f4 solid;
+}
+
+table.htmldbRptNoBackHoriz th {
+	padding: 1px 3px;
+	color: #3F8640;
+	font-weight: bold;
+	font-size: 12px;
+	border-bottom: 1px #ccc solid;
+}
+
+table.htmldbRptNoBackHoriz th a,table.htmldbRptNoBackHoriz th a:link,table.htmldbRptNoBackHoriz th a:visited {
+	color: #3F8640;
+}
+
+table.htmldbRptNoBackHoriz th a:hover {
+	color: #ff6600;
+}
+
+table.htmldbRptNoBackHoriz td {
+	padding: 1px 3px;
+	font-size: 12px;
+	border-top: 1px #f8f8f8 solid;
+}
+
+.htmldbGreenRegion {
+	width: 140px;
+	vertical-align: top;
+	padding: 3px;
+	padding-top: 0;
+}
+.apex-wiz-bar {
+	padding: 0 6px 0 6px;
+}
+
+.apex-wiz-non {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #999;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background: none #888;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  width: 180px;
+}
+
+.apex-wiz-non span {
+	text-align: center;
+	width: 180px;
+	font: normal 12px/24px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	display: inline-block;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f0f0f0', endColorstr='#d0d0d0');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#d0d0d0')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #F0F0F0), color-stop(100%, #C0C0C0));
+  background-image: -webkit-linear-gradient(#F0F0F0,#C0C0C0);
+  background-image: -moz-linear-gradient(#F0F0F0,#C0C0C0);
+  background-image: linear-gradient(#F0F0F0,#C0C0C0);
+  -webkit-box-shadow: 0 1px 0 #fff inset;
+  -moz-box-shadow: 0 1px 0 #fff inset;
+  box-shadow: 0 1px 0 #fff inset;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.apex-wiz-current {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #999;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background: none #888;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  width: 180px;
+}
+
+.apex-wiz-current span {
+	text-align: center;
+	width: 180px;
+	font: normal 12px/24px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	display: inline-block;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#6096D9', endColorstr='#285B9C');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#6096D9', endColorstr='#285B9C')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6096D9), color-stop(100%, #285B9C));
+  background-image: -webkit-linear-gradient(#6096D9,#285B9C);
+  background-image: -moz-linear-gradient(#6096D9,#285B9C);
+  background-image: linear-gradient(#6096D9,#285B9C);
+  -webkit-box-shadow: 0 1px 0 #99ccff inset;
+  -moz-box-shadow: 0 1px 0 #99ccff inset;
+  box-shadow: 0 1px 0 #99ccff inset;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.apex-wiz-non .apex-wiz-body a {
+	text-decoration: none;
+}
+
+.apex-wiz-arrow {
+	margin: 3px 85px 6px 85px;
+	text-align: center;
+	width: 15px;
+	height: 13px;
+	color: #000;
+	background: url(../apex/builder/bg-progress-next.gif) no-repeat scroll 0 0;
+}
+
+.apex-wiz-arrow-small {
+	margin: 3px 85px 0px 85px;
+	text-align: center;
+	width: 15px;
+	height: 13px;
+	color: #000;
+	background: url(../apex/builder/bg-progress-down.gif) no-repeat scroll 0 0;
+}
+
+table.htmldbPageTabs {
+	float: right;
+}
+
+table.htmldbPageTabs td.OnC {
+	white-space: nowrap;
+	background-image: url(../apex/tabOnM.png);
+	background-repeat: repeat-x;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+table.htmldbPageTabs td.OnC a {
+	font-size: 12px;
+	white-space: nowrap;
+	text-decoration: none;
+	color: #fff;
+}
+
+table.htmldbPageTabs td.OffC {
+	white-space: nowrap;
+	background-image: url(../apex/tabOffM.png);
+	background-repeat: repeat-x;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+table.htmldbPageTabs td.OffC a {
+	font-weight: normal;
+	font-size: 12px;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+ul.dList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 150px;
+	border: 1px solid #ccc;
+	font-size: 10px;
+}
+
+ul.dList li a.dList {
+	display: block;
+	text-decoration: none;
+	color: #777;
+	background: #fff;
+	padding: 5px;
+	height: 1%
+}
+
+ul.dList li a.dList:hover {
+	background: #FFC06F;
+}
+
+ul.dList li hr {
+	display: block;
+	margin: auto;
+	width: 80%;
+	border: 1px solid #f4f4f4;
+	height: 1px;
+	background: #777;
+}
+
+ul.htmldbUlHl {
+	margin: 0;
+	padding-left: 1.1em;
+}
+
+ul.htmldbUlHl li {
+	padding-left: 0;
+	color: #000;
+}
+
+ul.htmldbUlHl li.Hl {
+	font-weight: bold;
+}
+
+/*.RegionQuickLinks a,.RegionQuickLinks a:link,.RegionQuickLinks a:visited,
+.htmldbQuickLinks,.htmldbQuickLinks a:link,.htmldbQuickLinks a:visited,
+itemlink a:visited,a.itemlink:link,itemLink a:visited,a.itemLink:link {
+	white-space: nowrap;
+	margin: 0 5px 5px 0;
+	text-decoration: none;
+	font-size: 11px;
+	color: #811919;
+}
+
+.RegionQuickLinks a:hover,.htmldbQuickLinks a:hover,a.itemLink:hover {
+	text-decoration: underline;
+	color: #f00;
+}*/
+
+img.htmldbItemLink {
+	margin: 0 6px 0 2px;
+	vertical-align: middle;
+}
+
+ul.noIndent {
+	margin: 0;
+	padding-left: 1.1em;
+}
+
+ul.noIndent li {
+	padding-left: 0;
+}
+
+ul.htmldbQuickPick {
+	margin: 0;
+	padding-left: 1.1em;
+}
+
+ul.htmldbQuickPick li {
+	padding-left: 0;
+}
+
+td.htmldbRowWithBorders2 {
+	text-align: right;
+}
+
+table.htmldbRowWithBorders3 {
+	border: 1px #aaa solid;
+	width: 100%;
+	margin: 5px 0 0 0;
+}
+
+table.htmldbRowWithBorders3 th {
+	background: #cfdccf;
+	font-weight: bold;
+	color: #3F8640;
+	border: 1px #aaa solid;
+	font-size: 12px;
+	white-space: nowrap;
+	vertical-align: bottom;
+	padding: 3px 9px;
+}
+
+table.htmldbRowWithBorders3 td {
+	background: #f4f4f4;
+	border: 1px #aaa solid;
+	font-size: 12px;
+	padding: 3px 9px;
+}
+
+.apex-list-horizontal {
+	padding: 5px;
+	height: 1%;
+	overflow: hidden;
+}
+
+.apex-list-horizontal .current {
+	width: 140px;
+	float: left;
+}
+
+.apex-list-horizontal .noncurrent {
+	width: 140px;
+	float: left;
+}
+
+.apex-list-horizontal .image {
+	width: 136px;
+	float: left;
+	clear: both;
+	text-align: center;
+}
+
+.apex-list-horizontal .label {
+	width: 136px;
+	float: left;
+	clear: both;
+	text-align: center;
+	font-size: 11px;
+}
+
+.apex-list-horizontal .label a {
+	font-size: 12px;
+}
+
+table.htmldbListImages30px td {
+	text-align: center;
+}
+
+table.htmldbListImages30px img.htmldbGreenIcon {
+	margin-left: 15px;
+	margin-right: 15px;
+	display: block;
+}
+
+table.htmldbListImages30px a {
+	font-size: 12px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+table.htmldbListImages30px a.noVisit {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+table.htmldbListImages10px td {
+	text-align: center;
+}
+
+table.htmldbListImages10px img.htmldbImg {
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: block;
+}
+
+table.htmldbListImages10px a {
+	font-size: 12px;
+	display: block;
+	text-align: center;
+}
+
+table.htmldbListImagesH2 td {
+	text-align: center;
+	padding: 3px;
+}
+
+ol.htmldbOl {
+
+}
+
+ol.htmldbOl li {
+	font-size: 12px;
+	color: #000;
+}
+
+ol.htmldbOl li {
+	font-size: 12px;
+	color: #000;
+}
+
+.htmldbQuickItems {
+	font-size: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.htmldbQuickItems a {
+	text-decoration: none;
+	color: #811919;
+}
+
+.htmldbQuickItems a:hover {
+	text-decoration: underline;
+	color: #f00;
+}
+
+table.htmldbStandardList {
+	border-collapse: collapse;
+	border: 0;
+	width: 100%;
+	padding: 2px;
+	margin: 2px;
+}
+
+table.htmldbStandardList th {
+	padding: 2px;
+}
+
+table.htmldbStandardList td {
+	padding: 2px;
+}
+
+.htmldbStandardList1 {
+	background: #3f8640;
+}
+
+.htmldbStandardList1 a {
+	font-weight: bold;
+}
+
+.htmldbStandardList2 {
+	border-top: 1px #3f8640 solid;
+	border-bottom: 1px #3f8640 solid;
+}
+
+.htmldbStandardList2 a {
+	font-size: 12px;
+	padding-right: 1px;
+}
+
+ul.htmldbUlNl {
+	margin: 0;
+	padding-left: 1.1em;
+}
+
+ul.htmldbUlNl li {
+	padding-left: 0;
+	font-size: 16px;
+	color: #000;
+}
+
+ol.htmldbFancyList li {
+	vertical-align: top;
+	font-size: 12px;
+	padding: 0 2px;
+	border: 1px solid #ddd;
+	margin: 5px 0;
+}
+
+ol.htmldbFancyList div {
+	font-size: 12px;
+	margin: 4px;
+}
+
+a.htmldbFancyList:link,a.htmldbFancyList:visited,a.htmldbFancyList:hover {
+	color: #000;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+table.htmldbTabbedNavigationList {
+	margin: 0;
+	background-color: #F0F0F0;
+	box-shadow: 0 -1px 0 #E8E8E8 inset;
+}
+
+table.htmldbTabbedNavigationList td {
+	padding: 0;
+	white-space: nowrap;
+}
+
+table.htmldbTabbedNavigationList a:link, table.htmldbTabbedNavigationList a:visited {
+	display: block;
+	color: #707070;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px;
+	text-decoration: none;
+}
+
+table.htmldbTabbedNavigationList a.tabcurrent:link,
+table.htmldbTabbedNavigationList a.tabcurrent:visited,
+table.htmldbTabbedNavigationList a:hover {
+	display: block;
+	color: #404040;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #FFF;
+	box-shadow: 0 -1px 0 #E8E8E8 inset;
+}
+
+table.htmldbTabbedNavigationList a.tabcurrent:link,
+table.htmldbTabbedNavigationList a.tabcurrent:visited {
+	background-color: #FAFAFA;
+	border-right: 1px solid #E8E8E8;
+	border-left: 1px solid #E8E8E8;
+	box-shadow: none;
+}
+
+
+
+ul.htmldbTabbedNavigationList {
+	border-bottom: 2px solid #a3b4ca;
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 0 0 20px 6px;
+}
+
+ul.htmldbTabbedNavigationList li {
+	display: block;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+ul.htmldbTabbedNavigationList a:link, ul.htmldbTabbedNavigationList a:visited {
+	color: #a3b4ca;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	font-weight: bold;
+	line-height: 14px;
+	padding: 0 6px 6px;
+	text-decoration: none;
+}
+
+ul.htmldbTabbedNavigationList a.current:link, ul.htmldbTabbedNavigationList a.current:visited, ul.htmldbTabbedNavigationList a:hover {
+	background: transparent url(../htmldb/builder/tab_rounded.gif) no-repeat scroll center bottom;
+	color: #000;
+	font-weight: bold;
+}
+
+.apex-ga-label,a.apex-ga-label,a.apex-ga-label:link,a.apex-ga-label:visited,a.apex-ga-label:hover {
+	white-space: nowrap;
+	color: #000000;
+	margin: 0 2px 0 6px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.htmldbWhiteLabel,a.htmldbWhiteLabel,a.htmldbWhiteLabel:link,a.htmldbWhiteLabel:visited,a.htmldbWhiteLabel:hover {
+	white-space: nowrap;
+	color: #eeeeee;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+/* label css*/
+
+a.help:link,a.help:visited,label.htmldbLabelRequired,span.htmldbLabelRequired, a.htmldbLabelRequired:link,a.htmldbLabelRequired:visited,label.htmldbLabelOptional,span.htmldbLabelOptional,a.htmldbLabelOptional:link,a.htmldbLabelOptional:visited {
+	padding: 0;
+	margin: 1px 1px 3px 1px;
+	color: #111;
+	text-decoration: none;
+	border-bottom: solid 1px #CCC;
+	font-size: 12px;
+}
+
+a.help:hover,
+a.htmldbLabelRequired:hover,
+a.htmldbLabelOptional:hover {
+	color: #f00;
+	cursor: help;
+}
+
+span.htmldbLabelOptional {
+	border: none;
+}
+
+a.htmldbGALabel:hover {
+	color: #f00;
+	cursor: help;
+}
+
+.htmldbTemplateFlag {
+	clear: both;
+	font-size: 9px;
+}
+
+table.htmldbTiny, table.tiny {
+	border-collapse: collapse;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+table.htmldbTiny th, table.tiny th {
+	padding: 0;
+}
+
+table.htmldbTiny td, table.tiny td {
+	padding: 2px;
+	vertical-align: top;
+	font-size: 9px;
+}
+
+.header {
+	font-size: 16pt;
+	font-weight: bold;
+	color: #333;
+}
+
+.htmldbGreyLink,.tab3archiveslink {
+	font-size: 9pt;
+	color: #663300;
+	text-decoration: none;
+}
+
+.tab3heading {
+	font-size: 14pt;
+	font-weight: bold;
+	color: #003366;
+}
+
+.fieldtitle {
+	font-size: 12px;
+	color: #000;
+	text-align: right;
+}
+
+.fieldtitlebold {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	text-align: right;
+}
+
+.htmldbFieldTitleLeft, .fieldtitleleft {
+	font-size: 12px;
+	color: #000;
+}
+
+.htmldbInstructionText,.instructiontext {
+/*	font-size: 12px;
+	color: #000;*/
+}
+
+.tableheader {
+	font-size: 12px;
+	font-weight: bold;
+	background: #cccc99;
+	color: #3F8640;
+}
+
+.tableheader2 {
+	font-size: 12px;
+	font-weight: bold;
+	background: #cfdccf;
+	color: #444;
+}
+
+.tabledata {
+	font-size: 12px;
+	background: #eee;
+	color: #000;
+}
+
+.tabledata-alt {
+	font-size: 12px;
+	background: #fff;
+	color: #000;
+}
+
+.nounderline {
+	text-decoration: none
+}
+
+div.float {
+	float: left;
+	padding: 10px;
+	text-align: left;
+	font-size: 11pt;
+}
+
+table.fieldData1 td {
+	font-size: 12px;
+	color: #000;
+	padding: 2px;
+}
+
+table.report1 {
+	border-collapse: collapse;
+	border: 1px #aaa solid;
+}
+
+table.report1 th {
+	background: #cfdccf;
+	color: #000;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	border: 1px #aaa solid;
+}
+
+table.report1 td {
+	background: #f4f4f4;
+	color: #000;
+	border: 1px #aaa solid;
+	padding: 3px;
+	font-size: 12px;
+}
+
+img.lovimages {
+	margin: 5px;
+}
+
+table.report2 {
+	border-collapse: collapse;
+	border: 1px #aaa solid;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	margin-top: 5px;
+}
+
+table.report2 th {
+	background: #cfdccf;
+	font-weight: bold;
+	color: #3F8640;
+	padding: 3px;
+	border: 1px #aaa solid;
+	font-size: 12px;
+	white-space: nowrap;
+	vertical-align: bottom;
+}
+
+table.report2 td {
+	background: #f4f4f4;
+	padding: 3px;
+	border: 1px #aaa solid;
+	font-size: 12px;
+}
+
+table.default4 {
+	margin: 5px auto 0.5em auto;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	background: #f4f4f4;
+}
+
+table.default4 td {
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+table.default4 th {
+	font-weight: bold;
+	font-size: 12px;
+	color: #fff;
+	background: #3F8640;
+	border-left: 1px solid #e0e7f7;
+	border-top: 1px solid #e0e7f7;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	white-space: nowrap;
+	vertical-align: bottom;
+}
+
+table.default4 td.even {
+	background: #cfdccf;
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+table.default4 td.odd {
+	background: #f4f4f4;
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+#htmldbRegion6 {
+	text-align: center;
+}
+
+table.htmldbLayout {
+	width: 100%;
+}
+
+td.htmldbLayout {
+	padding: 0 10px;
+}
+
+.htmldbFloatBreak {
+	clear: both;
+	display: block;
+	height: 2px;
+	width: 2px;
+}
+
+.htmldbTDLeft {
+	width: 100%;
+	vertical-align: top;
+	white-space: nowrap;
+	text-align: left;
+}
+
+.htmldbTDRight {
+	vertical-align: top;
+	white-space: nowrap;
+	text-align: right;
+}
+
+.htmldbTDRight a {
+	text-decoration: none;
+}
+
+.htmldbPopupTop {
+	font-size: 15px;
+	white-space: nowrap;
+	background: #ccc;
+	border-bottom: 1px solid #000;
+	padding: 2px 5px;
+}
+
+.htmldbEVArrow {
+	text-align: center;
+	padding: 5px;
+}
+
+table.htmldbEVGrayTable {
+	border: 1px #aaa solid;
+}
+
+td.htmldbEVGrayTableData {
+	background: #f0f0f0;
+	font-size: 11px;
+	padding: 3px;
+	vertical-align: middle;
+}
+
+.htmldbGraySm {
+	font-size: 11px;
+	color: #999;
+}
+
+.code,.htmldbCodeXSmall, .codexsm {
+	font-size: 11px;
+}
+
+a.htmldbEVRegionTitle,a.htmldbEVRegionTitle:link,a.htmldbEVRegionTitle:visited {
+	color: #404040;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.htmldbEVRegion {
+	border: 1px #aaa solid;
+	margin-bottom: 0;
+}
+
+.htmldbEVRegion th {
+	text-align: left;
+	background: #D0DEF0;
+	font-size: 11px;
+	color: #404040;
+	padding: 2px;
+	vertical-align: middle;
+	line-height: 18px;
+}
+
+.htmldbEVRegion td.htmldbEVRegionBody {
+	background: #eee;
+	font-size: 11px;
+	padding: 3px;
+}
+
+.htmldbItem {
+	font-size: 11px;
+	padding-right: 3px;
+}
+
+a.listitem,a.listitem:link,a.listitem:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a.listitem:hover {
+	text-decoration: underline;
+	color: #f00;
+}
+
+a.xsmlink,a.xsmlink:link,a.xsmlink:visited {
+	text-decoration: none;
+	color: #000;
+	font-size: 8pt;
+}
+
+a.xsmlink:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+a.smWhtLk:link,a.smWhtLk:visited,a.smWhtLk:hover {
+	font-size: 6pt;
+	color: white;
+}
+
+a.orange:link,a.orange:visited {
+	color: #811919;
+}
+
+a.orange:hover {
+	color: #3f8640;
+}
+
+.subheader,.htmldbSubHeader {
+	font-size: 13pt;
+	font-weight: bold;
+	color: #666;
+}
+
+a.subheader:link,a.subheader:visited,a.subheader:visited,a.htmldbSubHeader:link,a.htmldbSubHeader:visited,a.htmldbSubHeader:visited {
+	font-size: 13pt;
+	font-weight: bold;
+	color: #999;
+}
+
+a.subheader:hover,a.htmldbSubHeader:hover {
+	text-decoration: underline;
+}
+
+.htmldbTiny,.tiny {
+	font-size: 9px;
+}
+
+.htmldbFD,.htmldbFieldData {
+	font-size: 12px;
+	color: #000;
+}
+
+.htmldbFDB,.htmldbFieldDataBold {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+}
+
+.htmldbFDS,.htmldbFieldDataSmall {
+	font-size: 8pt;
+	color: #000;
+}
+
+.htmldbFDSB {
+	font-size: 8pt;
+	color: #000;
+	font-weight: bold;
+}
+
+.htmldbFDBWhite,.htmldbFieldDataBoldWhite,.fielddataboldWhite {
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+}
+
+div.htmldbNBNT600 {
+	width: 600px;
+	margin-bottom: 30px;
+	font-size: 12px;
+	color: #000;
+}
+
+input.htmldbButton {
+	margin: 2px 5px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0 2px;
+	font-weight: bold;
+}
+
+input.htmldbButtonPN {
+	margin: 2px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0 2px;
+	font-weight: bold;
+}
+
+input.htmldbButtonPLSQL {
+	margin: 2px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0 2px;
+	font-weight: bold;
+}
+
+.htmldbVImgMiddle {
+	vertical-align: middle;
+}
+
+table.htmldbListIconHolder {
+	text-align: left;
+	width: 660px;
+}
+
+a.htmldbIconName:link,a.htmldbIconName:visited {
+	text-decoration: none;
+	color: #808080;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.htmldbSmallIconReport {
+	vertical-align: middle;
+	white-space: nowrap;
+	font-size: 11px;
+}
+
+.htmldbSmallIconReport img {
+	vertical-align: middle;
+}
+
+.htmldbSmallIconReport a {
+	display: block;
+	vertical-align: middle;
+	font-size: 11px;
+	margin: 4px;
+}
+
+.htmldbDisablePage {
+	background: #fff;
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.htmldbToolTip {
+	background: #ccc;
+	font-size: 11px;
+}
+
+.htmldbInPopup {
+	background: #efefef;
+	padding: 4px;
+	border: 1px solid #000;
+}
+
+.htmldbInvisDiv {
+	background: #fff;
+	-moz-opacity: 0;
+	opacity: 0;
+}
+
+#h_slide {
+	cursor: s-resize;
+	line-height: 5px;
+	height: 5px;
+	background: #ccc;
+}
+
+.d1 {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 0;
+	overflow: auto;
+}
+
+.d2 {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 0;
+	overflow: auto;
+}
+
+/*.nodatafound {
+	display: block;
+	font-size: 12px;
+	color: #000;
+	margin: 10px;
+}*/
+
+.htmldbShuttle {
+	white-space: nowrap;
+}
+
+.htmldbShuttle select {
+
+}
+
+.htmldbShuttle div {
+	width: 20px;
+	padding: 0 10px;
+}
+
+.htmldbShuttle img {
+	margin: 5px 0;
+}
+
+table.htmldbRptNoBackground th,table.htmldbRptNoBackground td {
+	font-size: 8pt;
+	padding: 1px 3px;
+}
+
+table.htmldbRptNoBackground th {
+	text-align: center;
+	color: #3F8640;
+	font-weight: bold;
+	padding: 1px 3px;
+}
+
+#htmldbDEBUG {
+	width: 800px;
+	height: 80px;
+}
+
+.pb {
+	cursor: pointer;
+}
+
+table.htmldbButtonList {
+	font-size: 11px;
+	white-space: nowrap;
+	margin: 0 0 5px 0
+}
+
+table.htmldbButtonList td {
+	padding: 2px 0;
+	white-space: nowrap;
+}
+
+table.htmldbButtonList td a {
+	background: url(../apex/builder/bg-anchor-nc.gif) repeat-x scroll 0 0;
+	vertical-align: middle;
+	padding: 1px 3px;
+	font-size: 11px;
+	text-decoration: none;
+	white-space: nowrap;
+	border: 1px solid #ccc;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+a.htmldbButtonList,a.htmldbButtonList:visited {
+	border: 1px solid #ccc;
+	background: #eee;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.htmldbButtonListCurrent:link,.htmldbButtonListCurrent:visited,#ALL:hover,a.htmldbButtonList:hover,a.htmldbButtonListCurrent:link {
+	background: url(../apex/builder/bg-anchor-c.gif) repeat-x scroll 0 0;
+	padding: 1px 3px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	color: #fff !important;
+}
+
+/*#anchorList {
+	font-size: 11px;
+	white-space: nowrap;
+	margin: 0 0 5px 0
+}
+
+#anchorList td {
+	padding: 2px 0;
+	white-space: nowrap;
+}
+
+#anchorList td a {
+	background: url(../apex/builder/bg-anchor-nc.gif) repeat-x scroll 0 0;
+	vertical-align: middle;
+	padding: 1px 3px;
+	font-size: 11px;
+	text-decoration: none;
+	white-space: nowrap;
+	border: 1px solid #ccc;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+#anchorList td a:visited {
+	border: 1px solid #ccc;
+	background: #eee;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+#anchorList td a.anchorCurrent:link,#anchorList td a.anchorCurrent:visited,#anchorList td a:hover {
+	background: url(../apex/builder/bg-anchor-c.gif) repeat-x scroll 0 0;
+	padding: 1px 3px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	color: #fff !important;
+}*/
+
+table.TopBarUIFix {
+	margin: 0 0 6px 0;
+	empty-cells: show
+}
+
+td.TopBarUIFixL {
+	white-space: nowrap;
+	border-right: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	background: #eeeeee;
+}
+
+td.TopBarUIFixC {
+	white-space: nowrap;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	background: #eeeeee url(../htmldb/builder/builder_find.png) no-repeat;
+	background-position: center;
+}
+
+td.TopBarUIFixC a {
+	display: block;
+	height: 100%;
+	width: 25px;
+	text-decoration: none;
+	cursor: help;
+}
+
+td.TopBarUIFixR {
+	border: none;
+	white-space: nowrap;
+}
+
+td.TopBarUIFixL *,td.TopBarUIFixR *,td.TopBarUIFixC * {
+	vertical-align: middle;
+}
+
+table.TopBarUIFix .GreenBar {
+
+}
+
+table.TopBarUIFix .GreenBar td.L {
+	padding: 4px;
+	background-image: url(../apex/topbar_blue_bg.png);
+	background-repeat: repeat-x;
+	white-space: nowrap;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+	border-top: #aaaaaa 1px solid;
+	border-left: #aaaaaa 1px solid;
+	border-bottom: #aaaaaa 1px solid;
+}
+
+table.TopBarUIFix .GreenBar td.C {
+	padding: 4px;
+	background-image: url(../apex/topbar_blue_bg.png);
+	background-repeat: repeat-x;
+	white-space: nowrap;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+	border-top: #aaaaaa 1px solid;
+	border-bottom: #aaaaaa 1px solid;
+}
+
+table.TopBarUIFix .GreenBar td.R {
+	padding: 4px;
+	background-image: url(../apex/topbar_blue_bg.png);
+	background-repeat: repeat-x;
+	border-top: #aaaaaa 1px solid;
+	border-right: #aaaaaa 1px solid;
+	border-bottom: #aaaaaa 1px solid;
+}
+
+hr.hr4150 {
+	border: none;
+	height: 1px;
+	background: #CCC;
+}
+
+.listwithicon {
+	list-style-type: none;
+	margin: 0 0 0 10px;
+	padding: 0;
+	display: block;
+}
+
+.listwithicon li {
+
+}
+
+.listwithicon li * {
+	vertical-align: middle;
+	font-size: 11px;
+}
+
+.listwithicon li img {
+	margin: 0 5px 0 0;
+}
+
+.listwithicon li a {
+	font-size: 12px;
+	display: block;
+	margin: 0 0 5px 0;
+	text-decoration: none;
+}
+
+.listwithicon li a:hover {
+
+}
+
+table.radiogroup td * {
+	vertical-align: middle;
+}
+
+table.itemlayout {
+
+}
+
+table.itemlayout td {
+	font-weight: bold;
+	height: 30px;
+	font-size: 12px;
+	padding: 2px;
+	border: 1px solid #DDDDDD;
+	white-space: nowrap;
+	background: #EEE;
+}
+
+#ContentArea {
+
+}
+
+.htmldbLoadingRegion {
+	width: 600px;
+	padding: 15px;
+	text-align: center;
+	font-size: 12px;
+}
+
+/*a.dhtmlSubMenuS,a.dhtmlSubMenuN {
+	font-size: 1em;
+	display: block;
+	vertical-align: middle;
+	line-height: 1.2em;
+}
+
+a.dhtmlSubMenuS *,a.dhtmlSubMenuN * {
+	vertical-align: middle;
+}
+
+a.dhtmlSubMenuS span {
+	display: block;
+	font-size: 1em;
+	float: left;
+	line-height: 24px;
+	padding-left: 2px;
+}
+
+a.dhtmlSubMenuS img {
+	display: block;
+	float: right;
+	width: 5px;
+	height: 9px;
+}*/
+
+.qbfun {
+	width: 125px;
+}
+
+.qbfun option {
+	width: 125px;
+}
+
+.vReportPlain {
+	margin: 5px 0;
+	width: 100%;
+	font-size: 12px;
+	border: 1px solid #CCCCCC;
+	border-bottom: none;
+}
+
+.vReportPlain th {
+	background: #CFDCCF;
+	white-space: nowrap;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #FFFFFF;
+	empty-cells: show;
+	font-size: 8pt;
+	padding: 3px 9px;
+}
+
+.vReportPlain td {
+	background: #EFEFEF;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #FFFFFF;
+	empty-cells: show;
+	font-size: 8pt;
+	padding: 3px 9px;
+}
+
+.pagetab {
+	font-size: 11px;
+	text-align: right;
+	padding-bottom: 5px;
+	color: #fff;
+}
+
+.pagetab a {
+	padding: 4px 8px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.3em;
+	margin-left: 5px;
+}
+
+a.page_tab_on {
+	color: #fff;
+	font-weight: bold;
+}
+
+a.page_tab_on:visited {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.page_tab_off {
+	color: #fff
+}
+
+a.page_tab_off:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+a.page_tab_off:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a.help_link {
+	color: #fff;
+	margin: 2px 8px 0 0;
+	cursor: help;
+	font-size: 11px;
+}
+
+.textarea_holder .formlayout,.textarea_holder {
+	width: 100%;
+}
+
+.textarea_holder .formlayout textarea,.textarea_holder textarea {
+	width: 100%;
+}
+
+/* Websheets */
+
+table.wsxWizard {
+	border: 1px #aaa solid;
+	width: 560px;
+	margin: 0 0 20px 0;
+}
+
+table.wsxWizard thead th {
+	height: 44px;
+	background: #ffffff;
+	background-image: url(../ws/wizbg.gif);
+	font-size: 12px;
+	padding: 3px;
+	color: #666;
+}
+
+table.wsxWizard thead th.H1 {
+	color: #ffffff;
+	padding: 0 0 12px 10px;
+	text-align: left;
+}
+
+table.wsxWizard thead th.H2 {
+	color: #ffffff;
+	padding: 0 0 12px 10px;
+	text-align: right;
+}
+
+table.wsxWizard td.B {
+	padding: 8px;
+	background: #eee;
+	font-size: 12px;
+}
+
+table.wsxWizard table {
+	font-size: 12px;
+}
+
+table.wsxWizard p {
+	font-size: 12px;
+}
+
+.apex-ws-annotations {
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 4px;
+}
+
+.apex-ws-annotations-header {
+	font-weight: bold;
+}
+
+.apex-ws-annotations-header span {
+	padding: 4px;
+}
+
+.apex-ws-annotations ul {
+	padding: 10px 0 0 4px;
+}
+
+.apex-ws-annotations li {
+	font-size: 14px;
+}
+
+.apex-ws-annotations li a {
+	padding: 4px;
+	font-size: 14px;
+}
+
+.apex-ws-annotations div.sticky-note {
+	float: left;
+	width: 200px;
+	height: 200px;
+	background: url(../ws/sticky.png) no-repeat 0 0;
+	padding: 10px;
+}
+
+.apex-ws-annotations div.sticky-note div.delete {
+	float: right;
+	padding: 0px 20px 0 0;
+}
+
+.apex-ws-annotations div.sticky-note div.header {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0 15px 40px;
+}
+
+.apex-ws-annotations div.body {
+	width: 180px;
+	height: 136px;
+	font-size: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.apex-ws-annotations div.body a {
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.apex-ws-annotations div.body a:hover {
+	text-decoration: underline;
+}
+
+.apex-ws-annotations div.h3 {
+	font-weight: bold;
+}
+
+.sidebar-tasks div.sticky-note {
+	float: left;
+	width: 180px;
+	height: 180px;
+	background: url(../ws/sticky-180px.png) no-repeat 0 0;
+	margin: 5px;
+}
+
+.sidebar-tasks div.sticky-note div.delete {
+	float: right;
+	padding: 10px 15px 0 0;
+}
+
+.sidebar-tasks div.sticky-note div.header {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 0 15px 40px;
+}
+
+.sidebar-tasks div.body {
+	width: 180px;
+	height: 136px;
+	font-size: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0 0 0 10px;
+}
+
+li.htmldb4150,li.htmldb4150 a {
+	white-space: nowrap;
+	font-size: 11px !important;
+}
+
+.apex-news {
+	float: left;
+	width: 600px;
+	clear: both;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin: 4px 0 4px 0;
+	padding: 4px;
+	background: #f8f8f8 url(../apex/builder/bg-announcements.gif) repeat-x scroll 0 100%;
+}
+
+.apex-news .apex-news-text {
+	width: 100%;
+	float: left;
+	padding: 0 0 4px 0;
+}
+
+.apex-news .apex-news-created-by {
+	font-size: 11px;
+	float: left;
+}
+
+.apex-news .apex-news-created-on {
+	font-size: 11px;
+	float: right;
+}
+
+#RenderingTree li a ins {
+	display: none !important;
+}
+
+#RenderingTree ul li[rel=page] > a ins {
+	display: inline-block !important;
+}
+
+#RenderingTree ul li[rel=branches] > a ins {
+	display: inline-block !important;
+}
+
+#RenderingTree ul li[rel=computations] > a ins {
+	display: inline-block !important;
+}
+
+#RenderingTree ul li[rel=processes] > a ins {
+	display: inline-block !important;
+}
+
+#RenderingTree_after_header ul li[rel=regions] > a ins {
+	display: inline-block !important;
+}
+
+#RenderingTree_before_footer ul li[rel=regions] > a ins {
+	display: inline-block !important;
+}
+
+#RenderingTree ul li[rel=region] > a ins {
+	display: inline-block !important;
+}
+
+#RenderingTree ul li[rel=page_item] > a ins {
+	display: inline-block !important;
+}
+
+#RenderingTree ul li[rel=page_item_button] > a ins {
+	display: inline-block !important;
+}
+
+#RenderingTree ul li[rel=region_button] > a ins {
+	display: inline-block !important;
+}
+
+#RenderingTree ul li[rel=classic_report_column] > a ins {
+	display: inline-block !important;
+}
+
+#RenderingTree ul li[rel=tabform_column] > a ins {
+	display: inline-block !important;
+}
+
+#DynamicActionTree li a ins {
+    display: none !important;
+}
+
+#ProcessingTree li a ins {
+	display: none !important;
+}
+
+#ProcessingTree ul li[rel=processes] > a ins {
+	display: inline-block !important;
+}
+
+#ProcessingTree ul li[rel=computations] > a ins {
+	display: inline-block !important;
+}
+
+#ProcessingTree ul li[rel=validations] > a ins {
+	display: inline-block !important;
+}
+
+#ProcessingTree ul li[rel=branches] > a ins {
+	display: inline-block !important;
+}
+
+#SharedTree li a ins {
+	display: none !important;
+}
+
+#SharedTree ul li[rel=tabs] > a ins {
+	display: inline-block !important;
+}
+
+#SharedTree ul li[rel=lovs] > a ins {
+	display: inline-block !important;
+}
+
+#SharedTree ul li[rel=breadcrumbs] > a ins {
+	display: inline-block !important;
+}
+
+#SharedTree ul li[rel=lists] > a ins {
+	display: inline-block !important;
+}
+
+#SharedTree ul li[rel=templates] > a ins {
+	display: inline-block !important;
+}
+
+#SharedTree ul li[rel=securities] > a ins {
+	display: inline-block !important;
+}
+
+.tree-classic li a.clicked.less_important {
+	color: white
+}
+
+.tree-classic li a.less_important {
+	color: #555
+}
+
+.tree-classic li a.marked {
+	font-style: italic
+}
+
+#jstree-contextmenu {
+	-moz-box-shadow: 2px 2px 6px #888;
+	-webkit-box-shadow: 2px 2px 6px #888;
+	box-shadow: 2px 2px 6px #888
+}
+
+#ProcessingTree_ajax_callbacks a ins {
+	display: none !important;
+}
+
+fieldset.hierarchical_checkbox > ul {
+	margin: 0;
+}
+
+fieldset.hierarchical_checkbox li {
+	list-style-type: none;
+}
+
+/* Edit Link for Data Grids */
+
+a.edit-link-pencil {
+	background: url(../icon_pencil_pixel.gif) 100% 0 no-repeat;
+	font: normal 14px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding: 0 8px;
+}
+
+a.edit-link-pencil:hover {
+	background: url(../icon_pencil_pixel.gif) 100% -30px no-repeat;
+}
+
+/* Stickies in Websheets */
+
+div.ws-sticky {
+	border: 1px solid #b8a459;
+	background: #fdf99c;
+	padding: 0;
+	margin: 0 4px 8px 0;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+div.ws-sticky strong {
+	font: bold 12px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding: 4px;
+}
+
+div.ws-sticky a img {
+	border: none;
+	padding: 4px;
+	float: right;
+}
+
+div.ws-sticky small {
+	padding: 4px;
+	font: normal 12px/12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: #dac76c;
+	display: block;
+}
+
+div.ws-sticky small span.ws-sticky-time {
+	font: normal 11px/12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #5d501e;
+}
+
+div.ws-sticky small a.ws-sticky-edit {
+	color: #5d501e;
+	font: normal 11px/12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	float: right;
+}
+
+div.ws-sticky p {
+	margin: 0;
+	padding: 0 4px 4px 4px;
+	font: normal 12px/16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* -------------------- [EBA] Simple Report Template --------------- */
+
+table.ebaStandardReport {
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 1px solid #DDD;
+	border-bottom: none;
+}
+
+table.ebaStandardReport thead th {
+	padding: 7px 10px;
+	font: bold 11px/16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #E9E9E9;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#EEE), to(#FFF));
+	background: -moz-linear-gradient(top, #EEE, #FFF);
+	text-shadow: 0 1px 0 rgba(255,255,255,.75);
+	border-bottom: 1px solid #EEE;
+	text-align: left;
+}
+
+table.ebaStandardReport tbody td {
+	background: #FFF;
+	padding: 8px 10px;
+	text-align: left;
+	color: #333;
+}
+
+table.ebaStandardReport tbody td a {
+	color: #333;
+	text-decoration: underline;
+}
+
+table.ebaStandardReport tbody tr td {
+	padding-bottom: 8px;
+	border-bottom: 1px solid #EEE;
+}
+
+/* OVERRIDING BUTTON STYLES -- SHAKEEB */
+
+/* REQUIRED BUTTON STYLES: */
+
+button.button-small-gray-blue-bg,
+button.button-small-gray-gray-bg,
+button.button-small-gray-white-bg,
+button.button-small-gray,
+button.button-small-orange-blue-bg,
+button.button-small-orange-gray-bg,
+button.button-small-orange-white-bg,
+button.button-small-orange {
+	position: relative;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	overflow: visible;
+/* remo
+
+ves extra side padding in IE */
+}
+
+button.button-small-gray-blue-bg::-moz-focus-inner,
+button.button-small-gray-gray-bg::-moz-focus-inner,
+button.button-small-gray-white-bg::-moz-focus-inner,
+button.button-small-gray::-moz-focus-inner,
+button.button-small-orange-blue-bg::-moz-focus-inner,
+button.button-small-orange-gray-bg::-moz-focus-inner,
+button.button-small-orange-white-bg::-moz-focus-inner,
+button.button-small-orange::-moz-focus-inner {
+	border: none;
+	/*
+
+overrides extra padding in Firefox */
+  padding: 1px 0 0 0;
+}
+
+button.button-small-gray-blue-bg span,
+button.button-small-gray-gray-bg span,
+button.button-small-gray-white-bg span,
+button.button-small-gray span,
+button.button-small-orange-blue-bg span,
+button.button-small-orange-gray-bg span,
+button.button-small-orange-white-bg span,
+button.button-small-orange span {
+	position: relative;
+	display: block;
+	white-space: nowrap;
+}
+
+button.button-small-gray-blue-bg,
+button.button-small-gray-gray-bg,
+button.button-small-gray-white-bg,
+button.button-small-gray,
+button.button-small-orange-blue-bg,
+button.button-small-orange-gray-bg,
+button.button-small-orange-white-bg,
+button.button-small-orange {
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-ms-border-radius: 20px;
+	border-radius: 20px;
+	height: 20px;
+	color: #4F4F4F;
+	border: 1px solid #78787a;
+	margin: 0 2px 0 3px;
+	padding: 0;
+	text-decoration: none;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+	-webkit-background-clip: content-box;
+}
+
+button.button-small-gray-blue-bg span,
+button.button-small-gray-gray-bg span,
+button.button-small-gray-white-bg span,
+button.button-small-gray span,
+button.button-small-orange-blue-bg span,
+button.button-small-orange-gray-bg span,
+button.button-small-orange-white-bg span,
+button.button-small-orange span {
+	font: normal 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	height: 20px;
+	display: block;
+	position: relative;
+	white-space: nowrap;
+	padding: 0 15px;
+	margin-top: -2px;
+}
+
+button.button-small-orange-blue-bg,
+button.button-small-orange-gray-bg,
+button.button-small-orange-white-bg,
+button.button-small-orange {
+	background-color: #fedc6a;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff9ae), color-stop(100%, #febf27));
+	background-image: -webkit-linear-gradient(top, #fff9ae, #febf27);
+	background-image: -moz-linear-gradient(top, #fff9ae, #febf27);
+	background-image: linear-gradient(top, #fff9ae, #febf27);
+}
+
+button.button-small-orange-blue-bg:hover,
+button.button-small-orange-gray-bg:hover,
+button.button-small-orange-white-bg:hover,
+button.button-small-orange:hover {
+	background-color: #f7c748;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fcf171), color-stop(100%, #f39e1f));
+	background-image: -webkit-linear-gradient(top, #fcf171, #f39e1f);
+	background-image: -moz-linear-gradient(top, #fcf171, #f39e1f);
+	background-image: linear-gradient(top, #fcf171, #f39e1f);
+}
+
+button.button-small-orange-blue-bg:active,
+button.button-small-orange-gray-bg:active,
+button.button-small-orange-white-bg:active,
+button.button-small-orange:active {
+	background-color: #f7c748;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f39e1f), color-stop(100%, #fcf171));
+	background-image: -webkit-linear-gradient(top, #f39e1f, #fcf171);
+	background-image: -moz-linear-gradient(top, #f39e1f, #fcf171);
+	background-image: linear-gradient(top, #f39e1f, #fcf171);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+}
+
+button.button-small-gray-blue-bg,
+button.button-small-gray-gray-bg,
+button.button-small-gray-white-bg,
+button.button-small-gray {
+	background-color: #e9e9ea;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #d3d4d6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #d3d4d6);
+	background-image: -moz-linear-gradient(top, #ffffff, #d3d4d6);
+	background-image: linear-gradient(top, #ffffff, #d3d4d6);
+}
+
+button.button-small-gray-blue-bg:hover,
+button.button-small-gray-gray-bg:hover,
+button.button-small-gray-white-bg:hover,
+button.button-small-gray:hover {
+	background-color: #e1e1e1;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #cacaca));
+	background-image: -webkit-linear-gradient(top, #f8f8f8, #cacaca);
+	background-image: -moz-linear-gradient(top, #f8f8f8, #cacaca);
+	background-image: linear-gradient(top, #f8f8f8, #cacaca);
+}
+
+button.button-small-gray-blue-bg:active,
+button.button-small-gray-gray-bg:active,
+button.button-small-gray-white-bg:active,
+button.button-small-gray:active {
+	background-color: #e1e1e1;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cacaca), color-stop(100%, #f8f8f8));
+	background-image: -webkit-linear-gradient(top, #cacaca, #f8f8f8);
+	background-image: -moz-linear-gradient(top, #cacaca, #f8f8f8);
+	background-image: linear-gradient(top, #cacaca, #f8f8f8);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+}
+
+/* Button Styles for Modern Browsers */
+
+a.button-gray,
+a.button-orange {
+  display: inline-block;
+  font: bold 14px/28px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #777;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background: none #888;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+a.button-gray {
+  border: 1px solid #999;
+}
+
+a.button-orange {
+  border: 1px solid #777;
+}
+
+a.button-gray span,
+a.button-orange span {
+  -webkit-transition: all 0.25s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.25s;
+  -webkit-transition-timing-function: initial;
+  -webkit-transition-delay: initial;
+  -moz-transition: all 0.25s;
+  transition: all 0.25s;
+  text-align: center;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: block;
+}
+
+a.disabled-button {
+  opacity: 0.5;
+  filter: alpha(opacity = 50);
+  zoom: 1;
+}
+
+
+a.large-button-gray,
+a.large-button-orange {
+	display: inline-block;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	height: 30px;
+	color: #4F4F4F;
+	border: 1px solid #78787a;
+	text-decoration: none;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+	-webkit-background-clip: content-box;
+	white-space: nowrap;
+}
+
+a.large-button-gray span,
+a.large-button-orange span {
+	padding: 0 15px;
+	font: bold 14px/30px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	display: inline-block;
+	height: 30px;
+}
+
+a.button-gray,
+a.large-button-gray {
+  color: #404040;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  padding: 0 16px;
+  background-color: #C0C0C0;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#f0f0f0', endColorstr='#d0d0d0');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#d0d0d0')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #F0F0F0), color-stop(100%, #C0C0C0));
+  background-image: -webkit-linear-gradient(#F0F0F0,#C0C0C0);
+  background-image: -moz-linear-gradient(#F0F0F0,#C0C0C0);
+  background-image: linear-gradient(#F0F0F0,#C0C0C0);
+  -webkit-box-shadow: 0 1px 0 #fff inset;
+  -moz-box-shadow: 0 1px 0 #fff inset;
+  box-shadow: 0 1px 0 #fff inset;
+}
+
+a.button-gray:hover,
+a.large-button-gray:hover {
+	background-color: #d0d0d0;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #d0d0d0));
+	background-image: -webkit-linear-gradient(top, #ffffff, #d0d0d0);
+	background-image: -moz-linear-gradient(top, #ffffff, #d0d0d0);
+	background-image: linear-gradient(top, #ffffff, #d0d0d0);
+}
+
+a.button-gray:active,
+a.large-button-gray:active {
+	background-color: #f8f8f8;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cacaca), color-stop(100%, #f8f8f8));
+	background-image: -webkit-linear-gradient(top, #cacaca, #f8f8f8);
+	background-image: -moz-linear-gradient(top, #cacaca, #f8f8f8);
+	background-image: linear-gradient(top, #cacaca, #f8f8f8);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.15) inset;
+}
+
+a.button-orange,
+a.large-button-orange {
+  color: #404040;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  padding: 0 16px;
+  background-color: #4277BD;
+  background-color: #285B9C;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#6096D9', endColorstr='#285B9C');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#6096D9', endColorstr='#285B9C')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6096D9), color-stop(100%, #285B9C));
+  background-image: -webkit-linear-gradient(#6096D9,#285B9C);
+  background-image: -moz-linear-gradient(#6096D9,#285B9C);
+  background-image: linear-gradient(#6096D9,#285B9C);
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset;
+}
+
+a.button-orange:hover,
+a.large-button-orange:hover {
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#a6c9f4', endColorstr='#4073b0');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6c9f4', endColorstr='#4073b0')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a6c9f4), color-stop(100%, #4073b0));
+  background-image: -webkit-linear-gradient(#a6c9f4,#4073b0);
+  background-image: -moz-linear-gradient(#a6c9f4,#4073b0);
+  background-image: linear-gradient(#a6c9f4,#4073b0);
+}
+
+a.button-orange:active,
+a.large-button-orange:active {
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#4073b0', endColorstr='#a6c9f4');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#4073b0', endColorstr='#a6c9f4')";
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4073b0), color-stop(100%, #a6c9f4));
+  background-image: -webkit-linear-gradient(#4073b0,#a6c9f4);
+  background-image: -moz-linear-gradient(#4073b0,#a6c9f4);
+  background-image: linear-gradient(#4073b0,#a6c9f4);
+}
+
+
+/* APEX 4.1 Select Workspaces List */
+
+ul.workspacesList {
+	padding: 0;
+	margin: 0 0 0 10px;
+	list-style: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border-top: 1px solid #CCC;
+	background-color: #FFF;
+}
+
+ul.workspacesList li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #CCC;
+	border-top: none;
+	min-height: 68px;
+	clear: both;
+}
+
+ul.workspacesList li a.workspaceImage {
+	display: block;
+	width: 48px;
+	height: 48px;
+	padding: 10px;
+	float: left;
+	position: relative;
+}
+
+ul.workspacesList li a.workspaceImage img {
+	display: block;
+	padding: 8px;
+	max-height: 32px;
+	max-width: 32px;
+	overflow: hidden;
+}
+
+ul.workspacesList li a.workspaceInfo {
+	display: block;
+	float: left;
+	width: 424px;
+	color: #333;
+	text-decoration: none;
+	padding: 10px 0;
+}
+
+ul.workspacesList li a.workspaceInfo h2 {
+	margin: 8px 0 0 0;
+	padding: 0;
+	font: bold 14px/16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul.workspacesList li a.workspaceInfo h2 span {
+	color: #555;
+}
+
+ul.workspacesList li a.workspaceInfo h3 {
+	margin: 0 0 12px 0;
+	font: normal 11px/12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #555;
+}
+
+ul.workspacesList li a.workspaceInfo h3 span.workspaceDescription {
+	font: normal 11px/12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	display: block;
+	margin-top: 5px;
+}
+
+ul.workspacesList li:hover {
+	background-color: #F0F0F0;
+}
+
+ul.workspacesList li:first-child {
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+
+ul.workspacesList li:last-child {
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
+div.workspaceIntro h2 {
+	margin: 10px 0 5px 0;
+	font: bold 16px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+}
+
+div.workspaceIntro p {
+	margin: 0 0 15px 0;
+	font: normal 12px/16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+}
+
+div.clear {
+	clear: both;
+}
+
+/* Styles for new Region with Title and Buttons above gradient */
+
+.title-buttons-top-region {
+	clear: left;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.title-buttons-top-region h2 {
+	margin: 0;
+	font: bold 14px/24px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-indent: 1px;
+	color: #333;
+}
+
+.title-buttons-top-region .title-buttons-container {
+	position: absolute;
+	top: 0;
+	right: 14px;
+}
+
+.title-buttons-top-region .rounded-corner-region {
+	margin-top: 1px;
+	float: none;
+	display: block;
+}
+
+/* Styles for Database Services Tree (4850:10)*/
+
+ul.databaseServicesTree {
+	list-style: none;
+	margin: 8px !important;
+	padding: 0;
+}
+
+ul.databaseServicesTree li.method a {
+	background: url(../apex_ui/img/legacy/database_services_sprite.png) 6px -44px no-repeat;
+/*	margin-left: 20px;*/
+}
+
+ul.databaseServicesTree li.parameter a {
+	background: url(../apex_ui/img/legacy/database_services_sprite.png) 6px 6px no-repeat;
+/*	margin-left: 40px;*/
+}
+
+ul.databaseServicesTree li {
+	margin: 0;
+}
+ul.databaseServicesTree li ul {
+	margin: 0;
+	list-style: none;
+}
+
+ul.databaseServicesTree li.active > a {
+	background-color: #F0F4FA !important;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+/*	background-position: 4px -96px;*/
+/*	padding: 4px;*/
+	font-weight: bold;
+}
+
+ul.databaseServicesTree li a:hover {
+	background-color: #F8F8F8 !important;
+	color: #333;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+ul.databaseServicesTree li.parameter,
+ul.databaseServicesTree li.method {
+	margin-left: 20px;
+}
+
+ul.databaseServicesTree li.createLink a {
+	background: url(../apex_ui/img/legacy/database_services_sprite.png) 6px -144px no-repeat;
+}
+
+ul.databaseServicesTree li.createLink a {
+	text-decoration: none !important;
+	color: #666;
+}
+ul.databaseServicesTree li.createLink.active a {
+	color: #333;
+}
+
+ul.databaseServicesTree li.createLink a:hover {
+	color: #333;
+}
+
+ul.databaseServicesTree li a {
+	color: #333;
+	text-decoration: underline !important;
+	display: block;
+	font: normal 12px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding: 4px 4px 4px 26px;
+	background: url(../apex_ui/img/legacy/database_services_sprite.png) 6px -94px no-repeat;
+}
+
+/* APEX Builder Homepage Language Selector */
+
+#builder_home_lang_selector ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#builder_home_lang_selector ul li {
+	display: inline;
+	padding-right: 5px;
+}
+
+/* Page Events in last time frame */
+
+div.page-events-info {
+    float: left;
+	font: normal 11px/16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+}
+
+div.page-events-info a {
+	font: normal 11px/16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}
+
+/* Alert Region */
+div.apex-41-alert-region {
+  width: 720px;
+  margin: 80px auto 0 auto;
+}
+
+
+/* Adding styles for apex wait dialog */
+div.apex_wait_popup{-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:2px solid rgba(0,0,0,0.25);-moz-box-shadow:0 1px 10px rgba(0,0,0,0.15);-webkit-box-shadow:0 1px 10px rgba(0,0,0,0.15);box-shadow:0 1px 10px rgba(0,0,0,0.15)}
+div.modalProgress{margin:20px}
+div.modalProgress p{font:normal 14px/20px Arial,sans-serif;color:#666}

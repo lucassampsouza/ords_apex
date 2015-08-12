@@ -1,0 +1,246 @@
+/* ==========================================================================
+   Code Editor
+   ========================================================================== */
+/* line 9, ../../scss/core/CodeEditor.scss */
+.a-Form-fieldContainer .a-CodeEditor {
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+}
+
+/* line 14, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor .CodeMirror {
+  border: none;
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  border-radius: 0;
+  box-shadow: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Consolas', 'Menlo', monospace;
+}
+/* line 25, ../../scss/core/CodeEditor.scss */
+body .ui-widget .a-CodeEditor textarea {
+  width: 100%;
+  font-family: 'Consolas', 'Menlo', monospace;
+  font-size: 12px;
+  line-height: 16px;
+  color: #404040;
+  padding: 4px;
+  border-style: solid;
+  border-color: #E0E0E0;
+  border-width: 1px 0 0 0;
+}
+
+/* line 37, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-toolbar {
+  background-color: #FAFAFA;
+  padding: 4px;
+  transition: opacity .1s;
+  opacity: .25;
+}
+/* line 42, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-toolbar .a-Button {
+  box-shadow: 0 0 0 1px transparent inset;
+  transition: background-color .1s, box-shadow .1s;
+}
+
+/* line 50, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor.is-active .a-CodeEditor-toolbar,
+.a-CodeEditor:hover .a-CodeEditor-toolbar {
+  opacity: 1;
+}
+
+/* line 57, ../../scss/core/CodeEditor.scss */
+#editorDlg {
+  overflow: hidden;
+}
+
+/* line 71, ../../scss/core/CodeEditor.scss */
+.CodeMirror-linenumber {
+  color: #707070;
+}
+
+/* line 74, ../../scss/core/CodeEditor.scss */
+.CodeMirror-gutters {
+  box-shadow: -2px 0 2px -1px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* line 78, ../../scss/core/CodeEditor.scss */
+.CodeMirror-hints {
+  z-index: 2000 !important;
+}
+
+/* line 81, ../../scss/core/CodeEditor.scss */
+body .CodeMirror-hint {
+  font-size: 11px;
+  line-height: 14px;
+  padding: 2px 8px;
+  font-family: 'Consolas', 'Menlo', monospace;
+  text-overflow: ellipsis;
+  max-width: 400px;
+}
+
+/* line 89, ../../scss/core/CodeEditor.scss */
+body .CodeMirror-hint-active {
+  background: #2D7BBB;
+  color: white;
+}
+
+/* line 94, ../../scss/core/CodeEditor.scss */
+.CodeMirror-linewidget .is-error,
+.CodeMirror-linewidget .is-warning {
+  font-size: 11px;
+  line-height: 14px;
+  padding: 4px 8px;
+  border-radius: 2px;
+  margin-left: 4px;
+}
+
+/* line 103, ../../scss/core/CodeEditor.scss */
+.CodeMirror-linewidget .is-error {
+  background-color: #fff4f4;
+  color: #f22f2f;
+}
+
+/* line 107, ../../scss/core/CodeEditor.scss */
+.CodeMirror-linewidget .is-warning {
+  background: #FFEDAA;
+  color: #404040;
+}
+
+/* line 112, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-searchBar,
+.a-CodeEditor-notification {
+  background-color: #F4F4F4;
+  border-top: 1px solid #E8E8E8;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 119, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-searchBar {
+  padding: 8px;
+  min-height: 40px;
+}
+
+/* line 123, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-searchBar-label {
+  margin-right: 4px;
+  min-width: 72px;
+}
+
+/* line 127, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-searchBar-textInput {
+  margin-right: 8px;
+}
+
+/* line 130, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-message {
+  padding: 0;
+  line-height: 16px;
+  max-height: 64px;
+  overflow: auto;
+  margin-right: 40px;
+}
+/* line 136, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-message ul {
+  margin: 0;
+  padding: 6px 0;
+  list-style: none;
+}
+/* line 141, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-message li {
+  line-height: 16px;
+  padding: 4px 8px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+  border-radius: 2px;
+  margin: 2px 8px;
+}
+/* line 147, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-message li.is-error {
+  background-color: #fff4f4;
+  color: #f22f2f;
+}
+/* line 151, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-message li.is-success {
+  background: #D5EFCD;
+  color: #404040;
+}
+/* line 155, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-message li.is-warning {
+  background: #FFEDAA;
+  color: #404040;
+}
+
+/* line 161, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-searchBar-closeButton {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+/* line 167, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-searchBar-checkboxGroup {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 24px;
+  margin: 0 8px;
+}
+/* line 172, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-searchBar-checkboxGroup input[type=checkbox] {
+  margin-right: 4px;
+}
+
+/* line 177, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor-replace {
+  margin-top: 4px;
+}
+
+/* Resize Bar
+   ========================================================================== */
+/* line 183, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor--resizeHelper {
+  box-shadow: 0 -5px 0 0 rgba(0, 0, 0, 0.15) inset;
+}
+
+/* line 188, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor--resizeWrapper .ui-resizable-handle.ui-resizable-s {
+  height: 5px;
+  bottom: -6px;
+  cursor: row-resize;
+  transition: all .1s;
+}
+/* line 193, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor--resizeWrapper .ui-resizable-handle.ui-resizable-s:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+/* line 198, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor--resizeWrapper .ui-resizable-handle.ui-resizable-s:active {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+/* line 202, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor--resizeWrapper .ui-resizable-handle.ui-resizable-s:before, .a-CodeEditor--resizeWrapper .ui-resizable-handle.ui-resizable-s:after {
+  position: absolute;
+  content: '';
+  left: 50%;
+}
+/* line 208, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor--resizeWrapper .ui-resizable-handle.ui-resizable-s:before {
+  top: 0;
+  height: 6px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top-color: transparent;
+  border-radius: 0 0 2px 2px;
+  margin-left: -16px;
+  width: 32px;
+}
+/* line 218, ../../scss/core/CodeEditor.scss */
+.a-CodeEditor--resizeWrapper .ui-resizable-handle.ui-resizable-s:after {
+  top: 2px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-left: -12px;
+  width: 24px;
+}

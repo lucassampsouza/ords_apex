@@ -1,0 +1,313 @@
+/**
+ * Import Compass
+ */
+/* ==========================================================================
+   Login Page + Region
+   ========================================================================== */
+.t-Login-page {
+  margin-top: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+@-webkit-keyframes loginFade {
+  from {
+    -webkit-transform: translateY(48px) scale(0.75);
+    opacity: 0; }
+
+  to {
+    -webkit-transform: translateY(0) scale(1);
+    opacity: 1; } }
+
+@keyframes loginFade {
+  from {
+    -webkit-transform: translateY(48px) scale(0.75);
+    transform: translateY(48px) scale(0.75);
+    opacity: 0; }
+
+  to {
+    -webkit-transform: translateY(0) scale(1);
+    transform: translateY(0) scale(1);
+    opacity: 1; } }
+
+@-webkit-keyframes shake {
+  8%, 41% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px); }
+
+  25%, 58% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+
+  75% {
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px); }
+
+  92% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); }
+
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+
+@keyframes shake {
+  8%, 41% {
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px); }
+
+  25%, 58% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+
+  75% {
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px); }
+
+  92% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); }
+
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+
+.t-Login-container {
+  position: relative;
+  z-index: 100;
+  max-width: 460px;
+  margin: 0 auto;
+  -webkit-animation: loginFade ease-in-out 1;
+  animation: loginFade ease-in-out 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.2s;
+  animation-duration: 0.2s; }
+
+.t-Login-container > .container, .t-Login-container > .container > .row {
+  overflow: visible; }
+
+.t-Login-region {
+  border-radius: 2px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 16px 48px 0 rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  padding: 36px; }
+
+.t-PageBody--login .t-Body-alert .t-Alert--warning {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  -webkit-animation: loginFade ease-in-out 1;
+  animation: loginFade ease-in-out 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.2s;
+  animation-duration: 0.2s; }
+
+.t-PageBody--login .t-Body-alert {
+  max-width: 460px;
+  margin: 12px auto; }
+  @media only screen and (max-width: 480px) {
+    .t-PageBody--login .t-Body-alert {
+      width: auto; } }
+
+.t-Login-header {
+  padding: 24px 0; }
+
+.t-Login-title, .t-Login-subTitle, .t-Login-text {
+  font-weight: normal;
+  line-height: 1;
+  text-align: center; }
+
+.t-Login-title {
+  font-size: 24px;
+  font-weight: 200;
+  margin: 16px 0; }
+
+.t-Login-subTitle {
+  font-weight: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0 0 16px 0; }
+  .t-Login-subTitle .t-Icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    box-shadow: 0 0 0 1px #A0A0A0 inset; }
+    .t-Login-subTitle .t-Icon:before {
+      font-size: 32px; }
+
+.t-Login-text {
+  font-weight: 300;
+  margin: 0 0 16px 0;
+  font-size: 14px; }
+
+.t-Login-text--large {
+  font-size: 16px;
+  line-height: 20px; }
+
+.t-Login-logo {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px; }
+  .t-Login-logo.fa {
+    font-size: 42px;
+    line-height: 64px;
+    text-align: center; }
+
+.t-Login-body .t-Form-inputContainer:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: "apex-5-icon-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  z-index: 10;
+  font-size: 32px;
+  margin: 8px;
+  pointer-events: none; }
+
+.t-Login-body .icon-login-workspace .t-Form-inputContainer:before {
+  content: "\e0f6"; }
+.t-Login-body .icon-login-username .t-Form-inputContainer:before {
+  content: "\e0f5"; }
+.t-Login-body .icon-login-email .t-Form-inputContainer:before {
+  content: "\e03a"; }
+.t-Login-body .icon-login-password .t-Form-inputContainer:before {
+  content: "\e08f"; }
+.t-Login-body .t-Form-inputContainer {
+  padding-bottom: 16px;
+  position: relative; }
+.t-Login-body small {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  display: block; }
+.t-Login-body p {
+  margin-top: 0;
+  margin-bottom: 1, 2rem; }
+  .t-Login-body p + p {
+    margin-bottom: 2.4rem; }
+
+.t-Login-region .t-Login-body input[type=text], .t-Login-region .t-Login-body input.password {
+  font-size: 18px;
+  padding: 11px 48px;
+  height: 48px;
+  line-height: 24px;
+  -webkit-font-smoothing: antialiased; }
+  .t-Login-region .t-Login-body input[type=text]:required:valid ~ .t-Login-iconValidation, .t-Login-region .t-Login-body input.password:required:valid ~ .t-Login-iconValidation {
+    opacity: 1; }
+  .t-Login-region .t-Login-body input[type=text]::-webkit-input-placeholder, .t-Login-region .t-Login-body input.password::-webkit-input-placeholder {
+    text-transform: lowercase;
+    font-weight: 300; }
+  .t-Login-region .t-Login-body input[type=text]::-moz-placeholder, .t-Login-region .t-Login-body input.password::-moz-placeholder {
+    text-transform: lowercase;
+    font-weight: 300; }
+  .t-Login-region .t-Login-body input[type=text]:-ms-input-placeholder, .t-Login-region .t-Login-body input.password:-ms-input-placeholder {
+    text-transform: lowercase;
+    font-weight: 300; }
+
+.t-Login-inputIcon, .t-Login-iconLabel {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin: 8px;
+  overflow: hidden; }
+  .t-Login-inputIcon:before, .t-Login-iconLabel:before {
+    font-size: 32px; }
+
+.t-Login-iconValidation {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 12px;
+  background: #53D769;
+  border-radius: 100%;
+  padding: 4px;
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+  transition: opacity 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 0; }
+
+.t-Login-region .t-Form-labelContainer--hiddenLabel {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.t-Login-region .t-Form-inputContainer, .t-Login-region .t-Form-labelContainer {
+  padding: 0 0 2.4rem 0; }
+
+.t-Login-buttons {
+  padding: 0; }
+  .t-Login-buttons .t-Button {
+    display: block;
+    width: 100%; }
+  .t-Login-buttons .t-Button + .t-Button {
+    margin-top: 8px; }
+  .t-Login-buttons .t-Button {
+    padding: 16px 24px;
+    font-size: 16px;
+    line-height: 16px; }
+  .t-Login-buttons .t-Button--hot {
+    font-weight: bold; }
+  .t-Login-buttons .t-Button + .t-Button {
+    margin-left: 0; }
+
+@media only screen and (max-width: 480px) {
+  .t-PageBody--login .t-Body {
+    display: block; }
+  .t-PageBody--login .t-Body-wrap {
+    margin: 0; }
+
+  .t-Login-Container {
+    -webkit-animation: none;
+    animation: none; }
+
+  .t-Login-region {
+    box-shadow: none;
+    padding: 16px; }
+
+  .t-PageBody--login .t-Body-alert {
+    box-shadow: none;
+    margin: 0; }
+    .t-PageBody--login .t-Body-alert .t-Alert-content {
+      padding: 16px 8px; }
+ }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .t-PageBody--login .t-Body {
+    width: 100%; }
+  .t-PageBody--login .t-Body-wrap {
+    margin: 0;
+    display: block; }
+ }
+
+body .t-Login-body input.apex-page-item-error {
+  -webkit-animation: shake 0.5s 0.5s linear;
+  animation: shake 0.5s 0.5s linear; }

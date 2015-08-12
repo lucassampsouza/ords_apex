@@ -1,0 +1,117 @@
+<map_data>
+ <name>cuba</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-84.9533386230469" top="23.2041664123535" right="-74.1308441162109" bottom="19.8219413757324"/>
+ <regions>
+  <region>
+   <centroid lat="22.3919410705566" lon="-83.8883361816406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-PDR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pinar del Rio]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.8859195709229" lon="-82.2711181640625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-LHB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Habana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.6219425201416" lon="-81.3254318237305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-MTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Matanzas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.6877765655518" lon="-82.2797317504883"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-IDL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Isla de la Juventud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.4744434356689" lon="-77.9559555053711"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-CMG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Camaguey]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.6981925964355" lon="-78.7605667114258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-CDA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ciego de Avila]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.2060623168945" lon="-80.4782562255859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-CNF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cienfuegos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.2958316802979" lon="-76.9611206054688"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-GRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Granma]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.2147006988525" lon="-74.8107070922852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-GNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guantanamo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.0658302307129" lon="-82.3155975341797"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-CHB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ciudad de la Habana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.8260364532471" lon="-75.7210693359375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-HLG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Holguin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.0672168731689" lon="-77.0732879638672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-LTU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Las Tunas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.1048583984375" lon="-79.5159683227539"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-SSP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sancti Spiritus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.2259712219238" lon="-76.2047119140625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-SDC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santiago de Cuba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.5287494659424" lon="-80.0372314453125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CUB-VCL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Villa Clara]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,95 @@
+<map_data>
+ <name>south_atlantic</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="STATE_FIPS" key="true"/>
+  <column name="SUB_REGION" key="false"/>
+ </columns>
+ <bounds left="-87.6257247924805" top="40.6371383666992" right="-75.0459976196289" bottom="24.9559669494629"/>
+ <regions>
+  <region>
+   <centroid lat="38.847749710083" lon="-77.2680435180664"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maryland]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[24]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1447486877441" lon="-75.4187164306641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Delaware]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[10]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9209671020508" lon="-80.1875152587891"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West Virginia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[54]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9991912841797" lon="-79.4589233398438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Virginia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[51]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.890775680542" lon="-77.016918182373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[District of Columbia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[11]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.2358207702637" lon="-79.8904151916504"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Carolina]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[37]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.979471206665" lon="-83.838436126709"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Florida]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[12]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.6381015777588" lon="-80.965259552002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Carolina]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[45]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.6806678771973" lon="-83.2519569396973"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Georgia]]></value></item>
+    <item column="STATE_FIPS"><value><![CDATA[13]]></value></item>
+    <item column="SUB_REGION"><value><![CDATA[S Atl]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

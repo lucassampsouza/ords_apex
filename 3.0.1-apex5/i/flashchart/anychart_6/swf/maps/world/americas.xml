@@ -1,0 +1,369 @@
+<map_data>
+ <name>americas</name>
+ <defaultProjection>equirectangular</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-178.218872070313" top="83.6041564941406" right="-12.1550006866455" bottom="-55.7908401489258"/>
+ <regions>
+  <region>
+   <centroid lat="18.2205543518066" lon="-63.0686149597168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Anguilla]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.3573589324951" lon="-61.778751373291"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Antigua and Barbuda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.5211095809937" lon="-69.9683380126953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aruba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.9222202301025" lon="-75.8582000732422"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bahamas, The]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.1938877105713" lon="-59.5431976318359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Barbados]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.1898765563965" lon="-88.4976501464844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Belize]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.3213844299316" lon="-64.7573699951172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bermuda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.5662479400635" lon="-64.484733581543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[British Virgin Islands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.6345014572144" lon="-102.552783966064"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mexico]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.5134696960449" lon="-80.5669555664063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cayman Islands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.61963939666748" lon="-84.2363967895508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Costa Rica]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.6263790130615" lon="0.317733764648438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[US]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[United States]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.4149990081787" lon="-61.3709754943848"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dominica]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.7356929779053" lon="-70.1626510620117"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dominican Republic]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.1999988555908" lon="-86.2419052124023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Honduras]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9419364929199" lon="-56.271110534668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Pierre and Miquelon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.2627758979797" lon="-61.6041717529297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grenada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.9959716796875" lon="-62.0676422119141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guadeloupe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.7834711074829" lon="-90.2307586669922"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guatemala]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.0574989318848" lon="-73.04833984375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[HA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haiti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.8654155731201" lon="-85.2072296142578"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nicaragua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.1095809936523" lon="-77.2975082397461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jamaica]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.6415271759033" lon="-61.0241737365723"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Martinique]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.513053894043" lon="-79.5420913696289"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cuba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.7424983978271" lon="-62.1873664855957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montserrat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.0454602241516" lon="-66.0500068664551"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Netherlands Antilles]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7941846847534" lon="-88.8965301513672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ES]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[El Salvador]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.41319417953491" lon="-80.1143112182617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Panama]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.220832824707" lon="-66.5901489257813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Puerto Rico]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.2512474060059" lon="-62.699031829834"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Kitts and Nevis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.9094438552856" lon="-60.9788932800293"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Lucia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="62.3947143554688" lon="-96.8087196350098"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Canada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.9843044281006" lon="-61.2872276306152"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Vincent and the Grenadines]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.42374992370605" lon="-66.589729309082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Venezuela]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.6940250396729" lon="-71.7979278564453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Turks and Caicos Islands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="71.7069358825684" lon="-42.604302406311"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greenland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.0272216796875" lon="-64.7936172485352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Virgin Islands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-51.7962532043457" lon="-59.5236129760742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Falkland Islands (Islas Malvinas)]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-16.290153503418" lon="-63.5886535644531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bolivia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-23.4425029754639" lon="-58.4438323974609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paraguay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-36.7125015258789" lon="-87.9341735839844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chile]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.78567731380463" lon="-83.4399871826172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ecuador]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.18996698409319" lon="-75.0151519775391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Peru]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-38.4160976409912" lon="-63.6166725158691"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Argentina]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.93388867378235" lon="-53.1257820129395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[French Guiana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.86041593551636" lon="-58.9301795959473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guyana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-14.2350039482117" lon="-51.9252796173096"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brazil]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.57086849212646" lon="-74.2966156005859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colombia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.91930508613586" lon="-56.0277824401855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suriname]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.5227794647217" lon="-55.7658348083496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uruguay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.6918039321899" lon="-61.2225036621094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Trinidad and Tobago]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

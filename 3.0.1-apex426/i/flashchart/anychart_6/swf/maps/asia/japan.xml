@@ -1,0 +1,75 @@
+<map_data>
+ <name>japan</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="122.935256958008" top="45.4863815307617" right="153.965789794922" bottom="24.2552757263184"/>
+ <regions>
+  <region>
+   <centroid lat="33.6434669494629" lon="133.384429931641"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-SHK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shikoku]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.9073543548584" lon="144.699829101563"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-CHB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chubu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6086044311523" lon="135.585952758789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-KIN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kinki]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.0169372558594" lon="139.605651855469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-KNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kanto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.0184669494629" lon="130.255950927734"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-KYS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kyushu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.0397186279297" lon="132.696350097656"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-CGK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chugoku]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1304168701172" lon="139.843139648438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-THO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tohoku]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.4406890869141" lon="142.614974975586"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-HKK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hokkaido]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.5529136657715" lon="127.105812072754"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JPN-OKN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Okinawa]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

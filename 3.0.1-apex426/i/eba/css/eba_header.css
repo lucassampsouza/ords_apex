@@ -1,0 +1,141 @@
+body {
+	background: url(../img/eba_body_noise.png) !important;
+	}
+
+/* ======================================== */
+/* = Header Bar for Express Applications  = */
+/* ======================================== */
+.ebaHeader {
+	height: 41px;
+	overflow: hidden;
+	margin: 0 -10px 10px -10px;
+	border-bottom: 1px solid rgba(0,0,0,.0);
+	-webkit-transition: background-color .2s linear, border .2s linear;
+	}
+/* CSS Transition for Hover*/
+.ebaHeader:hover {
+	background-color: rgba(0,0,0,.05);
+	border-bottom: 1px solid rgba(0,0,0,.10);
+	}
+	.ebaHeader:hover ul li {
+		border-right: 1px solid rgba(0,0,0,.1);
+		}
+
+/* Application Name + Oracle Logo */
+.ebaHeader h1 {
+	margin: 11px 0 10px 0;
+	padding: 0;
+	float: left;
+	text-decoration: none;
+	background: url(../img/eba_header.png) -20px 2px no-repeat;
+	}
+	.ebaHeader h1.wsHeader {
+		background: none;
+		}
+	.ebaHeader h1 a {
+		display: block;
+		padding: 1px 10px 0 150px;
+		font: normal 20px/20px Arial, sans-serif;
+		color: #444;
+		text-decoration: none;
+		text-shadow: 0 1px 0 rgba(255,255,255,1);
+		}
+		.ebaHeader h1.wsHeader a {
+			padding-left: 10px;
+			}
+
+/* App Bar Links List */
+.ebaHeader ul {
+	margin: 0;
+	padding: 0;l
+	list-style: none;
+	float: right;
+	}
+	.ebaHeader ul li {
+		float: left;
+		display: block;
+		padding: 0;
+		border-right: 1px solid rgba(0,0,0,0);
+		-webkit-transition: border .2s linear;
+		}
+		.ebaHeader ul li:last-child {
+			border-right: none;
+			}
+		.ebaHeader ul li span,
+		.ebaHeader ul li a {
+			padding: 0 6px 0 5px;
+			color: #303030;
+			color: rgba(0,0,0,.75);
+			text-decoration: none;
+			display: block;
+			font: normal 11px/20px Arial, sans-serif;
+			margin: 11px 5px;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			-webkit-transition: background-color .1s linear;
+			text-shadow: 0 1px 0 rgba(255,255,255,.4);
+			}
+			.ebaHeader ul li a:hover {
+				background: rgba(0,0,0,.15);
+				}
+			.ebaHeader ul li a:active {
+				background: -webkit-gradient(linear,0 0,0 100%, from(#BBB), to(#CCC));
+				background: -moz-linear-gradient(top, #BBB, #CCC);
+				-webkit-box-shadow: 0 2px 5px rgba(0,0,0,.25) inset;
+				-moz-box-shadow: 0 2px 5px rgba(0,0,0,.25) inset;
+				}
+/* Icon Links */
+.ebaHeader ul li img {
+	vertical-align: text-top;
+	background-image: url(../img/eba_header.png);
+	background-repeat: no-repeat;
+	margin-right: 1px;
+	width: 12px;
+	height: 12px;
+	border: none !important;
+	}
+	.ebaHeader ul li img.help {
+		background-position: 0 0;
+		}
+	.ebaHeader ul li img.settings {
+		background-position: 0 -12px;
+		}
+	.ebaHeader ul li img.cloud {
+		background-position: 0 -24px;
+		width: 18px;
+		}
+	.ebaHeader ul li img.mobile {
+		background-position: -18px -24px;
+		width: 12pxpx;
+		}
+/* Logout Link */
+.ebaHeader ul li span a.logout {
+	display: inline-block;
+	font: normal 11px/18px Arial, sans-serif;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0 0 0 5px;
+	border: 1px solid rgba(0,0,0,.1);
+	background: rgba(0,0,0,.05);
+	padding: 0 6px;
+	}
+	.ebaHeader ul li span a.logout:hover {
+		background: rgba(0,0,0,.15);
+		}
+#header {
+	padding: 0 !important;
+	visibility: hidden;
+	overflow: hidden;
+	}
+#logo,
+#navbar {
+	min-height: 0 !important;
+	visibility: hidden;
+	overflow: hidden;
+	}
+
+#header a img {
+	height: 0 !important;
+	width: 0 !important;
+	display: none;
+	}

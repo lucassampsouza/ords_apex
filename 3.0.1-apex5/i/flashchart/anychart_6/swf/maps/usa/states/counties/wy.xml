@@ -1,0 +1,173 @@
+<map_data>
+ <name>wy</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-111.05265045166" top="45.0028533935547" right="-104.051200866699" bottom="40.9943046569824"/>
+ <regions>
+  <region>
+   <centroid lat="44.4048347473145" lon="-109.80464553833"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Park]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.5914669036865" lon="-104.572582244873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Crook]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.5792675018311" lon="-107.883430480957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Big Horn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.2474060058594" lon="-105.549224853516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Campbell]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.7781219482422" lon="-106.952087402344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sheridan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9459781646729" lon="-110.551990509033"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Teton]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0259780883789" lon="-106.690860748291"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Johnson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.8415699005127" lon="-104.570457458496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56045]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Weston]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.8357124328613" lon="-107.83472442627"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56043]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washakie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.7728633880615" lon="-108.452816009521"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hot Springs]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1335697174072" lon="-108.778324127197"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fremont]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.9697017669678" lon="-106.807571411133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Natrona]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.0578498840332" lon="-104.48518371582"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niobrara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.8963584899902" lon="-105.490955352783"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Converse]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.8640785217285" lon="-109.838172912598"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sublette]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.4322261810303" lon="-110.55150604248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lincoln]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.0894756317139" lon="-104.354808807373"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Goshen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.1343536376953" lon="-104.969161987305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Platte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7195014953613" lon="-107.003536224365"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carbon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7155799865723" lon="-105.802108764648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Albany]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6321067810059" lon="-108.785575866699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sweetwater]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.3253479003906" lon="-104.665882110596"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Laramie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.2894515991211" lon="-110.550792694092"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[56041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uinta]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

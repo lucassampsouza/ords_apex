@@ -1,0 +1,243 @@
+<map_data>
+ <name>colombia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-81.7197265625" top="13.377498626709" right="-66.8704528808594" bottom="-4.23687362670898"/>
+ <regions>
+  <region>
+   <centroid lat="-2.01829792559147" lon="-71.8741760253906"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-AMZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Amazonas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.18985986709595" lon="-75.4972305297852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-ANT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Antioquia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.5666651725769" lon="-70.8845977783203"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-ARA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arauca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.6951208114624" lon="-74.9845352172852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-ATL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Atlantico]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.13277763128281" lon="-73.8872299194336"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-CAQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caqueta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.14583313465118" lon="-76.8664016723633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-CAU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cauca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.31009483337402" lon="-73.5137176513672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-CES]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cesar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.33666610717773" lon="-76.943473815918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-CHO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Choco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.39986085891724" lon="-75.6383361816406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-CRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cordoba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.77999985218048" lon="-71.8284606933594"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-GUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guaviare]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.60972702503204" lon="-68.8641204833984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-GUI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guainia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="2.6829788684845" lon="-75.5480575561523"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-HUI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Huila]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.4355545043945" lon="-72.3775100708008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-LGU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Guajira]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.26083302497864" lon="-74.2405624389648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-DES]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Distrito Especial]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.49324932694435" lon="-77.9158401489258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-NAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Narino]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.0929160118103" lon="-72.8235702514648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-NDS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norde de Santander]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.422891139984131" lon="-75.4715194702148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-PTM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Putumayo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.15249967575073" lon="-75.2862548828125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-TOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tolima]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.07638835906982" lon="-75.8701477050781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-RSR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Risaralda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.9344434738159" lon="-81.5345840454102"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-SAY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Andres y Providencia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.94327878952026" lon="-73.514892578125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-SNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santander]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.18374919891357" lon="-75.1348342895508"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-SUC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sucre]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.39361095428467" lon="-75.6291809082031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-QUI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quindio]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.97847175598145" lon="-76.5831985473633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-VDC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Valle del Cauca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.452638745307922" lon="-70.5794219970703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-VAU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaupes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.53791642189026" lon="-69.2486267089844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-VCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vichada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.31620168685913" lon="-71.4637603759766"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-CSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Casanare]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.77371001243591" lon="-73.9749908447266"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-CND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cundinamarca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.24459505081177" lon="-73.0059356689453"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-MET]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Meta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.904860496521" lon="-74.6686630249023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-BLV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bolivar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.85926914215088" lon="-73.2942733764648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-BOY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boyaca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.2929162979126" lon="-75.2856903076172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-CLD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caldas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.1665267944336" lon="-74.2425079345703"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[COL-MGD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Magdalena]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,11 @@
+.t-Footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  padding: 12px; }
+
+.t-Footer a {
+  text-decoration: underline; }
+  .t-Footer a:hover {
+    text-decoration: none; }

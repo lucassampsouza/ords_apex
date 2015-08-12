@@ -1,0 +1,39 @@
+button {
+	margin: 0 4px 0 4px;
+	width: auto;
+	overflow: visible;
+	margin-top: 0px;
+}
+
+button span {
+	margin-top: 0px;
+}
+
+.fixed-header-report {
+	position: relative;
+	height: 200px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.fixed-header-report table thead tr {
+	position: absolute;
+	top: expression(this.offsetParent.scrollTop);
+}
+
+.fixed-header-report table thead {
+	height: auto;
+}
+
+.fixed-header-report table tbody {
+	height: auto;
+}
+
+.fixed-header-report table tr:first-child td.data,
+.fixed-header-report table tr:first-child td.data-alt {
+	border-top: none !important;
+}
+
+.fixed-header-report table tr:first-child td.data {
+	padding-top: 24px;
+}

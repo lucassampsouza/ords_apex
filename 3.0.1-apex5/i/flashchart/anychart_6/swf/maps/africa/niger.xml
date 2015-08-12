@@ -1,0 +1,61 @@
+<map_data>
+ <name>niger</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="0.166666656732559" top="23.5223045349121" right="15.9966659545898" bottom="11.6932735443115"/>
+ <regions>
+  <region>
+   <centroid lat="19.4284038543701" lon="10.1208329200745"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NER-AGD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Agadez]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.5344438552856" lon="13.0803217887878"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NER-DIF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Diffa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.1755456924438" lon="3.54993367195129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NER-DOS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dosso]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.2220830917358" lon="7.4119439125061"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NER-MAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maradi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.801408290863" lon="2.2101858407259"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NER-NIA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niamey]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.1533317565918" lon="5.27779936790466"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NER-TAH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tahoua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.1512861251831" lon="9.66219663619995"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NER-ZND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zinder]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,180 @@
+<map_data>
+ <name>argentina</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-73.5836181640625" top="-21.7805213928223" right="-53.6497268676758" bottom="-55.0516738891602"/>
+ <regions>
+  <region>
+   <centroid lat="-34.6138229370117" lon="-58.4397373199463"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-DFD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Distrito Federal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-27.6109085083008" lon="-67.00146484375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-CTM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Catamarca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.0603141784668" lon="-60.8756370544434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-CHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chaco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-43.9997329711914" lon="-67.8587532043457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-CHB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chubut]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.2108364105225" lon="-63.7493095397949"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-CRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cordoba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-29.0085544586182" lon="-57.6481513977051"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-CRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Corrientes]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-37.1526794433594" lon="-60.0248641967773"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-BAI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Buenos Aires]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.1037845611572" lon="-59.2701416015625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-ERI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Entre Rios]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.6778335571289" lon="-59.9473648071289"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-FRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Formosa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-23.1977615356445" lon="-65.7044906616211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-JUJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jujuy]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-37.1637535095215" lon="-65.8394088745117"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-LPA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Pampa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-29.8362522125244" lon="-67.3914947509766"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-LRI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Rioja]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-34.7600650787354" lon="-68.5377807617188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-MND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mendoza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.8174571990967" lon="-54.8348655700684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-MSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Misiones]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-38.6159400939941" lon="-70.1000213623047"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-NEU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Neuquen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-39.7865295410156" lon="-67.345386505127"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-RNE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rio Negro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.193058013916" lon="-65.4527816772461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-SAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-30.399730682373" lon="-68.6592712402344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-SJU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Juan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-33.9244976043701" lon="-66.1354217529297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-SLU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Luis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-49.1904220581055" lon="-69.6579208374023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-SCR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Cruz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-31.1907844543457" lon="-60.8554267883301"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-SFE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Fe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-27.8639545440674" lon="-63.4448699951172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-SDE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santiago del Estero]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-53.8465919494629" lon="-66.2283630371094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-TDF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tierra del Fuego]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-27.0634746551514" lon="-65.3498687744141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ARG-TCM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tucuman]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

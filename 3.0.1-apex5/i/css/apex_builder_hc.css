@@ -1,0 +1,251 @@
+.apexir_TOOLBAR_OPEN {
+	float: left;
+	height: 48px;
+	display: inline;
+	overflow: visible;
+	background: none;
+	border: 1px solid #808080;
+	background-color: #efefef;		
+}
+
+.apexir_TOOLBAR_CLOSE {
+	color: #000000;
+	float: left;	
+	overflow: visible;
+	background: none;
+	padding: 4px 8px 8px 0;
+}
+
+.apexir_COLUMN_SELECTOR {
+    padding: 2px 0 0px 6px;
+}
+
+#apexir_SEARCHDROP {
+	padding: 24px 0 0 0;
+}
+
+.apexir_SEARCHICON {
+	background-image: none;
+	border: 1px solid #808080;
+	background-color: #dddddd;	
+	float: left;
+	display: block;
+	height: 26px;
+	width: 120px;
+	text-align: center;
+}
+
+.apexir_SEARCHICON span {
+	display: inline;
+    position: relative;
+    top: 0px;	
+}
+
+.apexir_COLUMN_SELECTOR a {
+	text-decoration: none;
+    color: #000000;
+    padding: 2px 2px 4px 2px;
+}
+
+button.apexir-button {
+	background: none;
+	border: 1px solid #808080;
+	background-color: #dddddd;	
+	margin: 0 2px 0 2px;
+	padding: 4px 0 0 0;	
+}
+
+button.apexir-button span {
+	height: 20px;
+	line-height: 20px;
+	background: none;
+	color: #000000;
+}
+
+button.apexir-go-button {
+	background: none;
+	border: 1px solid #808080;
+	background-color: #dddddd;	
+	margin: 0 2px 0 2px;
+}
+
+button.apexir-go-button span {
+	height: 18px;
+	line-height: 18px;
+	background: none;
+	color: #000000;
+}
+
+.apexir_ACTION_MENU {
+    padding: 2px;
+}
+
+
+#apexir_TOOLBAR button.dhtmlMenu {
+	background: none;
+	padding: 0 0 0 0;
+	background-color: #dddddd;	
+	margin: 0 2px 0 2px;	
+	border: 1px solid #808080;	
+    padding: 1px;	
+}
+
+#apexir_TOOLBAR button.dhtmlMenu span {
+	padding: 0 0 0 0;
+	height: 28px;
+	line-height: 28px;
+	background: none;
+	color: #000000;
+	margin: 0px 12px;
+}
+
+#apexir_TOOLBAR button.dhtmlMenuOn {
+	background: none;
+	padding: 0 0 0 0;
+	background-color: #dddddd;	
+	margin: 0 2px 0 2px;	
+	border: 1px solid #808080;	
+	padding: 1px;	
+}
+
+#apexir_TOOLBAR button.dhtmlMenuOn span {
+	padding: 0 0 0 0;
+	height: 28px;
+	line-height: 28px;
+	background: none;
+	color: #000000;
+	margin: 0px 12px;
+}
+
+#apexir_SEARCH_BAR_OPTIONS {
+    padding: 1px 2px 0px 2px;
+}
+
+.irr-pill {
+	float: left;
+	display: block;
+	margin: 0 2px 0 2px;
+	padding: 0 0 0 0;
+	text-align: center;
+	height: 30px;
+	border: 1px solid #808080;
+	background-color: #dddddd;
+	text-indent: 0 !important;
+	overflow: visible !important;
+	width: auto !important;
+}
+
+.irr-pill span {
+	text-indent: 0 !important;
+	overflow: visible !important;
+	font-size: 11px;
+	display: inline;
+	padding: 2px;
+   position: relative;
+   top: 0px;		
+}
+
+a.irr-pill {
+	text-decoration: none;
+    color: #000000;
+}
+
+.irr-pill-group {
+	background-image: none;
+	width: 60px;
+	margin: 0 0 0 4px;
+}
+
+.irr-pill-group-active {
+	background-image: none;
+	width: 60px;
+	margin: 0 0 0 4px;
+}
+
+.irr-pill-chart {
+	background-image: none;
+	width: 60px;
+	margin: 0 0 0 4px;
+}
+
+.irr-pill-chart-active {
+	background-image: none;
+	width: 60px;
+	margin: 0 0 0 4px;
+}
+
+.irr-pill-icons-left {
+	background-image: none;
+	width: 60px;
+}
+
+.irr-pill-icons-left-active {
+	background-image: none;
+	width: 60px;
+}
+
+.irr-pill-report-center {
+	background-image: none;
+	width: 60px;
+}
+
+.irr-pill-report-center-active {
+	background-image: none;
+	width: 60px;
+}
+
+.irr-pill-report {
+	background-image: none;
+	width: 60px;
+	margin: 0 0 0 4px;
+}
+
+.irr-pill-report-active {
+	background-image: none;
+	width: 60px;
+	margin: 0 0 0 4px;
+}
+
+.irr-pill-report-left {
+	background-image: none;
+	width: 60px;
+}
+
+.irr-pill-report-left-active {
+	background-image: none;
+	width: 60px;
+}
+
+.irr-pill-report-right {
+	background-image: none;
+	width: 60px;
+}
+
+.irr-pill-report-right-active {
+	background-image: none;
+	width: 60px;
+}
+
+.irr-pill-details-right {
+	background-image: none;
+	width: 60px;
+}
+
+.irr-pill-details-right-active {
+	background-image: none;
+	width: 60px;
+}
+
+table.apex-standard-report > tbody > tr > th {
+	background: #5b7cae;
+	font-weight: bold;
+	border-bottom: 1px #aaa solid;
+	font-size: 11px;
+	white-space: nowrap;
+	vertical-align: bottom;
+	padding: 4px 9px;
+	color: #ffffff;
+	font-size: 12px;
+	letter-spacing: 1;
+	background-image: none;
+}

@@ -1,0 +1,173 @@
+<map_data>
+ <name>tunisia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="7.49166584014893" top="37.5394439697266" right="11.5833320617676" bottom="30.2343902587891"/>
+ <regions>
+  <region>
+   <centroid lat="35.2273559570313" lon="8.79854965209961"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-AQS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Qasrayn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.5734329223633" lon="9.78844261169434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-AQY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Qayrawan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6844482421875" lon="8.62958240509033"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-JND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jundubah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.4206886291504" lon="8.79291534423828"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-QFS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Qafsah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.030689239502" lon="8.70541572570801"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-AKA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Kaf]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.3344078063965" lon="10.6509704589844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-AMH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Mahdiyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6221313476563" lon="10.7562828063965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-AMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Munastir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7557411193848" lon="9.37619686126709"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-BAJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bajah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1415252685547" lon="9.57610988616943"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-BNZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Banzart]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7465629577637" lon="10.7188873291016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-NAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nabul]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.9674949645996" lon="9.33819198608398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-SLY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Silyanah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.9512557983398" lon="10.4234132766724"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-SUS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Susah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.8491706848145" lon="9.94285297393799"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-ARY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Aryanah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.6167259216309" lon="10.1933498382568"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-BNR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bin 'Arus]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.0788879394531" lon="10.6619434356689"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-MDN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madaniyin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.7908325195313" lon="9.85637950897217"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-QAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Qabis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.3679695129395" lon="8.8559718132019"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-QBL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Quibili]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.6986045837402" lon="10.5079507827759"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-SFQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Safaqis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="34.8658294677734" lon="9.43402671813965"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-SBZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sidi Bu Zayd]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7488594055176" lon="9.85243511199951"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-TTW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tatawin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.9760627746582" lon="8.08041620254517"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-TWZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tawzar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.7871627807617" lon="10.1899995803833"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-TUN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tunis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.329158782959" lon="9.96833229064941"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TUN-ZGH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zaghwan]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

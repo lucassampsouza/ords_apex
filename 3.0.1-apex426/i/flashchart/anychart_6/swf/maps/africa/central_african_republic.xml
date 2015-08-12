@@ -1,0 +1,124 @@
+<map_data>
+ <name>central_african_republic</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="14.424165725708" top="11.0013885498047" right="27.4580535888672" bottom="2.22125959396362"/>
+ <regions>
+  <region>
+   <centroid lat="8.39624977111816" lon="20.6308307647705"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-BBN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bamingui-Bangoran]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.9783296585083" lon="21.3020858764648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-BKO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Basse-Kotto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.35972166061401" lon="22.8427772521973"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-HKO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haute-Kotto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.52868819236755" lon="15.8975887298584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-HSN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haute-Sangha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.59458208084106" lon="25.8566646575928"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-HMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Haut-Mbomou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.743332862854" lon="19.312915802002"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-KGR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kemo-Gribingui]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.25986051559448" lon="17.6811809539795"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-LOB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lobaye]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.44028329849243" lon="23.4634704589844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-MBO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mbomou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.84861087799072" lon="15.4713878631592"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-NMM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nana-Mambere]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.11356067657471" lon="20.705135345459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-OUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ouaka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.06905174255371" lon="17.8756790161133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-OUH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ouham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.72070837020874" lon="16.0199375152588"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-OPE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ouham-Pende]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.79152679443359" lon="22.2557811737061"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-VAK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vakaga]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.50151634216309" lon="19.4244899749756"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-GRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gribingui]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.24104619026184" lon="16.3415660858154"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-SNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sangha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.8872218132019" lon="17.7994422912598"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CAF-OMP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ombella-Mpoko]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

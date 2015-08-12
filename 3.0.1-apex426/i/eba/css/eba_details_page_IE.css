@@ -1,0 +1,70 @@
+div.ebaDetails {
+	border: 1px solid #AAA;
+	}
+div.ebaDHeading {
+	background-color: #DDD;
+	border: none;
+	border-bottom: 1px solid #AAA;
+	}
+	div.ebaDHeading div.ebaDRight a {
+		background-color: #F0F0F0;
+		}
+	div.ebaDHeading div.ebaDRight a:hover {
+		background-color: #FFF;
+		}
+div.ebaDMain {
+	border-left: none;
+	border-right: none;
+	}
+div.ebaDMain div.ebaDRight h3 {
+	background-color: #E0E0E0;
+	border-top: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+	}
+div.ebaDMain div.ebaDRight h3 + div {
+	background: transparent;
+	}
+	
+div.ebaDetails a.ebaDButton {
+	background: #E0E0E0;
+	}
+	div.ebaDetails a.ebaDButton:hover {
+		background-color: #FFF;
+		}
+
+
+
+div.ebaDSectionMain {
+	position: relative;
+	}
+
+div.ebaDSection h2 {
+	background-color: #E9E9E9;
+	border-top: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+	}
+	
+div.ebaDSection h2.ebaSmall {
+	background-color: transparent;
+	border-top: none;
+	border-bottom: none;
+	}
+
+/* Stylized H3 for DSBody Only */
+div.ebaDSection div.ebaDSBody > h3 {
+	background-color: #F8F8F8;
+	padding: 10px;
+	border-bottom: 1px solid #EEE;
+	position: relative;
+	}
+div.ebaDSection div.ebaDSBody > h3.ebaBordered {
+	padding: 10px;
+	border-bottom: 1px solid #EEE;
+	}
+	div.ebaDSection h3 a:hover,
+	div.ebaDetails a.ebaEditLink:hover {
+		border: 1px solid #AAA;
+		background: #FFF;
+		color: #333;
+		}
+

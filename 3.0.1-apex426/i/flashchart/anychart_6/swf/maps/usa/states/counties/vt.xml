@@ -1,0 +1,110 @@
+<map_data>
+ <name>vt</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-73.4364318847656" top="45.0133056640625" right="-71.5058441162109" bottom="42.7257690429688"/>
+ <regions>
+  <region>
+   <centroid lat="44.6787223815918" lon="-71.7403221130371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Essex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.7811851501465" lon="-73.2858505249023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grand Isle]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.8197441101074" lon="-72.8839378356934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Franklin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.7735195159912" lon="-72.2291603088379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orleans]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.5966567993164" lon="-72.6492881774902"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lamoille]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4627685546875" lon="-72.133846282959"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caledonia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4418106079102" lon="-73.07421875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chittenden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.2552604675293" lon="-72.5839042663574"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Washington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0279159545898" lon="-73.0861282348633"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Addison]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9913902282715" lon="-72.4149131774902"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orange]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5857582092285" lon="-72.5887908935547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Windsor]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5668983459473" lon="-73.0631942749023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rutland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.0240306854248" lon="-73.0562896728516"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bennington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.994499206543" lon="-72.7220687866211"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[50025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Windham]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

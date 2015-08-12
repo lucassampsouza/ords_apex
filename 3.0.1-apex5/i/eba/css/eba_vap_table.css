@@ -1,0 +1,42 @@
+h2.ebaVALTitle {
+	font: bold 13px/16px Arial, sans-serif;
+	margin: 0;
+	padding: 5px;
+	}
+	h2.ebaVALTitle a {
+		font: normal 11px/16px Arial, sans-serif;
+		color: #999;
+		text-decoration: none;
+		}
+		h2.ebaVALTitle a:hover {
+			color: #444;
+			}
+table.ebaVAPTable {
+	width: 100%;
+	}
+	table.ebaVAPTable th,
+	table.ebaVAPTable td {
+		padding: 5px;
+		font: normal 11px/16px Arial, sans-serif;
+		color: #444;
+		}
+	table.ebaVAPTable th {
+		font-weight: bold;
+		text-align: left;
+		width: 120px;
+		}
+		
+a.plusIcon, a.minusIcon {
+	background: url(/ui/aimg/plus_minus_icons.gif) 0 2px no-repeat;
+	font: normal 11px/12px Arial, sans-serif;
+	padding: 0 0 0 12px;
+	color: #444;
+	text-decoration: none;
+	}
+a.minusIcon {
+	background: url(/ui/aimg/plus_minus_icons.gif) 0 -23px no-repeat;
+	}
+	a.plusIcon:hover,
+	a.minusIcon:hover {
+		text-decoration: underline;
+		}

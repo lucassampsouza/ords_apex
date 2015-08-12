@@ -1,0 +1,75 @@
+<map_data>
+ <name>bolivia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-69.6561889648438" top="-9.67919540405273" right="-57.5211181640625" bottom="-22.9011116027832"/>
+ <regions>
+  <region>
+   <centroid lat="-19.947473526001" lon="-63.9356689453125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BOL-CHQ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chuquisaca]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-17.1911478042603" lon="-65.6211166381836"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BOL-CCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cochabamba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.4315137863159" lon="-64.577320098877"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BOL-EBE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[El Beni]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-14.9678745269775" lon="-68.1900405883789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BOL-LPA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[La Paz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.6216678619385" lon="-67.5948715209961"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BOL-ORU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oruro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.0901727676392" lon="-67.428108215332"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BOL-PAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pando]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-20.3770847320557" lon="-66.7611923217773"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BOL-POT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Potosi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-16.9854488372803" lon="-61.1542053222656"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BOL-SCR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Santa Cruz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-21.882640838623" lon="-63.7937545776367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BOL-TAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tarija]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Dialog Regions
+   ========================================================================== */
+.t-DialogRegion-buttons {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.t-DialogRegion-body {
+  position: absolute;
+  overflow: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px;
+  /* Shadow covers */
+  /* Shadows */
+  background-repeat: no-repeat !important;
+  background-size: 100% 16px, 100% 16px, 100% 8px, 100% 8px !important;
+  /* Opera doesn't support this in the shorthand */
+  background-attachment: local, local, scroll, scroll !important; }

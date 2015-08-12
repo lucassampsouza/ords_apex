@@ -1,0 +1,33 @@
+<map_data>
+ <name>greenland</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-73.0536041259766" top="83.6235961914063" right="-12.1550006866455" bottom="59.7902755737305"/>
+ <regions>
+  <region>
+   <centroid lat="71.0552062988281" lon="-28.2441644668579"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GRL-OST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ostgronland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="79.4045639038086" lon="-42.8070254325867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GRL-NRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nordgronland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="68.8951377868652" lon="-50.6206893920898"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GRL-VST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vestgronland]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

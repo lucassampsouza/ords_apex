@@ -1,0 +1,77 @@
+/* ==========================================================================
+   Image Navigation List
+   ========================================================================== */
+/* line 14, ../../scss/core/ImageNav.scss */
+.a-ImageNav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+/* line 22, ../../scss/core/ImageNav.scss */
+.a-ImageNav-item {
+  display: table-cell;
+  width: auto;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* line 28, ../../scss/core/ImageNav.scss */
+.a-ImageNav-link {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  border: none;
+  padding: 24px 0;
+  background-color: transparent;
+  margin: 0;
+  transition: padding .1s ease-in-out, background-color .1s ease-in-out;
+}
+/* line 36, ../../scss/core/ImageNav.scss */
+.a-ImageNav-link:hover {
+  background-color: #F2F6FC;
+  text-decoration: none;
+}
+@media only screen and (max-height: 600px) {
+  /* line 28, ../../scss/core/ImageNav.scss */
+  .a-ImageNav-link {
+    padding: 12px 0;
+  }
+}
+
+/* line 45, ../../scss/core/ImageNav.scss */
+.a-ImageNav-img {
+  display: inline-block;
+  width: 96px;
+  height: 96px;
+  margin: 0 auto;
+  vertical-align: top;
+  border-radius: 2px;
+  transition: background-size .1s ease-in-out, background-color .1s ease-in-out, width .1s ease-in-out, height .1s ease-in-out;
+}
+@media only screen and (min-width: 1281px) {
+  /* line 45, ../../scss/core/ImageNav.scss */
+  .a-ImageNav-img {
+    width: 108px;
+    height: 108px;
+  }
+}
+@media only screen and (max-height: 600px) {
+  /* line 45, ../../scss/core/ImageNav.scss */
+  .a-ImageNav-img {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+/* line 62, ../../scss/core/ImageNav.scss */
+.a-ImageNav-label {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+}

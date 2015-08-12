@@ -1,0 +1,21 @@
+/* ==========================================================================
+   Icons
+   ========================================================================== */
+.dm-Icon {
+  display: inline-block; }
+
+.dm-Icon--page {
+  width: 256px;
+  height: 164px;
+  display: block;
+  margin: 24px auto; }
+  .dm-Icon--page + .t-Button {
+    display: block;
+    margin: 0 auto; }
+
+.dm-Logo {
+  width: 256px;
+  height: 256px;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent !important; }

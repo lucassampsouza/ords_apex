@@ -1,0 +1,45 @@
+/* 
+ * Import Compass
+ */
+/* ==========================================================================
+   Navigation Bar
+   ---
+   Used for showing user menu, help, mobile, and other links in Navigation Bar position
+   ========================================================================== */
+.t-NavigationBar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block; }
+
+.t-NavigationBar-item {
+  display: inline-block;
+  vertical-align: top; }
+
+.t-NavigationBar-menu {
+  position: fixed !important;
+  min-width: 240px; }
+
+/* Icon Only
+   ========================================================================== */
+.t-NavigationBar-item.icon-only .t-Button .t-Icon {
+  margin-right: 0; }
+.t-NavigationBar-item.icon-only .t-Button-label {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* No Icon
+   ========================================================================== */
+.t-NavigationBar-item.no-icon .t-Button .t-Icon {
+  display: none; }
+
+/* Username (Lowercase Text)
+   ========================================================================== */
+.t-NavigationBar-item.has-username .t-Button-label {
+  text-transform: lowercase; }

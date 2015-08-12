@@ -1,0 +1,78 @@
+/**
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   Region
+   ========================================================================== */
+/* line 15, ../../../scss/theme/standard/AlertBadge.scss */
+.a-AlertBadge {
+  background-color: #FA0000;
+  color: #FFFFFF;
+  line-height: 20px;
+  min-width: 20px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+/* line 25, ../../../scss/theme/standard/AlertBadge.scss */
+.a-AlertBadge--leftArrow {
+  position: relative;
+  margin-left: 8px;
+  border-radius: 3px;
+}
+
+/* line 30, ../../../scss/theme/standard/AlertBadge.scss */
+.a-AlertBadge--leftArrow:before {
+  right: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* line 40, ../../../scss/theme/standard/AlertBadge.scss */
+.a-AlertBadge--leftArrow:before {
+  border-color: rgba(255, 0, 0, 0);
+  border-right-color: #FA0000;
+  border-width: 4px;
+  top: 50%;
+  margin-top: -4px;
+}

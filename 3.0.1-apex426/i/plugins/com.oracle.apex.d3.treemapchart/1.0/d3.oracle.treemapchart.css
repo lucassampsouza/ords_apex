@@ -1,0 +1,12 @@
+.a-D3TreemapChart .a-D3TreeMapChart-tooltip {
+  position: absolute;
+  z-index: 999;
+}
+
+.a-D3TreemapChart .a-D3ChartLegend{
+	margin: 20px 0;
+}
+
+.a-D3TreemapChart .com_oracle_apex_d3_treemap_node{
+	cursor: pointer;
+}

@@ -1,0 +1,229 @@
+<map_data>
+ <name>china</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="73.6172027587891" top="53.5444412231445" right="134.767211914063" bottom="18.1688842773438"/>
+ <regions>
+  <region>
+   <centroid lat="19.1512451171875" lon="109.824012756348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-HAI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hainan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.6970806121826" lon="108.266510009766"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-GNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guangxi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.0263843536377" lon="117.252754211426"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-ANH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Anhui]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.1756896972656" lon="120.209289550781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-ZHJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zhejiang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.2859668731689" lon="116.016094207764"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-JNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jiangxi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.2540283203125" lon="121.375129699707"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-SHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shanghai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5759544372559" lon="126.479431152344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-JIL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jilin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.4833278656006" lon="96.2525863647461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-QNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Qinghai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.9433288574219" lon="118.130546569824"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-FUJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fujian]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.491382598877" lon="127.969291687012"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-HLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Heilongjiang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="33.8741626739502" lon="113.475933074951"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-HEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Henan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.3698539733887" lon="111.693176269531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-NMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nei Mongol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.3818016052246" lon="111.510681152344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-HUN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hunan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.1606311798096" lon="112.255096435547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-HUB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hubei]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7616691589355" lon="85.0078353881836"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-XNJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Xinjiang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.926383972168" lon="88.7494812011719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-XZN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Xizang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3305130004883" lon="105.977195739746"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-NNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ningxia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.876106262207" lon="113.418083190918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-GND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guangdong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.9395790100098" lon="106.559432983398"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-GUI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guizhou]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.0955467224121" lon="122.31067276001"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-LNN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Liaoning]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.3372116088867" lon="116.64387512207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-HEB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hebei]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6949920654297" lon="101.10082244873"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-GAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gansu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.4074325561523" lon="117.346794128418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-TNJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tianjin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.9370784759521" lon="119.137393951416"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-JNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jiangsu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6679916381836" lon="112.389976501465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-SHX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shanxi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.3275032043457" lon="118.718322753906"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-SHD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shandong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="35.6424942016602" lon="108.472206115723"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-SHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shaanxi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="30.1420803070068" lon="103.782600402832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-SCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sichuan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.2090187072754" lon="116.467346191406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-BJN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Beijing]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.1811561584473" lon="101.86400604248"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-YNN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Yunnan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.3749961853027" lon="114.106517791748"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CHN-HKG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hong Kong]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

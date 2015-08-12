@@ -1,0 +1,719 @@
+<map_data>
+ <name>west_north_central</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+ </columns>
+ <bounds left="-104.053249" top="49.383079" right="-89.102879" bottom="35.995683"/>
+ <regions>
+  <region>
+   <centroid lat="48.176776" lon="-97.8710878857723"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[582]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.245627" lon="-101.7246105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[587]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.899732" lon="-103.999374"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[592]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8655745" lon="-100.850297"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[585]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.238718" lon="-103.3939405"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[588]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.2793222643228" lon="-99.423335"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[583]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.84812" lon="-99.316025"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[584]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.809607" lon="-102.830672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[586]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8807496293984" lon="-96.874610136009"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[581]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.7165495" lon="-97.391238"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[580]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.4723454993615" lon="-102.757811"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[577]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.2763245" lon="-102.6652685"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[693]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.2807969964931" lon="-98.9522305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[574]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.166519426315" lon="-95.7470525"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[562]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.065442" lon="-97.2171285"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[572]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9472665" lon="-100.580804"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[575]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.867108" lon="-98.5113545"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[573]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.5530695" lon="-96.752944"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[571]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.4970555" lon="-97.2997095"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[570]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.38919" lon="-101.612128"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[576]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.5424205" lon="-100.872968"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[692]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.319908" lon="-98.2774335"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[687]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5326935" lon="-101.9392005"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[691]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.251748" lon="-96.0485155"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[681]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5533865" lon="-97.726787"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[686]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.3933525" lon="-99.056679"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[688]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.5670573669547" lon="-96.6661875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[683]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.160633" lon="-103.992291"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[820]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.5233335" lon="-96.6043705"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[684]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.842225" lon="-96.6967475"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[685]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.991558" lon="-94.7689405"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[644]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.4662995" lon="-100.976814"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[690]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.374801" lon="-98.934254"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[689]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.3503645" lon="-101.0983805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[677]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.691047" lon="-97.963639"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[669]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.327261" lon="-99.5381035"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[676]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2540612145904" lon="-96.170196"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[664]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.2178385464197" lon="-96.0991225"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[665]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.134897" lon="-94.7456375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[661]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9722155" lon="-97.8224065"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[674]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.0656795" lon="-95.802994"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[666]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.7609965" lon="-94.839456"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[645]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.9437099683642" lon="-94.7584967495173"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[662]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.730988" lon="-97.720233"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[670]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.272986" lon="-98.9833735"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[675]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.891399" lon="-100.7920955"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[678]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.695391" lon="-97.3425465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[672]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.6365983656498" lon="-97.874999"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[671]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5612565" lon="-95.3605195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[667]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.429338" lon="-96.376745"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[668]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3026785" lon="-95.7257055"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[673]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.1911364911484" lon="-101.33762"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[679]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.477292" lon="-95.96073"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[567]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="48.0936255" lon="-94.4193985"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[566]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.836512" lon="-94.5364565"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[563]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1043377232657" lon="-92.8241855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[550]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.8323275" lon="-96.0674882781396"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[565]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.7432095" lon="-94.285395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[564]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9359915" lon="-92.079357"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[558]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.5927297190896" lon="-90.8024495"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[556]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.9396625" lon="-93.060314"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[551]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.002851" lon="-93.334477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[554]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.035715" lon="-94.0588105"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[553]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.9569950352116" lon="-92.302088"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[559]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1807545" lon="-92.4157665"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[557]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.2488245" lon="-96.0637725"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[512]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1014035" lon="-91.777172626258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[521]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.1978475" lon="-95.122129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[513]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0785035" lon="-94.129403"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[560]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.0924405" lon="-95.0451015"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[514]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0609975" lon="-95.4728335"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[561]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6607735" lon="-93.7835315"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[500]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.84481" lon="-91.6329225"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[522]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.5074215" lon="-96.3754855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[511]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.802372" lon="-91.7769645"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[523]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="43.0648488964235" lon="-93.291813"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[504]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.460411" lon="-95.557839"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[515]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.484464" lon="-92.269078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[507]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.535746" lon="-95.908141"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[510]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.637476505079" lon="-93.607769"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[501]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.692867" lon="-93.587869"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[502]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.9743565" lon="-91.667941"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[524]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.455492" lon="-90.8859315"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[520]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.6842425" lon="-92.4101375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[506]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="42.840315" lon="-94.448132"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[505]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5564815" lon="-90.5979875"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[528]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.5879805" lon="-93.6576515"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[503]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6012325" lon="-90.828086"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[527]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.001171" lon="-94.6257975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[508]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.8295635" lon="-91.4361985"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[526]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.9690365" lon="-91.7653005261522"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[634]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7335662161271" lon="-95.3419885"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[516]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.0029796525439" lon="-92.473649"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[525]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.0877875" lon="-92.625048"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[635]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.988447196206" lon="-95.0998584910985"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[660]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.8947981323493" lon="-93.5654585"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[646]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.6185255" lon="-96.435506"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[680]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1892735" lon="-92.4486695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[652]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.4022835" lon="-90.836177"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[630]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.101924" lon="-94.6103455"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[641]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.712412" lon="-93.275231"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[653]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.04876" lon="-94.22389"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[640]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.507264" lon="-91.942832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[654]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.0486325" lon="-90.9623405"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[633]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.614201" lon="-90.327864"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[631]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.966793" lon="-94.256296"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[648]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.5230695" lon="-92.1481345"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[651]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="38.392382" lon="-92.201504"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[650]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5939" lon="-90.640575"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[636]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3302735" lon="-92.722024"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[657]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.8815461264312" lon="-90.640358"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[639]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.5337265" lon="-91.998575"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[655]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.575296" lon="-89.7383665"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[638]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.9919875" lon="-94.0244165"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[647]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2394395" lon="-93.310791"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[658]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.2859275" lon="-92.636015"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[656]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="37.3970955" lon="-89.8080175"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[637]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="36.5070718102201" lon="-92.9813145"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[726]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

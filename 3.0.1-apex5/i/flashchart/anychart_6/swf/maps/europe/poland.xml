@@ -1,0 +1,355 @@
+<map_data>
+ <name>poland</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="14.1455545425415" top="54.833610534668" right="24.144718170166" bottom="49.0029144287109"/>
+ <regions>
+  <region>
+   <centroid lat="51.9535140991211" lon="23.0191631317139"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-BPD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Biala Podlaska]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.998607635498" lon="23.2244396209717"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-BLY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bialystok]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.7638816833496" lon="19.194450378418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-BLS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bielsko]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.259578704834" lon="18.0476322174072"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-BYD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bydgoszcz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.2806930541992" lon="23.4394426345825"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-CHL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chelm]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.9400291442871" lon="20.4113883972168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-CCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ciechanow]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.848747253418" lon="19.2216663360596"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-CZS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Czestochowa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.9916343688965" lon="19.5643043518066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-ELB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Elblag]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.2606887817383" lon="18.3181629180908"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-GDN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gdansk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.7952728271484" lon="15.2866640090942"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-GRZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gorzow]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0798568725586" lon="15.523193359375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-JGO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jelenia Gora]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.6223564147949" lon="17.8625564575195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-KLS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kalisz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.2101516723633" lon="19.0115795135498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-KTW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Katowice]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.695140838623" lon="20.723331451416"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-KIE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kielce]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.1905517578125" lon="18.3947353363037"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-KON]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Konin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.866138458252" lon="16.1579284667969"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-KSZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Koszalin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.0529403686523" lon="20.0065250396729"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-KRK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Krakow]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.4232978820801" lon="22.0027046203613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-KRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Krosno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.3724975585938" lon="16.1009302139282"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-LGN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Legnica]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.8290252685547" lon="16.7558307647705"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-LSZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leszno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.8148574829102" lon="19.4866237640381"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-LOD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lodz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.138858795166" lon="22.2578659057617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-LOM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lomza]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.3382453918457" lon="22.3525619506836"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-LBL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lublin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.5099945068359" lon="20.4706287384033"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-NSA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nowy Sacz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.8057899475098" lon="20.4776363372803"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-OLS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Olsztyn]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.5795822143555" lon="17.7611179351807"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-OPO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Opole]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.9562492370605" lon="21.4205532073975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-OST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ostroleka]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.1548538208008" lon="16.7173595428467"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-PIL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pila]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.3444404602051" lon="19.7437477111816"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-PTR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Piotrkow]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.4827880859375" lon="19.7813606262207"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-PLC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Plock]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.364860534668" lon="16.8629140853882"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-PZN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Poznan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="49.9922943115234" lon="22.8212013244629"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-PRZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Przemysl]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.4818000793457" lon="21.125057220459"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-RAD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Radom]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.1133308410645" lon="21.9356021881104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-RZS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rzeszow]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.2248592376709" lon="20.8554172515869"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-WRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Warszawa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.5333290100098" lon="18.8414306640625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-SRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sieradz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.0077667236328" lon="20.1702766418457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-SKR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Skierniewice]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.1417655944824" lon="17.1921253204346"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-SLP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Slupsk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.935131072998" lon="22.5164699554443"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-SWL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suwalki]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.4179534912109" lon="14.9777770042419"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-SZC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Szczecin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.6965217590332" lon="21.8523578643799"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-TRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tarnobrzeg]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.047046661377" lon="20.920955657959"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-TRW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tarnow]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.2398567199707" lon="19.0866661071777"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-TOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Torun]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.5605506896973" lon="16.6849994659424"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-WLB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Walbrzych]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.15478515625" lon="21.9787445068359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-SDL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Siedlce]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.7306728363037" lon="19.042781829834"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-WLC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wloclawek]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.1674957275391" lon="17.037353515625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-WRC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wroclaw]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.6248607635498" lon="23.2738857269287"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-ZMS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zamosc]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.8876342773438" lon="15.4480543136597"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[POL-ZGO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zielona Gora]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

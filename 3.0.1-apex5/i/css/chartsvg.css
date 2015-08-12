@@ -1,0 +1,20 @@
+text{font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;fill:#000000;}
+tspan{font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;fill:#000000;}
+text.title{font-weight:bold;}
+text.moredatafound{font-size:12;}
+rect.legend{fill:#c5d5c5;stroke:#000000;stroke-width:1;}
+text.legend{font-size:10;}
+#background{fill:#FFFFFF;stroke:#000000;stroke-width:1;}
+#graphholder rect.background{fill:#ffffff;stroke:#000000;stroke-width}
+#timestamp{text-anchor:start;font-size:9;}
+#XAxisTitle{letter-spacing:2;kerning:auto;font-family:Verdana, Geneva, Arial, Helvetica;font-size:12;fill:#000000;text-anchor:middle;}
+#YAxisTitle{letter-spacing:2;kerning:auto;font-family:Verdana, Geneva, Arial, Helvetica;font-size:12;fill:#000000;text-anchor:middle;writing-mode:tb;}
+.XAxisLabel{font-family:Verdana, Geneva, Arial, Helvetica;font-size:12;fill:#000000;text-anchor:middle;}
+.XAxisValue{font-family:Verdana, Geneva, Arial, Helvetica;font-size:12;fill:#000000;text-anchor:middle;}
+.YAxisLabel{font-family:Verdana, Geneva, Arial, Helvetica;font-size:12;fill:#000000;text-anchor:end;}
+.YAxisValue{font-family:Verdana, Geneva, Arial, Helvetica;font-size:12;fill:#000000;text-anchor:end;}
+.nodatafound{stroke:#000000;stroke-width:1;font-size:12;}
+.AxisLine{stroke:#000000;stroke-width:2;fill:#FFFFFF;}
+.GridLine{stroke:#000000;stroke-width:0.3;stroke-dasharray:2,4;fill:none;}
+g.dataholder rect{stroke:#000000;stroke-width:0.5;}
+.legenditem rect{stroke:#000000;stroke-width:0.5;}

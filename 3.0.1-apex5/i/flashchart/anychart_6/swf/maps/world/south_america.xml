@@ -1,0 +1,110 @@
+<map_data>
+ <name>south_america</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-109.427780151367" top="12.460277557373" right="-34.8008346557617" bottom="-55.9197235107422"/>
+ <regions>
+  <region>
+   <centroid lat="-51.7962532043457" lon="-59.5236129760742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Falkland Islands (Islas Malvinas)]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-16.290153503418" lon="-63.5886535644531"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bolivia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-23.4425029754639" lon="-58.4438323974609"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paraguay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-36.7125015258789" lon="-87.9341735839844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chile]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.78567731380463" lon="-83.4399871826172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ecuador]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.18996698409319" lon="-75.0151519775391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Peru]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-38.4160976409912" lon="-63.6166725158691"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Argentina]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.93388867378235" lon="-53.1257820129395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[FG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[French Guiana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.86041593551636" lon="-58.9301795959473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guyana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-14.2350039482117" lon="-51.9252796173096"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brazil]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="4.57086849212646" lon="-74.2966156005859"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colombia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="3.91930508613586" lon="-56.0277824401855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suriname]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.5227794647217" lon="-55.7658348083496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uruguay]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.42374992370605" lon="-66.589729309082"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[VE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Venezuela]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

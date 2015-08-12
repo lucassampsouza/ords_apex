@@ -1,0 +1,323 @@
+/* tag defaults */
+*{font-size:12px;}
+body {background-color:#EEEEEE; margin:0px; padding:0px 0px 0px 0px; font-family: Arial, Helvetica, Geneva, sans-serif;}
+a{color:#000000;}
+/**/
+ul{margin-left: 1em;padding-left: 0;}
+ol{margin-left: 1em;padding-left: 0;} 
+li{margin: 0;padding: 0;}
+
+/* class defaults */
+.t4RegionHeader {font-weight:bold;font-size:13px;padding:2px;padding-left:8px;padding-right:8px;background-color:#EEEEEE;border-bottom:1px solid #CCCCCC;}
+.t4ReportHeader {font-weight:bold;font-size:13px;padding:2px;padding-left:8px;padding-right:8px;background-color:#EEEEEE;border-bottom:1px solid #CCCCCC;}
+.t4ButtonHolder{padding:3px;text-align:right;}
+/* Page Classes */
+.t4PageBody{}
+#t4PageFooter{font-weight:bold;height:20px;padding:2px;padding-left:5px;background-color:#DDDDDD;border-bottom:2px solid #000000;border-top:2px solid #000000;}
+.t4NavBar{text-align:right;padding:5px;}
+.t4NavBar a{color:#000000;font-weight:bold;margin-left:5px;margin-right:5px;}
+.t4BreadCrumbRegion{font-weight:bold;height:20px;padding:2px;padding-left:5px;background-color:#DDDDDD;border-bottom:2px solid #000000;border-top:2px solid #000000;}
+.t4ContentBody{padding-left:10px;padding-right:10px;background-color:#FFFFFF;}
+.t4SidebarLayout{margin-left:10px;background-color:#FFFFFF;}
+.t4Login{padding:25px;text-align:center;width:300px;border:2px double #CCCCCC; margin:auto;margin-top:40px;margin-bottom:40px;}
+.t4UserPrompt{font-weight:bold;font-size:12px;text-align:left;padding:4px;white-space:nowrap;}
+.t4Copyright{font-weight:bold;font-size:12px;text-align:right;padding:4px;}
+/* Page Sub Templates Classes */
+.t4success{padding:10px;background-color:#EEEEEE;border:3px solid #CCCCCC;text-align:center;width:600px;margin:auto;margin-top:10px;margin-bottom:10px;}
+.t4notification{padding:10px;background-color:#EEEEEE;border:3px solid #CCCCCC;text-align:center;width:600px;margin:auto;margin-top:10px;margin-bottom:10px;}
+
+/* Tab Classes */
+.t4Tabs{text-align:center;padding-top:4px;}
+.t4standardtabcurrent{margin:0px 3px;background-color:#DDDDDD;padding:2px;border:2px solid #000000;border-bottom:none;text-decoration:none;}
+.t4standardtab{background-color:#FFFFFF;margin:0px 3px;padding:2px;border:2px solid #000000;border-bottom:none;text-decoration:none;}
+
+.t4ChildTabs{text-align:center;background-color:#FFFFFF;padding-bottom:4px;}
+.t4childtabcurrent{margin-left:3px;margin-right:3px;background-color:#DDDDDD;padding:2px;border:2px solid #000000;border-top:none;text-decoration:none;}
+.t4childtab{margin-left:3px;margin-right:3px;padding:2px;border:2px solid #000000;border-top:none;text-decoration:none;}
+
+/* Button Classes */
+.t4Button{padding-left:2px;padding-right:2px;margin:3px;white-space:nowrap;border:#888888 2px outset;background-color:#EEEEEE;text-decoration:none;font-weight:bold;}
+.t4Button:hover{background-color:#AAAAAA;}
+
+.t4ButtonAlternative1{padding-left:2px;padding-right:2px;margin:3px;background-color:#CCCCCC;white-space:nowrap;border:#888888 2px outset;text-decoration:none;font-weight:bold;}
+.t4ButtonAlternative1:hover{background-color:#FFFFFF;}
+
+.t4ButtonAlternative2{padding-left:2px;padding-right:2px;margin:3px;white-space:nowrap;border:#888888 2px outset;text-decoration:none;}
+.t4ButtonAlternative2:hover{background-color:#336699;}
+
+.t4ButtonAlternative3{padding-left:2px;padding-right:2px;margin:3px;background-color:#FF0000;white-space:nowrap;border:#888888 2px outset;text-decoration:none;font-weight:bold;}
+.t4ButtonAlternative3:hover{background-color:#FFFFFF;}
+
+/* Labels Classes */
+.t4NoLabel{font-weight:bold;white-space:nowrap;}
+.t4OptionalLabel{font-weight:bold;white-space:nowrap;}
+.t4OptionalLabelwithHelp{font-weight:bold;white-space:nowrap;}
+.t4RequiredLabel{color:#990000;font-weight:bold;white-space:nowrap;}
+.t4RequiredLabelwithHelp{color:#990000;font-weight:bold;white-space:nowrap;}
+
+.t4InlineError {text-decoration:underline;color:red;}
+.t4InlineError span{text-decoration:underline;color:red;}
+.t4InlineError a{text-decoration:underline;color:red;}
+.t4InlineError a:hover{text-decoration:underline;color:red;}
+.t4InlineError a:visited{text-decoration:underline;color:red;}
+
+
+
+
+/* Lists Classes */
+.t4ButtonList{}
+.t4ButtonList a{}
+.t4ButtonList .t4current{background-color:#CCCCCC;}
+
+.t4HorizontalImageswithLabelList{}
+.t4HorizontalImageswithLabelList td{padding:5px;text-align:center;}
+.t4HorizontalImageswithLabelList .t4current{}
+
+.t4HorizontalLinksList{}
+.t4HorizontalLinksList a{margin-left:3px;margin-right:3px;}
+.t4HorizontalLinksList a.t4current{text-decoration:none;}
+
+.t4TabbedNavigationList{white-space:nowrap;border-bottom: 1px solid rgb(159, 177, 188); margin: 0pt; padding: 0pt 0pt 20px 10px;}
+.t4TabbedNavigationList li {white-space:nowrap;float:left;margin: 0; padding: 0;display: block;list-style-type: none;}
+.t4TabbedNavigationList a:link, .t4TabbedNavigationList a:visited {font-weight:bold;padding: 0pt 12px 6px; float: left; font-size: 12px; line-height: 14px; font-weight: bold; text-decoration: none; color: rgb(112, 132, 145); }
+.t4TabbedNavigationList a.t4current:link, .t4TabbedNavigationList a.t4current:visited, .t4TabbedNavigationList a:hover {font-weight:bold;background: transparent url(tab_rounded.gif) no-repeat scroll center bottom; color: rgb(0, 0, 0);}
+
+.t4VerticalImagesList{}
+.t4VerticalImagesList img{display:block;margin:auto;}
+.t4VerticalImagesList td{text-align:center;padding:2px;}
+.t4VerticalImagesList .t4current{border-left:2px solid #CCCCCC;border-right:2px solid #CCCCCC;}
+
+.t4VerticalOrderedList{}
+.t4VerticalOrderedList .t4current a{text-decoration:none;}
+
+.t4VerticalSidebarList{width:100%;}
+.t4VerticalSidebarList a.t4nav{display:block}
+.t4VerticalSidebarList .t4current a{display:block;text-decoration:none;}
+
+.t4VerticalUnorderedListwithBullets{}
+.t4VerticalUnorderedListwithBullets .t4current a{text-decoration:none;}
+
+.t4VerticalUnorderedLinkswithoutBullets{list-style:none;}
+.t4VerticalUnorderedLinkswithoutBullets .t4current a{text-decoration:none;}
+
+.t4WizardProgressList{text-align:center;}
+.t4WizardProgressList div{margin:2px;}
+.t4WizardProgressList .t4current{border:2px solid #CCCCCC;padding:2px;}
+
+/*Menus*/
+
+.t4BreadcrumbMenu{}
+.t4BreadcrumbMenu .t4current{}
+
+.t4HierarchicalMenu{}
+.t4HierarchicalMenu .t4current{}
+
+/* Reports */
+
+th.t4ReportHeader{empty-cells : show;	border-collapse : collapse;padding:2px;padding-right:8px;padding-left:8px;}
+td.t4data{padding:2px;padding-left:8px;padding-right:8px;empty-cells : show;	border-collapse : collapse;}
+td.t4dataalt{padding:2px;padding-left:8px;padding-right:8px;empty-cells : show;	border-collapse : collapse;}
+
+.t4Borderless{empty-cells : show;	border-collapse : collapse;}
+.t4Borderless th.t4ReportHeader {border:none;border-right:2px solid #FFFFFF;}
+.t4Borderless td.t4data {border:none;}
+
+.t4HorizontalBorder {empty-cells : show;	border-collapse : collapse;}
+.t4HorizontalBorder th.t4ReportHeader {border-bottom:1px solid #AAAAAA;}
+.t4HorizontalBorder td.t4data {border-bottom:1px solid #AAAAAA;}
+
+.t4Standard{empty-cells : show;	border-collapse : collapse;border-left:1px solid #AAAAAA;}
+.t4Standard th.t4ReportHeader{border:1px solid #AAAAAA;border-left:none;}
+.t4Standard td.t4data{border:1px solid #AAAAAA;border-left:none;border-top:none;}
+
+.t4StandardAlternatingRowColors{empty-cells : show;	border-collapse : collapse;border-left:1px solid #AAAAAA;}
+.t4StandardAlternatingRowColors th.t4ReportHeader{border:1px solid #AAAAAA;border-left:none;}
+.t4StandardAlternatingRowColors td.t4data{border:1px solid #AAAAAA;border-left:none;border-top:none;}
+.t4StandardAlternatingRowColors td.t4dataalt{background-color:#EEEEEE;padding:2px;border:1px solid #AAAAAA;border-left:none;border-top:none;}
+
+.t4ValueAttributePairs{empty-cells : show;	border-collapse : collapse;}
+.t4ValueAttributePairs th.t4ReportHeader{text-align:left;border:1px solid #AAAAAA;border-right:none;border-bottom:none;}
+.t4ValueAttributePairs td.t4data{border:1px solid #AAAAAA;border-bottom:none;}
+.t4ValueAttributePairs td.t4seperate{border-top:1px solid #AAAAAA;}
+.t4ValueAttributePairs td.t4seperate hr{height:2px;color:#AAAAAA;background-color:#AAAAAA;}
+
+.t4OneColumnUnorderedList{}
+
+/*Regions*/
+/* Region Defaults */
+.t4ButtonHolder{padding:2px;}
+.t4RegionBody {padding:5px;}
+
+.t4BreadcrumbRegion {}
+
+.t4ButtonRegionwithTitle {}
+.t4ButtonRegionwithTitle .t4RegionHeader {border:1px solid #CCCCCC;}
+.t4ButtonRegionwithTitle .t4ButtonHolder {}
+
+.t4ButtonRegionwithoutTitle {}
+.t4ButtonRegionwithoutTitle .t4ButtonHolder {}
+
+.t4BorderlessRegion {margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4BorderlessRegion .t4Header {}
+.t4BorderlessRegion .t4ButtonHolder {}
+.t4BorderlessRegion .t4RegionBody {}
+
+.t4BracketedRegion {margin-top:10px;margin-bottom:10px;border:none;}
+.t4BracketedRegion .t4RegionHeader {border:1px solid #CCCCCC;}
+.t4BracketedRegion .t4ButtonHolder {}
+.t4BracketedRegion .t4RegionBody {border-bottom:1px solid #CCCCCC;}
+.t4BracketedRegion .t4bracket {background-color:#CCCCCC;width:2px;height:10px;}
+
+
+.t4ChartRegion {margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4ChartRegion .t4RegionHeader {}
+.t4ChartRegion .t4ButtonHolder {}
+.t4ChartRegion .t4RegionBody {}
+
+.t4ListRegionwithIcon {margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4ListRegionwithIcon .t4RegionHeader {}
+.t4ListRegionwithIcon .t4ButtonHolder {}
+.t4ListRegionwithIcon .t4RegionBody {}
+
+.t4FormRegion {margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4FormRegion .t4RegionHeader {}
+.t4FormRegion .t4ButtonHolder {}
+.t4FormRegion .t4RegionBody {}
+
+.t4ReportsRegion {margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4ReportsRegion .t4RegionHeader {}
+.t4ReportsRegion .t4ButtonHolder {}
+.t4ReportsRegion .t4RegionBody {}
+
+.t4ReportsRegionAlternative1 {margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4ReportsRegionAlternative1 .t4RegionHeader {}
+.t4ReportsRegionAlternative1 .t4ButtonHolder {}
+.t4ReportsRegionAlternative1 .t4RegionBody {}
+
+.t4GReportsRegion100Width {width:100%;margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4GReportsRegion100Width .t4RegionHeader {}
+.t4GReportsRegion100Width .t4ButtonHolder {}
+.t4GReportsRegion100Width .t4RegionBody {}
+
+.t4RegionwithoutTitle {margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4RegionwithoutTitle .t4ButtonHolder {}
+.t4RegionwithoutTitle .t4Body {}
+
+.t4RegionwithoutButtonsandTitle {margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4RegionwithoutButtonsandTitle .t4Body {}
+
+.t4HideandShowRegion {margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4HideandShowRegion .t4RegionHeader {}
+.t4HideandShowRegion .t4ButtonHolder {}
+.t4HideandShowRegion .t4Body {}
+.t4HideandShowRegion .t4Hide {display:none;}
+
+.t4SidebarRegion {width:200px;margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4SidebarRegion .t4RegionHeader {}
+.t4SidebarRegion .t4ButtonHolder {}
+.t4SidebarRegion .t4Body {}
+
+.t4SidebarRegionAlternative1 {width:200px;margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4SidebarRegionAlternative1 .t4RegionHeader {}
+.t4SidebarRegionAlternative1 .t4ButtonHolder {}
+.t4SidebarRegionAlternative1 .t4Body {}
+
+.t4NavigationRegion {width:200px;margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4NavigationRegion .t4RegionHeader {}
+.t4NavigationRegion .t4ButtonHolder {}
+.t4NavigationRegion .t4Body {}
+
+.t4NavigationRegionAlternative1 {width:200px;margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4NavigationRegionAlternative1 .t4RegionHeader {}
+.t4NavigationRegionAlternative1 .t4ButtonHolder {}
+.t4NavigationRegionAlternative1 .t4Body {}
+
+.t4WizardRegion {width:600px;margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4WizardRegion .t4RegionHeader {}
+.t4WizardRegion .t4ButtonHolder {}
+.t4WizardRegion .t4Body {}
+
+.t4WizardRegionwithIcon {width:600px;margin-top:10px;margin-bottom:10px;border:1px solid #CCCCCC;}
+.t4WizardRegionwithIcon .t4RegionHeader {}
+.t4WizardRegionwithIcon .t4ButtonHolder {}
+.t4WizardRegionwithIcon .t4Body {}
+
+/*Calendars*/
+.t4CalendarHolder{width:100%;}
+.t4CalendarHolder .t4MonthTitle{font-weight:bold;text-align:center;font-size:15px;color:#000000; border:1px solid #000000;}
+.t4Calendar {width:100%;background-color:#EEEEEE;}
+.t4Calendar .t4DayOfWeek{padding:3px;background-color:#FFFFFF;border:1px solid #000000;border-top:none;}
+.t4Calendar td{height:50px;width:14%;border:1px solid #FFFFFF;}
+.t4Calendar .t4DayTitle{padding:2px;font-weight:bold;text-align:right;float:right;border:#000000 1px solid;border-right:none;border-top:none;background-color:#FFFFFF;}
+.t4Calendar .t4Day{vertical-align:top;}
+.t4Calendar .t4NonDayTitle{text-align:right;color:#EEEEEE;font-weight:bold;}
+.t4Calendar .t4NonDay{background-color:#bbbbbb;}
+.t4Calendar .t4WeekendDayTitle{padding:2px;text-align:right;color:#EEEEEE;font-weight:bold;text-align:right;float:right;border:1px solid #FFFFFF;border-right:none;border-top:none;text-align:right;color:#CCCCCC;}
+.t4Calendar .t4WeekendDay{}
+.t4Calendar .t4Today{vertical-align:top;border:#000000 1px solid;background-color:#FFFFFF;}
+.t4Calendar .t4Today .t4DayTitle{background-color:#EEEEEE;}
+
+.t4CalendarAlternative1Holder{}
+.t4CalendarAlternative1Holder .t4MonthTitle{text-align:center;font-size:20px;color:#999999;font-weight:bold}
+.t4CalendarAlternative1 {border:1px solid #666666;}
+.t4CalendarAlternative1 .t4DayOfWeek{padding:3px;background-color:#DDDDDD;}
+.t4CalendarAlternative1 td{padding:3px;width:100px;height:100px;border:1px solid #EEEEEE;}
+.t4CalendarAlternative1 .t4DayTitle{font-weight:bold;text-align:right;float:left;border-right:1px solid #000000;margin-right:5px;}
+.t4CalendarAlternative1 .t4Day{vertical-align:top;}
+.t4CalendarAlternative1 .t4NonDayTitle{font-weight:bold;text-align:right;float:left;margin-right:5px;color:#CCCCCC;}
+.t4CalendarAlternative1 .t4NonDay{border:none;}
+.t4CalendarAlternative1 .t4WeekendDayTitle{font-weight:bold;text-align:right;float:left;border-right:1px solid #CCCCCC;margin-right:5px;color:#CCCCCC;}
+.t4CalendarAlternative1 .t4WeekendDay{}
+.t4CalendarAlternative1 .t4Today{vertical-align:top;vertical-align:top;border:#000000 3px dashed;background-color:#DDDDDD;}
+
+.t4SmallCalenderHolder{}
+.t4SmallCalenderHolder .t4MonthTitle{background-color:#EEEEEE;text-align:center;font-weight:bold;border:1px solid #000000;padding:2px;}
+.t4SmallCalender .t4DayTitle{border-bottom:1px solid #CCCCCC;background-color:#EEEEEE;}
+.t4SmallCalender td{width:40px;height:40px;border:1px solid #000000;}
+.t4SmallCalender .t4Day{vertical-align:top;}
+.t4SmallCalender .t4DayOfWeek{background-color:#DDDDDD;}
+.t4SmallCalender .t4NonDayTitle{color:#CCCCCC;border-bottom:1px solid #CCCCCC;background-color:#EEEEEE;}
+.t4SmallCalender .t4NonDay{}
+.t4SmallCalender .t4WeekendDayTitle{color:#CCCCCC;border-bottom:1px solid #CCCCCC;background-color:#EEEEEE;}
+.t4SmallCalender .t4WeekendDay{}
+.t4SmallCalender .t4Today{vertical-align:top;border:#000000 1px solid;background-color:#DDDDDD;}
+
+/* Random Overrides */
+/*collapses content*/
+div.t4contentcollapse{display:table;}
+
+
+.t4PopupHead{background-color:#dddddd;border-bottom:2px solid #000000;padding:6px;}
+.t4PopupBody{padding:6px;}
+
+/* DHTML */
+	div.dhtmlMenuLG{white-space:nowrap;clear:both;}
+	div.dhtmlMenuLG div.dhtmlMenuItem{text-align:center;float:left;margin:0px 15px 0px 0px;}
+	div.dhtmlMenuLG a.dhtmlBottom{text-decoration:none;display:block;font-size:12px;margin:0px 5px;font-weight:bold;}
+	div.dhtmlMenuLG img.dhtmlMenu{}
+	div.dhtmlMenuLG div.htmldbBKHolder{float:left;}
+	div.dhtmlMenuLG img.dhtmlMenuOn{}
+
+	
+
+  ul.dhtmlTree li{padding:2px 0px;}
+  ul.dhtmlTree li img{margin:0px 4px;}
+  
+	.dhtmlMenuLG2{list-style-type : none;padding:1px;}
+	.dhtmlMenuLG2 li.dhtmlMenuItem{float:left;} 
+	.dhtmlMenuLG2 li.dhtmlMenuItem a{text-decoration:none;display:block;padding:2px;border:1px outset #000000;height:1%;}
+  .dhtmlMenuLG2 li.dhtmlMenuItem a:hover{background-color:#DDDDDD;}
+
+	.dhtmlSubMenu {background-color: #FFFFFF;font-size: 11px;width: 200px;border:1px solid #b7b7b7;list-style-type : none;margin:0em;padding-left:0em;}
+	.dhtmlSubMenu li{margin:0em;padding-left:0em;}
+   .dhtmlMenuSep{text-align:center;}
+	img.dhtmlMenuSep{display:block; margin:auto; width:80%;border:1px solid #efefef; height:1px; background-color:#CCCCCC; }
+	.dhtmlSubMenu img.dhtmlSep {width:180px;height:1px;}
+	.dhtmlSubMenu .htmldbMIMG {vertical-align:middle;float:right}
+	.dhtmlSubMenu .dhtmlSubMenuP {text-align:center;color: #808080;padding: 3px;border-bottom:#CCCCCC 1px solid;padding:0px 8px;text-decoration: none;white-space: nowrap;font-weight:bold;margin:1px;}
+	.dhtmlSubMenu a.dhtmlSubMenuN {border:1px solid #efefef;color:#808080;display:block;font-weight:normal;padding:3px 8px;text-decoration: none;		white-space: nowrap;		margin:1px;		height:1%;		overflow:hidden;	}
+	.dhtmlSubMenu a.dhtmlSubMenuN:hover {background-color:#DDDDDD;border:1px solid black;color:#000000;padding:3px 8px;margin:1px;}
+	.dhtmlSubMenu a.dhtmlSubMenuS {border:1px solid #efefef;color:#808080;display:block;font-weight:normal;padding:3px 8px;	text-decoration: none;		white-space: nowrap;		margin:1px;		height:1%;		overflow:hidden;	}
+	.dhtmlSubMenu a.dhtmlSubMenuS:hover {background-color:#DDDDDD;border:1px solid #000000;		color: #000000;		display: block;		font-weight: normal;		padding:3px 8px;		margin:1px;	}
+
+  

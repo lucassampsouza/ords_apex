@@ -1,0 +1,74 @@
+/** 
+ * Import Compass and Theme Variables
+ */
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/******************************************************************************
+Color Variables
+******************************************************************************/
+/******************************************************************************
+Page Columns
+******************************************************************************/
+/* line 25, ../../../scss/theme/standard/PageColumn.scss */
+.a-PageColumn-heading {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 8px;
+  color: #707070;
+  margin-bottom: 1px;
+}
+@media only screen and (max-width: 1024px) {
+  /* line 25, ../../../scss/theme/standard/PageColumn.scss */
+  .a-PageColumn-heading {
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  /* line 25, ../../../scss/theme/standard/PageColumn.scss */
+  .a-PageColumn-heading {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1679px) {
+  /* line 25, ../../../scss/theme/standard/PageColumn.scss */
+  .a-PageColumn-heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

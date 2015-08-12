@@ -1,0 +1,1550 @@
+/**
+ * Import Compass
+ */
+/******************************************************************************
+Sprite Mixin
+******************************************************************************/
+/******************************************************************************
+Extendible Sprite Class
+******************************************************************************/
+/* ==========================================================================
+   Interactive Report
+   ========================================================================== */
+/* line 9, ../../scss/core/IRR.scss */
+.a-IRR {
+  border: 1px solid;
+  position: relative;
+}
+
+/* line 13, ../../scss/core/IRR.scss */
+.a-IRR-container {
+  position: relative;
+}
+
+/* line 17, ../../scss/core/IRR.scss */
+.a-IRR *,
+.a-IRR-sortWidget * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 21, ../../scss/core/IRR.scss */
+.a-IRR-toolbar {
+  padding: 8px 8px 0 8px;
+  border-bottom: 1px solid;
+  display: table;
+  width: 100%;
+  position: relative;
+}
+
+/* line 30, ../../scss/core/IRR.scss */
+.a-IRR-controls,
+.a-IRR-buttons {
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* line 34, ../../scss/core/IRR.scss */
+.a-IRR-buttons {
+  text-align: right;
+}
+
+/* line 44, ../../scss/core/IRR.scss */
+.a-IRR-colSelector,
+.a-IRR-colSearch,
+.a-IRR-search,
+.a-IRR-savedReports,
+.a-IRR-views,
+.a-IRR-rowSelector,
+.a-IRR-actions,
+.a-IRR-manage {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* ==========================================================================
+   Search
+   ========================================================================== */
+/* line 55, ../../scss/core/IRR.scss */
+.a-IRR-search {
+  margin-right: 4px;
+}
+
+/* line 58, ../../scss/core/IRR.scss */
+.a-IRR-search-field {
+  display: inline-block;
+  min-height: 30px;
+  height: 32px;
+  padding: 0 8px;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+/* line 66, ../../scss/core/IRR.scss */
+.a-IRR-search-field:focus {
+  outline: none;
+}
+
+/* line 70, ../../scss/core/IRR.scss */
+.a-IRR-button--search {
+  vertical-align: top;
+}
+
+/* ==========================================================================
+   Column Search
+   ========================================================================== */
+/* line 80, ../../scss/core/IRR.scss */
+.a-IRR-colSearch:empty {
+  display: none;
+}
+
+/* ==========================================================================
+   Buttons in IRR Button Position
+   ========================================================================== */
+/* ==========================================================================
+   Search Options
+   ========================================================================== */
+/* line 95, ../../scss/core/IRR.scss */
+.a-IRR-views {
+  margin-right: 4px;
+}
+/* line 97, ../../scss/core/IRR.scss */
+.a-IRR-views .a-IRR-button {
+  border-radius: 0;
+  margin-right: -1px;
+  margin-left: 0 !important;
+}
+/* line 101, ../../scss/core/IRR.scss */
+.a-IRR-views .a-IRR-button:first-child {
+  border-radius: 2px 0 0 2px;
+}
+/* line 104, ../../scss/core/IRR.scss */
+.a-IRR-views .a-IRR-button:last-child {
+  border-radius: 0 2px 2px 0;
+  margin-right: 0;
+}
+
+/* ==========================================================================
+   Manage Button (Websheets Only)
+   ========================================================================== */
+/* line 114, ../../scss/core/IRR.scss */
+.a-IRR-manage {
+  margin-left: 4px;
+}
+
+/* line 118, ../../scss/core/IRR.scss */
+.a-IRR-control-panel {
+  clear: both;
+}
+
+/* line 124, ../../scss/core/IRR.scss */
+.a-Button.a-IRR-button--actions.is-active, .a-Button.a-IRR-button--actions.is-active:active {
+  font-weight: normal;
+}
+
+/* ==========================================================================
+   Select Lists (Rows and Saved Reports)
+   ========================================================================== */
+/* line 133, ../../scss/core/IRR.scss */
+.a-IRR-rowSelector .a-IRR-selectList,
+.a-IRR-savedReports .a-IRR-selectList {
+  margin-right: 4px;
+  vertical-align: top;
+}
+
+/* line 137, ../../scss/core/IRR.scss */
+.a-IRR-rowSelector label {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4px;
+  line-height: 32px;
+  color: #404040;
+}
+
+/* line 144, ../../scss/core/IRR.scss */
+.a-IRR-selectList {
+  display: inline-block;
+  min-height: 30px;
+  height: 32px;
+  padding: 6px 36px 6px 6px;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 2px;
+  border: 1px solid;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiPjxwYXRoIGZpbGw9IiNGMkYyRjIiIGQ9Ik0wIDBoMzJ2MzJoLTMyeiIvPjxwYXRoIGZpbGw9IiNEOUQ5RDkiIGQ9Ik0wIDBoMXYzMmgtMXoiLz48cGF0aCBmaWxsPSIjNjY2IiBkPSJNMjAuNSAxOC4yOTNjMCAuMTI4LS4wNDkuMjU2LS4xNDYuMzU0bC00LjM1NCA0LjM1My00LjM1NC00LjM1NGMtLjE5NS0uMTk1LS4xOTUtLjUxMiAwLS43MDdzLjUxMi0uMTk1LjcwNyAwbDMuNjQ3IDMuNjQ3IDMuNjQ2LTMuNjQ2Yy4xOTUtLjE5NS41MTItLjE5NS43MDcgMCAuMDk4LjA5Ny4xNDcuMjI1LjE0Ny4zNTN6TTExLjUgMTMuNzA3YzAtLjEyOC4wNDktLjI1Ni4xNDYtLjM1NGw0LjM1NC00LjM1MyA0LjM1NCA0LjM1NGMuMTk1LjE5NS4xOTUuNTEyIDAgLjcwN3MtLjUxMi4xOTUtLjcwNyAwbC0zLjY0Ny0zLjY0Ny0zLjY0NiAzLjY0NmMtLjE5NS4xOTUtLjUxMi4xOTUtLjcwNyAwLS4wOTgtLjA5Ny0uMTQ3LS4yMjUtLjE0Ny0uMzUzeiIvPjwvc3ZnPg==);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  -webkit-background-size: contain;
+  background-size: contain;
+  color: #404040;
+  text-overflow: ' ';
+  overflow: hidden;
+}
+/* line 155, ../../scss/core/IRR.scss */
+.a-IRR-selectList:focus {
+  outline: none;
+}
+
+/* line 174, ../../scss/core/IRR.scss */
+.ie7 .a-IRR-selectList, .ie8 .a-IRR-selectList, .ie9 .a-IRR-selectList {
+  padding: 6px;
+  background-image: none;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 180, ../../scss/core/IRR.scss */
+  .a-IRR-selectList {
+    padding: 6px;
+    background-image: none;
+  }
+}
+/* ==========================================================================
+   Sort Widget
+   ========================================================================== */
+/* line 190, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget {
+  position: absolute;
+  width: 220px;
+  border: 1px solid #D0D0D0;
+  background-color: #FFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 2px 2px;
+  z-index: 800;
+}
+
+/* line 201, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-actions,
+.a-IRR-sortWidget-rows {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 206, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-actions {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+/* line 214, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-actions-item {
+  display: table-cell;
+  border-right: 1px solid #E8E8E8;
+}
+/* line 217, ../../scss/core/IRR.scss */
+.ie7 .a-IRR-sortWidget-actions-item, .ie6 .a-IRR-sortWidget-actions-item, .lt-ie8 .a-IRR-sortWidget-actions-item {
+  display: inline-block;
+  width: 50px;
+  float: left;
+}
+/* line 222, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-actions-item:last-child {
+  border-right: 0;
+}
+
+/* line 226, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-searchIcon {
+  color: #C0C0C0;
+  position: absolute;
+  margin: 8px;
+}
+
+/* line 231, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-searchLabel {
+  position: absolute;
+  padding: 8px;
+  height: 32px;
+}
+/* line 235, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-searchLabel:before {
+  font-family: "apex-5-icon-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e022";
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  color: #707070;
+}
+
+/* line 244, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-help {
+  padding: 8px;
+  max-height: 160px;
+  overflow: auto;
+  background: linear-gradient(#ffffff 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), #ffffff 70%) 0 100%, linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 12px, 100% 12px, 100% 6px, 100% 6px;
+  background-attachment: local, local, scroll, scroll;
+}
+
+/* line 261, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField,
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"] {
+  display: block;
+  width: 100%;
+  height: 32px;
+  padding: 0 8px 0 32px;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+  border: none;
+  color: #404040;
+}
+/* line 271, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField:focus,
+.a-IRR-sortWidget-search > .a-IRR-sortWidget-searchField[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #4696fc inset;
+}
+
+/* line 276, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-rows {
+  border-top: 1px solid #E8E8E8;
+  max-height: 180px;
+  overflow: auto;
+  background: linear-gradient(#ffffff 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), #ffffff 70%) 0 100%, linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 12px, 100% 12px, 100% 6px, 100% 6px;
+  background-attachment: local, local, scroll, scroll;
+}
+
+/* line 291, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-row {
+  display: block;
+  text-decoration: none;
+  color: #404040;
+  font-size: 12px;
+  line-height: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 8px;
+  box-shadow: 0 -1px 0 #F0F0F0 inset;
+}
+/* line 302, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-row:hover {
+  background-color: #F8F8F8;
+  text-decoration: none;
+}
+/* line 306, ../../scss/core/IRR.scss */
+.a-IRR-sortWidget-row:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #4696fc inset;
+}
+
+/* line 312, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button {
+  border-radius: 0;
+  width: 100%;
+  padding: 8px 0;
+  display: block;
+  box-shadow: none;
+  background-color: #FAFAFA;
+}
+/* line 319, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button:hover {
+  background-color: #FFF;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 323, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button:focus {
+  box-shadow: 0 0 0 1px #4696fc inset, 0 0 0 1px #4696fc, 0 0 2px 2px rgba(70, 150, 252, 0.5);
+}
+/* line 327, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button:active, .a-IRR-button.a-IRR-sortWidget-button:active:focus {
+  background-color: #E0E0E0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) inset, 1px 0 0 rgba(0, 0, 0, 0.05) inset, -1px 0 0 rgba(0, 0, 0, 0.05) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.075) inset;
+}
+/* line 332, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-sortWidget-button.is-active {
+  background-color: #D0D0D0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) inset, 1px 0 0 rgba(0, 0, 0, 0.05) inset, -1px 0 0 rgba(0, 0, 0, 0.05) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.075) inset;
+}
+
+/* ==========================================================================
+   IRR Type Colors
+   ========================================================================== */
+/* ==========================================================================
+   IRR Controls
+   ========================================================================== */
+/* line 361, ../../scss/core/IRR.scss */
+.a-IRR-controlsContainer {
+  padding: 8px;
+  border-bottom: 1px solid #E0E0E0;
+  overflow: hidden;
+}
+
+/* line 366, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-button--controls {
+  padding: 8px;
+  box-shadow: none;
+  background-color: #FFF;
+}
+
+/* line 371, ../../scss/core/IRR.scss */
+.a-IRR-controls {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 376, ../../scss/core/IRR.scss */
+.a-IRR-controls-item {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+/* line 380, ../../scss/core/IRR.scss */
+.a-IRR-controls-item:last-child {
+  margin-bottom: 0;
+}
+/* line 383, ../../scss/core/IRR.scss */
+.a-IRR-controls-item .a-IRR-button.a-IRR-button--remove {
+  opacity: .65;
+}
+/* line 387, ../../scss/core/IRR.scss */
+.a-IRR-controls-item:hover .a-IRR-button.a-IRR-button--remove,
+.a-IRR-controls-item .a-IRR-button.a-IRR-button--remove:focus {
+  opacity: 1;
+}
+/* line 391, ../../scss/core/IRR.scss */
+.a-IRR-controls-item.is-error .a-IRR-controlsLabel {
+  background-color: #FFE6E6;
+}
+/* line 394, ../../scss/core/IRR.scss */
+.a-IRR-controls-item.is-error .a-IRR-controls-cell:nth-child(2) {
+  background-color: #FF3B30;
+}
+/* line 397, ../../scss/core/IRR.scss */
+.a-IRR-controls-item.is-error .a-IRR-controlsIcon {
+  color: #FFF;
+}
+/* line 400, ../../scss/core/IRR.scss */
+.a-IRR-controls-item.is-error .a-IRR-controlsLabel {
+  color: #FF3B30;
+}
+
+/* line 412, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--savedReport a.a-IRR-controlsLabel:hover {
+  background-color: #ecf5fd;
+}
+/* line 416, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--savedReport .a-IRR-controls-cell:nth-child(2) {
+  background-color: #4aa4ec;
+}
+
+/* line 412, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--search a.a-IRR-controlsLabel:hover {
+  background-color: #ecf5fd;
+}
+/* line 416, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--search .a-IRR-controls-cell:nth-child(2) {
+  background-color: #4aa4ec;
+}
+
+/* line 412, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--filter a.a-IRR-controlsLabel:hover {
+  background-color: #dcf9ec;
+}
+/* line 416, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--filter .a-IRR-controls-cell:nth-child(2) {
+  background-color: #24cb7f;
+}
+
+/* line 412, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--controlBreak a.a-IRR-controlsLabel:hover {
+  background-color: #e6f0f7;
+}
+/* line 416, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--controlBreak .a-IRR-controls-cell:nth-child(2) {
+  background-color: #3b83bd;
+}
+
+/* line 412, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--groupBy a.a-IRR-controlsLabel:hover {
+  background-color: #e6f0f7;
+}
+/* line 416, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--groupBy .a-IRR-controls-cell:nth-child(2) {
+  background-color: #3b83bd;
+}
+
+/* line 412, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--highlight a.a-IRR-controlsLabel:hover {
+  background-color: #fff0cd;
+}
+/* line 416, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--highlight .a-IRR-controls-cell:nth-child(2) {
+  background-color: #ffbe2a;
+}
+
+/* line 412, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--flashback a.a-IRR-controlsLabel:hover {
+  background-color: #d5d9dc;
+}
+/* line 416, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--flashback .a-IRR-controls-cell:nth-child(2) {
+  background-color: #9ea7ad;
+}
+
+/* line 412, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--chart a.a-IRR-controlsLabel:hover {
+  background-color: #85b4d9;
+}
+/* line 416, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--chart .a-IRR-controls-cell:nth-child(2) {
+  background-color: #3b83bd;
+}
+
+/* line 412, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--pivot a.a-IRR-controlsLabel:hover {
+  background-color: #d5d9dc;
+}
+/* line 416, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--pivot .a-IRR-controls-cell:nth-child(2) {
+  background-color: #9ea7ad;
+}
+
+/* line 412, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--invalidSettings a.a-IRR-controlsLabel:hover {
+  background-color: #f4f5f6;
+}
+/* line 416, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--invalidSettings .a-IRR-controls-cell:nth-child(2) {
+  background-color: #bdc3c7;
+}
+
+/* line 412, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--inactiveSettings a.a-IRR-controlsLabel:hover {
+  background-color: #f4f5f6;
+}
+/* line 416, ../../scss/core/IRR.scss */
+.a-IRR-controls-item--inactiveSettings .a-IRR-controls-cell:nth-child(2) {
+  background-color: #bdc3c7;
+}
+
+/* line 422, ../../scss/core/IRR.scss */
+.a-IRR-controls-cell {
+  display: block;
+  float: left;
+  padding: 8px;
+  transition: background-color .1s;
+  background-clip: padding-box;
+  line-height: 16px;
+}
+/* line 430, ../../scss/core/IRR.scss */
+.a-IRR-controls-cell:first-child {
+  padding-left: 8px;
+  min-width: 32px;
+}
+/* line 435, ../../scss/core/IRR.scss */
+.a-IRR-controls-cell:nth-child(2) {
+  border-radius: 2px 0 0 2px;
+  background-color: #F0F0F0;
+  padding: 8px 9px 8px 8px;
+}
+/* line 442, ../../scss/core/IRR.scss */
+.a-IRR-controls-cell:last-child {
+  padding-right: 8px;
+}
+
+/* line 447, ../../scss/core/IRR.scss */
+.a-IRR-controls-cell--label {
+  width: 300px;
+  padding: 0;
+  border-radius: 0 2px 2px 0;
+  overflow: hidden;
+}
+
+/* line 453, ../../scss/core/IRR.scss */
+.a-IRR-controls-cell--remove {
+  padding: 4px 8px;
+}
+
+/* line 456, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-button--remove {
+  display: block;
+  padding: 4px;
+  background-color: transparent;
+  box-shadow: none;
+  color: #A0A0A0;
+}
+/* line 462, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-button--remove:hover {
+  color: #F00;
+}
+
+/* line 466, ../../scss/core/IRR.scss */
+.a-IRR-controlsLabel {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  vertical-align: top;
+  text-decoration: none;
+  padding: 7px 7px 7px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  border-left: none;
+  background-clip: border-box;
+  transition: background-color .1s;
+  background-color: #FFF;
+}
+
+/* line 484, ../../scss/core/IRR.scss */
+a.a-IRR-controlsLabel:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 1px #4696fc inset;
+  -moz-box-shadow: 0 0 0 1px #4696fc inset;
+  box-shadow: 0 0 0 1px #4696fc inset;
+}
+
+/* line 489, ../../scss/core/IRR.scss */
+.a-IRR-controlsLabel--highlight {
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* line 497, ../../scss/core/IRR.scss */
+.a-IRR-controlsCheckboxLabel {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #C0C0C0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset;
+  background-color: #FFF;
+  padding: 1px;
+  border-radius: 2px;
+  display: block;
+  font-family: "apex-5-icon-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 508, ../../scss/core/IRR.scss */
+.a-IRR-controlsCheckboxLabel:before {
+  font-size: 12px;
+  width: 12px;
+  height: 12px;
+  content: "\e007";
+  display: block;
+  color: #404040;
+  position: absolute;
+  opacity: 0;
+  transition: opacity .2s;
+}
+/* line 518, ../../scss/core/IRR.scss */
+.ie7 .a-IRR-controlsCheckboxLabel:before {
+  background-image: url("");
+}
+/* line 523, ../../scss/core/IRR.scss */
+.a-IRR-controlsCheckboxLabel:hover:before {
+  opacity: .15;
+}
+/* line 527, ../../scss/core/IRR.scss */
+.a-IRR-controlsCheckboxLabel:active {
+  background-color: #E0E0E0;
+}
+/* line 529, ../../scss/core/IRR.scss */
+.a-IRR-controlsCheckboxLabel:active:before {
+  opacity: .75;
+}
+
+/* line 534, ../../scss/core/IRR.scss */
+.a-IRR-controls .a-IRR-controlsCheckbox {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 536, ../../scss/core/IRR.scss */
+.a-IRR-controls .a-IRR-controlsCheckbox:checked + .a-IRR-controlsCheckboxLabel {
+  position: relative;
+}
+/* line 539, ../../scss/core/IRR.scss */
+.a-IRR-controls .a-IRR-controlsCheckbox:checked + .a-IRR-controlsCheckboxLabel:before {
+  opacity: 1;
+}
+/* line 543, ../../scss/core/IRR.scss */
+.a-IRR-controls .a-IRR-controlsCheckbox:focus + .a-IRR-controlsCheckboxLabel {
+  border-color: #4696fc;
+  box-shadow: 0 0 2px 0 rgba(70, 150, 252, 0.5);
+}
+/* line 547, ../../scss/core/IRR.scss */
+.a-IRR-controls .a-IRR-controlsCheckbox:disabled + .a-IRR-controlsCheckboxLabel {
+  opacity: .35;
+  pointer-events: none;
+}
+
+/* line 556, ../../scss/core/IRR.scss */
+.a-IRR-controlsIcon {
+  color: #FFF;
+}
+
+/* ==========================================================================
+   Report Summary
+   ========================================================================== */
+/* line 563, ../../scss/core/IRR.scss */
+.a-IRR-reportSummaryContainer {
+  overflow: hidden;
+}
+
+/* line 566, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  margin-bottom: -4px;
+}
+
+/* line 572, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item {
+  display: block;
+  float: left;
+  margin-bottom: 4px;
+  margin-right: 8px;
+}
+
+/* line 586, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--savedReport .a-IRR-reportSummary-label:hover {
+  background-color: #ecf5fd;
+}
+/* line 592, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--savedReport .a-IRR-reportSummary-icon {
+  background-color: #4aa4ec;
+}
+
+/* line 586, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--search .a-IRR-reportSummary-label:hover {
+  background-color: #ecf5fd;
+}
+/* line 592, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--search .a-IRR-reportSummary-icon {
+  background-color: #4aa4ec;
+}
+
+/* line 586, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--filter .a-IRR-reportSummary-label:hover {
+  background-color: #dcf9ec;
+}
+/* line 592, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--filter .a-IRR-reportSummary-icon {
+  background-color: #24cb7f;
+}
+
+/* line 586, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--controlBreak .a-IRR-reportSummary-label:hover {
+  background-color: #e6f0f7;
+}
+/* line 592, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--controlBreak .a-IRR-reportSummary-icon {
+  background-color: #3b83bd;
+}
+
+/* line 586, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--groupBy .a-IRR-reportSummary-label:hover {
+  background-color: #e6f0f7;
+}
+/* line 592, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--groupBy .a-IRR-reportSummary-icon {
+  background-color: #3b83bd;
+}
+
+/* line 586, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--highlight .a-IRR-reportSummary-label:hover {
+  background-color: #fff0cd;
+}
+/* line 592, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--highlight .a-IRR-reportSummary-icon {
+  background-color: #ffbe2a;
+}
+
+/* line 586, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--flashback .a-IRR-reportSummary-label:hover {
+  background-color: #d5d9dc;
+}
+/* line 592, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--flashback .a-IRR-reportSummary-icon {
+  background-color: #9ea7ad;
+}
+
+/* line 586, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--chart .a-IRR-reportSummary-label:hover {
+  background-color: #85b4d9;
+}
+/* line 592, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--chart .a-IRR-reportSummary-icon {
+  background-color: #3b83bd;
+}
+
+/* line 586, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--pivot .a-IRR-reportSummary-label:hover {
+  background-color: #d5d9dc;
+}
+/* line 592, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--pivot .a-IRR-reportSummary-icon {
+  background-color: #9ea7ad;
+}
+
+/* line 586, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--invalidSettings .a-IRR-reportSummary-label:hover {
+  background-color: #f4f5f6;
+}
+/* line 592, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--invalidSettings .a-IRR-reportSummary-icon {
+  background-color: #bdc3c7;
+}
+
+/* line 586, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--inactiveSettings .a-IRR-reportSummary-label:hover {
+  background-color: #f4f5f6;
+}
+/* line 592, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item--inactiveSettings .a-IRR-reportSummary-icon {
+  background-color: #bdc3c7;
+}
+
+/* line 598, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-label {
+  display: block;
+  padding: 0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 2px;
+  overflow: hidden;
+  color: #404040;
+  background-color: #fff;
+  transition: box-shadow .1s, background-color .1s;
+}
+/* line 607, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-label:hover {
+  text-decoration: none;
+  background-color: #F8F8F8;
+}
+/* line 612, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-label:focus, .a-IRR-reportSummary-label:focus .a-IRR-reportSummary-icon {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 1px #4696fc inset;
+  -moz-box-shadow: 0 0 0 1px #4696fc inset;
+  box-shadow: 0 0 0 1px #4696fc inset;
+}
+
+/* line 620, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-icon,
+.a-IRR-reportSummary-value,
+.a-IRR-reportSummary-count {
+  transition: background-color .1s;
+  display: inline-block;
+  padding: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  vertical-align: top;
+}
+
+/* line 628, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-icon {
+  color: #FFF;
+}
+
+/* line 633, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-value {
+  min-width: 32px;
+  text-align: center;
+  color: #404040;
+}
+
+/* line 638, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-count {
+  padding: 0;
+  margin-left: 4px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* Deletable Collapsed Filters
+   ========================================================================== */
+/* line 647, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item.has-delete {
+  position: relative;
+}
+/* line 649, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item.has-delete .a-IRR-reportSummary-label {
+  padding-right: 24px;
+}
+/* line 652, ../../scss/core/IRR.scss */
+.a-IRR-reportSummary-item.has-delete .a-IRR-button.a-IRR-button--remove {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  margin: 4px;
+}
+
+/* ==========================================================================
+   Report
+   ========================================================================== */
+/* line 666, ../../scss/core/IRR.scss */
+.a-IRR-table {
+  border-collapse: collapse;
+  table-layout: auto;
+  border-spacing: 0;
+}
+
+/* line 672, ../../scss/core/IRR.scss */
+.a-IRR-tableWrap {
+  width: 100%;
+  overflow: auto;
+}
+
+/* line 676, ../../scss/core/IRR.scss */
+.a-IRR-table {
+  width: 100%;
+}
+
+/**
+ * Column Header
+ */
+/* line 686, ../../scss/core/IRR.scss */
+.a-IRR-header {
+  background-color: #F0F0F0;
+  vertical-align: bottom;
+  padding: 0;
+  color: #404040;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  border-bottom: 1px solid #E0E0E0;
+}
+/* line 694, ../../scss/core/IRR.scss */
+.a-IRR-header:hover {
+  background-color: #FFF;
+}
+/* line 697, ../../scss/core/IRR.scss */
+.a-IRR-header.is-active {
+  background-color: #FFF;
+}
+
+/* line 703, ../../scss/core/IRR.scss */
+.a-IRR-header--link {
+  width: 1%;
+}
+
+/* line 707, ../../scss/core/IRR.scss */
+.a-IRR-header--group {
+  padding: 8px;
+  text-align: left;
+  background-color: #F8F8F8;
+  border-top: 1px solid #E8E8E8;
+}
+/* line 711, ../../scss/core/IRR.scss */
+.a-IRR-header--group:hover {
+  background-color: #F8F8F8;
+}
+
+/* line 717, ../../scss/core/IRR.scss */
+.a-IRR-header {
+  border-left: 1px solid #E0E0E0;
+}
+
+/**
+ * Pivot View Headers
+ */
+/* line 726, ../../scss/core/IRR.scss */
+.a-IRR-header--pivotRow,
+.a-IRR-header--pivotColumn {
+  background-color: #F8F8F8;
+  padding: 8px;
+}
+/* line 729, ../../scss/core/IRR.scss */
+.a-IRR-header--pivotRow:hover,
+.a-IRR-header--pivotColumn:hover {
+  background-color: #F8F8F8;
+}
+
+/* line 733, ../../scss/core/IRR.scss */
+.a-IRR-header--pivotRow {
+  border-right: 1px solid #E0E0E0;
+}
+
+/**
+ * Null Cell
+ */
+/* line 740, ../../scss/core/IRR.scss */
+.a-IRR-header.a-IRR-header--null {
+  border-top-width: 0;
+  background-color: #FFF !important;
+}
+/* line 743, ../../scss/core/IRR.scss */
+.a-IRR-header.a-IRR-header--null:hover {
+  background-color: #fff !important;
+}
+
+/**
+ * Aggregate Cell
+ */
+/* line 751, ../../scss/core/IRR.scss */
+.a-IRR-aggregate {
+  font-weight: bold;
+  background-color: #F4F4F4;
+}
+
+/**
+* Table Cell
+*/
+/* line 780, ../../scss/core/IRR.scss */
+.a-IRR-table td {
+  padding: 4px 8px;
+  color: #404040;
+  transition: background-color .1s;
+}
+
+/**
+* Row Highlighting
+*/
+/* line 793, ../../scss/core/IRR.scss */
+.a-IRR-table tr:hover td {
+  background-color: #F4F4F4;
+}
+
+/* line 797, ../../scss/core/IRR.scss */
+.a-IRR-table td {
+  border-left: 1px solid #F0F0F0;
+  border-top: 1px solid #F0F0F0;
+}
+
+/* line 801, ../../scss/core/IRR.scss */
+.a-IRR-table tr td:last-child {
+  border-right: 1px solid #F0F0F0;
+}
+
+/* line 808, ../../scss/core/IRR.scss */
+.a-IRR-table tr td:first-child,
+.a-IRR-table tr th:first-child {
+  border-left-width: 0;
+}
+
+/* line 812, ../../scss/core/IRR.scss */
+.a-IRR-table tr td:last-child,
+.a-IRR-table tr th:last-child {
+  border-right-width: 0;
+}
+
+/* ==========================================================================
+  Report Headers
+  ========================================================================== */
+/* line 820, ../../scss/core/IRR.scss */
+.a-IRR-headerLink,
+.a-IRR-headerLabel {
+  padding: 12px;
+  display: block;
+  text-align: inherit;
+}
+
+/* line 825, ../../scss/core/IRR.scss */
+.a-IRR-headerLink {
+  text-decoration: none;
+}
+/* line 827, ../../scss/core/IRR.scss */
+.a-IRR-headerLink:hover {
+  text-decoration: none;
+}
+/* line 830, ../../scss/core/IRR.scss */
+.a-IRR-headerLink:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #4696fc inset;
+}
+
+/* line 835, ../../scss/core/IRR.scss */
+.a-IRR-headerSort {
+  color: #909090;
+  margin-left: 4px;
+}
+
+/* ==========================================================================
+  .a-IRR-content
+  ========================================================================== */
+/* line 845, ../../scss/core/IRR.scss */
+.a-IRR-content {
+  clear: both;
+  position: relative;
+}
+
+/* ==========================================================================
+  .a-IRR-controlPanel
+  ========================================================================== */
+/* line 854, ../../scss/core/IRR.scss */
+.a-IRR-controlPanel {
+  padding: 8px 12px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+/* ==========================================================================
+   IRR Pagination
+   ========================================================================== */
+/* line 862, ../../scss/core/IRR.scss */
+.a-IRR-paginationWrap {
+  padding: 8px 12px;
+}
+
+/* line 865, ../../scss/core/IRR.scss */
+.a-IRR-paginationWrap--top {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+/* line 868, ../../scss/core/IRR.scss */
+.a-IRR-paginationWrap--bottom {
+  border-top: 1px solid #E0E0E0;
+}
+
+/* line 872, ../../scss/core/IRR.scss */
+.a-IRR-paginationWrap--textLeft .a-IRR-pagination {
+  text-align: left;
+}
+
+/* line 876, ../../scss/core/IRR.scss */
+.a-IRR-pagination {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+/* line 882, ../../scss/core/IRR.scss */
+.a-IRR-pagination-item {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 888, ../../scss/core/IRR.scss */
+.a-IRR-pagination-label {
+  display: block;
+  line-height: 20px;
+  font-size: 12px;
+  color: #707070;
+  padding: 0 8px;
+}
+
+/* ==========================================================================
+  No Data Found
+  ========================================================================== */
+/* line 900, ../../scss/core/IRR.scss */
+.a-IRR-noDataMsg {
+  margin: 12px;
+  text-align: center;
+  padding: 64px 0;
+}
+
+/* line 906, ../../scss/core/IRR.scss */
+.a-IRR-noDataMsg-icon .a-Icon {
+  height: 32px;
+  width: 32px;
+  color: #D0D0D0;
+  margin-bottom: 16px;
+}
+/* line 911, ../../scss/core/IRR.scss */
+.a-IRR-noDataMsg-icon .a-Icon:before {
+  font-size: 32px;
+}
+
+/* line 916, ../../scss/core/IRR.scss */
+.a-IRR-noDataMsg-text {
+  display: block;
+  font-size: 12px;
+  color: #707070;
+}
+
+/* line 921, ../../scss/core/IRR.scss */
+.a-IRR-message {
+  display: block;
+  padding: 12px 8px;
+  font-size: 12px;
+  color: #707070;
+}
+/* line 926, ../../scss/core/IRR.scss */
+.a-IRR-message:empty {
+  display: none;
+}
+
+/* ==========================================================================
+  .a-IRR-button
+  ========================================================================== */
+/* line 934, ../../scss/core/IRR.scss */
+.a-IRR-button {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+  background-color: #FAFAFA;
+}
+/* line 937, ../../scss/core/IRR.scss */
+.a-IRR-button:hover {
+  background-color: #FFF;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+/* line 942, ../../scss/core/IRR.scss */
+.a-IRR-button:active, .a-IRR-button:active:focus {
+  background-color: #E0E0E0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.1) inset;
+}
+/* line 947, ../../scss/core/IRR.scss */
+.a-IRR-button.is-active {
+  background-color: #E0E0E0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.1) inset;
+}
+/* line 951, ../../scss/core/IRR.scss */
+.a-IRR-button:focus {
+  box-shadow: 0 0 0 1px #4696fc inset, 0 0 0 1px #4696fc, 0 0 2px 2px rgba(70, 150, 252, 0.5);
+}
+
+/*
+  Pagination + control Buttons
+  ========================================================================== */
+/* line 959, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-button--pagination {
+  border-radius: 100%;
+  vertical-align: top;
+}
+/* line 962, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-button--pagination:hover {
+  background-color: #4696fc;
+  color: #FFF;
+}
+
+/* line 968, ../../scss/core/IRR.scss */
+.a-IRR-pagination-item:first-child .a-IRR-button.a-IRR-button--pagination {
+  padding: 2px 3px 2px 1px;
+}
+
+/* line 973, ../../scss/core/IRR.scss */
+.a-IRR-pagination-item:last-child .a-IRR-button.a-IRR-button--pagination {
+  padding: 2px 1px 2px 3px;
+}
+
+/*
+  Search Button
+  ========================================================================== */
+/* line 981, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-button--search {
+  font-weight: bold;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/*
+   Search Button
+   ========================================================================== */
+/* line 990, ../../scss/core/IRR.scss */
+.a-IRR-button.a-IRR-button--reportView {
+  padding-left: 8px;
+}
+
+/* ==========================================================================
+   Single Row View
+   ========================================================================== */
+/* line 1000, ../../scss/core/IRR.scss */
+.a-IRR-toolbar--singleRow {
+  display: table;
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+/* line 1007, ../../scss/core/IRR.scss */
+.a-IRR-toolbarNav,
+.a-IRR-singleRowNav {
+  display: table-cell;
+}
+
+/* line 1010, ../../scss/core/IRR.scss */
+.a-IRR-viewOptionsContainer {
+  display: inline-block;
+}
+
+/* line 1013, ../../scss/core/IRR.scss */
+.a-IRR-viewOption {
+  display: inline-block;
+  margin-left: 8px;
+}
+/* line 1016, ../../scss/core/IRR.scss */
+.a-IRR-viewOption input[type="checkbox"] {
+  display: inline-block;
+}
+/* line 1019, ../../scss/core/IRR.scss */
+.a-IRR-viewOption label {
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 4px;
+}
+/* line 1024, ../../scss/core/IRR.scss */
+.a-IRR-viewOption input:checked + label {
+  font-weight: bold;
+}
+
+/* line 1028, ../../scss/core/IRR.scss */
+.a-IRR-singleRowNav {
+  vertical-align: middle;
+  padding: 0 4px;
+  white-space: nowrap;
+}
+
+/*
+   Single Row Table
+   ========================================================================== */
+/* line 1039, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-group:first-child .a-IRR-singleRow-link {
+  border-top: none;
+}
+
+/* line 1044, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-title {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* line 1050, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-link {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  background-color: #F8F8F8;
+  border-bottom: 1px solid #E8E8E8;
+  border-top: 1px solid #E8E8E8;
+}
+/* line 1057, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-link .a-Icon {
+  color: #b0b0b0;
+}
+/* line 1060, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-link:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #4696fc inset;
+}
+/* line 1064, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-link:hover {
+  background-color: #F0F0F0;
+}
+
+/* line 1069, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-rows.is-collapsed {
+  display: none;
+}
+/* line 1072, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-rows.is-expanded {
+  display: block;
+}
+
+/* line 1076, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-row {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+/* line 1082, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-row:hover .a-IRR-singleRow-name,
+.a-IRR-singleRow-row:hover .a-IRR-singleRow-value {
+  background-color: #F8F8F8;
+}
+
+/* line 1089, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-group .a-IRR-singleRow-row:last-child .a-IRR-singleRow-name,
+.a-IRR-singleRow-group .a-IRR-singleRow-row:last-child .a-IRR-singleRow-value {
+  border-bottom: none;
+}
+
+/* line 1094, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-name,
+.a-IRR-singleRow-value {
+  display: table-cell;
+  padding: 12px;
+  border-bottom: 1px solid #F0F0F0;
+  color: #404040;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* line 1102, ../../scss/core/IRR.scss */
+.a-IRR-singleRow-name {
+  width: 25%;
+  border-right: 1px solid #F0F0F0;
+  font-weight: bold;
+  background-color: #FCFCFC;
+}
+
+/*
+   Filter Dialog
+   ========================================================================== */
+/* line 1116, ../../scss/core/IRR.scss */
+.a-IRR-dialogContent--filter {
+  min-height: 160px;
+  padding: 8px;
+}
+
+/* line 1120, ../../scss/core/IRR.scss */
+.a-IRR-dialogContent--highlight {
+  min-height: 300px;
+}
+
+/* line 1124, ../../scss/core/IRR.scss */
+.a-IRR-col-values-drop {
+  display: block;
+  min-width: 180px;
+  max-height: 80px;
+  overflow: auto;
+  position: absolute;
+  border: 1px solid #D0D0D0;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 2px;
+  background-color: #FFF;
+  z-index: 1000;
+}
+
+/* line 1137, ../../scss/core/IRR.scss */
+.a-IRR-col-value {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 8px;
+  text-decoration: none;
+}
+/* line 1146, ../../scss/core/IRR.scss */
+.a-IRR-col-value:hover {
+  background-color: #F0F0F0;
+  text-decoration: none;
+}
+/* line 1150, ../../scss/core/IRR.scss */
+.a-IRR-col-value:focus {
+  background-color: #F0F0F0;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px #4696fc inset;
+}
+
+/* line 1157, ../../scss/core/IRR.scss */
+.a-IRR-form-label {
+  color: #404040;
+  padding: 0;
+  line-height: 16px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/*
+   Dialog Table
+   ========================================================================== */
+/* line 1170, ../../scss/core/IRR.scss */
+.a-IRR-dialogTable {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 12px;
+}
+/* line 1176, ../../scss/core/IRR.scss */
+.a-IRR-dialogTable input[type=radio] {
+  margin: 0 4px 0 0;
+}
+/* line 1179, ../../scss/core/IRR.scss */
+.a-IRR-dialogTable .a-Button {
+  padding: 4px 8px;
+}
+
+/* line 1184, ../../scss/core/IRR.scss */
+.a-IRR-dialogTable-header {
+  font-weight: bold;
+}
+
+/* line 1188, ../../scss/core/IRR.scss */
+.a-IRR-dialogTable th {
+  font-weight: bold;
+  padding: 4px;
+}
+
+/* line 1193, ../../scss/core/IRR.scss */
+.a-IRR-dialogTable th,
+.a-IRR-dialogTable td {
+  text-align: left;
+  padding-right: 8px;
+  vertical-align: top;
+  line-height: 16px;
+}
+
+/*
+   IRR Groups
+   ========================================================================== */
+/* line 1208, ../../scss/core/IRR.scss */
+.a-IRR-controlGroup,
+.a-IRR-searchFieldContainer,
+.a-IRR-searchButtonContainer,
+.a-IRR-viewsContainer {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 1212, ../../scss/core/IRR.scss */
+.a-IRR-controlGroup {
+  margin-bottom: 8px;
+}
+
+/* line 1215, ../../scss/core/IRR.scss */
+.a-IRR-controlGroup:empty {
+  display: none;
+}
+
+/* line 1221, ../../scss/core/IRR.scss */
+.ie7 .a-IRR-container .a-IRR-controls {
+  float: left;
+}
+/* line 1223, ../../scss/core/IRR.scss */
+.ie7 .a-IRR-container .a-IRR-controls > div {
+  float: left;
+}
+/* line 1226, ../../scss/core/IRR.scss */
+.ie7 .a-IRR-container .a-IRR-controls .a-IRR-search > * {
+  float: left;
+}
+/* line 1229, ../../scss/core/IRR.scss */
+.ie7 .a-IRR-container .a-IRR-controls .a-IRR-controlGroup--options > * {
+  float: left;
+}
+/* line 1233, ../../scss/core/IRR.scss */
+.ie7 .a-IRR-container .a-IRR-buttons {
+  float: right;
+}
+/* line 1238, ../../scss/core/IRR.scss */
+.ie7 .a-Menu {
+  max-width: 250px;
+}
+/* line 1241, ../../scss/core/IRR.scss */
+.ie7 .a-Menu button.a-Menu-label {
+  text-align: left;
+}

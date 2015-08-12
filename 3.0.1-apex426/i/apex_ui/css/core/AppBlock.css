@@ -1,0 +1,173 @@
+/* ==========================================================================
+   Theme Configuration File
+   ========================================================================== */
+/**
+ * Base Colors
+ * 
+ * Description:
+ * Provides a base for the UI.
+ * 
+ * Usage:
+ * General UI Background, Region Headers, Buttons
+ */
+/**
+ * Highlight Colors
+ * 
+ * Description:
+ * Used for providing emphasis or importance to UI components.
+ * 
+ * Usage:
+ * Region Headers, Primary / Hot Buttons
+ */
+/**
+ * Accent and Status Colors
+ * 
+ * Description:
+ * Used for indicating state-based UI components, status, or accents.
+ * 
+ * Usage:
+ * Warnings, Errors, Danger Text, Success, Focus
+ */
+/**
+ * Application Based Colors
+ * 
+ * Description:
+ * Used for applications within APEX development
+ */
+/* ==========================================================================
+   App Block
+   ========================================================================== */
+/* line 26, ../../scss/core/AppBlock.scss */
+.a-AppBlock {
+  position: relative;
+  border-radius: 2px;
+  transition: background-color .1s, box-shadow .1s;
+  background-color: transparent;
+  box-shadow: none;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+/* line 35, ../../scss/core/AppBlock.scss */
+.a-AppBlock:hover {
+  background-color: #F8F8F8;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+}
+/* line 38, ../../scss/core/AppBlock.scss */
+.a-AppBlock:hover .a-Icon {
+  color: #D0D0D0;
+}
+
+/* line 43, ../../scss/core/AppBlock.scss */
+.a-AppBlock .a-Icon {
+  color: transparent;
+  transition: color .1s;
+  margin: 8px 0;
+}
+
+/* line 48, ../../scss/core/AppBlock.scss */
+.a-AppBlock-link {
+  overflow: hidden;
+  display: block;
+  padding: 8px;
+  margin-right: 40px;
+  position: relative;
+}
+/* line 54, ../../scss/core/AppBlock.scss */
+.a-AppBlock-link:hover {
+  text-decoration: none;
+}
+/* line 57, ../../scss/core/AppBlock.scss */
+.a-AppBlock-link:focus {
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px #399BEA inset;
+  outline: none;
+}
+/* line 63, ../../scss/core/AppBlock.scss */
+.a-AppBlock-link:focus .a-AppBlock-icon:before {
+  opacity: 1;
+}
+
+/* line 69, ../../scss/core/AppBlock.scss */
+.a-AppBlock-link:focus + .a-AppBlock-actions .a-AppBlock-button .a-Icon {
+  color: #D0D0D0;
+}
+
+/* line 73, ../../scss/core/AppBlock.scss */
+.a-AppBlock-icon {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset, 0 2px 1px rgba(0, 0, 0, 0.025);
+}
+/* line 80, ../../scss/core/AppBlock.scss */
+.a-AppBlock-icon:before {
+  transition: opacity .2s;
+  content: "\e046";
+  font-family: "apex-5-icon-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  margin: 16px;
+  line-height: 64px;
+  padding: 8px;
+  border-radius: 100%;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+  opacity: 0;
+}
+
+/* line 103, ../../scss/core/AppBlock.scss */
+.a-AppBlock-actions {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 108, ../../scss/core/AppBlock.scss */
+.a-AppBlock-button {
+  display: block;
+  border: none;
+  height: 40px;
+}
+/* line 118, ../../scss/core/AppBlock.scss */
+.a-AppBlock-button:hover .a-Icon {
+  color: #404040;
+}
+/* line 122, ../../scss/core/AppBlock.scss */
+.a-AppBlock-button:focus {
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px #399BEA inset;
+  outline: none;
+}
+/* line 126, ../../scss/core/AppBlock.scss */
+.a-AppBlock-button:focus .a-Icon {
+  color: #404040;
+}
+
+/* line 132, ../../scss/core/AppBlock.scss */
+.a-AppBlock-name {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #404040;
+  max-height: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 142, ../../scss/core/AppBlock.scss */
+.a-AppBlock-id {
+  display: block;
+  font-size: 11px;
+  line-height: 12px;
+  color: #777;
+  margin-top: 4px;
+}

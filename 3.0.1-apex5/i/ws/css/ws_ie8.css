@@ -1,0 +1,99 @@
+/* Set up Variable Colors */
+/* Z-Index */
+/* line 38, ../scss/ws_ie8.scss */
+div.ebaFrameHeader {
+  z-index: 30;
+  position: relative;
+  filter: none;
+  background: url(../img/eba_gradients_ie.png) 0 0 repeat-x #cccccc; }
+
+/* line 44, ../scss/ws_ie8.scss */
+div.ebaContentContainer {
+  z-index: 20; }
+
+/* line 47, ../scss/ws_ie8.scss */
+ul.wsMenu > li > a {
+  color: #404040; }
+
+/* line 50, ../scss/ws_ie8.scss */
+ul.wsMenu > li > a > img {
+  vertical-align: middle; }
+
+/* line 53, ../scss/ws_ie8.scss */
+ul.wsMenu > li > ul {
+  background: #FFF;
+  color: #404040;
+  border-bottom: 1px solid #AAA; }
+
+/* line 58, ../scss/ws_ie8.scss */
+ul.wsMenu > li > ul li a:hover {
+  background: #C0C0C0;
+  color: #000;
+  text-shadow: none; }
+
+/* line 63, ../scss/ws_ie8.scss */
+ul.wsMenu > li > ul li a:hover span {
+  color: #000; }
+
+/* line 68, ../scss/ws_ie8.scss */
+ul.wsMenu > li > a:active, ul.wsMenu > li > a.wsMenuActive, ul.wsMenu > li > a.wsMenuActive:active {
+  filter: none; }
+
+/* line 71, ../scss/ws_ie8.scss */
+ul.wsMenu > li > ul li a {
+  height: 24px; }
+
+/* line 74, ../scss/ws_ie8.scss */
+ul.wsMenu > li > ul li a span {
+  height: 24px; }
+
+/* line 77, ../scss/ws_ie8.scss */
+ul.wsMenu > li > ul li.wsMenuSeparator {
+  margin: 3px 0 3px 0;
+  font: normal 2px/10px Arial, sans-serif;
+  border-top: 1px solid #404040;
+  padding: 0 0 0 0; }
+
+/* line 83, ../scss/ws_ie8.scss */
+div.wsSearch input {
+  border: 1px solid #7f7f7f; }
+
+/* line 87, ../scss/ws_ie8.scss */
+div.wsBreadcrumb > ul > li > a {
+  border-right: 1px solid #dfdfdf; }
+
+/* line 90, ../scss/ws_ie8.scss */
+div.wsBreadcrumb > ul {
+  border-bottom: 1px solid #AAA;
+  background: url(../img/eba_gradients_ie.png) 0 -10px repeat-x #dddddd; }
+
+/* line 96, ../scss/ws_ie8.scss */
+div.wsBreadcrumb > ul > li > a:hover, div.wsBreadcrumb > ul > li.active > a {
+  color: #333;
+  background-color: #FFF;
+  border-right: 1px solid #aaaaaa;
+  border-left: 1px solid #aaaaaa; }
+
+/* line 103, ../scss/ws_ie8.scss */
+div.wsBreadcrumb > ul > li.lastChild a.noChildren, div.wsBreadcrumb > ul > li.lastChild a.noChildren:hover {
+  background: none !important;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  padding: 0 9px 0 9px;
+  color: #333; }
+
+/* line 111, ../scss/ws_ie8.scss */
+div.wsBreadcrumb > ul > li.lastChild > a, div.wsBreadcrumb > ul > li.lastChild > a:hover {
+  color: #333; }
+
+/* line 114, ../scss/ws_ie8.scss */
+div.wsSideSection h2 span a {
+  border-left: 1px solid #BBB; }
+
+/* line 117, ../scss/ws_ie8.scss */
+div.wsSideSection h3 {
+  background: url(../img/eba_gradients_ie.png) 0 -10px repeat-x #cccccc; }
+
+/* line 121, ../scss/ws_ie8.scss */
+ul.sectionList li a.active, ul.sectionList li a.active:hover {
+  background: url(../img/eba_gradients_ie.png) 0 0 repeat-x #cccccc !important; }

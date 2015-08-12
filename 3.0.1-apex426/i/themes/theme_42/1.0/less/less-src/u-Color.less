@@ -1,0 +1,91 @@
+@import "../scss_replaced/modules/_variables";
+// ios-inspired 7 colors
+.u-colors(@index) when (@index > 0) {
+  .u-colors(@index - 1);
+  @selector: ~".u-ColorBG--@{index}";
+  @{selector} {
+    background-color: extract(@_colors, @index);
+  };
+  @selectorz: ~".u-ColorFG--@{index}";
+  @{selectorz} {
+     color: extract(@_colors, @index);
+  };
+}
+
+.li-colors (@index) when (@index > 0) {
+  .badgelistItem((@index - 1));
+  &:nth-child(@{index})  {
+    background-color: extract(@_colors, @index);
+  }
+}
+
+
+.u-colors(length(@_colors));
+
+/*@g_Accent-1-BG : blue;
+@g_Accent-2-BG : red;
+@g_Accent-3-BG : green;
+@g_Accent-4-BG : yellow;
+@g_Accent-5-BG : gray;
+
+@g_Accent-1-FG : blue;
+@g_Accent-2-FG : red;
+@g_Accent-3-FG : green;
+@g_Accent-4-FG : yellow;
+@g_Accent-5-FG : gray;
+*/
+.a_GlobalColorRules(30, 10);
+
+.a_GlobalColorRules(@counter, @varNumber) when (@counter > @varNumber) {
+  .a_GlobalColorRules(@counter - 1, @varNumber);
+
+  // Must keep in sync with UT's LESS!
+  @accentNumber : mod(@counter - 1, @varNumber) + 1;
+  @varName : 		%("g_Color-Palette-%s", @accentNumber);
+  @varName2 :		%("g_Color-Palette-%s-FG", @accentNumber);
+  @darkenPct : 	(floor((@counter - 1) / @varNumber / 2) + 1) * 10%;
+
+  // 1 or -1
+  @darkenFactor : 2 * ( sin( 1rad * floor((@counter - 1) / @varNumber) * pi() / 2 ) - 0.5 );
+
+  .u-Color-@{counter}-BG {
+    &--txt 			{ color : darken(@@varName, @darkenPct * @darkenFactor); }
+    &--bg 			{ background-color : darken(@@varName, @darkenPct * @darkenFactor); }
+    &--fill 		{ fill : darken(@@varName, @darkenPct * @darkenFactor); }
+    &--br 			{ stroke : darken(@@varName, @darkenPct * @darkenFactor); border-color : darken(@@varName, @darkenPct * @darkenFactor); }
+  }
+  .u-Color-@{counter}-FG {
+    &--txt 			{ color : lighten(@@varName2, @darkenPct); }
+    &--bg 			{ background-color : lighten(@@varName2, @darkenPct); }
+    &--fill 		{ fill : lighten(@@varName2, @darkenPct); }
+    &--br 			{ stroke : lighten(@@varName2, @darkenPct); border-color : lighten(@@varName2, @darkenPct); }
+  }
+}
+
+.a_GlobalColorRules(@counter, @varNumber) when (@counter <= @varNumber) and (@counter > 0) {
+  .a_GlobalColorRules(@counter - 1, @varNumber);
+
+  // Must keep in sync with UT's LESS!
+  @accentNumber : mod(@counter - 1, @varNumber) + 1;
+  @varName : 		%("g_Color-Palette-%s", @accentNumber);
+  @varName2 :		%("g_Color-Palette-%s-FG", @accentNumber);
+
+  .u-Color-@{counter}-BG {
+    &--txt 			{ color : @@varName; }
+    &--bg 			{ background-color : @@varName; }
+    &--fill 		{ fill : @@varName; }
+    &--br 			{ stroke : @@varName; border-color : @@varName; }
+  }
+  .u-Color-@{counter}-FG {
+    &--txt 			{ color : @@varName2; }
+    &--bg 			{ background-color : @@varName2; }
+    &--fill 		{ fill : @@varName2; }
+    &--br 			{ stroke : @@varName2; border-color : @@varName2; }
+  }
+}
+.u-focused {
+  box-shadow:
+  0 0 0 1px @g_Color-Palette-1,
+  0 0 1px 0px fadeout(@g_Color-Palette-1, 50%) !important;
+  outline: none;
+}

@@ -1,0 +1,164 @@
+#LAUNCHPAD {
+	width: 602px;
+	}
+#LAUNCHPAD .rc-content-main {
+	padding: 0;
+	}
+
+div.tsWB {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background: -webkit-gradient(linear,0 0,0 100%, from(#F8F8F8), to(#DDD));
+	background: -moz-linear-gradient(top, #F8F8F8, #DDD);
+	border: 1px solid #999;
+	width: 100%;
+	display: table;
+	margin-bottom: 10px;
+	}
+	div.tsWB .tsWBL,
+	div.tsWB .tsWBR {
+		display: table-cell;
+		padding: 10px;
+		vertical-align: middle;
+		height: 40px;
+		}
+		div.tsWB .tsWBL {
+			background: url(apacloud.png) 10px 50% no-repeat;
+			padding-left: 76px;
+			}
+		div.tsWB .tsWBR {
+			text-align: right;
+			}
+			div.tsWB .tsWBR a,
+			div.tsWB .tsWBR span {
+				font: normal 11px/16px Arial, sans-serif;
+				display: inline-block;
+				text-decoration: none;
+				color: #444;
+				padding: 2px 6px;
+				-webkit-border-radius: 8px;
+				-moz-border-radius: 8px;
+				border-radius: 8px;
+				text-shadow: 0 1px 0 rgba(255,255,255,.5);
+				}
+				div.tsWB .tsWBR a.tsWBSettings {
+					padding: 2px 4px 2px 18px;
+					background: url(settings.png) 2px 50% no-repeat;
+					}
+				div.tsWB .tsWBR span.tsWBUser {
+					padding: 2px 8px 2px 18px;
+					background: url(user.png) 2px 50% no-repeat;
+					}
+				div.tsWB .tsWBR a.tsWBLogout {
+					
+					}
+				div.tsWB .tsWBR a:hover {
+					background-color: rgba(0,0,0,.11);
+					}
+	div.tsWB div.tsWBL span {
+		display: block;
+		font: normal 11px/11px Arial, sans-serif;
+		color: #666;
+		padding-top: 2px;
+		}
+	div.tsWB h1 {
+		margin: 0;
+		padding: 0;
+		font: bold 20px/20px Arial, sans-serif;
+		text-shadow: 0 1px 0 #FFF;
+		color: #222;
+		color: rgba(0,0,0,.75);
+		}
+		div.tsWB h1 span {
+			font: normal 20px/24px Arial, sans-serif;
+			color: #888;
+			}
+		
+
+
+
+div.tsLaunchPad {
+	margin: 10px 9px;
+	}
+ul.tsAppsList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+	ul.tsAppsList li {
+		float: left;
+		display: block;
+		margin: 0;
+		}
+	ul.tsAppsList li a.tsAppIcon {
+		display: block;
+		text-decoration: none;
+		width: 116px;
+		height: 130px;
+		outline: none;
+		border-radius: 10px;
+		padding: 10px;
+		-webkit-transition: background-color .25s linear;
+		}
+		ul.tsAppsList li a.tsAppIcon:hover {
+			background-color: rgba(0,0,0,0.1);
+			}
+		ul.tsAppsList li a.tsAppIcon span.tsIBLarger {
+			display: block;
+			margin: 0 auto;
+			padding: 0;
+			width: 96px;
+			height: 96px;
+			-webkit-border-radius: 16px;
+			-moz-border-radius: 16px;
+			border-radius: 16px;
+			background: #DDD;
+			background: -webkit-gradient(linear,0 0,0 100%, from(#FFF), to(#DDD));
+			background: -moz-linear-gradient(top, #FFF, #DDD);
+			-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.4);
+			-moz-box-shadow: 0 2px 4px rgba(0,0,0,.4);
+			}
+		ul.tsAppsList li a.tsAppIcon span.tsIBLarger img {
+			width: 96px;
+			height: 96px;
+			background-image: url(eba_launchpad.png);
+			background-repeat: no-repeat;
+			border: none;
+			-webkit-border-radius: 13px;
+			-moz-border-radius: 13px;
+			border-radius: 15px;
+/*			-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.25) inset;*/
+			-moz-box-shadow: 0 0 0 1px rgba(0,0,0,.25) inset;
+			}
+			ul.tsAppsList li a.tsAppIcon span.tsIBLarger img.approvals_tracking {
+				background-position: 0 0;
+			 }
+			ul.tsAppsList li a.tsAppIcon span.tsIBLarger img.bug_tracker {
+				background-position: -96px 0;
+			 }
+			ul.tsAppsList li a.tsAppIcon span.tsIBLarger img.checklist_manager {
+				background-position: -192px 0;
+			 }
+			ul.tsAppsList li a.tsAppIcon span.tsIBLarger img.customer_tracking {
+				background-position: -288px 0;
+			 }
+			ul.tsAppsList li a.tsAppIcon span.tsIBLarger img.project_tracking {
+				background-position: -384px 0;
+			 }
+			ul.tsAppsList li a.tsAppIcon span.tsIBLarger img.reference_tracking {
+				background-position: -480px 0;
+			 }
+			ul.tsAppsList li a.tsAppIcon span.tsIBLarger img.sales_forecasting {
+				background-position: -576px 0;
+			 }
+		
+		ul.tsAppsList li a.tsAppIcon span.tsTitle {
+			display: block;
+			text-align: center;
+			font: bold 12px/14px Arial, sans-serif;
+			color: #222;
+			text-decoration: none;
+			padding-top: 5px;
+			text-shadow: 0 2px 1px rgba(0,0,0,.10);
+			}

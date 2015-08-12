@@ -1,0 +1,439 @@
+<map_data>
+ <name>africa</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-25.3605575561523" top="37.5394439697266" right="63.4977722167969" bottom="-40.4038925170898"/>
+ <regions>
+  <region>
+   <centroid lat="33.8869171142578" lon="9.53749895095825"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tunisia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-4.03833436965942" lon="21.7586641311646"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zaire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.30768966674805" lon="2.31583309173584"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Benin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.3284740447998" lon="24.6848659515381"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Botswana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.2383327484131" lon="-1.5615930557251"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Burkina Faso]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-3.37305593490601" lon="29.9188861846924"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[BY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Burundi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.36972200870514" lon="12.3547220230103"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cameroon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="16.0020818710327" lon="-24.0131969451904"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cape Verde]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.61132407188416" lon="20.9394435882568"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central African Republic]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.4541654586792" lon="18.7322063446045"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chad]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.8750009536743" lon="43.8722190856934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Comoros]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.653194665908813" lon="14.8921346664429"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[CF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Congo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.14499926567078" lon="40.489673614502"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ET]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ethiopia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.8205528259277" lon="30.8024978637695"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Egypt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.14194440841675" lon="8.48458242416382"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[EK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Equatorial Guinea]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.1793842315674" lon="39.7823333740234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ER]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eritrea]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.825138092041" lon="42.590274810791"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[DJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Djibouti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.803689479827881" lon="11.6094431877136"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gabon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.4974012374878" lon="-14.4523620605469"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Senegal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.53998899459839" lon="-5.54708123207092"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[IV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ivory Coast]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.5623617172241" lon="47.2906913757324"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Glorioso Islands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.46055507659912" lon="-11.7798891067505"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sierra Leone]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.8037490844727" lon="-15.1804132461548"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guinea-Bissau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.94652700424194" lon="-1.02319467067719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ghana]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-17.0636138916016" lon="42.7424964904785"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[JU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Juan De Nova Island]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-0.0235590934753418" lon="37.906192779541"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kenya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-29.6099872589111" lon="28.2336082458496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lesotho]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.42805528640747" lon="-9.42949867248535"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Liberia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.3351001739502" lon="17.2283315658569"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[LY]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Libya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-12.8275003433228" lon="45.1662445068359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mayotte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.2543077468872" lon="34.3015251159668"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malawi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.5706920623779" lon="-3.99616670608521"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ML]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mali]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.0078897476196" lon="-10.9408345222473"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mauritania]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.4186124801636" lon="60.0029106140137"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mauritius]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.7669467926025" lon="46.8691062927246"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madagascar]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.777774810791" lon="-10.5426406860352"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Spain]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-18.6656951904297" lon="35.52956199646"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mozambique]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-28.4791965484619" lon="23.6493797302246"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Africa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.6077890396118" lon="8.0816663056612"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Niger]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.08199882507324" lon="8.6752769947052"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nigeria]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="32.8737449645996" lon="-16.7708358764648"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Portugal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-21.115140914917" lon="55.5363845825195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Reunion]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.2026915550232" lon="17.8738870620728"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Angola]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="0.860138840973377" lon="6.96430540084839"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sao Tome and Principe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.4431819915771" lon="-15.3101396560669"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gambia, The]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.01750087738037" lon="51.2451362609863"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Seychelles]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="9.93571329116821" lon="-11.363823890686"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Guinea]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="5.15214896202087" lon="46.1996154785156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Somalia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-26.5225028991699" lon="31.4658660888672"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Swaziland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="31.7917022705078" lon="-7.09261953830719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morocco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-24.1434741020203" lon="-10.030695438385"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[St. Helena]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.8628070354462" lon="30.2176361083984"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sudan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-22.9576396942139" lon="18.4904098510742"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Namibia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.36902874708176" lon="34.888822555542"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tanzania, United Republic of]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.61954307556152" lon="0.824782326817513"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[TO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Togo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="28.0338859558105" lon="1.65962600708008"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Algeria]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="1.37333351373672" lon="32.2902755737305"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[UG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uganda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.2155265808105" lon="-12.8858337402344"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[WI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Sahara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-1.9402779340744" lon="29.8738880157471"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[RW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rwanda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.1338968276978" lon="27.8493328094482"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zambia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-19.015438079834" lon="29.154857635498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ZI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zimbabwe]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

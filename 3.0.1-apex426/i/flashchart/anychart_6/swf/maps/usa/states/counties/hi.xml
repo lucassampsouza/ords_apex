@@ -1,0 +1,40 @@
+<map_data>
+ <name>hi</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-160.245178222656" top="22.2324924468994" right="-154.793869018555" bottom="18.9247817993164"/>
+ <regions>
+  <region>
+   <centroid lat="22.0157251358032" lon="-159.771499633789"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[15007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kauai]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.4778203964233" lon="-157.973129272461"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[15003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Honolulu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="20.903787612915" lon="-156.6484375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[15009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maui]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.5991697311401" lon="-155.42008972168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[15001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hawaii]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

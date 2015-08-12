@@ -1,0 +1,145 @@
+<map_data>
+ <name>uruguay</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-58.4386138916016" top="-30.0966682434082" right="-53.0975036621094" bottom="-34.9488906860352"/>
+ <regions>
+  <region>
+   <centroid lat="-30.588231086731" lon="-56.9332008361816"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-ART]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Artigas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-34.5497131347656" lon="-55.9073638916016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-CNL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Canelones]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.3495006561279" lon="-54.2147254943848"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-CLA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cerro Largo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-34.1359786987305" lon="-57.6778335571289"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-COL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Colonia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.9873657226563" lon="-56.0832176208496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-DRZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Durazno]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-33.5588531494141" lon="-56.8852806091309"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-FLR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Flores]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-33.7756462097168" lon="-55.8116683959961"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-FLD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Florida]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-33.9781951904297" lon="-54.875301361084"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-LVL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lavalleja]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-34.437427520752" lon="-54.9665908813477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-MLD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maldonado]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-34.8200035095215" lon="-56.230224609375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-MNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Montevideo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.0433368682861" lon="-57.2337532043457"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-PYS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Paysandu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.8918075561523" lon="-57.4894828796387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-RNE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rio Negro]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-31.4831981658936" lon="-55.3229522705078"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-RIV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rivera]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-33.9738483428955" lon="-53.9567337036133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-ROC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rocha]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-31.3118076324463" lon="-57.0452976226807"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-SAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salto]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-34.3206367492676" lon="-56.7629699707031"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-SJO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[San Jose]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-33.4921722412109" lon="-57.7582130432129"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-SOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Soriano]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-32.0510196685791" lon="-55.6626052856445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-TCR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tacuarembo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-33.0822677612305" lon="-54.1606769561768"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[URY-TYT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Treinta y Tres]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

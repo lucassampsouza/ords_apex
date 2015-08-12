@@ -1,0 +1,138 @@
+<map_data>
+ <name>angola</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="11.6647205352783" top="-4.388991355896" right="24.0844421386719" bottom="-18.0163917541504"/>
+ <regions>
+  <region>
+   <centroid lat="-12.8116006851196" lon="13.809103012085"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-BNG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Benguela]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-12.4418315887451" lon="17.4969429969788"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-BIE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bie]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-5.07877349853516" lon="12.5549993515015"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-CBN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cabinda]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.7944459915161" lon="19.9747123718262"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-CCB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cuando Cubango]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-8.85836124420166" lon="14.940972328186"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-CNO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cuanza Norte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-10.9534730911255" lon="15.0459089279175"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-CSU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cuanza Sul]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-16.2876396179199" lon="15.2769432067871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-CUN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cunene]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-12.605278968811" lon="15.6876468658447"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-HUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Huambo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-14.8520860671997" lon="14.9764623641968"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-HUI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Huila]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.5211124420166" lon="16.974365234375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-MLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Malanje]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.3920841217041" lon="12.6724987030029"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-NAM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Namibe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-13.3791465759277" lon="21.0093040466309"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-MOX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Moxico]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-7.13208389282227" lon="15.4463195800781"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-UIG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Uige]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-6.81392002105713" lon="13.6135129928589"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-ZAI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zaire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-8.6705527305603" lon="19.6179580688477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-LNO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lunda Norte]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.90632152557373" lon="20.3924541473389"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-LSU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lunda Sul]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-9.02972269058228" lon="13.9122953414917"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-BEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bengo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-8.95956516265869" lon="13.3140268325806"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[AGO-LUA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Luanda]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

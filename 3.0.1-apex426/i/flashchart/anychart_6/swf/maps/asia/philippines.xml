@@ -1,0 +1,125 @@
+<map_data>
+ <name>philippines</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="116.949996948242" top="20.8333320617676" right="126.598037719727" bottom="4.64138793945313"/>
+ <regions>
+  <region>
+   <centroid lat="13.0304145812988" lon="123.362071990967"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-BCL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bicol]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bicol]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.3324956893921" lon="121.066799163818"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-CAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cordillera Administrative Region]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cordillera Administrative Region]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="15.2795810699463" lon="120.631702423096"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-CLZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central Luzon]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central Luzon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.24527597427368" lon="124.458599090576"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-CMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central Mindanao]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central Mindanao]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.6812610626221" lon="122.705955505371"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-WVS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Visayas]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Visayas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.1672210693359" lon="123.598991394043"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-CVS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central Visayas]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central Visayas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.1136074066162" lon="120.368057250977"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-ILC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ilocos]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ilocos]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.7380418777466" lon="119.883018493652"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-STG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southern Tagalog]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southern Tagalog]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="8.93597078323364" lon="124.920272827148"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-NMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern Mindanao]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern Mindanao]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="7.42404651641846" lon="125.423595428467"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-SMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southern Mindanao]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southern Mindanao]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="14.5774793624878" lon="121.020790100098"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-NCR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[National Capital Region]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[National Capital Region]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="6.68624877929688" lon="121.577342987061"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-WMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Mindanao]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Mindanao]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.2433309555054" lon="125.040550231934"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-EVS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eastern Visayas]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Eastern Visayas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="18.4479675292969" lon="121.64306640625"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[PHL-CGV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cagayan Valley]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cagayan Valley]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

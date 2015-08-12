@@ -1,0 +1,124 @@
+<map_data>
+ <name>nicaragua</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-87.6930694580078" top="15.0222206115723" right="-82.7213897705078" bottom="10.708610534668"/>
+ <regions>
+  <region>
+   <centroid lat="12.3774719238281" lon="-85.4626388549805"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-BOA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Boaco]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.7340269088745" lon="-86.2885437011719"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-CAR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Carazo]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.8782691955566" lon="-87.1680679321289"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-CHN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chinandega]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.883828163147" lon="-85.2322044372559"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-CHT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Chontales]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.1738882064819" lon="-86.4170989990234"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-EST]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Esteli]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.9613962173462" lon="-85.9384307861328"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-GRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Granada]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7828674316406" lon="-85.5338821411133"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-JNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jinotega]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.5415272712708" lon="-86.6978302001953"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-LEO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.4167041778564" lon="-86.3944549560547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-MDR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Madriz]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.0042772293091" lon="-86.1205673217773"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-MAS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Masaya]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.2009029388428" lon="-86.2792358398438"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-MAN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Managua]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.9451379776001" lon="-85.701789855957"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-MTG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Matagalpa]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7593040466309" lon="-86.2502975463867"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-NSE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nueva Segovia]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.2884712219238" lon="-84.4089889526367"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-RSJ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rio San Juan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.4715285301208" lon="-85.6698455810547"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-RIV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rivas]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.9826374053955" lon="-84.1182022094727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[NIC-ZEL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Zelaya]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

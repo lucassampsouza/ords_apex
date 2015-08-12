@@ -1,0 +1,118 @@
+/* line 126, ../../scss/modules/_common.scss */
+.iconTiny, .iconMini, .iconSmall, .iconMedium, .iconLarge {
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+/******************************************************************************
+
+File Name:    aPD-Sprites.scss
+Purpose:      Contains all sprites and images used for Page Designer
+
+Outline:
+  1. Extendible Sprite Class
+  2. Sprite Mixin
+
+******************************************************************************/
+/******************************************************************************
+Import Relevant SCSS Config
+******************************************************************************/
+/* line 126, ../../scss/modules/_common.scss */
+.iconTiny, .iconMini, .iconSmall, .iconMedium, .iconLarge {
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+/******************************************************************************
+Generic Sprite Sizes
+******************************************************************************/
+/* line 26, ../../scss/core/Sprites.scss */
+.iconTiny {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 31, ../../scss/core/Sprites.scss */
+.iconMini {
+  width: 20px;
+  height: 20px;
+}
+
+/* line 36, ../../scss/core/Sprites.scss */
+.iconSmall {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 41, ../../scss/core/Sprites.scss */
+.iconMedium {
+  width: 32px;
+  height: 32px;
+}
+
+/* line 46, ../../scss/core/Sprites.scss */
+.iconLarge {
+  width: 48px;
+  height: 48px;
+}
+
+/******************************************************************************
+16x16 Sprites
+******************************************************************************/
+/* line 111, ../../scss/core/Sprites.scss */
+.a-Icon.menuDropdown {
+  background-position: -0px -36px ;
+}
+
+/* line 121, ../../scss/core/Sprites.scss */
+.gi-Icon {
+  width: 128px;
+  height: 128px;
+  background-size: 128px;
+}
+
+/* line 126, ../../scss/core/Sprites.scss */
+.gi-Icon--medium {
+  width: 96px;
+  height: 96px;
+  background-size: 96px;
+}
+
+/* line 131, ../../scss/core/Sprites.scss */
+.gi-Icon--small {
+  width: 64px;
+  height: 64px;
+  background-size: 64px;
+}
+
+/* line 137, ../../scss/core/Sprites.scss */
+.a-WizardIcon {
+  display: inline-block;
+  width: 96px;
+  height: 96px;
+  background-size: 96px;
+}
+
+/* line 143, ../../scss/core/Sprites.scss */
+.a-Form--smIcons .a-WizardIcon {
+  width: 64px;
+  height: 48px;
+  background-size: 64px;
+}
+
+/* line 148, ../../scss/core/Sprites.scss */
+.a-WizardIconLarge {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  background-size: 128px;
+}
+
+/* line 157, ../../scss/core/Sprites.scss */
+.a-WizardIconMedium {
+  display: inline-block;
+  width: 128px;
+  height: 96px;
+  margin: 0 36px;
+  background-size: 128px;
+}

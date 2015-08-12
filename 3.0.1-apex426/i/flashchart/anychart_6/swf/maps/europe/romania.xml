@@ -1,0 +1,299 @@
+<map_data>
+ <name>romania</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="20.2610244750977" top="48.2571640014648" right="29.6719436645508" bottom="43.6224365234375"/>
+ <regions>
+  <region>
+   <centroid lat="46.080135345459" lon="23.4952754974365"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-ALB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Alba]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.303050994873" lon="21.7593040466309"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-ARA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arad]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.0368003845215" lon="24.8940258026123"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-ARG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Arges]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.4294281005859" lon="26.7470779418945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-BAC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bacau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9957275390625" lon="22.1822204589844"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-BIH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bihor]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.1822204589844" lon="24.5122184753418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-BNA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bistrita-Nasaud]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.8754081726074" lon="26.7319507598877"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-BTS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Botosani]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1327476501465" lon="27.592357635498"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-BRA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Braila]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.8166618347168" lon="25.3993034362793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-BRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Brasov]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.5451316833496" lon="26.1754131317139"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-BUC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bucuresti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.3051300048828" lon="26.7363834381104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-BUZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Buzau]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1418037414551" lon="22.0735454559326"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-CSV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Caras-Severin]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9084701538086" lon="23.5066661834717"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-CLU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cluj]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.043384552002" lon="28.829439163208"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-TUL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tulcea]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.9472122192383" lon="25.9231910705566"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-CVS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Covasna]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.9965171813965" lon="25.5434684753418"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-DMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dimbovita]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.226203918457" lon="23.5474262237549"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-DOL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dolj]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.7667045593262" lon="27.7156524658203"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-GAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Galati]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.9993019104004" lon="23.2880535125732"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-GOR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gorj]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6608276367188" lon="25.5731906890869"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-HRG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Harghita]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.8201370239258" lon="23.0401382446289"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-HND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hunedoara]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.6046867370605" lon="27.1832408905029"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-ILM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ialomita]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.2158451080322" lon="27.3381900787354"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-IAS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Iasi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.6686058044434" lon="24.0258293151855"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-MRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Maramures]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.6268424987793" lon="22.7549362182617"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-MHD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mehedinti]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.6452751159668" lon="24.6681900024414"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-MUR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mures]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.9827766418457" lon="26.4390258789063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-NEA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Neamt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.3184700012207" lon="24.4123592376709"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-OLT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Olt]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.1427917480469" lon="26.0520820617676"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-PRH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prahova]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.171802520752" lon="23.2449989318848"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-SAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salaj]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.7195777893066" lon="22.9243621826172"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-SMA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Satu Mare]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.9138870239258" lon="24.3340263366699"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-SIB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sibiu]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="47.5434646606445" lon="25.8463878631592"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-SUC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suceava]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.0916290283203" lon="25.1558322906494"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-TLR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Teleorman]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.6842765808105" lon="21.4239826202393"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-TIM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Timis]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.270133972168" lon="28.1339931488037"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-CNS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Constanta]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="46.4951286315918" lon="27.7098579406738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-VAS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vaslui]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.0808296203613" lon="24.1224994659424"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-VIL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vilcea]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="45.8002700805664" lon="26.9701347351074"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-VRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Vrancea]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.3078689575195" lon="27.1463222503662"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-CLR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Calarasi]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="44.1461868286133" lon="25.9694442749023"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[ROM-GIU]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Giurgiu]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

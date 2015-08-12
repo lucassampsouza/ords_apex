@@ -1,0 +1,110 @@
+<map_data>
+ <name>saudi_arabia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="34.4922180175781" top="32.1549415588379" right="55.6661071777344" bottom="15.616943359375"/>
+ <regions>
+  <region>
+   <centroid lat="20.0641651153564" lon="41.4172172546387"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-ABA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Bahah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.5477752685547" lon="39.879020690918"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-AJA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Jawf]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="26.7639455795288" lon="37.3330459594727"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-TAB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tabuk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="22.9278964996338" lon="50.3011054992676"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-ASH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ash Sharqiyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="25.9708271026611" lon="43.1281852722168"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-AQA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Qasim]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.9881362915039" lon="36.8172378540039"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-AQR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Qurayyat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="23.3930816650391" lon="45.1418037414551"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-ARI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ar Riyad]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="19.2228488922119" lon="42.952220916748"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-ASI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA['Asir]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="27.0963840484619" lon="41.8993263244629"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-HAI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ha'il]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="21.0466499328613" lon="41.1710243225098"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-MKK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Makkah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="29.8037185668945" lon="41.9913501739502"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-AHA]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Hudud ash Shamaliyah]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.5740375518799" lon="45.6900024414063"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-NJR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Najran]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="17.3527774810791" lon="42.4705543518066"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-JIZ]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Jizan]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="24.9440269470215" lon="39.4355506896973"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[SAU-AMD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Al Madinah]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

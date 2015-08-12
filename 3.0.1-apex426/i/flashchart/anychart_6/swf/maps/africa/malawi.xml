@@ -1,0 +1,33 @@
+<map_data>
+ <name>malawi</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="32.6788864135742" top="-9.37333488464355" right="35.9241638183594" bottom="-17.1352806091309"/>
+ <regions>
+  <region>
+   <centroid lat="-13.7590284347534" lon="33.8368034362793"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MWI-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-11.0447235107422" lon="33.9530830383301"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MWI-NRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northern]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="-15.3207969665527" lon="35.0876350402832"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[MWI-STH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Southern]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

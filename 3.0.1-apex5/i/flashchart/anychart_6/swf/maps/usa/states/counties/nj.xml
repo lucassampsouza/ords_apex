@@ -1,0 +1,159 @@
+<map_data>
+ <name>nj</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-75.5705871582031" top="41.3504791259766" right="-73.8965682983398" bottom="38.9565696716309"/>
+ <regions>
+  <region>
+   <centroid lat="41.1255664825439" lon="-74.6808242797852"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34037]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Sussex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.0037250518799" lon="-74.3084182739258"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34031]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Passaic]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.9423809051514" lon="-74.084285736084"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bergen]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.8331241607666" lon="-74.9892654418945"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34041]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Warren]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.8574352264404" lon="-74.5770454406738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34027]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Morris]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7881240844727" lon="-74.2457542419434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Essex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.7350025177002" lon="-74.0705413818359"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34017]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hudson]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.5568389892578" lon="-74.955436706543"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34019]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hunterdon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.5582027435303" lon="-74.6002464294434"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34035]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Somerset]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.6556129455566" lon="-74.3055686950684"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34039]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Union]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.4230575561523" lon="-74.4282379150391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34023]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Middlesex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.2618675231934" lon="-74.2984237670898"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34025]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Monmouth]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="40.2742824554443" lon="-74.7081298828125"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34021]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mercer]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.8559398651123" lon="-74.7257957458496"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Burlington]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.8435745239258" lon="-74.2970123291016"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34029]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Ocean]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.7929706573486" lon="-74.9454536437988"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Camden]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.6954174041748" lon="-75.1570625305176"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gloucester]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5764942169189" lon="-75.3170471191406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34033]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salem]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.5034503936768" lon="-74.6949768066406"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Atlantic]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.367431640625" lon="-75.1384735107422"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cumberland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="39.1382789611816" lon="-74.7957153320313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[34009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cape May]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

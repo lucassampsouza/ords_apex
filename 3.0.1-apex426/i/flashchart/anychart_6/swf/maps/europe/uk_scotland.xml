@@ -1,0 +1,96 @@
+<map_data>
+ <name>uk_scotland</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-8.61861228942871" top="60.8444404602051" right="-0.73888897895813" bottom="54.6272201538086"/>
+ <regions>
+  <region>
+   <centroid lat="60.1762447357178" lon="-1.41847252845764"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-SHT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Shetland Islands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="59.0629138946533" lon="-2.89875054359436"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-ORK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Orkney]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.2326354980469" lon="-2.77944457530975"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-GRM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Grampian]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.646800994873" lon="-7.38416719436646"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-WIS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Western Isles]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="57.5933284759521" lon="-4.8991664648056"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-HGH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Highland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.2180500030518" lon="-4.17338299751282"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-CNT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Central]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.8866653442383" lon="-3.09161591529846"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-LTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lothian]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.5564842224121" lon="-3.57138895988464"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-TYS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tayside]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.8406887054443" lon="-5.19263911247253"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-STT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Strathclyde]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="56.2312488555908" lon="-3.16012358665466"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-FYF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fyfe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.530345916748" lon="-2.77819454669952"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-BRD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Borders]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="55.0448551177979" lon="-4.01812505722046"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-SCT-DAG]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dumfries and Gal]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

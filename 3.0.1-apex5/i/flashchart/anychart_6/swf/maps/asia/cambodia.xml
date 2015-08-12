@@ -1,0 +1,145 @@
+<map_data>
+ <name>cambodia</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="102.345542907715" top="14.7086181640625" right="107.636383056641" bottom="10.4227390289307"/>
+ <regions>
+  <region>
+   <centroid lat="13.3064365386963" lon="103.109676361084"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-BTD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Batdambang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.0582141876221" lon="105.653408050537"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-KCH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kampong Cham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.167914390564" lon="104.54455947876"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-KCN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kampong Chhnang]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.5719423294067" lon="104.29052734375"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-KSP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kampong Spoe]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.8301372528076" lon="104.967926025391"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-KTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kampong Thum]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.7917594909668" lon="104.115673065186"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-KMP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kampot]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.556526184082" lon="104.913856506348"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-PPE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Phnum Penh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.3863434791565" lon="103.573162078857"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-PTH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Pouthisat]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.6666650772095" lon="106.19068145752"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-KRC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kracheh]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="12.7344427108765" lon="106.976837158203"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-MKI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Mondol Kiri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.4129104614258" lon="104.959548950195"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-KND]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kandal]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.3904142379761" lon="103.521606445313"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-KKO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kaoh Kong]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.7740259170532" lon="105.146377563477"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-PVI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Preah Vihear]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.364164352417" lon="105.464694976807"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-PVE]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Prey Veng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.9359750747681" lon="107.108882904053"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-RTN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Rotanokiri]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.5839228630066" lon="103.863712310791"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-SOM]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Siemreab-Otdar Meanchey]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="13.849730014801" lon="106.180541992188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-STR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Stoeng Treng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="11.1822834014893" lon="105.897338867188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-SRI]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Svay Rieng]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="10.9389181137085" lon="104.807193756104"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[KHM-TAK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Takev]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

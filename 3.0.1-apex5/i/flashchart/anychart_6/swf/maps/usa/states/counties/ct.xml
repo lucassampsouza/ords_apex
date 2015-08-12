@@ -1,0 +1,68 @@
+<map_data>
+ <name>ct</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-73.7256622314453" top="42.0473365783691" right="-71.7887344360352" bottom="40.9982948303223"/>
+ <regions>
+  <region>
+   <centroid lat="41.7625217437744" lon="-73.2019958496094"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[09005]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Litchfield]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.7927875518799" lon="-72.7202224731445"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[09003]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hartford]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8108043670654" lon="-72.3072929382324"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[09013]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tolland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.8290939331055" lon="-72.0230369567871"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[09015]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Windham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.495885848999" lon="-72.1285743713379"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[09011]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New London]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.3321418762207" lon="-73.4011726379395"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[09001]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Fairfield]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4543533325195" lon="-72.5300483703613"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[09007]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Middlesex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="41.4019985198975" lon="-72.931827545166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[09009]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[New Haven]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>

@@ -1,0 +1,145 @@
+/* ==========================================================================
+   Comments
+
+<li class="t-Comments-item">
+    <div class="t-Comments-icon a-MediaBlock-graphic">
+        <div class="t-Comments-userIcon">SR</div>
+    </div>
+    <div class="t-Comments-body a-MediaBlock-content">
+        <div class="t-Comments-info">
+            <a href="#">Username</a> &middot; <span clas="t-Comments-date">3 days ago</span>
+        </div>
+        <div class="t-Comments-comment">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis repellendus, quibusdam magni fugiat! Temporibus fuga fugit officia, excepturi iure assumenda architecto impedit sed enim reprehenderit minima nulla harum! Dolorum, animi!
+        </div>
+    </div>
+</li>
+
+   ========================================================================== */
+.t-Comments {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased; }
+
+.t-Comments-item {
+  margin-bottom: 16px; }
+  .t-Comments .t-Comments-item:last-child {
+    margin-bottom: 0; }
+
+.t-Comments-icon {
+  margin-right: 12px; }
+
+.t-Comments-userIcon, .t-Comments-userImg {
+  display: block;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  display: block; }
+
+.t-Comments-userIcon {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: uppercase;
+  border: 1px solid;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400; }
+
+.t-Comments-info {
+  font-size: 12px;
+  line-height: 16px; }
+
+.t-Comments-user {
+  margin-right: 8px; }
+
+.t-Comments-actions {
+  float: right; }
+
+.t-Comments-comment {
+  font-size: 14px;
+  line-height: 20px; }
+
+.t-Comments-text--prevValue {
+  text-decoration: line-through; }
+
+.t-Comments-text--newValue {
+  font-weight: bold; }
+
+/* Chat Message Style
+   ========================================================================== */
+.t-Comments--chat .t-Comments-item {
+  margin-bottom: 8px; }
+.t-Comments--chat .t-Comments-info {
+  position: relative;
+  background-color: #FFF;
+  border: 1px solid #F0F0F0;
+  border-bottom-width: 0;
+  padding: 8px 12px 0 12px;
+  border-radius: 2px 2px 0 0; }
+  .t-Comments--chat .t-Comments-info:after, .t-Comments--chat .t-Comments-info:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none; }
+  .t-Comments--chat .t-Comments-info:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #FFFFFF;
+    border-width: 7px;
+    margin-top: -5px; }
+  .t-Comments--chat .t-Comments-info:before {
+    border-width: 8px;
+    margin-top: -6px; }
+.t-Comments--chat .t-Comments-comment {
+  border: 1px solid #F0F0F0;
+  border-top-width: 0;
+  border-radius: 0 0 2px 2px;
+  padding: 8px 12px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.035); }
+.t-Comments--chat .t-Comments-icon {
+  margin-right: 0; }
+.t-Comments--chat .t-Comments-body {
+  padding-left: 12px;
+  padding-bottom: 4px; }
+.t-Comments--chat .t-Comments-item.is-systemMessage .t-Comments-body {
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  padding-left: 12px; }
+
+.t-Comments-item.is-systemMessage {
+  padding: 4px 0; }
+  .t-Comments-item.is-systemMessage .t-Comments-info:after, .t-Comments-item.is-systemMessage .t-Comments-info:before {
+    display: none; }
+  .t-Comments-item.is-systemMessage .t-Comments-info, .t-Comments-item.is-systemMessage .t-Comments-comment {
+    background-color: transparent;
+    border-width: 0;
+    box-shadow: none;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    line-height: 16px; }
+  .t-Comments-item.is-systemMessage .t-Comments-userIcon {
+    display: none; }
+  .t-Comments-item.is-systemMessage .t-Comments-body {
+    margin-left: 44px;
+    padding-bottom: 0;
+    line-height: 16px; }
+  .t-Comments-item.is-systemMessage .t-Comments-info {
+    padding: 0 8px 0 0; }
+  .t-Comments-item.is-systemMessage .t-Comments-comment {
+    padding: 0; }
+
+/* No User Icon
+   ========================================================================== */
+.t-Comments--noUserIcon .t-Comments-icon, .t-Comments-item--noUserIcon .t-Comments-icon {
+  display: none; }
+.t-Comments--noUserIcon .t-Comments-body, .t-Comments-item--noUserIcon .t-Comments-body {
+  padding-left: 0; }
+.t-Comments--noUserIcon .t-Comments-info:before, .t-Comments--noUserIcon .t-Comments-info:after, .t-Comments-item--noUserIcon .t-Comments-info:before, .t-Comments-item--noUserIcon .t-Comments-info:after {
+  display: none; }

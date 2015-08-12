@@ -1,0 +1,334 @@
+<map_data>
+ <name>uk_england</name>
+ <defaultProjection>orthographic</defaultProjection>
+ <description><![CDATA[]]></description>
+ <columns>
+  <column name="REGION_ID" key="true"/>
+  <column name="REGION_NAME" key="true"/>
+ </columns>
+ <bounds left="-6.33166694641113" top="55.8061103820801" right="1.77111101150513" bottom="49.9116592407227"/>
+ <regions>
+  <region>
+   <centroid lat="55.2923603057861" lon="-2.06851094961166"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-NRH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northumberland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.9346103668213" lon="-1.59805601835251"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-TAW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Tyne and Wear]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.6731948852539" lon="-1.8016664981842"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-DRH]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Durham]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.593189239502" lon="-1.10694450139999"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-CLV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cleveland]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.0883293151855" lon="-1.37595898658037"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-NYR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[North Yorkshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.798469543457" lon="-0.477777510881424"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-HMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Humberside]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.7393989562988" lon="-1.68541651964188"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-WYR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West Yorkshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.4933986663818" lon="-2.87931406497955"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-MRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Merseyside]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.5089683532715" lon="-2.3246054649353"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-GMN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greater Manchest]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.4748592376709" lon="-1.33569449186325"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-SYR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[South Yorkshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.1222896575928" lon="-0.226666480302811"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-LNL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lincolnshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.1083297729492" lon="-1.58944445848465"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-DRB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Derbyshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.1298942565918" lon="-0.983194530010223"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-NTT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Nottinghamshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.20485496521" lon="-2.53772854804993"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-CHS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cheshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.8177700042725" lon="-2.01513904333115"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-STF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Staffordshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.6466045379639" lon="-2.72055554389954"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-SAL]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Salop]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.6680507659912" lon="0.953029975295067"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-NRF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Norfolkshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.6697750091553" lon="-0.99916698038578"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-LCS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Leicestershire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.3638801574707" lon="0.0132599920034409"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-CMB]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cambridgeshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.3159656524658" lon="-1.5548614859581"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-WRW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Warwickshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.5012493133545" lon="-1.81611150503159"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-WMD]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West Midlands]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.3064556121826" lon="-0.82837401330471"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-NRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Northamptonshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.2352752685547" lon="1.06041650474072"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-SFF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Suffolk]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.1297492980957" lon="-2.44375056028366"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-HAW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hereford and Wor]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="52.0552444458008" lon="-0.40930599719286"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-BDF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Bedfordshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.8341655731201" lon="-0.806551486253738"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-BCK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Buckinghamshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.8048210144043" lon="-1.28874999284744"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-OXF]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Oxfordshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.8415260314941" lon="-2.15041697025299"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-GLC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Gloucestershire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.8303546905518" lon="-0.265416510403156"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-HRT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hertfordshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.7641639709473" lon="0.64124997658655"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-ESX]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Essex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.324161529541" lon="-1.91888850927353"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-WLT]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Wiltshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.4858245849609" lon="-0.0805389881134033"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-GLN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Greater London]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.4724788665771" lon="-2.61736142635345"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-AVO]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Avon]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.4465198516846" lon="-1.04862299561501"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-BRK]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Berkshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.2743511199951" lon="-0.388055488467216"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-SRR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Surrey]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.2002735137939" lon="0.746851997449994"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-KEN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Kent]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0750255584717" lon="-3.03166651725769"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-SMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Somersetshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.7248592376709" lon="-3.7783340215683"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-DEV]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Devonshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.9433250427246" lon="-0.457916492596269"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-WSS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[West Sussex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.9413890838623" lon="0.321111001074314"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-ESS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[East Sussex]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.8033294677734" lon="-2.31076401472092"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-DRS]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Dorsetshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.4069404602051" lon="-5.27083396911621"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-CRN]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cornwall]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="51.0432243347168" lon="-1.3376390337944"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-HMP]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Hampshire]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="50.6750011444092" lon="-1.3148609995842"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-IOW]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Isle of Wight]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="54.6199703216553" lon="-2.89222252368927"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-CMR]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Cumbria]]></value></item>
+   </data>
+  </region>
+  <region>
+   <centroid lat="53.8647155761719" lon="-2.54611647129059"/>
+   <data>
+    <item column="REGION_ID"><value><![CDATA[GBR-ENG-LNC]]></value></item>
+    <item column="REGION_NAME"><value><![CDATA[Lancashire]]></value></item>
+   </data>
+  </region>
+ </regions>
+</map_data>
