@@ -15,6 +15,7 @@ COPY ords.war $TOMCAT_HOME/webapps/
 RUN java -jar $TOMCAT_HOME/webapps/ords.war configdir $APEX_CONFIG_DIR
 
 COPY ./config_ords_and_run_catalina.sh /
+RUN chmod +x config_ords_and_run_catalina.sh
 
 ENTRYPOINT ["/config_ords_and_run_catalina.sh"]
 
