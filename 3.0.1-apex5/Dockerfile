@@ -11,8 +11,8 @@ ENV CONFIGURE_ORDS="true"
 
 ADD i.tar.bz2 $TOMCAT_HOME/webapps
 COPY ords.war $TOMCAT_HOME/webapps/
-RUN chown -R root:root $TOMCAT_HOME/webapps/i/*
-RUN chmod 755 $TOMCAT_HOME/webapps/i/
+RUN chmod 755 $TOMCAT_HOME/webapps/i
+RUN chown -R root:root $TOMCAT_HOME/webapps/i
 
 RUN java -jar $TOMCAT_HOME/webapps/ords.war configdir $APEX_CONFIG_DIR
 
