@@ -1,7 +1,9 @@
 # Oracle REST Data Service and APEX Images Folder in Tomcat 8.0 #
 
 For this installation make sure that ORDS have may be installed on database.  
-More details on [Oracle ORDS documentation](http://docs.oracle.com/cd/E56351_01/doc.30/e56293/install.htm#CHDDIFEC)
+More details on [Oracle ORDS documentation](http://docs.oracle.com/cd/E56351_01/doc.30/e56293/install.htm#CHDDIFEC "Oracle ORDS Documentation")
+  
+If use the **3.0.1** tag the shared volume for images is **/usr/local/tomcat/webapps/i**
   
 ## ENV Variables for automate DEPLOY ##
 > DATABASE_HOSTNAME = Hostname of database  
@@ -22,9 +24,10 @@ More details on [Oracle ORDS documentation](http://docs.oracle.com/cd/E56351_01/
 > 3.0.1-apex426 - APEX 4.2.6 Images Folder  
 > 3.0.1-apex5   - APEX 5.0 Images Folder  
 > 3.0.1-apex501 - APEX 5.0.1 Images Folder  
+> 3.0.1         - Using your own image file (--volume options)
   
   
-## Exemplos de chamada ##
+## Example ##
 	docker run -t -i \  
 		-e DATABASE_HOSTNAME="192.168.0.1" \  
 		-e DATABASE_PORT="1521" \  
@@ -33,4 +36,16 @@ More details on [Oracle ORDS documentation](http://docs.oracle.com/cd/E56351_01/
 		-e APEX_LISTENER_PASS=password123 \  
 		-e APEX_REST_PASS=password123 \  
 		-e ORDS_PASS=password123 \  
-		-p 8181:8080 lucassampsouza/ords_apex:3.0.1-apex5 
+		-p 8181:8080 lucassampsouza/ords_apex:3.0.1-apex5  
+  
+## Example using your own image files ##
+	docker run -t -i \  
+		-e DATABASE_HOSTNAME="192.168.0.1" \  
+		-e DATABASE_PORT="1521" \  
+		-e DATABASE_SERVICENAME="ORCL" \  
+		-e DATABASE_PUBLIC_USER_PASS=password123 \  
+		-e APEX_LISTENER_PASS=password123 \  
+		-e APEX_REST_PASS=password123 \  
+		-e ORDS_PASS=password123 \  
+		--volume /opt/apex/images:/usr/local/tomcat/webapps/i \  
+		-p 8181:8080 lucassampsouza/ords_apex:3.0.1
