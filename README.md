@@ -1,7 +1,7 @@
 # Oracle REST Data Service and APEX Images Folder in Tomcat 8.0 #
 
 For this installation make sure that ORDS have may be installed on database.  
-More details on [Oracle ORDS documentation](http://docs.oracle.com/cd/E56351_01/doc.30/e56293/install.htm#CHDDIFEC "Oracle ORDS Documentation")
+More details on [Oracle ORDS documentation](https://docs.oracle.com/cd/E56351_01/doc.30/e56293/install.htm#CHDDIFEC "Oracle ORDS Documentation")
   
 If use the **3.0.1** tag the shared volume for images is **/usr/local/tomcat/webapps/i**
   
@@ -21,10 +21,10 @@ If use the **3.0.1** tag the shared volume for images is **/usr/local/tomcat/web
 > CONFIGURE_ORDS = Enable ORDS - true(default) or false  
   
 ## TAGs ##
-> 3.0.1-apex426 - APEX 4.2.6 Images Folder  
-> 3.0.1-apex5   - APEX 5.0 Images Folder  
-> 3.0.1-apex501 - APEX 5.0.1 Images Folder  
-> 3.0.1         - Using your own image file (--volume options)
+> **3.0.1-apex426** - APEX 4.2.6 Images Folder  
+> **3.0.1-apex5**   - APEX 5.0 Images Folder  
+> **3.0.1-apex501** - APEX 5.0.1 Images Folder  
+> **3.0.1**         - Using your own image file (--volume options)
   
   
 ## Example ##
