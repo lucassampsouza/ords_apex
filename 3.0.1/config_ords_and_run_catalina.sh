@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-file="/opt/defaults.xml"
-if [ -f "$file" ]
+file="/opt/ords"
+if [ -d "$file" ]
 then
 	echo "$file found."
 else
