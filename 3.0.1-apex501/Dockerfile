@@ -20,6 +20,7 @@ COPY ./config_ords_and_run_catalina.sh /
 RUN chmod +x /config_ords_and_run_catalina.sh
 
 ENTRYPOINT ["/config_ords_and_run_catalina.sh"]
+VOLUME ["/opt"]
 
 EXPOSE 8080
 
