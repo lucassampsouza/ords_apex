@@ -20,6 +20,10 @@ If use the **3.0.1** tag the shared volume for images is **/usr/local/tomcat/web
 > CONFIGURE_APEX_REST = Enable APEX RestFull Service - true(default) or false  
 > CONFIGURE_ORDS = Enable ORDS - true(default) or false  
   
+## VOLLUMES ##
+>  **/opt** - This volume contains de **ORDS** folder with the config files (default.xml)
+>  **/usr/local/tomcat/webapps/i** - This volume contain de images file (just use on *3.0.1* TAG)
+
 ## TAGs ##
 > **3.0.1-apex426** - APEX 4.2.6 Images Folder  
 > **3.0.1-apex5**   - APEX 5.0 Images Folder  
