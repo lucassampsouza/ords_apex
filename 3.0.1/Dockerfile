@@ -18,7 +18,7 @@ COPY ./config_ords_and_run_catalina.sh /
 RUN chmod +x /config_ords_and_run_catalina.sh
 
 ENTRYPOINT ["/config_ords_and_run_catalina.sh"]
-VOLUME ["/usr/local/tomcat/webapps/i"]
+VOLUME ["/usr/local/tomcat/webapps/i", "/opt"]
 
 EXPOSE 8080
 
