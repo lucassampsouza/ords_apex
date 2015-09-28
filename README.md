@@ -21,7 +21,7 @@ If use the **3.0.1** tag the shared volume for images is **/usr/local/tomcat/web
 > CONFIGURE_ORDS = Enable ORDS - true(default) or false  
   
 ## VOLUMES ##
->  **/opt** - This volume contains de *ORDS* folder with the config files (default.xml)
+>  **/opt** - This volume contains de *ORDS* folder with the config files (default.xml)  
 >  **/usr/local/tomcat/webapps/i** - This volume contain images files (just use on *3.0.1* TAG)
 
 ## TAGs ##
