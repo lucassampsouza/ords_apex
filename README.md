@@ -1,5 +1,7 @@
 # Oracle REST Data Service and APEX Images Folder in Tomcat 8.0 #
 
+[![Join the chat at https://gitter.im/lucassampsouza/ords_apex](https://badges.gitter.im/lucassampsouza/ords_apex.svg)](https://gitter.im/lucassampsouza/ords_apex?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 For this installation make sure that ORDS have may be installed on database.  
 More details on [Oracle ORDS documentation](https://docs.oracle.com/cd/E56351_01/doc.30/e56293/install.htm#CHDDIFEC "Oracle ORDS Documentation")
   
