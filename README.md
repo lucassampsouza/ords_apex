@@ -29,6 +29,10 @@ If use the **3.0.1** tag the shared volume for images is **/usr/local/tomcat/web
 > **3.0.1-apex5**   - APEX 5.0 Images Folder  
 > **3.0.1-apex501** - APEX 5.0.1 Images Folder  
 > **3.0.1**         - Using your own image file (--volume options)
+> **3.0.5-apex501** - APEX 5.0.1 Images Folder  
+> **3.0.5-apex503** - APEX 5.0.3 Images Folder  
+> **3.0.6-apex503** - APEX 5.0.3 Images Folder  
+> **3.0.6-apex504** - APEX 5.0.4 Images Folder  
   
   
 ## Example ##
